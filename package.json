@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm --prefix game run dev",
+    "preview": "python3 tools/serve_game.py",
     "build": "npm --prefix game run build",
     "typecheck": "npm --prefix game run typecheck",
     "validate": "python3 tools/validate_content.py",

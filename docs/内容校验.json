@@ -1,0 +1,20 @@
+{
+  "cards": 36,
+  "entries": 12,
+  "chapters": 3,
+  "ending_sections": 6,
+  "main_text_characters_without_whitespace": 16342,
+  "intro_characters": 801,
+  "ending_characters": 2481,
+  "mandatory_text_characters_without_whitespace": 19624,
+  "chapter_characters": {
+    "1": 5384,
+    "2": 5437,
+    "3": 5521
+  },
+  "referenced_media": 14,
+  "registered_assets": 24,
+  "quotes": "15/15 条原文选读与本地中文 PDF 提取文本逐字匹配（忽略排版空白）",
+  "errors": [],
+  "timing_note": "字符体量与机关操作只提供时长估算；自动测试不证明真人首次游玩超过 40 分钟。"
+}
