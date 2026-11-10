@@ -47,6 +47,12 @@
     "newGame": "New beginning",
     "continue": "Continue"
   },
+  "cover": {
+    "restartTitle": "Begin again?",
+    "restartBody": "A new beginning will replace your current save. You can also keep your progress and return to the story.",
+    "keepProgress": "Keep my progress",
+    "restartAction": "Begin again"
+  },
   "menu": {
     "guide": "How to play",
     "backTitle": "Title screen",

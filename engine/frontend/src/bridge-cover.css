@@ -1,49 +1,308 @@
-/* Only the San Luis Rey title screen. In-game components keep upstream styles. */
-.slr-cover{--cover-paper:#f5f0e4;--cover-ink:#293f38;--cover-brass:#9a7747;background:var(--cover-paper);color:var(--cover-ink);min-height:100dvh;isolation:isolate}
-.slr-cover .cover-bg{inset:24px 24px 24px 45%;width:calc(55% - 24px);height:calc(100% - 48px);object-fit:cover;opacity:1!important;border-radius:3px;animation:none}
-.slr-cover .cover-fx{inset:24px 24px 24px 45%;overflow:hidden;border-radius:3px}
-.slr-cover canvas{opacity:.18;pointer-events:none}
-.slr-cover .cover-scrim{background:linear-gradient(90deg,#f5f0e4 0%,#f5f0e4 43%,#f5f0e4bb 46%,transparent 61%);pointer-events:none}
-.slr-cover .cover-plate{left:clamp(28px,5vw,96px);right:auto;top:50%;bottom:auto;transform:translateY(-50%);width:34%;text-shadow:none}
-.slr-cover .cover-rule{width:38px;height:2px;background:var(--cover-brass);margin-bottom:34px}
-.slr-cover .cover-plate h1{font-size:clamp(32px,4.1vw,72px);line-height:1.45;letter-spacing:.035em;text-indent:0;font-weight:400;color:var(--cover-ink);text-shadow:none;text-wrap:balance;word-break:normal;overflow-wrap:break-word}
-.slr-cover .cover-sub{color:#62675d;line-height:1.85;font-size:16px;letter-spacing:.04em;display:block;text-shadow:none;text-indent:0}
-.slr-cover .cover-credit{display:block;margin:15px 0 0;font-size:11px;line-height:1.8;color:#7c786c;letter-spacing:.03em}
-.slr-cover .cover-tagline{font-weight:400;font-size:18px;line-height:1.9;color:#536252;margin-top:30px;letter-spacing:.02em;text-shadow:none;text-wrap:pretty}
-.slr-cover .cover-btns{display:grid;grid-template-columns:1fr;gap:12px;margin-top:35px;max-width:300px}
-.slr-cover .cover-btn{border:1px solid #b8ad97;border-radius:4px;padding:17px 23px;background:#f8f4eb;color:var(--cover-ink);font-size:15px;letter-spacing:.08em;text-align:left;box-shadow:none;min-height:54px;transition:background .18s,box-shadow .18s,transform .18s}
-.slr-cover .cover-btn:after{content:'↗';float:right;font-size:18px;opacity:.7}
-.slr-cover .cover-btn.is-primary{background:#294e43;color:#fffaf0;border-color:#294e43}
-.slr-cover .cover-btn:hover{background:#e9e2d1;box-shadow:0 4px 14px #293f3812;transform:translateY(-1px)}
-.slr-cover .cover-btn.is-primary:hover{background:#203f36}
-.slr-cover .cover-menu,.slr-cover .cover-lang{border:1px solid #cbc0ab;background:#faf6ecd9;backdrop-filter:blur(12px);border-radius:999px;color:#354b40;min-height:42px;padding:10px 17px;font-size:12px;letter-spacing:.04em;text-shadow:none;gap:8px}
-.slr-cover .cover-menu{top:38px;right:38px}
-.slr-cover .cover-lang{left:clamp(28px,5vw,96px);bottom:28px}
-.slr-cover .overlay,.slr-cover-overlay{background:#182e2580;backdrop-filter:blur(10px)}
-.slr-cover .modal,.slr-cover-overlay .modal{background:#fbf7ee;border:1px solid #cec1a7;border-radius:12px;color:#293f38;box-shadow:0 20px 90px #1b302b40;max-height:88dvh;overflow:auto}
-.slr-cover .game-menu-head,.slr-cover-overlay .game-menu-head{border-color:#ded3c0;padding:23px 26px;background:transparent}
-.slr-cover .game-menu-title,.slr-cover-overlay .game-menu-title{color:#293f38;font-family:'Noto Serif SC',serif;font-weight:400;font-size:23px}
-.slr-cover .game-menu-langs,.slr-cover-overlay .game-menu-langs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.slr-cover .cover-lang-pills{padding:24px}
-.slr-cover .modal.cover-lang-modal{width:min(440px,calc(100vw - 32px))}
-.slr-cover .game-menu-lang-btn,.slr-cover-overlay .game-menu-lang-btn{min-height:44px;border:1px solid #d5c8b2;border-radius:6px;background:#f7f1e4;color:#425248;padding:10px 8px;font-size:13px;white-space:nowrap}
-.slr-cover .game-menu-lang-btn.is-on,.slr-cover-overlay .game-menu-lang-btn.is-on{background:#294e43;border-color:#294e43;color:#fff8e8}
-.slr-cover .game-menu-close,.slr-cover-overlay .game-menu-close{color:#526455;border-radius:50%;width:36px;height:36px}
-.slr-cover-overlay .game-menu-section{border-color:#ded3c0}
-.slr-cover button:focus-visible,.slr-cover-overlay button:focus-visible{outline:3px solid #aa8050;outline-offset:4px}
-@media(max-width:767px), (orientation:portrait) and (max-width:959px){
- html[data-layout="phone"] .slr-cover{display:flex;flex-direction:column;justify-content:flex-start;padding:16px;overflow:auto;height:100dvh}
- html[data-layout="phone"] .slr-cover .cover-bg{position:relative;inset:auto;width:100%;height:31dvh;min-height:220px;flex-shrink:0;object-position:center}
- html[data-layout="phone"] .slr-cover .cover-fx,.slr-cover .cover-scrim{display:none}
- html[data-layout="phone"] .slr-cover .cover-plate{position:relative;inset:auto;transform:none;width:auto;padding:27px 17px 20px}
- html[data-layout="phone"] .slr-cover .cover-rule{margin-bottom:21px;width:28px}
- html[data-layout="phone"] .slr-cover .cover-plate h1{font-size:clamp(27px,8.5vw,40px);line-height:1.55;letter-spacing:.03em;margin-bottom:14px}
- html[data-layout="phone"] .slr-cover .cover-sub{font-size:14px;line-height:1.7}.slr-cover .cover-credit{font-size:10px;margin-top:8px}
- html[data-layout="phone"] .slr-cover .cover-tagline{font-size:15px;margin-top:20px;line-height:1.8}
- html[data-layout="phone"] .slr-cover .cover-btns{max-width:none;margin-top:23px;gap:10px}.slr-cover .cover-btn{min-height:50px;padding:14px 19px;font-size:14px}
- html[data-layout="phone"] .slr-cover .cover-menu{position:absolute;top:29px;right:29px;min-height:38px}
- html[data-layout="phone"] .slr-cover .cover-lang{position:relative;inset:auto;align-self:flex-start;margin:0 17px 24px;flex-shrink:0}
- html[data-layout="phone"] .slr-cover .cover-lang-modal,.slr-cover-overlay .game-menu{width:calc(100vw - 32px);max-width:420px}
- html[data-layout="phone"] .slr-cover .game-menu-langs,.slr-cover-overlay .game-menu-langs{gap:8px}
+/* The approved oil-painted cover; all rules are scoped to this book's title screen. */
+.slr-cover,
+.slr-cover-overlay {
+  --bridge-ivory: #fff3dc;
+  --bridge-gold: #d4ad70;
+  --bridge-ink: #383b32;
+  --bridge-font: 'Noto Serif SC', 'Songti SC', Georgia, serif;
+  font-family: var(--bridge-font);
 }
-@media(prefers-reduced-motion:reduce){.slr-cover *,.slr-cover-overlay *{transition:none!important;animation:none!important}}
+.slr-cover {
+  background: #393e3a;
+  color: var(--bridge-ivory);
+  min-height: 100dvh;
+  isolation: isolate;
+}
+.slr-cover .cover-bg {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+  animation: none;
+}
+.slr-cover .cover-fx { inset: 0; opacity: .07; mix-blend-mode: screen; }
+.slr-cover .cover-scrim { background: #15191520; pointer-events: none; }
+.bridge-cover-controls { position: absolute; inset: 0; }
+.bridge-heading {
+  position: absolute;
+  z-index: 2;
+  top: 21.9%;
+  left: 50%;
+  width: 55%;
+  transform: translateX(-50%);
+  text-align: center;
+  mix-blend-mode: screen;
+}
+.bridge-wordmark { margin: 0; line-height: 0; font-size: 0; }
+.bridge-wordmark-crop {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2144 / 363;
+  overflow: hidden;
+}
+/* Keep the original raster intact; the measured crop removes only black safety margins.
+   Screen blending preserves its painted ivory/gold without the generator's alpha fringes. */
+.bridge-wordmark-crop img {
+  position: absolute;
+  width: 101.306%;
+  max-width: none;
+  height: auto;
+  left: -1.306%;
+  top: -49.311%;
+  user-select: none;
+}
+.bridge-wordmark-crop.is-en { aspect-ratio: 1964 / 394; }
+.bridge-wordmark-crop.is-en img { width: 110.591%; left: -5.703%; top: -41.878%; }
+.bridge-title-fallback {
+  color: var(--bridge-ivory);
+  font-family: var(--bridge-font);
+  font-size: clamp(34px, 5.5vw, 96px);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: .025em;
+}
+.bridge-original-title {
+  position: relative;
+  z-index: 1;
+  color: var(--bridge-ivory);
+  margin: -8px 0 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(12px, 1.4vw, 24px);
+  line-height: 1.4;
+  letter-spacing: .31em;
+  text-indent: .31em;
+  white-space: nowrap;
+}
+.slr-cover.is-english .bridge-heading { top: 20.6%; width: 55%; }
+.bridge-entry {
+  position: absolute;
+  z-index: 2;
+  top: 69.5%;
+  left: 0;
+  width: 100%;
+  padding: 0 24px;
+  text-align: center;
+  mix-blend-mode: screen;
+}
+.bridge-subtitle {
+  margin: 0;
+  color: var(--bridge-ivory);
+  font-size: clamp(16px, 1.4vw, 24px);
+  line-height: 1.6;
+  letter-spacing: .18em;
+  text-indent: .18em;
+  text-shadow: 0 1px 5px #1d241ee0;
+}
+.is-english .bridge-subtitle { letter-spacing: .06em; text-indent: 0; }
+.bridge-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(6px, 1.5vh, 15px);
+  margin-top: clamp(18px, 3.2vh, 34px);
+}
+.bridge-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 1.2vw, 22px);
+  min-height: clamp(46px, 6vh, 60px);
+  padding: 4px 12px;
+  border: 0;
+  border-radius: 2px;
+  background: transparent;
+  color: var(--bridge-ivory);
+  font-family: var(--bridge-font);
+  font-size: clamp(23px, 1.9vw, 34px);
+  line-height: 1.45;
+  letter-spacing: .15em;
+  text-indent: .15em;
+  transition: color .18s ease, transform .18s ease;
+}
+.bridge-action.is-secondary {
+  color: #edddbd;
+  font-size: clamp(19px, 1.6vw, 28px);
+  min-height: 44px;
+}
+.bridge-action:hover { color: #fff; transform: translateY(-1px); }
+.bridge-action:active { transform: translateY(1px); }
+.is-english .bridge-action { letter-spacing: .065em; text-indent: 0; }
+.bridge-flourish {
+  display: block;
+  position: relative;
+  width: clamp(72px, 10.4vw, 180px);
+  aspect-ratio: 1686 / 126;
+  overflow: hidden;
+  flex: 0 0 auto;
+  pointer-events: none;
+}
+.bridge-flourish img { position: absolute; width: 125.742%; max-width: none; height: auto; left: -16.904%; top: -242.857%; }
+.bridge-flourish.is-right { transform: scaleX(-1); }
+.slr-cover .cover-menu,
+.slr-cover .cover-lang {
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background: transparent;
+  color: var(--bridge-ivory);
+  font-family: var(--bridge-font);
+  font-size: clamp(15px, 1.3vw, 23px);
+  line-height: 1.4;
+  letter-spacing: .06em;
+  text-shadow: 0 1px 5px #1d241ee0;
+  transition: background .18s, border-color .18s;
+}
+.slr-cover .cover-menu { top: max(24px, env(safe-area-inset-top)); right: max(32px, env(safe-area-inset-right)); gap: 14px; }
+.slr-cover .cover-menu .ui-icon { stroke-width: 1.35; }
+.slr-cover .cover-lang { bottom: max(42px, env(safe-area-inset-bottom)); left: max(52px, env(safe-area-inset-left)); gap: 18px; }
+.bridge-lang-divider { color: var(--bridge-gold); }
+.slr-cover .cover-lang .is-current { color: #fff8e8; }
+.slr-cover .cover-menu:hover,
+.slr-cover .cover-lang:hover { background: #20272055; border-color: #e9d4ad5c; }
+.slr-cover button:focus-visible,
+.slr-cover-overlay button:focus-visible {
+  outline: 2px solid var(--bridge-gold);
+  outline-offset: 5px;
+}
+.bridge-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Paper dialogs inherit only the book's cover palette, including the existing music player. */
+.slr-cover-overlay {
+  --paper: #f3ecdf;
+  --card: #f6f0e5;
+  --ink: #383b32;
+  --ink-80: #474b40;
+  --ink-60: #6a6c5d;
+  --ink-30: #b7b19e;
+  --leather: #73613e;
+  --gold: #9b7c47;
+  --gold-soft: #a88b5720;
+  --line: #d8ccb5;
+  --font: var(--bridge-font);
+  background: #161d19a8;
+  backdrop-filter: blur(8px);
+  align-items: center;
+  padding: 24px;
+}
+.slr-cover-overlay .modal {
+  background: var(--card);
+  border: 1px solid #c4af87;
+  border-radius: 4px;
+  color: var(--ink);
+  box-shadow: 0 20px 90px #0d161c66;
+  max-height: min(86dvh, 760px);
+  overflow: hidden;
+}
+.slr-cover-overlay .game-menu,
+.slr-cover-overlay .bridge-dialog { width: 440px; max-width: calc(100vw - 48px); }
+.slr-cover-overlay .game-menu-head,
+.slr-cover-overlay .modal-head {
+  align-items: center;
+  padding: 24px 28px;
+  border-color: var(--line);
+  background: transparent;
+}
+.slr-cover-overlay .game-menu-title,
+.slr-cover-overlay .modal-title {
+  font-family: var(--bridge-font);
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--ink);
+  letter-spacing: .08em;
+}
+.slr-cover-overlay .game-menu-kicker { font-weight: 400; letter-spacing: .24em; margin-bottom: 8px; color: #8a7955; }
+.slr-cover-overlay .game-menu-close { width: 40px; height: 40px; margin: -6px -9px -6px 0; border-radius: 2px; }
+.slr-cover-overlay .game-menu-body { padding: 8px 10px 16px; }
+.slr-cover-overlay .game-menu-section { border-color: var(--line); }
+.slr-cover-overlay .game-menu-row { min-height: 54px; padding: 12px 18px; }
+.slr-cover-overlay .game-menu-row-label { font-size: 16px; font-weight: 400; }
+.slr-cover-overlay .game-menu-row-sub { font-size: 12px; font-weight: 400; line-height: 1.6; }
+.slr-cover-overlay .game-menu-langs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 8px 18px 18px; }
+.slr-cover-overlay .game-menu-lang-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 1px solid #cfc1a5;
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--bridge-font);
+  font-size: 16px;
+  text-align: left;
+}
+.slr-cover-overlay .game-menu-lang-btn:hover { background: #a88b5714; }
+.slr-cover-overlay .game-menu-lang-btn.is-on { background: #394439; border-color: #394439; color: #fff4dc; }
+.slr-cover-overlay .bridge-language-options { padding: 26px 28px 30px; }
+.slr-cover-overlay .bridge-dialog-copy { padding: 25px 28px 14px; font-size: 16px; line-height: 1.9; }
+.slr-cover-overlay .bridge-dialog-actions { display: flex; justify-content: flex-end; gap: 12px; padding: 16px 28px 28px; }
+.slr-cover-overlay .btn { min-height: 44px; border-radius: 2px; padding: 10px 16px; font-family: var(--bridge-font); font-size: 14px; font-weight: 400; }
+.slr-cover-overlay .btn-primary { color: #fff4dc; background: #394439; border-color: #394439; }
+.slr-cover-overlay .btn-primary:hover { background: #29352a; }
+.slr-cover-credit { padding: 18px; margin: 0; color: #77705e; font-size: 12px; line-height: 1.8; text-align: center; border-top: 1px solid var(--line); }
+.slr-cover-overlay .modal-body { padding: 24px 28px; font-size: 16px; line-height: 1.85; }
+.slr-cover-overlay .modal-foot { padding: 16px 28px 24px; border-color: var(--line); }
+
+@media (max-width: 767px), (orientation: portrait) and (max-width: 959px) {
+  html[data-layout='phone'] .slr-cover { padding: 0; height: 100dvh; overflow: hidden; }
+  html[data-layout='phone'] .slr-cover .cover-bg { position: absolute; inset: 0; height: 100%; width: 100%; object-fit: cover; }
+  html[data-layout='phone'] .slr-cover .cover-scrim { display: block; background: #15191525; }
+  .slr-cover .bridge-heading { top: 23%; width: 90%; }
+  .slr-cover.is-english .bridge-heading { top: 22%; width: 89%; }
+  .bridge-original-title { font-size: clamp(9px, 2.4vw, 16px); letter-spacing: .22em; text-indent: .22em; margin-top: 12px; }
+  .bridge-title-fallback { font-size: clamp(28px, 7vw, 56px); }
+  .bridge-entry { top: 67%; padding: 0 20px; }
+  .bridge-subtitle { font-size: clamp(14px, 3.8vw, 20px); letter-spacing: .08em; text-indent: .08em; }
+  .is-english .bridge-subtitle { font-size: clamp(15px, 4vw, 21px); letter-spacing: .02em; }
+  .bridge-actions { margin-top: 22px; gap: 10px; }
+  .bridge-action { min-height: 48px; font-size: 25px; gap: 9px; padding: 2px 8px; }
+  .bridge-action.is-secondary { font-size: 21px; min-height: 44px; }
+  .bridge-flourish { width: clamp(46px, 15vw, 95px); }
+  .is-english .bridge-actions.is-first-visit .bridge-flourish { width: clamp(28px, 8vw, 60px); }
+  html[data-layout='phone'] .slr-cover .cover-menu { top: max(18px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right)); min-height: 44px; padding: 8px 10px; font-size: 16px; gap: 9px; }
+  html[data-layout='phone'] .slr-cover .cover-lang { position: absolute; bottom: max(20px, env(safe-area-inset-bottom)); left: max(18px, env(safe-area-inset-left)); min-height: 44px; margin: 0; padding: 8px 10px; font-size: 14px; gap: 12px; }
+  html[data-layout='phone'] .slr-cover-overlay { align-items: center; padding: 20px; }
+  html[data-layout='phone'] .slr-cover-overlay .modal { width: 100%; max-width: 500px; max-height: 86dvh; margin: 0; border-radius: 4px; }
+  .slr-cover-overlay .game-menu-head, .slr-cover-overlay .modal-head { padding: 20px 22px; }
+  .slr-cover-overlay .game-menu-langs { gap: 10px; }
+  .slr-cover-overlay .bridge-language-options { padding: 22px; }
+  .slr-cover-overlay .game-menu-lang-btn { padding: 12px; font-size: 14px; }
+  .slr-cover-overlay .bridge-dialog-copy { padding: 22px; }
+  .slr-cover-overlay .bridge-dialog-actions { padding: 4px 22px 24px; flex-wrap: wrap; }
+}
+@media (max-width: 767px) and (max-height: 700px) {
+  .slr-cover .bridge-heading { top: 20%; }
+  .slr-cover .bridge-entry { top: 63%; }
+  .slr-cover .bridge-actions { margin-top: 14px; gap: 6px; }
+  html[data-layout='phone'] .slr-cover .cover-lang { bottom: max(8px, env(safe-area-inset-bottom)); }
+}
+@media (min-width: 768px) and (max-height: 600px) and (orientation: landscape) {
+  .slr-cover .bridge-heading { top: 15%; width: 46%; }
+  .slr-cover .bridge-entry { top: 65%; }
+  .bridge-subtitle { font-size: 15px; }
+  .bridge-actions { margin-top: 12px; gap: 2px; }
+  .bridge-action { min-height: 40px; font-size: 23px; }
+  .bridge-action.is-secondary { font-size: 19px; }
+  .slr-cover .cover-lang { bottom: 14px; left: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .slr-cover *, .slr-cover-overlay * { transition: none !important; animation: none !important; }
+}

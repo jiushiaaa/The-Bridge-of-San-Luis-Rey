@@ -1,7 +1,7 @@
 // 页签栏「菜单」弹层：音量 / BGM / 语言 / 玩法说明 / 回标题 / DEBUG-进度
 import { LOCALE_LABEL, getLocale, setLocale, t } from '../i18n';
 import { offlineBuild } from '../debug';
-import { GAME_ID, GAME_LOCALES } from '../game/data';
+import { data, GAME_ID, GAME_LOCALES } from '../game/data';
 import { hasBgm } from '../game/bgm';
 import { backToTitle } from '../game/logic';
 import { playCue, sfxSkipLayer } from '../game/sfx';
@@ -120,6 +120,7 @@ export default function GameMenu() {
               </button>
             </div>
           ) : null}
+          {showTitle && GAME_ID === 'slr' && data.meta.adaptedFrom ? <p className="slr-cover-credit">{data.meta.adaptedFrom}</p> : null}
         </div>
       </div>
     </div>

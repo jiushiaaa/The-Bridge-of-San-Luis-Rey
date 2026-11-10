@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
 /** Keep keyboard navigation inside a cover dialog and return to its opener. */
-export function useDialogFocus(active: boolean) {
+export function useDialogFocus(active: boolean, fallbackSelector?: string) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const dialog = ref.current;
@@ -25,8 +25,13 @@ export function useDialogFocus(active: boolean) {
     document.addEventListener('keydown', onKey, true);
     return () => {
       document.removeEventListener('keydown', onKey, true);
-      if (opener?.isConnected) opener.focus();
+      // Let the cover remove inert before returning focus; a menu may also have
+      // unmounted while opening its guide, in which case use the visible cover control.
+      queueMicrotask(() => {
+        if (opener?.isConnected && opener !== document.body && !opener.closest('[inert]')) opener.focus();
+        else if (fallbackSelector) document.querySelector<HTMLElement>(fallbackSelector)?.focus();
+      });
     };
-  }, [active]);
+  }, [active, fallbackSelector]);
   return ref;
 }

@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { t } from '../i18n';
 import { playCue } from '../game/sfx';
 import { setUi, useUi } from '../game/store';
+import { GAME_ID } from '../game/data';
+import { useDialogFocus } from './useDialogFocus';
 
 const PAGE_KEYS = [
   { title: 'guide.p1title', lines: ['guide.p1l1', 'guide.p1l2', 'guide.p1l3'] },
@@ -12,7 +14,9 @@ const PAGE_KEYS = [
 ] as const;
 
 export default function GuideModal() {
-  const { guideOpen } = useUi();
+  const { guideOpen, showTitle } = useUi();
+  const cover = showTitle && GAME_ID === 'slr';
+  const dialog = useDialogFocus(guideOpen && cover, '.slr-cover .cover-menu');
   const [page, setPage] = useState(0);
   if (!guideOpen) return null;
 
@@ -23,10 +27,10 @@ export default function GuideModal() {
 
   const p = PAGE_KEYS[page];
   return (
-    <div className="overlay" onClick={close}>
-      <div className="modal" onClick={(e) => e.stopPropagation()}>
+    <div className={`overlay${cover ? ' slr-cover-overlay' : ''}`} onClick={close}>
+      <div className="modal" ref={dialog} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby="guide-dialog-title" onClick={(e) => e.stopPropagation()}>
         <div className="modal-head">
-          <span className="modal-title">{t('guide.head', { title: t(p.title) })}</span>
+          <span className="modal-title" id="guide-dialog-title">{t('guide.head', { title: t(p.title) })}</span>
           <button className="btn" onClick={close}>
             {t('common.close')}
           </button>

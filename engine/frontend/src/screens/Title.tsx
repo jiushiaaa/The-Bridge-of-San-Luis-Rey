@@ -9,8 +9,13 @@ import { continueGame, newGame } from '../game/logic';
 import { hasSave } from '../game/save';
 import { playCue, sfxSkipLayer } from '../game/sfx';
 import { setUi } from '../game/store';
+import BridgeTitle from './BridgeTitle';
 
 export default function Title() {
+  return GAME_ID === 'slr' ? <BridgeTitle /> : <ClassicTitle />;
+}
+
+function ClassicTitle() {
   const resume = hasSave();
   const loc = useLocale();
   const [fxReady, setFxReady] = useState(false);

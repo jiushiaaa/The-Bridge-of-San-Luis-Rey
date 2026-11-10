@@ -38,6 +38,7 @@ uniform vec2 uResolution;
 uniform vec2 uImageSize;
 uniform vec2 uSun;
 uniform float uBreath;
+uniform float uBridge;
 
 varying vec2 vUv;
 
@@ -51,6 +52,8 @@ vec2 coverUV(vec2 uv) {
 }
 
 float waterMask(vec2 uv) {
+  // The bridge scene's river is below the crossing, not on the central bridge deck.
+  if (uBridge > 0.5) return 1.0 - smoothstep(0.20, 0.32, uv.y);
   float band = smoothstep(0.34, 0.40, uv.y) * (1.0 - smoothstep(0.52, 0.58, uv.y));
   float figure = smoothstep(0.50, 0.66, uv.x) * (1.0 - smoothstep(0.42, 0.54, uv.y));
   float titleCorner = (1.0 - smoothstep(0.0, 0.42, uv.x)) * (1.0 - smoothstep(0.0, 0.38, uv.y));
@@ -96,6 +99,7 @@ void main() {
   // 阳光忽明忽暗：慢呼吸 + 稍快一层，峰值时很明显
   float pulse = 0.5 + 0.5 * sin(t * 1.15);
   pulse = 0.42 + 0.58 * pulse * pulse;
+  pulse *= mix(1.0, 0.24, uBridge);
   float pulse2 = 0.65 + 0.35 * sin(t * 0.55 + 0.8);
 
   col += vec3(1.0, 0.95, 0.78) * path * (0.14 + 0.1 * shimmer) * pulse;
@@ -193,9 +197,11 @@ function resetLeaf(L: Leaf, fromTop: boolean): void {
 export default function CoverAtmosphere({
   src,
   onReady,
+  variant = 'river',
 }: {
   src: string;
   onReady?: () => void;
+  variant?: 'river' | 'bridge';
 }) {
   const hostRef = useRef<HTMLDivElement>(null);
   const onReadyRef = useRef(onReady);
@@ -268,8 +274,9 @@ export default function CoverAtmosphere({
             uTime: { value: 0 },
             uResolution: { value: new Vector2(1, 1) },
             uImageSize: { value: new Vector2(img.width || 1, img.height || 1) },
-            uSun: { value: new Vector2(0.49, 0.55) },
+            uSun: { value: variant === 'bridge' ? new Vector2(0.73, 0.89) : new Vector2(0.49, 0.55) },
             uBreath: { value: 0 },
+            uBridge: { value: variant === 'bridge' ? 1 : 0 },
           },
           vertexShader: VERT,
           fragmentShader: FRAG,
@@ -294,6 +301,8 @@ export default function CoverAtmosphere({
           toneMapped: false,
         });
         leafMesh = new InstancedMesh(leafGeo, leafMat, LEAF_COUNT);
+        // The new painting has no right-hand canopy; retain the upstream leaves only for its river cover.
+        leafMesh.visible = variant !== 'bridge';
         leafMesh.frustumCulled = false;
         leafMesh.renderOrder = 1;
         for (let i = 0; i < LEAF_COUNT; i++) {
@@ -382,7 +391,7 @@ export default function CoverAtmosphere({
         renderer.domElement.remove();
       }
     };
-  }, [src]);
+  }, [src, variant]);
 
   return <div className="cover-fx" ref={hostRef} aria-hidden="true" />;
 }

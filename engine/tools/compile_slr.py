@@ -136,10 +136,10 @@ def main():
             g["cards"].append(c)
             provenance["cards"][c["id"]] = {"source_anchors": src["sources"], "text_mode": src.get("adaptation", "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。"), "text_sha256": hashlib.sha256(json.dumps(c["segments"], ensure_ascii=False).encode()).hexdigest()}
     g["assets"] = {
-        "titleImage": "slr-assets/title.png", "endingImage": "slr-assets/ending.png",
+        "titleImage": "slr-assets/home/cover-landscape.png", "endingImage": "slr-assets/ending.png",
         "mysteryAvatar": "slr-assets/mystery.png", "sceneIcon": "slr-assets/scene-icon.png", "favicon": "slr-assets/scene-icon.png",
         "levelIntroImages": {str(lv): f"slr-assets/intro-{lv}.png" for lv in (1, 2, 3)},
-        "titleImagePrompt": "Intact eighteenth-century Andean plant-fiber suspension footbridge over a misty gorge, five distant travelers, luminous river, vertical painterly literary cover.",
+        "titleImagePrompt": "Full-width classical oil-painted Andean gorge with an intact plant-fiber rope bridge and five distant travelers; warm umber, sage green, luminous mist and visible brushwork. Approved title-screen composition, landscape 16:9, no text or UI.",
         "endingImagePrompt": "An elderly abbess beside a lantern in a modest convent sickroom at night, ordinary care and warm light, no supernatural effect.",
         "sceneIconPrompt": "A simple hand-painted braided-rope footbridge emblem on warm cream paper, square, no lettering.",
         "bgm": [{k: ("slr-assets/bgm/" + v if k == "file" else v) for k, v in track.items() if k != "seconds"} for track in read("music.json")],

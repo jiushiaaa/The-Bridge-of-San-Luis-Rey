@@ -1534,5 +1534,70 @@
     "width": 1254,
     "height": 1254,
     "luminance_rec601": 182.82
+  },
+  {
+    "id": "home-wordmark-zh",
+    "file": "slr-assets/home/wordmark-zh.png",
+    "generator": "built-in image_gen",
+    "prompt": "Production raster lettering asset. Extract/reproduce ONLY the large Chinese title “圣路易斯雷大桥” from the approved reference image. Seven correct Chinese characters on one horizontal line, with the exact custom letter proportions, the same refined hand-carved Song-style wedge serifs, restrained extended strokes in 大 and 桥, ivory paint and subtle muted old-gold flecks. Keep the approved lettering elegant and flat, not embossed or beveled. Place that wordmark on a COMPLETELY SOLID PURE BLACK #000000 background, with no alpha transparency requested. No glow, no dropshadow, no red/pink/yellow outlines, no color fringe, no surrounding noise. Fine clean edges against black. All black regions must be black, no scene or texture outside the strokes. No English, no other text, no menu or ornaments. WIDE horizontal canvas target 2000 x 360 (about 5.5:1), lettering centered and using nearly the full width, minimal margin, no crop of any stroke. The black backdrop is intentional for screen-blend compositing into the game. Faithful to the exact title's visible style in the attached reference; this is a component asset, not a mockup.",
+    "sha256": "a712b56d666e0f1e8e275e359ef28402956c66a04800c69d3427828df9d5ddbe",
+    "bytes": 722761,
+    "width": 2172,
+    "height": 724,
+    "review": "2026-11-10 按用户批准的油画首页拆分；原始素材保留；已接入 BridgeTitle。实际浏览器验收见 design-qa.md。",
+    "kind": "homepage-ui",
+    "counts_as_story_cg": false
+  },
+  {
+    "id": "home-wordmark-en",
+    "file": "slr-assets/home/wordmark-en.png",
+    "generator": "built-in image_gen",
+    "prompt": "Create one isolated production English title wordmark for the literary game The Bridge of San Luis Rey. Exact words “THE BRIDGE OF SAN LUIS REY”. Two carefully centered lines, “THE BRIDGE OF” on top in small restrained Roman serif capitals, “SAN LUIS REY” below in large elegant high-contrast antique Roman capitals. The English lettering should harmonize with the warm ivory hand-carved Chinese lettering of the approved attached cover. Flat matte ivory paint with only tiny old-gold marks, thin wedge serifs, precise classic book-like spacing, clear and dignified. No metallic rendering, no bevels, embossing, drop shadows or glow. Render on a completely solid pure black #000000 background with no alpha transparency, no texture in the black, no colored noise or fringe. Keep all letters crisp. No scene, no Chinese, no UI. Wide canvas target 1800 x 500, lettering occupies most width with modest safety margins. This intentionally opaque black background will be screen-blended into the game, so all non-letter regions must remain pure black.",
+    "sha256": "f34cbc5e7f74fb35c8a34749f264c5a4dac8c37868d0cc028bc06434ec2f18cd",
+    "bytes": 619708,
+    "width": 2172,
+    "height": 724,
+    "review": "2026-11-10 按用户批准的油画首页拆分；原始素材保留；已接入 BridgeTitle。实际浏览器验收见 design-qa.md。",
+    "kind": "homepage-ui",
+    "counts_as_story_cg": false
+  },
+  {
+    "id": "home-cover-landscape",
+    "file": "slr-assets/home/cover-landscape.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Asset type: text-free background layer for a production game title screen. Target 1920 x 1080 landscape 16:9. Edit the supplied approved cover image with the smallest possible changes. Remove ALL interface overlays: the large Chinese title “圣路易斯雷大桥”, English subtitle, the lower tagline, the Continue / New Game Chinese menu labels, all gold horizontal rules and diamonds, the upper-right hamburger icon and Chinese menu label, and lower-left Chinese/English language labels and slash. Inpaint these removed areas with continuous natural oil-painted mist, mountains, valley or foreground from the surrounding scene. There must be absolutely NO remaining text, glyph, UI symbol, line ornament, logo or watermark.\n\nLOCK EVERYTHING ELSE: preserve the exact camera framing, broad composition, intact rope bridge geometry and location, exactly five existing small travelers with their original positions/poses, foreground cliffs, hanging branch at the upper left, church on the left, layered mountain shapes, river, sunrise at upper right, soft mist, the full warm-ochre / grey-green / muted-blue palette, soft classical oil-paint texture and all visible brushwork. Do not add, remove or move any person, animal, building or other scene object. Do not redesign, crop, zoom, change the hour, add storm or darken the scene. This is precise UI removal from an approved painted cover, NOT a fresh art concept. The output will serve as a full-bleed background behind separate HTML controls, so the newly cleared title region and lower central menu region must be seamlessly painted and visually quiet. Opaque full-frame image, not transparent.",
+    "sha256": "f304cff93fc575287cbe7baa3c7d4f7f43d16c4568cfb8021a406396b3a024f5",
+    "bytes": 2559645,
+    "width": 1672,
+    "height": 941,
+    "review": "2026-11-10 按用户批准的油画首页拆分；原始素材保留；已接入 BridgeTitle。实际浏览器验收见 design-qa.md。",
+    "kind": "homepage-ui",
+    "counts_as_story_cg": false
+  },
+  {
+    "id": "home-cover-portrait",
+    "file": "slr-assets/home/cover-portrait.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: style-transfer / image adaptation. Asset type: MOBILE PORTRAIT background layer of an existing literary narrative game title screen. Create ONE fully painted text-free scene, portrait 9:16, target 1080 x 1920. It is the SAME location, the SAME moment, and the SAME painted style as the first supplied landscape reference, recomposed for a tall phone viewport. The second image is the user-approved original desktop cover reference: borrow its atmosphere only, absolutely no text or UI in this output.\n\nEssential composition, measured against the full portrait canvas: \n- A slender intact Andean plant-fiber rope suspension bridge connects a rocky cliff at the LEFT edge to a rocky cliff at the RIGHT edge, with the WHOLE bridge visible from both anchors, occupying the middle band at approximately 48% to 62% of image height.\n- Exactly the SAME FIVE small travelers are spaced across the full bridge and ALL FIVE must be clearly visible within the portrait frame. Keep their subdued period clothes and adult/child size differences. No person may be cut off by a side edge. Five total people in the entire scene, no distant extras. They should remain tiny human figures rather than portraits.\n- This is NOT a center crop of the landscape. Pull back / recompose naturally so the whole bridge and both anchor ends fit horizontally, then extend the mountain sky and deep gorge vertically. Do not squash or stretch the bridge, cliffs or people.\n- Preserve the small pale church with bell tower on the left cliff beyond the bridge, the dark overhanging tree branch near the upper-left margin, soft sunrise at upper right, layered distant Andes, mist, rocky canyon and river far below.\n- The TOP CENTER between 18% and 38% of the image height is an open, visually quiet expanse of softly layered blue-grey mountains and luminous grey-green mist, suitable for a separate ivory title logo to be overlaid later. Do not put branches, church or harsh busy rocks across this central title zone.\n- The LOWER CENTER between 72% and 88% of the height is a quiet, slightly darker grey-green misty gorge passage, low detail, appropriate for separately rendered light menu lettering. Keep textured foreground rocks and sparse grasses mostly at the bottom left and bottom right outer edges, never covering the center.\n- The bottom corners retain subdued shadowed rocks for separate utility controls; no text.\n\nMatch the first reference faithfully: refined classical oil painting with matte visible brushstrokes, soft layered pigment, subdued ochre/umber rock, weathered sage foliage, cool slate and grey distant peaks, warm ivory dawn highlights, believable natural light, subtle atmospheric depth. No saturated orange wash, no fantasy glow, no photographic CGI, no watercolor flatness, no uniform canvas noise. Keep the same picturesque yet restrained melancholy. Eighteenth-century Peru, believable braided natural rope and wooden plank bridge, no metal or stone bridge arches. Do not add new buildings, animals, falling figures, weather disasters, banners or ornaments.\n\nThe output is ONLY the opaque portrait oil-painted environment. Absolutely no typography, lettering, labels, UI buttons, rules, diamonds, menu icons, signatures or watermark. One tall image, no inset, no comparison sheet, no device frame.",
+    "sha256": "24ec901b7454a112d4254bd24d99d136621120d18ace657b4b6d178eb29b267b",
+    "bytes": 2523986,
+    "width": 941,
+    "height": 1672,
+    "review": "2026-11-10 按用户批准的油画首页拆分；原始素材保留；已接入 BridgeTitle。实际浏览器验收见 design-qa.md。",
+    "kind": "homepage-ui",
+    "counts_as_story_cg": false
+  },
+  {
+    "id": "home-menu-flourish",
+    "file": "slr-assets/home/menu-flourish.png",
+    "generator": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit / extracted UI ornament. Recreate ONLY the tiny old-gold horizontal flourish to the LEFT of the “继续游戏” menu text in the supplied approved cover, on a perfectly uniform PURE BLACK #000000 background. This is a standalone production UI ornament, not the game screen. Opaque image, transparency disabled: do NOT create an alpha cutout, do NOT use a checkerboard or any background except solid exact black.\n\nTarget canvas 500 x 70, extremely wide and shallow 50:7 banner, tightly fit around the ornament, centered vertically. The entire visible ornament occupies 85% of canvas width. The ornament consists of ONE perfectly straight, very thin warm old-gold horizontal line running from left to right, with ONE tiny HOLLOW DIAMOND near its right end. Diamond interior is pure black, same as the background. The line's leftmost end fades gently into the black over a short distance. The line terminates a small distance before the diamond. Match the simple understated decorative geometry in the source menu. Calm antique gold near #d1aa68, foreground color ONLY GOLD. Line thickness about 1.5 to 2 pixels at intended 500px width; diamond outline similarly thin; diamond about 18px across. Minimize empty top/bottom margins.\n\nClean precise edges. No red/yellow/cyan/green fringe, no colored antialias outline, no dirty or detached pixels, no painted texture, no metallic reflection, no bevel, no shadow, no glow, no blur. Smooth crisp rendered flat gold, with the background uniform flat pure black. Do not reproduce any landscape, title, characters, words, language labels, menu label, secondary ornament, extra dots, logo or watermark. One line and one hollow diamond only. A clean black-backed UI raster ornament for screen blending.",
+    "sha256": "aead74bb4b91abc23557301be6d1bc02c511c129e8557b7930e31312a5f50bde",
+    "bytes": 262420,
+    "width": 2120,
+    "height": 742,
+    "review": "2026-11-10 按用户批准的油画首页拆分；原始素材保留；已接入 BridgeTitle。实际浏览器验收见 design-qa.md。",
+    "kind": "homepage-ui",
+    "counts_as_story_cg": false
   }
 ]
