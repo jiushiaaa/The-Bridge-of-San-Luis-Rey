@@ -1,0 +1,654 @@
+{
+  "e_fanghongjian": {
+    "name": "方鸿渐",
+    "type": "person",
+    "tier": "core",
+    "desc": "江南乡绅之子，留欧四年买回一张假博士文凭。聪明、嘴利、心地不坏，就是做什么事都慢半拍、软半分。",
+    "avatar": "wc-assets/avatars/e_fanghongjian.jpg",
+    "look": "A Chinese man in his late twenties, tall and thin, long face, fine delicate features but a weary deflated air; his Western suits always look borrowed, collar slightly loose; signature wry self-mocking smile, blushes easily; early scenes round sunglasses, later a worn long gown over the suit, finally rumpled and exhausted; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Chinese man in his late twenties, tall and thin, long face, delicate features, weary deflated air, wry self-mocking smile, slightly loose-collared 1930s Western suit, plain warm beige background",
+    "archive": [
+      {
+        "level": 1,
+        "title": "归人",
+        "fields": [
+          { "label": "出身", "text": "江南小县的大绅士家长子。高中时家里作主订下一门亲事，大学没毕业，未婚妻就伤寒病故了。" },
+          { "label": "父亲", "blank": { "answer": "e_fangdunweng", "pool": "person" } },
+          { "label": "留学经费", "text": "一封文辞凄婉的唁信感动了岳父，换来陪嫁款加聘金共两万元，折合一千三百镑，供他出洋。" },
+          { "label": "岳家的产业", "blank": { "answer": "e_dianjin", "pool": "place" } },
+          { "label": "欧洲四年", "text": "伦敦、巴黎、柏林换了三个大学，兴趣颇广，心得全无。最后一年才想起要给家里一个交代。" },
+          { "label": "那张文凭", "blank": { "answer": "e_wenping", "pool": "item" } }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "求爱者",
+        "fields": [
+          { "label": "船上风波", "text": "归国的邮船上，他被一位混血小姐当作旅途消遣。船到香港，人家扑进未婚夫怀里，他才明白那句“你像我的未婚夫”是套路。" },
+          { "label": "善意的独裁", "text": "有人嫌他手帕脏，夺过去洗；替他钉钮扣。他惊恐地发现：每钉一个钮扣，良心上就增一分求婚的责任。" },
+          { "label": "真正动心的人", "blank": { "answer": "e_tangxiaofu", "pool": "person" } },
+          { "label": "定情之地", "blank": { "answer": "e_emei", "pool": "place" } },
+          { "label": "决裂", "text": "雨中清算，信件退回。她说：我爱的人，我要能够占领他整个生命。他一句话也辩不出来。" },
+          { "label": "信物", "blank": { "answer": "e_qiaoxia", "pool": "item" } }
+        ]
+      },
+      {
+        "level": 4,
+        "title": "副教授",
+        "fields": [
+          { "label": "降职", "text": "电报上白纸黑字许的是教授，人到校就变成副教授，月薪二百八十元，教全校没人肯教的论理学。" },
+          { "label": "校长的说辞", "text": "“我决不计较学位，我只讲真才实学。”说这话的人声称写过一封解释的信，只是抗战时期的邮政该死，没寄到。" },
+          { "label": "他的“母校”", "blank": { "answer": "e_kelaideng", "pool": "concept" } },
+          { "label": "镜像", "text": "历史系主任跟他买的是同一所学校的文凭。人家撒得理直气壮、步步高升，他撒得心虚理亏、处处碰壁。" },
+          { "label": "解聘的借口", "blank": { "answer": "e_gongchan", "pool": "item" } },
+          { "label": "下场", "text": "学期结束，全校聘约普遍发出，独独没有他的。他自嘲是伊索寓言里那只没尾巴的狐狸。" }
+        ]
+      },
+      {
+        "level": 5,
+        "title": "丈夫",
+        "fields": [
+          { "label": "成婚", "text": "在香港草草注册。他自己说：结婚无需太伟大的爱情，彼此不讨厌，已经够结婚资本了。" },
+          { "label": "妻子", "blank": { "answer": "e_sunroujia", "pool": "person" } },
+          { "label": "两家", "text": "方家嫌孙家简慢，孙家嫌方家陈腐，亲家相恶，于今为烈。他夹在中间，两头受气。" },
+          { "label": "那只钟", "blank": { "answer": "e_laozhong", "pool": "item" } },
+          { "label": "终吵", "text": "一把象牙梳子掷中他的左颧，她连骂三声 Coward。深夜回家，人去楼空。" },
+          { "label": "出路", "text": "他打算去重庆投奔老朋友。心里又生希望，像湿柴虽点不着火，而开始冒烟。" }
+        ]
+      }
+    ]
+  },
+  "e_sunroujia": {
+    "name": "孙柔嘉",
+    "type": "person",
+    "tier": "core",
+    "desc": "大学刚毕业的外语系助教，长圆脸，有雀斑，说话怯生生的。柔弱是她的铠甲，主见是她的刀。",
+    "avatar": "wc-assets/avatars/e_sunroujia.jpg",
+    "look": "A Chinese woman in her early twenties, long oval face, faint freckles on old-ivory cheeks, eyes set slightly too far apart, often a startled expression; early scenes plain pastel qipao with a green silk parasol, timid and soft-spoken; later scenes newer brighter qipao with curled hair, gaze hardened; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Chinese woman in her early twenties, long oval face, faint freckles, wide-set eyes, gentle startled expression, plain pastel 1930s qipao, plain warm cream background",
+    "archive": [
+      {
+        "level": 3,
+        "title": "同行者",
+        "fields": [
+          { "label": "出身", "text": "上海报馆会计主任之女，大学刚毕业，去内地当外国语文系助教。千里辞家，家里人对她的远行并不十分上心。" },
+          { "label": "引荐人", "blank": { "answer": "e_zhaoxinmei", "pool": "person" } },
+          { "label": "上路", "text": "九月二十二日随团出发，船、汽车、山路，一路不喊苦。病在界化陇的山店里，一个人偷偷垂泪。" },
+          { "label": "患难", "text": "过没有栏杆的藤条长桥，男人腿软，倒是她走在前面领路：你跟着我走，免得愈望愈怕。" },
+          { "label": "那把伞", "blank": { "answer": "e_lvsan", "pool": "item" } },
+          { "label": "夜里的话", "text": "甲板上的长谈，她全听了去——“鲸鱼张开了口，糊涂虫就像送上门去的船”。她什么也没说。" }
+        ]
+      },
+      {
+        "level": 4,
+        "title": "未婚妻",
+        "fields": [
+          { "label": "课堂受辱", "text": "她教入学成绩最差的丁组英文，学生在黑板上写“打倒 S 小姐”，造句羞辱她。她哭着说：我死也不肯教他们了。" },
+          { "label": "追求者", "blank": { "answer": "e_luzixiao", "pool": "person" } },
+          { "label": "那封情书", "blank": { "answer": "e_jiajian", "pool": "item" } },
+          { "label": "求助", "text": "她拿着情书去请教他，他教她原包退回、不写一字。她照做了，做得比教的还彻底。" },
+          { "label": "收网", "text": "“赵叔叔走了！只剩我们两个人了。”又有人写匿名信给她父亲造谣言。挽手同行被撞见，她不否认，他句句当真。" }
+        ]
+      },
+      {
+        "level": 5,
+        "title": "妻子",
+        "fields": [
+          { "label": "持家", "text": "两间小房，一房家具是姑母送的。她挣得比丈夫多一倍，这句话让公婆觉得儿子坍尽了天下丈夫的台。" },
+          { "label": "姑母", "blank": { "answer": "e_lutaitai", "pool": "person" } },
+          { "label": "陪嫁女佣", "blank": { "answer": "e_lima", "pool": "person" } },
+          { "label": "爆发", "text": "“好容易千方百计嫁到你这样一位丈夫，还敢不小心伺候麽？”——“千方百计”四个字，成了她心里拔不掉的刺。" },
+          { "label": "终局", "text": "她抓起象牙梳子掷中他的左颧，连骂三声 Coward。当夜收拾箱子走了，没有回头。" }
+        ]
+      }
+    ]
+  },
+  "e_zhaoxinmei": {
+    "name": "赵辛楣",
+    "type": "person",
+    "tier": "core",
+    "desc": "华美新闻社政治编辑，身材高大，烟斗不离手。暗恋苏文纨二十年，最后成了方鸿渐一生最好的朋友。",
+    "avatar": "wc-assets/avatars/e_zhaoxinmei.jpg",
+    "look": "A Chinese man around thirty, tall and imposing, thick eyebrows, vigorous confident air; always smoking a pipe; crisp well-tailored Western suits; American-educated manner, loud generous laugh; in later Hong Kong scenes a touch of triumphant prosperity; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a tall imposing Chinese man around thirty, thick eyebrows, confident vigorous expression, holding a smoking pipe, crisp well-tailored 1930s Western suit, plain warm tan background",
+    "archive": [
+      {
+        "level": 2,
+        "title": "情敌",
+        "fields": [
+          { "label": "登场", "text": "花园洋房初见，他把来客从头到脚打量一遍，开口就问：是不是跟你同船回国的那位？敌意写得满脸都是。" },
+          { "label": "暗恋二十年", "blank": { "answer": "e_suwenwan", "pool": "person" } },
+          { "label": "职业", "text": "美国留学生，干新闻的，当政治编辑。他看不起学哲学的：从我们干实际工作的人的眼光看来，学哲学跟什么都不学全没两样。" },
+          { "label": "娶走她的人", "blank": { "answer": "e_caoyuanlang", "pool": "person" } },
+          { "label": "灌醉", "text": "他设宴存心把情敌灌醉，想让他当众出丑。结果那人醉倒，女主人亲自送他回家——这成功只证实了他的失败。" }
+        ]
+      },
+      {
+        "level": 3,
+        "title": "挚友",
+        "fields": [
+          { "label": "定交", "text": "他写信约见，坦白那封聘书电报本是他调虎离山的计策。如今她嫁了别人，两个失意人同病相怜，一笑泯恩仇。" },
+          { "label": "那个称呼", "blank": { "answer": "e_tongqingxiong", "pool": "concept" } },
+          { "label": "旅途", "text": "西行千里，船、车、旅店、挨饿，他一路张罗开销、排解纷争，是这五个人里真正的主心骨。" },
+          { "label": "出发的船", "blank": { "answer": "e_yilunchuan", "pool": "place" } },
+          { "label": "他的判词", "text": "到校前那人问：觉得我讨厌不讨厌？他答：你不讨厌，可是全无用处。——全书最狠也最爱的一句话。" }
+        ]
+      },
+      {
+        "level": 5,
+        "title": "局外人",
+        "fields": [
+          { "label": "香港重逢", "text": "他进国防委员会，春风得意，新交的女朋友学电机工程，说是愿意跟他结婚了。他劝那两人赶快注册，不必回上海办仪式。" },
+          { "label": "点破", "text": "酒至半酣，他说漏了嘴，吐出“煞费苦心”四个字。随即后悔：我喝醉了，信口胡说，你不许告诉你太太。" },
+          { "label": "说的是谁", "blank": { "answer": "e_sunroujia", "pool": "person" } },
+          { "label": "山上做客", "blank": { "answer": "e_zhaojiashan", "pool": "place" } },
+          { "label": "后来", "text": "他在重庆结了婚，来信劝老朋友也去重庆。信末一句“内子嘱笔敬问嫂夫人好”，客气得生分。" }
+        ]
+      }
+    ]
+  },
+  "e_suwenwan": {
+    "name": "苏文纨",
+    "type": "person",
+    "tier": "core",
+    "desc": "里昂大学法国文学博士，皮肤白得发滞，太阳眼镜不离身。她把爱情看得太名贵，不肯随便施予。",
+    "avatar": "wc-assets/avatars/e_suwenwan.jpg",
+    "look": "A Chinese woman in her mid-twenties, delicate pretty features, thin lips, skin pale in a dry not-fresh way; sunglasses outdoors; extremely refined elegant dresses, a sandalwood fan, occasional French phrases; in later Hong Kong scenes a florid qipao patterned like a small European nation's flag and a wide-brimmed straw hat; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Chinese woman in her mid-twenties, delicate features, thin lips, pale dry-looking skin, elegant refined 1930s dress, holding a folded sandalwood fan, faint proud smile, plain warm ivory background",
+    "archive": [
+      {
+        "level": 2,
+        "title": "女博士",
+        "fields": [
+          { "label": "学位", "text": "里昂大学法国文学博士，论文题目是《中国十八家白话诗人》。身为女博士，反觉得崇高的孤独，没有人敢攀上来。" },
+          { "label": "爱情观", "text": "她把爱情看得太名贵，宛如做了好衣服舍不得穿，锁在箱里，过一两年才发现花色都不时髦了。" },
+          { "label": "表妹", "blank": { "answer": "e_tangxiaofu", "pool": "person" } },
+          { "label": "沙龙", "blank": { "answer": "e_sujiayuan", "pool": "place" } },
+          { "label": "扇子诗公案", "text": "一把折扇请大家品题，扇上情诗署名是一位青年政客。有人当众指出抄自德国十五六世纪民歌——满座尴尬，写诗的人就在座上。" }
+        ]
+      },
+      {
+        "level": 5,
+        "title": "曹太太",
+        "fields": [
+          { "label": "重逢", "text": "香港山上再见，她已嫁作人妇，时髦丰腴，旗袍花得像欧洲小国的国旗，头上阔边大草帽。" },
+          { "label": "丈夫", "blank": { "answer": "e_caoyuanlang", "pool": "person" } },
+          { "label": "当众一问", "text": "“这位方太太是不是还是那家什么银行？钱庄？——经理的小姐？”声音低得似乎不准备给人听见，却字字都听见了。" },
+          { "label": "生意", "text": "她每次飞重庆，随身带化妆品、药品、高跟鞋，送人或者卖钱。当年的女博士，如今做空中投机生意。" },
+          { "label": "保留的信", "blank": { "answer": "e_zhaoxinmei", "pool": "person" } }
+        ]
+      }
+    ]
+  },
+  "e_tangxiaofu": {
+    "name": "唐晓芙",
+    "type": "person",
+    "tier": "core",
+    "desc": "苏文纨的表妹，政治系学生，律师之女。圆脸，两个浅酒涡，不烫头不擦口红——一个真正的女孩子。",
+    "avatar": "wc-assets/avatars/e_tangxiaofu.jpg",
+    "look": "A Chinese girl around twenty, petite, round charming face with two shallow dimples, no perm no lipstick no powder, fresh and natural; simple student dresses in soft colors; bright direct gaze, quick clever smile; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a petite Chinese girl around twenty, round face with two shallow dimples, no makeup, natural fresh look, simple soft-colored 1930s student dress, bright direct gaze, plain warm peach background",
+    "archive": [
+      {
+        "level": 2,
+        "title": "真正的女孩子",
+        "fields": [
+          { "label": "初见", "text": "摩登文明社会里那桩罕物——一个真正的女孩子。不烫头，不擦口红，新鲜得使人见了忘掉口渴。" },
+          { "label": "表姐", "blank": { "answer": "e_suwenwan", "pool": "person" } },
+          { "label": "学业", "text": "政治系学生，律师之女。听人讲“出洋好比出痘子，非出不可”，她笑得直不起腰。" },
+          { "label": "两人晚餐", "blank": { "answer": "e_emei", "pool": "place" } },
+          { "label": "决裂", "text": "雨中清算，她说：我爱的人，我要能够占领他整个生命，他在碰见我以前，没有过去，留着空白等待我。" },
+          { "label": "退回的东西", "blank": { "answer": "e_qiaoxia", "pool": "item" } }
+        ]
+      },
+      {
+        "level": 5,
+        "title": "记忆",
+        "fields": [
+          { "label": "下落", "text": "决裂后她病了一场，随父亲去香港转重庆。此后这个人再没有出现，却始终没有退场。" },
+          { "label": "珍藏", "text": "他把信封撕破又用玻璃纸仔细衬补，把她写地址的一页剪下来当宝贝收着。匣子不打开，就还不算完全破裂。" },
+          { "label": "立碑的人", "blank": { "answer": "e_fanghongjian", "pool": "person" } },
+          { "label": "余波", "text": "多年后妻子吃醋：是，世界是小，你等着罢，还会碰见一个呢。她成了这段婚姻里没有名字的第三者。" },
+          { "label": "恋爱的方式", "blank": { "answer": "e_dianhua", "pool": "concept" } }
+        ]
+      }
+    ]
+  },
+  "e_baoxiaojie": {
+    "name": "鲍小姐",
+    "type": "person",
+    "tier": "major",
+    "desc": "澳门长大的中葡混血，医科留学生，有未婚夫出资供她出洋。旅途上，她把男人当消遣。",
+    "avatar": "wc-assets/avatars/e_baoxiaojie.jpg",
+    "look": "A Eurasian (Chinese-Portuguese) young woman, warm tan skin, full figure, bold and flirtatious; crimson-pink strapless top, sea-blue tight shorts, red nail polish, Southeast-Asia flair; playful challenging eyes, lazy confident smile; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Eurasian young woman with warm tan skin, bold flirtatious expression, crimson-pink 1930s strapless dress, red nails, playful confident smile, plain warm coral background",
+    "archive": [
+      {
+        "level": 1,
+        "title": "局部的真理",
+        "fields": [
+          { "label": "绰号", "text": "男学生背后叫她“熟食铺子”，又称“局部的真理”——真理是赤裸裸的，她只露局部。" },
+          { "label": "出场", "text": "绯霞色抹胸，海蓝色贴肉短裤，红指甲。一句“你教我想起了我的未婚夫”，就钩住了一个。" },
+          { "label": "未婚夫", "blank": { "answer": "e_liyisheng", "pool": "person" } },
+          { "label": "遗落的东西", "blank": { "answer": "e_fachai", "pool": "item" } },
+          { "label": "收场", "text": "船到香港，她扑进接船的未婚夫怀里。被丢下的那位这才明白：自己不过是航程中的一段插曲。" }
+        ]
+      }
+    ]
+  },
+  "e_gaosongnian": {
+    "name": "高松年",
+    "type": "person",
+    "tier": "major",
+    "desc": "三闾大学校长，昆虫学家出身的“老科学家”。肥脸像没发酵的黄面粉馒头，和易里藏刀。",
+    "avatar": "wc-assets/avatars/e_gaosongnian.jpg",
+    "look": "A plump Chinese man in his forties, fat face like an unrisen yellow-flour steamed bun, small calculating eyes behind a genial smile; entomologist turned university president; dark Western suit, bureaucratic posture, soft unhurried speech; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a plump Chinese man in his forties, fat doughy face, genial smile hiding calculation, dark 1930s suit, plain warm grey background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "校长",
+        "fields": [
+          { "label": "治校", "text": "“我是研究生物学的，学校也是个有机体，教职员之于学校，应当像细胞之于有机体。”" },
+          { "label": "用人", "text": "专聘没有名望、只能依附学校的人。电报里许的是教授，人到校就变成副教授。" },
+          { "label": "那封信", "text": "他声称写过一封解释的信，只是抗战时期的邮政简直该死。撒谎撒得面不改色。" },
+          { "label": "解聘理由", "text": "“我本来要升他一级，谁知道他思想有问题。”清人清得冠冕堂皇，还连声道可惜。" },
+          { "label": "他的大学", "blank": { "answer": "e_sanlu", "pool": "place" } }
+        ]
+      }
+    ]
+  },
+  "e_limeiting": {
+    "name": "李梅亭",
+    "type": "person",
+    "tier": "major",
+    "desc": "中国文学系教授，四十来岁，墨晶眼镜，拎一只一人高的大铁箱。贪吝、好色、爱摆头衔。",
+    "avatar": "wc-assets/avatars/e_limeiting.jpg",
+    "look": "A Chinese man in his forties, smoky dark-crystal glasses showing too much white of the eyes, black woolen Western suit worn even in summer, name cards stuffed with titles; a huge man-height iron trunk always nearby; sour pedantic air, miserly and lecherous; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Chinese man in his forties, smoky dark glasses, whites of eyes visible, black woolen 1930s suit, sour pedantic expression, plain warm olive background",
+    "archive": [
+      {
+        "level": 3,
+        "title": "铁箱",
+        "fields": [
+          { "label": "行头", "text": "黑呢西装夏天也不脱，名片上印着一排头衔，英文名字起得煞有介事。行李多得惊人。" },
+          { "label": "上半箱", "text": "开箱一看，上半箱是四角号码排列的读书卡片：只要有它，中国书全烧完了，我还能照样开课程。" },
+          { "label": "下半箱", "text": "下半箱竟是满满的西药，准备到内地十倍价钱倒卖。被拆穿，他掩饰：各位万一生起病来，才知道我的功劳。" },
+          { "label": "那只箱子", "blank": { "answer": "e_tiexiang", "pool": "item" } },
+          { "label": "牵线的人", "blank": { "answer": "e_wangmeiyu", "pool": "person" } }
+        ]
+      },
+      {
+        "level": 4,
+        "title": "训导长",
+        "fields": [
+          { "label": "落空", "text": "系主任的位置先许了他，到校当晚却变成别人的欢迎会——当系主任和结婚一样，先进门三日就是大。" },
+          { "label": "顶缺的人", "blank": { "answer": "e_wangchuhou", "pool": "person" } },
+          { "label": "新官", "text": "转头当上训导长，推行导师制：师生同吃饭，未婚先生不得做女学生导师——全系只有一个人未婚。" },
+          { "label": "告密", "text": "宴会上他向校长告密别人家里打牌赌钱，反被主人设计诱上牌桌，当场现形。" },
+          { "label": "小册子", "text": "一本左倾小册子从同事房里翻出来，经他的手呈到校长桌上——一个人的解聘就这么定了。" }
+        ]
+      }
+    ]
+  },
+  "e_guerqian": {
+    "name": "顾尔谦",
+    "type": "person",
+    "tier": "major",
+    "desc": "历史系副教授，高校长的远亲，近五十岁，两颗金门牙。马屁拍得炉火纯青。",
+    "avatar": "wc-assets/avatars/e_guerqian.jpg",
+    "look": "A Chinese man near fifty, two gold front teeth flashing when he smiles, a smile thirty years younger than his face; obsequious bowing posture, neat old-fashioned suit; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Chinese man near fifty, flashing two gold front teeth, overly eager obsequious smile, neat old-fashioned 1930s suit, plain warm sand background",
+    "archive": [
+      {
+        "level": 3,
+        "title": "马屁精",
+        "fields": [
+          { "label": "面相", "text": "近五十岁，笑容却比脸年轻三十岁，两颗金门牙随着恭维话一闪一闪。" },
+          { "label": "口头禅", "text": "哪里的话！佩服佩服！名师必出高徒！——拍马屁跟恋爱一样，不容许有第三者冷眼旁观。" },
+          { "label": "靠山", "blank": { "answer": "e_gaosongnian", "pool": "person" } },
+          { "label": "抢付账", "text": "旅途中抢着付账，抢得惊天动地，付得寥寥无几。大家心里都有数，谁也不拆穿。" }
+        ]
+      }
+    ]
+  },
+  "e_hanxueyu": {
+    "name": "韩学愈",
+    "type": "person",
+    "tier": "major",
+    "desc": "历史系主任，未老先秃，口吃，每字像有人格担保。履历辉煌：美国克莱登大学博士。",
+    "avatar": "wc-assets/avatars/e_hanxueyu.jpg",
+    "look": "A prematurely balding Chinese man, dull grey complexion like protective coloration, prominent Adam's apple bobbing when he stammers; slow weighty speech, drab suit; his red-haired freckled White Russian wife often at his side; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a prematurely balding Chinese man, dull grey complexion, prominent Adam's apple, slow stolid expression, drab 1930s suit, plain warm grey-green background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "克莱登",
+        "fields": [
+          { "label": "履历", "text": "美国博士，娶“美国”太太，著作等身。这份履历辉煌得没人敢细看。" },
+          { "label": "试探", "text": "有人提起纽约那个爱尔兰骗子，他面不改色：这个人是个骗子，克莱登是好学校，他是这学校里开除的小职员。" },
+          { "label": "他的母校", "blank": { "answer": "e_kelaideng", "pool": "concept" } },
+          { "label": "太太", "blank": { "answer": "e_hantaitai", "pool": "person" } },
+          { "label": "秘诀", "text": "同样是买文凭，有人心虚理亏处处碰壁，他理直气壮步步高升。谎言坚持到底，就是胜利。" }
+        ]
+      },
+      {
+        "level": 4,
+        "title": "系主任",
+        "fields": [
+          { "label": "暗箭", "text": "三个历史系旁听生被派去别人课上设套，又散布某人辱骂外语系主任的谣言——都是这位系主任的手笔。" },
+          { "label": "斗法对象", "blank": { "answer": "e_liudongfang", "pool": "person" } },
+          { "label": "被拆穿", "text": "被造谣的人抢先一步登门摊牌，两人当场结盟。他的局，一夜之间散了。" },
+          { "label": "狂喜", "text": "听说那人解聘，他拉了白俄太太在家里跳跃，像青蛙和虼蚤。七月四日“美国国庆”，大宴同事。" }
+        ]
+      }
+    ]
+  },
+  "e_wangchuhou": {
+    "name": "汪处厚",
+    "type": "person",
+    "tier": "major",
+    "desc": "中国文学系主任，教育部汪次长的伯父，革职贪官出身的老派名士，留着一画胡子。",
+    "avatar": "wc-assets/avatars/e_wangchuhou.jpg",
+    "look": "An elderly Chinese gentleman-scholar, a thin streak of goatee, old-style mandarin jacket and long gown, folding fan; former official dismissed for corruption, always name-dropping his nephew the vice-minister; pompous literati air; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of an elderly Chinese gentleman with a thin streak of goatee, old-style 1930s mandarin jacket, holding a folding fan, pompous literati air, plain warm brown background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "系主任",
+        "fields": [
+          { "label": "来头", "text": "侄儿是教育部次长。他本人做过官、革过职，如今来做系主任——官场的手段，一样用在学府。" },
+          { "label": "治系", "text": "他传授升官术：讲师好比通房丫头，教授好比夫人——至于副教授，他还有个更刻薄的比方。" },
+          { "label": "那个比方", "blank": { "answer": "e_rufuren", "pool": "concept" } },
+          { "label": "拉拢", "text": "他看中新来的副教授，许下“下学期添哲学系”的愿。空头支票开得顺手，听的人却当了真。" },
+          { "label": "家里", "text": "续弦夫人年轻貌美，他管不住，也看不住。春假那一夜的事，闹得全校皆知。" }
+        ]
+      }
+    ]
+  },
+  "e_wangtaitai": {
+    "name": "汪太太",
+    "type": "person",
+    "tier": "major",
+    "desc": "汪处厚的续弦夫人，二十五岁，美而多病，会画国画弹钢琴。寂寞，所以危险。",
+    "avatar": "wc-assets/avatars/e_wangtaitai.jpg",
+    "look": "A beautiful Chinese woman of twenty-five, light-purple qipao, powdered face with vivid red lips, all ten fingernails red, often hugging a leather hot-water bottle; frail and languid but sharp-tongued, paints traditional painting and plays piano; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a beautiful languid Chinese woman of twenty-five, light-purple 1930s qipao, powdered face, vivid red lips and nails, hugging a hot-water bottle, plain warm lilac background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "媒人",
+        "fields": [
+          { "label": "做媒", "text": "你们新回国的单身留学生，像新出炉的烧饼，有小姐的人家抢都抢不匀呢。她一桌饭配两对。" },
+          { "label": "配给赵主任的", "blank": { "answer": "e_fanyi", "pool": "person" } },
+          { "label": "配给方副教授的", "blank": { "answer": "e_liuxiaojie", "pool": "person" } },
+          { "label": "反将一军", "text": "有人向校长告密她家打牌赌钱。她不辩，只设个局诱告密者自己坐上牌桌——当场现形。" },
+          { "label": "病与美", "text": "浅紫旗袍，脸敷粉而唇鲜红，十指甲全红，常抱着皮热水袋。病是她的姿态，也是她的武器。" }
+        ]
+      },
+      {
+        "level": 4,
+        "title": "那一夜",
+        "fields": [
+          { "label": "散步", "text": "春假夜晚，她邀人散步，临别赠言：切忌对一个女人说另外一个女人好——尤其当了我这样一个脾气坏、嘴快的人。" },
+          { "label": "撞破", "text": "归来时被丈夫与校长撞见拉扯。她索性装疯卖傻：我跟他的关系，我也忘了。咱们俩什么关系？" },
+          { "label": "事发之地", "blank": { "answer": "e_wangjia", "pool": "place" } },
+          { "label": "芥菜子", "text": "你的胆只有芥菜子这么大——就害怕到这个地步！一句话，把一个男人送出了这所学校。" },
+          { "label": "后来", "text": "当夜那人辞职去了重庆。她照样画她的画，弹她的琴，仿佛什么都没发生。" }
+        ]
+      }
+    ]
+  },
+  "e_liudongfang": {
+    "name": "刘东方",
+    "type": "person",
+    "tier": "major",
+    "desc": "外语系主任，精明护短，跟历史系主任明争暗斗。最操心的事：妹妹的婚事。",
+    "avatar": "wc-assets/avatars/e_liudongfang.jpg",
+    "look": "A shrewd Chinese man in his thirties, foreign-languages department head, sharp eyes, well-groomed, protective of his own people; neat Western suit, quick calculating speech; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a shrewd Chinese man in his thirties, sharp calculating eyes, neat 1930s Western suit, faint guarded smile, plain warm blue-grey background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "护短",
+        "fields": [
+          { "label": "护短", "text": "自己系里的人，自己护。孙小姐的课没人愿代，他先想到的不是学生，是怕韩太太顶了缺。" },
+          { "label": "结盟", "text": "谣言说新来的副教授骂他。那人抢先登门摊牌，三言两语，两人当场结成同盟，拆穿幕后的人。" },
+          { "label": "对手", "blank": { "answer": "e_hanxueyu", "pool": "person" } },
+          { "label": "妹妹", "blank": { "answer": "e_liuxiaojie", "pool": "person" } },
+          { "label": "做媒", "text": "托汪太太做媒，想把妹妹许给那位方副教授。一顿晚宴下来，妹妹受足冷落，婚事不了了之。" }
+        ]
+      }
+    ]
+  },
+  "e_luzixiao": {
+    "name": "陆子潇",
+    "type": "person",
+    "tier": "major",
+    "desc": "历史系教授，油头粉面，桌上摆着“行政院”大信封，写情书附纸画加号减号。",
+    "avatar": "wc-assets/avatars/e_luzixiao.jpg",
+    "look": "A sleek oily Chinese man, glossy pomaded hair, powdered face, showy suit; on his desk huge envelopes lettered with grand government office names; writes love letters with plus-or-minus reply slips; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a sleek Chinese man with glossy pomaded hair and powdered face, showy 1930s suit, self-satisfied oily smile, plain warm grey background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "情书",
+        "fields": [
+          { "label": "派头", "text": "桌上常年摆着“行政院”“外交部”的大信封，仿佛天天有国事要办。信封是空的，派头是真的。" },
+          { "label": "那封情书", "blank": { "answer": "e_jiajian", "pool": "item" } },
+          { "label": "追求方式", "text": "情书里附一张纸：若同意请画加号，否则画减号。收信人原包退回，不写一字。" },
+          { "label": "求而不得", "text": "他追求的人转头跟方副教授订了婚。匿名信写给她父亲造谣，嫌疑落到他头上。" },
+          { "label": "那本书", "blank": { "answer": "e_gongchan", "pool": "item" } }
+        ]
+      }
+    ]
+  },
+  "e_fanyi": {
+    "name": "范懿",
+    "type": "person",
+    "tier": "major",
+    "desc": "女生指导兼教育系讲师，近视，爱戴无边眼镜，迷话剧。恨嫁的心思，写在借出去的书上。",
+    "avatar": "wc-assets/avatars/e_fanyi.jpg",
+    "look": "A Chinese woman in her late twenties, rimless glasses for severe myopia, plain spinsterish dress, loves amateur theatre; anxious, eager, marriage-hungry; lends books with self-written dedications on the flyleaf; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a Chinese woman in her late twenties, rimless glasses, plain modest 1930s dress, anxious eager expression, plain warm beige background",
+    "archive": [
+      {
+        "level": 4,
+        "title": "恨嫁",
+        "fields": [
+          { "label": "做媒对象", "text": "汪太太把她配给政治系主任。饭后送女客，她一路摔跤、丢手提袋，费尽心机制造机会。" },
+          { "label": "那本书", "blank": { "answer": "e_juben", "pool": "item" } },
+          { "label": "扉页", "text": "借出去的书，扉页写着“To my precious darling, From the author”。有人点破：那行字多半是她自己写的。" },
+          { "label": "话剧", "text": "她爱话剧，张口闭口都是戏。把日子过成戏的人，往往等不到自己要的那一场。" },
+          { "label": "结局", "text": "那场晚宴之后，意中人毫无动静。她的戏，始终没能开演。" }
+        ]
+      }
+    ]
+  },
+  "e_fangdunweng": {
+    "name": "方遯翁",
+    "type": "person",
+    "tier": "major",
+    "desc": "方鸿渐的父亲，前清举人，江南乡绅。一把折扇，一本日记，满脑子之乎者也。",
+    "avatar": "wc-assets/avatars/e_fangdunweng.jpg",
+    "look": "An elderly Chinese country gentleman, former Qing-dynasty juren, grizzled beard, mandarin jacket and long gown, folding fan, always composing diary entries in his head; pedantic, self-important, fond of giving grandsons literary names; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of an elderly Chinese gentleman with grizzled beard, 1930s mandarin jacket and long gown, holding a folding fan, pedantic self-important air, plain warm ochre background",
+    "archive": [
+      {
+        "level": 1,
+        "title": "乡绅",
+        "fields": [
+          { "label": "身份", "text": "前清举人，江南小县的大绅士。儿子回国，他率众迎接，两个本地记者追着拍照。" },
+          { "label": "骂子信", "text": "儿子写信求退婚，他痛骂：汝托词悲秋，吾知汝实为怀春。若执迷不悔，吾将停止寄款。" },
+          { "label": "日记癖", "text": "一言一行都想着日记里如何记法。给孙子起名“非相”“非攻”，处处要留文字。" },
+          { "label": "儿子演讲", "text": "儿子在县里演讲出丑，说媒的人家纷纷索回庚帖。他面上无光，只道是时运不济。" },
+          { "label": "那个讲台", "blank": { "answer": "e_litang", "pool": "place" } }
+        ]
+      },
+      {
+        "level": 5,
+        "title": "公公",
+        "fields": [
+          { "label": "教训儿媳", "text": "我总觉得女人的责任是管家，你们对你们的丈夫总要服侍得他们称心的。儿媳反问：你赚多少钱一个月可以把我供在家里？" },
+          { "label": "坍台", "text": "儿媳挣得比儿子多一倍。老两口私下感叹：儿子坍尽了天下丈夫的台。" },
+          { "label": "日记", "text": "他在日记里考证：春秋时有两国世代通婚，又世代打仗。亲家相恶，于今为烈——这典故用在今天，再合适不过。" },
+          { "label": "那个典故", "blank": { "answer": "e_qinjin", "pool": "concept" } },
+          { "label": "送的礼", "blank": { "answer": "e_laozhong", "pool": "item" } }
+        ]
+      }
+    ]
+  },
+  "e_zhoujingli": {
+    "name": "周经理",
+    "type": "person",
+    "tier": "major",
+    "desc": "点金银行经理，方鸿渐的挂名岳父。精明里讲几分情义，就是怕太太。",
+    "avatar": "wc-assets/avatars/e_zhoujingli.jpg",
+    "look": "A middle-aged Shanghai banker, sleek but henpecked, mild shrewd eyes, dark suit and tie; bank manager; courteous, calculating, slightly timid at home; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a middle-aged Shanghai banker, mild shrewd eyes, dark 1930s suit and tie, courteous slightly timid smile, plain warm tan background",
+    "archive": [
+      {
+        "level": 1,
+        "title": "岳父",
+        "fields": [
+          { "label": "翁婿", "text": "女儿病故，女婿的唁信文辞凄婉，他读了感动，把陪嫁款加聘金共两万元供他出洋。" },
+          { "label": "他的银行", "blank": { "answer": "e_dianjin", "pool": "place" } },
+          { "label": "登报", "text": "女婿的“博士照”登上报纸：各大机关正争相礼聘。他要的是体面，女婿恨不得找条地缝。" },
+          { "label": "惧内", "text": "家里大事小事，太太说了算。他精明了一辈子，回到家只剩点头。" },
+          { "label": "那份报纸", "blank": { "answer": "e_hubao", "pool": "item" } }
+        ]
+      }
+    ]
+  },
+  "e_zhoutaitai": {
+    "name": "周太太",
+    "type": "person",
+    "tier": "major",
+    "desc": "周经理之妻，方鸿渐的丈母娘。信佛，势利，一犯肝胃气，全家不得安生。",
+    "avatar": "wc-assets/avatars/e_zhoutaitai.jpg",
+    "look": "A stout middle-aged Shanghai lady, Buddhist prayer beads, expensive but gaudy dress, chronically suffering liver-stomach qi attacks; snobbish, sharp-tongued, keeps the family ledger in her head; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a stout middle-aged Shanghai lady, Buddhist beads, gaudy expensive 1930s dress, snobbish displeased expression, plain warm rose background",
+    "archive": [
+      {
+        "level": 1,
+        "title": "丈母娘",
+        "fields": [
+          { "label": "算账", "text": "赔了这许多本钱，为什么不体面一下！他出洋花的是咱们的钱，娶媳妇，当然不能撇开咱们。" },
+          { "label": "干亲", "text": "她盘算认女婿未来的太太做干女儿——亲上加亲，投资才能收回。" },
+          { "label": "肝胃气", "text": "她有肝胃气的毛病，一生气就犯。这病来得巧，病得也巧，全家都得顺着她。" },
+          { "label": "信佛", "text": "她吃斋念佛，账目却算得比谁都清。慈悲是门面，本钱是里子。" },
+          { "label": "这个家", "blank": { "answer": "e_zhoujia", "pool": "place" } }
+        ]
+      }
+    ]
+  },
+  "e_caoyuanlang": {
+    "name": "曹元朗",
+    "type": "person",
+    "tier": "major",
+    "desc": "剑桥回来的“新诗人”，滚圆脸像四喜丸子。娶了苏文纨，诗却写得像拼盘。",
+    "avatar": "wc-assets/avatars/e_caoyuanlang.jpg",
+    "look": "A plump Chinese 'new poet' back from Cambridge, round rolling face like a four-joy meatball, sweat-soaked stiff white collar; recites collage poetry with utter seriousness; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a plump Chinese poet, round meatball face, sweat-soaked stiff white collar, earnest comical expression, 1930s suit, plain warm cream background",
+    "archive": [
+      {
+        "level": 2,
+        "title": "新诗人",
+        "fields": [
+          { "label": "诗论", "text": "诗有意义是诗的不幸！——他的诗确实没有意义，句句从各国名诗里拼来。" },
+          { "label": "代表作", "blank": { "answer": "e_pinpan", "pool": "item" } },
+          { "label": "追求方式", "text": "他的追求方式，是把自己的“诗”一首首捧到女博士面前朗诵，脸不红，气不喘。" },
+          { "label": "长相", "text": "滚圆脸，肥短身材，汗浸的白硬领圈。女博士挑来挑去，挑中了他。" },
+          { "label": "订婚", "text": "电话摊牌那天，她骂出“你这个浑蛋”，转头就答应了这门亲事。报上很快登出订婚启事。" }
+        ]
+      }
+    ]
+  },
+  "e_lutaitai": {
+    "name": "陆太太",
+    "type": "person",
+    "tier": "major",
+    "desc": "孙柔嘉的姑母，纱厂人事科科长，美国留学生。精明强硬，养着一只哈巴狗。",
+    "avatar": "wc-assets/avatars/e_lutaitai.jpg",
+    "look": "A hard-nosed middle-aged Chinese woman, American-educated, personnel chief of a cotton mill; sharp Western-style dress, English words peppered in her speech, a Pekingese lapdog named Bobby in her arms; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a hard-nosed middle-aged Chinese woman, sharp Western-style 1930s dress, holding a Pekingese lapdog, commanding expression, plain warm mauve background",
+    "archive": [
+      {
+        "level": 5,
+        "title": "姑母",
+        "fields": [
+          { "label": "派头", "text": "纱厂人事科科长，美国留学生，说话夹英文。侄女一家都仰仗她。" },
+          { "label": "判词", "text": "她在侄女婿背后下结论：鸿渐这个人，本领没有，脾气倒很大。男人像小孩子一样，不能 spoil 的。" },
+          { "label": "爱犬", "text": "她养一只哈巴狗，取名 Bobby，疼得像个孩子。" },
+          { "label": "送的东西", "text": "侄女结婚，她送了一房家具。这份人情，后来成了小两口吵架的弹药。" },
+          { "label": "跟着她走的人", "blank": { "answer": "e_lima", "pool": "person" } }
+        ]
+      }
+    ]
+  },
+  "e_lima": {
+    "name": "李妈",
+    "type": "person",
+    "tier": "major",
+    "desc": "孙柔嘉的奶妈，陪嫁过来的女佣。眼睛只看着小姐，事事“先问小姐”。",
+    "avatar": "wc-assets/avatars/e_lima.jpg",
+    "look": "A stout elderly Chinese amah, spotless apron, hair slicked perfectly neat, eyes always on her mistress; loyal, talkative, fiercely protective of her 'Miss'; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a stout elderly Chinese amah, clean apron, neatly slicked hair, loyal watchful eyes, plain warm brown background",
+    "archive": [
+      {
+        "level": 5,
+        "title": "先问小姐",
+        "fields": [
+          { "label": "偏心", "text": "小姐爱吃菠菜的，我要先问问她。姑爷，晒衣服是娘儿们的事，您不用管。这个家里，她只认一个主人。" },
+          { "label": "生米粽子", "text": "她的男人老李，端午吃粽子，把有赤豆的尖儿全吃了，给她吃粽子跟儿——没煎熟，她吃了生米，胀了好几天。" },
+          { "label": "护主", "text": "姑爷，你怎么动手打人？我从小喂你吃奶，用气力拍你一下都没有，他倒动手打你！" },
+          { "label": "那个电话", "text": "终吵那夜，她一个电话搬来救兵。天亮前，她跟着小姐走了。" },
+          { "label": "她叫来的人", "blank": { "answer": "e_lutaitai", "pool": "person" } }
+        ]
+      }
+    ]
+  },
+  "e_dongxiechuan": {
+    "name": "董斜川",
+    "type": "person",
+    "tier": "major",
+    "desc": "前捷克公使馆军事参赞，同光体诗人，名父之子。谈起古人，眼高于顶。",
+    "avatar": "wc-assets/avatars/e_dongxiechuan.jpg",
+    "look": "A lean elegant Chinese man, former military attache in Czechoslovakia, old-school Tongguang-style poet, son of a famous father; long gown, supercilious eyes, judges all poetry harshly; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a lean elegant Chinese man, old-style 1930s long gown, supercilious aloof expression, plain warm ink-grey background",
+    "archive": [
+      {
+        "level": 2,
+        "title": "诗人",
+        "fields": [
+          { "label": "评诗", "text": "当然是陈散原第一，这五六百年，算他最高。有人怯问能不能添个“坡”字，他答：苏东坡，他差一点。" },
+          { "label": "发明", "text": "他发明过一个称呼：同跟一个先生念书的叫同师兄弟，同有一个情人的该叫「同情」。这个词后来成全了一段友谊。" },
+          { "label": "来历", "text": "做过驻捷克公使馆军事参赞，却是旧体诗人；是名父之子，最怕人说他靠父亲。" },
+          { "label": "那场酒宴", "blank": { "answer": "e_zhaogongyu", "pool": "place" } }
+        ]
+      }
+    ]
+  },
+  "e_chushenming": {
+    "name": "褚慎明",
+    "type": "person",
+    "tier": "major",
+    "desc": "“哲学家”，夹鼻眼镜，靠给外国大哲学家写信骗回信出名。他叫罗素 Bertie。",
+    "avatar": "wc-assets/avatars/e_chushenming.jpg",
+    "look": "A thin Chinese 'philosopher', pince-nez glasses, makes a career of writing to famous philosophers and calling Russell 'Bertie'; earnest absurd air, once dropped his glasses into a milk glass; 1930s Republican China, bright Japanese anime style",
+    "avatarPrompt": "Upper-body front portrait of a thin Chinese philosopher, pince-nez glasses, earnest absurd expression, drab 1930s suit, plain warm white background",
+    "archive": [
+      {
+        "level": 2,
+        "title": "哲学家",
+        "fields": [
+          { "label": "成名术", "text": "他给罗素等大哲学家写信，问些无关痛痒的问题，骗来回信，便自称是他们的朋友。" },
+          { "label": "Bertie", "text": "他把罗素叫 Bertie，仿佛多年的老交情：关于 Bertie 结婚离婚的事，我也和他谈过。" },
+          { "label": "那句格言", "text": "他转述罗素的话：结婚仿佛金漆的鸟笼，笼外的鸟想住进去，笼内的鸟想飞出来。" },
+          { "label": "那个比喻", "blank": { "answer": "e_weicheng", "pool": "concept" } },
+          { "label": "掉眼镜", "text": "夹鼻眼镜掉进牛奶杯。他捞起来说：人没有这个身体，全是心灵，岂不更好。" }
+        ]
+      }
+    ]
+  }
+}

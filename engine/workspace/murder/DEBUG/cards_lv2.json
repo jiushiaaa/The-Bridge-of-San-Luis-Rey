@@ -1,0 +1,403 @@
+[
+  {
+    "id": "c2_01", "level": 2, "form": "scene", "difficulty": "normal", "len": "L",
+    "col": "名场面", "row": 0, "title": "餐桌上的名字",
+    "cg": "murder-assets/cg/c2_01.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A dim Caribbean dining room before dawn lit by one oil lamp: a disheveled young woman with long dark hair sits on a wooden dining table, two identical young men in work shirts loom over her with their backs partly to camera, a stern middle-aged mother stands rigid beside them; oppressive warm lamplight against deep blue night outside the window. No text.",
+    "segments": [
+      { "kind": "narration", "text": "婚礼的喧闹刚散，全镇都睡熟了，喝了喜酒的宾客东倒西歪地躺在各处。只有这户人家的灯，一直亮到后半夜。女儿被新郎连夜送了回来——敲门三下，客客气气，像退一件不合心意的货。{{e_pulixi|普里西}}关起门，打了女儿整整两个小时，然后差人把两个儿子从被窝里召回家。" },
+      { "kind": "narration", "text": "那两个小时里，哭声从堂屋传到街上，又从街上退回堂屋。左邻右舍听见了，都装作没听见——人家管教自己的女儿，旁人插不得嘴。" },
+      { "kind": "dialogue", "speakerEntry": "e_pulixi", "text": "（坐在堂屋正中，声音哑的）都来了？好。家里的事，家里了。" },
+      { "kind": "narration", "text": "[[NPC2]]披着衣裳进门，看见妹妹坐在地上，头发散了，脸上带着伤，一声不吭。当妈的教过书，一辈子教学生认字，最恨的就是不体面；今晚她亲手把体面打碎，又要亲手把它粘回去。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（愣在门口）妈，这是……出什么事了？" },
+      { "kind": "dialogue", "speakerEntry": "e_pulixi", "text": "（扶着桌角站起来）我只问一句，问完就睡。那个败坏你妹妹名声的人，是谁。" },
+      { "kind": "narration", "text": "屋里静了一瞬。弟弟先反应过来，上前一步，拦腰把妹妹提起来，摔坐在餐桌上。碗碟哗啦一声响。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（咬着牙）说！别让妈问第二遍。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（一左一右逼上去）说吧，丫头，告诉我们，是谁干的。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "说出来。{{e_rongyu|荣誉}}这个东西，不能白白扔在地上让人踩，得有人拿命去撑。" },
+      { "kind": "narration", "text": "灯芯哔剥响了一声。她几乎不假思索，抬起头，吐出一个名字。声音不大，却清清楚楚，像在课堂上回答一个背熟了的问题：纳萨。这个名字的主人，她统共没说过几句话。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（直直地看着两个哥哥）纳萨。" },
+      { "kind": "narration", "text": "那个名字像一只没有意志的蝴蝶，被一支飞镖钉在了墙上。没人问一句“当真吗”，没人想去核实，甚至没人多看她一眼。母亲缓缓转过身，像是卸下了什么，又像是扛起了什么。" },
+      { "kind": "dialogue", "speakerEntry": "e_pulixi", "text": "（闭上眼，摆了摆手）好。剩下的事，交给你们两个。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（低声商量）先去磨家伙。……要不要跟爹说一声？" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "爹眼睛看不见，就别叫他听见了。这事，儿子们办。" },
+      { "kind": "narration", "text": "盲眼的父亲在里屋翻了个身，咳嗽了两声，谁也没进去看他。这个家从今夜起，换了主心骨。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（对看一眼，齐齐躬下身）妈，您放心。天一亮，全镇都会知道，我们家的人不容白欺负。" },
+      { "kind": "narration", "text": "两个儿子转身出门，脚步声一路响到院子里。[[NPC1]]还坐在餐桌上，听着那个名字在空荡荡的屋里生根。许多年后，有人一遍一遍问她：当真是他吗？她从头到尾只有一句话。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（轻声，像是对自己说）是他。就是他。" },
+      { "kind": "narration", "text": "窗外的天开始泛白。再过几个小时，这个名字会顺着磨刀声传遍全镇。而此刻，它只是屋梁上一只钉死的蝴蝶，静静地垂着。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_anhela" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_tufu" },
+      { "slot": "地点", "kind": "place", "answer": "e_weikajia" }
+    ],
+    "hints": ["她说出的名字精准得像一支飞镖", "没有人去核实这个名字的真假"]
+  },
+  {
+    "id": "c2_02", "level": 2, "form": "scene", "difficulty": "normal", "len": "M",
+    "col": "名场面", "row": 1, "title": "肉市磨刀",
+    "cg": "murder-assets/cg/c2_02.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A butcher shed at 3 a.m., sparks flying from a grinding wheel where two identical young men in aprons sharpen long knives, meat hooks and carcasses hanging in the background, other workers glancing over uneasily; harsh lamplight, tense blue night air. The two men are seen from the side, faces half in shadow. No text.",
+    "segments": [
+      { "kind": "narration", "text": "凌晨三点二十，铁棚子底下正是一天最热闹的时候。铁钩上挂着半扇半扇的肉，案板上的油花还没擦净。砂轮忽然响了，两个人影轮流把刀摁上去，火星子溅在围裙上。{{e_tudao|两把屠刀}}磨得雪亮，刀尖凑到灯前照了又照。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（头也不抬）听好了——我们要杀纳萨。就在今天。" },
+      { "kind": "narration", "text": "旁边剔骨头的伙计们哄一声笑了，只当是醉话。有人往这边瞟了一眼，又低下头去。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（提高嗓门）不是醉话！全镇都可以做个见证！" },
+      { "kind": "dialogue", "speaker": "肉贩福斯蒂诺", "text": "（擦着手凑过来，打圆场）行了行了，刀放下。大清早的，怪瘆人。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（把刀往案上一拍）瘆人就对了！话我们撂在这儿，谁听见了都算数。" },
+      { "kind": "narration", "text": "砂轮声一停，棚子里静得反常。有人小声嘀咕：这哥俩的妹妹，昨夜叫人退回来了。哦——众人恍然大悟，又各自低下头去。恍然大悟归恍然大悟，谁也没挪步。" },
+      { "kind": "dialogue", "speaker": "肉贩福斯蒂诺", "text": "（低声问旁边人）他妹妹那事，是真的？……唉，作孽。" },
+      { "kind": "narration", "text": "众人照旧干自己的活。后来有个老师傅说：我们宰牛的时候，都不敢看它的眼睛——人嚷嚷着要杀人，多半是不敢真动手的。这话在铁棚子底下转了一圈，没人接。{{e_chenmo|集体沉默}}就是从这样的清晨开始的：人人都听见了，人人都觉得自有别人去管。" },
+      { "kind": "dialogue", "speaker": "肉贩福斯蒂诺", "text": "（想了想，还是解下围裙）不成，这话我得报上去。" },
+      { "kind": "narration", "text": "他一路小跑，把话带给了巡逻的警察。" },
+      { "kind": "dialogue", "speaker": "警察莱安德罗", "text": "（打着哈欠记录）磨刀？扬言杀人？行，我知道了，这就去回禀镇长。（边走边嘟囔）大喜的日子刚过，尽出这些事。" },
+      { "kind": "narration", "text": "棚子里，两个人还在磨。刀越磨越亮，话越喊越响——二十二只耳朵听见了这句话，跑出去报信的，只有一个肉贩。出门前，他们把刀用报纸裹了，又当众喊了一遍。这一回，没人再笑。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" },
+      { "slot": "地点", "kind": "place", "answer": "e_roushi" }
+    ],
+    "hints": ["他们把杀人喊得比卖肉还响", "听见的有二十二个人，报警的只有一个"]
+  },
+  {
+    "id": "c2_03", "level": 2, "form": "scene", "difficulty": "hard", "len": "M",
+    "col": "名场面", "row": 2, "title": "牛奶店的等待",
+    "cg": "murder-assets/cg/c2_03.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A small milk shop at 4 a.m., the only lit window in a dark street: two men asleep side by side on a wooden bench, newspaper-wrapped bundles with a blade's gleam held against their chests; a middle-aged woman shopkeeper frozen behind the counter, hand over her mouth; single warm lamp, breath-holding stillness. Faces of the two men hidden in shadow. No text.",
+    "segments": [
+      { "kind": "narration", "text": "四点十分，全镇只有这一家店还亮着灯。门被推开，两个人带着一身寒气进来，怀里抱着报纸包着的长条东西。老板娘一眼就认出那是什么——{{e_tudao|两把屠刀}}，报纸的边角露出新磨的寒光。" },
+      { "kind": "narration", "text": "她认得他们——全镇谁不认得这对双生子，一模一样的两张脸，小时候还在她店门口喝过奶。可这会儿，她宁可自己从没见过他们。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（大剌剌坐下）两杯咖啡。我们在这儿等一个人。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（压着声音）二位……这么早。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "不早啦。（拍拍怀里的报纸卷）我们只是在找他。找着了，就杀了他。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（打了个哈欠）天亮了，叫我们一声。" },
+      { "kind": "narration", "text": "咖啡端上去，两个人却靠着长凳睡着了。刀在怀里，随着呼吸一起一伏。老板娘守在柜台后面，大气不敢出——吵醒他们，不敢；放他们走，更不敢。她把门掩上一半，把灯拨暗一点，像哄睡两口炸药桶。街上偶有脚步声经过，她多想喊一嗓子，又怕惊了屋里的两个人。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（自语）主啊，叫船早点到，也叫人早点醒。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（凑近了，几乎是耳语）二位，求你们……可别冒犯了主教大人。今天是什么日子，你们知道的。" },
+      { "kind": "narration", "text": "两个人睁开眼，迟疑了一下，对望一眼。那句话在屋里悬了很久，久到她以为事情要成了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（沉默半晌，又坐回去）……再坐会儿吧。船还早。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（闭上眼）别费心了，老板娘。话已经说出去了。" },
+      { "kind": "narration", "text": "她退回去，腿肚子直转筋。男人还在楼上睡着，她没喊他——喊下来，事情只会更糟。后来全镇的人回想起来，都说那是这个清晨唯一一次，事情差一点就拐了弯。她给他们续上咖啡，手一直在抖。门帘上的霜花在灯下亮晶晶的。灯亮着，长凳上的两个人睡着，怀里的刀醒着。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_keluodi" },
+      { "slot": "地点", "kind": "place", "answer": "e_niunaidian" }
+    ],
+    "hints": ["睡在长凳上的人怀里揣着刀", "老板娘的那句哀求差一点就成了"]
+  },
+  {
+    "id": "c2_04", "level": 2, "form": "scene", "difficulty": "normal", "len": "M",
+    "col": "名场面", "row": 3, "title": "镇长收走的刀",
+    "cg": "murder-assets/cg/c2_04.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. Inside a small shop before dawn, a pompous older officer in a colonel's jacket tucks two long knives under his arm with official self-importance; two identical young men stand with heads bowed, a woman shopkeeper reaches out pleading from behind the counter, a sleepy policeman at the door; cold blue morning light meets warm lamplight. No text.",
+    "segments": [
+      { "kind": "narration", "text": "警察的消息一层层报上去，镇长披着外套赶来了。他一进门，先看见长凳上的两个人，再看见桌上报纸包着的{{e_tudao|两把屠刀}}。" },
+      { "kind": "narration", "text": "原来半个时辰前，巡逻的警察把听来的话报了上去。镇长翻了个身想接着睡，到底不放心，还是披衣赶来了。进门之前，他先整了整领口——官威这东西，半夜也不能塌。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（把刀往腋下一夹，摆足了官威）好啊，磨刀磨到这儿来了。刀，我没收了。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（站起来，低着头）镇长，我们……" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（挥手打断）回家睡觉！酒醒了就好了。现在他们俩没了凶器，谁也杀不了了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（瞪眼）还敢犟嘴？再叫我听见一句，连人也锁起来！" },
+      { "kind": "narration", "text": "他训得中气十足。门口早起的几个主妇直点头：镇长办事，还是利索。" },
+      { "kind": "narration", "text": "柜台后面，{{e_keluodi|克洛蒂}}端着奶锅的手停住了。她看着镇长把刀包好，像办完一件公事那样拍了拍手。" },
+      { "kind": "dialogue", "speakerEntry": "e_keluodi", "text": "（追出来两步）长官，不能就这么算了！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（皱眉）刀都在我手里了，还怕什么？" },
+      { "kind": "dialogue", "speakerEntry": "e_keluodi", "text": "（急得直摇头）不是为了这个！应该让两个可怜的小伙子从可怕的承诺中解脱出来！刀收得走，话收不走啊！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（打了个哈欠）行了行了，天塌不下来。等迎完主教，什么事都好说。" },
+      { "kind": "dialogue", "speakerEntry": "e_keluodi", "text": "（压着嗓子）利索？他要真利索，就该把人看起来，看过了今天再说！" },
+      { "kind": "narration", "text": "镇长走了，店里静下来。警察莱安德罗落在后头，挠了挠头。" },
+      { "kind": "dialogue", "speaker": "警察莱安德罗", "text": "（小声）老板娘，镇长都发话了……要不，你也回去睡会儿？" },
+      { "kind": "dialogue", "speakerEntry": "e_keluodi", "text": "（望着门口）睡？这个镇今晚谁都不该睡。" },
+      { "kind": "narration", "text": "挂钟滴答。[[NPC2]]没回家。他们在街角转了一圈，又推门回来坐下，眼睛里烧着一股谁也劝不灭的东西。她忽然明白了：镇长收走的是铁，收不走的是那句已经喊出去的话。她数着挂钟，头一次觉得天亮得这样慢，又快得这样吓人。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_aponte" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_tufu" },
+      { "slot": "地点", "kind": "place", "answer": "e_niunaidian" }
+    ],
+    "hints": ["收走刀的人以为事情了了", "老板娘看清了：刀能再取，承诺收不回"]
+  },
+  {
+    "id": "c2_05", "level": 2, "form": "scene", "difficulty": "normal", "len": "M",
+    "col": "名场面", "row": 4, "title": "罗望子树下",
+    "cg": "murder-assets/cg/c2_05.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A misty courtyard before dawn under a huge tamarind tree: one young man presses a newspaper-wrapped long knife into the hands of another who crouches wincing in pain, a pigpen and wooden house in the background; cold blue-grey morning light, fateful mood. Both men seen from behind or side, faces obscured. No text.",
+    "segments": [
+      { "kind": "narration", "text": "从店里被轰出来，两个人深一脚浅一脚往家走。夜露重，谁也没说话。话是他们自己喊出去的，此刻压在两个人肩上，一人一半。" },
+      { "kind": "narration", "text": "回到家，天还没亮。院子里的罗望子树黑黢黢的。弟弟一进门就撑不住了——在部队落下的病又发作，他蹲下去，咬着牙换纱布。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（声音发虚）哥，要不……算了吧。话是说出去了，可刀都叫镇长收走了，这就是天意。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "天意？（冷笑一声）全镇都听见了，你现在跟我说算了？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "我难受，哥。这病折腾得我一宿没合眼。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "我就是心疼妹妹……可真到了动刀这一步，我腿肚子发软。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "软？软也得走。妈在家里看着呢，全镇在窗外看着呢。" },
+      { "kind": "narration", "text": "哥哥没答话，转身去了猪圈。那儿挂着平日干活的家什。他摸黑挑了两把，在磨石上蹭了蹭——{{e_tudao|两把屠刀}}，一把是钢锯改的剁肉刀，一把是带着异国花纹的弯刀。回来的时候，他把刀塞进弟弟手里。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（把弯刀递过去）这把快。你用这把。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（一字一句）没有回头路，就当这件事已经发生了。" },
+      { "kind": "narration", "text": "弟弟握着刀，手心全是汗。先起意的是他，这会儿想退的也是他；反倒是哥哥，把这件事接了过去，扛在了自己肩上。弟弟把纱布缠好，站起身，忽然说：完了事，先去神父那儿。哥哥没接话，算是应下了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（低声）那……顺道去一趟{{e_pulujia|普鲁登家}}吧，你说要喝咖啡的。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "嗯。{{e_puludeng|普鲁登}}这个点儿该起来了。" },
+      { "kind": "narration", "text": "罗望子树的影子底下，两个人把刀用报纸裹好。母亲在堂屋里坐着，没出来送。门轴吱呀一声，两个身影一前一后融进晨雾里。镇子上谁家的鸡叫了头一遍。他们不知道，这一出门就回不了头了——或者说，他们知道。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" },
+      { "slot": "地点", "kind": "place", "answer": "e_weikajia" }
+    ],
+    "hints": ["想退的那个人最终被自己的哥哥拦住", "新取的两把刀，一把是钢锯改的，一把带着异国花纹"]
+  },
+  {
+    "id": "c2_06", "level": 2, "form": "scene", "difficulty": "normal", "len": "L",
+    "col": "名场面", "row": 5, "title": "全镇都知道了",
+    "cg": "murder-assets/cg/c2_06.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A Caribbean town square at dawn: a young novice nun in white running toward the church steps, a distracted priest adjusting his vestments while gazing at the river, townspeople whispering in twos and threes, a worried woman in an apron wringing her hands in the foreground; pale gold morning light, ominous calm. No text.",
+    "segments": [
+      { "kind": "narration", "text": "天还没亮透，消息已经跑遍了全镇：那对兄弟磨了刀，要杀纳萨。卖菜的听见了，挤奶的听见了，扫大街的也听见了。挤奶的女人把话带给买奶的，买奶的又带给修鞋的。消息像晨光一样，一点一点铺满每条街，传到后来，人人知道得详详细细：刀是新磨的，人就等在店里，事儿的起头在凌晨那张餐桌上。可人人嘴上说着“这可怎么好”，人人心想，自有别人去管。" },
+      { "kind": "narration", "text": "送奶的车轱辘从石板路上碾过去，一路吱呀吱呀，像在给这个消息伴奏。亮着灯的店里，老板娘急得团团转。她一把拦住路过教堂的见习修女。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（抓着姑娘的手，一字一句）好孩子，你替我跑一趟，去找神父，就说——那对兄弟揣着刀，要杀人，叫他想想法子！一个字都不许落下！" },
+      { "kind": "dialogue", "speaker": "见习修女", "text": "（吓得直点头）我记下了，我这就去！" },
+      { "kind": "narration", "text": "小修女提着裙摆跑上教堂的台阶，把话原样带到。[[NPC1]]正在试穿祭披，听完连连点头。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（心不在焉地）知道了，知道了，我一定会管的。可怜的孩子，怎么能出这种事。" },
+      { "kind": "narration", "text": "可他转过身，望见河的方向，心里冒出来的第一件事却是：在那个不幸的日子，主教要来。这句念头一落，方才那句口信就像烟一样散了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（对着镜子整理领口，自语）主教的船快到了，可不能有半点闪失。" },
+      { "kind": "narration", "text": "广场另一头，布商贾米尔也听到了风声。他和死者相熟，拔腿想去报信，跑到半路却犹豫了，先拉住了死者的至交好友。" },
+      { "kind": "dialogue", "speaker": "布商贾米尔", "text": "（拽着对方的胳膊）这事是你我该管的吗？要不……咱们先商量商量，从哪儿找起？" },
+      { "kind": "narration", "text": "这一商量，人就错过了。要是他当时径直跑去，兴许还赶得上；可那天早晨，全镇的人都觉得“商量商量”比“赶紧去”要紧。许多年后他回想起来，只觉得那天全镇的钟都走得不怀好意。" },
+      { "kind": "narration", "text": "也有人想起要去大宅递个话，走到半路又折回来：这会儿登门，算怎么回事呢？早起的人们聚在井台边，压着嗓子交换听来的细节，说完各自散开，谁也没往那个方向去。" },
+      { "kind": "narration", "text": "镇长{{e_aponte|阿庞特}}呢？他收过一回刀，便觉得这事已经了了，这会儿正惦记着牌局。警察报过信就回了家。伙计们听完磨刀的话，低头接着剔骨头。{{e_chenmo|集体沉默}}像一层大雾，罩在镇子上空——不是没有人心疼那个年轻人，是每个人都把救人的事，推给了下一个人。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（望着教堂方向，喃喃）神父会管的……修女说送到了，神父总会管的。" },
+      { "kind": "narration", "text": "六点还没到。全镇都知道了。只有那个最该知道的人，还在家里睡着——他凌晨才从婚礼上回来，和衣只睡了一个钟头。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_amaduo" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_keluodi" },
+      { "slot": "地点", "kind": "place", "answer": "e_jiaotang" }
+    ],
+    "hints": ["口信断在了一个最不该断的地方", "全镇的良知加起来，没能凑成一个行动"]
+  },
+  {
+    "id": "c2_07", "level": 2, "form": "monologue", "difficulty": "easy", "len": "S",
+    "col": "屠夫兄弟", "row": 0, "title": "半夜被叫醒",
+    "cg": "murder-assets/cg/c2_07.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A dark Caribbean house interior at 3 a.m., a stern mother silhouetted in a doorway holding a lamp, two young men rising from bed half-dressed, a girl sitting crumpled on the floor of the hallway with disheveled hair; warm lamplight on worried faces, heavy night shadows. No text.",
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "妈半夜把我们从床上拍起来的时候，我还以为走了水。衣裳都来不及披整齐，一进堂屋，看见妹妹{{e_anhela|安赫拉}}坐在地上，头发散着，眼睛肿得只剩一条缝。妈{{e_pulixi|普里西}}站在旁边，手还在抖——她刚打了妹妹两个钟头。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "家里的天塌了。新郎把新娘连夜退了回来，敲门三下，客客气气地道了谢，把我妹妹推进门，像退一件不合心意的货。我们家的姑娘，是妈照着圣人的模子养大的，全镇谁不知道。四个钟头的婚宴，全镇吃了我们家的酒，转身就看我们家的笑话。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "妈就问一句话：是谁。妹妹抬起头，报出一个名字，连磕巴都没打。说实话，我们哥俩没问第二句。妈不问，我们就不问——这个家，什么时候轮到我们说“当真吗”三个字？" },
+      { "kind": "monologue", "slot": "NPC1", "text": "妈说，家里的事家里了。那就是了。我们是儿子，天塌下来，儿子得拿手顶着。妹妹的名声不能白白扔在地上让人踩，妈的眼泪也不能白流。这个道理不用人教。从小到大，家里有难处，妈从来只喊儿子。这回也一样。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "出门的时候，妈一句话没说，就在后头看着。我们懂她的意思。街上的露水重，我们一前一后地走，谁也没说话。其实心里都明白：从妹妹报出那个名字起，这事就没有第二条路了。那就干吧。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" }
+    ],
+    "hints": ["天塌下来的时候，儿子得替家里顶住", "妹妹说出的那个名字，他们连核实都没想过"]
+  },
+  {
+    "id": "c2_08", "level": 2, "form": "monologue", "difficulty": "easy", "len": "S",
+    "col": "屠夫兄弟", "row": 1, "title": "磨刀人的心事",
+    "cg": "murder-assets/cg/c2_08.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. Extreme close shot in a pre-dawn butcher shed: rough hands pressing a long knife against a grinding wheel, orange sparks flying, the blade reflecting a pair of red, sleepless eyes; dark blue shadows, tense atmosphere. No text.",
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "砂轮一转，火星子乱溅，我这心里反倒踏实了。凌晨三点多的风凉，砂轮声一响，人就不困了。{{e_roushi|肉市}}里人多，耳朵更多。我们把刀往砂轮上一摁，扯开嗓子喊：我们要杀纳萨！喊一遍不够就喊两遍，喊到剔骨头的、剁肉的、过路的，全都听见。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "有人说我们喝多了。喝没喝多，自己心里清楚。男子汉大丈夫，话既然说出了口，就得算数——这是妈教的，爹活着的时候也是这么活的。全镇都听见了，就没有退路，总不能叫人在背后戳我们家的脊梁骨，说这家人光会喊不敢做。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "可怪就怪在，我一面磨刀，一面把话往大里喊，心里头其实一直在等——等哪个长辈冲上来，一把夺了刀，劈头盖脸骂我们一顿，把我们按在长凳上。那多好啊。传出去也好听：不是我们说了不算，是大伙儿拦着，不让。真的，那一刻谁把刀夺走，我们恨他一阵子，念他一辈子。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "可没有人来。二十二个人听见了，个个都当笑话听。邻摊的伙计们低头干自己的活；肉贩倒是跑出去报信了——可报给一个打哈欠的警察，顶什么用呢。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "刀磨好了，亮得能照见人影。我照了照，里头那个人眼睛通红。弟弟把另一把也凑上砂轮，谁也没看谁。我们都知道对方在想什么，又都装不知道。走吧。话都放出去了。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" }
+    ],
+    "hints": ["喊得越响，心里越盼有人来拦", "可惜听懂这话的只有后来的法官"]
+  },
+  {
+    "id": "c2_09", "level": 2, "form": "dialogue", "difficulty": "normal", "len": "M",
+    "col": "屠夫兄弟", "row": 4, "title": "未婚妻家的咖啡",
+    "cg": "murder-assets/cg/c2_09.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A humble Caribbean house kitchen at first light: a calm young woman hands a neatly newspaper-wrapped long bundle to a young man who hesitates to take it, coffee steaming on the table, a stern older mother watching with approval from the doorway; soft gold morning light, solemn mood. No text.",
+    "segments": [
+      { "kind": "narration", "text": "天蒙蒙亮，两个人揣着报纸裹的刀，绕到了哥哥未过门媳妇家的后窗。{{e_puludeng|普鲁登}}开了门，一句话没问，先烧水沏咖啡。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（搓着手）这么早来吵你……" },
+      { "kind": "dialogue", "speakerEntry": "e_puludeng", "text": "（把咖啡推过来）喝。暖暖手再说。" },
+      { "kind": "dialogue", "speaker": "普鲁登之母", "text": "（从里屋出来，系着围裙）我都听见了。全镇都听见了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（低下头）婶子……" },
+      { "kind": "dialogue", "speaker": "普鲁登之母", "text": "别叫我婶子，叫妈。（一拍桌子）我就一句话：维护名誉的事，不能耽搁。你们要是把话咽回去，往后在这条街上，谁都抬不起头。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（小声）可刀叫镇长收走了……" },
+      { "kind": "dialogue", "speaker": "普鲁登之母", "text": "（瞪眼）刀收走了，话也收走了？{{e_rongyu|荣誉}}是铁打的，不是纸糊的！" },
+      { "kind": "dialogue", "speaker": "普鲁登之母", "text": "（端详着两个后生）衣裳也换身干净的。办正事，要有办正事的样子。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（苦笑）妈，我们哪来的干净衣裳……" },
+      { "kind": "dialogue", "speakerEntry": "e_puludeng", "text": "（转身取出两件衬衫）早给你们备下了。换上再走。" },
+      { "kind": "narration", "text": "那两件衬衫浆得笔挺。许多年后镇上人说起这家人，都说他们早知道那天要出事——这家人不觉得那叫出事，那叫办事。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（系着扣子，低声）哥，这家人……比咱们还硬气。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "硬气才好。往后，就是一家人了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（端起咖啡一饮而尽）妈，借您家这块宝地，我们谢了。" },
+      { "kind": "dialogue", "speaker": "普鲁登之母", "text": "谢什么。往后常来。" },
+      { "kind": "dialogue", "speakerEntry": "e_puludeng", "text": "（把报纸包递过去，看着未婚夫）拿着。别冻着手。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（接也不是，不接也不是）我……" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（弟弟小声）嫂子放心，办完了事，我们哥俩先来给您报信。" },
+      { "kind": "dialogue", "speakerEntry": "e_puludeng", "text": "（替他们理了理衣领）去吧。我在这儿等消息。" },
+      { "kind": "dialogue", "speakerEntry": "e_puludeng", "text": "（打断他，声音不大，字字清楚）如果他不能像个男子汉一样履行责任，我就不会嫁给他。" },
+      { "kind": "narration", "text": "屋里静了一瞬。母亲满意地点了点头。" },
+      { "kind": "dialogue", "speaker": "普鲁登之母", "text": "这就对了。去吧，把事情办利索，回来再喝咖啡。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（弟弟拉了拉哥哥）哥，走吧。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（把报纸包揣进怀里，朝姑娘深深看了一眼）……等我。" },
+      { "kind": "dialogue", "speakerEntry": "e_puludeng", "text": "（立在门口）我等。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" },
+      { "slot": "地点", "kind": "place", "answer": "e_pulujia" }
+    ],
+    "hints": ["递刀的人三年后嫁给了其中一个", "在这家人眼里，退缩比杀人更可耻"]
+  },
+  {
+    "id": "c2_10", "level": 2, "form": "monologue", "difficulty": "easy", "len": "S",
+    "col": "屠夫兄弟", "row": 5, "title": "用屠刀刮脸的人",
+    "cg": "murder-assets/cg/c2_10.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. Inside a small milk shop at first light, a young man shaving his jaw with a long curved knife before a cracked mirror, a second identical young man watching from a bench, a nervous woman shopkeeper behind the counter; pale dawn light through the window, uncanny calm. No text.",
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "回到{{e_niunaidian|牛奶店}}，天还黑着。推门的时候，长凳上还留着上回坐过的印子。老板娘看我们的眼神，像看两口随时要炸的锅。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "等天亮最难熬。我跟店里借了刮脸的家什，热水、皂子都备好了，手往怀里一伸才想起来——剃刀叫镇长收走了。顺手就把新取的那把弯刀抽了出来。刀刃贴着下巴走，凉飕飕的，刮得倒还干净。镜子是破的，照出半张脸。也好，半张就半张。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "弟弟在旁边看着，忽然乐了：瞧瞧你，就像电影里的杀手。我也笑。笑完了，屋里静得吓人。杀手就杀手吧。电影里的人，刀举起来之前，也没人拦。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我们等的其实就两样：教堂的钟，和{{e_chuan|主教船}}的汽笛。船一到，人就齐了；人一齐，那位就该露面了。咖啡续了两回，手稳得很，一点没抖。这点我佩服我们俩。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "老板娘在柜台后头搓着围裙角，嘴里念念叨叨，像在念经。她求我们的话，我们听见了，只当没听见。不是我们心狠——话放出去了，全镇的耳朵都竖着，退半步，我们家往后别想抬头。说真的，她要是一把把我们推出门、锁上，兴许这事就断了。可她只是念叨。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "天快亮了。刀刮过脸，人精神多了。弟弟把报纸包的刀往怀里揣了揣，冲我点了点头。走吧，去占个好位置。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_tufu" }
+    ],
+    "hints": ["刀在这个清晨被用了三次：磨、裹、刮脸", "他们等的钟声，主教先听见了"]
+  },
+  {
+    "id": "c2_11", "level": 2, "form": "monologue", "difficulty": "easy", "len": "S",
+    "col": "克洛蒂", "row": 2, "title": "不敢呼吸的老板娘",
+    "cg": "murder-assets/cg/c2_11.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A woman shopkeeper in an apron frozen behind the counter of a tiny lamplit shop, hand clutching her apron, watching two men asleep on a wooden bench with newspaper-wrapped bundles against their chests; deep night outside the window, a kettle steaming; suffocating stillness, warm light on her anxious face. No text.",
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "这个钟点，全镇只有{{e_niunaidian|牛奶店}}的灯还亮着。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "长凳上睡着两个人，怀里揣着{{e_tudao|两把屠刀}}，报纸包着，寒光从缝里漏出来。他们睡得倒沉，呼吸一起一伏，像两个累坏了的孩子。我站在柜台后头，连大气都不敢出。天底下哪有这样的事——要杀人的人，反倒在我店里睡得香；要救人的我，倒跟做贼似的。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "吵醒他们？不敢。万一恼了，当场闹起来怎么办。放他们走？更不敢。他们要找的那个人，是吃着我们全镇的牛奶长大的好孩子，笑起来没心没肺的，见了我总喊婶子。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我男人睡得死，喊他也不顶事。我一个女人家，能做什么呢？只能守着。守着这两个睡着的人，就像守着两口随时会炸的锅，火不敢大，也不敢熄。桌上的挂钟走一下，我的心跟着跳一下。我数着他们的呼吸，也数着天亮的脚步。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "咖啡续了一回又一回，我的手一直在抖。我寻思着，等天亮了，人多起来，总有拿主意的人吧？镇长、神父、警察——随便哪一个，只要肯出面，这事就能摁下去。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "要是他们肯睡到中午就好了，睡到神父做完弥撒，睡到那个人上了船走了，睡到全镇都醒过来。天快亮了。锅里的水开了，壶盖突突地跳。我的心跳得比壶盖还响。主啊，让他们再睡一会儿，就一会儿。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_keluodi" }
+    ],
+    "hints": ["她比他们更怕天亮", "这个清晨全镇睡得着的人不多，她是醒得最久的一个"]
+  },
+  {
+    "id": "c2_12", "level": 2, "form": "dialogue", "difficulty": "normal", "len": "M",
+    "col": "克洛蒂", "row": 4, "title": "求你们别在今天",
+    "cg": "murder-assets/cg/c2_12.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A woman shopkeeper in an apron blocking the doorway of her small shop, arms half raised in plea, facing two identical young men who carry newspaper-wrapped long knives and look away with troubled faces; bright morning light flooding in behind the men, her figure in warm shadow; heartbreaking urgency. No text.",
+    "segments": [
+      { "kind": "narration", "text": "天蒙蒙亮，店门又被推开。{{e_tufu|屠夫兄弟}}回来了——怀里揣着新裹好的刀，脸上的胡子刮得干干净净，眼睛里那股东西，比凌晨更吓人。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（拦在长凳前）二位，求求你们，听我说一句。" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（站住）老板娘，咖啡钱我们不会少你的。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（急得直摆手）不是钱的事！你们要去的地方，要见的那个人——求你们，至少等主教走了，别挑今天，行吗？" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（对视一眼，没说话）" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（声音发颤）还有，别在大宅门口。他母亲就住在那儿，你们忍心叫一个当妈的亲眼看着吗？要当好人，就别在她的眼皮子底下做这件事！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（声音放软）你们的妈要是知道了，能答应吗？她就盼着你们安安生生过日子。" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（低声）别提我妈。" },
+      { "kind": "narration", "text": "两个人沉默了很久。她几乎以为他们要点头了。" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（终于，缓缓摇头）不行。话已经在{{e_roushi|肉市}}放出去了，全镇都听见了。" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（另一个接口）收回去了，我们还算什么男子汉。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（见他们不应，又转向另一个）你呢？你也劝劝你哥！你们才二十出头啊！" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（躲开她的目光）岁数不小了。该扛的，得扛。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（几乎要哭出来）男子汉？拿两条命换一句“男子汉”，值吗？你们再想想！镇长{{e_aponte|阿庞特}}收了你们的刀，那是老天爷给你们台阶下啊！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（带着哭腔）我给你们跪下了，行不行？" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（慌忙扶住）使不得！老板娘，您这是折我们的寿……" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（狠了狠心）您就当什么都没看见。天亮之前，您一直在睡觉。" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（往门口走）刀没了，可以再取。老板娘，让让。" },
+      { "kind": "dialogue", "speakerEntry": "e_tufu", "text": "（停了一步，回头）您的好意我们记下了。过了今天，再来喝您的咖啡。" },
+      { "kind": "narration", "text": "她心里咯噔一下：这话听着像告别。镇长收走的只是铁，那句喊给全镇听的承诺，谁也收不走。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（冲着门口，用尽力气）你们站住——" },
+      { "kind": "narration", "text": "门帘落下。外头的天，已经亮了。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_keluodi" },
+      { "slot": "地点", "kind": "place", "answer": "e_niunaidian" }
+    ],
+    "hints": ["她求的两个人其实也想被求动", "全镇只有她把“阻止”当成自己的事"]
+  },
+  {
+    "id": "c2_13", "level": 2, "form": "dialogue", "difficulty": "normal", "len": "M",
+    "col": "克洛蒂", "row": 5, "title": "修女带走的口信",
+    "cg": "murder-assets/cg/c2_13.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A town plaza at dawn, a woman in an apron gripping a young novice nun's hands, speaking urgent instructions word by word; the white church behind them, and in the far background a priest in vestments hurrying toward the river; pale gold light, anxious energy. No text.",
+    "segments": [
+      { "kind": "narration", "text": "天刚亮，她围裙都没解就追到了广场上。远远看见一个穿白袍的小身影往教堂去，她三步并两步拦了上去。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（一把拉住）好孩子，好孩子，帮婶子跑一趟！" },
+      { "kind": "dialogue", "speaker": "见习修女", "text": "（吓一跳）婶子，您慢点说……" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（一字一句，像教课文）你上{{e_jiaotang|神父住处}}去，找神父，就说——那对兄弟揣着刀，满街扬言要杀人，叫他千万想想法子！一个字都不许落下，记住了吗？" },
+      { "kind": "dialogue", "speaker": "见习修女", "text": "（掰着手指头复述）揣着刀……要杀人……叫神父想法子……" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（连连点头）对，对！快去，跑着去！" },
+      { "kind": "dialogue", "speaker": "见习修女", "text": "（怯生生）要是……要是我忘了一个字呢？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（捧住她的脸）忘不了，好孩子。就当是救人一命，跑吧！" },
+      { "kind": "dialogue", "speaker": "见习修女", "text": "（小声）婶子，他们……真的要杀人吗？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（声音发颤）刀都磨好了，孩子。全镇都知道，就缺一个肯管事的人。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（冲她的背影喊）跑快些！" },
+      { "kind": "narration", "text": "小修女提着裙摆跑远了。她还想再去寻巡逻的警察、寻镇长太太——多一张嘴，多一分指望。正盘算着，教堂的门开了，{{e_amaduo|阿马尔多}}神父急匆匆出来，往河边去。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（迎上去）神父！那对兄弟的事——" },
+      { "kind": "dialogue", "speakerEntry": "e_amaduo", "text": "（脚步不停）知道了知道了，修女刚跟我说了。我会管的，可怜的孩子们。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（几乎是哀求）那您去递个话也行啊！就一句话的事！" },
+      { "kind": "dialogue", "speakerEntry": "e_amaduo", "text": "（为难地摆手）好了好了，我记下了。你先回去开店，别在街上嚷嚷，惊了主教，谁担待得起？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（追着走了两步）那您这就去找他们？" },
+      { "kind": "dialogue", "speakerEntry": "e_amaduo", "text": "（望着河面，心不在焉）{{e_chuan|主教船}}眼看就到了，我的孩子，全镇的头等大事。等迎完主教，我头一个就去。" },
+      { "kind": "narration", "text": "她站在原地，看着神父的背影拐向河边。钟声还没响，她的心先凉了半截。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（喃喃）等迎完主教……就怕来不及了呀。主啊，保佑那个人。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_keluodi" },
+      { "slot": "地点", "kind": "place", "answer": "e_guangchang" }
+    ],
+    "hints": ["她能托付的只有一个小修女", "口信送到了，听的人却想着主教"]
+  },
+  {
+    "id": "c2_14", "level": 2, "form": "monologue", "difficulty": "easy", "len": "S",
+    "col": "阿庞特", "row": 3, "title": "两颗放心",
+    "cg": "murder-assets/cg/c2_14.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. A smug, heavy-set older officer in a colonel's jacket walking home down a sleepy Caribbean street at dawn, two long knives tucked under his arm like confiscated paperwork, self-satisfied expression, hands almost clasped behind his back; pastel morning sky, ironic peaceful mood. No text.",
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "刀在我胳肢窝底下夹着，{{e_tudao|两把屠刀}}，一把不少。我越想越觉得，这桩事处置得漂亮。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "做镇长这些年，什么风浪没见过。两个喝了酒的后生，磨刀霍霍，扬言杀人——听着吓人，其实呢？酒话罢了。我当年在部队上，喝多了喊着要拼命的多了去了，哪个真拼了？" },
+      { "kind": "monologue", "slot": "NPC1", "text": "就算不是酒话，也不要紧。凶器在我手里，他们拿什么杀人？拿手指头吗？人也叫我训过了，让他们回家睡觉去了。一觉睡醒，酒一醒，什么事都没有了。再说了，真要拘人，为两句醉话就把人锁起来，传出去，我这个镇长还怎么当。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "{{e_niunaidian|牛奶店}}那个老板娘，倒是个热心肠，追出来说什么“承诺收不走”。妇道人家，头发长见识短。我是镇长，还是她是镇长？" },
+      { "kind": "monologue", "slot": "NPC1", "text": "走这一路，遇见两个早起的，还冲我打招呼：镇长早。我点点头。瞧瞧，镇上一片太平，哪像要出人命的样子。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "回去先睡个回笼觉。今天可是大日子，主教的船要到，全镇的眼睛都看着我这个镇长呢。仪仗、弥撒、接风——哪一样不要我操心？两个后生磨刀的闲事，也配耽误正事？" },
+      { "kind": "monologue", "slot": "NPC1", "text": "回头把刀往抽屉里一锁，钥匙往兜里一揣，齐活。{{e_julebu|社交俱乐部}}里还等着我一桌牌呢。我摸了摸腋下的刀，心里头踏踏实实。一颗放心给刀，一颗放心给觉。天塌不下来。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_aponte" }
+    ],
+    "hints": ["他的放心建立在“刀只有两把”上", "全镇的官帽里，数他这顶最误事"]
+  },
+  {
+    "id": "c2_15", "level": 2, "form": "dialogue", "difficulty": "normal", "len": "M",
+    "col": "阿庞特", "row": 5, "title": "俱乐部门口",
+    "cg": "murder-assets/cg/c2_15.jpg",
+    "cgPrompt": "Bright KyoAni-style anime CG, 16:9. At the doorway of an elegant gentlemen's club, a sweating young man grabs the sleeve of a heavy-set older officer who turns away dismissively toward card tables glowing in warm interior light; the young man's desperate face lit by cold morning street light; a hand waves from inside holding playing cards. No text.",
+    "segments": [
+      { "kind": "narration", "text": "镇上有钱人打牌的那所房子门口，一个年轻人满头大汗地冲过来，差点撞进镇长怀里。是{{e_beiduoya|贝多亚}}，死者的至交好友——他刚听到风声，一路跑来的。" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（喘得直不起腰）镇长！镇长！可找着您了！那对兄弟揣着刀满街喊，要杀纳萨！您快出面管管吧！" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（几乎喊出来）他妹妹指认的就是他！全镇都知道，就他本人蒙在鼓里！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（慢条斯理地掸了掸袖子）哦，这事啊。我知道了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（不悦）嚷嚷什么？体面呢？叫外人听了笑话。" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（愣住）知道了？那您倒是去拦啊！他们这会儿就在外头，换了新刀！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（摆摆手）年轻人，沉住气。刀，我亲手没收了，两把，锁得严严实实。两个毛孩子，没了刀还能翻天？" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（急得直跺脚）刀没了可以再取啊！他们要的是人命，不是那两块铁！" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（压低声音，几乎是哀求）镇长，人命关天，您就当积德……" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（皱眉）行了行了。我堂堂一镇之长，还能叫两个屠户唬住？天塌不下来。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（看了看天色）主教的船一靠岸，什么恩怨都得靠边站。我做事，有分寸。" },
+      { "kind": "narration", "text": "门里探出半个身子，有人朝这边招手：牌都发好了，就等您了。" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（追着门喊）那您至少派两个人跟着他们——" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（立刻换了副脸色，朝门里扬声）来了来了！（回头拍拍年轻人的肩）回去吧，别自己吓自己。等迎完主教，我亲自过问。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（在门槛上停住）对了，今天的牌局，谁也别来搅。" },
+      { "kind": "dialogue", "speakerEntry": "e_beiduoya", "text": "（对着那扇门，低声）好。您打牌吧……我去找别人。" },
+      { "kind": "narration", "text": "镇长已经转身进门了。门帘一撂，里头哗啦啦的洗牌声、说笑声涌出来，又立刻被隔断。年轻人站在门口，手还悬在半空。{{e_chenmo|集体沉默}}有很多种，最难推开的一种，是一扇当你面关上的门。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_aponte" },
+      { "slot": "地点", "kind": "place", "answer": "e_julebu" }
+    ],
+    "hints": ["报信的年轻人是死者最要好的朋友", "镇长手里的牌，比门外的人命急"]
+  }
+]

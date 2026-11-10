@@ -1,0 +1,37 @@
+[
+ {
+  "path": "/assets/bgm/0/title",
+  "en": "Light on the Far Shore",
+  "zh": "远岸微光"
+ },
+ {
+  "path": "/assets/bgm/0/stage",
+  "en": "title",
+  "zh": "title"
+ },
+ {
+  "path": "/assets/bgm/1/title",
+  "en": "Footprints in the Forest",
+  "zh": "林中足迹"
+ },
+ {
+  "path": "/assets/bgm/2/title",
+  "en": "Lamps in the Dust",
+  "zh": "尘网灯火"
+ },
+ {
+  "path": "/assets/bgm/3/title",
+  "en": "Evening Bell at the Ferry",
+  "zh": "渡口晚钟"
+ },
+ {
+  "path": "/assets/bgm/4/title",
+  "en": "One Perfect Sound",
+  "zh": "一声圆满"
+ },
+ {
+  "path": "/assets/bgm/4/stage",
+  "en": "ending",
+  "zh": "ending"
+ }
+]

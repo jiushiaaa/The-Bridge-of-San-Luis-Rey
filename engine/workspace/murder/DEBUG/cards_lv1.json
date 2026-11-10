@@ -1,0 +1,1339 @@
+[
+ {
+  "id": "c1_01",
+  "level": 1,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 0,
+  "title": "外乡人到港",
+  "startUnlocked": true,
+  "cg": "murder-assets/cg/c1_01.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9 anime film still: a sleepy tropical river town in the morning, a small packet steamer docking while curious townspeople gather on the shore; a dapper young outsider in a cream suit steps off the gangway carrying monogrammed leather suitcases, golden light, hopeful and curious mood, no text. Scene includes: the arriving young man and a talkative middle-aged woman fellow passenger.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "去年八月的一个礼拜一，班船冒着白烟靠了岸。这地方平日没什么新鲜事，船一靠岸，半个镇的人都涌到河边看热闹。"
+   },
+   {
+    "kind": "narration",
+    "text": "外乡人提着两口皮箱下船，箱子上贴着花体字的行李签，一笔一画誊写得齐齐整整，像印出来的。他自称机车工程师，说是来这一带看看修铁路的差事。"
+   },
+   {
+    "kind": "narration",
+    "text": "两口皮箱沉得很，扛箱子的脚夫累得直喘，他给的赏钱却叫人眉开眼笑。有人凑上去搭话，他句句都答，又句句都没答到根上。有细心人数过，他下船那一袋烟的工夫，光是赏钱就撒出去七八回。"
+   },
+   {
+    "kind": "narration",
+    "text": "谁也说不清他从哪儿来。问他，他就笑，说北边待过，南边待过，海上也待过。越是说不清，大家越爱猜。这人出手阔绰得不像话：住店挑最好的房间，小费一给就是一把，旅馆老板娘逢人便说，这位客人付房钱数都不数，一沓票子推过来。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把一枚硬币抛给扛箱子的小孩）拿着，买糖去。这镇子不错，我喜欢。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "（抢着跟围观的人讲）我跟他同船来的，你们是没瞧见——海上风浪那么大，太太小姐们都吐得抬不起头，就他站在甲板上给大家讲笑话，逗得满船人直乐。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "（压低声音，神秘地）他在船上可阔气了，请客吃饭一请就是一桌子。我看哪，这人不是寻常人家出来的。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "（掰着手指头）他就坐我斜对面，一日三餐都在餐厅吃，小费给得比饭钱还多。下船的时候，扛活的脚夫都抢着替他提行李。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "他还说，要在这儿干一番大事业。至于是什么事业，他没说，谁也猜不透。"
+   },
+   {
+    "kind": "narration",
+    "text": "那天下午，关于他的来历，镇上冒出七八种说法。有人说是来淘金的，有人说是哪家落败的公子，还有人压低嗓子，说怕是来路不明的钱。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（有人问起铁路，他摆摆手）铁路会有的，镇子会兴旺起来的。各位等着瞧就是。"
+   },
+   {
+    "kind": "narration",
+    "text": "他本人倒不辩解，径直穿过{{e_guangchang|教堂广场}}，挑了间朝广场的房子住下，一副要长住的架势。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（对打听他的人拱拱手）各位多关照。往后，咱们就是街坊了。"
+   },
+   {
+    "kind": "narration",
+    "text": "没有人知道，这个笑眯眯的外乡人，会在十一个月之后，给全镇带来一场最风光的婚礼。更没有人知道，这场婚礼会把全镇人的命，都拴在一起。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_matou"
+   }
+  ],
+  "hints": [
+   "此人在全镇最热闹的那一天之前十一个月乘船而来",
+   "后来他成了那场婚礼的新郎"
+  ]
+ },
+ {
+  "id": "c1_02",
+  "level": 1,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 1,
+  "title": "门厅一瞥",
+  "cg": "murder-assets/cg/c1_02.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: drowsy late-September afternoon, an entryway rocking chair by an open window facing a sunlit town square; a young man dozes in the chair with a palm fan over his face while, seen through the window in soft focus, a young woman with a basket crosses the square beside her mother, warm lazy mood, no text. Scene includes: the dozing young man, the girl with the basket, her mother.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "九月末的一个午后，天热得人发昏。外乡人在他租下的那栋小楼门厅里打盹，躺在摇椅上，一把大蒲扇盖着脸。门厅的窗正对着{{e_guangchang|教堂广场}}，从摇椅上望出去，广场上的一举一动都看得清清楚楚。"
+   },
+   {
+    "kind": "narration",
+    "text": "广场上静悄悄的，只有麻雀在啄食。这时候，一个姑娘挎着篮子，随她母亲从广场那头走过来。姑娘约莫十八九岁，辫子垂在腰后，走得不快，风把裙角撩起来一点，她伸手按了按。"
+   },
+   {
+    "kind": "narration",
+    "text": "篮子里是新扯的衣料和几轴线。娘儿俩一路走，一路说着过几天募捐晚会的事。姑娘挑了半日线，才定下一块水红的。母亲催她走快些，姑娘却磨磨蹭蹭，眼睛瞟着广场边的花摊。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（半睁着眼，含糊地）那是谁家的姑娘？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（扇子底下的声音懒洋洋的）长得倒俊。"
+   },
+   {
+    "kind": "narration",
+    "text": "房东太太探头看了一眼，报了那家的家门：镇上最本分不过的人家，父亲是个瞎了眼的金匠，母亲管教女儿出了名地严，这姑娘是家里最小的女儿，还没许人。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（扇子底下含含糊糊）没许人……好。"
+   },
+   {
+    "kind": "narration",
+    "text": "房东太太又补了一句：那家人门槛高，姑娘们轻易不出门的。他听了，只在扇子底下笑了一声。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（像是自言自语）门槛高好啊。我这个人，就喜欢爬高门槛。"
+   },
+   {
+    "kind": "narration",
+    "text": "摇椅吱呀吱呀晃了两下。就在房东太太转身要走的时候，摇椅上的人忽然又开了口，声音清清楚楚，半点不像刚睡醒。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（闭着眼）等我醒了，请提醒我，我要娶她。"
+   },
+   {
+    "kind": "narration",
+    "text": "房东太太愣在门口，当他说梦话，笑着摇头。可他一点儿不像开玩笑，说完这句话，把蒲扇往脸上一拉，当真又睡熟了。她在这门厅里迎来送往十几年，头一回听见有人这么提亲。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（迷迷糊糊补一句）就这么定了。"
+   },
+   {
+    "kind": "narration",
+    "text": "多年以后，房东太太还跟人念叨这一幕。她说那姑娘的名字起得真好——好到让一个外乡人半睡半醒之间，就把自己的后半辈子定了下来。而姑娘自己还不知道，她挎着篮子走过的那几步路，已经被人记了一辈子。打这天起，姑娘家再严的门规，也拦不住一个打定了主意的外乡人。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_anhela"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_gongyu"
+   }
+  ],
+  "hints": [
+   "一个在看，一个被看，两人此刻还不相识",
+   "被看中的姑娘后来成了新娘"
+  ]
+ },
+ {
+  "id": "c1_03",
+  "level": 1,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 2,
+  "title": "买光彩票的人",
+  "cg": "murder-assets/cg/c1_03.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a lively charity fair hall strung with paper lanterns, a pearl-inlaid hand-crank phonograph standing on a prize table; a cheerful wealthy young man slaps a thick stack of raffle tickets onto the counter while the crowd gasps, festive mood, no text. Scene includes: the ticket buyer, and two identical twin brothers watching from the doorway.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "十月里，镇上办募捐晚会，正赶上{{e_anhela|安赫拉}}过生日。大厅里挂满彩灯，乐队奏着舞曲，穷人也来凑热闹，孩子们在人堆里钻来钻去。压轴的彩头是一台珍珠母的{{e_changji|手摇唱机}}，漂亮得人人眼红。"
+   },
+   {
+    "kind": "narration",
+    "text": "彩票一张一张地卖，卖到后半夜，外乡人挤到摊前，问一共印了多少张。人家报了数，他掏出钱夹。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把一沓钞票往桌上一拍）全要了。开奖吧，劳驾。"
+   },
+   {
+    "kind": "narration",
+    "text": "满场哗然。唱机毫无悬念地归了他。他当场请人把唱机抬去过生日的姑娘家，只说是贺礼，连名字都没留——其实用不着留，全镇都看见了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（嘱咐抬唱机的人）慢着点抬，这机器金贵，是给今天的小寿星贺寿的。"
+   },
+   {
+    "kind": "narration",
+    "text": "姑娘被这阵仗弄了个大红脸，收也不是，退也不是。她娘把唱机摆在堂屋正中，看了半宿，越看越不踏实。一家人商量了一宿，到底还是决定把礼退回去——平白无故的，收人家这么重的东西，往后没法做人。"
+   },
+   {
+    "kind": "narration",
+    "text": "第二天上午，姑娘家来人退礼。来的是一对孪生兄弟，长得一模一样，在镇上以脾气直、干活狠出名。两人膀大腰圆，抬着唱机跟抬只鸡崽似的，一脸的不高兴。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（把唱机往地上一放，硬邦邦地）东西抬回来了。你点点，一个零件不少。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（另一个接茬）我娘说了，这份情我们领，东西不能要。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（哥哥又补一句）你倒是大方，我们抬着它走了半条街，叫人看笑话。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（不恼，反而笑了）二位辛苦。来得正好，陪我喝一杯再走。礼物的事，喝完再说。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（兄弟俩对看一眼）喝就喝。丑话说头里，喝完，东西还是你的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（给两人满上）交朋友嘛，讲究个对脾气。你们俩，对我的脾气。"
+   },
+   {
+    "kind": "narration",
+    "text": "这一喝，就喝到了天亮。兄弟俩你一杯我一杯，被他说得晕晕乎乎——他说海上的风浪，说外头的世面，说修铁路的宏图，把两个人听得眼睛发直。后来弟弟趴在桌上睡着了，哥哥还撑着听他讲，听得连连点头。退礼的事，早忘到后脑勺去了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（舌头都大了，拍着桌子）你这个人……够朋友！走，上我们家接着喝！"
+   },
+   {
+    "kind": "narration",
+    "text": "唱机到底还是留下了。兄弟俩一左一右搀着他，把他领回了家。镇上人后来都说，这外乡人收买人心，比买彩票还利索。这门亲事，就这么先在酒桌上成了半截。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_tufu"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_julebu"
+   }
+  ],
+  "hints": [
+   "送礼的和退礼的后来成了亲家",
+   "退礼的是一对分不出彼此的兄弟"
+  ]
+ },
+ {
+  "id": "c1_04",
+  "level": 1,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 3,
+  "title": "一万比索的别墅",
+  "cg": "murder-assets/cg/c1_04.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a smoky card room at night, a card table covered with neat stacks of banknotes glowing under a lamp; a young man pushes the money forward with calm confidence while an old widower across the table turns his face away with tears in his eyes, bittersweet mood, no text. Scene includes: the young buyer and the old widower.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "牌桌上的事，全镇传了好几年。那天晚上牌局正酣，赢家输家围着一张桌子转，烟抽了半屋子。外乡人忽然搁下牌，朝角落里看牌的老头儿抬了抬下巴。"
+   },
+   {
+    "kind": "narration",
+    "text": "老头儿无儿无女，老伴儿走后，一个人守着山丘上那座房子过活，深居简出，只偶尔在牌局上看人打牌解闷。镇上人见了他，都客客气气让个座。"
+   },
+   {
+    "kind": "narration",
+    "text": "老头儿年轻时也是镇上的体面人，老伴儿一走，人就缩回去了，整天守着满屋子旧物过日子。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "孤老头儿，我想买你的房子。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（笑）我不是头一回问了。上回你说想想，想好了没有？"
+   },
+   {
+    "kind": "narration",
+    "text": "满桌的人都笑了，老头儿也笑，摆摆手。谁都知道那座{{e_bieshu|山丘别墅}}是他和老伴儿一辈子的心血，给多少钱都不卖。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（笑呵呵地）那房子没有价钱。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（摩挲着椅背）前两年也有人问过价，叫我撵出去了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（叹）房子跟人一样，处久了有感情。你们有钱人不懂这个。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（不紧不慢）我给你一万，马上支付，一沓一沓的现钱。"
+   },
+   {
+    "kind": "narration",
+    "text": "满桌的笑声没了。他当真叫人取来一口箱子，打开，把钞票一沓一沓码在桌布上，码了满满一桌。灯光底下，那些钱晃得人眼晕。旁边看牌的人后来跟人学，说一沓一千，整整十沓，谁也没见过那么多现钱摆在一块儿。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "我快成亲了，要个像样的新房。你数数——数清了，房子归我，你搬下山去，冬天不受风，身边也有人照应。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（声音低下去）年轻人，那屋里每一样东西，都是她亲手摆的。我守着它，就跟守着她一样。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把钱又往前推了推）东西是死的，人是活的。感情填不饱肚子，也挡不住山风——她要是还在，也不忍心看你一个人在山上受冻。"
+   },
+   {
+    "kind": "narration",
+    "text": "老头儿盯着那堆钱看了很久。屋里静得能听见灯芯的响声，看牌的人大气都不敢出。他的眼圈慢慢红了，摇着头，声音发抖。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（含着泪）你们这些年轻人不懂人心啊。"
+   },
+   {
+    "kind": "narration",
+    "text": "钱到底还是留下了，房子换了主人。老头儿搬下山那天，一步三回头。两年后他死了，镇上人都说，不是病，是心病。葬礼没几个人张罗，倒是那个买房的年轻人，送来了最大的一个花圈。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_xiusi"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_julebu"
+   }
+  ],
+  "hints": [
+   "一个出钱，一个出心",
+   "老头两年后死于心碎"
+  ]
+ },
+ {
+  "id": "c1_05",
+  "level": 1,
+  "form": "scene",
+  "difficulty": "hard",
+  "len": "L",
+  "col": "名场面",
+  "row": 4,
+  "title": "婚礼与退回的新娘",
+  "cg": "murder-assets/cg/c1_05.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: deep night on a small-town street, a groom in formal wear and a veiled bride walking hand in hand under long streetlights toward her family home, seen from behind, heavy silence after a lavish wedding, distant paper lanterns, melancholic mood, no text. Scene includes: the groom, the bride, and an older woman waiting at a half-open door.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "婚礼那天，全镇像过节。四十只火鸡、十一头猪、四只牛犊，烤肉的香气从中午飘到半夜；二百零五箱走私酒码在墙根，比人还高。连最穷的人家那天也吃上了肉。光是天上的烟火，就放了半宿。"
+   },
+   {
+    "kind": "narration",
+    "text": "广场上支起长棚，乐队请了三拨，舞从下午跳到后半夜。有头有脸的都请了，没请的也自己来了，连邻镇都有人赶来看热闹。这样的婚礼，镇上几十年没见过。"
+   },
+   {
+    "kind": "narration",
+    "text": "新郎迟了整整两个小时。宾客们在教堂里等得交头接耳，新娘蒙着头纱，站在祭坛前一动不动，手指把捧花捏得变了形。他进来时倒是从容，礼服笔挺，毫无歉意，仿佛让全镇等他是天经地义。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（趁神父还没来，低声）我头晕，撑不住了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（替她理了理头纱，笑）再撑一会儿。今天是你的日子，全镇都在看你。"
+   },
+   {
+    "kind": "narration",
+    "text": "傍晚六点，典礼总算散了。午夜过后，人群拥着新人转战歌舞厅。那台珍珠母的{{e_changji|手摇唱机}}摇了一整夜，酒杯碰了一整夜。新郎见人就敬，谁来都干，出手阔绰得吓人。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（举杯，冲满厅的人）今晚谁都别走！酒管够，都算我的！"
+   },
+   {
+    "kind": "narration",
+    "text": "新娘被拉着跳了一支又一支，脸笑僵了，鞋尖磨破了，也不好意思坐下歇一歇。满厅的人都在兴头上，没人看得出她的笑是硬撑出来的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（趁换曲的空当，低声）我实在撑不住了，脚疼。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（扶她坐到一旁）那就坐着。坐着，也是全镇最俊的新娘。"
+   },
+   {
+    "kind": "narration",
+    "text": "没人记得热闹是什么时候散的。只记得后半夜，{{e_bieshu|山丘别墅}}的灯一盏一盏灭了，山下的人才三三两两往家走，边走边说，这婚礼够讲一辈子。"
+   },
+   {
+    "kind": "narration",
+    "text": "再后来，就是全镇记了很多年的一幕：深夜的街上，新郎牵着新娘，一步一步往她娘家走。没坐车，没带人，两个人一路无话。路灯把影子拉得很长，长得望不到头。沿街人家的狗叫了两声，又安静下来。"
+   },
+   {
+    "kind": "narration",
+    "text": "到了门前，他抬手，不轻不重，敲门三下。"
+   },
+   {
+    "kind": "narration",
+    "text": "门里的灯影晃了晃。开门的是新娘的母亲，披着衣裳，看见女儿站在门外，先是一愣，随即明白了七八分。新郎把女儿的手交还到她手里，俯下身，吻了吻这位岳母的脸颊。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（平静得反常）妈妈，感谢您所做的一切，您是一位圣人。"
+   },
+   {
+    "kind": "narration",
+    "text": "门关上了，门闩落下。屋里先是死一样的静，接着响起母亲压低的、发抖的质问。那个瞒了多年的秘密，到底没瞒过这一夜；一家人半辈子守着的体面，碎在了门里。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（压着嗓子）你说。从头到尾，一个字不许瞒。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（哭）妈，我错了……你打死我吧。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "打死你？打死你，这家人的脸面就回来了？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（哭腔压着）我一辈子教人读书明理，怎么就教出你这么个……"
+   },
+   {
+    "kind": "narration",
+    "text": "那一夜，左邻右舍听见断断续续的哭声，一直响到天快亮。做母亲的关起门，足足打了女儿两个小时。第二天，全镇都知道新娘被退回来了；至于为什么，没人说破，人人心里有数。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_anhela"
+   },
+   {
+    "slot": "NPC3",
+    "kind": "person",
+    "answer": "e_pulixi"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": [
+     "e_guangchang",
+     "e_weikajia"
+    ]
+   }
+  ],
+  "hints": [
+   "三个人都没说破那句丑事，但每个人都做了自己认为该做的事",
+   "被打的人挨了两小时，打人的是亲妈"
+  ]
+ },
+ {
+  "id": "c1_06",
+  "level": 1,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "圣罗曼",
+  "row": 0,
+  "title": "外乡人的自况",
+  "cg": "murder-assets/cg/c1_06.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a young wealthy outsider reclining in a rocking chair in a breezy entryway, suitcases with elegant calligraphy tags beside him, gazing out at the sunlit square with a confident smile, self-assured hopeful mood, no text. Scene includes: the young man alone.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我到这镇子，是从{{e_matou|码头}}下的船。八月的太阳毒，班船一个礼拜才来一趟，我提着两口皮箱，半个镇的人都来看我。可我一眼就喜欢上这儿了——地方小，人心热，河边的风里有股甜味。人家问我来干什么，我说修铁路。其实干什么不要紧，要紧的是我想留下来。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我这人过日子，图个省事。钱这东西，就是用来省事的。我从小就是这样：看上的东西，想方设法也要弄到手；弄到手了，就好好待它。有人笑我烧钱，我笑他们不懂：钱攥在手里是纸，花出去才是钱。磨磨唧唧的，好日子都耽误了。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我租了{{e_gongyu|单身公寓}}朝广场的房间，门厅里放把摇椅，躺着就能看全镇人来来往往。这儿的人爱嚼舌根，猜我的来历。猜去吧。等时候到了，我把全家接来，叫他们看个够。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "山丘上有座房子，位置好，能看见海。房主是个孤老头，叫{{e_xiusi|希乌斯}}，常去{{e_julebu|社交俱乐部}}的牌桌上看人打牌，我就是在那儿瞧上那座房子的。上去看过一回，院子里还种着他老伴儿留下的花。他守着亡妻的旧物不肯撒手，这我懂，念旧嘛。可一个老人家住山上，冬天受风，身边连个端水的人都没有。我多给钱，他下半辈子衣食无忧，房子也有了新用处——两全其美的事，他没道理摇头。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "对了，还有个姑娘，挎篮子的，打广场上过。她叫什么名字，我还没打听——不过打听这个，容易得很。不急。我相中的东西，从来跑不了。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   }
+  ],
+  "hints": [
+   "独白的人刚下船不久",
+   "他看中的不只是房子，还有一个还没说过话的姑娘"
+  ]
+ },
+ {
+  "id": "c1_07",
+  "level": 1,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "圣罗曼",
+  "row": 3,
+  "title": "将军全家到镇",
+  "cg": "murder-assets/cg/c1_07.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a river dock as a steamer arrives, a dignified old general with a cane disembarking with his family, his grown son greeting him respectfully, townspeople watching in awe from a distance, morning light, proud mood, no text. Scene includes: the old general, his son, the general's wife and daughters.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "流言越传越难听，说外乡人的钱来路不明，保不齐是个逃犯。他听了也不辩，只发了一封电报。半个月后，班船靠岸，下来一家老小——走在最前头的，是位拄着手杖、不怒自威的老人：他的父亲，内战英雄{{e_shengjiangjun|圣将军}}。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（迎上去）爸，路上累不累？妈和妹妹们呢？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "（环视两岸）都下来了，在后头。这点路算什么。当年我带兵，七天七夜不合眼。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "妹妹们头一回出远门，晕船晕得厉害吧？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "娇气。像你小时候。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "（望向镇子）这地方，比我想的还小。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "小地方好，人心近。不出半年，全镇都拿我当自家人。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "别光顾着交朋友。成了家，就收收心，做正经事业。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "您放心，我的事业，就从这场婚事开始。您瞧这河水多宽，我说的铁路，往后就打这儿过。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "修不修铁路我不管。我只问你，你在这儿，安分不安分？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "安分。做生意，交朋友，没招谁没惹谁。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "没惹事就好。你娘一路念叨你，说你瘦了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那是她想我。等见了我的新房，她一准高兴。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "镇上人都想见您。这些天，闲话不少。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "闲话？我倒要听听，嚼的是什么。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "嚼我的钱来路不明。所以请您来——您往这儿一站，比什么公文都管用。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "哼。我这张老脸，是打仗打出来的，不是给你挡闲话的。（顿了顿）罢了。我儿子的来历，就是我。谁要查，叫他来问我。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（笑）您一来，什么闲话都没了。回头我给您接风，全镇有头有脸的都请到。"
+   },
+   {
+    "kind": "narration",
+    "text": "老人家的名字一报出来，看热闹的人群里起了一阵小小的骚动。上了年纪的人都记得那场内战，记得他击败过哪位有名的上校。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（低声）爸，还有件事。我要娶的那个姑娘，您见过相片——{{e_anhela|安赫拉}}。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "嗯，眼睛里的神气不错。是哪家的女儿？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "本分人家。父亲是个金匠，眼睛看不见了；母亲管教得严，几个孩子都很规矩。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "（点头）家世清苦不要紧，人要正派。你既然认定了，就把婚事办得体面，别让人家戳脊梁骨。房子是要看的，媳妇也是要相的，一样都马虎不得。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "我办事，您放心。排场小不了，亏待不了她。等婚事办了，接您二老来长住，山上那房子，您一准喜欢。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengjiangjun",
+    "text": "（拍拍他肩膀）走吧，先带我去看看你买的那座房子。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_matou"
+   }
+  ],
+  "hints": [
+   "他的姓氏要靠父亲的战功来担保",
+   "老人打过内战，击败过有名的上校"
+  ]
+ },
+ {
+  "id": "c1_08",
+  "level": 1,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "安赫拉",
+  "row": 1,
+  "title": "过广场的姑娘",
+  "cg": "murder-assets/cg/c1_08.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a carefree young woman carrying a basket of dress fabric crossing a sunlit church square beside her stern mother, wind lifting her skirt hem, a window with a rocking chair visible at the square's edge, innocent mood with a faint premonition, no text. Scene includes: the young woman and her mother.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "那天下午我挎着篮子过{{e_guangchang|教堂广场}}，篮子里是给晚会扯的衣料和几轴线。衣料是母亲挑的，说是过生日要穿新的，我嘴上说浪费，心里头高兴。天很蓝，我数着自己的步子走，盘算晚上穿什么。过几天就是我生日，母亲说，姑娘家的生日，过一次少一次。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "母亲{{e_pulixi|普里西}}走在我旁边，一路念叨：谁家的儿子从外头回来了，谁家的彩礼出了多少，谁家的姑娘订了亲。她还数落我，走路没个姑娘样，眼睛不要乱瞟，叫人瞧见了笑话。我左耳朵进，右耳朵出。她的话我从小就听，听多了就像教堂的钟声，响它的，跟我没关系。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "广场边的花摊摆了茉莉，我多看了两眼，没舍得买。母亲催我：快走快走，日头毒。我就挎着篮子跟在她后头，一步一步，走完了那段路。现在想起来，那一路的茉莉香，我记了很多年。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我们{{e_weikajia|维卡家}}的女儿，婚事从来不由自己做主。这一点，我懂事起就知道。可我那天不知道的是——广场边上那栋小楼的门厅里，有个人躺在摇椅上，半睡半醒地看了我一眼。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "就那一眼，我的后半辈子就定了。后来我总回想那个下午：风把裙角吹起来，我低头按了按，什么也没察觉。要是我当时抬起头，往那扇窗里看一眼，往后的事，会不会不一样？可惜我没有抬头。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "谁知道呢。那个年纪的我，满脑子只有晚上的募捐晚会，还有那匹新衣料——水红的，我想着做成裙子，一定好看。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_anhela"
+   }
+  ],
+  "hints": [
+   "她此刻还不认识那个看她的人",
+   "母亲一路都在念叨她的婚事"
+  ]
+ },
+ {
+  "id": "c1_09",
+  "level": 1,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "安赫拉",
+  "row": 2,
+  "title": "爱也是可以学来的",
+  "cg": "murder-assets/cg/c1_09.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a modest family parlor at dusk, a stern mother standing with a matchmaking card in hand lecturing her downcast daughter, a blind old goldsmith sighing in his chair, two identical young men leaning against the wall in shadow, tense mood, no text. Scene includes: the mother, the daughter, the blind father, the twin brothers.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "全家是为这桩婚事聚齐的。失明的父亲{{e_pangxiao|庞西奥}}坐在主位上叹气；{{e_tufu|屠夫兄弟}}也被叫了回来，一左一右靠着墙；母亲{{e_pulixi|普里西}}站在当中，手里捏着男方送来的生辰帖。被围在当中的女儿，低着头。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "人家哪点配不上你？钱，人品，排场，全镇的姑娘做梦都梦不到。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（小声）妈，我不了解他，连一句话都没跟他说过。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "没说过话怕什么？他相中的是你这个人。住到一个屋檐下，自然就了解了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "我觉得他太像个大人物。他看我那一眼，跟看一件买到手的东西似的。跟他过日子，我心里发怵。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "胡说，那是人家看重你。大人物才靠得住，往后没人敢欺负你。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "可是妈，我不爱他。没有爱情的婚事，怎么过一辈子？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "（把帖子往桌上一拍，一字一句）爱也是可以学来的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "我嫁给你爸那年，也不懂什么叫爱情。这么多年，柴米油盐，生儿育女，不也过来了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "两个姐姐出嫁，也没见你们这么上心。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "你姐姐们没这个命。这桩婚事是天上掉下来的，容不得你耍小性子。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "打你生下来，我哪天不为你盘算？轮到你报答这个家了，你倒拿乔。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（带着哭腔）妈，从小到大，我哪件事没听您的？就这一件，您容我再想想……"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "没什么好想的。生辰帖都换过了，全镇都知道了，这时候回话，脸往哪儿搁？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "我不是拿乔，我是怕。你们都说好，就我一个人觉得不好。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "怕就对了。女人嫁人，谁不是又怕又盼。进了门，生了孩子，心就定了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "咱家的门槛，人家看得上吗？我一个金匠的女儿。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "金匠的女儿怎么了？你爸的手艺全镇找不出第二个。过门后，好好伺候丈夫，别丢娘家的脸。"
+   },
+   {
+    "kind": "narration",
+    "text": "屋里静了一瞬。靠墙的兄弟俩对看了一眼，谁也没吭声。盲父亲的手杖在地上轻轻顿了顿。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pangxiao",
+    "text": "（咳嗽一声）孩子她妈，你轻点声，叫邻居听见。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "听见怎么了？我管教自己的女儿，天经地义。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pangxiao",
+    "text": "（叹气）孩子，爸眼睛瞎了，这个家全靠你妈撑着。她的话，不会错。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（朝墙边）哥，你们也说句话呀。"
+   },
+   {
+    "kind": "narration",
+    "text": "兄弟俩你看我，我看你，到底谁也没开口。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（沉默半晌，声音低下去）……我知道了。你们定吧。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulixi",
+    "text": "（语气缓下来）这就对了。妈不会害你。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pangxiao",
+    "text": "（低声）委屈你了，孩子。爸没本事，护不住你。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_anhela"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_weikajia"
+   }
+  ],
+  "hints": [
+   "反对的声音只有她一个",
+   "母亲给出的理由后来成了一句名言"
+  ]
+ },
+ {
+  "id": "c1_10",
+  "level": 1,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "安赫拉",
+  "row": 4,
+  "title": "新娘的最后一夜",
+  "cg": "murder-assets/cg/c1_10.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a bride in full wedding dress smiling among festive guests and lanterns, yet her eyes hide fear; slow push-in on her forced smile as night falls outside the window, contrast of joy and dread, no text. Scene includes: the bride among the wedding crowd.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "婚礼上我一直在笑。对宾客笑，对{{e_shengroman|圣罗曼}}笑，对每一个来敬酒的人笑。嘴角都笑酸了，还得笑。烤肉的香味熏得人发晕，可我一整天没吃下几口东西。人人都在夸，说新娘子多俊，多有福气。福气——我捏着扇子，心里一遍一遍地数：还有几个钟头天黑。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "那个秘密，我藏了好些年。在这个镇上，姑娘家的名声就是命。母亲的戒尺，父亲的叹气，一大家子的眼睛，把我教成了这副模样。小时候我问母亲，姑娘家为什么守这么多规矩，她说，等你嫁人就明白了。如今我要嫁人了，还是不明白。我不怨谁。怨也没用，命就是这样。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "敬酒的人一波接一波，起哄声一浪高过一浪。有人闹洞房，喊着要听新人悄悄话，我躲在他身后，手心全是汗。乐队奏了一遍又一遍，我踩着拍子，像踩在云彩上，轻飘飘的，落不到实地。我在心里求：慢一点，再慢一点。可夜这种东西，你越怕它来，它来得越快。要是一直这么热闹下去，天一直不黑，该多好。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "那时候我还不知道，{{e_nasa|纳萨}}这个名字，往后会跟这桩婚事钉在一起，钉得死死的，一辈子都撬不下来。那天晚上，我谁的名字都不想想。我只想一件事：天能不能不黑。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "后来，天真的黑透了。灯一关，我的心一下子悬到了嗓子眼。笑了一整天，这会儿不用笑了，我才发现，不笑比笑还累。这一夜怎么熬过去，熬过去之后又是什么，只有天知道。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_anhela"
+   }
+  ],
+  "hints": [
+   "全镇最风光的一天，是她最怕天黑的一天",
+   "她将成为这场婚事里最先被退回来的人"
+  ]
+ },
+ {
+  "id": "c1_11",
+  "level": 1,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "纳萨",
+  "row": 0,
+  "title": "与未婚妻散步",
+  "cg": "murder-assets/cg/c1_11.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: evening stroll around a small-town square, a carefree young rancher walking with his fiancée under church bells and lamplight, gesturing happily about future plans, warm romantic mood, no text. Scene includes: the young rancher and his fiancée.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "吃过晚饭，年轻牧场主陪着未婚妻{{e_fuluola|弗洛拉}}在广场上绕圈。晚风正好，教堂的钟刚敲过。话题绕来绕去，总绕不开那个刚到镇上的外乡人。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "你说那个外乡人，真是来修铁路的？我怎么听人说，他是来寻宝的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（笑）寻宝？这破地方有什么宝。要我说，他就是钱多烧的，想找个地方花。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "人家可比你有钱多了。听说小费一给就是一把。我表姐说，那人箱子上贴的字都是花体，洋气得不得了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "洋气顶什么用。咱这地方，认的是牲口和地。咱们{{e_muchang|圣颜牧场}}也不差，今年的牲口出了好价钱，够咱们办一场全镇最像样的婚礼。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "（嗔他）就你敢说。婚期定在来年圣诞，还早着呢，我妈说筹备得一年多。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那就慢慢备。到时候先在你家——{{e_migejia|米格尔家}}那边发帖子，再去我家{{e_dazhai|纳家大宅}}摆酒，流水席摆三天！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "你呀，就知道摆阔。我妈还说了，成亲之前，不许你老往我家跑，叫人笑话。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "笑话什么？未婚夫妻散散步，天经地义。再说了，我这不是有你爸点头吗。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "（白他一眼）你就会拿我爸说事。我妈还盘算，婚礼上要请四桌娘家亲戚，一桌都不能少。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "请！八桌都请。到时候让你妈坐上首，谁也别想挑理。日子我都掐着指头数着呢——来年圣诞，一天不多，一天不少。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "数吧数吧，数岔了日子，看我不收拾你。（顿了顿）那外乡人要在镇上长住，往后你们少不了打交道。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "打交道好啊，有钱人来了，镇上的买卖都活泛。他要真修铁路，我的牲口就能卖到天边去。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "美得你。先把眼前这场婚礼办明白吧。说真的，你那牧场，秋后真能出栏那么多？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那还有假？雨季草长得齐腰高，牲口一头头滚圆。等钱到了手，先给你打一套首饰。你收着我那些信的那只{{e_xinxia|信匣}}，可别弄丢了，往后我要接着写。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "（笑）谁稀罕。（放轻声音）对了，你爸要是还在……"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（收了笑）{{e_laona|老纳}}走了三年了。他走得急，连句囫囵话都没留下。我那时候还在念书，一纸电报就把我叫回来接牧场了。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "（轻声）他要是能看见你成家，该多好。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（又笑起来，揽住她肩）看得见。他那个人，在哪儿都闲不住，到时候一准来喝喜酒。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_fuluola",
+    "text": "（望着教堂的钟）天不早了，送我回去吧，我妈该念叨了。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_guangchang"
+   }
+  ],
+  "hints": [
+   "他口中的婚期永远赶不上了",
+   "他的未婚妻会在那个清晨把信匣摔还给他"
+  ]
+ },
+ {
+  "id": "c1_12",
+  "level": 1,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "纳萨",
+  "row": 2,
+  "title": "议论新女婿",
+  "cg": "murder-assets/cg/c1_12.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: a breezy veranda at dusk of an Arab-style mansion, two young men drinking rum in wicker chairs and chatting about town gossip, bottles and glasses on a small table between them, relaxed friendly mood, no text. Scene includes: the young ranch owner and his best friend.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "傍晚，牧场主在自家门廊摆了酒，请最要好的朋友{{e_beiduoya|贝多亚}}。两把藤椅，一瓶朗姆酒，话题从镇上的新鲜事扯开。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "你是没见着那晚上。{{e_shengroman|圣罗曼}}把彩票全包了，眼皮都没眨一下。满场的人都傻了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（往杯里倒酒）为送一台唱机？值当吗。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "人家要的就是这个排场。唱机往{{e_anhela|安赫拉}}家一抬，全镇都知道他相中谁了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那姑娘我见过几回，文文静静的，话不多。她娘{{e_pulixi|普里西}}家教出了名地严，门槛高着呢。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "门槛再高，架不住人家拿钱砸。听说连山丘上那座房子也买下来了——房主{{e_xiusi|希乌斯}}本来死活不卖，愣是被一万比索现钱砸了下来。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（咋舌）一万比索……我得卖多少头牛才挣得回来。这外乡人的钱，来得也太容易了。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "镇上都在猜他的来历。有说淘金的，有说逃难的，传什么的都有。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "管他什么来历，钱是真的就行。你没见他付账，票子一沓一沓的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "人家把全家都接来了，老爷子是打过内战的大人物。这一来，没人敢嚼舌根了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "这叫排场。人家做事，处处都要个排场。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "还有更逗的。那对双胞胎去退唱机，礼没退成，倒陪他喝了个通宵，第二天还把他领回了家。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（大笑）这叫什么？这叫本事。换了别人，早被打出来了。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "你别说，我还真有点佩服他。换成我，半个镇的闲话就把我压趴下了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "你呀，脸皮太薄。人家那是见过世面的，风浪里闯出来的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "（笑）得了吧，你自己还不是一样，见了生人就躲。（喝了口酒）说起来，你到底见没见过他本人？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "我那是懒，不是怕。远远见过一回，白西装，大檐帽，派头十足。哪天介绍你认识——这种人，值得交。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "听说婚期都定了。到时候婚礼一办，咱这小镇怕是要翻天，咱们一定去开开眼。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "去！不光去，还得随一份厚礼，不能叫外乡人小看了咱们镇上人。（碰杯）人家的婚事，咱们看戏——说说咱们自己的：{{e_muchang|圣颜牧场}}今年收成好，雨季草肥，牲口壮实。等秋后出了栏，我请你喝更好的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "这话我记下了，到时候可别赖账。（起身）不早了，我回了，明天还得起早。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "急什么，再来一杯。你呀，从小到大就这毛病，酒没喝透就嚷着走。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "他议论别人的婚事，全然不知命运已把这桩婚事和他缝在一起",
+   "他的朋友是那个清晨唯一真心想找他的人"
+  ]
+ },
+ {
+  "id": "c1_13",
+  "level": 1,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "纳萨",
+  "row": 4,
+  "title": "我的婚礼也要像这样",
+  "cg": "murder-assets/cg/c1_13.jpg",
+  "cgPrompt": "Bright Kyoto-animation style, 16:9: the wildest moments of a lavish wedding night, a happy young man dancing and toasting amid a joyous crowd, lanterns and music everywhere, dawn just beginning to pale the sky behind him, exuberant mood with a faint touch of fate, no text. Scene includes: the celebrating young man in the crowd.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "这婚礼，办得绝了！四十只火鸡、十一头猪，我从下午吃到半夜，酒更是一杯接一杯，谁来敬都不推。乐队奏了一整夜，我从这头跳到那头，谁都不服。敬酒敬得胳膊都酸了，嗓子也喊哑了。{{e_anhela|安赫拉}}今天真俊，新郎那小子，有福气。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_marco|马尔科}}这小子拉着我拼酒，喝到舌头打结还嘴硬，说要趁今天跟他相好的姑娘求婚。他还真去了——当着满场的人，拉着那姑娘跳了一支舞，满场都给他叫好。好小子，有种。行啊，他要真敢娶，我给他当证婚的，全镇作证。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我跟{{e_fuluola|弗洛拉}}说了，等圣诞轮到咱们，排场只大不小。她捶我，说我吹牛。吹牛？我爸{{e_laona|老纳}}留下的牧场，在我手里没垮，还翻了番。一场让全镇讲一辈子的婚礼，我办得起。我连曲子都想好了，就照今晚这个班子请，一个铜板不省。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "有人问我，羡不羡慕。羡慕什么？我有的不比谁少：牧场、牲口、没过门的媳妇，样样齐全。这样的日子，拿金山来我都不换。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "想想也真快。三年前爸走的时候，我还是个学生，一纸电报把我叫回来接牧场，两眼一抹黑。如今牧场顺了，婚期定了，日子一天比一天有奔头。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我们一直闹到凌晨四点多才散。往家走的时候，天边都泛白了，街上全是酒气和笑闹声。明天还要早起，主教要坐船来，全镇都去迎——睡一个钟头也值了。我寻思着，结婚这事儿，真不赖。等轮到我，只会更热闹。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   }
+  ],
+  "hints": [
+   "他把这场婚礼当成自己婚礼的预演",
+   "天亮之后，全镇会议论另一件事"
+  ]
+ }
+]

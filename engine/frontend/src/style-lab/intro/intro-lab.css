@@ -1,0 +1,712 @@
+/* 开场过场候选方案样式：全部挂在 .intro-proto[data-intro] 下，不碰 body / 生产组件。
+   四案共用同一批类名，只在版式与动效上分岔，方便直接对比同一段文案。 */
+
+.intro-proto {
+  --ip-paper: #f7f0e1;
+  --ip-paper-2: #efe6d3;
+  --ip-ink: #2b2118;
+  --ip-ink-60: rgba(43, 33, 24, 0.62);
+  --ip-cinnabar: #9d3a2f;
+  --ip-gold: #c9a227;
+  --ip-warm: #f4ecdc;
+  position: relative;
+  height: min(78vh, 720px);
+  min-height: 480px;
+  overflow: hidden;
+  background: #14110d;
+  color: var(--ip-warm);
+  font-family: 'Noto Serif SC', serif;
+  user-select: none;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+.intro-proto:focus-visible {
+  outline: 2px solid var(--ip-gold);
+  outline-offset: -2px;
+}
+
+.ip-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  animation: ipKenBurns 26s ease-out both;
+}
+
+@keyframes ipKenBurns {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.ip-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* 底部压暗：让压在画面上的文字始终够对比，又不出现白框 */
+.ip-vignette::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 80% at 50% 26%, transparent 38%, rgba(12, 10, 8, 0.55) 100%),
+    linear-gradient(
+      to top,
+      rgba(12, 10, 8, 0.9) 0%,
+      rgba(12, 10, 8, 0.72) 30%,
+      rgba(12, 10, 8, 0.45) 48%,
+      transparent 70%
+    );
+}
+
+/* ---------- 通用页脚：进度 + 推进按钮 ---------- */
+
+.ip-foot {
+  position: absolute;
+  right: 26px;
+  bottom: 20px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ip-progress {
+  font-size: 13px;
+  letter-spacing: 0.22em;
+  color: rgba(244, 236, 220, 0.66);
+}
+
+.ip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 22px;
+  font-family: inherit;
+  font-size: 15px;
+  letter-spacing: 0.18em;
+  text-indent: 0.18em;
+  color: var(--ip-warm);
+  background: rgba(20, 17, 13, 0.42);
+  border: 1px solid rgba(201, 162, 39, 0.55);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ip-btn:hover {
+  background: rgba(201, 162, 39, 0.16);
+  border-color: var(--ip-gold);
+}
+
+.ip-btn:active {
+  transform: translateY(1px);
+}
+
+.ip-caret-down {
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translate(-2px, -2px);
+  animation: ipNudge 1.8s ease-in-out infinite;
+}
+
+@keyframes ipNudge {
+  0%,
+  100% {
+    transform: rotate(45deg) translate(-2px, -2px);
+  }
+  50% {
+    transform: rotate(45deg) translate(0, 0);
+  }
+}
+
+.ip-done {
+  position: relative;
+  z-index: 5;
+  align-self: center;
+  margin: auto;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  color: rgba(244, 236, 220, 0.7);
+}
+
+.ip-speaker {
+  display: inline-block;
+  margin-right: 0.7em;
+  padding: 1px 9px;
+  font-size: 0.78em;
+  letter-spacing: 0.14em;
+  color: var(--ip-gold);
+  border: 1px solid rgba(201, 162, 39, 0.5);
+  border-radius: 1px;
+  vertical-align: 0.14em;
+}
+
+.ip-rule {
+  display: block;
+  width: 132px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201, 162, 39, 0.85), transparent);
+}
+
+/* ================= A 影院字卡 ================= */
+
+.intro-proto[data-intro='a'] .ip-titlecard {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  animation: ipTitleIn 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.intro-proto[data-intro='a'] .ip-titlecard h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.42em;
+  text-indent: 0.42em;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes ipTitleIn {
+  from {
+    opacity: 0;
+    letter-spacing: 0.8em;
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* 一次只留一句：整段淡入上浮，不堆叠、不出现白框，画面始终完整
+   顶部锚定 + 左对齐：逐字上墨时首行不动，新行只向下长 */
+.intro-proto[data-intro='a'] .ip-line {
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  z-index: 5;
+  width: min(760px, 74%);
+  margin: 0;
+  transform: translateX(-50%);
+  text-align: left;
+  font-size: 22px;
+  line-height: 2.15;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.85), 0 0 40px rgba(0, 0, 0, 0.5);
+  animation: ipLineIn 0.4s ease both;
+}
+
+/* 纯淡入，不带位移：换段时文字不能上浮 */
+@keyframes ipLineIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ip-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  z-index: 6;
+  display: flex;
+  gap: 7px;
+  transform: translateX(-50%);
+}
+
+.ip-dot {
+  width: 16px;
+  height: 2px;
+  background: rgba(244, 236, 220, 0.26);
+  transition: background 0.3s ease, width 0.3s ease;
+}
+
+.ip-dot.past {
+  background: rgba(244, 236, 220, 0.5);
+}
+
+.ip-dot.on {
+  width: 30px;
+  background: var(--ip-gold);
+}
+
+.intro-proto[data-intro='a'] .ip-progress {
+  display: none;
+}
+
+/* ================= B 对开书页 ================= */
+
+.intro-proto[data-intro='b'] {
+  background: radial-gradient(120% 100% at 50% 0%, #3b3229 0%, #201b16 70%);
+  padding: 30px 34px 26px;
+}
+
+.ip-book {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--ip-paper);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), 0 2px 0 rgba(255, 255, 255, 0.06) inset;
+  overflow: hidden;
+}
+
+.ip-page {
+  position: relative;
+  flex: 1 1 50%;
+  min-width: 0;
+  padding: 34px 40px;
+  color: var(--ip-ink);
+}
+
+/* 书脊：靠近装订处的纸面压暗，两页各压一侧 */
+.ip-gutter {
+  flex: 0 0 2px;
+  background: linear-gradient(90deg, rgba(43, 33, 24, 0.16), rgba(43, 33, 24, 0.3), rgba(43, 33, 24, 0.16));
+  box-shadow: 0 0 26px 12px rgba(43, 33, 24, 0.12);
+}
+
+.ip-left {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: linear-gradient(90deg, var(--ip-paper) 60%, var(--ip-paper-2));
+}
+
+.ip-plate {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid rgba(43, 33, 24, 0.22);
+  padding: 6px;
+  background: #fffdf7;
+}
+
+.ip-plate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(0.14) contrast(1.02);
+}
+
+.ip-plate-cap {
+  flex: 0 0 auto;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  color: var(--ip-ink-60);
+}
+
+.ip-right {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(270deg, var(--ip-paper) 60%, var(--ip-paper-2));
+}
+
+.ip-halftitle {
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  animation: ipPageIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.ip-halftitle-kicker {
+  font-size: 12px;
+  letter-spacing: 0.52em;
+  text-indent: 0.52em;
+  color: var(--ip-ink-60);
+}
+
+.ip-halftitle h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.26em;
+  text-indent: 0.26em;
+  color: var(--ip-ink);
+}
+
+.ip-halftitle .ip-rule {
+  background: linear-gradient(90deg, transparent, rgba(157, 58, 47, 0.7), transparent);
+}
+
+/* 整页替换而不是往下堆行：一次一页，正文永远在同一位置起排 */
+.ip-para {
+  flex: 1;
+  margin: 0;
+  font-size: 17px;
+  line-height: 2.15;
+  text-align: justify;
+  color: var(--ip-ink);
+  animation: ipPageIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.ip-para::first-letter {
+  float: left;
+  margin: 0.14em 0.14em 0 0;
+  font-size: 3.1em;
+  line-height: 0.92;
+  color: var(--ip-cinnabar);
+}
+
+@keyframes ipPageIn {
+  from {
+    opacity: 0;
+    transform: translateX(26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ip-folio {
+  flex: 0 0 auto;
+  padding-top: 14px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  text-indent: 0.28em;
+  color: var(--ip-ink-60);
+  border-top: 1px solid rgba(43, 33, 24, 0.14);
+}
+
+.intro-proto[data-intro='b'] .ip-foot {
+  right: 54px;
+  bottom: 44px;
+}
+
+.intro-proto[data-intro='b'] .ip-btn {
+  color: var(--ip-ink);
+  background: rgba(157, 58, 47, 0.06);
+  border-color: rgba(157, 58, 47, 0.5);
+}
+
+.intro-proto[data-intro='b'] .ip-btn:hover {
+  background: rgba(157, 58, 47, 0.13);
+  border-color: var(--ip-cinnabar);
+}
+
+/* 页码已经在书口的 folio 上，页脚不再重复一遍 */
+.intro-proto[data-intro='b'] .ip-progress {
+  display: none;
+}
+
+.intro-proto[data-intro='b'] .ip-done {
+  color: var(--ip-ink-60);
+}
+
+/* ================= C 竖排经卷 ================= */
+
+.intro-proto[data-intro='c'] .ip-bg {
+  filter: saturate(0.72) brightness(0.62);
+}
+
+/* 卷轴只占右侧：左边留出画面，读过的列从左缘滚出去，像卷轴正被拉开 */
+.ip-scroll {
+  position: absolute;
+  inset: 34px 40px 74px 24%;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 26px 30px;
+  background: linear-gradient(180deg, rgba(247, 240, 225, 0.96), rgba(239, 230, 211, 0.92));
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  /* 卷轴两端的轴杆 */
+  border-left: 6px solid rgba(90, 66, 40, 0.55);
+  border-right: 6px solid rgba(90, 66, 40, 0.55);
+}
+
+.ip-cols {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 26px;
+  height: 100%;
+  min-width: 0;
+}
+
+.ip-coltitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  order: -1;
+  flex: 0 0 auto;
+}
+
+.ip-coltitle h2 {
+  margin: 0;
+  writing-mode: vertical-rl;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: var(--ip-ink);
+}
+
+.ip-seal {
+  flex: 0 0 auto;
+  padding: 7px 6px;
+  writing-mode: vertical-rl;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  background: var(--ip-cinnabar);
+  border-radius: 1px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
+}
+
+/* 每段自成一列（长段自动向左续列）；新段从右侧展开，读过的向左推出画面 */
+.ip-col {
+  flex: 0 0 auto;
+  max-height: 100%;
+  margin: 0;
+  writing-mode: vertical-rl;
+  font-size: 17px;
+  line-height: 2.1;
+  letter-spacing: 0.06em;
+  color: var(--ip-ink-60);
+  transition: color 0.5s ease;
+  animation: ipColIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.ip-col.on {
+  color: var(--ip-ink);
+}
+
+@keyframes ipColIn {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.intro-proto[data-intro='c'] .ip-speaker {
+  writing-mode: vertical-rl;
+  margin: 0 0 0.7em 0;
+  color: var(--ip-cinnabar);
+  border-color: rgba(157, 58, 47, 0.45);
+}
+
+/* ================= D 残稿显影 ================= */
+
+.intro-proto[data-intro='d'] .ip-bg {
+  filter: saturate(0.8) brightness(0.7);
+  animation-duration: 34s;
+}
+
+.ip-sheet {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 5;
+  width: min(900px, 84%);
+  min-height: 46%;
+  padding: 30px 46px 34px;
+  transform: translateX(-50%) rotate(-0.35deg);
+  background: linear-gradient(180deg, var(--ip-paper) 0%, var(--ip-paper-2) 100%);
+  color: var(--ip-ink);
+  box-shadow: 0 -14px 50px rgba(0, 0, 0, 0.5);
+  /* 上缘做出撕口 */
+  clip-path: polygon(
+    0% 3%, 6% 1%, 12% 3.4%, 19% 1.2%, 26% 3.2%, 33% 1.4%, 41% 3.6%, 48% 1.1%,
+    56% 3.2%, 63% 1.5%, 71% 3.4%, 78% 1.2%, 86% 3.3%, 93% 1.4%, 100% 3%,
+    100% 100%, 0% 100%
+  );
+}
+
+.ip-sheet-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(43, 33, 24, 0.16);
+}
+
+.ip-stamp {
+  padding: 3px 10px;
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-indent: 0.24em;
+  color: #fff;
+  background: var(--ip-cinnabar);
+  transform: rotate(-5deg);
+}
+
+.ip-sheet-title {
+  flex: 1;
+  font-size: 14px;
+  letter-spacing: 0.24em;
+  color: var(--ip-ink-60);
+}
+
+.ip-sheet-no {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--ip-ink-60);
+}
+
+.ip-sheet-open h2 {
+  margin: 6px 0 12px;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.28em;
+  text-indent: 0.28em;
+}
+
+.ip-sheet-open p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--ip-ink-60);
+}
+
+/* 逐字上墨：墨色由淡转浓，最后一个字带笔尖 */
+.ip-ink {
+  margin: 0;
+  font-size: 18px;
+  line-height: 2.15;
+  text-indent: 2em;
+  text-align: justify;
+  color: var(--ip-ink);
+}
+
+.ip-nib {
+  display: inline-block;
+  width: 2px;
+  height: 0.95em;
+  margin-left: 2px;
+  vertical-align: -0.12em;
+  background: var(--ip-cinnabar);
+  animation: ipNib 0.75s steps(2) infinite;
+}
+
+@keyframes ipNib {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
+
+.ip-inkbar {
+  position: absolute;
+  left: 46px;
+  right: 46px;
+  bottom: 16px;
+  height: 1.5px;
+  background: rgba(43, 33, 24, 0.14);
+}
+
+.ip-inkbar i {
+  display: block;
+  height: 100%;
+  background: var(--ip-cinnabar);
+  transition: width 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.intro-proto[data-intro='d'] .ip-progress {
+  display: none;
+}
+
+.intro-proto[data-intro='d'] .ip-foot {
+  bottom: 30px;
+  right: 46px;
+}
+
+.intro-proto[data-intro='d'] .ip-btn {
+  color: var(--ip-ink);
+  background: rgba(43, 33, 24, 0.05);
+  border-color: rgba(43, 33, 24, 0.4);
+}
+
+.intro-proto[data-intro='d'] .ip-btn:hover {
+  background: rgba(157, 58, 47, 0.12);
+  border-color: var(--ip-cinnabar);
+}
+
+.intro-proto[data-intro='d'] .ip-done {
+  color: var(--ip-ink-60);
+}
+
+/* ---------- 减少动态 ---------- */
+
+.intro-proto.is-reduced .ip-bg,
+.intro-proto.is-reduced .ip-line,
+.intro-proto.is-reduced .ip-para,
+.intro-proto.is-reduced .ip-col,
+.intro-proto.is-reduced .ip-titlecard,
+.intro-proto.is-reduced .ip-halftitle,
+.intro-proto.is-reduced .ip-caret-down,
+.intro-proto.is-reduced .ip-nib {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ip-bg,
+  .ip-line,
+  .ip-para,
+  .ip-col,
+  .ip-titlecard,
+  .ip-halftitle,
+  .ip-caret-down,
+  .ip-nib {
+    animation: none;
+  }
+}
+
+/* ---------- 窄窗退化 ---------- */
+
+@media (max-width: 900px) {
+  .ip-book {
+    flex-direction: column;
+  }
+  .ip-gutter {
+    display: none;
+  }
+  .ip-left {
+    flex: 0 0 38%;
+  }
+  .intro-proto[data-intro='a'] .ip-line {
+    width: 86%;
+    font-size: 18px;
+    top: 56%;
+  }
+  .ip-sheet {
+    width: 94%;
+    padding: 24px 24px 30px;
+  }
+  .ip-scroll {
+    inset: 20px 20px 70px;
+  }
+}

@@ -1,0 +1,51 @@
+/* 本地自托管：每族一份（可变 Inter + Noto 常规/粗体）。OFL-1.1 见 fonts/OFL.txt
+   只有 400/700：不要用 500/600，否则浏览器会假粗，Windows 上发糊。 */
+
+html,
+.style-lab {
+  /* 允许假斜体（独白），禁止假粗（缺 500/600 时发糊） */
+  font-synthesis: style;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./fonts/inter-latin-variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('./fonts/noto-sans-sc-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('./fonts/noto-sans-sc-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('./fonts/noto-serif-sc-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('./fonts/noto-serif-sc-700.woff2') format('woff2');
+}

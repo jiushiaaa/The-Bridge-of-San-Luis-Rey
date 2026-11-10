@@ -1,0 +1,872 @@
+[
+ {
+  "path": "/cards/0/title",
+  "en": "Son of a Brahmin",
+  "zh": "婆罗门之子"
+ },
+ {
+  "path": "/cards/0/hints/0",
+  "en": "The most promising young man in the city; his father is a priest.",
+  "zh": "全城最被看好的年轻人，他的父亲是祭司。"
+ },
+ {
+  "path": "/cards/0/hints/1",
+  "en": "No one knows his family name, yet everyone calls him “the Brahmin's son”—the name in the lexicon that most resembles the hero.",
+  "zh": "他姓什么没人知道，但人人都叫他「婆罗门之子」——词条库里最像主角的那个名字。"
+ },
+ {
+  "path": "/cards/1/title",
+  "en": "The Vessel Unfilled",
+  "zh": "容器未满"
+ },
+ {
+  "path": "/cards/1/hints/0",
+  "en": "He is the most learned in this house, and the least content.",
+  "zh": "他是这个家里最博学、也最不满足的人。"
+ },
+ {
+  "path": "/cards/1/hints/1",
+  "en": "The pride of every Brahmin in the city—the son who left home to seek the way.",
+  "zh": "全城婆罗门的骄傲——那个离家求道的儿子。"
+ },
+ {
+  "path": "/cards/2/title",
+  "en": "I Will Follow You",
+  "zh": "我跟你走"
+ },
+ {
+  "path": "/cards/2/hints/0",
+  "en": "One announced that he would go; one followed, his face pale.",
+  "zh": "一个是宣布要走的人，一个是脸色苍白跟上来的人。"
+ },
+ {
+  "path": "/cards/2/hints/1",
+  "en": "The companion who always lagged a step behind, following him as one follows a god.",
+  "zh": "那个总落后一步、把他当神明一样跟从的伙伴。"
+ },
+ {
+  "path": "/cards/3/title",
+  "en": "Standing Until Dawn",
+  "zh": "站到天明"
+ },
+ {
+  "path": "/cards/3/hints/0",
+  "en": "One old, one young, facing each other through a little window until dawn.",
+  "zh": "一老一少，隔着一扇小窗对峙到天亮。"
+ },
+ {
+  "path": "/cards/3/hints/1",
+  "en": "The one who, at the last, laid his hand on his son's shoulder.",
+  "zh": "最后把手放上儿子肩膀的人。"
+ },
+ {
+  "path": "/cards/4/title",
+  "en": "I Will Not Tire",
+  "zh": "我不会累"
+ },
+ {
+  "path": "/cards/4/hints/0",
+  "en": "The one standing in that little window.",
+  "zh": "那扇小窗里站着的人。"
+ },
+ {
+  "path": "/cards/4/hints/1",
+  "en": "The Brahmin's son.",
+  "zh": "婆罗门之子。"
+ },
+ {
+  "path": "/cards/5/title",
+  "en": "Eagle and Jackal",
+  "zh": "化鹰化豺"
+ },
+ {
+  "path": "/cards/5/hints/0",
+  "en": "The young man who practised most harshly and learned the fastest.",
+  "zh": "修得最狠、学得最快的那个年轻人。"
+ },
+ {
+  "path": "/cards/5/hints/1",
+  "en": "The elder's proudest disciple—yet in his heart he is already doubting it all.",
+  "zh": "长老最得意的弟子——可他心里正在怀疑这一切。"
+ },
+ {
+  "path": "/cards/6/title",
+  "en": "Anesthetic",
+  "zh": "麻醉剂"
+ },
+ {
+  "path": "/cards/6/hints/0",
+  "en": "The one who has begun to find asceticism a “conjurer's trick.”",
+  "zh": "开始觉得苦修是「鬼把戏」的人。"
+ },
+ {
+  "path": "/cards/6/hints/1",
+  "en": "The Samana who made a parable of rice wine.",
+  "zh": "那个拿米酒打比方的沙门。"
+ },
+ {
+  "path": "/cards/7/title",
+  "en": "The Rising Spiral",
+  "zh": "上升的螺旋"
+ },
+ {
+  "path": "/cards/7/hints/0",
+  "en": "One still believes in this path; one no longer does.",
+  "zh": "一个还信这条路，一个已经不信了。"
+ },
+ {
+  "path": "/cards/7/hints/1",
+  "en": "The doubter is always the one walking half a step ahead.",
+  "zh": "质疑者总是那个走在前面半步的人。"
+ },
+ {
+  "path": "/cards/8/title",
+  "en": "Rumour and Hypnosis",
+  "zh": "传闻与催眠"
+ },
+ {
+  "path": "/cards/8/hints/0",
+  "en": "Of the four “people,” one is not there at all; he lives only in rumour.",
+  "zh": "四个「人」里有一个根本不在场，他只活在传闻里。"
+ },
+ {
+  "path": "/cards/8/hints/1",
+  "en": "The old man who bowed and blessed once his eyes were held, and the disciple who held them.",
+  "zh": "被盯住眼睛就鞠躬祝福的老人，和盯人的那个弟子。"
+ },
+ {
+  "path": "/cards/9/title",
+  "en": "The Teaching at Jetavana",
+  "zh": "祇园听法"
+ },
+ {
+  "path": "/cards/9/hints/0",
+  "en": "He speaks not a word; merely walking, he makes himself known.",
+  "zh": "他不讲一句话，光走路就让人认出来。"
+ },
+ {
+  "path": "/cards/9/hints/1",
+  "en": "People call him “the Blessed One.”",
+  "zh": "人们称他为「世尊」。"
+ },
+ {
+  "path": "/cards/10/title",
+  "en": "The Night of Taking Refuge",
+  "zh": "皈依之夜"
+ },
+ {
+  "path": "/cards/10/hints/0",
+  "en": "This is the first time in his life he has not followed his friend.",
+  "zh": "这是他人生第一次没有跟着朋友走。"
+ },
+ {
+  "path": "/cards/10/hints/1",
+  "en": "From now on he belongs to the Buddha's order.",
+  "zh": "从此他属于佛陀的僧团。"
+ },
+ {
+  "path": "/cards/11/title",
+  "en": "The Crack in the Teaching",
+  "zh": "论法裂缝"
+ },
+ {
+  "path": "/cards/11/hints/0",
+  "en": "The one who dared say to his face that “the teaching lacks a corner,” and the one of whom it was said.",
+  "zh": "敢于当面指出「教义缺了一角」的人，和被指出的人。"
+ },
+ {
+  "path": "/cards/11/hints/1",
+  "en": "The parting gift of words was about “excessive cleverness.”",
+  "zh": "临别赠言是关于「过分的聪明」。"
+ },
+ {
+  "path": "/cards/12/title",
+  "en": "Awakening",
+  "zh": "觉醒"
+ },
+ {
+  "path": "/cards/12/hints/0",
+  "en": "The one who decided “no longer to flee himself.”",
+  "zh": "决定「不再逃避自己」的人。"
+ },
+ {
+  "path": "/cards/12/hints/1",
+  "en": "The hero of this story.",
+  "zh": "这个故事的主角。"
+ },
+ {
+  "path": "/cards/13/title",
+  "en": "The I in Rumour",
+  "zh": "传闻里的我"
+ },
+ {
+  "path": "/cards/13/hints/0",
+  "en": "This man with the alms bowl—the children of the city can call his name.",
+  "zh": "托钵的这个人，城里的孩子都叫得出他的名字。"
+ },
+ {
+  "path": "/cards/13/hints/1",
+  "en": "What he speaks of, again and again, is suffering, and the path that extinguishes it; these years, young men from every place have set out because of him.",
+  "zh": "他一遍遍讲的是苦，以及熄灭苦的那条路；这些年来，各地的年轻人都为他上路。"
+ },
+ {
+  "path": "/cards/14/title",
+  "en": "Lay Out One More Robe",
+  "zh": "多备一件衣"
+ },
+ {
+  "path": "/cards/14/hints/0",
+  "en": "The clearing is packed with people, yet he first concerns himself with two hungry guests from the woods.",
+  "zh": "空地上坐满了人，他却先关心两个饿着肚子的林中来客。"
+ },
+ {
+  "path": "/cards/14/hints/1",
+  "en": "One word from him—“follow us”—and that very night someone took off worldly clothes and put on the yellow robe.",
+  "zh": "他一句「跟从我们」，当晚就有人脱下俗衣、披上黄衣。"
+ },
+ {
+  "path": "/cards/15/title",
+  "en": "The Missing Corner",
+  "zh": "缺的那一角"
+ },
+ {
+  "path": "/cards/15/hints/0",
+  "en": "Someone said to his face that his teaching lacked a corner; he did not refute it.",
+  "zh": "有人当面说他的教义缺了一角，他没有反驳。"
+ },
+ {
+  "path": "/cards/15/hints/1",
+  "en": "After sitting a night under the tree, he spent the rest of his life speaking of the same path.",
+  "zh": "他在树下坐了一夜之后，用余生讲同一条路。"
+ },
+ {
+  "path": "/cards/16/title",
+  "en": "The Ferryman and the River",
+  "zh": "船夫与河"
+ },
+ {
+  "path": "/cards/16/hints/0",
+  "en": "The seeker who has just left the Buddha and taken the road alone, penniless.",
+  "zh": "刚离开佛陀、独自上路的求道者，身无分文。"
+ },
+ {
+  "path": "/cards/16/hints/1",
+  "en": "The ferryman said he would come back one day to repay him—remember this river.",
+  "zh": "船夫说，他日后还会回来报答——记住这条河。"
+ },
+ {
+  "path": "/cards/17/title",
+  "en": "The Lady in the Palanquin",
+  "zh": "轿中的贵妇"
+ },
+ {
+  "path": "/cards/17/hints/0",
+  "en": "One in the palanquin, one outside it.",
+  "zh": "一个在轿子里，一个在轿子外。"
+ },
+ {
+  "path": "/cards/17/hints/1",
+  "en": "The mistress of this garden; her red lips like a fresh fig.",
+  "zh": "这座园子的女主人，红唇像新鲜的无花果。"
+ },
+ {
+  "path": "/cards/18/title",
+  "en": "A Poem for a Kiss",
+  "zh": "以诗换吻"
+ },
+ {
+  "path": "/cards/18/hints/0",
+  "en": "One named a price, one bargained—his counter-offer was three arts and a poem.",
+  "zh": "一个开价，一个还价——他还的价是三种本事和一首诗。"
+ },
+ {
+  "path": "/cards/18/hints/1",
+  "en": "The one whose red lips are like a fresh fig.",
+  "zh": "红唇如新鲜无花果的人。"
+ },
+ {
+  "path": "/cards/19/title",
+  "en": "The Merchant's Interview",
+  "zh": "富商的面试"
+ },
+ {
+  "path": "/cards/19/hints/0",
+  "en": "One examines, one answers—the one answering called fasting the wisest thing.",
+  "zh": "一个考校，一个应答——应答者把斋戒说成最聪明的事。"
+ },
+ {
+  "path": "/cards/19/hints/1",
+  "en": "The richest man in the city, and the one most given to worry.",
+  "zh": "全城最有钱、也最爱发愁的人。"
+ },
+ {
+  "path": "/cards/20/title",
+  "en": "Love and Commerce",
+  "zh": "情爱与生意"
+ },
+ {
+  "path": "/cards/20/hints/0",
+  "en": "Three people: the one who teaches “the art of love,” the one anxious over losses, and the one anxious over neither.",
+  "zh": "三个人：教“爱的艺术”的、为亏本着急的、一个都不着急的。"
+ },
+ {
+  "path": "/cards/20/hints/1",
+  "en": "The anxious one is the master; the unanxious one was once a Samana.",
+  "zh": "着急的那个是东家，不着急的那个曾是个沙门。"
+ },
+ {
+  "path": "/cards/21/title",
+  "en": "Death of the Songbird",
+  "zh": "歌鸟之死"
+ },
+ {
+  "path": "/cards/21/hints/0",
+  "en": "The one who dreamed the caged bird had died.",
+  "zh": "梦见笼中鸟死去的人。"
+ },
+ {
+  "path": "/cards/21/hints/1",
+  "en": "The owner of the golden cage.",
+  "zh": "金笼的主人。"
+ },
+ {
+  "path": "/cards/22/title",
+  "en": "Om at the Riverbank",
+  "zh": "岸边闻唵"
+ },
+ {
+  "path": "/cards/22/hints/0",
+  "en": "He meant to destroy himself; one word saved him.",
+  "zh": "他想毁掉自己，一个字救了他。"
+ },
+ {
+  "path": "/cards/22/hints/1",
+  "en": "That syllable Brahmin children learn to say from the first.",
+  "zh": "那个音节，婆罗门的孩子从小就会念。"
+ },
+ {
+  "path": "/cards/23/title",
+  "en": "How Beautiful the World Is",
+  "zh": "世界真美好"
+ },
+ {
+  "path": "/cards/23/hints/0",
+  "en": "The one who has just begun to see the world with “another pair of eyes.”",
+  "zh": "刚刚“换一种眼睛”看世界的人。"
+ },
+ {
+  "path": "/cards/23/hints/1",
+  "en": "Still the same hero.",
+  "zh": "还是那个主角。"
+ },
+ {
+  "path": "/cards/24/title",
+  "en": "I Am No Longer a Beggar",
+  "zh": "我不再是乞丐"
+ },
+ {
+  "path": "/cards/24/hints/0",
+  "en": "The one just made new at the river, changing his own skin.",
+  "zh": "刚在河边焕然一新的那个人，正在给自己换新皮。"
+ },
+ {
+  "path": "/cards/24/hints/1",
+  "en": "The hero of the story, still without a coin to his name.",
+  "zh": "故事的主角，这时还一文不名。"
+ },
+ {
+  "path": "/cards/25/title",
+  "en": "The Courtesan's Introduction",
+  "zh": "名妓的引荐"
+ },
+ {
+  "path": "/cards/25/hints/0",
+  "en": "She pushed open door after door for him.",
+  "zh": "她替他推开一扇又一扇门。"
+ },
+ {
+  "path": "/cards/25/hints/1",
+  "en": "Red lips, gold bracelets, a fan of feathers.",
+  "zh": "红唇、金镯、羽扇。"
+ },
+ {
+  "path": "/cards/26/title",
+  "en": "Writing, Though Fair",
+  "zh": "写作虽美"
+ },
+ {
+  "path": "/cards/26/hints/0",
+  "en": "The one who has just passed a strange interview.",
+  "zh": "刚通过一场奇怪的面试的人。"
+ },
+ {
+  "path": "/cards/26/hints/1",
+  "en": "The one who takes “fasting” as his capital.",
+  "zh": "把“斋戒”当本钱的人。"
+ },
+ {
+  "path": "/cards/27/title",
+  "en": "You Do Not Know True Love",
+  "zh": "你不懂得真爱"
+ },
+ {
+  "path": "/cards/27/hints/0",
+  "en": "She said the words “you do not know true love.”",
+  "zh": "她说出了“你不懂得真爱”。"
+ },
+ {
+  "path": "/cards/27/hints/1",
+  "en": "The bird she keeps lives in a golden cage.",
+  "zh": "她养的鸟住在金笼里。"
+ },
+ {
+  "path": "/cards/28/title",
+  "en": "The Potter's Wheel",
+  "zh": "陶匠的旋轮"
+ },
+ {
+  "path": "/cards/28/hints/0",
+  "en": "The one who has caught “the rich man's disease.”",
+  "zh": "染上“富人的病”的人。"
+ },
+ {
+  "path": "/cards/28/hints/1",
+  "en": "He was once a Samana.",
+  "zh": "他曾经是个沙门。"
+ },
+ {
+  "path": "/cards/29/title",
+  "en": "Unrecognised",
+  "zh": "不相识"
+ },
+ {
+  "path": "/cards/29/hints/0",
+  "en": "The old monk who watched over the sleeper, and the seeker who does not look like a seeker.",
+  "zh": "守护酣睡者的老僧，和不像求道者的求道者。"
+ },
+ {
+  "path": "/cards/29/hints/1",
+  "en": "When young, the old monk had a friend he honoured most.",
+  "zh": "老僧年轻时有个最敬爱的朋友。"
+ },
+ {
+  "path": "/cards/30/title",
+  "en": "One Third",
+  "zh": "三分之一"
+ },
+ {
+  "path": "/cards/30/hints/0",
+  "en": "A master who has made his lodger's “not caring” a sickness of the heart, and the lodger who will not take it to heart no matter what.",
+  "zh": "一个把门客的「不在乎」当成心病的东家，和那个怎么也不肯上心的门客。"
+ },
+ {
+  "path": "/cards/30/hints/1",
+  "en": "The one who worries is the grey-haired man who takes business as his life; the one spoken of came from the woods, and can think, wait, and fast.",
+  "zh": "发愁的是斑白头发、把生意当性命的那位；被议论的那个从林子里来，会思想、会等待、会斋戒。"
+ },
+ {
+  "path": "/cards/31/title",
+  "en": "At Last He Has Learned to Worry",
+  "zh": "他终于肯着急了"
+ },
+ {
+  "path": "/cards/31/hints/0",
+  "en": "He had waited so long for that man to fret over money—and now that it had come, he could not be glad.",
+  "zh": "他终于等到那个人肯为钱着急，反倒高兴不起来。"
+ },
+ {
+  "path": "/cards/31/hints/1",
+  "en": "Hair gone grey, shrewd and full of care; the counting-house lamp often burned past midnight.",
+  "zh": "斑白头发，精明多虑，账房的灯常常亮到半夜。"
+ },
+ {
+  "path": "/cards/32/title",
+  "en": "He Left No Word",
+  "zh": "他没有留下话"
+ },
+ {
+  "path": "/cards/32/hints/0",
+  "en": "A man left without a word, and not a coin was touched—those left behind were more frightened than if the money had been lost.",
+  "zh": "一个人不告而别，钱一文没动——留下的人比丢了钱还慌。"
+ },
+ {
+  "path": "/cards/32/hints/1",
+  "en": "The frightened one was the master who turned the ledger three times; the one who left never came back to this city.",
+  "zh": "慌的是那位把账翻了三遍的东家；走掉的那个，从此再没回过这座城。"
+ },
+ {
+  "path": "/cards/33/title",
+  "en": "My Name Is Vasudeva",
+  "zh": "我叫维稣德瓦"
+ },
+ {
+  "path": "/cards/33/hints/0",
+  "en": "That old promise—'You will come back and repay me'—was fulfilled today.",
+  "zh": "多年前那句「你会回来报答我」，今天应验了。"
+ },
+ {
+  "path": "/cards/33/hints/1",
+  "en": "The man who knew best how to listen—he spent his whole life rowing this river.",
+  "zh": "最会倾听的人——他一辈子都在这条河边摇船。"
+ },
+ {
+  "path": "/cards/34/title",
+  "en": "The Ferryman's Apprentice",
+  "zh": "船夫的学徒"
+ },
+ {
+  "path": "/cards/34/hints/0",
+  "en": "The new apprentice later asked the question about 'time'.",
+  "zh": "新上手的那个徒弟，后来问出了「时间」的问题。"
+ },
+ {
+  "path": "/cards/34/hints/1",
+  "en": "He had once been a rich man in the great city.",
+  "zh": "他曾是大城里的富人。"
+ },
+ {
+  "path": "/cards/35/title",
+  "en": "The Snakebite",
+  "zh": "蛇咬"
+ },
+ {
+  "path": "/cards/35/hints/0",
+  "en": "Of the four, two were old men, and one was a child.",
+  "zh": "四个人里，有两个是老人、一个是孩子。"
+ },
+ {
+  "path": "/cards/35/hints/1",
+  "en": "The mother had been the most beautiful in the city; the old man at the fire was an old acquaintance of hers.",
+  "zh": "母亲曾是全城最美的人；生火的老人与她是旧相识。"
+ },
+ {
+  "path": "/cards/35/cgCharVariants/e_jiamola",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/36/title",
+  "en": "Death at the Ferry",
+  "zh": "渡口死别"
+ },
+ {
+  "path": "/cards/36/hints/0",
+  "en": "She had meant to see the Buddha a last time, and met her old lover first.",
+  "zh": "她本想去看佛陀最后一眼，却先见到了旧情人。"
+ },
+ {
+  "path": "/cards/36/hints/1",
+  "en": "Her lips had once been like a fresh fig.",
+  "zh": "她的嘴唇曾像新鲜的无花果。"
+ },
+ {
+  "path": "/cards/36/cgCharVariants/e_jiamola",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/36/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/37/title",
+  "en": "Broken Bowls",
+  "zh": "碎碗"
+ },
+ {
+  "path": "/cards/37/hints/0",
+  "en": "An eight-year-old spoiled by his mother.",
+  "zh": "被母亲惯坏的八岁孩子。"
+ },
+ {
+  "path": "/cards/37/hints/1",
+  "en": "The child's father, when young, had once kept his own father sleepless a whole night.",
+  "zh": "孩子的父亲，年轻时也曾让他的父亲一夜难眠。"
+ },
+ {
+  "path": "/cards/37/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/38/title",
+  "en": "Broken Oars",
+  "zh": "断桨"
+ },
+ {
+  "path": "/cards/38/hints/0",
+  "en": "Who stole the fares and broke the oars?",
+  "zh": "谁偷走了船费、折断了船桨？"
+ },
+ {
+  "path": "/cards/38/hints/1",
+  "en": "The man who told the father to let go had no children of his own.",
+  "zh": "劝父亲放手的那个人，自己无儿无女。"
+ },
+ {
+  "path": "/cards/38/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/39/title",
+  "en": "Ten Thousand Sounds Become Om",
+  "zh": "万音成唵"
+ },
+ {
+  "path": "/cards/39/hints/0",
+  "en": "The one word into which ten thousand river-sounds flowed.",
+  "zh": "万千河声汇成的一个字。"
+ },
+ {
+  "path": "/cards/39/hints/1",
+  "en": "The word a Brahmin's child could chant from childhood.",
+  "zh": "婆罗门的孩子从小会念的那个字。"
+ },
+ {
+  "path": "/cards/39/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/40/title",
+  "en": "The Last Bow",
+  "zh": "最后一拜"
+ },
+ {
+  "path": "/cards/40/hints/0",
+  "en": "Only the third time did he truly 'see' his friend.",
+  "zh": "他第三次才真正「看见」自己的朋友。"
+ },
+ {
+  "path": "/cards/40/hints/1",
+  "en": "That smile he had seen on only one other face.",
+  "zh": "那个微笑，他只在一个人脸上见过。"
+ },
+ {
+  "path": "/cards/40/cgCharVariants/e_qiaowenda",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/40/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/41/title",
+  "en": "Newborn Infant",
+  "zh": "新生婴儿"
+ },
+ {
+  "path": "/cards/41/hints/0",
+  "en": "The man who had just died once by the river and come back to life.",
+  "zh": "刚在河边死过一回又活过来的人。"
+ },
+ {
+  "path": "/cards/41/hints/1",
+  "en": "The one this story is about.",
+  "zh": "这个故事的主角。"
+ },
+ {
+  "path": "/cards/42/title",
+  "en": "Year upon Year",
+  "zh": "年复一年"
+ },
+ {
+  "path": "/cards/42/hints/0",
+  "en": "He no longer speaks doctrine aloud, yet the ledger in his heart still runs, year after year.",
+  "zh": "他嘴上不再讲道理，心里那本账还一年一年记着。"
+ },
+ {
+  "path": "/cards/42/hints/1",
+  "en": "That white-haired apprentice by the river never went home again after he left.",
+  "zh": "河边那个白发的学徒，离家之后再没有回去过。"
+ },
+ {
+  "path": "/cards/43/title",
+  "en": "He Has Her Eyes",
+  "zh": "他有一双她的眼睛"
+ },
+ {
+  "path": "/cards/43/hints/0",
+  "en": "The man who has just learned he has a son.",
+  "zh": "刚知道自己有个儿子的人。"
+ },
+ {
+  "path": "/cards/43/hints/1",
+  "en": "The child's father.",
+  "zh": "孩子的父亲。"
+ },
+ {
+  "path": "/cards/43/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/44/title",
+  "en": "A Night Listening to the River",
+  "zh": "一夜听河"
+ },
+ {
+  "path": "/cards/44/hints/0",
+  "en": "The man who sat outside the hut all night.",
+  "zh": "在草舍外坐了一整夜的人。"
+ },
+ {
+  "path": "/cards/44/hints/1",
+  "en": "He has just seen the child's mother away.",
+  "zh": "刚送走了孩子的母亲。"
+ },
+ {
+  "path": "/cards/44/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/45/title",
+  "en": "The Listener",
+  "zh": "倾听者"
+ },
+ {
+  "path": "/cards/45/hints/0",
+  "en": "The man who teaches 'listening' seldom speaks much himself.",
+  "zh": "教「倾听」的人，自己从不多话。"
+ },
+ {
+  "path": "/cards/45/hints/1",
+  "en": "The ferryman.",
+  "zh": "船夫。"
+ },
+ {
+  "path": "/cards/46/title",
+  "en": "Before the Garden Gate",
+  "zh": "园门之前"
+ },
+ {
+  "path": "/cards/46/hints/0",
+  "en": "The man who stopped at the gate of his old lover's garden.",
+  "zh": "在旧情人的园子门口停下脚步的人。"
+ },
+ {
+  "path": "/cards/46/hints/1",
+  "en": "The one he pursued was his son.",
+  "zh": "他追的人是他的儿子。"
+ },
+ {
+  "path": "/cards/46/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/47/title",
+  "en": "Send Him Back to the City",
+  "zh": "送他回城"
+ },
+ {
+  "path": "/cards/47/hints/0",
+  "en": "The one who urged him to 'send him back to the city'.",
+  "zh": "劝他「送他回城」的人。"
+ },
+ {
+  "path": "/cards/47/hints/1",
+  "en": "The childless old man saw more clearly than the father.",
+  "zh": "无儿无女的老人，看得比父亲更清。"
+ },
+ {
+  "path": "/cards/47/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/48/title",
+  "en": "Farewell, River",
+  "zh": "再会，河流"
+ },
+ {
+  "path": "/cards/48/hints/0",
+  "en": "The man who left the ferry to his apprentice.",
+  "zh": "把渡口留给徒弟的人。"
+ },
+ {
+  "path": "/cards/48/hints/1",
+  "en": "The ferryman.",
+  "zh": "船夫。"
+ },
+ {
+  "path": "/cards/48/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/49/title",
+  "en": "Seeking and Finding",
+  "zh": "追寻与寻见"
+ },
+ {
+  "path": "/cards/49/hints/0",
+  "en": "The man who sought all his life, and the man who had long since 'found'.",
+  "zh": "追寻了一生的人，和早已「寻见」的人。"
+ },
+ {
+  "path": "/cards/49/hints/1",
+  "en": "The old monk in all his life took refuge with only one teacher.",
+  "zh": "老僧这一生只皈依过一位导师。"
+ },
+ {
+  "path": "/cards/49/cgCharVariants/e_qiaowenda",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/49/cgCharVariants/e_xidaduo",
+  "en": "old",
+  "zh": "old"
+ },
+ {
+  "path": "/cards/50/title",
+  "en": "The Seventeenth Boat on the Mound",
+  "zh": "土丘上的第十七条船"
+ },
+ {
+  "path": "/cards/50/hints/0",
+  "en": "He sat on the mound counting the boats that passed, and would not eat a mouthful.",
+  "zh": "他坐在土丘上数河里过去的船，一口饭也不肯吃。"
+ },
+ {
+  "path": "/cards/50/hints/1",
+  "en": "Eight years old, his mother just dead at the ferry; he will not acknowledge the white-haired man.",
+  "zh": "八岁，母亲刚死在渡口，他不肯认那个白头发的人。"
+ },
+ {
+  "path": "/cards/51/title",
+  "en": "The River Would Not Carry Him",
+  "zh": "河不肯载他"
+ },
+ {
+  "path": "/cards/51/hints/0",
+  "en": "One wanted to buy a passage home with other people's money; the other said it was the river's money.",
+  "zh": "一个想用别人的钱买一趟回城的船，一个说那是河的钱。"
+ },
+ {
+  "path": "/cards/51/hints/1",
+  "en": "The small one is eight; the old one has poled all his life, and never loses his temper.",
+  "zh": "小的那个八岁；老的那个撑了一辈子船，从不生气。"
+ },
+ {
+  "path": "/cards/52/title",
+  "en": "The Thing Thrown into the Water",
+  "zh": "扔进水里的那一样"
+ },
+ {
+  "path": "/cards/52/hints/0",
+  "en": "He counted the coppers, crossed the river, and before he left broke one thing on the boat and threw it in.",
+  "zh": "他数着铜板过了河，走之前把船上的一样东西折断扔了。"
+ },
+ {
+  "path": "/cards/52/hints/1",
+  "en": "He wanted to force that father who never lost his temper to lose it once.",
+  "zh": "他想逼那个从不发火的父亲发一次火。"
+ }
+]

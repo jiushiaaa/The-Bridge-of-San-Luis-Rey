@@ -1,0 +1,663 @@
+[
+  {
+    "id": "c3_01",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "normal",
+    "len": "L",
+    "col": "名场面",
+    "row": 0,
+    "title": "同情兄",
+    "cg": "wc-assets/cg/c3_01.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s Shanghai: night interior of a modest Western-style apartment, two young Chinese men drinking whisky at a small table with a newspaper spread open, warm lamplight, the tall host with a pipe seen from behind, a mood of relieved melancholy after heartbreak, 16:9, no text on screen.",
+    "cgChars": ["e_fanghongjian", "e_zhaoxinmei"],
+    "segments": [
+      { "kind": "narration", "text": "失恋第三天，{{e_fanghongjian|方鸿渐}}收到一封信，约他到虹口一间洋式公寓里叙话。信写得没头没脑，只称他“鸿渐{{e_tongqingxiong|同情兄}}”，又说“以往之事，皆出误会，望勿介意”。他捏着信猜了一路，到门口才恍然：这称呼的主人，除了那位在苏家花园里把他当情敌打量的人，不会有第二个。" },
+      { "kind": "narration", "text": "他本不想去。失恋的人最怕见人，何况是见过自己狼狈的人。可信上那句“皆出误会”勾得他心里发痒：当初苏家那一番刁难，难道全是误会？" },
+      { "kind": "narration", "text": "开门的是[[NPC1]]本人。高大轩昂，嘴角叼着烟斗，一伸手几乎把他捏疼。屋子不大，书架上插满洋装书，桌上烟斗架子、烟丝罐，满屋烟草香。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（把他让进屋，开了一瓶酒）来得正好。咱们俩现在是同病相怜，将来是同事。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（愣住）同事？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（笑）你还不知道？我答应了三闾大学，去做政治系主任。你呢，电报早收到了罢——月薪三百四十元，教授。" },
+      { "kind": "narration", "text": "他这才明白，那封错字连篇的{{e_pinshu|三闾大学聘书电报}}——“教捋”是“教授”，“电霸”是“电覆”——根子原来在这儿。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "那封电报，是你荐的我？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（掸了掸烟灰，答得干脆）是我。那时候我把你当作情敌，恨不得把你调得远远的。{{e_gaosongnian|高松年}}校长问起人，我就推了你。这叫调虎离山。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（苦笑）那我该谢你，还是该恨你？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（大笑）都不必。如今她嫁了人，咱们俩谁也没捞着，还分什么敌我？" },
+      { "kind": "narration", "text": "桌上摊着一张报纸，订婚启事登得醒目：{{e_suwenwan|苏文纨}}小姐与一位剑桥回来的新诗人，定于下月结婚。两个落选的人对着那两行字看了一会儿，倒都笑了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（举杯）这妞儿的本领真大，咱们俩都给她玩弄得七颠八倒。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你这话，是夸她还是骂她？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "都有。我追了她二十年，到头来，咱们俩加在一起，没抵过一个滚圆脸的诗人。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你追了二十年，我不过几个月。算起来，还是你亏得多。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "所以我想通了。从今以后，女人是书，读不懂的，不读；事业是酒，喝得下的，多喝。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（碰杯）你这“同情兄”三个字，又是哪里来的典故？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "一位做旧体诗的朋友想出来的。他说，同有一个情人的，该叫“同情”。你我同病，又同学，又将要同事——这杯酒，非喝不可。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你在报馆里做得好好的，怎么忽然肯去内地？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "上海这地方，伤心地。再说，男子汉大丈夫，总不能一辈子替人编副刊。政治系主任，好歹是个正经前程。" },
+      { "kind": "narration", "text": "那一晚喝到很晚，烟丝烧完了又添。出门时江风一吹，他忽然觉得，这个曾经傲慢的情敌，竟是失恋之后上海滩唯一可说话的人。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（送他到楼梯口，拍他肩膀）九月二十二，船上见。同去的还有两位同事，你自会认得。路远，多带衣裳。" },
+      { "kind": "narration", "text": "他走下楼梯，听见身后的门轻轻关上。一段冤家路窄的交情，就这样在这间公寓里定了局。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_zhaoxinmei" },
+      { "slot": "地点", "kind": "place", "answer": "e_zhaogongyu" }
+    ],
+    "hints": [
+      "空位这个人，曾在苏家花园里把写信对象当作情敌，如今却口口声声“同病相怜”。",
+      "三闾那封错字电报的幕后推荐人就是他；这间洋式公寓，也正是他的住处。"
+    ]
+  },
+  {
+    "id": "c3_02",
+    "level": 3,
+    "form": "monologue",
+    "difficulty": "easy",
+    "len": "S",
+    "col": "方鸿渐",
+    "row": 0,
+    "title": "失恋又失业",
+    "cg": "wc-assets/cg/c3_02.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s Shanghai: a young man in a loose Western suit carrying a small suitcase, walking away from a lane house at dusk and glancing back once, warm but fading light, lonely yet resolved, 16:9, no text.",
+    "cgChars": ["e_fanghongjian"],
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "{{e_zhoutaitai|周太太}}的肝胃气，发作得正是时候。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "这两天她见了我，鼻子不是鼻子。饭桌上她把筷子一搁，说米贵，说煤贵，说这家里的开销一天大似一天。岳父在旁边替我夹了一筷子菜，话说得婉转：年轻人前程要紧，总住在岳父家，外头人看着也不像。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我听懂了，这是逐客令。挂名女婿做到头，原来跟挂名行员一样，随时好撤。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我的行李不多，一只皮箱，一网篮书，叫一辆黄包车就拉完了。黄包车拉出弄堂，我没有回头。搬出来那天，我把淑英的遗容和自己的博士照并排留在梳妆桌上。四年了，我统共没想起过她几回，倒是周家替我记着她。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我父亲{{e_fangdunweng|方遯翁}}是前清举人，在日记里写我，说我“可长日思家，而不可一刻恋家”，临别又赠我八个字：咬紧牙关，站定脚跟。他老人家不知道，他儿子的脚跟，从来就没站稳过。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "{{e_tangxiaofu|唐晓芙}}退回来的那匣子信，我拆开看过。信封撕破的地方，我都拿玻璃纸衬补好了，可她连一个字的口信都不肯留。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "前天在{{e_zhaogongyu|赵辛楣公寓}}，我跟从前那位情敌把话说开，把酒定交。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "失恋，失业，两样凑齐，上海是待不下去了。正好，湖南乡下有所大学要人，月薪三百四十元。电报上的错字，“教捋”是“教授”，“电霸”是“电覆”，错得可笑，又透着救命的正经。三千里路，去就去罢。反正我这样的人，到哪儿不是混饭吃。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_fanghongjian" }
+    ],
+    "hints": [
+      "独白的人刚被岳家婉言下了逐客令，又刚收到一匣子退回来的信。",
+      "失恋又失业、正要动身去湖南那所大学的，正是全书的主角。"
+    ]
+  },
+  {
+    "id": "c3_03",
+    "level": 3,
+    "form": "monologue",
+    "difficulty": "easy",
+    "len": "S",
+    "col": "赵辛楣",
+    "row": 0,
+    "title": "二十年",
+    "cg": "wc-assets/cg/c3_03.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s Shanghai: a tall man in a three-piece suit standing alone by a rainy window at night, pipe in hand, a newspaper engagement announcement lying on the desk, bittersweet quiet mood, 16:9, no text.",
+    "cgChars": ["e_zhaoxinmei"],
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "我认识{{e_suwenwan|苏文纨}}的时候，她还是个梳辫子的小姑娘。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "二十年。说起来吓人，我人生的好时候，差不多都花在看她长大、等她回头上。她念书，我送书；她回国，我接船。她留法，我留美，我以为殊途同归，都是存得下的账。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "小时候有个女相士看我的相，说我是南方贵宦之相，将来名位非凡。我父亲又说，苏家的女儿是官太太的命，该有二十五年帮夫运。两句话凑在一起，我武断了许多年：她命里该帮的那个丈夫，除了我还有谁。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "为了配得上这二十五年，我去美国念书，回来进报馆，学着在饭桌上谈笑，学着把烟斗叼得好看，学着在她面前不露痕迹。我以为火候到了。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "半路杀出个{{e_fanghongjian|方鸿渐}}。我把他当情敌，灌过他酒，给他使过绊子，末了还设法把他调去湖南。老实说，我一度以为她会嫁给他。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "结果呢。她谁都没要，嫁了{{e_caoyuanlang|曹元朗}}——那个滚圆脸的“新诗人”，念自己拼贴出来的诗，脸不红心不跳。订婚启事上他笑得满面红光。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "有朋友劝我：天涯何处无芳草。我谢过他。芳草处处有，二十年的时间，只有一份。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我输得心服吗？不心服。可我佩服她的手段：我们两个给她玩弄得七颠八倒，她连手都没有脏。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "二十年换一张订婚启事。也好。从今往后，我这个人，只跟政治系主任的头衔过日子了。湖南的山水，但愿比上海的洋场好待些。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_zhaoxinmei" }
+    ],
+    "hints": [
+      "独白的人暗恋了青梅竹马整整二十年，最近刚输给一位滚圆脸的诗人。",
+      "女相士说他有“南方贵宦之相”，他便认定苏家小姐命里该帮的丈夫是自己。"
+    ]
+  },
+  {
+    "id": "c3_04",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "normal",
+    "len": "L",
+    "col": "名场面",
+    "row": 1,
+    "title": "甲板夜谈",
+    "cg": "wc-assets/cg/c3_04.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s: night deck of a small coastal steamer, two young men talking at the rail under a starry sky, one tall with a pipe, while a slim girl crouches as a silhouette in the shadow of the companionway, listening, moonlit sea, 16:9, no text.",
+    "cgChars": ["e_zhaoxinmei", "e_fanghongjian", "e_sunroujia"],
+    "segments": [
+      { "kind": "narration", "text": "九月二十二日，船出吴淞口。这条跑宁波的外国小轮船，大菜间只有三间。同船的两位同事口口声声说票难买，把三间大菜间让给了{{e_zhaoxinmei|赵辛楣}}、{{e_fanghongjian|方鸿渐}}和那位小姐，自己甘愿挤统舱。赵辛楣私下对方鸿渐说破：哪是票难买，是省钱——统舱的票价，便宜一半还多。" },
+      { "kind": "narration", "text": "统舱里人挨着人，铺盖卷摞着铺盖卷，汗味、烟味、咸菜味搅在一起。那两位同事，一位戴墨晶眼镜，说话必提头衔；一位逢人先笑，笑完必说“佩服佩服”——却把“让舱”挂在嘴边，见人就讲一遍。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（靠在栏杆上点烟斗）你信不信，那两位一路上还要把“让舱”这件事，说上二十遍。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（笑）人情做到这个地步，也只好领。" },
+      { "kind": "narration", "text": "海风把白天的暑气吹散了。两个人从舱位说到前路，又从前路说到女人。甲板上没有第三个人——至少他们以为没有。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "过了宁波，换船，换车，再走路。到得了到不了，全看运气。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你后悔接这个差事麽？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "后悔？上海眼看是战场，内地再苦，总是自己的地方。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "那位小姐，是你带来的人？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "朋友的侄女，托我顺路照应。你别看她怯生生的，话不多，眼睛可忙得很。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "怎么讲？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（压低声音）你读过报上那条新闻没有？一条船，糊里糊涂撞进鲸鱼张开的嘴里。她就像那条鲸鱼，张开了口，你这糊涂虫就像送上门去的那条船。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（不服气）我又没招惹她。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "等你发觉招惹了，已经迟了。这女孩子刁滑得很，我带她来，上了大当。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你这话，未免把人说得太险。她一个女孩子家，离乡背井三千里，也够可怜。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "可怜？鳄鱼的眼泪也可怜。你等着瞧。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "瞧什么？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "瞧你这条船，几时撞进去。" },
+      { "kind": "narration", "text": "他说得兴起，又谈起男人和女人之间的门道。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "男人肯买糖、衣料、化妆品送给女人，而对于书，只肯借给她。你道为什么？" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "为什么？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "送，就了结了。借，一借一还，一本书可以做两次接触的借口。这是男女恋爱必然的初步。" },
+      { "kind": "narration", "text": "这便是他著名的{{e_jieshu|借书论}}。方鸿渐听得笑起来。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "照你这么说，我借出去的那些书，本本都是情书了？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "是不是情书，问你自己的心。再说，她不还更好——你就有了上门讨债的权利。横竖都是赢。" },
+      { "kind": "narration", "text": "正说到这儿，楼梯口似乎有极轻的脚步声，一闪就没了。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（回头）谁？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（不在意）风。这条船上，连耗子都睡了。走罢，回舱睡觉，明日一早到宁波，还有得折腾。" },
+      { "kind": "narration", "text": "他们不知道，暗处的通舱口，[[NPC1]]抱着膝盖坐了很久。长圆脸，颧颊上几点雀斑，两眼分得太开，此刻在黑暗里睁得很大。她是一路怯生生喊人、事事要人照应的那个姑娘；方才甲板上的每一个字，她都听进去了。夜风很凉，她抱紧自己的胳膊，数着自己的心跳。她把“鲸鱼”两个字，连同一路上的人情冷暖，慢慢咽了下去。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_sunroujia" },
+      { "slot": "地点", "kind": "place", "answer": "e_yilunchuan" }
+    ],
+    "hints": [
+      "空位是那个躲在暗处、把“鲸鱼”一番话全听去的姑娘。",
+      "她长圆脸、有雀斑、怯生生，一路喊人“叔叔”求照应；这条船正从上海开往宁波。"
+    ]
+  },
+  {
+    "id": "c3_05",
+    "level": 3,
+    "form": "dialogue",
+    "difficulty": "normal",
+    "len": "M",
+    "col": "赵辛楣",
+    "row": 1,
+    "title": "择偶标准",
+    "cg": "wc-assets/cg/c3_05.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s: dusk on a small steamer deck, a tall man with a pipe gesturing animatedly while leaning on the rail, a younger man in a Western suit listening with a wry smile, dark sea and warm deck lamps, 16:9, no text.",
+    "cgChars": ["e_zhaoxinmei", "e_fanghongjian"],
+    "segments": [
+      { "kind": "narration", "text": "船到宁波前一夜，{{e_fanghongjian|方鸿渐}}又和[[NPC1]]在甲板上抽烟。白天刚传来消息：上海登报，{{e_suwenwan|苏文纨}}和那位新诗人的婚礼办过了，中西合璧，热闹得很，据报上说，贺客里坐满了半个上海的文坛。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（吐一口烟）办过了好。办过了，我这二十年的心病，算是彻底死了。报上那张照片你看了么？新郎笑得，像刚拼成一首好诗。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "二十年？你今年才几岁。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "从她梳辫子的时候算起。这笔账，回头再跟你算。我问你，你将来想娶什么样的人？" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "我？没想过。大约……说得来话的罢。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "说得来话。（笑）你们学哲学的，连娶亲都讲究个虚无缥缈。我告诉你我的标准：我宁可娶一个老实、简单的乡下姑娘，不必受高深的教育，只要身体健康、脾气服从，让我舒舒服服做她的 Lord and Master。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "Lord and Master——主人兼老爷？你这标准，是找太太，还是找管家？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "太太就是管家。念了博士的太太，管起你来，比管家务厉害多了。我是领教够了。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "照这个标准，你从前追的那位，可是一条都不合。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "正因为她一条都不合，我这标准才是照着她反着写出来的。吃亏吃出来的学问，比博士论文扎实。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "那要是乡下姑娘娶进门，也念了书、也有了主意呢？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "那就算我命里该绝。（自己也笑了）我在美国的时候，见过人家洋人的太太，照样把丈夫管得服服帖帖。可见这东西不分中外。女人要管你，不在乎她念没念书，在乎你有没有把柄。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你有什么把柄？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（掸掸烟灰，望着黑沉沉的海）我的把柄，就是太把人家当回事。吃没吃亏，都过去了。从今以后，谁跟我提女博士，我跟谁急。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "照你这么说，我这辈子最好别娶亲。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "你？你这样的，娶不娶都由不得你。走着瞧罢。" },
+      { "kind": "narration", "text": "海风吹得烟斗里的火星一明一灭。他说得痛快，可方鸿渐听得出来，那痛快底下压着的东西，二十年了，不是说死就死得了的。那一夜，说这话的人睡得很沉；方鸿渐却躺在铺上想了很久，想不出自己将来会娶一个什么样的人。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_zhaoxinmei" },
+      { "slot": "地点", "kind": "place", "answer": "e_yilunchuan" }
+    ],
+    "hints": [
+      "高谈“Lord and Master”择偶标准的人，刚死了二十年的心。",
+      "他暗恋的对象刚在上海办完婚礼；这条船是开往宁波的外国轮船。"
+    ]
+  },
+  {
+    "id": "c3_06",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "normal",
+    "len": "M",
+    "col": "名场面",
+    "row": 2,
+    "title": "藤桥",
+    "cg": "wc-assets/cg/c3_06.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a rain-soaked mountain path and a sagging rattan suspension bridge without railings over a rushing white stream, a small girl leading the way with an umbrella while a nervous young man follows staring at her back, behind them a man in a black suit stained green under a tiny green silk umbrella, misty mountains, 16:9, no text.",
+    "cgChars": ["e_sunroujia", "e_limeiting", "e_fanghongjian", "e_zhaoxinmei"],
+    "segments": [
+      { "kind": "narration", "text": "下了{{e_yilunchuan|意国轮船}}，雨就没停过。一行五人在小镇茶馆里躲了一阵，看雨势不减，只好冒雨赶路。茶馆里挤满了躲雨的人，潮气混着茶味；抬箱子的脚夫蹲在门槛上抽烟，一口一口，全喷在那口大箱子上。" },
+      { "kind": "narration", "text": "{{e_fanghongjian|方鸿渐}}和{{e_zhaoxinmei|赵辛楣}}还好，苦的是[[NPC2]]——他那只{{e_tiexiang|大铁箱}}一人来高，雇人抬着；他自己却舍不得开箱取雨衣。有人劝他，他把头摇得像拨浪鼓。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "开不得，开不得。箱子里的东西，金贵，见了潮气要坏。" },
+      { "kind": "narration", "text": "他眼珠一转，盯上了[[NPC1]]手里那柄{{e_lvsan|绿绸伞}}。那本是姑娘家遮太阳的小伞，他接过去撑上，伞面褪下的绿色经雨水一冲，顺着伞骨流下来。不多时，他的脸、他的白衬衫，全染绿了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（小声）先生，那伞褪色……" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（不以为意）遮雨就好，遮雨就好。颜色么，洗洗就掉的。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（在后头看见，笑得直不起腰）前面走的是谁？活脱脱一个绿毛龟！" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（回头，板着脸）笑什么！雨这么大，还不住口！" },
+      { "kind": "narration", "text": "他这一回头，伞沿的绿水正滴进他的脖领，众人更笑了。笑归笑，路还是要走。雨深处，山溪上横着一座藤条编的长桥，没有栏杆，两边下塌，桥下的水又急又白。风从溪谷里往上灌，吹得桥身微微地晃。方鸿渐站在桥头，腿先软了。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（脸色发白）这桥，看着比我的命还悬。要不，等雨小些再过？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "等？后头三十里地没有店，你想在桥上过夜？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "方先生怕麽？我倒不在乎。要不要我走在前面？你跟着我走，免得你望出去，空荡荡地，愈觉得这桥走不完，胆子愈小。" },
+      { "kind": "narration", "text": "说着，她真就走到前头去了。瘦小的一个人，打着一把伞，脚步不快，却一步是一步。方鸿渐跟在她身后，眼睛只敢看她的背影，居然一步一步，也挪到了对岸。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（过了桥，回头嚷）没进地狱，已经罚走奈何桥了！" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（打趣）到底是你在前面领着他，还是他在后面照顾你？" },
+      { "kind": "narration", "text": "她笑了笑，没答话，把伞往肩上收了收。雨水顺着伞沿往下淌。谁也不知道，方才在桥上，她的腿肚子其实也一直在抖。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_sunroujia" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_limeiting" },
+      { "slot": "地点", "kind": "place", "answer": ["e_xikou", "e_tengqiao"] }
+    ],
+    "hints": [
+      "领路过桥的姑娘，正是那柄绿绸伞的主人；借伞染绿脸的人，随身带着一只一人高的大铁箱。",
+      "地点在上岸后的雨路中途——溪边那座没有栏杆、两边下塌的藤桥。"
+    ]
+  },
+  {
+    "id": "c3_07",
+    "level": 3,
+    "form": "dialogue",
+    "difficulty": "normal",
+    "len": "M",
+    "col": "孙柔嘉",
+    "row": 2,
+    "title": "一把绿绸伞",
+    "cg": "wc-assets/cg/c3_07.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: close view on a swaying rattan bridge in the rain, a small girl holding a faded green silk umbrella looking back over her shoulder with a gentle encouraging smile, green dye dripping from the umbrella ribs, misty gorge below, 16:9, no text.",
+    "cgChars": ["e_sunroujia", "e_fanghongjian", "e_limeiting"],
+    "segments": [
+      { "kind": "narration", "text": "雨是从半夜里下起来的。[[NPC1]]把那柄{{e_lvsan|绿绸伞}}从包袱里取出来时，犹豫了一下——那是离家时娘给她遮太阳用的。娘送她到码头，眼睛不好，还硬要替她理包袱，嘴里念叨：路上少说话，多跟着赵叔叔。" },
+      { "kind": "narration", "text": "果然，还没出镇子，{{e_limeiting|李梅亭}}就凑了过来，墨晶眼镜后头一双眼睛，笑成两条缝。" },
+      { "kind": "dialogue", "speakerEntry": "e_limeiting", "text": "小姐这伞，借我撑一程如何？我的雨衣在箱子里，箱子上了锁，钥匙——咳，开箱麻烦得很。" },
+      { "kind": "narration", "text": "她心里算着：这一程伞借出去，伞骨断了两根也没人赔。可她还是递过去了——这一路上，她没有什么拿得出手的东西，除了一把伞。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（把伞递过去）先生拿去罢。只是这伞褪色，怕脏了先生的衣裳。" },
+      { "kind": "dialogue", "speakerEntry": "e_limeiting", "text": "（接伞）不妨事，不妨事。小姐放心，我一向爱惜东西。这伞到了我手里，比在我箱子里还稳当。" },
+      { "kind": "narration", "text": "一程路走下来，他的白衬衫绿了一块又一块，连脸颊都绿了。她把嘴抿紧了，没敢笑。不是不想笑，是不敢笑。这一路上，她笑得最小心，话说得最少，眼睛看得最多。" },
+      { "kind": "narration", "text": "过了{{e_xikou|溪口}}的镇子，雨更大了。溪上横着那座藤桥，桥身软塌塌的，没有栏杆，{{e_fanghongjian|方鸿渐}}站在桥头，进也不是，退也不是。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "这桥晃得厉害。你先过，我随后就来。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我看出他胆小。这桥邪门，越往下看越怕，越怕越走不完。我索性抢在前头——让他的眼睛有个落处，只看我，不看水。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（硬着头皮）谁怕了。——你在前面，走慢些。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（回头一笑）一步是一步，这桥就走完了。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你一个小姑娘，怎么倒不怕？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "怕有什么用？怕，桥也不会变短。" },
+      { "kind": "narration", "text": "到了对岸，她的鞋袜全湿透了，心里却有一点说不出的高兴：这一路上，人人都当她是累赘，是“赵叔叔的侄女”，要人照应；只有在这座桥上，是她领了别人。" },
+      { "kind": "dialogue", "speakerEntry": "e_limeiting", "text": "（在对岸抖着伞，心疼地看自己的衬衫）这伞！这伞掉色掉得厉害！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（接过伞，轻声）我早说过的。先生洗洗罢。" },
+      { "kind": "narration", "text": "她把绿伞拧了拧，重新撑开。她想起娘的话：多跟着赵叔叔。可娘不知道，有时候，别人也要跟着她。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_sunroujia" },
+      { "slot": "地点", "kind": "place", "answer": "e_tengqiao" }
+    ],
+    "hints": [
+      "空位是伞的主人，也是桥上领路的人。",
+      "她一路被人当累赘，只有在这座没有栏杆的藤桥上，是她领了别人。"
+    ]
+  },
+  {
+    "id": "c3_08",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "hard",
+    "len": "L",
+    "col": "名场面",
+    "row": 3,
+    "title": "欧亚大旅社",
+    "cg": "wc-assets/cg/c3_08.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a shabby small-town inn room at night lit by a single oil lamp, a huge iron trunk flung open revealing neat rows of index cards on top and medicine bottles below, four men gathered around as silhouettes reacting with shock and amusement, comedic tension, 16:9, no text.",
+    "cgChars": ["e_limeiting", "e_guerqian", "e_zhaoxinmei", "e_fanghongjian"],
+    "segments": [
+      { "kind": "narration", "text": "金华这家大旅社，招牌写着“欧亚”两个字，乾坤却全在别处：牛奶咖啡是咖啡糖冲的，三鲜糊涂面像一碗浆糊，睡到半夜，跳蚤臭虫倾巢而出，咬得人体无完肤。" },
+      { "kind": "narration", "text": "女掌柜一边奶孩子一边记账，对满店的抱怨充耳不闻。" },
+      { "kind": "dialogue", "speaker": "女掌柜", "text": "（头也不抬）虱子么，哪家店里没有？客人将就些罢。" },
+      { "kind": "dialogue", "slot": "NPC4", "text": "（低声）这店里的规矩，掌柜的耳朵是租来的。" },
+      { "kind": "narration", "text": "晚饭是那碗“三鲜糊涂面”。[[NPC4]]挑了一筷子，面在筷子上挂成一条浆糊。" },
+      { "kind": "dialogue", "slot": "NPC4", "text": "这三鲜，鲜在哪里？" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（已经吃完一碗）将就将就！出门在外，吃饱为上。这面，有嚼头，佩服佩服！" },
+      { "kind": "narration", "text": "晚饭后，[[NPC1]]那只一人来高的{{e_tiexiang|大铁箱}}总算抬到了。他掏钥匙开锁，郑重得像举行典礼，又摸出{{e_mingpian|名片}}分送众人，头衔印了三行，一行比一行吓人。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（咳嗽一声）兄弟这点行李，路上劳各位照应了。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（双手接过名片，凑着灯看）哎呀，这头衔！名师必出高徒！名师必出高徒！" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（把名片翻过来掉过去）这衔头，印得比名片还大。" },
+      { "kind": "narration", "text": "[[NPC1]]假装没听见。箱盖掀开，满屋子的人都凑上来。上半箱整整齐齐码着读书卡片，四角号码排列，像一堵小墙。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（得意）这些卡片，一张就是一条学问。只要有它，中国书全烧完了，我照样开得出课程。" },
+      { "kind": "narration", "text": "再往下看，下半箱更壮观：奎宁、仁丹、阿司匹林，一瓶一盒，码得比药铺还齐整。听那意思，是预备到内地十倍价钱出手的。屋子里静了一静。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（拿起一瓶）你这是去教书，还是去开药房？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "以备不时之需！内地缺医少药……" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（大笑）妙得很！有了上半箱的卡片，中国书烧完了，你一个人可以教中国文学；有了下半箱的药，中国人全病死了，你还可以活着。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（脸上一阵红一阵白，强辩）内地买不到西药，各位万一生起病来，那时候才知道我的功劳呢！" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（忙打圆场）是极，是极！未雨绸缪，这才是大学问！哪里的话，佩服佩服！" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（抚着箱沿，赞叹）这一箱，真是活菩萨的百宝箱啊！" },
+      { "kind": "dialogue", "slot": "NPC4", "text": "（低声对身旁的高个子）上半箱救他的名声，下半箱救他的钱包。这一口箱子，把他这个人装全了。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（忍着笑）小声些，人家听见了，明早的面里给你加料。" },
+      { "kind": "narration", "text": "那一夜，四个人挤在两层铺的房间里，女眷在隔壁先睡下了。跳蚤在黑暗里行军，[[NPC4]]被咬得翻来覆去，听见下铺的[[NPC1]]还在摇着扇子，念叨他的卡片和药——那是他全部的家当与前程。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（梦里还在嘟囔）我的箱子……锁好了……" },
+      { "kind": "dialogue", "slot": "NPC4", "text": "（在黑暗里）我数过了，单左胳膊，这一夜就是九口。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（笑骂）知足罢，它们这是拿你接风。睡罢睡罢，再数下去，天亮了。" },
+      { "kind": "narration", "text": "窗外的雨又下起来。这家旅社的名字起得横跨两洲，只可惜连一夜安稳觉都给不了人。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_limeiting" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_guerqian" },
+      { "slot": "NPC3", "kind": "person", "answer": "e_zhaoxinmei" },
+      { "slot": "NPC4", "kind": "person", "answer": "e_fanghongjian" },
+      { "slot": "地点", "kind": "place", "answer": "e_ouya" }
+    ],
+    "hints": [
+      "铁箱上半箱卡片、下半箱西药的人最爱摆头衔；旁边一口金牙、逢人便捧的是他的跟班。",
+      "大笑点评铁箱的高个子爱叼烟斗；被跳蚤咬得睡不着、低声说俏皮话的是留洋回来的那位。地点在金华。"
+    ]
+  },
+  {
+    "id": "c3_09",
+    "level": 3,
+    "form": "monologue",
+    "difficulty": "easy",
+    "len": "S",
+    "col": "方鸿渐",
+    "row": 3,
+    "title": "与谁为伍",
+    "cg": "wc-assets/cg/c3_09.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a young man in a loose suit sitting awake on a wooden bunk in a dark inn room, moonlight through a paper window, scratching his arm with a wry self-mocking expression, quiet lonely mood, 16:9, no text.",
+    "cgChars": ["e_fanghongjian"],
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "在{{e_ouya|欧亚大旅社}}，跳蚤咬到后半夜，我索性坐着想心事。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我想的是{{e_limeiting|李梅亭}}那口铁箱。上半箱卡片，下半箱西药，一个人把名声和生意装进同一口箱子，锁得严严实实。白天吃饭，钥匙拴在裤腰上，洗澡都不离身；晚上睡觉，箱子就搁在他床头，比枕头还近。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "还有{{e_guerqian|顾尔谦}}。人家说一句，他捧十句，金门牙一闪，“名师必出高徒”喊得比上课还齐。有一回李梅亭说了句“内地缺医少药”，他立刻接“李先生真是菩萨心肠”。我在旁边听着，替他的金门牙累得慌。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "从前的我，看见这样的人，是要掉头走开的。如今倒好，同船、同店、同桌吃饭，听他们说话，陪他们赔笑，一天一天，竟也习惯了。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "有一瞬间，我竟羡慕他们。他们知道自己要什么：一个要钱，一个要靠山。我要什么呢？我连这个都答不上来。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "习惯这东西最可怕。头一天你还笑话人家，第三天你就替人家递名片了。跟什么人同行，就走什么样的路。我跟着这两位走上三千里，走到头，只怕自己身上也染上点铁箱的气味。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "可我又能跟谁呢？这年月，兵荒马乱，有路走，有伴同行，已经要谢天谢地了。要是从前认识的人看见我现在这副样子——算了，不想也罢。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "窗外狗叫两声，也睡了。我裹紧被子，像裹紧最后一点体面。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "天亮还要赶路。睡罢。前日过{{e_tengqiao|藤条长桥}}，腿肚子到现在还发软；横竖我这人，到哪儿都是凑数的。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_fanghongjian" }
+    ],
+    "hints": [
+      "独白的人正与铁箱主人、金牙跟班同店同路，越想越不是滋味。",
+      "他自嘲“容易堕落”，是这一行里最有口才、却最没本事的那个人。"
+    ]
+  },
+  {
+    "id": "c3_10",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "hard",
+    "len": "L",
+    "col": "名场面",
+    "row": 4,
+    "title": "王美玉与侯营长",
+    "cg": "wc-assets/cg/c3_10.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a small-town inn at night, a wall covered in illegible scribbled graffiti, oil lamp light, a sharp-cheekboned woman silhouette pausing on wooden stairs, below a burly army officer with a big orange-peel nose turning down a nervous man in a black suit, tense comedy, 16:9, no readable text.",
+    "cgChars": ["e_wangmeiyu", "e_houyingzhang", "e_limeiting"],
+    "segments": [
+      { "kind": "narration", "text": "这家小客店的墙，是过往客人留言的地方。石灰墙上题得密密麻麻：「酒不醉人人自醉，色不迷人人自迷」，「孤王酒醉鹰潭宫」；还有一条起头写着“注意”、落款缀着“有毒”二字的警告，中间夹着一个女人的芳名。一代一代的客人把这点心思全涂在墙上，白的盖了黑的，从来没断过，墙皮都厚了一层。" },
+      { "kind": "narration", "text": "晚饭的风肉里吃出了蛆。同行的伙伴叫店主来看，店主把肉片端详半天，理直气壮。" },
+      { "kind": "dialogue", "speaker": "店主", "text": "这不是虫呀，没有关系的，这叫“肉芽”——“肉”——“芽”。肉里自己长出来的芽，鲜得很！" },
+      { "kind": "narration", "text": "同行的伙伴恶心得放下筷子。店主倒好，把那片肉夹起来，自己吃了。" },
+      { "kind": "narration", "text": "[[NPC3]]这几天却格外精神。他不知从哪里搭上了[[NPC1]]——一个尖颧削脸的女人，上海逃难来的，做的什么营生，墙上的题字写得明白。两人时常在楼梯口说话，他说一句，她笑一声。有人看见他把一包东西塞给她，她掂了掂，笑得眼睛眯成一条缝。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（对同行的人，自夸）我知道这种女人路数多，有时用得着她们。这就是孟尝君结交鸡鸣狗盗的用意。" },
+      { "kind": "dialogue", "speaker": "店主", "text": "（凑趣）先生是明白人。这地方，路数最要紧。" },
+      { "kind": "narration", "text": "果然，门路来了。由[[NPC1]]牵线，[[NPC3]]见到了此地管军车的[[NPC2]]——桔皮似的一个大鼻子，说话像打雷。[[NPC3]]摸出{{e_mingpian|名片}}双手奉上，头衔印了三行；对方接过去，看也不看，揣进兜里。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（笑）营长，这几位是内地大学里去的先生，都是体面人。您行个方便。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（呷了一口酒）内地去教书？好志气。只是我这车，是军车。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（递烟，赔笑）所以来求营长。军车稳当，又快。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "稳当？翻下山的也不是没有。（大笑，随即把脸一沉）我们这货车不能私带客人的，带客人违犯军法，懂不懂？" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "营长，通融通融。行李不多，就一口箱子。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "箱子？女人不带，铁箱也不带。军车拉的是军粮弹药，不是家当。你们要上车，人，我数着带两个；东西，一件不留。" },
+      { "kind": "narration", "text": "这一说，满桌都冷了。铁箱是[[NPC3]]的命根子，女眷又万万丢不下。买卖谈崩了，[[NPC3]]脸上的笑挂不住；[[NPC1]]在旁边，倒像看一出不相干的戏。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（起身）酒钱我付了。诸位先生，一路顺风——汽车站在城东。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（起身，掸掸衣裳）营长的军法大，先生的箱子也大。我一个妇道人家，管不了这些。楼上有客，失陪了。" },
+      { "kind": "narration", "text": "她上楼去了，鞋跟敲着木楼梯。墙上的题字在油灯下泛着白，那句“色不迷人人自迷”，也不知是题给谁的。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（对着楼梯口，低声骂）势利！——（把那盒没送出去的烟揣回怀里）明日还是去汽车站排队罢。" },
+      { "kind": "narration", "text": "当夜，[[NPC3]]把那叠没派上用场的名片，数了一遍又一遍。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_wangmeiyu" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_houyingzhang" },
+      { "slot": "NPC3", "kind": "person", "answer": "e_limeiting" },
+      { "slot": "地点", "kind": "place", "answer": "e_yingtan" }
+    ],
+    "hints": [
+      "墙上题壁的芳名，属于此地一位上海逃难来的风尘女子；桔皮大鼻子的那位管着军车。",
+      "牵线勾搭的人最宝贝他那口大铁箱；营长的规矩是“女人不带，铁箱不带”。地点是赣东北那座小城。"
+    ]
+  },
+  {
+    "id": "c3_11",
+    "level": 3,
+    "form": "dialogue",
+    "difficulty": "normal",
+    "len": "M",
+    "col": "赵辛楣",
+    "row": 4,
+    "title": "米袋与寡妇",
+    "cg": "wc-assets/cg/c3_11.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: crowded rural long-distance bus on a bumpy road, a tall man arguing heatedly with a sly peasant who hugs a rice sack occupying a seat, a pale small girl sitting by the window, other passengers watching, lively dusty atmosphere, 16:9, no text.",
+    "cgChars": ["e_zhaoxinmei", "e_sunroujia", "e_guafu", "e_limeiting"],
+    "segments": [
+      { "kind": "narration", "text": "这趟公路汽车，是从不讲究对号入座的。车站里人挤人，挑夫的扁担、卖鸡蛋的吆喝搅成一锅粥；车一来，人群像决了堤。[[NPC1]]一行挤上车时，好位置早没了，只剩一个油脸汉子旁边空着半个座——座上端端正正放着一袋米。" },
+      { "kind": "narration", "text": "{{e_sunroujia|孙柔嘉}}一路晕车，脸色白得像纸。[[NPC1]]扶她过去，请那汉子把米袋挪一挪。" },
+      { "kind": "dialogue", "speaker": "油脸汉子", "text": "（把米袋一抱）这是米，你知道不知道？吃的米！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "是米又怎么样？她这样一个女人坐一下，也不会压碎你的米。" },
+      { "kind": "dialogue", "speaker": "油脸汉子", "text": "你们男人坐，可以；你们这位太太坐，那不行！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "你的米金贵，我们的票也是钱买的。一座一人，天经地义。" },
+      { "kind": "dialogue", "speaker": "油脸汉子", "text": "天经地义？我的米是要拿去交军粮的！压坏了你赔？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（火往上撞，嗓门也高了）压不坏。真压坏了，我赔！米是吃的，人是活的，你抱着米坐一辈子罢！" },
+      { "kind": "narration", "text": "他这一嚷，满车都看过来了。那汉子到底心虚，嘟囔着把米袋抱上膝盖，让出半个座位。孙柔嘉坐下来，轻轻舒了一口气。" },
+      { "kind": "dialogue", "speakerEntry": "e_sunroujia", "text": "（低声）谢谢。——又给你添麻烦了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "谢什么。路还长，你睡一会儿罢。" },
+      { "kind": "narration", "text": "车开了，那汉子一路把米袋抱在怀里，像抱着个祖宗牌位。后座上，一位{{e_guafu|苏州寡妇}}——丈夫新死，带着男仆阿福，去桂林投奔夫兄——正跟{{e_limeiting|李梅亭}}说得热闹。李梅亭不知什么时候挪过去的，墨晶眼镜笑成两条缝。" },
+      { "kind": "dialogue", "speakerEntry": "e_limeiting", "text": "太太到桂林投亲？巧得很，我们也往那边去。一路上，也好有个照应。有什么重活，只管吩咐。" },
+      { "kind": "dialogue", "speakerEntry": "e_guafu", "text": "（眼珠一溜）倷先生真是好人！" },
+      { "kind": "narration", "text": "话音未落，旁边横插进一个肩膀。男仆阿福，脸黑得像锅底。" },
+      { "kind": "dialogue", "speaker": "阿福", "text": "（冷笑）照应？我们家太太，有我照应。不向尿缸里照照自己的脸！想吊膀子揩油——" },
+      { "kind": "dialogue", "speakerEntry": "e_limeiting", "text": "（跳起来）你骂谁？猪猡骂我！" },
+      { "kind": "dialogue", "speaker": "阿福", "text": "我骂猪猡！" },
+      { "kind": "dialogue", "speakerEntry": "e_guafu", "text": "（劝架，软绵绵）好了好了，都是出门人，何必呢。" },
+      { "kind": "dialogue", "speaker": "油脸汉子", "text": "（抱着米袋，幸灾乐祸）打起来！打起来！" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（回头，低声打趣）先生路数多。{{e_yingtan|鹰潭小客店}}里那位{{e_wangmeiyu|王美玉}}，还有{{e_houyingzhang|侯营长}}的军车，怎么一样都没成？" },
+      { "kind": "dialogue", "speakerEntry": "e_limeiting", "text": "（讪讪）此一时，彼一时。" },
+      { "kind": "narration", "text": "一车人哄堂大笑。[[NPC1]]回过头去，皱了皱眉，到底没说什么。孙柔嘉靠在车壁上，把眼睛闭上了——这样的戏，一路上还长着呢。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_zhaoxinmei" },
+      { "slot": "地点", "kind": "place", "answer": "e_nancheng" }
+    ],
+    "hints": [
+      "为女眷争座位、跟抱米袋的汉子吵起来的人，是这一行里最豪爽的那个。",
+      "他一路护着那位晕车的姑娘；这趟车是往南城方向去的公路汽车。"
+    ]
+  },
+  {
+    "id": "c3_12",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "hard",
+    "len": "L",
+    "col": "名场面",
+    "row": 5,
+    "title": "铺保与烤山薯",
+    "cg": "wc-assets/cg/c3_12.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a dim inn room with five hungry travelers, one man caught crouching in a corner eating roasted sweet potatoes with a blackened mouth while the others stare as silhouettes, a single oil lamp, bitter comedy, 16:9, no text.",
+    "cgChars": ["e_fanghongjian", "e_zhaoxinmei", "e_limeiting", "e_sunroujia"],
+    "segments": [
+      { "kind": "narration", "text": "下了{{e_nancheng|南城公路汽车}}，到了这座赣中城市，五个人才知道什么叫走投无路。学校的{{e_pinshu|汇款}}早到了，躺在中央银行的账上；银行却要本地商铺作保才肯放款。五个人看着那两扇铁门，像看着一口锁着的米缸。" },
+      { "kind": "dialogue", "speaker": "办事员", "text": "（隔着柜台，头也不抬）章程如此。没有铺保，一分钱也不能动。" },
+      { "kind": "narration", "text": "人生地不熟，哪里去寻铺保？[[NPC3]]摸出{{e_mingpian|名片}}双手递进去，头衔印了三行。办事员看了一眼，推了回来。" },
+      { "kind": "dialogue", "speaker": "办事员", "text": "名片不当饭吃。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（在旁按捺不住）你们这银行，是开给章程的，还是开给人的？" },
+      { "kind": "dialogue", "speaker": "办事员", "text": "（抬起眼皮）开给章程的。" },
+      { "kind": "narration", "text": "钱取不出，五个人只好挨饿。房钱尚欠着，起先还下小馆子，后来改成馒头稀饭，再后来，稀饭也改成一天两顿。同行的一位老兄把裤带紧了两个眼，逢人便说减肥。[[NPC2]]饿得在屋里来回走，像头困兽。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "气死我了，梦里都没有东西吃，别说醒的时候了。" },
+      { "kind": "narration", "text": "教育局是最后的指望。[[NPC3]]又递上名片，局长拈着那张纸片，眯眼看了半天。" },
+      { "kind": "dialogue", "speaker": "教育局长", "text": "（慢条斯理）我是老上海，上海滩上什么玩意儿全懂。“国立三闾大学”？这名字生得很，我从来没听见过。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（急了）局长，我们是货真价实的大学教授！校长是部里派的！" },
+      { "kind": "dialogue", "speaker": "教育局长", "text": "（把名片往桌上一放）部里？我这里天天有人来，都说是部里派的。这年头，自称什么的都有。回去罢。" },
+      { "kind": "narration", "text": "碰了一鼻子灰回来，[[NPC1]]却在后街撞见一桩怪事：[[NPC3]]蹲在墙角，背着人，捧着两只烤山薯，吃得又急又香，嘴角乌黑。看见人来，他慌忙把剩下的塞进袖子，掏出手帕擦嘴，擦得很斯文。那两只山薯的钱，够买四个人的稀饭。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（讪讪）我……我这是替大家尝尝，怕有毒。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（气得笑出来）有毒没毒，你一个人尝两个？大家都在旅馆里饿着。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（正色）饿，也要讲个体统。我这胃病，是饿不得的。" },
+      { "kind": "narration", "text": "当晚，几个人把冷馒头掰开分食。[[NPC1]]越想越惭愧。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "我最惭愧了，这次我什么事都没有做，真是饭桶。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（有了山薯垫底，话也硬了）这位贵人是真正的贵人，坐在旅馆里动也不动，我们替他跑腿。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（把桌子一拍）都少说两句！饿着肚子吵架，费粮食。明日我再去银行。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "你的脸，比名片也厚不了多少。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "（不恼，反而笑）厚些好，厚些顶事。" },
+      { "kind": "narration", "text": "一直不声不响的[[NPC4]]，这时从包袱里取出自己的毕业文凭。文凭上贴着戴方帽子的照相，眉目清秀。" },
+      { "kind": "dialogue", "slot": "NPC4", "text": "（轻声）明天，让我出去试试罢。我在上海念书时，认得一位学姐，就在妇女协会做事。成不成，总得试试。坐着饿，不如走着饿。" },
+      { "kind": "dialogue", "slot": "NPC3", "text": "（撇嘴）妇道人家，能成什么事。" },
+      { "kind": "dialogue", "slot": "NPC2", "text": "让她去。反正咱们已经穷得只剩时间了。" },
+      { "kind": "narration", "text": "屋里静了一瞬。没人把这句话当真，可也没人拦她。油灯芯子哔剥响了一声，照着几张饿瘦了的脸。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_fanghongjian" },
+      { "slot": "NPC2", "kind": "person", "answer": "e_zhaoxinmei" },
+      { "slot": "NPC3", "kind": "person", "answer": "e_limeiting" },
+      { "slot": "NPC4", "kind": "person", "answer": "e_sunroujia" },
+      { "slot": "地点", "kind": "place", "answer": "e_jian" }
+    ],
+    "hints": [
+      "偷吃烤山薯的是铁箱与名片的主人；撞破他的，是那位留洋回来的博士。",
+      "喊饿拍桌子的是高个子烟斗客；找出路的姑娘，文凭上有戴方帽的照相。地点是赣中那座有中央银行的城市。"
+    ]
+  },
+  {
+    "id": "c3_13",
+    "level": 3,
+    "form": "dialogue",
+    "difficulty": "normal",
+    "len": "M",
+    "col": "孙柔嘉",
+    "row": 5,
+    "title": "妇女协会的门路",
+    "cg": "wc-assets/cg/c3_13.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a modest women's association office, a small girl in a plain dress speaking earnestly to a brisk woman in a grey cloth uniform, sunlight through a wooden window, quiet determination, a diploma with a graduation photo on the desk, 16:9, no readable text.",
+    "cgChars": ["e_sunroujia", "e_fanghongjian", "e_zhaoxinmei"],
+    "segments": [
+      { "kind": "narration", "text": "头天晚上她说要出去试试的时候，没人当真。第二天一早，[[NPC1]]就出门了。{{e_fanghongjian|方鸿渐}}和{{e_zhaoxinmei|赵辛楣}}在旅馆里等到晌午，正坐不住，她回来了，后头还跟着一位灰布装束的女同志。" },
+      { "kind": "dialogue", "speaker": "女同志", "text": "（爽利）哪位是管事的？保人的事，我们得问清楚。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（迎上去）我。辛苦辛苦，快请坐。" },
+      { "kind": "dialogue", "speaker": "女同志", "text": "我们协会，专管抗战救亡的事。作保是私事，可你们是去内地办学的，也算公事。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "女同志深明大义。我们实在是山穷水尽了。" },
+      { "kind": "narration", "text": "女同志把[[NPC1]]的毕业文凭接过去，又唤来她在公路局做事的男友。那年轻人进门先理了理头发，接过文凭，对着上头戴方帽子的照相端详许久——与其说他是在核对相片，不如说是在鉴赏他自己。" },
+      { "kind": "dialogue", "speaker": "女同志的男友", "text": "（慢悠悠）学校是真的，人，也对得上。只是这铺保，担着干系……公路局的章，也不是随便盖的。（又端详片刻那照相）这位小姐，照相照得不错。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（垂下眼睛）先生笑话了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（轻声，却一句是一句）先生，我们五个人，饿了三天了。汇款就在银行里躺着，白纸黑字。您担的干系，是一笔取得出的钱；我们担的，是五条命。" },
+      { "kind": "narration", "text": "这话说得不响，屋里却静了。女同志看了她一眼，先笑了。" },
+      { "kind": "dialogue", "speaker": "女同志", "text": "（对男友）人家姑娘把话说到这个地步，你还拿捏什么？作保！" },
+      { "kind": "dialogue", "speaker": "女同志的男友", "text": "（讪讪）作保就作保。——我也是公事公办。" },
+      { "kind": "narration", "text": "银行的办事员见了保条，脸上立刻换了天气，又是倒茶，又是点钞。当天下午，款子就领出来了，五个人终于吃上一顿干饭。方鸿渐扒着饭，忽然想起什么。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "你是怎么寻到妇女协会这条门路的？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（垂下眼睛）前天在街上，看见她们贴告示。我就想，女人总好跟女人说话。——我也是瞎碰的。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "我敬你一碗。这一路上，我是什么都没办成。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "方先生快别这么说。我不过是运气好。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（大笑）运气？我们跑断了腿，碰了一鼻子灰；你出去一上午，全办妥了。这顿饭，头一碗该敬你！" },
+      { "kind": "narration", "text": "她笑了笑，没接话，低头扒饭。没人看见她耳根红了——那究竟是害羞，还是得意，连她自己也说不清。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_sunroujia" },
+      { "slot": "地点", "kind": "place", "answer": "e_jian" }
+    ],
+    "hints": [
+      "空位是那个跑成门路、让五个人吃上干饭的姑娘。",
+      "她拿着贴方帽照相的毕业文凭，找到了妇女协会；地点就是银行要铺保的那座赣中城市。"
+    ]
+  },
+  {
+    "id": "c3_14",
+    "level": 3,
+    "form": "scene",
+    "difficulty": "normal",
+    "len": "M",
+    "col": "名场面",
+    "row": 6,
+    "title": "火铺夜宿",
+    "cg": "wc-assets/cg/c3_14.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: night in a ramshackle communal lodging beside a graveyard, faint will-o'-wisps outside, a small girl asleep under a thin quilt with a tear-stained face, two men awake as silhouettes beyond a thin partition, eerie but tender mood, 16:9, no text.",
+    "cgChars": ["e_sunroujia", "e_fanghongjian", "e_zhaoxinmei"],
+    "segments": [
+      { "kind": "narration", "text": "离开{{e_jian|吉安}}，山一程水一程，这一夜投宿的地方，连客店都算不上：坟场旁边一间四面透风的宿店，男女统铺，中间只隔一道薄薄的板壁。铺盖是自带的，稻草是现铺的，一躺下，满耳都是陌生人的鼾声。店老板说，这地方夜里常听见响动，住惯的人都不当回事。" },
+      { "kind": "narration", "text": "{{e_fanghongjian|方鸿渐}}和{{e_zhaoxinmei|赵辛楣}}睡在外侧，[[NPC1]]睡在板壁那头。睡下前，她把包袱枕在头底下，和衣而卧。赶了一天山路，人人倒头就着。半夜，方鸿渐被一阵哭声惊醒了。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（梦中，带哭嚷）别压住我的红棉袄！别压住我的红棉袄！" },
+      { "kind": "narration", "text": "板壁这边，两个人面面相觑。坟场里的磷火，一明一灭。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（低声）要不要过去看看？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "看什么？睡你的。梦魇了，别叫醒她，叫醒要吓着的。许是白天吓着了，坟圈子边上——" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "她也不小了。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "在我眼里，都是孩子。" },
+      { "kind": "narration", "text": "那哭声又呜咽了一阵，慢慢平了。方鸿渐却再也睡不着，睁着眼睛听窗外的风，一阵一阵，像有人贴着墙根走路。" },
+      { "kind": "narration", "text": "第二天清早上路，霜很重。她走在旁边，眼睛有点肿。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "昨夜睡得好麽？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（摇头）做了一夜的梦。方先生，你说，这世上到底有没有鬼？" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "怎么忽然问这个？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "有时候，我相信有鬼；有时候，我决不相信有鬼。譬如昨天晚上，我觉得鬼真可怕。可是这时候虽然四周围全是坟墓，我又觉得鬼绝对没有这东西了。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "（笑）照你这么说，鬼这东西，是专挑黑天出来的。" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（也笑了）可不是。可见怕鬼不怕鬼，全看天亮不亮，跟鬼本身倒不相干。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "那昨夜的鬼，可怕到什么程度？" },
+      { "kind": "dialogue", "slot": "NPC1", "text": "（想了想）可怕到我现在说出来，你也不会信。" },
+      { "kind": "dialogue", "speakerEntry": "e_fanghongjian", "text": "我信。昨夜的动静，我也听见了。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（在前头回头）你们两个，一大清早谈鬼，也不嫌瘆得慌。快走罢，今天还要翻两座山。" },
+      { "kind": "narration", "text": "太阳升起来，坟场落在身后了。她回头望了一眼那间宿店，裹紧衣裳，快步跟上去。红棉袄的梦，谁也没有再提。只有她自己知道，梦里压住她的，不是棉袄，是这三千里路上所有说不出口的东西。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_sunroujia" },
+      { "slot": "地点", "kind": "place", "answer": "e_huopu" }
+    ],
+    "hints": [
+      "空位是夜里梦魇、连声喊“红棉袄”的那个姑娘。",
+      "清晨她跟方先生谈鬼；这地方是坟场旁边男女混宿的统铺。"
+    ]
+  },
+  {
+    "id": "c3_15",
+    "level": 3,
+    "form": "monologue",
+    "difficulty": "easy",
+    "len": "S",
+    "col": "方鸿渐",
+    "row": 6,
+    "title": "你不讨厌，可是全无用处",
+    "cg": "wc-assets/cg/c3_15.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: doorway of a mountain inn at golden dusk, a tall man with a pipe speaking frankly while a younger man in a loose suit smiles bitterly, mountain road stretching ahead, 16:9, no text.",
+    "cgChars": ["e_fanghongjian", "e_zhaoxinmei"],
+    "segments": [
+      { "kind": "narration", "text": "到校前一天，歇在最后一站的山店里——前一夜还宿在坟场边的{{e_huopu|火铺}}。月亮很好，照得满院子清白。晚饭后，我拉着{{e_zhaoxinmei|赵辛楣}}到门口抽烟，问了他一个憋了一路的问题。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我问他：这一路同行一个多月，你觉得我讨厌不讨厌？" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "（吐着烟，想了想）你不讨厌，可是全无用处。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "八个字，像八颗钉子。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我张了张嘴，想辩，又辩不出。这一路，舱位是他争的，座位是他嚷来的，汇款是他跑断腿也没跑成、末了人家姑娘一出面就办妥的。我呢？我做过什么？除了过桥腿软、挨饿惭愧，就是陪他说笑解闷。对了，还有替他试出了那家旅社的跳蚤。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "他大概也觉得话说重了，拍拍我的肩膀，又补了一段高论。" },
+      { "kind": "dialogue", "speakerEntry": "e_zhaoxinmei", "text": "旅行是最劳顿，最麻烦，叫人本相毕现的时候。经过长期苦旅行而彼此不讨厌的人，才可以结交作朋友。——结婚以后的蜜月旅行是次序颠倒的，应该先同旅行一个月，一个月舟车仆仆以后，双方还没有彼此看破、彼此厌恶，这种夫妇保证不会离婚。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "这就是他的{{e_lvxing|旅行试验论}}。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我听着，心里五味杂陈。照这个试验法，我总算及格了一半：不讨厌。至于另一半——全无用处。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "明天就到学校了。新的饭碗，新的人事。我这样的人，除了“不讨厌”，还能拿什么去立身处世呢？" },
+      { "kind": "monologue", "slot": "NPC1", "text": "烟抽完了，山风很冷。我把这八个字收好，像收起一张成绩单。分数不好看，可总比没有强。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_fanghongjian" }
+    ],
+    "hints": [
+      "独白的人被同行的高个子下了八个字的判词。",
+      "“不讨厌”之外的那四个字——全无用处——说的就是他。"
+    ]
+  },
+  {
+    "id": "c3_16",
+    "level": 3,
+    "form": "monologue",
+    "difficulty": "easy",
+    "len": "S",
+    "col": "孙柔嘉",
+    "row": 6,
+    "title": "界化陇的眼泪",
+    "cg": "wc-assets/cg/c3_16.jpg",
+    "cgPrompt": "Bright Japanese anime style, 1930s China: a dark mountain inn room, a small girl lying on a hard plank bed crying quietly into the pillow, an opened bottle of cod-liver-oil pills on a wooden stool, cold moonlight through a small window, deep loneliness, 16:9, no text.",
+    "cgChars": ["e_sunroujia"],
+    "segments": [
+      { "kind": "monologue", "slot": "NPC1", "text": "到了{{e_jiehualong|界化陇}}，我到底还是病倒了。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "山路一程一程，吐到最后，吐出来的全是酸水，早上喝的那点稀粥，也一并吐干净了。山店的铺板硬，被子潮，我躺着，听他们在外间说话，声音隔着板壁，嗡嗡的，像从另一个世界传来。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "{{e_limeiting|李梅亭}}先生来看过我。他那口铁箱里明明有整瓶的仁丹，封皮都没拆；他摸了半天，给我的是一瓶开了封的鱼肝油丸。放下药瓶，说了两句“静养静养”，他就走了，脚步声轻快得很。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我不怪他。仁丹值钱，鱼肝油丸开了封，放久了要坏。这笔账，谁都会算。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我只是忽然想家。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "爹死得早，家里就靠娘撑着。离家三千里，娘的眼睛不好，临走时往我包袱里塞伞，塞了一双又一双袜子。我说那边什么都有。其实那边有什么呢？那边连一个认识我的人都没有。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我出来，是想挣一份前程，将来好接娘出来住。可前程在哪里呢？在三千里外，在一所我连名字都没听过的学校里。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "这一路上，人人当我是累赘，是“赵叔叔的侄女”。过桥我自己走，门路我自己找，病了我自己躺。船上那一夜，甲板上的话，我都听见了。鲸鱼就鲸鱼罢。鲸鱼至少不是案板上的鱼。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "我举目无亲，我只能靠自己。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "眼泪不争气，就让它流一会儿罢。流完了，明天还要赶路。" },
+      { "kind": "monologue", "slot": "NPC1", "text": "只是别让他们看见。让人看见的眼泪，就不值钱了。" }
+    ],
+    "blanks": [
+      { "slot": "NPC1", "kind": "person", "answer": "e_sunroujia" }
+    ],
+    "hints": [
+      "独白的人在赣湘交界的山店里病倒了，夜里独自垂泪。",
+      "她收到的不是整瓶仁丹，是开了封的鱼肝油丸；她是一路喊人“赵叔叔”的那个姑娘。"
+    ]
+  }
+]

@@ -1,0 +1,1782 @@
+[
+ {
+  "path": "/entries/e_xidaduo/desc",
+  "en": "The one this story follows. Son of a Brahmin noble of ancient India, handsome and keen of mind, he left home to seek peace of the heart, and his life rose and fell more than once.",
+  "zh": "本故事的主角。古印度婆罗门贵族之子，英俊聪慧，为求心灵安宁离家求道，一生几经沉浮。"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/title",
+  "en": "Son of a Brahmin",
+  "zh": "婆罗门之子"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/0/label",
+  "en": "Birth",
+  "zh": "出身"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/0/text",
+  "en": "The highest caste of ancient India—the Brahmin, hereditary priestly nobles who kept the sacrifices and the reciting of scripture",
+  "zh": "古印度最高种姓——婆罗门，世代掌管祭祀与诵读经典的祭司贵族"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/1/label",
+  "en": "Name in youth",
+  "zh": "少年名声"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/1/text",
+  "en": "He could recite every scripture, and at sacrifice he served beside his father; the elders said he would be a priest among priests",
+  "zh": "背得出全部经文，献祭时替父亲执礼，长者们说他将来是祭司中的祭司"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/2/label",
+  "en": "Disquiet",
+  "zh": "苦恼"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/2/text",
+  "en": "He had everything and could not be glad: he doubted that bathing, sacrifice, and scripture could give the heart true peace",
+  "zh": "拥有一切却无法快乐：他怀疑沐浴、祭祀与经典给不了内心真正的安宁"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/3/label",
+  "en": "Closest friend",
+  "zh": "挚友"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/3/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/4/label",
+  "en": "The company he joined",
+  "zh": "投身的行列"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/4/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/5/label",
+  "en": "How he left home",
+  "zh": "离家的方式"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/0/fields/5/text",
+  "en": "He made no quarrel; he only stood a night before his father's door. At daybreak the father yielded, and he said no further farewell",
+  "zh": "不吵不闹，只在父亲门前站了一夜；天亮时父亲让步，他一句道别也没有多说"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/title",
+  "en": "A rich man of the city",
+  "zh": "城中富人"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/0/label",
+  "en": "Livelihood",
+  "zh": "营生"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/0/text",
+  "en": "He learned trade from the richest merchant of the great city, yet treated gain and loss as a game",
+  "zh": "跟随大城最富有的商人学做生意，却把盈亏当作一场游戏"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/1/label",
+  "en": "Three arts",
+  "zh": "三件本事"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/1/text",
+  "en": "Thinking, waiting, fasting—the three treasures he carried into the city from his years as a Samana",
+  "zh": "思想、等待、斋戒——他从沙门岁月带进城里的三件法宝"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/2/label",
+  "en": "Teacher of love",
+  "zh": "情爱导师"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/2/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/3/label",
+  "en": "The toy of his decline",
+  "zh": "沉沦的玩物"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/3/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/4/label",
+  "en": "Possessions",
+  "zh": "家当"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/4/text",
+  "en": "A house, servants, a room of fine clothes, and beyond the city a garden of mango trees",
+  "zh": "宅第、仆从、一屋子华服，城外还有一座种着芒果树的园子"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/5/label",
+  "en": "Sickness of the heart",
+  "zh": "心病"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/1/fields/5/text",
+  "en": "The richer he grew, the more he feared losing, age, and death; at night he dreamed of money, and waking to the mirror found a stranger's face",
+  "zh": "越有钱越怕输、怕老、怕死；夜里会梦见金钱，醒来照镜子只见一张陌生的脸"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/title",
+  "en": "Ferryman at the crossing",
+  "zh": "渡口船夫"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/0/label",
+  "en": "New station",
+  "zh": "新身份"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/0/text",
+  "en": "Apprentice to the ferryman: poling, tilling, weaving baskets, learning from the river how to listen",
+  "zh": "渡口船夫的学徒：摇船、种田、编篮，向河水学习倾听"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/1/label",
+  "en": "Teacher",
+  "zh": "师父"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/2/label",
+  "en": "Son",
+  "zh": "儿子"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/2/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/3/label",
+  "en": "The old arts",
+  "zh": "旧本事"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/3/text",
+  "en": "Thinking, waiting, fasting—only one still served: waiting for a child who would not own him",
+  "zh": "思想、等待、斋戒，如今只剩一样还用得上：等一个不肯认他的孩子"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/4/label",
+  "en": "The wound",
+  "zh": "伤口"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/4/text",
+  "en": "The day the son fled, he pursued as far as the garden gate at the city's edge, stood a long time, and at last knew he could not bring him back",
+  "zh": "儿子逃走那天，他一路追到城边的园门口，站了很久，终于明白追不回来"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/5/label",
+  "en": "Journey's end",
+  "zh": "归宿"
+ },
+ {
+  "path": "/entries/e_xidaduo/archive/2/fields/5/text",
+  "en": "Among the river's thousand voices he heard at last the sound of perfection, and was reconciled with the whole world",
+  "zh": "在河水的万千声音里，他终于听见那个圆满之音，与整个世界和解"
+ },
+ {
+  "path": "/entries/e_qiaowenda/desc",
+  "en": "Siddhartha's closest friend and shadow. Loyal, shy, he sought the true way all his life, and later entered the Buddha's order.",
+  "zh": "悉达多的挚友与影子。忠诚、羞怯，一生都在追寻正道，后来皈依佛陀的僧团。"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/title",
+  "en": "The follower",
+  "zh": "追随者"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/0/label",
+  "en": "Nature",
+  "zh": "性情"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/0/text",
+  "en": "Shy, loyal, diligent; in all things he lagged half a step behind his friend, and he knew it",
+  "zh": "羞怯、忠诚、勤勉；凡事总落后朋友半步，他自己也知道这一点"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/1/label",
+  "en": "The master he followed",
+  "zh": "皈依之师"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/2/label",
+  "en": "The order's dress",
+  "zh": "僧团装束"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/2/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/3/label",
+  "en": "That night",
+  "zh": "那一夜"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/3/text",
+  "en": "He pressed forward to ask for a place, without waiting for his friend to speak first—the first step he ever took alone",
+  "zh": "他挤上前去请求收留，没有等朋友先开口——这是他生平第一次独立走出的一步"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/4/label",
+  "en": "Parting",
+  "zh": "分别"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/0/fields/4/text",
+  "en": "At dawn the next day he embraced the friend of his boyhood, tears falling on the other's shoulder, then turned and took his place in the line",
+  "zh": "第二天清晨，他抱了抱少年时代的朋友，眼泪落在对方肩上，然后转身入列"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/title",
+  "en": "The wandering old monk",
+  "zh": "云游老僧"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/0/label",
+  "en": "As he is now",
+  "zh": "现状"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/0/text",
+  "en": "White-haired, he still wanders; he has sought a lifetime and still feels he has found nothing",
+  "zh": "白发苍苍仍在四处云游；找了一辈子，仍旧觉得自己什么也没有找到"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/1/label",
+  "en": "The order he belongs to",
+  "zh": "归属的教团"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/1/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/2/label",
+  "en": "Place of meeting again",
+  "zh": "重逢之地"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/2/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/3/label",
+  "en": "The old habit",
+  "zh": "老毛病"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/3/text",
+  "en": "Of everyone he asks, “Show me a path”; he has asked for decades, and has not thought that a path must be walked by oneself",
+  "zh": "见了谁都要问一句「请指点我一条路」，问了几十年，没想过路要自己走出来"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/4/label",
+  "en": "The last scene",
+  "zh": "最后一幕"
+ },
+ {
+  "path": "/entries/e_qiaowenda/archive/1/fields/4/text",
+  "en": "He bent and kissed his old friend's brow. Tears fell on the boards of the boat, and he himself could not say why",
+  "zh": "他俯身吻了老友的额头，泪水落在船板上，自己也说不清是为什么"
+ },
+ {
+  "path": "/entries/e_qiaodamo/desc",
+  "en": "The Buddha, called the Blessed One. The awakened one of legend; he taught at Jetavana outside Savathi, and his disciples were many upon the earth.",
+  "zh": "佛陀，人称世尊。传说中的觉悟者，在舍卫城外的祇园精舍讲法，弟子遍布天下。"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/title",
+  "en": "The Blessed One",
+  "zh": "世尊"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/0/label",
+  "en": "Title",
+  "zh": "称号"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/0/text",
+  "en": "Men call him the Buddha, “the one who has awakened”; disciples and the faithful honour him as the Blessed One",
+  "zh": "人称佛陀，即「觉悟了的人」；弟子与信众都尊称他为世尊"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/1/label",
+  "en": "Garden of teaching",
+  "zh": "讲法园林"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/2/label",
+  "en": "Vessel of alms",
+  "zh": "化缘之器"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/2/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/3/label",
+  "en": "Bearing",
+  "zh": "仪态"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/3/text",
+  "en": "His walking, the fall of his hands, the lowering of his gaze, all showed perfection; by that peace alone he could be known among hundreds of monks",
+  "zh": "走路、垂手、低眉都显着圆满，光凭这份安详就能从数百僧侣里被认出来"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/4/label",
+  "en": "What he taught",
+  "zh": "所讲"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/0/fields/4/text",
+  "en": "Four things: suffering, its arising, its cessation, and the path—life is suffering; suffering has a source; the source can be quenched; there is a way to quench it",
+  "zh": "苦、集、灭、道四条：生命是苦，苦有来处，来处能够熄灭，熄灭有路可走"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/title",
+  "en": "The name that remains",
+  "zh": "身后之名"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/0/label",
+  "en": "Final rest",
+  "zh": "最后的归宿"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/0/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/1/label",
+  "en": "The city where he stayed",
+  "zh": "常驻的大城"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/2/label",
+  "en": "Later years",
+  "zh": "晚年"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/2/text",
+  "en": "Old as he was, he still walked from place to place to teach; the world began to say his time among men was short",
+  "zh": "年事已高仍在各地行脚说法，世人纷纷传说他已不久于人世"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/3/label",
+  "en": "What he left",
+  "zh": "遗泽"
+ },
+ {
+  "path": "/entries/e_qiaodamo/archive/1/fields/3/text",
+  "en": "He left no wonders, but a path anyone might walk, and a company still walking it",
+  "zh": "他留下的不是神通，是一条人人可走的路，和一群继续走下去的人"
+ },
+ {
+  "path": "/entries/e_jiamola/desc",
+  "en": "The most beautiful courtesan of the great city. In ancient India a courtesan was a woman of means and art, independent; she was beautiful, clever, a teacher of the art of love.",
+  "zh": "大城中最美的名妓。古印度的名妓是有财有艺的独立女性，她美丽、聪明，是情爱之艺的导师。"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/title",
+  "en": "Courtesan",
+  "zh": "名妓"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/0/label",
+  "en": "Art",
+  "zh": "本事"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/0/text",
+  "en": "She treated love as a craft that could be taught, knowing some thirty or forty ways; a pupil paid according to custom",
+  "zh": "她把情爱当作一门可以传授的技艺，熟知三四十种花样，学生须按规矩付学费"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/1/label",
+  "en": "The eye that sees",
+  "zh": "眼力"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/1/text",
+  "en": "Through the curtain of her palanquin she glanced once at a barely clothed Samana, and judged him worth the making",
+  "zh": "隔着轿帘看一眼衣不蔽体的沙门，就断定这个人值得培养"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/2/label",
+  "en": "In her heart",
+  "zh": "心底"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/2/text",
+  "en": "She herself admitted she did not know how to love; those who can love are ordinary people, and that is their secret",
+  "zh": "她自己也承认不懂得爱人；能够爱的是平凡人，那是平凡人的秘密"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/3/label",
+  "en": "The loved thing in the cage",
+  "zh": "笼中爱物"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/3/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/4/label",
+  "en": "The way she lived",
+  "zh": "营生之道"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/0/fields/4/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/title",
+  "en": "The last pilgrimage",
+  "zh": "最后的朝圣"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/0/label",
+  "en": "Later years",
+  "zh": "晚年"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/0/text",
+  "en": "She closed the garden gate, dismissed her guests, gave the garden beyond the city to the order, and set out with her son",
+  "zh": "闭了园门，遣散门客，把城外的花园献给僧团，带着儿子上路"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/1/label",
+  "en": "The one she went to see",
+  "zh": "朝觐的对象"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/2/label",
+  "en": "Where the ashes lie",
+  "zh": "骨灰安处"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/2/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/3/label",
+  "en": "Cause of death",
+  "zh": "死因"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/3/text",
+  "en": "A black snake in the grass by the road bit her; she reached the ferry and could not rise again",
+  "zh": "路边草丛里一条黑蛇咬中了她，走到渡口便再也起不来了"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/4/label",
+  "en": "Last words",
+  "zh": "最后一句"
+ },
+ {
+  "path": "/entries/e_jiamola/archive/1/fields/4/text",
+  "en": "She said she had meant to look once upon that holy one, and had found only the lover of former days, and that this too was well",
+  "zh": "她说本想去看那位圣者一眼，结果只找到旧日的情人，觉得这也一样好"
+ },
+ {
+  "path": "/entries/e_shiwami/desc",
+  "en": "The richest merchant of the great city, a friend of Kamala. Shrewd and anxious, he made trade his life.",
+  "zh": "大城最富有的商人，伽摩拉的朋友。精明而焦虑，把生意当作性命。"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/title",
+  "en": "The rich merchant",
+  "zh": "富商"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/0/label",
+  "en": "Appearance",
+  "zh": "相貌"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/0/text",
+  "en": "Hair gone grey, a shrewd and guarded look, a fleshy mouth, a walk that made a wind",
+  "zh": "斑白头发，精明而颇有城府的眼神，肉感的嘴唇，走起路来带风"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/1/label",
+  "en": "Temper",
+  "zh": "脾气"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/1/text",
+  "en": "A single shipment could keep him sleepless three nights; each year a new line marked his brow; he made trade his life",
+  "zh": "为一批货三夜合不上眼，额上一年添一道皱纹，把生意当作性命"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/2/label",
+  "en": "Sickness of the heart",
+  "zh": "心病"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/2/text",
+  "en": "What he never understood, all his life, was the man beside him who held everything in his hands and took none of it in earnest",
+  "zh": "他一辈子想不通的事，是身边有个人什么都握在手里，又什么都不当真"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/3/label",
+  "en": "Who brought him",
+  "zh": "引荐人"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/3/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/4/label",
+  "en": "House",
+  "zh": "宅第"
+ },
+ {
+  "path": "/entries/e_shiwami/archive/0/fields/4/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_weisudewa/desc",
+  "en": "Ferryman at the crossing in the woods. An ordinary man who could not read, yet he knew best the art of listening—he had learned everything from the river.",
+  "zh": "林中渡口的船夫。不识字的普通人，却最懂得倾听的艺术——他从河水那里学会了一切。"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/title",
+  "en": "Ferryman on the river",
+  "zh": "河上的船夫"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/0/label",
+  "en": "Appearance",
+  "zh": "相貌"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/0/text",
+  "en": "An ageing ferryman, his face lined with fine smiling wrinkles, few of speech; when he smiled his eyes shone",
+  "zh": "上了年纪的摆渡人，满脸细细的笑纹，话极少，笑起来眼睛发亮"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/1/label",
+  "en": "Hut for travellers",
+  "zh": "歇客的小屋"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/2/label",
+  "en": "The craft that carries men",
+  "zh": "渡人之具"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/2/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/3/label",
+  "en": "How he received guests",
+  "zh": "待客"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/3/text",
+  "en": "He would share bread, water, and mangoes with a traveller who had nothing, and did not press for the ferry-fee",
+  "zh": "肯把面包、水和芒果分给身无分文的过客，也不催着要船钱"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/4/label",
+  "en": "A strange saying",
+  "zh": "一句怪话"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/0/fields/4/text",
+  "en": "He said the river had taught him: water flows out and returns; who ferries a man today will be repaid in time",
+  "zh": "他说这条河教过他：水流来流去终会回转，今日渡人，来日自有报答"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/title",
+  "en": "Ferryman",
+  "zh": "船夫"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/0/label",
+  "en": "The ferry",
+  "zh": "渡口"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/0/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/1/label",
+  "en": "Apprentice",
+  "zh": "徒弟"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/2/label",
+  "en": "Art",
+  "zh": "本事"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/2/text",
+  "en": "To carry men across, and to hear them speak; among a thousand travellers, only four or five could hear the river talking",
+  "zh": "渡人过河，听人倾诉；千万过客里，只有四五个能听见河水说话"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/3/label",
+  "en": "Unlettered",
+  "zh": "不识字"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/3/text",
+  "en": "He had never read a scripture, and could speak no great doctrine, yet he had lived every word of it",
+  "zh": "他一辈子没读过经，说不出一句大道理，却把每一句道理都活了出来"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/4/label",
+  "en": "The dead wife",
+  "zh": "亡妻"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/1/fields/4/text",
+  "en": "His wife had died of illness many years before, and was burned on the mound beside the ferry; thereafter he kept the river alone",
+  "zh": "妻子许多年前病故，火化在渡口旁的土丘上；此后他一个人守着这条河"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/title",
+  "en": "The listener",
+  "zh": "倾听者"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/0/label",
+  "en": "What taught him",
+  "zh": "师承"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/0/text",
+  "en": "His teacher was the river: it taught him to listen, and that time does not exist in the world",
+  "zh": "他的老师是那条河：河水教他倾听，教他世上并不存在时间"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/1/label",
+  "en": "The sound of perfection",
+  "zh": "圆满之音"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/1/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/2/label",
+  "en": "What he left at parting",
+  "zh": "临别所授"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/2/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/3/label",
+  "en": "How he taught",
+  "zh": "教法"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/3/text",
+  "en": "He never spoke doctrine; he only brought a man to the water and sat with him—what is spoken is leftover rice; what is tasted is the meal",
+  "zh": "他从不讲道理，只把人带到水边一起坐着——讲出来的是剩饭，尝到的才是饭"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/4/label",
+  "en": "Farewell",
+  "zh": "告别"
+ },
+ {
+  "path": "/entries/e_weisudewa/archive/2/fields/4/text",
+  "en": "When his friend had heard the sound of perfection, he walked into the woods and into the oneness of all things",
+  "zh": "等老友听见了圆满之音，他便步入林中，融入万物的圆融统一"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/desc",
+  "en": "Son of Kamala and Siddhartha, eight years old. Raised in wealth and indulged by his mother, proud and rebellious.",
+  "zh": "伽摩拉与悉达多的儿子，八岁。在富贵中被母亲惯大，骄纵而叛逆。"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/title",
+  "en": "The spoiled child",
+  "zh": "惯坏的孩子"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/0/label",
+  "en": "Mother",
+  "zh": "母亲"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/0/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/1/label",
+  "en": "What he took when he fled",
+  "zh": "逃走时带走的"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/1/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/2/label",
+  "en": "Origins",
+  "zh": "来历"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/2/text",
+  "en": "Eight years old, raised in a house of the great city, used to fine food and a soft bed, a servant running at the lift of a hand",
+  "zh": "八岁，在大城的宅子里长大，吃惯美食软床，一抬手就有仆人跑来"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/3/label",
+  "en": "Temper",
+  "zh": "脾气"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/3/text",
+  "en": "He would not work, he offended his elders, he smashed the rice bowl, and took his father's patience for the most hateful of devices",
+  "zh": "拒绝做工，冒犯长辈，摔碎米饭碗，把父亲的宽容当成最可恨的手段"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/4/label",
+  "en": "Where he went",
+  "zh": "去向"
+ },
+ {
+  "path": "/entries/e_xiaoxiduo/archive/0/fields/4/text",
+  "en": "He broke the oar, rowed across, and went toward the city; thereafter no one spoke of where he was",
+  "zh": "他折断船桨，划船过了河，往大城去了；此后再没有人提起他的下落"
+ },
+ {
+  "path": "/entries/e_fuqin/desc",
+  "en": "Siddhartha's father, an honoured Brahmin priest. His bearing was calm and noble; he loved his son deeply, and could not keep him.",
+  "zh": "悉达多的父亲，可敬的婆罗门祭司。举止从容高贵，深爱儿子却留不住他。"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/title",
+  "en": "Brahmin priest",
+  "zh": "婆罗门祭司"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/0/label",
+  "en": "Station",
+  "zh": "身份"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/0/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/1/label",
+  "en": "Dwelling",
+  "zh": "居所"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/2/label",
+  "en": "The man he was",
+  "zh": "为人"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/2/text",
+  "en": "His bearing was calm and noble; he never raised his voice; the whole town believed his life lacked nothing",
+  "zh": "举止从容高贵，说话从不高声；全城的人都以为他此生再无缺憾"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/3/label",
+  "en": "That night",
+  "zh": "那一夜"
+ },
+ {
+  "path": "/entries/e_fuqin/archive/0/fields/3/text",
+  "en": "Three times in the night he rose and saw his son still standing outside the door; at daybreak he said: Go, go into the woods",
+  "zh": "他半夜三次起身，看见儿子还站在门外；天亮时他说：去吧，去林子里"
+ },
+ {
+  "path": "/entries/e_laoshamen/desc",
+  "en": "The eldest Samana in the forest of austerities, nearly sixty and still without Nirvana. Severe, quick to anger.",
+  "zh": "苦修林中最年长的沙门，近六十岁仍未证得涅槃。严厉、易怒。"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/title",
+  "en": "Elder of the forest",
+  "zh": "丛林长老"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/0/label",
+  "en": "Place of practice",
+  "zh": "修行地"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/0/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/1/label",
+  "en": "The austerity of a lifetime",
+  "zh": "一生守持的苦行"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/1/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/2/label",
+  "en": "Age",
+  "zh": "年纪"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/2/text",
+  "en": "Nearly sixty, he had practised in the woods a lifetime, and still had not arrived where he meant to go",
+  "zh": "年近六十，在林中修了一辈子，仍旧没有抵达他要去的那个地方"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/3/label",
+  "en": "How it ended",
+  "zh": "结局"
+ },
+ {
+  "path": "/entries/e_laoshamen/archive/0/fields/3/text",
+  "en": "When two disciples would leave, he raged; one of them held his eyes, and he bowed instead and blessed them",
+  "zh": "两个弟子要走，他大发雷霆；被其中一个盯住眼睛，反倒躬身为他们祝福"
+ },
+ {
+  "path": "/entries/e_poluomenzhai/desc",
+  "en": "The house where Siddhartha was born and grew. Courtyard, hall of scripture, and the sacrificial fire—a Brahmin priest's dwelling.",
+  "zh": "悉达多出生与长大的家。庭院、经堂与祭火，婆罗门祭司的宅第。"
+ },
+ {
+  "path": "/entries/e_muyuhepan/desc",
+  "en": "Stone steps on the riverbank at the town's edge. Brahmins bathe here each day, praying to be washed of sin.",
+  "zh": "城边的河岸石阶。婆罗门每天在此沐浴净身，祈求洗清罪孽。"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/title",
+  "en": "The bathing place by the river",
+  "zh": "河畔的沐浴场"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/fields/0/label",
+  "en": "Caste of those who bathe",
+  "zh": "沐浴者的种姓"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/fields/0/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/fields/1/label",
+  "en": "Use",
+  "zh": "用途"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/fields/1/text",
+  "en": "The high caste bathe here each day, reciting prayers, asking to be washed of sin",
+  "zh": "高种姓每天在此沐浴净身，念诵祷词，祈求洗清罪孽"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/fields/2/label",
+  "en": "An old matter",
+  "zh": "一件旧事"
+ },
+ {
+  "path": "/entries/e_muyuhepan/archive/0/fields/2/text",
+  "en": "In boyhood he came each day and completed the whole office, until one day he doubted that water washed anything away",
+  "zh": "少年时他每天来做完整套功课，直到有一天怀疑水洗不掉什么"
+ },
+ {
+  "path": "/entries/e_rongshu/desc",
+  "en": "The great banyan beyond the town. Two boys often sat in its shade to meditate, murmuring the syllable Om.",
+  "zh": "城外的大榕树。两个少年常在树荫下打坐冥想，默念「唵」字真言。"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/title",
+  "en": "The banyan outside town",
+  "zh": "城外的榕树"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/fields/0/label",
+  "en": "The friend who swore beneath the tree",
+  "zh": "树下立誓的朋友"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/fields/0/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/fields/1/label",
+  "en": "Appearance",
+  "zh": "样子"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/fields/1/text",
+  "en": "The great banyan beyond the town, its aerial roots hanging to the ground; under its shade it was cool the year round",
+  "zh": "城外那棵大榕树，气根一直垂到地上，树荫底下常年凉快"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/fields/2/label",
+  "en": "What happened here",
+  "zh": "发生过什么"
+ },
+ {
+  "path": "/entries/e_rongshu/archive/0/fields/2/text",
+  "en": "Two boys often sat here and murmured the holy sound; here too one of them said that he would go",
+  "zh": "两个少年常在这里打坐默念圣音；也是在这里，其中一个说出了要走"
+ },
+ {
+  "path": "/entries/e_kuxiulin/desc",
+  "en": "The jungle where the Samanas dwelt. Here the ascetics tempered themselves with hunger, the sun, and thorns.",
+  "zh": "沙门们栖身的丛林。在这里，苦行者以饥饿、暴晒与荆棘磨炼自己。"
+ },
+ {
+  "path": "/entries/e_sheweicheng/desc",
+  "en": "The great city where the Buddha stayed and taught. Every house was willing to fill a monk's bowl with food.",
+  "zh": "佛陀驻锡讲法的大城。城里家家都愿意给僧侣的钵盂盛满饭食。"
+ },
+ {
+  "path": "/entries/e_qiyuan/desc",
+  "en": "Jetavana—the grove monastery a rich merchant bought and gave to the Buddha. Monks gathered there like a little town.",
+  "zh": "祇树给孤独园——富商买下献给佛陀的园林精舍。僧侣云集，像一个小市镇。"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/title",
+  "en": "Jetavana",
+  "zh": "祇园"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/0/label",
+  "en": "Dedicated to whom",
+  "zh": "献给谁"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/0/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/1/label",
+  "en": "The city around it",
+  "zh": "所在大城"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/2/label",
+  "en": "How it came to be",
+  "zh": "由来"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/2/text",
+  "en": "A wealthy elder bought the whole grove and gave it to the holy one he followed, and to the order",
+  "zh": "一位富有的长者买下整片园林，献给他所信奉的圣者与僧团"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/3/label",
+  "en": "The look of the place",
+  "zh": "光景"
+ },
+ {
+  "path": "/entries/e_qiyuan/archive/0/fields/3/text",
+  "en": "Deep shade, monks as numerous as cloud, like a little town: some sat silent in stillness, some argued fiercely",
+  "zh": "园里浓荫蔽日、僧侣如云，像一座小市镇：有人默坐入定，有人激烈论辩"
+ },
+ {
+  "path": "/entries/e_dukoucaoshe/desc",
+  "en": "The ferryman's little hut by the river. Travellers may sleep there; inside are bread, water, and mangoes.",
+  "zh": "船夫的河边小草屋。过客可以借宿，屋里有面包、水和芒果。"
+ },
+ {
+  "path": "/entries/e_dachengjiexiang/desc",
+  "en": "The prosperous city where Siddhartha sank for many years. Shops, gaming, feasts—the playground of the world.",
+  "zh": "悉达多沉沦多年的繁华大城。商铺、赌局、宴饮——尘世的游乐场。"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/desc",
+  "en": "Kamala's garden villa beyond the city. Trees and flowers in plenty; deep in the pavilion hung a little golden cage.",
+  "zh": "伽摩拉城外的园林别墅。花木葱茏，亭子深处挂着一只小小的金笼。"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/title",
+  "en": "The courtesan's garden",
+  "zh": "名妓的园林"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/0/label",
+  "en": "The look of the place",
+  "zh": "光景"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/0/text",
+  "en": "A garden villa beyond the city, trees and flowers in plenty; deep in the pavilion hung a little golden cage",
+  "zh": "城外的园林别墅，花木葱茏，亭子深处挂着一只小小的金笼"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/1/label",
+  "en": "Before the gate",
+  "zh": "门前"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/1/text",
+  "en": "By the road outside the garden a Samana grey with dust once stood a long time, only to see clearly the one in the palanquin",
+  "zh": "园门外的路边，一个满身尘土的沙门曾站了很久，只为看清轿中的人"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/2/label",
+  "en": "The living thing in the garden",
+  "zh": "园中灵物"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/2/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/3/label",
+  "en": "To whom, in the end, the garden was given",
+  "zh": "最终，花园献给了谁"
+ },
+ {
+  "path": "/entries/e_mingjihuayuan/archive/0/fields/3/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_fushangzhaidi/desc",
+  "en": "Kamaswami's great house. Carpets, counting-room, and storehouses; money flowed in and out here.",
+  "zh": "湿瓦弥的豪宅。地毯、账房与仓库，金钱从这里流进流出。"
+ },
+ {
+  "path": "/entries/e_hebianshiji/desc",
+  "en": "Stone steps on the city's watercourse. Barber-helpers tout for custom here; at night small boats rest.",
+  "zh": "大城边河道的石阶。理发帮工在此招揽客人，夜里有小船栖身。"
+ },
+ {
+  "path": "/entries/e_yezishu/desc",
+  "en": "A coconut palm at the river's bend. Someone once looked down into the water here, with death only a line away.",
+  "zh": "大河转弯处的一棵椰子树。有人曾在这里俯视水波，与死只隔一线。"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/desc",
+  "en": "The ferry where Vasudeva plied. A boat, a hut, forest on both banks; here the river sings day and night.",
+  "zh": "维稣德瓦摆渡的渡口。一条船、一间草舍、两岸的森林，河在这里日夜歌唱。"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/title",
+  "en": "The ferry",
+  "zh": "渡口"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/0/label",
+  "en": "The old ferryman",
+  "zh": "老船夫"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/0/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/1/label",
+  "en": "What lies across",
+  "zh": "对岸的去处"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/2/label",
+  "en": "Form",
+  "zh": "形貌"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/2/text",
+  "en": "A boat, a hut, forest on both banks without end; here the river sings day and night",
+  "zh": "一条船、一间草舍、两岸望不到头的森林，河水在这里日夜歌唱"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/3/label",
+  "en": "Those who come and go",
+  "zh": "来往的人"
+ },
+ {
+  "path": "/entries/e_linzhongdukou/archive/0/fields/3/text",
+  "en": "Those going to market, to a burial, fleeing debt, on pilgrimage—all must board here; the river asks nothing",
+  "zh": "赶集的、奔丧的、逃债的、朝圣的都要在此上船，河水一句也不多问"
+ },
+ {
+  "path": "/entries/e_huozangqiu/desc",
+  "en": "The burning-ground by the water near the ferry. The ferryman's dead wife was burned here; later she too came to rest here.",
+  "zh": "渡口附近临水的火化场。船夫的亡妻在此火化，后来她也归寂于此。"
+ },
+ {
+  "path": "/entries/e_jinlongniao/desc",
+  "en": "The rare songbird Kamala kept in a little golden cage. It sang each morning, like her spring that would not age.",
+  "zh": "伽摩拉养在小小金笼里的珍稀歌鸟。它每天清晨歌唱，像她不老的春天。"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/title",
+  "en": "The caged bird",
+  "zh": "笼中鸟"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/0/label",
+  "en": "The keeper's dwelling",
+  "zh": "饲主的居处"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/0/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/1/label",
+  "en": "Who dreamed of it",
+  "zh": "谁梦到了它"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/2/label",
+  "en": "Habit",
+  "zh": "习性"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/2/text",
+  "en": "Each morning it sang sweetly; its mistress took it for her spring that would not grow old",
+  "zh": "每天清晨婉转歌唱，主人拿它当作自己不会老去的春天"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/3/label",
+  "en": "The dream",
+  "zh": "那个梦"
+ },
+ {
+  "path": "/entries/e_jinlongniao/archive/0/fields/3/text",
+  "en": "In the dream it lay stiff on the floor of the cage and was thrown into the road—in that same instant the dreamer's heart was wrung",
+  "zh": "梦里它僵直地躺在笼底，被扔到路上——同一刻，做梦的人心像被绞住"
+ },
+ {
+  "path": "/entries/e_touzi/desc",
+  "en": "Dice of the gaming table. In the years of sinking, the anxiety of a great stake was the only heartbeat he still felt.",
+  "zh": "赌局上的骰子。沉沦岁月里，一掷千金的焦虑是他唯一还感觉得到的心跳。"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/title",
+  "en": "The gambling pieces",
+  "zh": "赌具"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/0/label",
+  "en": "How it was played",
+  "zh": "玩法"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/0/text",
+  "en": "Great sums on a throw; thousands won, thousands lost again in a breath; even the country villa was staked",
+  "zh": "一掷千金，赢了成千上万，转手又输掉成千上万，连乡下别墅也押上去"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/1/label",
+  "en": "Why he gambled",
+  "zh": "为什么赌"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/1/text",
+  "en": "He did not love money; only the anxiety of a stake not yet decided could make him feel he was still alive",
+  "zh": "他并不爱钱；只有赌金悬而未决的那种焦虑，能让他觉得自己还活着"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/2/label",
+  "en": "The one lost in it",
+  "zh": "沉迷者"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/2/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/3/label",
+  "en": "The master who watched him stake everything",
+  "zh": "看他豪赌的东家"
+ },
+ {
+  "path": "/entries/e_touzi/archive/0/fields/3/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_duchuan/desc",
+  "en": "The wooden boat and bamboo raft at the crossing. To carry men over the river is the ferryman's living, and the bridge between the banks.",
+  "zh": "渡口的木船竹筏。载人过河，是船夫的营生，也是两岸之间的桥。"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/title",
+  "en": "The boat that carries men",
+  "zh": "渡人之舟"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/0/label",
+  "en": "Master",
+  "zh": "主人"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/0/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/1/label",
+  "en": "The pole",
+  "zh": "撑船之具"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/1/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/2/label",
+  "en": "Form",
+  "zh": "形制"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/2/text",
+  "en": "Wooden boat and bamboo raft, carrying men across—the ferryman's living, and the only bridge between the banks",
+  "zh": "木船与竹筏，载人过河，是船夫的营生，也是两岸之间唯一的桥"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/3/label",
+  "en": "An old story",
+  "zh": "一桩旧事"
+ },
+ {
+  "path": "/entries/e_duchuan/archive/0/fields/3/text",
+  "en": "Years ago it carried a young Samana who had nothing; the ferryman took no money from him",
+  "zh": "许多年前它载过一个身无分文的年轻沙门，船夫没有收他的钱"
+ },
+ {
+  "path": "/entries/e_chuanjiang/desc",
+  "en": "The long oar of the ferry, its handle worn bright. After the child fled, it was not seen again.",
+  "zh": "摇渡船的长桨，桨柄被磨得发亮。孩子逃走后，它再也没有出现。"
+ },
+ {
+  "path": "/entries/e_baichangpao/desc",
+  "en": "The first decent garment the courtesan gave the young Samana. He carried it out of the garden under his arm.",
+  "zh": "名妓赠给年轻沙门的第一件体面衣服。他挟着它走出花园。"
+ },
+ {
+  "path": "/entries/e_sengyi/desc",
+  "en": "The yellow garment worn by the Buddha's disciples. To put it on is to leave household, wealth, and the old self.",
+  "zh": "佛陀弟子穿的黄衣。披上它，就意味着告别家庭、财富与旧我。"
+ },
+ {
+  "path": "/entries/e_boyu/desc",
+  "en": "The bowl in which monks beg their food. One meal a day; even the Buddha himself entered the city with his bowl at dawn.",
+  "zh": "僧侣乞食的钵。一天只进一餐，连佛陀本人清晨也持钵入城。"
+ },
+ {
+  "path": "/entries/e_kongqueshan/desc",
+  "en": "The fan Kamala turned in her hands. When she smiled and asked a question, the eye-spots on the leaf flashed.",
+  "zh": "伽摩拉手中把玩的羽扇。她笑着提问时，扇面的眼斑一闪一闪。"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/title",
+  "en": "Peacock fan",
+  "zh": "孔雀羽扇"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/fields/0/label",
+  "en": "The garden of her who held the fan",
+  "zh": "执扇者的园林"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/fields/0/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/fields/1/label",
+  "en": "Appearance",
+  "zh": "样子"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/fields/1/text",
+  "en": "The leaf was set with the eye-spots of peacock plumes, flashing as it moved, like many eyes blinking at once",
+  "zh": "扇面缀着孔雀翎的眼斑，一晃一闪，像许多只眼睛同时眨"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/fields/2/label",
+  "en": "Use",
+  "zh": "用处"
+ },
+ {
+  "path": "/entries/e_kongqueshan/archive/0/fields/2/text",
+  "en": "When she smiled and asked, she half hid her mouth with it; only those who answered well saw her smile",
+  "zh": "她笑着提问时用它半掩住嘴，答得好的人才看得见她的笑"
+ },
+ {
+  "path": "/entries/e_shuangselan/desc",
+  "en": "A little basket of two colours, woven of bark, where the two ferrymen kept the ferry-money. Later it vanished with the child.",
+  "zh": "树皮编的双色小篮，两位船夫存船费的地方。后来随孩子失踪。"
+ },
+ {
+  "path": "/entries/e_poluomen/desc",
+  "en": "Highest of the castes of ancient India: hereditary priests and scholars, keepers of sacrifice and scripture, who held themselves nearest the gods.",
+  "zh": "古印度种姓中最高的一级：世袭的祭司与学者，掌管祭祀与经典，自认最近神明。"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/title",
+  "en": "The priestly caste",
+  "zh": "祭司阶层"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/0/label",
+  "en": "Scriptures",
+  "zh": "经典"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/0/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/1/label",
+  "en": "A priest of the caste",
+  "zh": "族中的一位祭司"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/2/label",
+  "en": "Daily offices",
+  "zh": "日课"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/2/text",
+  "en": "Bathing at daybreak, sacrifice and recitation at morning and evening; the hours of a day were all cut by prayer",
+  "zh": "天亮沐浴净身，晨昏献祭诵经，一天的时辰全由祷词分成段落"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/3/label",
+  "en": "Transmission",
+  "zh": "传承"
+ },
+ {
+  "path": "/entries/e_poluomen/archive/0/fields/3/text",
+  "en": "Father taught son, son taught grandson; a Brahmin child, from the first memory, could speak the most sacred syllable",
+  "zh": "父亲教儿子，儿子教孙子；婆罗门的孩子记事起就会念最神圣的那个音节"
+ },
+ {
+  "path": "/entries/e_shamen/desc",
+  "en": "Wandering ascetics who had left the household. Naked and hungry, they sought release by extreme austerity, despised and revered by the world.",
+  "zh": "离弃家庭的游方苦行者。赤身忍饥，以极端苦行寻求解脱，被世人既鄙夷又敬畏。"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/title",
+  "en": "The ascetics",
+  "zh": "苦行者"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/0/label",
+  "en": "Place of practice",
+  "zh": "修行地"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/0/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/1/label",
+  "en": "The true Self they sought",
+  "zh": "要寻的真我"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/1/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/2/label",
+  "en": "Practice",
+  "zh": "功课"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/2/text",
+  "en": "Fasting, the bearing of pain, the sun, sitting still; driving the self out of the body again and again, and watching it return",
+  "zh": "斋戒、忍痛、暴晒、静坐；把自我一次次赶出身体，再看它一次次回来"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/3/label",
+  "en": "Three arts",
+  "zh": "三件本事"
+ },
+ {
+  "path": "/entries/e_shamen/archive/0/fields/3/text",
+  "en": "To think, to wait, to fast—later, in the city, these three were worth more than a boat of goods",
+  "zh": "会思想、会等待、会斋戒——这三样后来在城里比一船货物还值钱"
+ },
+ {
+  "path": "/entries/e_atman/desc",
+  "en": "The “true Self” in Brahmin teaching: the undying essence in the depth of each person, one with the spirit of the world.",
+  "zh": "婆罗门教义中的「真我」：每个人内心深处永恒不灭的本质，与宇宙之灵合一。"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/title",
+  "en": "The true Self",
+  "zh": "真我"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/0/label",
+  "en": "The book that names it",
+  "zh": "记载之典"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/0/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/1/label",
+  "en": "Where they bathed and prayed",
+  "zh": "沐浴祈祷之处"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/2/label",
+  "en": "Meaning",
+  "zh": "意思"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/2/text",
+  "en": "The undying essence in the depth of each person; it is said to have been, from the first, one with the spirit of the world",
+  "zh": "每个人内心深处永恒不灭的本质，据说与宇宙之灵原本就是一个"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/3/label",
+  "en": "The difficulty",
+  "zh": "难处"
+ },
+ {
+  "path": "/entries/e_atman/archive/0/fields/3/text",
+  "en": "Scripture says it is in the heart, yet no one can point to where; the harder one hunts, the more one loses oneself",
+  "zh": "经文说它就在心里，谁也指不出它在哪儿；越是拼命去找，越是把自己弄丢"
+ },
+ {
+  "path": "/entries/e_om/desc",
+  "en": "The most sacred syllable, the word that begins and ends Brahmin prayer, meaning “perfection.” To murmur it is as if the heart were an arrow aimed at Brahman.",
+  "zh": "最神圣的音节，婆罗门祷文的起止之字，意为「圆满」。默念它时，如以心为箭指向梵天。"
+ },
+ {
+  "path": "/entries/e_om/archive/0/title",
+  "en": "The sound of perfection",
+  "zh": "圆满之音"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/0/label",
+  "en": "Who murmured it",
+  "zh": "默念者"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/0/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/1/label",
+  "en": "The place that saved him",
+  "zh": "救命之地"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/1/blank/pool",
+  "en": "place",
+  "zh": "place"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/2/label",
+  "en": "Meaning",
+  "zh": "含义"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/2/text",
+  "en": "The word that begins and ends Brahmin prayer, meaning “perfection”; a child could speak it from the first memory",
+  "zh": "婆罗门祷文的起止之字，意思是「圆满」，孩子记事起就会念"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/3/label",
+  "en": "The river's answer",
+  "zh": "河水的答案"
+ },
+ {
+  "path": "/entries/e_om/archive/0/fields/3/text",
+  "en": "In the instant of despair by the river, it was this syllable, long asleep, that woke him—and the thousand voices of the river, at last, became this one word",
+  "zh": "在河边绝望的刹那，正是这个沉睡多年的音节把他唤醒——万千河声，最终也汇成这一个字"
+ },
+ {
+  "path": "/entries/e_lunhui/desc",
+  "en": "Life turning between birth and death, like a wheel that does not stop. Those not yet awake suffer craving and pain again and again in Samsara.",
+  "zh": "生命在生死之间循环流转，如车轮不停。未证悟的人在轮回中反复经历渴望与痛苦。"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/title",
+  "en": "The wheel of life",
+  "zh": "生命之轮"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/0/label",
+  "en": "Meaning",
+  "zh": "含义"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/0/text",
+  "en": "Life turning between birth and death, like a wheel that does not stop; craving follows pain, pain follows craving",
+  "zh": "生命在生死之间循环流转，如车轮不停；渴望接着痛苦，痛苦接着渴望"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/1/label",
+  "en": "How it looked in the city",
+  "zh": "城里的样子"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/1/text",
+  "en": "Feasts, gaming, buying and selling, love—the days turned and turned, and a man still thought he was walking forward",
+  "zh": "宴饮、赌局、买卖、情爱，日子转过一圈又一圈，人还当自己在往前走"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/2/label",
+  "en": "What turns the wheel",
+  "zh": "转动的燃料"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/2/text",
+  "en": "What keeps the wheel turning is craving: the thing wanted, once in the hand, and a new wanting grows at once",
+  "zh": "推着轮子不停转的是渴望：想要的东西一到手，新的想要立刻又长出来"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/3/label",
+  "en": "How one is freed",
+  "zh": "如何解脱"
+ },
+ {
+  "path": "/entries/e_lunhui/archive/0/fields/3/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_niepan/desc",
+  "en": "The meaning is quenching: the still realm beyond birth and death. The aim of the Buddha's teaching, the farther shore of the sea of pain.",
+  "zh": "熄灭之意：超越生死轮回的寂静境界。佛陀教义的目标，苦海的对岸。"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/title",
+  "en": "The farther shore",
+  "zh": "彼岸"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/0/label",
+  "en": "The cycle it stills",
+  "zh": "所止息的流转"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/0/blank/pool",
+  "en": "concept",
+  "zh": "concept"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/1/label",
+  "en": "The elder who sought it and did not arrive",
+  "zh": "求它不得的长者"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/1/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/2/label",
+  "en": "Meaning",
+  "zh": "意思"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/2/text",
+  "en": "The meaning is quenching: the still realm beyond the turning of birth and death, the aim the Buddha's teaching points toward",
+  "zh": "熄灭之意：超越生死流转的寂静境界，是佛陀教义所指的目标"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/3/label",
+  "en": "The difficulty",
+  "zh": "难处"
+ },
+ {
+  "path": "/entries/e_niepan/archive/0/fields/3/text",
+  "en": "Austerity, fasting, hypnosis cannot reach it; some practise a lifetime and still stand on this shore",
+  "zh": "苦行、斋戒、催眠都到不了那里；有人修了一辈子，仍旧站在此岸"
+ },
+ {
+  "path": "/entries/e_sengtuan/desc",
+  "en": "The company of wandering monks who followed the Buddha: yellow robes, the alms bowl, the precepts, travelling the four directions.",
+  "zh": "追随佛陀的游方僧人群体：披黄衣、持钵乞食、守戒云游四方。"
+ },
+ {
+  "path": "/entries/e_zhaijie/desc",
+  "en": "One of the three arts of the Samanas: to bear hunger in order to master desire, and so not be driven by hunger.",
+  "zh": "沙门三大技艺之一：忍饥挨饿以降伏欲望，因此不被饥饿驱赶。"
+ },
+ {
+  "path": "/entries/e_mingji/desc",
+  "en": "The high courtesan of ancient India: a woman of means and art, choosing her own companions, known for song, dance, and the art of love.",
+  "zh": "古印度的高级艺妓：有财有艺、自主择偶的独立女性，以歌舞与情爱之艺闻名。"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/title",
+  "en": "The way of the courtesan",
+  "zh": "名妓之道"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/0/label",
+  "en": "Standing",
+  "zh": "地位"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/0/text",
+  "en": "Not a woman to be bought, but an independent person with land, with guests, who chose her lovers herself",
+  "zh": "不是可以买卖的女子，而是有田产、有门客、自己挑选情人的独立人物"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/1/label",
+  "en": "Custom",
+  "zh": "规矩"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/1/text",
+  "en": "One who came to learn must first have decent clothes, shoes, and money; a pupil brought the fee according to custom",
+  "zh": "求教的人须先有像样的衣裳、鞋子和钱，学生要按规矩把学费送到"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/2/label",
+  "en": "One who stood for it",
+  "zh": "代表人物"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/2/blank/pool",
+  "en": "person",
+  "zh": "person"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/3/label",
+  "en": "The first gift she gave him",
+  "zh": "她给他的第一份礼物"
+ },
+ {
+  "path": "/entries/e_mingji/archive/0/fields/3/blank/pool",
+  "en": "item",
+  "zh": "item"
+ },
+ {
+  "path": "/entries/e_feituo/desc",
+  "en": "The sacred scriptures handed down among the Brahmins, source of sacrifice and wisdom, including the Upanishads.",
+  "zh": "婆罗门世代传承的神圣经典，祭祀与智慧的源泉，含《奥义书》。"
+ }
+]

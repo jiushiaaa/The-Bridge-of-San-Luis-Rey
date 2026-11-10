@@ -1,0 +1,1303 @@
+/* 纸刊定稿：由 style-lab v6 合并进生产。加载于 styles.css 之后。 */
+
+@keyframes gslFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gslRise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* 高亮蓝光：微光扫过 + 蓝色光晕脉冲，游戏化的「锁定目标」感 */
+@keyframes gslSlotSheen {
+  0%,
+  100% {
+    background-position:
+      130% 0,
+      0 0;
+    box-shadow:
+      0 0 0 1.5px rgba(46, 106, 190, 0.5),
+      0 0 10px 1px rgba(74, 130, 210, 0.35);
+  }
+  50% {
+    background-position:
+      -30% 0,
+      0 0;
+    box-shadow:
+      0 0 0 2px rgba(46, 106, 190, 0.85),
+      0 0 24px 5px rgba(74, 130, 210, 0.6);
+  }
+}
+
+/* 发言人头像：蓝环锁定 + 轻轻浮起，像游戏里选中角色 */
+@keyframes gslAvatarLock {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow:
+      0 0 0 2px rgba(46, 106, 190, 0.7),
+      0 0 12px 2px rgba(74, 130, 210, 0.45);
+  }
+  50% {
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 0 3px rgba(46, 106, 190, 0.95),
+      0 0 22px 6px rgba(74, 130, 210, 0.65);
+  }
+}
+
+:root {
+  --paper: #e8edf3;
+  --card: #ffffff;
+  --ink: #1c1917;
+  --ink-80: rgba(28, 25, 23, 0.92);
+  --ink-60: #5a554c;
+  --ink-30: rgba(28, 25, 23, 0.28);
+  --leather: #3d4f6f;
+  --cinnabar: #7a3d42;
+  --grass: #2f6b4f;
+  --gold: #3d4f6f;
+  --gold-soft: rgba(61, 79, 111, 0.08);
+  --line: #d5dde8;
+  --font: Inter, 'Noto Sans SC', system-ui, sans-serif;
+  --gsl-dur: 180ms;
+  --gsl-ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --read-max: 1000px;
+  --read-pad-min: 28px;
+}
+
+body {
+  background: #e8edf3;
+  color: var(--ink);
+  font-weight: 400;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  font-synthesis: style;
+}
+
+button {
+  font-weight: 400;
+}
+
+.title-bg {
+  filter: grayscale(0.28) saturate(0.6);
+}
+
+.pane,
+.modal,
+.recap-modal {
+  border-radius: 10px;
+  border-color: #d5dde8;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+.modal.game-menu {
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14);
+}
+
+.tl-board {
+  background:
+    linear-gradient(180deg, rgba(61, 79, 111, 0.035), transparent 64px),
+    #ffffff;
+  border-color: #d5dde8;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.tl-left {
+  border-right-color: #d5dde8;
+  border-right-style: solid;
+}
+
+.tl-chip {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+}
+
+.tl-chip.is-correct {
+  box-shadow:
+    inset 0 0 0 1.5px rgba(47, 107, 79, 0.55),
+    0 4px 12px rgba(15, 23, 42, 0.1);
+}
+
+.game-menu-kicker {
+  color: #3d4f6f;
+}
+
+.game-menu-row:hover {
+  background: rgba(61, 79, 111, 0.06);
+}
+
+.game-menu-close:hover {
+  background: rgba(61, 79, 111, 0.08);
+  color: #243044;
+}
+
+.pane-center {
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.1);
+}
+
+.tabs-vitals,
+.bgm-mini {
+  border-color: #d5dde8;
+  background: #f8fafc;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.bgm-mini-mode {
+  background: #f8fafc;
+}
+
+.bgm-pop {
+  border-color: #c5d0dc;
+  background: #f8fafc;
+}
+
+.vital-panel {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #5a554c;
+  font-weight: 500;
+}
+
+.vital-panel .stat-label {
+  color: #8a93a3;
+}
+
+.vital-panel .stat-value {
+  color: #243044;
+}
+
+.tabs-vitals .vital-grade,
+.vital-panel .stat-item + .stat-item {
+  border-left-color: #e3e9f0;
+}
+
+.vital-panel:hover {
+  background: #ffffff;
+  color: #243044;
+}
+
+.vital-panel .ui-icon {
+  display: block;
+  color: #3d4f6f;
+}
+
+.vital-panel.stamina.is-empty,
+.vital-panel.stamina.is-empty .stat-value,
+.vital-panel.stamina.is-empty .ui-icon {
+  color: #7a3d42;
+}
+
+.vital-grade .vital-stars {
+  color: #3d4f6f;
+}
+
+.vital-grade .stat-item.is-hot .stat-value,
+.vital-grade .stat-item.is-over .stat-value,
+.vital-grade .stat-item.is-floor .stat-value,
+.vital-grade.is-floor .vital-stars {
+  color: #7a3d42;
+}
+
+.stamina-rest-pop {
+  border-color: #d5dde8;
+  background: #ffffff;
+  color: #7a3d42;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+
+.stamina-rest-pop::after {
+  background: #ffffff;
+  border-left-color: #d5dde8;
+  border-top-color: #d5dde8;
+}
+
+.btn {
+  border-radius: 8px;
+  border-color: #d5dde8;
+}
+
+/* 页签栏现在兼作顶栏：底色收白、下缘只留一道发丝线，重量交给选中的药丸 */
+.tabs {
+  position: relative;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: #ffffff;
+  border-bottom: 1px solid #d5dde8;
+}
+
+.tabs-brand {
+  padding: 0 16px 0 2px;
+  margin-right: 8px;
+  border-right-color: #dfe6ef;
+  font-family: 'Noto Serif SC', Georgia, serif;
+  font-size: 17px;
+  color: #243044;
+}
+
+.tabs-tools {
+  border-left-color: #dfe6ef;
+}
+
+.tool-btn {
+  color: #3d4f6f;
+}
+
+.tool-btn:hover {
+  background: #eef2f7;
+  color: #243044;
+}
+
+.tool-btn:focus-visible {
+  outline: 3px solid #3d4f6f;
+  outline-offset: 2px;
+}
+
+.gsl-tab-pill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  border-radius: 8px;
+  background: #3d4f6f;
+  box-shadow: 0 4px 12px rgba(61, 79, 111, 0.32);
+  pointer-events: none;
+}
+
+.gsl-tab-pill.is-ready {
+  transition:
+    transform 220ms var(--gsl-ease),
+    width 220ms var(--gsl-ease),
+    height 220ms var(--gsl-ease);
+}
+
+.tab {
+  position: relative;
+  z-index: 1;
+  min-height: 48px;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #3d4f6f;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.tab:hover:not(.active) {
+  background: #eef2f7;
+  color: #1c1917;
+}
+
+.tab-sub {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #7a8598;
+  opacity: 1;
+}
+
+.tab.active .tab-sub {
+  color: rgba(247, 248, 250, 0.75);
+}
+
+/* 1100～1280 之间右栏还在、头部最挤：先收紧留白，别让刊名被省略号吃掉 */
+@media (max-width: 1280px) {
+  .tabs {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tabs-brand {
+    padding-right: 10px;
+    margin-right: 4px;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+  }
+
+  .tab {
+    padding: 8px 12px;
+  }
+
+  .vital-panel .stat-item {
+    min-width: 42px;
+    padding: 0 8px;
+  }
+}
+
+/* 再窄一档（右栏尚未收起的最后一段）：页签只留文字 */
+@media (max-width: 1160px) {
+  .tabs .tab > .ui-icon {
+    display: none;
+  }
+}
+
+.tab.active {
+  background: #3d4f6f;
+  color: #f7f8fa;
+  font-weight: 700;
+  border-color: #3d4f6f;
+  box-shadow: 0 4px 12px rgba(61, 79, 111, 0.32);
+}
+
+.tabs.has-pill .tab.active {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.tab.active .badge {
+  background: #f4d2c9;
+  color: #7a3d42;
+}
+
+.tab.tab-entry {
+  border-style: dashed;
+  border-color: #8a97ab;
+}
+
+.tab:focus-visible {
+  outline: 3px solid #3d4f6f;
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background: #3d4f6f;
+  border-color: #3d4f6f;
+  color: #f7f8fa;
+}
+
+.blank-verify {
+  padding: 8px 18px;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(61, 79, 111, 0.32);
+}
+.blank-verify:hover:not(:disabled) {
+  box-shadow: 0 6px 16px rgba(61, 79, 111, 0.4);
+}
+
+.notes-title,
+.game-menu-title,
+.picker-modal-title,
+.tl-row-label,
+.tl-pool-title {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #243044;
+}
+
+.chat-body {
+  padding: 22px max(var(--read-pad-min), calc((100% - var(--read-max)) / 2)) 36px;
+}
+
+.msg-narr,
+.notes-story-body .read-seg,
+.recap-article .read-seg,
+.recap-narr,
+.recap-article {
+  font-family: 'Noto Serif SC', Georgia, 'Noto Sans SC', serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0;
+  color: #1c1917;
+}
+
+/* 情节卡旁白：15px / 1.8；左右各留出「对话头像区」宽度（变量定义见 styles.css .chat-body） */
+.msg-narr {
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: none;
+  width: auto;
+  margin-left: var(--speaker-area);
+  margin-right: var(--speaker-area);
+  margin-bottom: 1.45em;
+}
+
+.msg-row {
+  max-width: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.notes-story {
+  padding: 28px max(var(--read-pad-min), calc((100% - var(--read-max)) / 2)) 40px;
+}
+
+.notes-story.story-gallery {
+  padding: 16px 32px 20px;
+  background: #e8edf3;
+}
+
+.story-toc {
+  background: #dfe6ef;
+  border-right-color: #c5d0dc;
+}
+
+.story-toc-kicker,
+.story-toc-vol-kicker,
+.story-toc-item {
+  font-family: Inter, 'Noto Sans SC', system-ui, sans-serif;
+}
+
+.story-toc-vol-name {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  color: #243044;
+}
+
+.story-toc-item.is-on {
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.story-gallery .recap-head,
+.story-gallery .recap-foot {
+  border-color: #c5d0dc;
+}
+
+.story-gallery .recap-lv {
+  color: #3d4f6f;
+}
+
+.story-gallery .recap-title {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  font-size: 17px;
+  color: #243044;
+}
+
+.notes-story-body {
+  max-width: none;
+  width: 100%;
+}
+
+/* 气泡（对话 / 独白 / 故事页引语）统一黑体 15px、1.8 行距、不用斜体 */
+.bubble {
+  font-family: var(--font);
+  font-size: 15px;
+  font-style: normal;
+  line-height: 1.8;
+}
+
+.bubble.mono {
+  background: rgba(61, 79, 111, 0.08);
+  border-color: rgba(61, 79, 111, 0.28);
+  color: #243044;
+}
+
+.entry-chip,
+.npc-unknown,
+.npc-known,
+.npc-draft {
+  font: inherit;
+  font-size: 1em;
+  line-height: 1;
+}
+
+.entry-chip {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.entry-chip .avatar,
+.entry-chip .seal {
+  width: 1em !important;
+  height: 1em !important;
+  flex: 0 0 1em;
+  object-fit: cover;
+  font-size: 0.72em !important;
+}
+
+/* 正文人名空位高亮：保留方框结构（图标齐边），只换蓝色描边 + 底色扫光 */
+.npc-unknown.slot-hl,
+.npc-draft.slot-hl,
+.npc-known.slot-hl {
+  position: relative;
+  z-index: 1;
+  outline: none;
+  color: #1e4f8a;
+  border-color: rgba(46, 106, 190, 0.65);
+  border-style: solid;
+  background:
+    linear-gradient(115deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 255, 255, 0) 75%) 0 0 /
+      240% 100% no-repeat,
+    #dde9f9;
+  box-shadow:
+    0 0 0 1.5px rgba(46, 106, 190, 0.5),
+    0 0 10px 1px rgba(74, 130, 210, 0.35);
+  animation: gslSlotSheen 1.9s ease-in-out infinite;
+}
+
+/* 发言人列：不要竖条/色块，改为头像后一团金色光晕（::before 淡入淡出） */
+.speaker-col {
+  position: relative;
+}
+.speaker-col::before {
+  content: '';
+  position: absolute;
+  inset: -8px -10px;
+  border-radius: 16px;
+  background: radial-gradient(ellipse 85% 75% at 50% 42%, rgba(74, 130, 210, 0.32), rgba(74, 130, 210, 0) 72%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.speaker-col.slot-hl::before {
+  opacity: 1;
+}
+.speaker-col .avatar,
+.speaker-col .seal {
+  transition:
+    box-shadow 0.3s ease,
+    filter 0.3s ease;
+}
+.speaker-col.slot-hl .avatar,
+.speaker-col.slot-hl .seal {
+  animation: gslAvatarLock 1.9s ease-in-out infinite;
+}
+
+/* 高亮时未知 NPC 剪影统一染成蓝色，与光环同色系（只染剪影，不动真实头像照片） */
+.speaker-col.slot-hl .avatar[class*='slot-tint'],
+.npc-unknown.slot-hl .npc-ico .avatar-fill[class*='slot-tint'],
+.blank-btn.slot-hl .blank-btn-icon .avatar-fill[class*='slot-tint'] {
+  filter: sepia(1) saturate(5) hue-rotate(175deg) brightness(0.95);
+}
+.npc-unknown .npc-ico .avatar-fill,
+.blank-btn .blank-btn-icon .avatar-fill {
+  transition: filter 0.3s ease;
+}
+
+.speaker-col.slot-hl {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+  animation: none;
+}
+
+.speaker-col.slot-hl .speaker-name,
+.speaker-col.slot-hl .speaker-name.known,
+.speaker-col.slot-hl .speaker-name.minor {
+  color: #1e4f8a;
+  font-weight: 700;
+}
+
+.blank-btn.slot-hl {
+  color: #1e4f8a;
+  background: #dde9f9;
+  border-style: solid;
+  border-color: rgba(46, 106, 190, 0.65);
+  box-shadow:
+    0 0 0 1px rgba(46, 106, 190, 0.3),
+    0 0 14px rgba(74, 130, 210, 0.45);
+}
+
+.chat-wrap.has-cg .msg-narr {
+  background: rgba(255, 255, 255, 0.94);
+  padding: 10px 14px;
+}
+
+.chat-wrap.has-cg .chat-cg-bg::after {
+  background: linear-gradient(270deg, rgba(232, 237, 243, 0), #e8edf3);
+}
+
+.card-list {
+  --binder-board: #dfe6ef;
+  --binder-paper: #f8fafc;
+  --binder-paper-on: #ffffff;
+  --binder-rule: #3d4f6f;
+  --binder-fold: #c5d0dc;
+  --binder-hole: #243044;
+  background: var(--binder-board);
+  border-right-color: #d5dde8;
+}
+
+.card-list .pane-body {
+  padding: 10px 8px 14px 6px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-item {
+  position: relative;
+  background: var(--binder-paper);
+  border: none;
+  border-bottom: none;
+  border-radius: 0 2px 0 0;
+  padding: 12px 12px 14px 34px;
+  color: inherit;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    0 2px 6px rgba(15, 23, 42, 0.1);
+}
+
+.card-item::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 18px;
+  pointer-events: none;
+  background:
+    linear-gradient(var(--binder-rule), var(--binder-rule)) 16px 0 / 1.5px 100% no-repeat,
+    radial-gradient(circle at 6px 30%, var(--binder-hole) 0 3.6px, transparent 3.75px),
+    radial-gradient(circle at 6px 70%, var(--binder-hole) 0 3.6px, transparent 3.75px);
+}
+
+.card-item::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  background: linear-gradient(135deg, transparent 49.5%, var(--binder-fold) 50.5%);
+}
+
+.card-item:hover {
+  background: var(--binder-paper-on);
+  transform: perspective(600px) rotateX(3.2deg) rotateY(-3.2deg) translateY(-3px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.8),
+    0 14px 26px rgba(15, 23, 42, 0.22);
+  filter: none;
+}
+
+.card-item.active,
+.card-item.active:hover,
+.card-item.active:active {
+  background: #e4ebf5;
+  transform: none;
+  filter: none;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 4px 14px rgba(15, 23, 42, 0.22);
+}
+
+.card-item:active {
+  transform: none;
+}
+
+.title-veiled {
+  color: color-mix(in srgb, #3d4f6f 22%, #f8fafc);
+}
+
+.card-item .card-desc {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #243044;
+}
+
+/* 列表状态章与情节卡详情顶栏的状态章同一副样子（宋体、无底色；待补全灰、可填写海军加粗带扫光下划线） */
+.card-item .status-seal,
+.chat-head .status-seal {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  font-weight: 400;
+  color: #5a554c;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* 「可填写」与「待补全」在纸刊定稿里靠颜色区分：海军色加粗 vs 灰色常规 */
+.card-item .status-seal.can-fill,
+.chat-head .status-seal.can-fill,
+.status-seal.diff-canfill {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  color: #3d4f6f;
+  font-weight: 700;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.entry-card {
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+}
+
+.entry-grid {
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.entry-card {
+  position: relative;
+  overflow: visible;
+}
+
+.entry-card.has-bg {
+  overflow: hidden;
+}
+
+.entry-card.has-bg .entry-pin {
+  top: 2px;
+}
+
+.entry-card.has-bg .entry-bg-img,
+.entry-card.has-bg::after {
+  border-radius: inherit;
+}
+
+.entry-pin {
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  z-index: 3;
+  width: 28px;
+  height: 5px;
+  transform: translateX(-50%);
+  background: #3d4f6f;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.tab-panel {
+  animation: gslFade 240ms var(--gsl-ease) both;
+}
+
+.tabs {
+  animation: gslFade 320ms var(--gsl-ease) both;
+}
+
+.pane-center {
+  animation: gslFade 360ms 50ms var(--gsl-ease) both;
+}
+
+.pane-right,
+.pane.pane-right-drawer {
+  animation: gslFade 360ms 110ms var(--gsl-ease) both;
+}
+
+/* 封面题名：横线、题名、副题、按钮依次落位 */
+.cover-rule {
+  animation: gslFade 520ms 120ms var(--gsl-ease) both;
+}
+
+.cover-plate h1 {
+  animation: gslFade 720ms 220ms var(--gsl-ease) both;
+}
+
+.cover-sub {
+  animation: gslFade 620ms 480ms var(--gsl-ease) both;
+}
+
+.cover-tagline {
+  animation: gslFade 620ms 600ms var(--gsl-ease) both;
+}
+
+.cover-btn {
+  animation: gslFade 460ms var(--gsl-ease) both;
+}
+
+.cover-btn:nth-child(1) {
+  animation-delay: 720ms;
+}
+
+.cover-btn:nth-child(2) {
+  animation-delay: 820ms;
+}
+
+.cover-menu {
+  animation: gslFade 460ms 900ms var(--gsl-ease) both;
+}
+
+.cover-lang {
+  animation: gslFade 460ms 980ms var(--gsl-ease) both;
+}
+
+.read-stage {
+  animation: gslFade 400ms 80ms var(--gsl-ease) both;
+}
+
+.notes-story,
+.chat-wrap {
+  animation: gslFade 320ms 40ms var(--gsl-ease) both;
+}
+
+.tl-left {
+  animation: gslFade 300ms 30ms var(--gsl-ease) both;
+}
+
+.tl-center {
+  animation: gslFade 300ms 80ms var(--gsl-ease) both;
+}
+
+.tl-right {
+  animation: gslFade 300ms 130ms var(--gsl-ease) both;
+}
+
+.arc-list {
+  animation: gslFade 300ms 30ms var(--gsl-ease) both;
+}
+
+.arc-detail {
+  animation: gslFade 300ms 90ms var(--gsl-ease) both;
+}
+
+.card-list .pane-body > .card-item,
+.entry-grid > .entry-card,
+.arc-group > .arc-item,
+.tl-pool-items > .tl-pool-item {
+  animation: gslFade 300ms var(--gsl-ease) both;
+}
+
+.card-list .pane-body > .card-item:nth-child(1),
+.entry-grid > .entry-card:nth-child(1),
+.arc-group > .arc-item:nth-of-type(1),
+.tl-pool-items > .tl-pool-item:nth-child(1) {
+  animation-delay: 50ms;
+}
+
+.card-list .pane-body > .card-item:nth-child(2),
+.entry-grid > .entry-card:nth-child(2),
+.arc-group > .arc-item:nth-of-type(2),
+.tl-pool-items > .tl-pool-item:nth-child(2) {
+  animation-delay: 90ms;
+}
+
+.card-list .pane-body > .card-item:nth-child(3),
+.entry-grid > .entry-card:nth-child(3),
+.arc-group > .arc-item:nth-of-type(3),
+.tl-pool-items > .tl-pool-item:nth-child(3) {
+  animation-delay: 130ms;
+}
+
+.card-list .pane-body > .card-item:nth-child(4),
+.entry-grid > .entry-card:nth-child(4),
+.arc-group > .arc-item:nth-of-type(4),
+.tl-pool-items > .tl-pool-item:nth-child(4) {
+  animation-delay: 170ms;
+}
+
+.card-list .pane-body > .card-item:nth-child(5),
+.entry-grid > .entry-card:nth-child(5),
+.arc-group > .arc-item:nth-of-type(5),
+.tl-pool-items > .tl-pool-item:nth-child(5) {
+  animation-delay: 210ms;
+}
+
+.card-list .pane-body > .card-item:nth-child(6),
+.entry-grid > .entry-card:nth-child(6),
+.arc-group > .arc-item:nth-of-type(6),
+.tl-pool-items > .tl-pool-item:nth-child(6) {
+  animation-delay: 250ms;
+}
+
+.card-list .pane-body > .card-item:nth-child(n + 7),
+.entry-grid > .entry-card:nth-child(n + 7),
+.arc-group > .arc-item:nth-of-type(n + 7),
+.tl-pool-items > .tl-pool-item:nth-child(n + 7) {
+  animation-delay: 280ms;
+}
+
+.msg,
+.read-seg,
+.blank-sheet,
+.tl-right.floating,
+.drawer-mask {
+  animation: gslFade 280ms var(--gsl-ease) both;
+}
+
+/* 微动效：只动 transform / opacity / shadow，150–200ms，按压缩放 */
+.btn,
+.tab,
+.card-item,
+.entry-card,
+.arc-item,
+.tl-chip,
+.tl-pool-item,
+.blank-btn,
+.entry-search,
+.lv-chip,
+.status-sort,
+.cg-replay-btn,
+.chat-nav-item,
+.picker-card,
+.picker-card5,
+.picker-tl-card,
+.row-hint-btn,
+.tl-recap-btn,
+.entry-chip {
+  transition:
+    background var(--gsl-dur) var(--gsl-ease),
+    color var(--gsl-dur) var(--gsl-ease),
+    border-color var(--gsl-dur) var(--gsl-ease),
+    box-shadow var(--gsl-dur) var(--gsl-ease),
+    filter var(--gsl-dur) var(--gsl-ease),
+    transform 160ms var(--gsl-ease);
+}
+
+.btn:hover:not(:disabled),
+.entry-card:hover,
+.tl-chip:hover,
+.tl-pool-item:hover,
+.blank-btn:hover:not(:disabled),
+.entry-search:hover:not(:disabled),
+.lv-chip:hover:not(:disabled),
+.status-sort:hover,
+.cg-replay-btn:hover,
+.chat-nav-item:hover,
+.picker-card:hover,
+.row-hint-btn:hover:not(:disabled),
+.tl-recap-btn:hover,
+.entry-chip:hover {
+  transform: translateY(-1px);
+}
+
+/* 词条卡悬停：倾斜 + 浮起 + 微放大，像纸牌被拈起一角 */
+.entry-card:hover {
+  transform: perspective(600px) rotateX(3.6deg) rotateY(3.6deg) translateY(-5px) scale(1.02);
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.22);
+}
+
+/* 原版 hover 用 --gold-soft（8% 透明），地点卡会把照片透出来，字也跟着看不见 */
+.btn:hover:not(:disabled) {
+  background: #f4f6f9;
+  color: #243044;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #354863;
+  color: #f7f8fa;
+  box-shadow: 0 6px 16px rgba(61, 79, 111, 0.28);
+}
+
+.btn-cinnabar:hover:not(:disabled) {
+  background: #6e363b;
+  color: #f7f8fa;
+}
+
+.entry-card.has-bg .entry-search {
+  background: #ffffff;
+  color: #243044;
+  border-color: #d5dde8;
+}
+
+.entry-card.has-bg .entry-search:hover:not(:disabled) {
+  background: #f4f6f9;
+  color: #243044;
+}
+
+.blank-verify:hover:not(:disabled) {
+  box-shadow: 0 6px 16px rgba(61, 79, 111, 0.4);
+}
+
+.btn:active:not(:disabled),
+.tl-chip:active,
+.blank-btn:active:not(:disabled),
+.entry-search:active:not(:disabled),
+.lv-chip:active:not(:disabled),
+.picker-card:active,
+.entry-chip:active {
+  transform: scale(0.97);
+}
+
+.overlay {
+  animation: gslFade 200ms var(--gsl-ease) both;
+}
+
+.modal {
+  animation: gslRise 220ms var(--gsl-ease) both;
+}
+
+.toast {
+  animation: toastIn 0.3s cubic-bezier(0.2, 0.9, 0.25, 1.15) both;
+}
+
+.chat-cg-bg {
+  overflow: hidden;
+}
+
+.title-bg,
+.chat-cg-img,
+.entry-bg-img,
+.tl-chip-cg,
+.recap-shot {
+  animation: gslImgBreathe 18s ease-in-out infinite alternate;
+  transform-origin: center center;
+}
+
+@keyframes gslImgBreathe {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .tab,
+  .card-item,
+  .entry-card,
+  .arc-item,
+  .tl-chip,
+  .tl-orbit,
+  .tl-comet,
+  .blank-btn,
+  .entry-search,
+  .overlay,
+  .modal,
+  .toast,
+  .slot-hl,
+  .slot-hl::after,
+  .title-bg,
+  .chat-cg-img,
+  .entry-bg-img,
+  .tl-chip-cg,
+  .recap-shot,
+  .tab-panel,
+  .tabs,
+  .pane-center,
+  .pane-right,
+  .cover-rule,
+  .cover-plate h1,
+  .cover-sub,
+  .cover-btn,
+  .cover-menu,
+  .cover-lang,
+  .read-stage,
+  .notes-story,
+  .chat-wrap,
+  .tl-left,
+  .tl-center,
+  .tl-right,
+  .arc-list,
+  .arc-detail,
+  .tl-pool-item,
+  .msg,
+  .read-seg,
+  .blank-sheet,
+  .tl-right.floating,
+  .drawer-mask,
+  .coach,
+  .coach-scrim,
+  .coach-ring,
+  .coach-modal,
+  .pane.pane-right-drawer {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .game-menu-switch,
+  .game-menu-switch-knob {
+    transition: none !important;
+  }
+
+  .enter-mask {
+    display: none !important;
+  }
+
+  .gsl-tab-pill,
+  .gsl-tab-pill.is-ready {
+    transition: none !important;
+  }
+}
+
+/* ============ 档案「分析」按钮：基础样式的金黄渐变与藏蓝主题冲突，统一为藏蓝系 ============ */
+.arc-lock-btn.ready {
+  border-color: #3d4f6f;
+  background: linear-gradient(180deg, #4e6a94, #3d4f6f);
+  color: #f2f5fa;
+  box-shadow: 0 3px 12px rgba(61, 79, 111, 0.38);
+}
+
+.arc-lock-btn.ready:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 5px 16px rgba(61, 79, 111, 0.5);
+}
+
+@keyframes lockBtnBreath {
+  0%, 100% { box-shadow: 0 3px 10px rgba(61, 79, 111, 0.32); }
+  50% { box-shadow: 0 3px 18px rgba(61, 79, 111, 0.58); }
+}
+
+.arc-lock-btn.analyzing {
+  border-color: #3d4f6f;
+  background: rgba(61, 79, 111, 0.1);
+  color: #3d4f6f;
+}
+
+.arc-lock-btn-fill {
+  background: linear-gradient(180deg, #4e6a94, #3d4f6f);
+}
+
+.arc-item:hover {
+  transform: none;
+}
+
+.arc-list-kicker,
+.arc-group-title,
+.arc-type,
+.arc-page-head,
+.arc-dossier-kicker,
+.arc-field .arc-label,
+.arc-lock-count,
+.arc-lock-btn {
+  font-family: Inter, 'Noto Sans SC', system-ui, sans-serif;
+  font-weight: 700;
+}
+
+.arc-name,
+.arc-dossier-tab-name,
+.done-stamp {
+  font-family: 'Noto Serif SC', Georgia, serif;
+}
+
+.arc-desc,
+.arc-field .arc-text,
+.arc-lock-sub {
+  font-family: 'Noto Serif SC', Georgia, 'Noto Sans SC', serif;
+}
+
+.arc-field .arc-text .blank-btn {
+  font-family: Inter, 'Noto Sans SC', system-ui, sans-serif;
+}
+
+.arc-detail:not(.is-person) .arc-hero-col,
+.arc-page,
+.arc-place-panel {
+  border-color: #d5dde8;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+}
+
+.arc-place-panel {
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.22);
+}
+
+/* ============ 关卡出口 / 答题区：与时间轴棋盘同一纸刊气质 ============ */
+.gate-panel {
+  background:
+    linear-gradient(180deg, rgba(61, 79, 111, 0.035), transparent 72px),
+    #ffffff;
+  border-color: #d5dde8;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.gate-panel-sub {
+  font-family: 'Noto Serif SC', Georgia, serif;
+  color: #243044;
+}
+
+.gate-panel-intro {
+  font-family: 'Noto Serif SC', Georgia, 'Noto Sans SC', serif;
+  color: #5a554c;
+}
+
+.gate-sheet {
+  background: #f6f8fb;
+  border-color: #d5dde8;
+}
+
+.gate-q-no {
+  font-family: 'Noto Serif SC', Georgia, serif;
+}
+
+.gate-sheet .gate-q .gate-prompt {
+  font-family: 'Noto Serif SC', Georgia, 'Noto Sans SC', serif;
+}
+
+.gate-cta {
+  background: rgba(61, 79, 111, 0.04);
+}
+
+.gate-cta:hover:not(:disabled) {
+  background: rgba(61, 79, 111, 0.08);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+@keyframes gateProgFlash {
+  0%,
+  100% {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  30% {
+    box-shadow:
+      0 0 0 3px rgba(61, 79, 111, 0.1),
+      0 0 14px rgba(61, 79, 111, 0.28);
+    background-color: rgba(61, 79, 111, 0.06);
+  }
+}
+
+.gate-callout.at100 .gate-callout-line {
+  background: #3d4f6f;
+}
+
+.gate-callout.at100 .gate-callout-label {
+  color: #3d4f6f;
+  border-color: #3d4f6f;
+  background: rgba(61, 79, 111, 0.08);
+}
+
+.gate-panel-foot .btn-primary {
+  min-width: 96px;
+}
+
+/* ============ 选择答案弹窗：与关卡出口 / 棋盘同一纸刊气质 ============ */
+.picker-layer {
+  background: rgba(36, 48, 68, 0.42);
+}
+
+.picker-modal {
+  background:
+    linear-gradient(180deg, rgba(61, 79, 111, 0.035), transparent 72px),
+    #ffffff;
+  border-color: #d5dde8;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+}
+
+.picker-modal-kicker {
+  color: #3d4f6f;
+}
+
+.picker-modal-close:hover {
+  background: rgba(61, 79, 111, 0.08);
+  color: #243044;
+}
+
+.picker-group {
+  background: #f6f8fb;
+  border-color: #d5dde8;
+}
+
+.picker-card5-name,
+.picker-tl-row,
+.picker-tl-name {
+  font-family: 'Noto Serif SC', Georgia, serif;
+}
+
+.picker-tl-board {
+  background:
+    linear-gradient(180deg, rgba(61, 79, 111, 0.035), transparent 48px),
+    #ffffff;
+  border-color: #d5dde8;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.picker-card5:hover,
+.picker-tl-card:hover {
+  transform: none;
+}

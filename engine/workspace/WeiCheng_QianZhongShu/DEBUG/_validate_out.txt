@@ -1,0 +1,3 @@
+校验游戏: weicheng（workspace\WeiCheng_QianZhongShu\final_game.json）
+模拟通关 OK：剩余体力 24，休整 0 次，步数 90
+全部校验通过 ✔

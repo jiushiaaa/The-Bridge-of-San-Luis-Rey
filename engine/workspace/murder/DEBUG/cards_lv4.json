@@ -1,0 +1,1683 @@
+[
+ {
+  "id": "c4_01",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 0,
+  "title": "我们无罪",
+  "cg": "murder-assets/cg/c4_01.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: dawn light through the shutters of a modest Caribbean parish house, two identical burly twin brothers in blood-stained work shirts standing before a wooden table where two large butcher knives lie, an elderly white-haired priest recoiling with clasped hands, tense solemn mood, wide shot, no text. Who is in the scene: the twin butchers and the old parish priest.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "天刚亮透，两个人穿过还没醒透的镇子，敲开了[[NPC2]]的门。他们不跑，也不躲。进门第一件事，是把{{e_tudao|两把屠刀}}撂在桌上，血顺着刀背往下淌，滴在刚扫过的地上。狗看见他们，都夹着尾巴绕开了。沿街的人家从窗缝里往外看，没人出来，也没人喊。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把刀往前一推）收好。人是我们杀的。从半夜磨刀那会儿起，全镇就听见我们喊了，我们不抵赖。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（往后退了半步，扶住桌角）上帝啊……我以为那些只是醉话。你们，你们真的……先把手上的血擦一擦。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（卷起袖子，露出胳膊上的血道子）不是醉话。我们屠户家说话，一句是一句。妹妹的名声，得用人命来洗。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（声音发抖）这些天全镇都在传，我还劝自己，屠户家的儿子，不过是喝多了逞口舌……"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（声音很平）我们是存心要杀他的，但是我们无罪。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（盯着他们）无罪？一条人命躺在外面，你们管这叫无罪？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（两人对视一眼，几乎异口同声）不管在上帝面前，还是在世人面前，我们都无罪。是为了{{e_rongyu|荣誉}}！"
+   },
+   {
+    "kind": "narration",
+    "text": "[[NPC2]]看着桌上那两把刀，半天说不出话。他听了一辈子忏悔，头一回见有人把杀人说得像领奖。窗外，镇子醒了，家家户户推开门张望，没人惊讶——大家惊讶的是，他们居然真的动了手。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（缓过神）全镇都听见你们喊了，为什么没有一个人出来拦你们？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（惨笑了一下）我们也纳闷。我们一路走，一路等，就等有人来按住我们。（顿了顿）结果等到最后的，只有一扇闩上的门。"
+   },
+   {
+    "kind": "narration",
+    "text": "这句话说完，屋里静了很久。外头有人放起了鞭炮——不是庆贺，是驱邪。这个镇子欠下的债，从这一天起，要拿很多年去还。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（叹了口气，拿布把刀盖上，手一直在抖）那就把这些话留着对法庭说。我只替你们记下一笔——这事，我从头到尾都不想沾。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（走到门口又停下）还有一句。牢，我们坐；罪，我们不认。这话传到哪儿，都是这句。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（冲着他们的背影，声音很轻）愿主宽恕你们……也宽恕这个镇子。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（脚步没停）宽恕是主的事。我们的账，自己扛着。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_tufu"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_amaduo"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_jiaotang"
+   }
+  ],
+  "hints": [
+   "行凶的人没有逃，案发几分钟后就自己找上了门",
+   "他们说杀人是为了两个字，那两个字在法庭上比证据还硬"
+  ]
+ },
+ {
+  "id": "c4_02",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "L",
+  "col": "名场面",
+  "row": 1,
+  "title": "学校里的解剖",
+  "cg": "murder-assets/cg/c4_02.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: an improvised morgue in a small Caribbean schoolhouse, desks pushed together as a table, crude carpentry tools laid out, an elderly priest in rolled-up sleeves holding a small golden medallion up to the window light, a nervous headmaster at the door, muted grief, no text. Who is in the scene: the old parish priest and the school headmaster.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "人是在第二天凌晨下葬的，葬得草草。可这之前，还有一道手续躲不过去。当天下午，镇里传出话来：要验尸。{{e_yigulan|伊瓜兰}}医生偏偏外出看诊，三天后才能回来，全镇找不出第二个拿手术刀的人。差事最后落到了[[NPC1]]头上——一双拿惯了圣杯的手，被人请去拿起锯子。"
+   },
+   {
+    "kind": "narration",
+    "text": "场地是镇里腾出来的一间大屋，课桌拼成台子，黑板还没来得及擦干净。木匠的锯、铁匠的剪、皮匠的刀，用开水烫过，一字排开，摆在粉笔灰旁边。窗外围满了人，又被一个个劝走。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "校长",
+    "text": "（搓着手，满头大汗）真是对不住您，实在找不到旁人了。孩子们我都打发回家了，门窗也关严了，您……您多担待。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（盯着那排器械，声音发干）我给活人施过洗，给临终的人抹过油，做过成百上千场祷告。可没有一个人，教过我怎么把人打开。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把器械一样样摆开）锯子是给木头使的，剪子是给铁皮使的。今天它们要碰的，是我给做了二十年弥撒的人。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "校长",
+    "text": "（递上一条干净毛巾）您就当……就当是替全镇办一件差事。报告上得有个人签字画押，除了您，没人压得住。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "校长",
+    "text": "（小声）要不，我去找两个胆大的家长来搭手？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（摆手）不必。人越少越好。他生前让全镇看够了，死后，让他清静些。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（挽起袖子，深吸一口气）都出去吧，把门带上。他活着的时候我没能替他做什么，死了，至少让他体面些。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "校长",
+    "text": "（隔着门缝小声问）您还好吧？要不要歇一会儿？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（声音哑了）不用。早点做完，他早点入土。（停下手）再打一盆热水来。还有，去他家里说一声——我会把他收拾得干干净净，叫他们放心。"
+   },
+   {
+    "kind": "narration",
+    "text": "那一整个下午，屋里只有器械磕碰的声响。他做得笨拙，又做得认真，写几笔，停一停，朝台子上看一眼，再接着写，像在念一段谁也不懂的祷词。检查到胃里的时候，他愣住了——里头有一枚金质的{{e_jinianzhang|圣母纪念章}}，是死者四岁那年吞下去的，在身体里安安稳稳藏了十七年。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（举着那枚小章，对着窗外的光，喃喃自语）你四岁那年吞下去的……原来是它，一直在陪着你。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "校长",
+    "text": "（探头进来）外头有人问，这报告最后写什么。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（头也不抬）写实话。一个年轻人死了，冤不冤，让看官们自己去判。我只写我眼睛看见的。"
+   },
+   {
+    "kind": "narration",
+    "text": "事后，他把一切都收拾干净，为死者完完整整做了一场祷告。他在报告里写道：死者肝脏肿大，是早年肝炎落下的病根——即使不挨那些刀，他的肝也撑不了几年。"
+   },
+   {
+    "kind": "narration",
+    "text": "这份记录后来收进了卷宗，成了{{e_baogao|预审报告残页}}的一部分。多年以后有人读到那一页，读不出愤怒，也读不出悲伤，只读出一个外行，在粉笔灰和铁器中间，拼尽全力的一个下午。"
+   },
+   {
+    "kind": "narration",
+    "text": "傍晚他走出那间屋子的时候，夕阳正斜照在空场上。他站在门口，回头看了一眼擦干净的课桌，对候在外头的人说：明天照常上课吧。孩子们什么都不知道，最好。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_amaduo"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_xuexiao"
+   }
+  ],
+  "hints": [
+   "拿惯圣杯的手，那天拿的是锯子",
+   "纪念章在死者胃里藏了十七年"
+  ]
+ },
+ {
+  "id": "c4_03",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 2,
+  "title": "月食之夜",
+  "cg": "murder-assets/cg/c4_03.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: night of a lunar eclipse over a Caribbean hilltop villa, two women in black mourning dress carrying a hammock downhill, the unconscious man's arm dragging in the dust leaving a long trail, townsfolk silhouettes watching from below, melancholic warm palette, no text. Who is in the scene: the unconscious groom in a white shirt seen from behind, his mother and sister in mourning, a woman onlooker.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "月食那晚，天狗吞月，全镇的人都搬着凳子上街看，孩子们比谁先看月亮缺的那块。月亮被吃到一半，山上传来女人的哭号——两个穿丧服的女人，赤着脚，一边哭一边往山上爬。她们是[[NPC1]]的母亲和妹妹，赶了三天三夜的路，来到这个让她们全家丢脸的小镇。"
+   },
+   {
+    "kind": "narration",
+    "text": "新房里，[[NPC1]]已经不省人事。婚礼一散他就开始喝，一个人，喝了整整几天，倒在满地空瓶中间。喜字还贴在门上，红得刺眼。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "（跟着人群往山上望，连连摇头）真是他妈的浪费！全镇最气派的房子，最阔气的婚礼，多少姑娘做梦都梦不到的日子——就落这么个下场。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "（叹气）我跟他同船来的。那时候他多体面，码头上多少双眼睛追着他看。这才几天？"
+   },
+   {
+    "kind": "narration",
+    "text": "两个女人用一张吊床把他抬下山。母亲一路数着儿子的乳名哭——不是哭给旁人听，是怕他在吊床上睡死过去。妹妹的脚被石头割破了，一步一个血印，谁也没喊疼。他的一条胳膊拖在地上，在土路上划出一道长长的痕迹。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（在吊床上含糊地咕哝）……酒……再拿一瓶……这房子，我花了一万……"
+   },
+   {
+    "kind": "narration",
+    "text": "吊床下山要经过广场，灯还亮着，照见那道痕迹从街头一直拖到街尾。有人想上前搭把手，被哭号声吓了回来。老老少少站在街边，看着吊床从面前过去，像看一场送葬。人群里交头接耳：全镇上下，唯一的受害者，就是他了。一个老人低声说，这镇子今年是怎么了，喜事办成丧事，丧事办得人人心里有鬼。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "玛格达莱纳",
+    "text": "（别过脸去）走吧走吧，都散了吧。看什么看，谁家摊上这事，都体面不到哪去。"
+   },
+   {
+    "kind": "narration",
+    "text": "这座宅子的老主人{{e_xiusi|希乌斯}}，守着它过了一辈子，被一沓一沓的现钱买走念想，两年前死于心碎。如今新房的主人躺在吊床上，差点成了第二个。哭号声顺着山路一路下去，惊起了满树的鸟。第二天，有人在山脚下捡到一只女式的鞋，谁也没去认领。从那一夜起，镇上再没人见过他。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_bieshu"
+   }
+  ],
+  "hints": [
+   "全镇都把他当成唯一的受害者",
+   "那座宅子的前主人死于心碎，他差点成了第二个"
+  ]
+ },
+ {
+  "id": "c4_04",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 3,
+  "title": "找不到证据的法官",
+  "cg": "murder-assets/cg/c4_04.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a dusty municipal hall office in a Caribbean town, a stern young judge in a black suit reading case files at a wooden desk, angry handwritten notes in the margins, a timid clerk waiting with more folders, shafts of hot afternoon light, no text. Who is in the scene: the investigating judge and his clerk.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "案发十二天后，省里派来的人到了。[[NPC1]]黑西装，公文包，一下船就开庭，连着三天，传了半个镇子的人。公所的屋子闷热，他三天没换衬衫。他把每一页证词翻来覆去地看，想找出死者有罪的一丝证据——一丝都没有。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "书记员",
+    "text": "（抱着一摞卷宗，小声）大人，证词都在这儿了。二十二个人听见磨刀，肉市、牛奶店、码头，半个镇子提前知情……可就是，没有那件事的凭据。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一页一页翻，头也不抬）杀人的人呢？关在哪？"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "书记员",
+    "text": "{{e_jianyu|镇监狱}}里候审。倒是痛快，问什么认什么，张口就是那句——为了名誉。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把卷宗一合，冷笑）名誉。好一个名誉。给我一个偏见，我将撬动地球。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（敲着卷宗）磨刀的有二十二个人听见，卖肉的报了警，警察报了镇长，镇长收了刀。每一环都有人经手，每一环都断了。这案子不是没人管，是人人管了一点。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "书记员",
+    "text": "（翻着记录）还有一桩怪的：全镇都说死者有罪，可问谁亲眼看见了，谁都说是听来的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（笔尖一顿）听来的。听来的，也能杀人。"
+   },
+   {
+    "kind": "narration",
+    "text": "他去看了{{e_xuexiao|公立学校}}——{{e_amaduo|阿马尔多}}神父被迫解剖死者的那间屋子，粉笔灰还留在黑板的槽里；又去看守所提审了那对兄弟，出来时脸色铁青。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（翻着翻着，忽然停住）这一页——死者的母亲在凶案发生前几秒，亲手闩上了大门？她在救谁？"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "书记员",
+    "text": "（凑过去看）救她儿子。她以为儿子在楼上。全镇的人都这么说。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（沉默良久，在页边写了几个字）……人人都觉得自己在救人。记下来——这句不算证词，算我私人的。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "书记员",
+    "text": "（追着问）大人，这案子，您打算怎么写结论？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（站住，望着街尽头）结论？法律管的，我照写。法律管不了的——（拍了拍卷宗）我写在这儿。"
+   },
+   {
+    "kind": "narration",
+    "text": "三天后他收拾卷宗回了省城。往后二十年，这份{{e_baogao|预审报告残页}}躺在泡水的档案室里，纸页发了霉。没人知道他在页边上写满了字，其中一句是：{{e_suming|宿命}}让我们隐遁无踪。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "书记员",
+    "text": "（送他到码头，忍不住又问）大人，那人……到底是不是无辜的？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（上船前回头）卷宗里找不到他有罪，也找不到谁还他清白。年轻人，这镇子上没有答案，只有默契。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_faguan"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_shizheng"
+   }
+  ],
+  "hints": [
+   "法律判不了的那部分，他写在了页边上",
+   "他的报告三百多页，二十年后被人从水泡的档案里翻出来"
+  ]
+ },
+ {
+  "id": "c4_05",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 4,
+  "title": "牢房里的气味",
+  "cg": "murder-assets/cg/c4_05.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a small-town prison cell in the Caribbean, two identical twin brothers scrubbing their arms raw with soap and a loofah beside a wooden bucket, an elderly centenarian woman offering a clay pot of herbal medicine through the bars, a young woman with a bundle of clean clothes waiting outside, bittersweet mood, no text. Who is in the scene: the twin butchers, the centenarian Arab matriarch, and the elder brother's fiancée.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "看守所的铁窗里，[[NPC1]]一天要洗三遍澡。肥皂用掉一块又一块，丝瓜瓤搓破了皮，他们还是说，身上有股{{e_qiwei|气味}}——那个人的气味，怎么洗都洗不掉。同牢的人躲着他们睡，说这俩人半夜说梦话，喊的都是同一个名字。看守换了三茬，谁也受不住他们那份清醒。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（用力搓着手臂，头也不抬）你闻见没有？还在。昨天我以为洗掉了，夜里一闭眼，又回来了。"
+   },
+   {
+    "kind": "narration",
+    "text": "哥哥泻肚泻得脱了形，水米不进。狱卒没办法，请来了百岁的苏萨娜族母。老太太拄着拐，提着一小罐黑乎乎的草药汤，隔着铁窗打量了他们半天。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "苏萨娜族母",
+    "text": "（把陶罐递进去）喝了。药治得了肚子，治不了心病。你们心里那块东西，得自己慢慢熬，熬干了才算完。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "苏萨娜族母",
+    "text": "（眯着眼又看了看铁窗里）作孽哟。我活了一百岁，头回见有人拿丝瓜瓤跟自己过不去。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（捧着罐子，忽然说）这一阵，我就像比平时清醒两倍。白天清醒，夜里也清醒。从前杀牛，刀一落就过去了；这回，过不去。"
+   },
+   {
+    "kind": "narration",
+    "text": "{{e_puludeng|普鲁登}}每隔几天就来一趟，隔着铁窗送干净衣服和玉米饼。她不哭，也不多话，放下东西就走。她等了他三年。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_puludeng",
+    "text": "（把包袱递进铁窗）好好改造，我在外头等你。出来那天，咱们就把事办了。你欠我的，拿后半辈子还。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（接过包袱，低声）替我谢她。就说……就说我们记着她的好。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（又朝铁窗外喊）那药钱，先记账上，出去一定还！"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "苏萨娜族母",
+    "text": "（拄着拐往外走，头也不回）不用还。你们兄弟俩，已经把账还到头了。"
+   },
+   {
+    "kind": "narration",
+    "text": "三年后，两人获释。哥哥娶了她，收起刀，当了首饰匠，打出来的戒指十里八乡都抢着要；弟弟再入伍，走进游击区，再没回来。他们家的老父亲，盲眼的{{e_pangxiao|庞西奥}}，在案子了结前就在良心的折磨里下了世——临走那些天，他整夜整夜摸着墙，说要给女儿赔罪。"
+   },
+   {
+    "kind": "narration",
+    "text": "出狱那天，兄弟俩在镇口分了手。哥哥往东，回家成亲；弟弟往西，去军营报到。天没亮弟弟就出了镇，两人抱了一下，谁都没说话。谁都没提那股气味，可谁都知道，它跟着他们，一人一半，要带一辈子。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_tufu"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_jianyu"
+   }
+  ],
+  "hints": [
+   "洗不掉的不是气味，是记忆",
+   "一个成了首饰匠，一个消失在战火里"
+  ]
+ },
+ {
+  "id": "c4_06",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 5,
+  "title": "宾馆窗前",
+  "cg": "murder-assets/cg/c4_06.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: an indigenous desert village window, a woman embroidering at a frame beside a birdcage in warm sea light, with a memory-like glimpse of a man in a white linen suit tipping his hat in a provincial hotel corridor, tender nostalgic mood, no text. Who is in the scene: the returned bride with her face half hidden, and the wealthy outsider.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "被退回去的姑娘，随母亲搬到了海边印第安人的荒村。从前那个见人就脸红、说话不敢抬头的闺女，在窗前坐了下来：一架{{e_xiuhuajia|绣花架}}，一笼鸟，一筐彩线。她变得沉静，也变得聪明，村里男人从她窗下过，都要放轻脚步。起先村里人背地里嚼舌根，说她是被退回来的货；没过两年，再没人敢这么讲——她的绣品卖到了省城，谁家嫁女儿，都以请她绣一方盖头为荣。"
+   },
+   {
+    "kind": "narration",
+    "text": "有一年到省城抓药，在宾馆的走廊里，她迎面撞见了那个男人——{{e_shengroman|圣罗曼}}。多年不见，他还是西装笔挺，只是鬓角白了些。两个人都愣在原地。回来的船上她想了一路：早一步或晚一步出那个门，就碰不上了。想来想去，她觉得是命。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_shengroman",
+    "text": "（先低了低头，侧身让路）……夫人，您先请。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（扶着墙，半天才出声）您认错人了。（顿了顿，又低声）……不，您没认错。"
+   },
+   {
+    "kind": "narration",
+    "text": "就这一面，前后不到半分钟，连句整话都没有。可回村当晚，她就铺开纸，写了第一封{{e_xin|信}}。开头她还请先生代笔，后来嫌先生写不出她要说的话，就自己学，自己写。"
+   },
+   {
+    "kind": "narration",
+    "text": "信里写什么呢？写村里的旱灾，写新买的鸟，写绣活的价钱，写她母亲的风湿。就是不写那件事，一个字都不提。她说，那件事全镇都知道，用不着她写。"
+   },
+   {
+    "kind": "narration",
+    "text": "她母亲起先反对，说这是自讨没趣。后来见劝不动，反倒帮她研墨铺纸。母女俩谁也不提那个男人，可每周去邮局那天，母亲都要把信封再检查一遍。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把信封好，对着灯看了看，自言自语）他不回，是他的事；我写，是我的事。一周一封，雷打不动。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（教侄女认信封上的字）认清楚了，这个地址，一个字都不能错。错一笔，信就到不了他手上。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把写坏的信纸揉掉）重写。这一封，要比上一封写得好。"
+   },
+   {
+    "kind": "narration",
+    "text": "谁也没想到，这一写，就是十七年。村里人起先还劝，后来不劝了——每周去邮局的那条路，她走得比谁都稳。窗前的绣品换了一幅又一幅，鸟笼从一个变成了三个。村里人说，那窗子里住着的不是寡妇，是个有主意的人。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_anhela"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": [
+     "e_guaxila",
+     "e_liaoacha"
+    ]
+   }
+  ],
+  "hints": [
+   "被退婚之后，她才爱上他",
+   "信写了一千九百多封，回音等了十七年"
+  ]
+ },
+ {
+  "id": "c4_07",
+  "level": 4,
+  "form": "scene",
+  "difficulty": "hard",
+  "len": "L",
+  "col": "名场面",
+  "row": 6,
+  "title": "好吧，我来了",
+  "cg": "murder-assets/cg/c4_07.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: an August afternoon in a desert village house, a travel-worn middle-aged man setting his pack down on an embroidery frame, a wooden chest of ribbon-bound unopened letters open beside him, a woman at the window seen from behind with her needle paused mid-air, quiet luminous tenderness, no text. Who is in the scene: the returning man and the embroidering woman, both seen from behind.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "八月的一个午后，日头晒得发白。屋里静悄悄的，只有鸟笼偶尔一响。[[NPC2]]坐在窗前，针线起起落落——和过去六千多个日子，没什么两样。"
+   },
+   {
+    "kind": "narration",
+    "text": "院门响了。她没有回头。这些年，走错门的旅人太多了：问路的、讨水的、收绣活的。她早学会了不慌不忙。"
+   },
+   {
+    "kind": "narration",
+    "text": "一个男人站在门口，背着背囊，牵着一头驮箱子的骡子。他风尘仆仆，鬓角白了大半，可那双眼睛，还是当年那双眼睛。他走进来四下看了看，把背囊往绣花机上一放。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "好吧，我来了。"
+   },
+   {
+    "kind": "narration",
+    "text": "[[NPC2]]的手停在半空，针尖抵着绷子。她没有哭，也没有问。十七年，她在心里把这一刻过了一千遍，真到了这一刻，反倒安静得像个旁人。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（过了很久）坐吧。水在缸里，自己舀。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（站着不动）我不渴。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（针又动起来）那就站着。反正外头的路你走了十七年，也不差这一会儿。"
+   },
+   {
+    "kind": "narration",
+    "text": "男人把骡子牵到檐下拴好，卸下那口箱子，搬进屋里。箱盖打开，里头是近两千封{{e_xin|信}}，按日期码得整整齐齐，彩色绸带一捆捆扎着，边角没有磨损。每一封的封口都原样未动——一封都没有拆开过。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（看着那口箱子，声音很平）你一封都没看。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（点头）一封都没看。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "那你今天来做什么？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（想了想，答得很慢）信都在这儿了，人也该在这儿了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（针脚不停）要是我不收呢？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那我就搬到村口去住。信你早晚会收，人，也一样。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（数着箱里的绸带）一捆一年……你倒是有心，捆得比我的绣活还齐整。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（蹲在箱边）不是我有心。是你的信有心——我不敢拆。拆开看了，我就撑不到今天了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（手顿了一下）……油嘴滑舌。当年在全镇面前，你也是这张嘴。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（摇头）当年那张嘴只会说场面话。这些年话都省下了，攒着，回来干点实的。"
+   },
+   {
+    "kind": "narration",
+    "text": "她低下头继续绣花，针脚密了些。日头一点点斜下去，把两个人的影子拉得很长。村里的小孩扒着院墙看热闹，被她挥手赶开——这一天是她的，是她拿六千多个日子换来的，一针一线，都是她的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（忽然开口）院子荒了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（挽起袖子）我看见了。明天就收拾。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "井也枯了半截。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "淘一淘，还能用。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（搁下针线，起身去灶边）饿了吧。锅里只有木薯。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（跟过去）木薯好。这些年在外头，最惦记的就是这一口。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（背对着他，声音低下去）惦记？惦记你倒早回来。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（在灶台边站定）早回来，你没绣完你的日子；晚回来，我没走完我的路。正好，都完了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（往灶里添了根柴）骡子拴牢些，村里的狗凶。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（应了一声）它跟我走了半个省，什么阵仗都见过。往后，它也不走了。"
+   },
+   {
+    "kind": "narration",
+    "text": "谁都没再提过去，谁都没说一句软话。那晚小屋的灯亮到后半夜。第二天男人就在院里干开了活，除草、修墙、淘井。女人照旧在窗前绣花，只是嘴角比前一天松了些。骡子在檐下打了个响鼻，荒草没过膝盖，可门槛是干净的——她每天都扫。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_anhela"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_guaxila"
+   }
+  ],
+  "hints": [
+   "他没拆过信，却搬来了全部的信",
+   "十七年，两个人谁都没有先低头，又谁都没有走"
+  ]
+ },
+ {
+  "id": "c4_08",
+  "level": 4,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "马尔科",
+  "row": 0,
+  "title": "他们把他杀了",
+  "cg": "murder-assets/cg/c4_08.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: early morning in a Caribbean family house, a young nun shaking awake a hungover young man in a modest bedroom, the mother in the doorway tying a headscarf while holding a small boy's hand, alarm and grief, no text. Who is in the scene: the young narrator, his mother, his nun sister and his little brother.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "天刚亮，宿醉还没醒，[[NPC1]]卧室的门被人撞开了。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "（扑到床边，带着哭腔）快起来！快起来呀！他们把他杀了！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（迷迷糊糊撑起身）谁……谁把谁杀了？"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "还能有谁！你最好的朋友！就在他家门口，当着全镇的人！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一下坐直了）你胡说！昨晚我们还在一起喝酒，他还说，他的婚礼也要办得让全镇讲一辈子——"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "（给他找鞋）早上你在码头还跟他说话呢！你回来时妈问你见到他没有，你说他好端端的——"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（声音发抖）是好端端的……他还应了来咱家吃早餐。我去看看，我这就去看看——"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "（拉住他）哥，你别去。他们说……场面没法看。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（甩开她的手，眼睛通红）让开。他是我朋友。就是躺下了，我也得去看他最后一眼。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "（哭出声）为什么呀？他那么好的人，谁跟他有这么大的仇？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一边穿鞋一边说）仇？全镇的人都喜欢他……（忽然停住）不对。昨晚婚礼上，有人看他的眼神不对。我当时喝多了，没往心里去。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "（一边抹泪一边说）我做完早祷回来，听见满街都在喊。我一路跑，一路求主保佑是我听错了……"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（抓着她的胳膊）你亲眼看见了？"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "修女妹妹",
+    "text": "（摇头）我不敢看。是牛奶店的老板娘拉住我说的。她说，动手的就是凌晨在肉市放话的{{e_tufu|屠夫兄弟}}，全镇早知道要出事，就是没人拦得住。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一拳砸在床柱上）拦不住？二十几个人听见磨刀，全镇提前几个钟头知道，你跟我说拦不住？！"
+   },
+   {
+    "kind": "narration",
+    "text": "这时，母亲{{e_luyisa|路易萨}}已经牵着七岁的弟弟冲到了门口，头巾胡乱搭在肩上。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（一边系头巾一边喊）你妹妹说的是真的。我得去告诉他母亲——我是他的教母，这种消息，不能让她从外人嘴里听见！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（抓着衬衫跳下床）妈，等等，我跟你一起去！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（已经跑下台阶）你顾好你妹妹！锁好门！现在不是发火的时候，活着的人，先把活着的事做了！"
+   },
+   {
+    "kind": "narration",
+    "text": "她牵着小儿子一路小跑，跑到半路，被人从门里喊住了。那人探出身子，冲她摆手：别麻烦了，他们已经把他杀了。她站在街心，半天没动。全镇都比她快——全镇早就知道了，只有这一家人，睡到了最后一刻。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_marco"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": [
+     "e_laozhai",
+     "e_dazhai"
+    ]
+   }
+  ],
+  "hints": [
+   "死的是他最要好的朋友",
+   "他母亲没能把消息送到——全镇都比她快"
+  ]
+ },
+ {
+  "id": "c4_09",
+  "level": 4,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "马尔科",
+  "row": 1,
+  "title": "永远站在死者那一边",
+  "cg": "murder-assets/cg/c4_09.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: night in an old Caribbean house, a single oil lamp on the table, a middle-aged mother mending clothes while her grown son leans forward listening intently, intimate warm chiaroscuro, no text. Who is in the scene: the mother and her son.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "当天夜里，一家人谁都没睡。母亲{{e_luyisa|路易萨}}就着油灯拆一件旧衣服，针脚拆了又缝。[[NPC1]]坐在对面，问出了憋了一天的话。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "妈，白天你跑出去的时候我就想问——那是别人家的事，你拼了命去报信，图什么？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（停下手里的活）{{e_nasa|纳萨}}是我的教子。他受洗那天，我答应过他母亲，这辈子拿他当半个儿子。当妈的听到那种消息，腿比脑子快。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "可消息还是没能送到。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（声音低下去）没能送到。我跑到半路，全镇都知道了。你说可笑不可笑——全镇都知道了三天，就他自己不知道。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "我不明白。磨刀的时候有人听见，牛奶店里有人看见，为什么就没人去告诉他一声？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（摇头）人人都以为自有别人去管。你去{{e_shizheng|市政厅}}问问那帮当官的？刀一收，就回去睡大觉了，还约了牌局。这镇子上的官，管得住刀，管不住人心。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那人就这么白死了？全镇的人，就这么看着？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（看着他，一字一句）记住一句话：永远要站在死者那一边。活人有嘴，能替自己辩；死者没有。你跟他好，就更得记着。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（往灯里添了点油）白天我去大宅那边看了一眼。门锁着，院子里静得吓人。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（手停了一下）别去，这几天别去。她受不住看见你们这些跟他一起长大的人。我也是当妈的，我懂。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那以后呢？这事总不能一直不提。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "提，怎么不提。但不是现在。现在提一句，就是往她心口捅一刀。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（攥紧了拳头）妈，要是早一个钟头……"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（打断他）没有要是。这种事，没有要是。（拍拍他的手）把这句也记住。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（又开口）妈，你说他们……真的下得了手？从前还在一张桌上喝过酒。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "（叹气）下不了手，才喊得满镇都知道。喊那么大声，就是盼着有人拦。可惜啊，全镇的耳朵都听见了，全镇的腿都没动。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（沉默半晌）……他母亲那边，你打算怎么办？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "明天一早，我去看{{e_pulaxida|普拉西达}}。这一夜，两个母亲，一个没了儿子，一个女儿被退回来、儿子要坐牢。两家的天，是同一天塌的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（低声）妈，你那句话，我记住了。一辈子都记住。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_luyisa",
+    "text": "记住就好。（吹熄了灯）睡吧。明天，还有明天的事。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_marco"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_laozhai"
+   }
+  ],
+  "hints": [
+   "他母亲是死者的教母",
+   "这句话他记了二十七年"
+  ]
+ },
+ {
+  "id": "c4_10",
+  "level": 4,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "马尔科",
+  "row": 2,
+  "title": "抢救新郎的人",
+  "cg": "murder-assets/cg/c4_10.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a hilltop villa bedroom littered with empty bottles and wedding garlands, a country doctor with a leather bag examining an unconscious man on the floor, a young man holding a basin of well water beside them, warm hazy light, no text. Who is in the scene: the young narrator, his doctor cousin, and the unconscious groom.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "那几天，[[NPC1]]从{{e_laozhai|马尔科家}}出发，跟着当医生的表兄{{e_yigulan|伊瓜兰}}上了山。新房里酒气熏天，那个新郎{{e_shengroman|圣罗曼}}躺在满地空瓶中间，不省人事。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（翻开他的眼皮看了看，又按住手腕）还有救。去，打井水，越凉越好，再找两条干净床单。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（端着水盆回来）表兄，他喝成这样，几天了？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（拧着毛巾）婚礼一散就开始了，一个人喝。你看看这屋子——喜字还贴着，彩带还挂着，酒瓶子倒了一地。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（数着地上的瓶子）一、二、三……光这屋里就十几瓶。他这是拿酒当水喝。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（检查完，直起腰）当水喝倒好了。他是拿酒当墙，把自己砌在里头，什么人、什么事，都隔在外头。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（帮他拧毛巾）表兄，你说他知不知道，外头已经出了人命？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（动作顿了顿）知不知道，有区别吗？他这副样子，连自己都救不了。（压低声音）再说，那桩事跟他脱不了干系，他这辈子都得背着。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一边收拾一边说）他要娶她的时候，全镇都羡慕。买光彩票送唱机，一万比索买房，谁见过这阵仗？怎么几天工夫，就成了这样？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（摇头）孩子，这镇上的事，桩桩件件都像命里写好的。婚礼那天夜里的事，你早晚会知道。（停住）不，最好永远别知道。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "镇上的人都说，这桩事里，最冤的就是他。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（哼了一声）冤，是冤。一万比索买房，全镇一年的嚼用办酒，到头来新娘连夜被送回去，自己喝成了鬼。（顿了顿）可你记着，真躺进土里的，另有其人。冤，也分大小。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（看着地上的人）他醒了以后，会怎么样？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "他家里人已经在路上了。醒了，抬走，这个镇他一天都不会多待。（四下看了看）房子买得多气派，扔得就有多快。我行医这些年，头回见人拿钱给自己修了一座坟。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（低声）表兄，你说他往后……还会回来吗？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（合上药箱）回来做什么？看空房子？（站起身，拍拍他的肩）走吧。吊命的事我做完了，剩下的，是他自己的命。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（又回头看了一眼）至少把窗关上吧。夜里的风凉。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_yigulan",
+    "text": "（摇头）不用。这种醉法的人，冻不醒，也冻不死。他心里那点火，得自己灭。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_marco"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_bieshu"
+   }
+  ],
+  "hints": [
+   "救人的医生是他的表兄",
+   "被救的人此刻还不知道，有人会等他十七年"
+  ]
+ },
+ {
+  "id": "c4_11",
+  "level": 4,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "马尔科",
+  "row": 3,
+  "title": "被改变的人们",
+  "cg": "murder-assets/cg/c4_11.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a middle-aged man with a notebook walking through a small Caribbean town at dusk, faint ghostlike silhouettes of townsfolk at windows and doorways, elegiac golden-hour mood, no text. Who is in the scene: the middle-aged investigator alone in the foreground.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "多年后我回到镇上，才发现那个清晨杀死的不止一个人。教堂的钟照旧敲，码头照旧停船，可我走在街上，总觉得每个人看我的眼神都躲着点什么。奥滕西亚——那个说看见刀上滴血幻象的女人，疯了，常常光着身子跑上街，孩子们跟在后头扔石子。产婆奥拉受了惊吓，从此一辈子离不开导尿管。堂罗赫略活到八十六岁，有一天忽然想起那天门口的场面，当场就给吓死了。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_fuluola|弗洛拉}}，他的未婚妻，退还信匣那天撂过一句狠话，没想到几分钟后就成了真。后来她跟一个边防中尉私奔，把自己一辈子断送在了半路上。我在外省见过她一次，隔着半条街，我没敢认。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_mariajia|玛丽亚之家}}的灯还亮着，喝酒跳舞，照旧热闹。可{{e_maria|玛丽亚}}把自己关在屋里，盘腿坐在床上吃东西，一顿接一顿，像要把心里那个洞填满。我去看她，她隔着门把我打发了，一句话都不肯多讲。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "肉贩、警察、布商、修女……那个清晨在场的人，后来的日子里，谁见了我都绕着走。不是恨我，是怕。怕我问起那天，怕自己记得太清楚。只有牛奶店的老板娘肯跟我坐下来讲。她说这些年夜夜梦见那个清晨，梦见长凳上睡着的两个人，一伸手就能拦住——可梦里，她的手怎么也抬不起来。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_faguan|预审法官}}翻遍了案卷，找不到他有罪的一丝证据。我翻遍了全镇，找不到一个没被改变的人。死去的只有一个，偿命的，是全镇。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_marco"
+   }
+  ],
+  "hints": [
+   "他手里的名单，比案卷还长",
+   "死去的只有一个，偿命的却是全镇"
+  ]
+ },
+ {
+  "id": "c4_12",
+  "level": 4,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "L",
+  "col": "马尔科",
+  "row": 6,
+  "title": "别兜圈子了，表兄",
+  "cg": "murder-assets/cg/c4_12.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a desert village room, a woman embroidering under a hanging birdcage looking up sharply at a middle-aged visitor seated across with a worn case file on his knees, tense restrained exchange, no text. Who is in the scene: the embroidering woman and the visiting investigator.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "二十三年后，我找到了荒村里那间小屋。窗前的{{e_anhela|安赫拉}}抬起头看我，鸟笼在她头顶轻轻晃。她老了一些，眼睛却亮得逼人。我在木凳上坐下，把路上想好的弯子，一个一个往外搬。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "这些年我一直在写那件案子。案卷翻遍了，{{e_baogao|预审报告残页}}三百多页，我一页一页读过。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（针脚不停）读过又怎么样？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "读出一个问题：所有人的证词都围着那件事转，可没一个人拿得出凭据。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "你想问什么，就直说。我这儿没有茶，招待绕弯子的人。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "好。（深吸一口气）那天凌晨，在你家餐桌上，你说出的那个名字——是真的吗？"
+   },
+   {
+    "kind": "narration",
+    "text": "她隔着鸟笼看了我一眼，只一眼。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "别兜圈子了，表兄，就是他。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "你连想都不用想？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（针脚不停）二十三年了，人人拐着弯来问这一句。我不需要想。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "办案的人翻遍卷宗，找不到他做过那件事的一丝证据。一丝都没有。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（淡淡地）证据是给官老爷看的。我只知道我知道的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "万一你记错了呢？那天夜里太乱，你挨了打，又惊又怕——"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（第一次停下手，抬起眼）表兄，你走了几百里路，就为了替死人翻案？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（迎着她的目光）我为了活人。全镇背了二十多年的债，总得有个数。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（重新低头绣花）那你就记着：名字我只说一个，从前是，往后也是。别的，你一个字也拿不走。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "镇上的人都信你。他们宁可信你那一句话，也不信三百多页的卷宗。你知道这一句话有多重吗？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（轻笑了一声）重？我背着它过了二十三年，没人问过我重不重。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "你那两个哥哥，坐了三年牢。出来后一个当了首饰匠，一个死在没人知道的地方。你说，值不值？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（不为所动）牢是他们自己要坐的，刀是他们自己要拿的。我没让他们去。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "可名字是你说的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（一字一顿）名字是事实。事实，不需要我负责。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（翻开本子）我还问过我母亲。她说，那天全镇的人，谁都推说自己有苦衷。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（不接话，针脚又快了几分）苦衷？全镇的苦衷加起来，抵不过一条人命。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那你呢？这二十三年，你一个人在这儿，图什么？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（重新低下头）图什么，你管不着。你要的东西我已经给你了——那三个字，你带回去吧。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（又翻了一页）还有件事我想不通。那天清晨，他为什么偏偏走了正门？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（手上不停）你该去问闩门的人，不该问我。我的事在餐桌上就了了，后头的，是全镇的事。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（叹了口气）我懂了。你不是不肯改，是早把这句话当成日子过了。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（嘴角动了一下）你总算听懂了一句。（低头，又绣了一针）回去吧。你的文章里，我的名字只管写。别的，随全镇怎么说。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_anhela",
+    "text": "（送到门口）替我给镇上的老姐妹们带好。就说，我在这儿，挺好。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（点头）我一定带到。"
+   },
+   {
+    "kind": "narration",
+    "text": "院子里静得只剩绣线穿过布面的声音。我把没问出口的话咽了回去。临走时回头看了一眼，她已经绣完了半只鸟，神情安稳，好像我们方才谈的，只是天气。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_marco"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_guaxila"
+   }
+  ],
+  "hints": [
+   "她一辈子只说这一个名字",
+   "办案的人找不到证据，她不需要证据"
+  ]
+ },
+ {
+  "id": "c4_13",
+  "level": 4,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "安赫拉",
+  "row": 4,
+  "title": "开始写信的人",
+  "cg": "murder-assets/cg/c4_13.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a young woman at an embroidery frame by an open window in a desert village, practicing letters on scraps of paper beside her, sea wind moving the curtains, quiet resolve, no text. Who is in the scene: the returned bride alone.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "被送回娘家那晚，我以为这辈子完了。全镇都等着看我的笑话，说我丢人，说我害人。母亲打我那两个小时，我一声没哭；可怪就怪在，日子越久，我想得最多的不是那顿打，是那个把我送回来的人。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我记得他敲门，三下，不重不轻。我记得他站在门口，客客气气谢过我母亲，管她叫圣人。他没有骂我一句，也没有推我一把。后来我们搬到{{e_guaxila|瓜希拉荒村}}，我坐在窗前绣花，绣着绣着，眼前全是他站在门口的样子。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "有一年在{{e_liaoacha|里奥阿查}}的宾馆，我们撞了个正着。他冲我点头，侧身让我先过，客气得像对一位陌生夫人。他没有躲我，也没有多问一句。可就是那一低头、一侧身，比什么都叫我难受。回村的路上我想了一路：这个人，我嫁过他几个月，却比镇上任何人都让我忘不了。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "到家我就下了决心：给他写{{e_xin|信}}。我识字不多，先跟村里的先生学，一个字一个字地练。先生教我，称呼要端正，落款要工整，我把这些规矩记得死死的，像在备一门嫁妆。第一封信，我撕了十几张纸，写什么呢？写来写去，就写了三个字：你好吗。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我不指望他回。我只知道，我的后半辈子，从这一封信起，才算真正开始了。他要笑话就笑话吧——被退回来的那天我就明白了：日子是自己的，不是活给全镇看的。母亲说我魔怔了。魔怔就魔怔吧，总比行尸走肉强。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_anhela"
+   }
+  ],
+  "hints": [
+   "她的爱情从退婚那晚才真正开始",
+   "第一封信，她练了很多遍字"
+  ]
+ },
+ {
+  "id": "c4_14",
+  "level": 4,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "安赫拉",
+  "row": 5,
+  "title": "两千封信",
+  "cg": "murder-assets/cg/c4_14.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a woman writing letters at an embroidery frame by a desert village window, stacks of envelopes tied with colored ribbons, one page with a tear-blurred ink blot, tender perseverance in golden light, no text. Who is in the scene: the letter-writing woman alone.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "一周一封，这是我给自己定的规矩，雷打不动。开头那几年，信很短，无非是问候、报平安、说说天气。他不回，我也不问。{{e_xiuhuajia|绣花架}}前的日子一天挨一天，信一封接一封，比针线还密。窗前挂着一本旧日历，每寄出一封，我就在那天画个圈。圈子越画越密，日历换了一本又一本。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "写到第十年，有一封我写了二十页。那天也不知道怎么了，十年的话一齐涌上来，从天黑写到天亮，蜡烛烧完了三根。那封信写了我们那几个月的婚事，写了婚礼上的酒，写了我绣的第一方手帕。写到最后我发现，我记得的全是他的好。写完我自己先笑了——写了又怎么样呢？他大概看都不会看。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "可我还是写。高兴也写，难过也写。有一回写到一半，眼泪掉下来，把纸上的字晕开了一大块。我盯着那块墨迹看了半天，没有换纸，原样折好寄了出去。也有人劝我，把眼泪擦了再寄。我不擦——字会骗人，晕开的那块墨不会。我在末尾添了一句：为了证明我的爱，随信寄上我的眼泪。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "十七年，{{e_xin|信}}写了一千九百多封。邮局的伙计都认得我了，老远就伸手接信，说，又给省城去信哪。我说是，给省城。有人笑我傻，说人家早把你忘干净了。我不争。写信对我来说，早就不是等他回信了——是我还活着的凭证。我寄出去的不是信，是我自己，一天一天，一针一针，全都寄出去了。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_anhela"
+   }
+  ],
+  "hints": [
+   "第十年她写过一封二十页的信",
+   "她寄出的不是信，是自己的一生"
+  ]
+ },
+ {
+  "id": "c4_15",
+  "level": 4,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "圣罗曼",
+  "row": 2,
+  "title": "醉倒在别墅里的人",
+  "cg": "murder-assets/cg/c4_15.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a grand Caribbean hilltop villa salon littered with wedding leftovers and empty bottles, a man in a white linen suit drinking alone amid the debris, wedding banners still hanging, hollow opulence in warm light, no text. Who is in the scene: the abandoned groom alone.",
+  "segments": [
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "喜字还贴在门上，院里的桌布还没收，人就散了。我坐在这座{{e_bieshu|山丘别墅}}的正厅里，一杯接一杯。一万比索买的房，二百多箱酒办的婚礼，我把能想到的风光都给足了——你说，我哪一步做错了？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "我这个人，办事就认一个理：看中的东西，出钱买；看中的人，明媒正娶。彩礼、酒席、烟火、乐队，我样样要的顶配——我爹是将军，我的婚礼，不能输给任何人。这房子的老主人{{e_xiusi|希乌斯}}，哭着说不卖，我没为难他，把钱一沓一沓码在他面前，码到他点头。全镇都说我痛快。怎么到了我自己这桩事上，规矩就不灵了？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "出事那晚，我把人好端端送回她娘家，敲门三下，客客气气谢过她母亲。换了别人，指不定闹成什么样。我自认做得周全，体面给足了她，也给足了那一家。可周全管什么用？房子空了，人走了，全镇看我的眼神，像看一个笑话。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_mariajia|玛丽亚之家}}的老板娘劝我，喝酒跳舞，忘了这事。我去了，舞也跳了，酒也喝了，回到家，屋里还是空的。我不是心疼钱，钱我有的是。我是想不通——我按规矩办的每一件事，怎么就落了个鸡飞蛋打？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "酒杯见底的时候，我盯着杯子里自己的影子看。那影子也看着我，像在看一个不相干的人。后来他们把我抬下山，我什么都不知道。也好。知道了，就得当场承认：我这一辈子，头一回办砸了事。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   }
+  ],
+  "hints": [
+   "他什么都有了，又一夜之间什么都没了",
+   "全镇说他是唯一的受害者，他自己不信"
+  ]
+ },
+ {
+  "id": "c4_16",
+  "level": 4,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "圣罗曼",
+  "row": 6,
+  "title": "拒绝采访的人",
+  "cg": "murder-assets/cg/c4_16.jpg",
+  "cgPrompt": "Bright KyoAni-style anime illustration, 16:9: a desert village yard, a man in shirtsleeves mending a fence while a middle-aged visitor with a notebook stands at the gate, a wooden chest of ribbon-bound letters visible in the doorway behind them, calm closure in warm afternoon light, no text. Who is in the scene: the returned man and the visiting investigator.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "男人回来的第三年，调查者{{e_marco|马尔科}}登门，想补上采访的最后一块。[[NPC1]]正在院里修篱笆，听明来意，手里的活没停。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "我写了二十七年，全镇的人我都谈过了，就差你。当年那一夜，到底——"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（打断他）年轻人，你的文章写你的，我的日子过我的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "全镇都当你是唯一的受害者。你只要肯开口，多少人替你鸣不平——"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（直起身，拍了拍手上的土）受害者？（摇头）我不需要谁替我喊冤。有些账，不需要向人解释。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "那箱{{e_xin|安赫拉的信}}呢？十七年，将近两千封，你一封没拆。这个，你总得给个说法吧？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（难得笑了一下）说法？说法在箱子里，我早就给她了。她都没问我要说法，你急什么？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "（跟着他在院里走）她写了十七年，你知道吗？每周一封，从没断过。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（搬开一块石头）知道。邮差每个月给我送一次，一捆一捆，比报纸还准时。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "全镇都说你狠心。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（直起腰）狠心？信看了，就得回；回了，就断不了；断不了，两个人就都耗死在纸上。我不拆，是给她留退路，也给我留。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "（愣住）……这话，你也不肯对她说？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（继续干活）她懂。她要是连这都不懂，就不会一封一封写到今天。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "（换了个话题）院子收拾完了，往后呢？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（指了指山坡）种点菜，养几只鸡。她的绣活费眼睛，往后粗活都归我。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "就这些？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（瞥他一眼）就这些。你们年轻人总觉得日子得有个说法。没有说法，就是日子。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "（在本子上写了几个字，又划掉）你猜我写了什么？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（头也不抬）写什么随你。别写我后悔就行——我不后悔。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "（不死心）那就算替全镇问一句——你回来，图什么？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（重新蹲下去拔草，头也不抬）图什么……（顿了顿）图这院子荒了十七年，得有人收拾。行了，话就这些。不嫌远，留下吃饭；要赶路，我不送。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_marco",
+    "text": "（合上本子，苦笑）你知道吗，全镇等了二十七年，就等你一句话。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（继续干活）那就接着等。日子是过出来的，不是问出来的。你要写，就写这句。"
+   },
+   {
+    "kind": "narration",
+    "text": "采访就这样结束了。他把那口箱子搬进屋，交给窗前的女人，转身又去拾掇那个荒废了十七年的院子。日头很好，篱笆的影子整整齐齐。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_shengroman"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_guaxila"
+   }
+  ],
+  "hints": [
+   "他带回的答案装在一口没拆封的箱子里",
+   "全镇等了二十七年，只等到四个字"
+  ]
+ }
+]

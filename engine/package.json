@@ -1,0 +1,12 @@
+{
+  "name": "悉达多",
+  "version": "1.0.0",
+  "description": "改编自诺贝尔文学奖得主黑塞的同名作品。以图文解谜、填人名地点、排时间轴的原创玩法，理解佛法带给人的平静。",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build_offline.mjs xdd && node tools/build_dist.mjs xdd"
+  },
+  "devDependencies": {
+    "@66rpg/lumimaker": "^0.1.52"
+  }
+}

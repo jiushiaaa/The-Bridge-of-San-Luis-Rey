@@ -1,0 +1,1619 @@
+{
+ "e_nasa": {
+  "name": "纳萨",
+  "type": "person",
+  "tier": "core",
+  "desc": "二十一岁的阿拉伯裔牧场主，父亲暴亡后辍学接手家业。被新娘咬定毁了她名声，婚礼次日死于自家门前；法官查不到他有罪的证据。",
+  "avatar": "murder-assets/avatars/e_nasa.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "年轻的牧场主",
+    "fields": [
+     {
+      "label": "家世",
+      "text": "父亲老纳跟着最后一批阿拉伯移民来镇，低价买下旧货仓改成家宅，三年前突然暴亡。"
+     },
+     {
+      "label": "父亲",
+      "blank": {
+       "answer": "e_laona",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "接手的产业",
+      "blank": {
+       "answer": "e_muchang",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "性情",
+      "text": "人很快活，爱骑马，爱热闹，对家里的佣人缺些分寸，带着少爷的满不在乎。"
+     },
+     {
+      "label": "婚约",
+      "text": "与米格尔家的女儿订了婚，婚期定在来年圣诞——一个他永远赶不上的日子。"
+     }
+    ]
+   },
+   {
+    "level": 3,
+    "title": "最后两个小时",
+    "fields": [
+     {
+      "label": "凌晨归家",
+      "text": "婚礼闹到凌晨四点二十才回家，和衣只睡了一个小时，五点半就起床去迎主教。"
+     },
+     {
+      "label": "收进抽屉的东西",
+      "blank": {
+       "answer": "e_qiang",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "白礼服与正门",
+      "text": "他换上没浆洗的白色亚麻礼服。母亲常说：我儿子穿礼服的时候，从不打后门进出。"
+     },
+     {
+      "label": "未婚妻",
+      "blank": {
+       "answer": "e_fuluola",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "码头的那笔账",
+      "text": "六点二十五分，他在码头和朋友算起昨夜婚礼的花销，越算越兴奋：我的婚礼也要像这样，让他们一辈子也讲不完。"
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "title": "身后",
+    "fields": [
+     {
+      "label": "验尸结论",
+      "text": "七处致命伤。报告里还写，他的肝早年落下病根，即使不挨这些刀，也撑不了几年。"
+     },
+     {
+      "label": "为他解剖的人",
+      "blank": {
+       "answer": "e_amaduo",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "查不到他有罪的人",
+      "blank": {
+       "answer": "e_faguan",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "无辜者的慌张",
+      "text": "法官在旁注里写，他临死前的慌乱不像心虚，更像一个无辜者的慌张——那项指控始终没有证据支撑。"
+     },
+     {
+      "label": "草草下葬",
+      "text": "遗体被那场解剖毁得不成样子，礼拜二黎明，家人把他草草下葬。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_anhela": {
+  "name": "安赫拉",
+  "type": "person",
+  "tier": "core",
+  "desc": "被退回的新娘。秘密败露那夜，丈夫把她牵回娘家；母亲痛打她两小时，她说出一个名字。后半生写了十七年信，等回退她的那个人。",
+  "avatar": "murder-assets/avatars/e_anhela.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "不想嫁的女儿",
+    "fields": [
+     {
+      "label": "出身",
+      "text": "父亲是失明的金匠，母亲当过教员，家里清苦，把体面看得比什么都重。"
+     },
+     {
+      "label": "驳回她的母亲",
+      "blank": {
+       "answer": "e_pulixi",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "全家定下的婚事",
+      "blank": {
+       "answer": "e_shengroman",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "她的理由",
+      "text": "全家围着她劝嫁，只有她一个人反对：我觉得他太像个大人物，我怕他。"
+     },
+     {
+      "label": "生日那天的礼物",
+      "text": "十月募捐晚会正逢她的生日，那人买光全场的彩票，只为把中奖的唱机送到她面前。"
+     }
+    ]
+   },
+   {
+    "level": 2,
+    "title": "说出名字的人",
+    "fields": [
+     {
+      "label": "凌晨的毒打",
+      "text": "新婚夜被丈夫牵回娘家。母亲关起门来，把她痛打了两个小时，没人敢劝。"
+     },
+     {
+      "label": "逼问她的亲人",
+      "blank": {
+       "answer": "e_tufu",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "动手管教她的母亲",
+      "blank": {
+       "answer": "e_pulixi",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "那个名字的分量",
+      "text": "凌晨近三点，她被提上餐桌逼问。她几乎不假思索说出那个名字，像用精准的飞镖把它钉在墙上。"
+     },
+     {
+      "label": "无人核实",
+      "text": "没有一个人去核实这个名字的真假。半小时后，两把刀已经在肉市的砂轮上磨响了。"
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "title": "写信的女人",
+    "fields": [
+     {
+      "label": "迁居后的转变",
+      "text": "被退回后她随母亲远走荒村，在窗前绣花，变得成熟聪慧，比从前任何时候都清醒。"
+     },
+     {
+      "label": "她寄出的东西",
+      "blank": {
+       "answer": "e_xin",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "隐居绣花的地方",
+      "blank": {
+       "answer": "e_guaxila",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "二十页的长信",
+      "text": "第十年，她写过一封二十页的长信；更多时候只为寄出一句：为了证明我的爱，随信寄上我的眼泪。"
+     },
+     {
+      "label": "宾馆偶遇",
+      "text": "某年在省城宾馆与那个男人偶遇之后，她决定开始写信，一写就是十七年。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_shengroman": {
+  "name": "圣罗曼",
+  "type": "person",
+  "tier": "core",
+  "desc": "来历成谜的富有外乡人，看一眼就定了终身。新婚夜他把新娘退回娘家，酗酒消失；十七年后，带着她近两千封没拆过的信归来。",
+  "avatar": "murder-assets/avatars/e_shengroman.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "来历成谜的外乡人",
+    "fields": [
+     {
+      "label": "到镇",
+      "text": "前一年八月乘周一班船到镇，自称机车工程师，行李上誊写着花体字，出手阔绰得不像话。"
+     },
+     {
+      "label": "他买下的房子",
+      "blank": {
+       "answer": "e_bieshu",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "为他担保的父亲",
+      "blank": {
+       "answer": "e_shengjiangjun",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "排场与做派",
+      "text": "为送一件礼物买光整场彩票；婚礼摆出四十只火鸡、十一头猪、二百零五箱走私酒，他本人迟到两小时。"
+     },
+     {
+      "label": "门厅摇椅",
+      "text": "九月末，他在门厅摇椅上半睡半醒瞥见她过广场，对房东说：等我醒了，请提醒我，我要娶她。"
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "title": "归来的人",
+    "fields": [
+     {
+      "label": "月食之夜",
+      "text": "退婚后他把自己喝到不省人事。月食之夜，母亲和妹妹穿丧服赤脚上山，用吊床把他抬下了山。"
+     },
+     {
+      "label": "当年抢救他的医生",
+      "blank": {
+       "answer": "e_yigulan",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "他带回来的东西",
+      "blank": {
+       "answer": "e_xin",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "好吧，我来了",
+      "text": "八月的一个午后，他背着背囊走进绣花的屋子，只说了四个字：好吧，我来了。十七年的账，一笔勾销。"
+     },
+     {
+      "label": "拒绝受访",
+      "text": "调查者上门想问当年的事，他婉拒了：有些账，不需要向人解释。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_tufu": {
+  "name": "屠夫兄弟",
+  "type": "person",
+  "tier": "core",
+  "desc": "屠户家的孪生兄弟。妹妹被退回后，他们磨快屠刀、逢人扬言，当众「履行责任」。出狱后一个成了首饰匠，一个走进战火再没回来。",
+  "avatar": "murder-assets/avatars/e_tufu.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "屠户家的双胞胎",
+    "fields": [
+     {
+      "label": "谁先谁后",
+      "text": "弟弟先起的意，回家后伤病发作想罢手；哥哥反而成了主使，把新刀塞进弟弟手里：没有回头路。"
+     },
+     {
+      "label": "他们扬言的地点",
+      "blank": {
+       "answer": "e_roushi",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "要为其雪耻的妹妹",
+      "blank": {
+       "answer": "e_anhela",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "盼人来拦",
+      "text": "他们把杀人喊得比卖肉还响，逢人便说，在店里睡觉都不避人——种种迹象表明，他们其实一心盼着有人出面拦住自己。"
+     },
+     {
+      "label": "牛奶店的等待",
+      "text": "凌晨四点十分，两人揣着报纸裹刀进店，在长凳上睡着，等那声谁也不敢想的钟响。"
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "title": "赎罪的余生",
+    "fields": [
+     {
+      "label": "牢里搓洗的记忆",
+      "text": "在牢里他们用肥皂和丝瓜瓤使劲搓洗，总觉得身上有股去不掉的味道，夜里睡不着。"
+     },
+     {
+      "label": "等哥哥出狱的人",
+      "blank": {
+       "answer": "e_puludeng",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "洗不掉的东西",
+      "blank": {
+       "answer": "e_qiwei",
+       "pool": "concept"
+      }
+     },
+     {
+      "label": "各奔东西",
+      "text": "候审三年获释。哥哥娶了等他的未婚妻，继承作坊当了首饰匠；弟弟再度入伍，走进游击区，再也没有回来。"
+     },
+     {
+      "label": "自首那句话",
+      "text": "作案几分钟后，他们把刀撂在神父桌上：我们是存心要杀他的，但是我们无罪——是为了名誉！"
+     }
+    ]
+   }
+  ]
+ },
+ "e_marco": {
+  "name": "马尔科",
+  "type": "person",
+  "tier": "core",
+  "desc": "死者最要好的朋友，新娘的远房表兄。案发清晨他宿醉未醒，被妹妹喊醒时一切已晚。二十七年后回乡翻档案、访旧人，写成这篇报道。",
+  "avatar": "murder-assets/avatars/e_marco.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "婚礼上的年轻人",
+    "fields": [
+     {
+      "label": "死者最要好的朋友",
+      "blank": {
+       "answer": "e_nasa",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "婚礼的新郎",
+      "blank": {
+       "answer": "e_shengroman",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "他的求婚",
+      "text": "婚礼上他向梅塞德斯求了婚，十四年后两人才成婚——这个镇上的婚约，好像都要经过漫长的等待。"
+     },
+     {
+      "label": "宿醉",
+      "text": "那一夜他喝得烂醉，被当修女的妹妹从床上喊醒时，一切都已经晚了。"
+     },
+     {
+      "label": "没赴成的早餐",
+      "text": "清晨他妹妹邀好友来家里吃早餐，对方笑着应了。那顿早餐，永远没有人赴约。"
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "title": "写这篇报道的人",
+    "fields": [
+     {
+      "label": "回乡翻出的东西",
+      "blank": {
+       "answer": "e_baogao",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "他的母亲",
+      "blank": {
+       "answer": "e_luyisa",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "采访名录",
+      "text": "二十多年里，他访问了死者的母亲、临死前的厨娘、疗养院里的神父，还有那对兄弟本人。"
+     },
+     {
+      "label": "为什么写",
+      "text": "全镇都想忘掉那个清晨，他偏要把它写下来——因为死去的是他的朋友，因为真相不该被水泡烂在档案室里。"
+     },
+     {
+      "label": "瓜希拉的重逢",
+      "text": "二十三年后他找到绣花的女人，绕了无数弯子，只换来一句：别兜圈子了，表兄，就是他。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_pulaxida": {
+  "name": "普拉西达",
+  "type": "person",
+  "tier": "major",
+  "desc": "纳萨之母，以解梦闻名，偏偏漏了儿子最后的梦。那个清晨她听信谎话，亲手闩死了正门。",
+  "avatar": "murder-assets/avatars/e_pulaxida.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "解梦的母亲",
+    "fields": [
+     {
+      "label": "解梦的本事",
+      "blank": {
+       "answer": "e_jiemeng",
+       "pool": "concept"
+      }
+     },
+     {
+      "label": "漏掉的那个梦",
+      "text": "儿子端着水杯讲他梦见树、梦见细雨。她只说：凡是梦见小鸟，都是身体健康的预兆——梦里没有小鸟。"
+     },
+     {
+      "label": "闩门的那几秒",
+      "text": "听见佣人女儿说他上楼了，她抢在儿子冲到门前几秒闩死了正门，还以为自己在救他。"
+     },
+     {
+      "label": "晚年的吊床",
+      "text": "二十七年后她卧在同一张吊床上嚼独行菜籽，把上门的调查者认成儿子：他就是我的命。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_beiduoya": {
+  "name": "贝多亚",
+  "type": "person",
+  "tier": "major",
+  "desc": "纳萨最亲密的朋友。那个清晨揣着没子弹的枪满城寻人，只差七分钟。后成著名外科医生。",
+  "avatar": "murder-assets/avatars/e_beiduoya.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "唯一想救他的人",
+    "fields": [
+     {
+      "label": "他揣着找人的东西",
+      "blank": {
+       "answer": "e_qiang",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "俱乐部门口",
+      "text": "他满头大汗求镇长出面阻止，对方摆摆手说刀已没收，转身进去赴牌局。"
+     },
+     {
+      "label": "差的七分钟",
+      "text": "他跑遍全镇找人，中途为抢救一个垂死的老人耽搁了。就差七分钟——差的不是决心，是七分钟。"
+     },
+     {
+      "label": "后来",
+      "text": "他后来成了著名的外科医生，是那年清晨少数没被毁掉的人。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_keluodi": {
+  "name": "克洛蒂",
+  "type": "person",
+  "tier": "major",
+  "desc": "牛奶店老板娘。全镇都知道的那个清晨，只有她四处求人、托修女带话，想拦住那两个人。",
+  "avatar": "murder-assets/avatars/e_keluodi.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "全镇唯一尽力的人",
+    "fields": [
+     {
+      "label": "她守望的地方",
+      "blank": {
+       "answer": "e_niunaidian",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "那句哀求",
+      "text": "她低声求两个揣刀的人：可别冒犯了主教大人。两人迟疑了一下，又坐了回去——差一点点就成了。"
+     },
+     {
+      "label": "求过的每一个人",
+      "text": "她托见习修女给神父带话，去寻警察和镇长太太，又拦住兄弟苦劝：至少等主教走了，别让他母亲看见。"
+     },
+     {
+      "label": "丈夫的结局",
+      "text": "她丈夫堂罗赫略活到八十六岁，一天想起凶案的情形，受了惊吓，就那么去了。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_aponte": {
+  "name": "阿庞特",
+  "type": "person",
+  "tier": "major",
+  "desc": "当了十一年镇长。接报案只没收屠刀、喝令二人回家睡觉，自认处置得当，转身去赴牌局。",
+  "avatar": "murder-assets/avatars/e_aponte.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "收刀的人",
+    "fields": [
+     {
+      "label": "他收走的东西",
+      "blank": {
+       "answer": "e_tudao",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "他的道理",
+      "text": "凶器锁进了抽屉，人也训过了，两个屠夫还能拿什么杀人？他越想越觉得自己处置得当。"
+     },
+     {
+      "label": "俱乐部的那桌牌",
+      "text": "死者的朋友跑来求他出面，他摆摆手：刀我已经没收了。转身进门，里头牌局正等着。"
+     },
+     {
+      "label": "后来的下场",
+      "text": "凶案之后他迷上了招魂术，还成了素食主义者。全镇提起那个清晨，只记得他约的那桌牌。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_weiduoli": {
+  "name": "维多利",
+  "type": "person",
+  "tier": "major",
+  "desc": "纳萨家厨娘。年轻时被老主人始乱终弃，明知有人要杀少爷，把话咽了回去。",
+  "avatar": "murder-assets/avatars/e_weiduoli.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "厨房里的旧怨",
+    "fields": [
+     {
+      "label": "旧怨的对象",
+      "blank": {
+       "answer": "e_laona",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "厨房里的兔子",
+      "text": "那天清晨她剁兔子，把热内脏扔给狗。少爷皱眉：别那么野蛮，你就想想，假如它是个人。"
+     },
+     {
+      "label": "咽回去的那句话",
+      "text": "五点就听说有人要杀少爷。旧年的委屈涌上来，她把话咽了回去，连女儿也没让说。"
+     },
+     {
+      "label": "临死前的忏悔",
+      "text": "多年后调查者找到她，垂死的她终于承认：那天早上她知道，她什么都知道。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_diveina": {
+  "name": "迪维娜",
+  "type": "person",
+  "tier": "major",
+  "desc": "厨娘之女。吓得六神无主，一句「他上楼去了」的谎话，无意中促成了闩门。",
+  "avatar": "murder-assets/avatars/e_diveina.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "一句谎话",
+    "fields": [
+     {
+      "label": "她谎称看见上楼的人",
+      "blank": {
+       "answer": "e_nasa",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "那个清晨",
+      "text": "天没亮就听说有人要杀少爷，她吓得六神无主，端咖啡的手一直在抖，拿不了半点主意。"
+     },
+     {
+      "label": "谎话的本意",
+      "text": "主母问起来，她脱口说他一分钟前上楼去了——只想护着主母，别让她出门撞上那两个人。"
+     },
+     {
+      "label": "后来的下落",
+      "text": "多年后她身形臃肿，儿女成群。提起那位少爷，她说：像他那样的男人，再也没有了。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_pulixi": {
+  "name": "普里西",
+  "type": "person",
+  "tier": "major",
+  "desc": "安赫拉之母，当过教员，把体面看得比命重。女儿被退回的深夜，关起门痛打了两个小时。",
+  "avatar": "murder-assets/avatars/e_pulixi.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "爱也是可以学来的",
+    "fields": [
+     {
+      "label": "被她说服嫁人的女儿",
+      "blank": {
+       "answer": "e_anhela",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "前教员的体面",
+      "text": "她年轻时当过教员，一辈子贫穷，却把体面和规矩看得比命重，女儿们个个按淑女养大。"
+     },
+     {
+      "label": "那句名言",
+      "text": "女儿说两个人之间缺乏爱情，她一句话驳回：爱也是可以学来的。"
+     },
+     {
+      "label": "深夜的两小时",
+      "text": "女儿被退回的深夜，她关起门来动手管教，整整两个小时——打的是女儿，碎的是自己一生的体面。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_amaduo": {
+  "name": "阿马尔多",
+  "type": "person",
+  "tier": "major",
+  "desc": "堂区神父。接到求救口信，却因惦记迎接主教忘个干净；医生不在时，被迫拿起了手术刀。",
+  "avatar": "murder-assets/avatars/e_amaduo.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "忘了口信的神父",
+    "fields": [
+     {
+      "label": "让他分心的盛事",
+      "blank": {
+       "answer": "e_chuan",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "修女带话",
+      "text": "老板娘在广场边拦住路过的见习修女，一字一句教她把口信带到神父住处。"
+     },
+     {
+      "label": "口信的内容",
+      "text": "有人要杀人，就揣着刀在牛奶店里等，请神父想法子拦住他们，越快越好。"
+     },
+     {
+      "label": "转身就忘",
+      "text": "他满口答应，一转身却只顾着一件事：在那个不幸的日子，主教要来。"
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "title": "拿起手术刀的神父",
+    "fields": [
+     {
+      "label": "医生不在",
+      "text": "验尸那天伊瓜兰医生外出，没人能主刀，这差事落到了拿惯圣杯的神父头上。"
+     },
+     {
+      "label": "在死者胃里找到的东西",
+      "blank": {
+       "answer": "e_jinianzhang",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "工匠器械",
+      "text": "没有像样的器械，他借学医时学过没结业的底子，用工匠工具在公立学校完成了那场解剖。"
+     },
+     {
+      "label": "事后的祷告",
+      "text": "收拾干净之后，他为死者做了祷告。报告里写：即使不挨这些刀，他的肝也撑不了几年。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_puludeng": {
+  "name": "普鲁登",
+  "type": "person",
+  "tier": "major",
+  "desc": "屠夫哥哥的未婚妻。那个清晨她亲手递上裹刀的报纸，等他三年，终于成婚。",
+  "avatar": "murder-assets/avatars/e_puludeng.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "递报纸的未婚妻",
+    "fields": [
+     {
+      "label": "她等着嫁的人",
+      "blank": {
+       "answer": "e_tufu",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "她家的门风",
+      "text": "她母亲先把话放在前头：维护名誉的事，不能耽搁。"
+     },
+     {
+      "label": "裹刀的报纸",
+      "text": "兄弟俩来喝咖啡，她亲手递上裹刀的报纸：他若不能像个男子汉一样履行责任，我就不会嫁给他。"
+     },
+     {
+      "label": "三年的等待",
+      "text": "他候审三年，她等了三年。出狱后两人在省城成婚，他改行做了首饰匠。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_fuluola": {
+  "name": "弗洛拉",
+  "type": "person",
+  "tier": "major",
+  "desc": "纳萨的未婚妻，婚期定在圣诞。案发清晨把信匣摔还给他；几年后赌气私奔，断送了一生。",
+  "avatar": "murder-assets/avatars/e_fuluola.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "赌气的未婚妻",
+    "fields": [
+     {
+      "label": "她退还的东西",
+      "blank": {
+       "answer": "e_xinxia",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "散落的情书",
+      "text": "木匣撂过去，情书散了一地。他跪在地上一封封捡，旁人说，那样子好像在忏悔。"
+     },
+     {
+      "label": "那句气话",
+      "text": "她哭着撂下一句：拿去，但愿他们杀了你。几分钟后，这句话成了事实。"
+     },
+     {
+      "label": "后来的沦落",
+      "text": "几年后她赌气跟人私奔，从此断送了一生——镇上的老人提起她，只剩一声叹息。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_maria": {
+  "name": "玛丽亚",
+  "type": "person",
+  "tier": "major",
+  "desc": "歌舞厅的女主人，纳萨少年时的旧情人。他死后暴食哀悼，拒绝来客：你身上有他的气味。",
+  "avatar": "murder-assets/avatars/e_maria.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "你身上有他的气味",
+    "fields": [
+     {
+      "label": "她的店",
+      "blank": {
+       "answer": "e_mariajia",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "旧情",
+      "text": "他十五岁那年与她有过一段旧情，被他父亲生生拆散，关进牧场一年多。"
+     },
+     {
+      "label": "暴食哀悼",
+      "text": "听到死讯，她盘腿坐在床上，一边吃一边哭，好像要把那个人从这世上缺掉的份一起吃回来。"
+     },
+     {
+      "label": "拒绝的那句话",
+      "text": "多年后调查者登门，她把他挡在门外：不行，你身上有他的气味。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_faguan": {
+  "name": "预审法官",
+  "type": "person",
+  "tier": "major",
+  "desc": "案发十二天后赶到的年轻法官。翻遍案卷找不到死者有罪的证据，把愤懑写满了卷宗旁注。",
+  "avatar": "murder-assets/avatars/e_faguan.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "撬动地球的偏见",
+    "fields": [
+     {
+      "label": "十二天后赶到",
+      "text": "案发十二天后他才到镇，开庭三天，把案卷翻了个底朝天。"
+     },
+     {
+      "label": "他写满旁注的东西",
+      "blank": {
+       "answer": "e_baogao",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "查不到的一丝证据",
+      "text": "他找不到死者有罪的一丝证据——被指控的那件事，没有证人，没有痕迹，没有任何凭据。"
+     },
+     {
+      "label": "旁注里的怒火",
+      "text": "他在卷宗页边写：给我一个偏见，我将撬动地球。法律判不了的那部分，他写在了页边上。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_pangxiao": {
+  "name": "庞西奥",
+  "type": "person",
+  "tier": "minor",
+  "desc": "安赫拉之父，失明的金匠。案发后不久，在良心的痛苦中下世。",
+  "avatar": "murder-assets/avatars/e_pangxiao.jpg"
+ },
+ "e_xiusi": {
+  "name": "希乌斯",
+  "type": "person",
+  "tier": "minor",
+  "desc": "山丘别墅原主。亡妻的房子被一万比索买走，两年后他死于心碎。",
+  "avatar": "murder-assets/avatars/e_xiusi.jpg"
+ },
+ "e_shengjiangjun": {
+  "name": "圣将军",
+  "type": "person",
+  "tier": "minor",
+  "desc": "圣罗曼之父，内战英雄。他携全家到镇，为儿子的婚事作担保。",
+  "avatar": "murder-assets/avatars/e_shengjiangjun.jpg"
+ },
+ "e_laona": {
+  "name": "老纳",
+  "type": "person",
+  "tier": "minor",
+  "desc": "纳萨亡父，阿拉伯移民，三年前暴亡。与厨娘维多利有一段旧账。",
+  "avatar": "murder-assets/avatars/e_laona.jpg"
+ },
+ "e_yigulan": {
+  "name": "伊瓜兰",
+  "type": "person",
+  "tier": "minor",
+  "desc": "医生兼作家，马尔科的表兄，把酒精中毒的圣罗曼从鬼门关拉回来。",
+  "avatar": "murder-assets/avatars/e_yigulan.jpg"
+ },
+ "e_mage": {
+  "name": "玛戈特",
+  "type": "person",
+  "tier": "minor",
+  "desc": "马尔科之妹，少数不知情的人。她邀的那顿早餐，客人没能赴约。",
+  "avatar": "murder-assets/avatars/e_mage.jpg"
+ },
+ "e_luyisa": {
+  "name": "路易萨",
+  "type": "person",
+  "tier": "minor",
+  "desc": "马尔科之母，纳萨的教母。她说：永远要站在死者那一边。",
+  "avatar": "murder-assets/avatars/e_luyisa.jpg"
+ },
+ "e_nayier": {
+  "name": "纳伊尔",
+  "type": "person",
+  "tier": "minor",
+  "desc": "弗洛拉之父。案发清晨唯一正面警告纳萨的人，给他指了两条路。",
+  "avatar": "murder-assets/avatars/e_nayier.jpg"
+ },
+ "e_dazhai": {
+  "name": "纳家大宅",
+  "type": "place",
+  "tier": "major",
+  "desc": "旧货仓改成的阿拉伯式大宅。平日闩死的正门那天被他推开，后来全镇叫它「死亡之门」。",
+  "image": "murder-assets/images/e_dazhai.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "死亡之门",
+    "fields": [
+     {
+      "label": "大宅的来历",
+      "text": "老纳当年低价买下的旧货仓，改建成全镇最气派的阿拉伯式宅院，带马厩和宽阔的院子。"
+     },
+     {
+      "label": "门下躺着的东西",
+      "blank": {
+       "answer": "e_jinggaoxin",
+       "pool": "item"
+      }
+     },
+     {
+      "label": "平日闩死的正门",
+      "text": "正门平日闩死，一家人都走厨房后门。唯独穿礼服的少爷出门，从不打后门进出。"
+     },
+     {
+      "label": "大宅的衰败",
+      "text": "主人死后，大宅一年年败落。晚年只剩他母亲卧在吊床上，把来客认成儿子。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_weikajia": {
+  "name": "维卡家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "屠夫家的宅院。餐桌上的逼供、罗望子树下的换刀，都发生在这里。",
+  "image": "murder-assets/images/e_weikajia.jpg"
+ },
+ "e_niunaidian": {
+  "name": "牛奶店",
+  "type": "place",
+  "tier": "major",
+  "desc": "克洛蒂的店。凶案清晨全镇唯一亮着灯的地方，两个裹刀的人在长凳上睡着了。",
+  "image": "murder-assets/images/e_niunaidian.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "全镇最晚熄的灯",
+    "fields": [
+     {
+      "label": "守灯的老板娘",
+      "blank": {
+       "answer": "e_keluodi",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "全镇唯一亮着的灯",
+      "text": "凶案清晨，全镇只有这家店的灯亮着，好像专为需要求助的人留一扇找得到的门。"
+     },
+     {
+      "label": "长凳上睡着的两个人",
+      "text": "凌晨四点十分，两个揣着报纸裹刀的人进店坐下等，在长凳上睡得东倒西歪。"
+     },
+     {
+      "label": "凌晨的牛奶与咖啡",
+      "text": "那几个小时里，她给他们添过咖啡，手一直在抖，屏住呼吸不敢吵醒，也不敢放走。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_matou": {
+  "name": "码头",
+  "type": "place",
+  "tier": "minor",
+  "desc": "班船与主教船停靠的地方。全镇曾挤在这里迎主教，船没有停。",
+  "image": "murder-assets/images/e_matou.jpg"
+ },
+ "e_guangchang": {
+  "name": "教堂广场",
+  "type": "place",
+  "tier": "minor",
+  "desc": "全镇的中枢。募捐晚会、日常散步、姑娘挎篮走过的路，都在这里。",
+  "image": "murder-assets/images/e_guangchang.jpg"
+ },
+ "e_jiaotang": {
+  "name": "神父住处",
+  "type": "place",
+  "tier": "minor",
+  "desc": "神父的住所。作案几分钟后，兄弟俩把两把屠刀撂在了这里的桌上。",
+  "image": "murder-assets/images/e_jiaotang.jpg"
+ },
+ "e_gongyu": {
+  "name": "单身公寓",
+  "type": "place",
+  "tier": "minor",
+  "desc": "外乡人租住的公寓。门厅摇椅朝着广场，他半睡半醒间定下了终身。",
+  "image": "murder-assets/images/e_gongyu.jpg"
+ },
+ "e_julebu": {
+  "name": "社交俱乐部",
+  "type": "place",
+  "tier": "minor",
+  "desc": "牌桌与募捐晚会的所在，镇长的第二个家。",
+  "image": "murder-assets/images/e_julebu.jpg"
+ },
+ "e_roushi": {
+  "name": "肉市",
+  "type": "place",
+  "tier": "minor",
+  "desc": "凌晨开市的屠宰场。兄弟俩在砂轮上磨刀，当着二十二人扬言杀人。",
+  "image": "murder-assets/images/e_roushi.jpg"
+ },
+ "e_pulujia": {
+  "name": "普鲁登家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "屠夫哥哥未婚妻的家。裹刀的旧报纸，是从这家人手里递出来的。",
+  "image": "murder-assets/images/e_pulujia.jpg"
+ },
+ "e_migejia": {
+  "name": "米格尔家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "弗洛拉父女的家。纳萨生前进的最后一扇门，信匣在这被摔还给他。",
+  "image": "murder-assets/images/e_migejia.jpg"
+ },
+ "e_bieshu": {
+  "name": "山丘别墅",
+  "type": "place",
+  "tier": "major",
+  "desc": "山丘上的房子。鳏夫守着亡妻回忆不肯卖，被一万比索现钱击穿；婚礼后，它空了很多年。",
+  "image": "murder-assets/images/e_bieshu.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "一万比索的房子",
+    "fields": [
+     {
+      "label": "原来的主人",
+      "blank": {
+       "answer": "e_xiusi",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "一万一沓的现钱",
+      "text": "牌桌上，外乡人把现钱一沓一沓推到一万比索。老头含泪摇头：你们这些年轻人不懂人心啊。"
+     },
+     {
+      "label": "婚礼后的空宅",
+      "text": "婚礼当晚众人还在山下对空宅唱小夜曲、放烟火，不知道新人已经散了。"
+     },
+     {
+      "label": "月食之夜",
+      "text": "几天后，烂醉的新郎被家人用吊床从这里抬下山，房子从此空了十几年。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_xuexiao": {
+  "name": "公立学校",
+  "type": "place",
+  "tier": "minor",
+  "desc": "镇上的公立学校。医生外出的那天下午，神父被迫在这里完成解剖。",
+  "image": "murder-assets/images/e_xuexiao.jpg"
+ },
+ "e_jianyu": {
+  "name": "镇监狱",
+  "type": "place",
+  "tier": "minor",
+  "desc": "兄弟俩候审三年的地方。肥皂和丝瓜瓤搓洗，洗不掉身上那股气味。",
+  "image": "murder-assets/images/e_jianyu.jpg"
+ },
+ "e_laozhai": {
+  "name": "马尔科家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "叙述者家的老宅。案发清晨，全家被从睡梦中喊醒：他们把他杀了。",
+  "image": "murder-assets/images/e_laozhai.jpg"
+ },
+ "e_guaxila": {
+  "name": "瓜希拉荒村",
+  "type": "place",
+  "tier": "minor",
+  "desc": "安赫拉随母迁居的印第安荒村。她在鸟笼下窗前绣花，一绣十七年。",
+  "image": "murder-assets/images/e_guaxila.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "绣花架的窗前",
+    "fields": [
+     {
+      "label": "在此绣花的人",
+      "blank": {
+       "answer": "e_anhela",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "鸟笼与绣品",
+      "text": "窗前挂着鸟笼，她低着头绣花，绣品换了一茬又一茬，人比从前沉静了。"
+     },
+     {
+      "label": "十七年",
+      "text": "她在这里等了十七年。那个男人回来时，把背囊放在了绣花机上。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_liaoacha": {
+  "name": "里奥阿查",
+  "type": "place",
+  "tier": "minor",
+  "desc": "省城。宾馆的一次偶遇让她开始写信；法院档案在这里被洪水泡烂。",
+  "image": "murder-assets/images/e_liaoacha.jpg"
+ },
+ "e_muchang": {
+  "name": "圣颜牧场",
+  "type": "place",
+  "tier": "minor",
+  "desc": "纳萨从亡父手里接下的牧场，他为此辍了学。",
+  "image": "murder-assets/images/e_muchang.jpg"
+ },
+ "e_shizheng": {
+  "name": "市政厅",
+  "type": "place",
+  "tier": "minor",
+  "desc": "镇长办公的地方。案发十二天后，预审法官在这里开了三天庭。",
+  "image": "murder-assets/images/e_shizheng.jpg"
+ },
+ "e_mariajia": {
+  "name": "玛丽亚之家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "镇上的歌舞厅，喝酒跳舞的销金窟。婚礼那晚众人午夜后转战到此。",
+  "image": "murder-assets/images/e_mariajia.jpg"
+ },
+ "e_tudao": {
+  "name": "两把屠刀",
+  "type": "item",
+  "tier": "major",
+  "desc": "凶器是两把刀：一把钢锯改的剁肉刀，一把阿拉伯弯刀，被镇长收走第一组后从猪圈另取。",
+  "image": "murder-assets/images/e_tudao.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "钢锯与弯刀",
+    "fields": [
+     {
+      "label": "收走第一组刀的人",
+      "blank": {
+       "answer": "e_aponte",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "第二组刀的来历",
+      "text": "第一组被没收后，哥哥独自从猪圈另取了两把：一把钢锯改的十二英寸剁肉刀，一把阿拉伯弯刀。"
+     },
+     {
+      "label": "当众开磨",
+      "text": "凌晨三点二十，刀在肉市的砂轮上磨得雪亮，刀尖凑到灯前，二十二个人听见他们要干什么。"
+     },
+     {
+      "label": "刮脸的那次使用",
+      "text": "等天亮时，他们借了刮脸用具，却用刀刃刮了脸——就像电影里的杀手。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_qiang": {
+  "name": "马格南手枪",
+  "type": "item",
+  "tier": "major",
+  "desc": "纳萨从不离身的马格南手枪。那个清晨他卸下子弹收进抽屉，朋友揣走的正是这把空枪。",
+  "image": "murder-assets/images/e_qiang.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "抽屉里的枪",
+    "fields": [
+     {
+      "label": "卸下子弹的人",
+      "blank": {
+       "answer": "e_nasa",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "从不离身",
+      "text": "他在牧场长大，枪从不离身，全镇都习惯了那个挎枪的年轻人。"
+     },
+     {
+      "label": "那个清晨",
+      "text": "五点半起床迎主教，他把子弹卸了，枪收进床头柜的抽屉——他不知道两把刀已经磨好。"
+     },
+     {
+      "label": "被揣走的空枪",
+      "text": "朋友满城找他时翻到这个抽屉，抓走的是一把没有子弹的枪。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_changji": {
+  "name": "手摇唱机",
+  "type": "item",
+  "tier": "major",
+  "desc": "珍珠母手摇唱机。外乡人买下募捐晚会全部彩票，才把它送到过生日的姑娘手上。",
+  "image": "murder-assets/images/e_changji.jpg",
+  "archive": [
+   {
+    "level": 1,
+    "title": "买光彩票的礼物",
+    "fields": [
+     {
+      "label": "买光彩票送礼的人",
+      "blank": {
+       "answer": "e_shengroman",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "晚会的彩头",
+      "text": "十月募捐晚会的压轴彩头，珍珠母镶嵌的手摇唱机，漂亮得全场人人眼红。"
+     },
+     {
+      "label": "得主的手段",
+      "text": "别人一张一张买彩票，他问清总印数，当场掏钱把整场彩票全包了下来。"
+     },
+     {
+      "label": "送到的时机",
+      "text": "那天正逢姑娘生日，唱机连夜抬进她家门，只说是贺礼，连名字都没留。"
+     },
+     {
+      "label": "退礼的下文",
+      "text": "姑娘一家商量了一宿，让两个哥哥抬回去；一顿酒喝完，礼到底没退成。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_xin": {
+  "name": "安赫拉的信",
+  "type": "item",
+  "tier": "major",
+  "desc": "十七年，每周一封，近两千封，按日期码放、彩色绸带捆好。收信的人一封都没有拆开过。",
+  "image": "murder-assets/images/e_xin.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "十七年的信",
+    "fields": [
+     {
+      "label": "写信的人",
+      "blank": {
+       "answer": "e_anhela",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "每周一封",
+      "text": "从客套的问候写起，一周一封，雷打不动，第十年有一封写了整整二十页。"
+     },
+     {
+      "label": "绸带与日期",
+      "text": "近两千封信按日期码放整齐，用彩色绸带一捆一捆扎好，装在箱子里。"
+     },
+     {
+      "label": "一封未拆",
+      "text": "收信的人一封都没有拆开过。他只是把信原样搬回来，放在她面前。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_lifu": {
+  "name": "白亚麻礼服",
+  "type": "item",
+  "tier": "major",
+  "desc": "没浆洗的白色亚麻礼服，为吻主教的戒指而穿。穿礼服的时候，他从不打后门进出。",
+  "image": "murder-assets/images/e_lifu.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "不走后门的礼服",
+    "fields": [
+     {
+      "label": "念叨礼服规矩的人",
+      "blank": {
+       "answer": "e_pulaxida",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "为什么穿它",
+      "text": "主教船到镇的清晨，他翻出这件没浆洗的白色亚麻礼服，要去吻主教的戒指。"
+     },
+     {
+      "label": "家里的规矩",
+      "text": "这家人平日都走厨房后门，正门常年闩死；唯独穿礼服的儿子，从不打后门进出。"
+     },
+     {
+      "label": "那一天",
+      "text": "他穿着礼服走向正门时，不知道门已从里面闩上，也不知道两把刀等在门外。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_jinggaoxin": {
+  "name": "警告信",
+  "type": "item",
+  "tier": "minor",
+  "desc": "躺在正门底下的匿名信，写明凶手、地点与动机。他出门时没看见。",
+  "image": "murder-assets/images/e_jinggaoxin.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "没人看见的信",
+    "fields": [
+     {
+      "label": "压在谁家的门下",
+      "blank": {
+       "answer": "e_dazhai",
+       "pool": "place"
+      }
+     },
+     {
+      "label": "信里写明的内容",
+      "text": "谁要杀他、在哪里动手、为了什么，一封信写得清清楚楚。"
+     },
+     {
+      "label": "发现它的人",
+      "text": "他出门时从信上跨了过去。后来的人在地上找到它，才看见全部的真相。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_jinianzhang": {
+  "name": "圣母纪念章",
+  "type": "item",
+  "tier": "minor",
+  "desc": "他四岁那年吞下的金质纪念章，在胃里藏了十七年。",
+  "image": "murder-assets/images/e_jinianzhang.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "胃里的纪念章",
+    "fields": [
+     {
+      "label": "吞下它的人",
+      "blank": {
+       "answer": "e_nasa",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "四岁那年",
+      "text": "他四岁时吞下了这枚金质纪念章，谁都不知道，它就留在了胃里。"
+     },
+     {
+      "label": "解剖台上的发现",
+      "text": "十七年后，神父在解剖时从死者胃里把它取了出来，全场愕然。"
+     },
+     {
+      "label": "卡门教派的来历",
+      "text": "那是卡门教派的圣母纪念章，本是给孩子求平安的物件。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_baogao": {
+  "name": "预审报告残页",
+  "type": "item",
+  "tier": "major",
+  "desc": "三百二十二页预审报告，旁注写满法官的愤懑。二十年后，人们从泡水档案里翻了出来。",
+  "image": "murder-assets/images/e_baogao.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "三百二十二页",
+    "fields": [
+     {
+      "label": "报告的死者",
+      "blank": {
+       "answer": "e_nasa",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "开庭三天",
+      "text": "法官到镇后开庭三天，案卷积到三百二十二页，结论却只有一句话：查无实据。"
+     },
+     {
+      "label": "泡水的档案室",
+      "text": "省城的法院档案室遭了洪水，案卷泡在水里，二十年后被人一页一页捞出来。"
+     },
+     {
+      "label": "旁注里的文学",
+      "text": "法官把判不了的东西写进页边：宿命让我们隐遁无踪。见过的人都说，那些旁注像血书。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_chuan": {
+  "name": "主教船",
+  "type": "item",
+  "tier": "major",
+  "desc": "主教白衣站在船栏旁，朝人群机械地画十字。船没有停，谁的罪也没有被赦免。",
+  "image": "murder-assets/images/e_chuan.jpg",
+  "archive": [
+   {
+    "level": 3,
+    "title": "不停的船",
+    "fields": [
+     {
+      "label": "因迎接它而忘了口信的人",
+      "blank": {
+       "answer": "e_amaduo",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "全镇的指望",
+      "text": "主教白衣站在船栏旁，朝岸边人群机械地画十字，全镇挤在码头上等它停靠。"
+     },
+     {
+      "label": "没有停下",
+      "text": "汽笛响了几声，船身晃都没晃，载着全镇的指望，径直开了过去。"
+     },
+     {
+      "label": "被耽误的事",
+      "text": "为了迎接这条船，有人忘了救命的口信，有人卸下了枪里的子弹。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_xinxia": {
+  "name": "信匣",
+  "type": "item",
+  "tier": "minor",
+  "desc": "装满情书的木匣，案发清晨被弗洛拉撂还给纳萨。",
+  "image": "murder-assets/images/e_xinxia.jpg"
+ },
+ "e_xiuhuajia": {
+  "name": "绣花架",
+  "type": "item",
+  "tier": "minor",
+  "desc": "安赫拉十七年的营生与等待。他归来时，把背囊放在了上面。",
+  "image": "murder-assets/images/e_xiuhuajia.jpg"
+ },
+ "e_rongyu": {
+  "name": "荣誉",
+  "type": "concept",
+  "tier": "major",
+  "desc": "「我们是存心要杀他的，但是我们无罪——是为了名誉！」一把比证据还硬的刀。",
+  "image": "murder-assets/images/e_rongyu.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "为了名誉",
+    "fields": [
+     {
+      "label": "以它为名的自首者",
+      "blank": {
+       "answer": "e_tufu",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "自首那句话",
+      "text": "作案几分钟后他们把刀撂在神父桌上：我们是存心要杀他的，但是我们无罪——是为了名誉！"
+     },
+     {
+      "label": "法庭上的辩护",
+      "text": "律师以捍卫名誉作无罪辩护，这理由在法庭上比证据还硬，两人只候审三年便获释。"
+     },
+     {
+      "label": "心照不宣的认同",
+      "text": "全镇没人真把他们当凶手。多年以后人们提起那桩事，仍说那是没办法的事。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_suming": {
+  "name": "宿命",
+  "type": "concept",
+  "tier": "minor",
+  "desc": "预审法官写在旁注里的词：宿命让我们隐遁无踪。",
+  "image": "murder-assets/images/e_suming.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "隐遁无踪",
+    "fields": [
+     {
+      "label": "写下这个词的人",
+      "blank": {
+       "answer": "e_faguan",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "法官的无奈",
+      "text": "证据不足，动机成谜，卷宗越厚，真相越远。他只能在页边写下这个词。"
+     },
+     {
+      "label": "全镇的默契",
+      "text": "人人都知道发生了什么，又人人都说得不清不楚——好像约好了，一起躲进这个词里。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_chenmo": {
+  "name": "集体沉默",
+  "type": "concept",
+  "tier": "major",
+  "desc": "全镇提前三个小时知道了凶讯，人人以为自有别人去管，没有一个人走到他面前说一声。",
+  "image": "murder-assets/images/e_chenmo.jpg",
+  "archive": [
+   {
+    "level": 2,
+    "title": "人人都知道",
+    "fields": [
+     {
+      "label": "唯一四处求人的人",
+      "blank": {
+       "answer": "e_keluodi",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "提前三个小时",
+      "text": "从凌晨四点起，消息一传十、十传百，到他出门前，全镇几乎无人不知。"
+     },
+     {
+      "label": "二十二个听见的人",
+      "text": "光是在肉市，就有二十二个人亲耳听见那对兄弟扬言要杀人，报警的只有一个。"
+     },
+     {
+      "label": "自有别人去管",
+      "text": "人人都以为自有别人去提醒、去阻止。全镇的良知加在一起，没能凑成一个行动。"
+     }
+    ]
+   }
+  ]
+ },
+ "e_jiemeng": {
+  "name": "解梦",
+  "type": "concept",
+  "tier": "minor",
+  "desc": "普拉西达闻名全镇的本事。唯独儿子最后那个梦，她解错了。",
+  "image": "murder-assets/images/e_jiemeng.jpg"
+ },
+ "e_qiwei": {
+  "name": "气味",
+  "type": "concept",
+  "tier": "minor",
+  "desc": "死者留在凶手身上的气味。牢里用肥皂丝瓜瓤搓洗，也洗不掉。",
+  "image": "murder-assets/images/e_qiwei.jpg",
+  "archive": [
+   {
+    "level": 4,
+    "title": "洗不掉的气味",
+    "fields": [
+     {
+      "label": "被气味缠住的人",
+      "blank": {
+       "answer": "e_tufu",
+       "pool": "person"
+      }
+     },
+     {
+      "label": "肥皂与丝瓜瓤",
+      "text": "牢里他们一遍遍地搓洗，肥皂用掉一块又一块，总觉得那味道还沾在身上。"
+     },
+     {
+      "label": "就像比平时清醒两倍",
+      "text": "哥哥说，那几天夜里睡不着，人就像比平时清醒两倍——洗不掉的不是气味，是记忆。"
+     }
+    ]
+   }
+  ]
+ }
+}

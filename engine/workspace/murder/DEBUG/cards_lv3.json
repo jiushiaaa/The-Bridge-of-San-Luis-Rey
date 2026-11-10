@@ -1,0 +1,1446 @@
+[
+ {
+  "id": "c3_01",
+  "level": 3,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 0,
+  "title": "厨房里的兔子",
+  "cg": "murder-assets/cg/c3_01.jpg",
+  "cgPrompt": "Bright anime film style, 16:9: a rustic kitchen at dawn, a middle-aged cook chopping a rabbit on a wooden block, steam rising, her teenage daughter watching nervously by the stove, a sleepy young man in rumpled party clothes seen from behind at the kitchen door; tense quiet morning light. In the scene: the cook, her daughter, and the young master of the house.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "凌晨四点二十，婚礼的喧闹才散。[[NPC3]]从后门摸回家，和衣倒下就睡。厨房里，[[NPC1]]已经起来了，剁刀落在砧板上，咚，咚，咚。"
+   },
+   {
+    "kind": "narration",
+    "text": "五点钟，讨奶的妇人挎着空桶上门，讨了半碗热奶，又压着嗓子，带来一个消息。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "讨奶乞妇",
+    "text": "（凑到灶台边，声音发紧）行行好，赏口热奶再走。……还有句话，厨娘，你听了可别声张——屠户家那两兄弟，揣着刀，正满镇找你们家少爷，说要杀了他。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（手里的碗差点摔了）妈！这、这可怎么办？要不要去告诉太太？要不要去喊醒少爷？我、我拿不了主意……"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（刀没停，头也不抬）喊什么。天塌下来，自有高个子顶着。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "讨奶乞妇",
+    "text": "（喝完奶，挎起桶）话我带到了。全镇都知道了，就你们家还蒙在鼓里。我走了，这话你就当我没说过。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（追出门半步，又缩回来）妈，那咱们去报官？去找镇长？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（冷笑）报官？官老爷管的是体面人的事，几时轮得到你我。干活。"
+   },
+   {
+    "kind": "narration",
+    "text": "女儿盯着母亲的背影看，母亲没再说话。许多年前，这家的老爷{{e_laona|老纳}}把她哄上了手，转头又把她丢进厨房当佣人，一丢就是半辈子。那句警告在她喉咙里滚了一圈，到底还是咽了回去。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（低声，像说给自己听）各人有各人的命。"
+   },
+   {
+    "kind": "narration",
+    "text": "六点多，[[NPC3]]睡眼惺忪地下楼，正撞见她把剁开的兔子开膛，热气腾腾的内脏一把扔给了狗，狗抢作一团。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（皱起眉，后退半步）别那么野蛮。你就想想，假如它是个人。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把刀往砧板上一插）少爷，畜生就是畜生。想多了，肉就腥了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（摇头，打着哈欠往楼上走）大清早的，造孽。……我换礼服去了，主教的船不等人。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（手一抖，始终不敢抬头看少爷的脸）"
+   },
+   {
+    "kind": "narration",
+    "text": "他的脚步声上楼去了。母女俩谁也没抬头，谁也没把那个消息送出门。砧板上的兔子，还冒着热气。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_weiduoli"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_diveina"
+   },
+   {
+    "slot": "NPC3",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "这个家里最先知道凶讯的是做饭的人",
+   "旧年的委屈，在这个清晨结成了沉默"
+  ]
+ },
+ {
+  "id": "c3_02",
+  "level": 3,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "名场面",
+  "row": 1,
+  "title": "卸下子弹的枪",
+  "cg": "murder-assets/cg/c3_02.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a sunlit bedroom in an old Arab-style mansion, a cheerful young man in a slightly wrinkled white linen suit unloading bullets from a revolver onto a nightstand, an elderly mother in a shawl tidying nearby; warm morning light, tender everyday mood. In the scene: the young master and his mother.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "五点半，闹钟还没响，[[NPC1]]自己就醒了。只睡了一个钟头，他反倒精神，嗓门大得把整栋宅子都叫醒。母亲{{e_pulaxida|普拉西达}}披着披肩跟进来，一边收拾一边念叨。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulaxida",
+    "text": "（絮絮地）昨夜的婚礼闹到几点？你呀，从小到大，一疯起来就没个够。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（打哈欠，笑）妈，那样的婚礼，十年也赶不上一次。赶紧收拾，等主教的船一到，全镇都去河边。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulaxida",
+    "text": "（把床上的礼服抖开）你媳妇家那边，昨夜怎么早早就散了？我瞅着她脸色不大好。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "她身子不爽利，先回了。妈，你就别瞎琢磨，圣诞一到，保准给你办一场更风光的。"
+   },
+   {
+    "kind": "narration",
+    "text": "他从枕头底下摸出那把从不离身的{{e_qiang|马格南手枪}}，退出子弹，一粒一粒摆在掌心看了看，又把枪收进床头柜的抽屉，和手表放在一处。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulaxida",
+    "text": "（盯着那把枪）迎主教也带着这个？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（满不在乎地摆手）今天不带。满镇都是喜事，带它做什么。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulaxida",
+    "text": "（叹气）放下也好。你爹走后，你走到哪儿带到哪儿，睡觉都压在枕头底下，我看着心惊。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把子弹一粒粒码好）牧场上的规矩，防贼防狼。今天不一样，今天满镇都是客人。"
+   },
+   {
+    "kind": "narration",
+    "text": "他换上那件{{e_lifu|白亚麻礼服}}。料子是好料子，就是没浆过，软塌塌的，领口还皱着。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulaxida",
+    "text": "（伸手去抚平领子，叹气）跟你说过多少回，礼服要浆了才挺括。你就这么出门？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（对着镜子咧嘴一笑）妈，我穿什么都体面。走了，河边见！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_pulaxida",
+    "text": "（追到楼梯口）哎——抽空去看看你媳妇！听见没有？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（楼下传来笑声）知道啦——！"
+   },
+   {
+    "kind": "narration",
+    "text": "母亲站在卧室门口，看他噔噔噔下楼。那件没浆的白礼服在晨光里白得晃眼——这是她最后一次，看见儿子活生生的背影。抽屉里，枪静静地躺着，子弹一粒都没装。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "他卸下子弹时，两把刀已经磨好了",
+   "那件礼服是全镇最后的记忆"
+  ]
+ },
+ {
+  "id": "c3_03",
+  "level": 3,
+  "form": "scene",
+  "difficulty": "normal",
+  "len": "S",
+  "col": "名场面",
+  "row": 2,
+  "title": "门下的信",
+  "cg": "murder-assets/cg/c3_03.jpg",
+  "cgPrompt": "Bright anime style, 16:9: the grand front door of an old mansion opening onto dazzling morning light, a young man in a white linen suit stepping over the threshold, an unopened envelope lying unnoticed at his feet; luminous yet ominous mood, no text visible in frame.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "六点零五分，天刚亮透。[[NPC1]]难得地走了正门——这扇门平日总是闩死的，是家里老一辈定下的规矩，门闩得比钱柜还结实。只有迎贵客才开。今天主教来，算得上贵客。"
+   },
+   {
+    "kind": "narration",
+    "text": "门轴吱呀一声。晨光涌进门厅，也照亮了门槛内侧躺着的一只信封。那是一封{{e_jinggaoxin|警告信}}，没署名，字写得歪歪扭扭，边角叫夜里的潮气浸得发软：谁要杀他，在哪儿动手，为什么动手，全都写得明明白白。"
+   },
+   {
+    "kind": "narration",
+    "text": "他跨了过去。皮鞋尖几乎擦着信封，他却一眼都没往下看。许多年后，调查的人在泡水的档案里找到这封信，才发现全部的真相，早就躺在了他的脚边——信上的每一个字，后来都一字不差地应验了。"
+   },
+   {
+    "kind": "narration",
+    "text": "也没人说得清，这封信是什么时候、被谁从门缝底下塞进来的。送牛奶的没看见，扫街的没看见，连门槛上的灰都没惊动。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（回头朝楼上喊，声音快活）妈，我走了！迎完主教，上朋友家吃早餐去！"
+   },
+   {
+    "kind": "narration",
+    "text": "街上已经有早起的人跟他打招呼，他一路笑着应声，脚步轻得像踩着云。"
+   },
+   {
+    "kind": "narration",
+    "text": "楼上，以{{e_jiemeng|解梦}}闻名的母亲还在回味儿子清晨讲的那个梦。门在他身后合上，把信留在原处，静静地躺在晨光里。而那扇门，从这一天起，有了一个新的名字。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "真相躺在他脚边",
+   "这扇门后来有了一个不祥的名字"
+  ]
+ },
+ {
+  "id": "c3_04",
+  "level": 3,
+  "form": "scene",
+  "difficulty": "hard",
+  "len": "L",
+  "col": "名场面",
+  "row": 3,
+  "title": "主教不停船",
+  "cg": "murder-assets/cg/c3_04.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a crowded tropical river dock at sunrise, brass band playing, a white-robed bishop on a passing steamboat mechanically blessing the crowd, the boat not stopping; festive yet eerie atmosphere. In the foreground, seen from behind: a young man in a white linen suit, his best friend, and a young girl in a bright dress.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "六点过后，{{e_chuan|主教船}}还没见影子，河边已经挤满了人。乐队支起来了，背篓里的公鸡被鼓点惊得齐声打鸣，一声压过一声。小贩顶着箩筐在人群里钻，卖甘蔗酒，卖烤木薯，孩子们猴在树上，连平日最懒的狗都爬起来看热闹，专等汽笛响。"
+   },
+   {
+    "kind": "narration",
+    "text": "[[NPC1]]挤在最前排，白礼服扎眼得很。他昨夜闹到天快亮，这会儿却精神十足，正掰着手指头跟身边的人算昨夜的账。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（眉飞色舞）四十只火鸡，十一头猪，还有堆成山的酒！你猜这一场得花多少？我跟你讲，够咱们全镇吃一年的！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（笑）你算这个做什么？又不是你的钱。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一拍大腿）先学着！往后用得上。全镇上下，也就你肯听我唠叨这些鸡毛蒜皮。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（提着裙摆挤过来，戳他胳膊）哎，昨夜是谁跳到后半夜，嗓门比乐队还响？我在河对岸都听见了！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（得意）那是！高兴嘛！人一辈子，能赶上几场这样的婚礼？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（拆台）高兴是高兴，就是不知道踩肿了几位姑娘的脚背。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（大笑）胡说八道！……回头你们都来，让你们看看什么叫排场。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "听说主教是去省城，路过咱们这儿，停不停还两说。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "停！怎么不停？神父说了，全镇的公鸡都替他留着嗓子呢！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（眼睛亮晶晶的）行了行了，别吹了。一会儿船走了，都上我家吃早餐去，我妈煎了木薯饼！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（爽快地）好，一言为定！"
+   },
+   {
+    "kind": "narration",
+    "text": "汽笛响了。人群一下子安静下来，孩子们骑上大人的肩头。乐队把主教颂歌奏了一遍又一遍，指挥的汗顺着下巴直滴。主教穿着白袍站在船栏边，朝岸上画十字——一下，一下，机械得像钟摆，脸上没有一点表情。"
+   },
+   {
+    "kind": "narration",
+    "text": "船没有停。连减速的意思都没有，就这么从全镇的期待跟前滑了过去。有人叹气，有人骂乐队的钱白花了，有人把没卖完的甘蔗酒就地开了坛，背篓里的公鸡还在不明所以地叫。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（望着远去的船影）就这样走了？连岸都不靠？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（踮着脚挥手）主教大人！——唉，他根本没往咱们这儿看。"
+   },
+   {
+    "kind": "narration",
+    "text": "人群开始散。[[NPC1]]还在回味那顿说好了的早餐，[[NPC2]]却被一个满头大汗跑来的熟人拉到一边咬耳朵，脸色一点一点变了。"
+   },
+   {
+    "kind": "narration",
+    "text": "没有人留意到，看船的人群里混着两个屠夫打扮的汉子。他们的眼睛不看船，专往人堆里瞟。"
+   },
+   {
+    "kind": "narration",
+    "text": "那是全镇最后一次，这么多人整整齐齐地聚在一起。船开过的地方，河面平得没有一丝波纹，像什么都没发生过。后来很多年，镇上的人回忆起这个早晨，记住的不是主教的祝福，而是那身挤在最前排的白礼服。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_beiduoya"
+   },
+   {
+    "slot": "NPC3",
+    "kind": "person",
+    "answer": "e_mage"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_matou"
+   }
+  ],
+  "hints": [
+   "船没有停，谁的罪也没有被赦免",
+   "看船的人群里，杀人的和被杀的都在"
+  ]
+ },
+ {
+  "id": "c3_05",
+  "level": 3,
+  "form": "scene",
+  "difficulty": "hard",
+  "len": "L",
+  "col": "名场面",
+  "row": 4,
+  "title": "未婚妻的两条路",
+  "cg": "murder-assets/cg/c3_05.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a dim living room, a crying young woman throwing a wooden letter box at a young man in a white linen suit, love letters scattered across the floor, an old man standing sternly with a hunting rifle on the wall behind him; heavy, heartbroken mood, faces partially in shadow.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "六点四十五，[[NPC1]]推开未婚妻家的门。他脸上还挂着河边的笑意，一进门就觉出不对——屋里静得可怕，姑娘坐在客厅中央，眼睛又红又肿。"
+   },
+   {
+    "kind": "narration",
+    "text": "她脚边放着一只木匣。那是他三年里写给她的一匣子情书，{{e_xinxia|信匣}}上的铜扣，被摩挲得锃亮。姑娘哭了一整夜；老人在里屋坐了一整夜，那杆来复枪，擦了三遍。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（站起来，声音抖得不成样子）你来了。正好，省得我再跑一趟。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（笑）大清早的，这是怎么了？谁惹你——"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（把木匣朝他脚边一撂，匣盖崩开，信散了一地）拿去！但愿他们杀了你！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（眼泪掉下来）你还问我怎么了？全镇都传遍了！人家妹妹的名声，人家哥哥手里的刀——你装，你接着装！"
+   },
+   {
+    "kind": "narration",
+    "text": "信纸铺了半间屋子。他愣了两秒，什么也没问，跪下去一封一封地捡，头垂得很低，像在忏悔什么。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（捧着一把信，喃喃）名声？刀？我昨夜一晚上都在婚礼上，几十双眼睛看着！这到底是……我做什么了我……"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（老人从里屋出来，沉声）孩子，抬起头来。我问你一句话——他们说的那件事，是真是假，只有你自己知道。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（茫然抬头）什么事？伯父，我发誓，我真不知道你们在说什么。三年来，我哪一点对不住她？信在这儿，一封一封都在这儿！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（哭喊）谁要你的信！我要我的脸！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（盯着他看了很久，叹了口气）我在窗口看了你半天。你进门的时候，脸上一点事都没有。孩子，要么你是真清白，要么你是真会装。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（顿了顿）好。那我给你两条路。要么，留在这儿，哪儿也别去——从今天起，这儿就是你的家。要么，你现在出门，墙上那杆来复枪，你拿上。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（别过脸去，肩膀直抽）爸！你还跟他废什么话！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC3",
+    "text": "（不理女儿，只看着他）选吧。全镇的人都在外头等着看，你没有第三条路。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（站起身，信还攥在手里，手足无措）这是他妈的怎么回事……我没听明白。我真的没听明白。"
+   },
+   {
+    "kind": "narration",
+    "text": "老人把来复枪从墙上取下来，手有点抖。他又看了看那张茫然的脸，终究没有把枪塞过去。[[NPC1]]抱着那捧捡了一半的信，一步一步退出门去。门在他身后关上，屋里传来姑娘压不住的哭声。"
+   },
+   {
+    "kind": "narration",
+    "text": "老人站在门口，看着那个白色的背影走进白花花的太阳里，重重叹了口气，把来复枪重新挂上墙。两条路摆在面前，他一条都没有走——他朝自己家的方向，慢慢地走了过去。老人站在原地，听着屋里的哭声，忽然觉得自己一下子老了十岁。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_fuluola"
+   },
+   {
+    "slot": "NPC3",
+    "kind": "person",
+    "answer": "e_nayier"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_migejia"
+   }
+  ],
+  "hints": [
+   "老人给的两条路，他一条都没走",
+   "未婚妻的那句气话，几分钟后成了事实"
+  ]
+ },
+ {
+  "id": "c3_06",
+  "level": 3,
+  "form": "scene",
+  "difficulty": "hard",
+  "len": "L",
+  "col": "名场面",
+  "row": 5,
+  "title": "门前",
+  "cg": "murder-assets/cg/c3_06.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a blinding sunlit street, a young man in a white linen suit pounding desperately on a tall barred wooden door, two knife-wielding men as dark silhouettes closing in behind him, a silent crowd watching from across the street; unbearable tension, glaring light, no gore, no blood.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "七点刚过，太阳已经白晃晃的。从河边到他家正门不过几百步，街两边站满了人——买菜的、开店的、抱着孩子的，全都远远站着，像在看一场已经开锣的戏。{{e_chenmo|集体沉默}}把这个清晨罩得严严实实，空气里有刚出炉的面包香，也有些别的东西，说不清，压在每个人的喉咙口。没有一个人上前。"
+   },
+   {
+    "kind": "narration",
+    "text": "[[NPC1]]从街心跑过，白礼服被风鼓起来。一路上，不断有人从门缝里、窗缝里探出头。有人喊他的名字，喊到一半又咽了回去；有人冲他比手势，他看不懂。那身白礼服在人群的眼里晃，晃得人心慌。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（边跑边朝人群喊）怎么了？都站在这儿干什么？说话啊！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（看见熟人，挤出笑）都让让，都让让，大清早的，唱哪出啊？"
+   },
+   {
+    "kind": "narration",
+    "text": "没有人回答。几百人的街，静得能听见他的皮鞋声。卖面包的把篮子抱在胸前，像抱着什么烫手的东西。他身后，[[NPC2]]两个人举着刀追，刀在太阳底下亮得刺眼。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（一前一后，声音发狠）站住！有种的你站住！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（边追边喊，像是喊给全街听）是他先坏了规矩！怨不得别人！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（回头，满脸的不信）你们？为什么是我？！"
+   },
+   {
+    "kind": "narration",
+    "text": "他冲到自家正门前，拍门，砸门，喊妈。那扇门他从小进出，认得门板上的每一道纹路。可这一回，门闩得死死的——就在几分钟前，门从里面上了闩。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（拳头砸在门板上，一声比一声急）妈！开门！妈——！"
+   },
+   {
+    "kind": "narration",
+    "text": "街对面几百双眼睛看着。有人别过脸，有人捂住孩子的眼，没有一个人动。后来全镇的人都说，那一刻他们想喊，嗓子却像被什么堵住了。"
+   },
+   {
+    "kind": "narration",
+    "text": "刀落下去的时候，他回头望了一眼阳光下的人群。就是那一眼，他忽然全明白了。他不再砸门，也不再喊，倚着那扇再也敲不开的门，不再抵抗。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC2",
+    "text": "（许多年后，在法官面前，两人异口同声）我们一路都在等。等一个人出来拦我们，随便谁都行。可是没有，一个都没有。"
+   },
+   {
+    "kind": "narration",
+    "text": "河对岸，有人正在晾衣裳，听见这边的动静，隔着河拼命朝他挥手。"
+   },
+   {
+    "kind": "dialogue",
+    "speaker": "韦内姨妈",
+    "text": "（多年后回忆，声音发抖）我喊他，孩子，往这边跑！他听见我了。他朝我喊：他们把我杀了，韦内姑娘。……他把这句话留给了我，一留就是一辈子。后来我总梦见他站在河那边，还是那身白礼服，梦里我喊破了嗓子，他还是朝我笑。"
+   },
+   {
+    "kind": "narration",
+    "text": "清晨结束了。买菜的回家做饭，开店的卸下门板，只有街心那一小片人还围着，谁也不说话。全镇都知道的那件事，终于还是发生了——当着全镇的面。那扇白礼服靠过的门，从此再没有人敢在夜里敲它。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "NPC2",
+    "kind": "person",
+    "answer": "e_tufu"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "门是从里面闩上的",
+   "行凶者盼的阻止，到死也没来"
+  ]
+ },
+ {
+  "id": "c3_07",
+  "level": 3,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "纳萨",
+  "row": 0,
+  "title": "和衣而眠",
+  "cg": "murder-assets/cg/c3_07.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a dark bedroom at four in the morning, an exhausted young man in festive party clothes falling asleep fully dressed on his bed, one leg dangling off the edge, confetti still on his jacket; quiet, drowsy mood, faint dawn light at the window.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "凌晨四点二十，他推开家门，连灯都懒得点，摸着黑进了卧室。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "哎哟，可算到家了。这婚礼闹得，跳得我腿肚子直转筋。鞋不脱了，衣裳也不脱了，就这么躺一个钟头——就躺一个钟头。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "外乡人这手笔，是真没话说。酒成箱地搬，肉成堆地上，全镇的人吃得满嘴流油。好，办得好！等圣诞轮到我和{{e_fuluola|弗洛拉}}，咱也不能寒碜。她爱体面，我知道，到时候让她风风光光地嫁过来。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "她今天那条裙子，啧，全镇的小伙子眼睛都看直了。便宜我了。等开了春，先把东边的草场修一修，再给她打一套新家具。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "账本子还在桌上摊着呢……{{e_muchang|圣颜牧场}}上个月的进出，一笔都没盘。管它呢，明天再算，天大的事也明天再算。爹走了三年，这牧场不也叫我盘得转转的。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "五点半起，迎主教。妈说了，大喜的日子要体面。行，听她的，明天穿得板板正正的。早起先喝一碗她熬的粥，再去河边。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "闹钟呢？闹钟得上弦。……上了。五点半，一响就起，谁也别想拦我。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "一个钟头。就睡一个钟头。……这觉，可真香啊。"
+   },
+   {
+    "kind": "narration",
+    "text": "他和衣躺着，一条腿还搭在床沿，鼾声已经起来了。窗外，天边一点点泛出白来。再过一阵，厨娘就要在厨房里点起灶火，讨奶的妇人就要挎着桶上门。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   }
+  ],
+  "hints": [
+   "他给自己只留了一个小时的觉",
+   "他盘算的那场婚礼，永远不会有了"
+  ]
+ },
+ {
+  "id": "c3_08",
+  "level": 3,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "纳萨",
+  "row": 3,
+  "title": "我的婚礼也要像这样",
+  "cg": "murder-assets/cg/c3_08.jpg",
+  "cgPrompt": "Bright anime style, 16:9: golden morning light on a river dock just after a steamboat has left, a laughing young man in a white linen suit gesturing excitedly while counting on his fingers, a young man and a young girl laughing beside him; carefree, warm, golden mood.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "船一走，人群散了大半。[[NPC1]]还站在河边舍不得走，拉着最要好的朋友{{e_beiduoya|贝多亚}}算账。朋友的妹妹{{e_mage|玛戈特}}提着裙摆凑过来听热闹。人群边上，{{e_amaduo|阿马尔多}}神父还望着船去的方向出神，像是有心事。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "四十只火鸡！十一头猪！还有四只牛犊！你算算，这得多少钱？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "（笑）人家外乡人有钱，烧得起。你算这个做什么？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "学着点！还有那二百多箱酒，走私来的，一水儿的好酒！我昨夜喝了三杯——不，五杯！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_mage",
+    "text": "（捂嘴笑）五杯？我看你十五杯都不止，跳起舞来跟头牛似的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（一拍胸脯）胡说，我昨夜斯文得很！……好吧，最后那支舞，是踩了人家姑娘的脚。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "你就记得吃和喝。人家新郎迟了两个钟头，你没见新娘她妈那张脸。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "迟到怎么了？人家是大地方来的，轮船晚点，那是常事。还有烟花！半夜放的，把半个天都烧红了！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_mage",
+    "text": "我数着呢，光敬酒他就敬了二十多桌，一桌都没落下。还有教堂里的花，白得跟雪一样，那得多少钱？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "还能有谁。人家连神父的袍子都换了新的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "这就叫手笔！钱嘛，挣来就是花的，花在喜事上，值！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "还有人家送新娘的那台{{e_changji|手摇唱机}}，珍珠母的，全镇独一份。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（眼睛发亮）对！就得这个排场！听着——我的婚礼也要像这样，让他们一辈子也讲不完！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_mage",
+    "text": "哟，跟谁呀？婚期定了没有？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "圣诞！跟你们说定了，到时候全镇都来，酒管够！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_beiduoya",
+    "text": "（摇头笑）先把昨夜的酒醒透再说吧。等你办喜事，我给你当账房，一文一文替你记着。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "记！尽管记！记满了，让全镇传着念去！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_mage",
+    "text": "（拉他的袖子）别光顾着说。一刻钟后来我家吃早餐，我妈煎了木薯饼，说好的啊！凉了就不好吃了！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（爽快挥手）一言为定！你哥我说话，一口唾沫一个钉！我先绕一圈，一刻钟准到！"
+   },
+   {
+    "kind": "narration",
+    "text": "三个人笑作一团，在晨光里道了别。他哼着昨夜婚礼上的曲子，朝街那头去了。谁也没注意，不远处有两个屠夫打扮的人，正死死盯着这边。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_matou"
+   }
+  ],
+  "hints": [
+   "他应下的那顿早餐，赴不了了",
+   "这句话一小时后以另一种方式应验"
+  ]
+ },
+ {
+  "id": "c3_09",
+  "level": 3,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "纳萨",
+  "row": 5,
+  "title": "最后一句话",
+  "cg": "murder-assets/cg/c3_09.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a young man in a white linen suit standing alone in the middle of a glaring white street, crowds watching silently from doorways on both sides, his expression confused and afraid; harsh light, surreal stillness.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "他站在街心，太阳白得晃眼。狗在远处叫，叫了两声又停了。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "怎么回事？今天这是怎么了？买菜的不买菜，开店的不开店，全都站在街对面看我。看我做什么？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "她哭了。{{e_xinxia|信匣}}摔还给我，三年的信散了一地，她哭着说，但愿他们杀了我。他们？他们是谁？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "刚才好像有人喊我的名字。喊就喊吧，怎么个个脸色都那么难看，跟奔丧似的。大清早的，晦气。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_tufu|屠夫兄弟}}要杀我？……开什么玩笑。就为那个名字？那名字跟我有什么关系！我跟新娘统共没说过几句话！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "兴许是个误会。对，一定是误会，等见了面，三句话就能说清楚。我行的正坐的端，怕什么。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "还有那位老先生，好好的给什么两条路，又是留我又是递枪的，演哪出啊？我一个大活人，青天白日，还能叫人给卖了？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "可为什么是我？全镇的人都知道，全镇的人就这么站着看。你们倒是说句话啊，喊一嗓子也行啊！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "跑。先回家。{{e_dazhai|纳家大宅}}的门就在前面，进了门就什么都好了。妈在家，妈在家就什么都不怕。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "到了，就快到了。门怎么是关着的？大白天的，关什么门——妈！开门！妈——！"
+   },
+   {
+    "kind": "narration",
+    "text": "拍门声一下比一下急。街对面，几百双眼睛看着，没有一个人动，有人从窗户后面别开了眼睛。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_nasa"
+   }
+  ],
+  "hints": [
+   "全镇只有他不知道发生了什么",
+   "那扇门比人群更先拒绝了他"
+  ]
+ },
+ {
+  "id": "c3_10",
+  "level": 3,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "贝多亚",
+  "row": 4,
+  "title": "奔跑的人",
+  "cg": "murder-assets/cg/c3_10.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a desperate young man sprinting through sunlit small-town streets, townsfolk turning to stare, an old man with a hunting rifle visible in a doorway behind; frantic, breathless mood, motion blur on the runner.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "消息传到他耳朵里的时候，他正在往家走。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "什么？再说一遍？——两个屠夫，刀都磨好了，满镇地找他？你们早就知道？早就知道，你们不拦？！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "一个钟头前，我们还站在河边算账，他掰着手指头数人家的婚礼花了多少钱，笑得跟个傻子似的。一个钟头！才一个钟头！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "跑。先找到他。他什么防备都没有——枪在家里，子弹卸了，就摆在抽屉里。他连根烧火棍都没带在身上！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "他会去哪儿？这个点……{{e_migejia|米格尔家}}！他昨夜念叨过，一早要去看未婚妻。对，往那边跑！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "让开！麻烦让让！——人呢？出来的人说他早走了？走了多久？往哪边走的？！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "{{e_nayier|纳伊尔}}老先生把来复枪都递到他手边了，他没接。这个糊涂蛋！天塌下来了，他还当是谁家办喜事！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "全镇的人都知道，全镇的人都是哑巴！一条街的人，凑不出一句整话！行，你们不说，我自己找！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "折回去，往大宅跑。他一定回家了，他必须回家了。快，再快一点——就差几步路，就差几步！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "七分钟。后来法官告诉我，我差了七分钟。七分钟，一条命。这七分钟，我得背一辈子。"
+   },
+   {
+    "kind": "narration",
+    "text": "他跑到那扇门前的时候，街上的人群还没有散。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_beiduoya"
+   }
+  ],
+  "hints": [
+   "全镇想救他的只有这一个",
+   "他差的不是决心，是七分钟"
+  ]
+ },
+ {
+  "id": "c3_11",
+  "level": 3,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "贝多亚",
+  "row": 5,
+  "title": "空枪",
+  "cg": "murder-assets/cg/c3_11.jpg",
+  "cgPrompt": "Bright anime style, 16:9: inside an old mansion's bedroom, a breathless young man pulling an empty revolver from a nightstand drawer, a cook woman with a spatula blocking the staircase with a cold, evasive expression; tense confrontation in slanted morning light.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "他一头冲进大宅，鞋都没停，直奔楼上卧室。厨娘{{e_weiduoli|维多利}}举着锅铲从厨房追出来。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（拦在楼梯口）哎！你这是做什么？强盗啊？大清早闯进人家里翻箱倒柜！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（顾不上解释）他回来没有？我问你，他回来没有？！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（眼皮都不抬）谁？少爷？少爷昨夜闹婚礼，这会儿指不定在哪儿睡大觉呢。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（翻床底，拽开衣柜）人呢？到底回来过没有？这屋里你跟我说实话！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（堵在门口）翻吧，翻个底朝天，你也翻不出个大活人。少爷没回来，就是没回来。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（拉开抽屉）让开！——枪在这儿。子弹呢？子弹怎么全卸了！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（冷笑）你见过哪个糊涂酒鬼吃自己的大便？我们少爷精着呢，迎主教带枪做什么。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（把{{e_qiang|马格南手枪}}往怀里一揣）有人要杀他！两把刀，全镇都知道！你要是知道他下落，现在就告诉我！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（别过脸去）我一个做饭的，知道什么。兴许……往河边去了吧。你去河边寻寻。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（盯着她看了两秒）河边？今早有人来过没有？送奶的？报信的？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（顿了顿）没有。除了讨奶的，鬼都没上门一个。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（逼近一步）讨奶的？讨奶的说什么了？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（面不改色）能说什么。讨奶的讨奶，天经地义。你到底走不走？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "太太呢？太太知道这事吗？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（挥锅铲）太太歇着呢，天塌下来也等她睡醒再说。去去去，别在我这儿嚷嚷！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（冲到门口又回头）床头柜上这表，怎么不走了？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（手一抖）坏了吧。表还能为什么不走。"
+   },
+   {
+    "kind": "narration",
+    "text": "他揣着那把空枪冲进太阳地里，往河边去了。厨娘站在原地，锅铲攥得紧紧的——她指的方向，正好和少爷走的路相反。抽屉里的子弹躺在原处，一粒不少；床头柜上，手表停在六点五十八分。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_beiduoya"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "枪是空的，找的人也是空的",
+   "厨娘的装傻，是这个清晨又一块沉默的砖"
+  ]
+ },
+ {
+  "id": "c3_12",
+  "level": 3,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "普拉西达",
+  "row": 1,
+  "title": "凡是梦见小鸟",
+  "cg": "murder-assets/cg/c3_12.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a dim bedroom before dawn, a young man in a white linen suit leaning at the doorway with a glass of water, telling his dream; his mother half-sitting up in bed listening sleepily; intimate drowsy warmth with a hint of foreboding.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "五点半，天还没亮透。儿子{{e_nasa|纳萨}}端着水杯，倚在母亲卧室的门口，头发睡得乱翘。[[NPC1]]还歪在床上，人没起，耳朵先醒了。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "（灌了一口水）妈，我昨夜做了个梦。挺怪的，讲给你听听？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（闭着眼）讲。妈听着呢。你从小到大的梦，哪个不是妈给你解的。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "我梦见树了。老大的树，我一个人从树林子里穿过去，天上还飘着毛毛雨，细细的，落在脸上怪舒服的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（含糊）嗯……树。还有呢？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "那雨也怪，细得跟筛子筛过似的，打在树叶上沙沙响。我在林子里走啊走，怎么走都不累。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（打哈欠）不累好，不累是吉相。……后来呢？"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "后来？后来就醒了呗，醒来婚礼的喇叭声还在耳朵里响。要不是惦记着迎主教，我还能接着走。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "妈，你说怪不怪，这梦我好像做过不止一回，打小就老梦见树。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（闭着眼笑）日有所思。你是惦记你那片牧场，树多了，草场就旺。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "兴许吧。反正梦里我高兴得很，像有什么好事等着我。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "好事？你最大的好事，就是赶紧把婚结了，让妈抱孙子。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "（笑）全镇谁不知道我妈解梦一绝。你给断断，主吉还是主凶？"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（拖长声调）听好了——凡是梦见小鸟，都是身体健康的预兆。你这梦里连只鸟都没有，好得很，壮得跟牛一样。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "（大笑）得，妈说没事就没事！对了，等我和你儿媳妇办事，你也得帮我张罗张罗。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（来了精神）哟，知道着急了？放心，妈给你攒着呢，保准办得比谁家都体面。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_nasa",
+    "text": "那说定了！……我真走了啊，迎主教去！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（又闭上眼）去吧去吧。回来把礼服挂好，别随手一扔……"
+   },
+   {
+    "kind": "narration",
+    "text": "门口的脚步声远了。她把后半句叮嘱咽回肚里，又眯了一觉。全镇有名的{{e_jiemeng|解梦}}本事，多少人的祸福都断在她嘴里——唯独这一个梦，她听漏了。那个梦里没有小鸟。可惜她明白过来的时候，已经晚了。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_pulaxida"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "她解了一辈子梦，唯独漏了这一个",
+   "梦里没有小鸟"
+  ]
+ },
+ {
+  "id": "c3_13",
+  "level": 3,
+  "form": "dialogue",
+  "difficulty": "normal",
+  "len": "M",
+  "col": "普拉西达",
+  "row": 2,
+  "title": "礼服不走后门",
+  "cg": "murder-assets/cg/c3_13.jpg",
+  "cgPrompt": "Bright anime style, 16:9: a steamy kitchen in the morning, an elderly mother watching proudly through the window as her son in a white linen suit walks toward the front gate outside, a cook chopping filling with her back turned, distracted; everyday warmth hiding tension.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "清晨的厨房，粥在灶上咕嘟着。[[NPC1]]下楼来支应早活儿，隔着窗看见儿子一身{{e_lifu|白亚麻礼服}}，正大摇大摆地朝正门去。厨娘{{e_weiduoli|维多利}}背对着窗，剁馅的刀一下比一下重。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（朝窗外扬声）哎——吃了再走！灶上有粥！"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（回头，笑骂）这孩子，耳朵让婚礼的喇叭震聋了。你看见没有，多精神。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（头也不抬）看见了。少爷穿白的，是体面。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（絮絮地）跟他爹年轻时候一个模子。他爹当年穿白西装过广场，半个镇子的姑娘扒着窗户看。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（闷闷地）是啊。老爷当年，也体面。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "那是。我儿子穿礼服的时候，从不打后门进出。这是他爹活着的时候定下的规矩——礼服就是脸面，脸面就得走正门。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（刀一顿）……嗯。正门好，正门敞亮。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "你怎么了？从早上起就魂不守舍的，馅都剁成泥了。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（忙把刀放下）没什么。昨夜没睡踏实，蚊子多。……太太，粥要糊了。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（去搅锅）糊不了。——对了，昨夜婚礼上的剩菜，你回头收拾收拾，给东街那几家孤寡送点去。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（心不在焉）哎。……送东街的。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（看她一眼）你到底听进去没有？昨夜剩的是火鸡，不是馅饼！"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（一个激灵）听进去了。火鸡，东街。太太，我这就去拾掇。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（叹气）一个个的，昨夜都疯野了。也就我，老了，疯不动喽。——你说他这身打扮，等圣诞他自己办喜事，排场也不能输给外乡人。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（低声）是啊。圣诞……还早着呢。"
+   },
+   {
+    "kind": "dialogue",
+    "slot": "NPC1",
+    "text": "（憧憬）早什么，一眨眼就到。到时候你也得跟着忙活，我可离不了你这双手。"
+   },
+   {
+    "kind": "dialogue",
+    "speakerEntry": "e_weiduoli",
+    "text": "（望着窗外那个白色的背影，声音轻得几乎听不见）太太放心，我哪儿都不去。"
+   },
+   {
+    "kind": "narration",
+    "text": "门外，白礼服的影子拐过街角，看不见了。厨娘重新拿起刀，把一句滚到嘴边的话，连同那桩凶讯，一起剁进了馅里。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_pulaxida"
+   },
+   {
+    "slot": "地点",
+    "kind": "place",
+    "answer": "e_dazhai"
+   }
+  ],
+  "hints": [
+   "她为儿子的体面骄傲，不知道体面正把他引向正门",
+   "听这话的人，心里藏着另一件事"
+  ]
+ },
+ {
+  "id": "c3_14",
+  "level": 3,
+  "form": "monologue",
+  "difficulty": "easy",
+  "len": "S",
+  "col": "普拉西达",
+  "row": 5,
+  "title": "门闩",
+  "cg": "murder-assets/cg/c3_14.jpg",
+  "cgPrompt": "Bright anime style, 16:9: an elderly mother sliding a heavy wooden bolt across a grand front door, a pale servant girl beside her, two knife-carrying silhouettes rushing toward the door through glaring daylight outside; frantic tragic irony.",
+  "segments": [
+   {
+    "kind": "narration",
+    "text": "七点差几分，她从楼梯上下来，正撞见佣人的女儿{{e_diveina|迪维娜}}脸色煞白地拦在门厅。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "慌什么？脸白得跟纸一样。——什么？少爷上楼了？一分钟前刚上去的？"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "上去就好，上去就好。外头乱哄哄的，我隔着窗缝都看见了——两个拿刀的人，正朝咱们家门口奔。刀！青天白日的，谁家放出来这么两个丧门星！"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "（回头对那姑娘）别怕，有太太在，天塌不下来。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "关门。先关门。门闩，门闩在哪儿——挂上了。好，挂上了。任他是谁，也别想进{{e_dazhai|纳家大宅}}的门。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "孩子在楼上呢。幸亏孩子在楼上。老天爷保佑，他今儿怎么就这么懂事，知道往家跑，知道往楼上躲。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "门外怎么有拍打声？这么近，就在门板上。谁在外头砸门？——不管他。闩都闩了，砸就让他砸。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "（朝楼上喊）听见没有！你就给我躲在楼上！外头乱成这样你还敢出门，回头看我怎么收拾你！……这孩子，从小就让人操碎了心。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "等这事过去，非得好好问问，是谁家的祸害大清早拿着刀满街跑，还有没有王法了。"
+   },
+   {
+    "kind": "monologue",
+    "slot": "NPC1",
+    "text": "砸门的声音怎么停了。……也好，停了也好。等外头消停了，我再开门，给他熬他爱喝的粥。"
+   },
+   {
+    "kind": "narration",
+    "text": "她扶着楼梯栏杆往上走，嘴里还念叨着儿子的不是。门外的太阳白花花的，照在那一道刚挂上的门闩上。"
+   }
+  ],
+  "blanks": [
+   {
+    "slot": "NPC1",
+    "kind": "person",
+    "answer": "e_pulaxida"
+   }
+  ],
+  "hints": [
+   "她闩门是为了救儿子",
+   "说谎的女孩只想保护她"
+  ]
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "path": "/gates/0/title",
+  "en": "Book I Gate · Two paths",
+  "zh": "第一卷闸 · 两条路"
+ },
+ {
+  "path": "/gates/0/intro",
+  "en": "Two boys grew under the same banyan; from there the roads divided.",
+  "zh": "同一棵榕树下长大的两个少年，从此走上了两条路。"
+ },
+ {
+  "path": "/gates/0/blanks/0/prompt",
+  "en": "The Brahmin prayer-syllable of “perfection,” murmured as if the heart were an arrow aimed at Brahman, is:",
+  "zh": "婆罗门祷文的音节「圆满」，默念它时如以心为箭指向梵天，其音为："
+ },
+ {
+  "path": "/gates/0/blanks/1/prompt",
+  "en": "After three years in the forest, the elder who was hypnotised into bowing and blessing the two young men as they left is",
+  "zh": "林中度日三年，两个年轻人告别时被催眠得鞠躬祝福的长者是"
+ },
+ {
+  "path": "/gates/0/blanks/2/prompt",
+  "en": "After the teaching at Jetavana, the one who put on the yellow robe and entered the order is",
+  "zh": "祇园听法之后，披上黄衣、皈依僧团的是"
+ },
+ {
+  "path": "/gates/0/blanks/3/prompt",
+  "en": "The holy one to whose face Siddhartha said that doctrine cannot give awakening, and who at parting warned, “Beware of too much cleverness,” is",
+  "zh": "被悉达多当面指出「教义无法传达证悟」、临别赠言「提防你过分的聪明」的圣者是"
+ },
+ {
+  "path": "/gates/0/blanks/4/prompt",
+  "en": "The dialogue in which the two friends, divided in what they held true, at last went their separate ways is:",
+  "zh": "两位朋友由于理念不同，最终分道扬镳的那段对话剧情是："
+ },
+ {
+  "path": "/gates/1/title",
+  "en": "Book II Gate · Awakening",
+  "zh": "第二卷闸 · 醒来"
+ },
+ {
+  "path": "/gates/1/intro",
+  "en": "Twenty years were one dream of the world. What woke him was not another person, but a bird and a single syllable.",
+  "zh": "二十年尘世一梦，叫醒他的不是别人，是一只鸟和一个字。"
+ },
+ {
+  "path": "/gates/1/blanks/0/prompt",
+  "en": "The one who taught him the art of love, who at last set the little bird free from the golden cage and closed her gate to guests, is:",
+  "zh": "教他情爱之艺、最后放走金笼小鸟、闭门谢客的人是："
+ },
+ {
+  "path": "/gates/1/blanks/1/prompt",
+  "en": "The rich merchant of the great city who tested his reading and writing, took him into trade, and could not sleep for gain and loss, is:",
+  "zh": "考校他读写、带他做生意、总为盈亏睡不着觉的大城富商是："
+ },
+ {
+  "path": "/gates/1/blanks/2/prompt",
+  "en": "The gambling pieces with which, in his years of sinking, he staked fortunes to spend his contempt for money, are:",
+  "zh": "他沉沦岁月里一掷千金、借以发泄对金钱轻蔑的赌具是："
+ },
+ {
+  "path": "/gates/1/blanks/3/prompt",
+  "en": "The creature that lay stiff and dead in the golden cage in his dream, and after which he woke and cast everything aside, is that:",
+  "zh": "梦中僵死在金笼里、让他惊醒后抛下一切的是那只："
+ },
+ {
+  "path": "/gates/1/blanks/4/prompt",
+  "en": "In that instant by the river, the ancient syllable that called him back from the edge of death is:",
+  "zh": "河边那一瞬，把他从死亡边缘唤回的古老音节是："
+ },
+ {
+  "path": "/gates/1/blanks/5/prompt",
+  "en": "The tale in which he died once by the river and lived again is called:",
+  "zh": "他在河边死过一回、又活过来的故事，叫作："
+ },
+ {
+  "path": "/gates/2/title",
+  "en": "Book III Gate · The river",
+  "zh": "第三卷闸 · 河流"
+ },
+ {
+  "path": "/gates/2/intro",
+  "en": "The one who learned from the river at last heard, among a thousand voices, the one.",
+  "zh": "向河水学习的人，终于听见了万千声音里的那一个。"
+ },
+ {
+  "path": "/gates/2/blanks/0/prompt",
+  "en": "The old ferryman who taught him to listen to the river, and at last walked into the woods and into oneness, is 〔 〕.",
+  "zh": "教他倾听河水、最后步入林中融入圆融的老船夫是〔 〕。"
+ },
+ {
+  "path": "/gates/2/blanks/1/prompt",
+  "en": "The child who stole the ferry-money from the two-coloured basket, broke the oar, and fled alone back to the city is 〔 〕.",
+  "zh": "偷走双色小篮里的船费、折断船桨、独自逃回大城的孩子是〔 〕。"
+ },
+ {
+  "path": "/gates/2/blanks/2/prompt",
+  "en": "When all voices became one, the word the river sang at last is 〔 〕.",
+  "zh": "万音归一，河水最终唱出的那个字是〔 〕。"
+ },
+ {
+  "path": "/gates/2/blanks/3/prompt",
+  "en": "The old monk who came to the ferry to be taught, kissed his friend's brow, and then saw all forms flowing, is 〔 〕.",
+  "zh": "在渡口求教、吻过老友前额之后看见万相流转的老僧是〔 〕。"
+ },
+ {
+  "path": "/gates/2/blanks/4/prompt",
+  "en": "The tale of two old men listening to the river side by side, when a thousand voices became the sound of perfection, is called “ ”.",
+  "zh": "两个老人并肩听河、万千声音汇成圆满之音的故事，叫作《 》。"
+ }
+]

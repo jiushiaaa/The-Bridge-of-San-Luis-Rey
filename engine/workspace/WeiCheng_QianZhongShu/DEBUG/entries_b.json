@@ -1,0 +1,535 @@
+{
+ "e_suntaitai": {
+  "name": "孙太太",
+  "type": "person",
+  "tier": "minor",
+  "desc": "带孩子回国的船上乘客，嘴上没门，专爱替别人的婚事操心",
+  "avatar": "wc-assets/avatars/e_suntaitai.jpg",
+  "look": "around 40, plain dark qipao, hair in a tight bun, narrow gossiping eyes, leather child harness in hand",
+  "avatarPrompt": "Upper body portrait of a middle-aged Chinese woman in the 1930s, plain dark qipao, hair in a tight bun, sharp gossiping eyes, slightly pursed lips, holding a leather child harness, facing front, plain warm beige background"
+ },
+ "e_aliu": {
+  "name": "阿刘",
+  "type": "person",
+  "tier": "minor",
+  "desc": "邮船上的侍者，一口广东官话，铺床捡到发钗便起了敲竹杠的心",
+  "avatar": "wc-assets/avatars/e_aliu.jpg",
+  "look": "young Cantonese ship steward, white steward jacket, slicked-back hair, obsequious smile with shrewd eyes",
+  "avatarPrompt": "Upper body portrait of a young Cantonese ship steward in the 1930s, white steward jacket, slicked-back hair, obsequious smile hiding shrewd calculation, quick darting eyes, facing front, plain warm beige background",
+  "archive": [
+   {
+    "level": 1,
+    "title": "船上侍者",
+    "fields": [
+     {
+      "label": "船上差事",
+      "text": "白拉日隆子爵号房舱侍者，铺床叠被、送茶送水，一路上靠小费补贴家用"
+     },
+     {
+      "label": "三只发钗",
+      "text": "西贡那夜之后，他从方先生房舱铺床捡到三只女人夹头发的东西，不动声色收好，回头开口要三百法郎"
+     },
+     {
+      "label": "敲竹杠的东西",
+      "blank": { "answer": "e_fachai", "pool": "item" }
+     },
+     {
+      "label": "砸了饭碗",
+      "text": "孙先生等人在舱里打牌被查，他连累丢了差事，下船前还拿着那东西来讨酒钱"
+     }
+    ]
+   }
+  ]
+ },
+ "e_xiaocheng": {
+  "name": "效成",
+  "type": "person",
+  "tier": "minor",
+  "desc": "周家的小舅子，十五六岁，一对招风耳，饭桌上专捅漏子",
+  "avatar": "wc-assets/avatars/e_xiaocheng.jpg",
+  "look": "15-year-old schoolboy, cloth student cap, prominent protruding ears, mischievous grin",
+  "avatarPrompt": "Upper body portrait of a fifteen-year-old Chinese schoolboy in the 1930s, cloth student cap, prominent protruding ears, mischievous bright eyes, dark school uniform jacket, facing front, plain warm beige background"
+ },
+ "e_fanglaotai": {
+  "name": "方老太太",
+  "type": "person",
+  "tier": "minor",
+  "desc": "方遯翁的夫人，懦弱惯了，一辈子围着儿孙转，嫌新妇不像新娘",
+  "avatar": "wc-assets/avatars/e_fanglaotai.jpg",
+  "look": "elderly gentry wife, grey-streaked hair in a bun, dark satin jacket, timid kindly eyes, slightly stooped",
+  "avatarPrompt": "Upper body portrait of an elderly Chinese gentry wife in the 1930s, grey-streaked hair in a neat bun, dark satin traditional jacket, timid and kindly eyes, slightly stooped shoulders, facing front, plain warm beige background"
+ },
+ "e_pengtu": {
+  "name": "鹏图",
+  "type": "person",
+  "tier": "minor",
+  "desc": "方家二少爷，银行行员，算盘打得精，眼里只有实惠",
+  "avatar": "wc-assets/avatars/e_pengtu.jpg",
+  "look": "early 30s bank clerk, neat Western suit, carefully parted hair, thin shrewd face",
+  "avatarPrompt": "Upper body portrait of a Chinese bank clerk in his early thirties, 1930s, neat Western suit and tie, carefully parted hair, thin shrewd face, calculating eyes, faint polite smile, facing front, plain warm beige background"
+ },
+ "e_fengyi": {
+  "name": "凤仪",
+  "type": "person",
+  "tier": "minor",
+  "desc": "方家三少爷，人老实，那件借错的大褂害哥哥演讲出了丑",
+  "avatar": "wc-assets/avatars/e_fengyi.jpg",
+  "look": "late 20s, honest round face, plain dark long gown, awkward gentle smile",
+  "avatarPrompt": "Upper body portrait of a Chinese man in his late twenties, 1930s, honest round face, plain dark long gown, awkward gentle smile, simple straightforward eyes, facing front, plain warm beige background"
+ },
+ "e_ernainai": {
+  "name": "二奶奶",
+  "type": "person",
+  "tier": "minor",
+  "desc": "鹏图的太太，阿丑的娘，上门做客名为叙旧，实为盘点陪嫁",
+  "avatar": "wc-assets/avatars/e_ernainai.jpg",
+  "look": "young shrewd housewife, floral qipao, waved hair, sharp appraising smile",
+  "avatarPrompt": "Upper body portrait of a young Chinese housewife in the 1930s, floral qipao, waved hair, sharp smiling eyes that seem to appraise everything, polite but calculating expression, facing front, plain warm beige background"
+ },
+ "e_sannainai": {
+  "name": "三奶奶",
+  "type": "person",
+  "tier": "minor",
+  "desc": "凤仪的太太，阿凶的娘，嘴上带刀，专挑新妇的刺",
+  "avatar": "wc-assets/avatars/e_sannainai.jpg",
+  "look": "young caustic housewife, plain dark qipao, thin lips, cold sarcastic gaze",
+  "avatarPrompt": "Upper body portrait of a young Chinese housewife in the 1930s, plain dark qipao, thin lips pressed in a sarcastic half-smile, cold cutting gaze, slightly tilted chin, facing front, plain warm beige background"
+ },
+ "e_zhangjimin": {
+  "name": "张吉民",
+  "type": "person",
+  "tier": "minor",
+  "desc": "花旗洋行买办，满口洋泾浜英语，管自己太太叫 headache",
+  "avatar": "wc-assets/avatars/e_zhangjimin.jpg",
+  "look": "comprador, shiny Western suit with pocket square, pomaded hair, gold-rim glasses, overly hearty grin",
+  "avatarPrompt": "Upper body portrait of a Chinese comprador in the 1930s, shiny Western suit with pocket square, pomaded hair, gold-rimmed glasses, overly hearty self-satisfied grin, facing front, plain warm beige background"
+ },
+ "e_zhangtaitai": {
+  "name": "张太太",
+  "type": "person",
+  "tier": "minor",
+  "desc": "张吉民的太太，佛珠不离手，替女儿择婿一试一个准",
+  "avatar": "wc-assets/avatars/e_zhangtaitai.jpg",
+  "look": "middle-aged devout wife, dark high-collared qipao, prayer beads in hand, severe appraising eyes",
+  "avatarPrompt": "Upper body portrait of a middle-aged Chinese wife in the 1930s, dark high-collared qipao, Buddhist prayer beads held in one hand, severe appraising eyes, faint disapproving frown, facing front, plain warm beige background"
+ },
+ "e_zhangxiaojie": {
+  "name": "张小姐",
+  "type": "person",
+  "tier": "minor",
+  "desc": "张家小姐，十八岁，书架上摆着《怎样去获得丈夫而且守住他》",
+  "avatar": "wc-assets/avatars/e_zhangxiaojie.jpg",
+  "look": "18-year-old Shanghai miss, Western-style dress, curled fringe, spoiled pout, proud picky eyes",
+  "avatarPrompt": "Upper body portrait of an eighteen-year-old Shanghai girl in the 1930s, Western-style dress, curled fringe, slightly spoiled pout, proud picky eyes, fashionable little hat, facing front, plain warm beige background"
+ },
+ "e_lvxiaozhang": {
+  "name": "吕校长",
+  "type": "person",
+  "tier": "minor",
+  "desc": "省立中学校长，请留洋博士回乡演讲，出了岔子只会咳嗽圆场",
+  "avatar": "wc-assets/avatars/e_lvxiaozhang.jpg",
+  "look": "middle-aged school principal, grey long gown, round glasses, embarrassed diplomatic smile, hand near mouth as if coughing",
+  "avatarPrompt": "Upper body portrait of a middle-aged Chinese school principal in the 1930s, grey long gown, round glasses, embarrassed diplomatic smile, one hand raised near his mouth as if about to cough, facing front, plain warm beige background"
+ },
+ "e_wangmeiyu": {
+  "name": "王美玉",
+  "type": "person",
+  "tier": "minor",
+  "desc": "鹰潭小客店里的风尘女子，从上海逃难而来，名字被嫖客题在墙上",
+  "avatar": "wc-assets/avatars/e_wangmeiyu.jpg",
+  "look": "worn young woman, sharp high cheekbones, thin face, faded cheap qipao, weary flirtatious eyes",
+  "avatarPrompt": "Upper body portrait of a worn young Chinese woman in the 1930s, sharp high cheekbones and thin face, faded cheap qipao, tired eyes with a habitual flirtatious edge, hair in a loose bun, facing front, plain warm beige background",
+  "archive": [
+   {
+    "level": 3,
+    "title": "鹰潭女子",
+    "fields": [
+     {
+      "label": "沦落鹰潭",
+      "text": "本是上海女子，战事一起逃难到江西，在鹰潭小客店里做迎来送往的生意"
+     },
+     {
+      "label": "墙上的名字",
+      "text": "客店墙上满是过客题壁：「路过鹰潭与王美玉女士恩爱双双」，还有人写「注意！王美玉有毒」"
+     },
+     {
+      "label": "一条门路",
+      "text": "李梅亭想借她搭上军车，她应了，也办了——乱世里，这是她仅有的本钱"
+     },
+     {
+      "label": "搭线的军车主人",
+      "blank": { "answer": "e_houyingzhang", "pool": "person" }
+     }
+    ]
+   }
+  ]
+ },
+ "e_guafu": {
+  "name": "苏州寡妇",
+  "type": "person",
+  "tier": "minor",
+  "desc": "丈夫新死，带男仆阿福去桂林投夫兄，汽车上一路眼风不断",
+  "avatar": "wc-assets/avatars/e_guafu.jpg",
+  "look": "young widow, plain pale mourning-toned qipao, small white flower in hair bun, restless darting eyes",
+  "avatarPrompt": "Upper body portrait of a young Chinese widow in the 1930s, plain pale mourning-toned qipao, small white flower pinned in her hair bun, restless darting eyes with a flirtatious glint, facing front, plain warm beige background"
+ },
+ "e_shentaitai": {
+  "name": "沈太太",
+  "type": "person",
+  "tier": "minor",
+  "desc": "从法国回来的沙龙名媛，身上气味熏人，办副刊，后来登报投敌",
+  "avatar": "wc-assets/avatars/e_shentaitai.jpg",
+  "look": "French-returned salon lady, fur-collared Western coat, wavy bobbed hair, red lips, affected languid pose",
+  "avatarPrompt": "Upper body portrait of a Chinese salon lady just back from France, 1930s, fur-collared Western coat, wavy bobbed hair, bright red lips, affected languid pose, eyes full of self-importance, facing front, plain warm beige background",
+  "archive": [
+   {
+    "level": 2,
+    "title": "沙龙名媛",
+    "fields": [
+     {
+      "label": "沙龙时代",
+      "text": "战前刚从法国回来，一身浓香，谈巴黎、谈战事宣传，是沙龙里最出风头的人"
+     },
+     {
+      "label": "办茶会的地方",
+      "blank": { "answer": "e_sujiayuan", "pool": "place" }
+     },
+     {
+      "label": "几封信",
+      "text": "写过《给祖国姊妹们的几封信》，日后办《家庭与妇女》副刊，几十篇文章其实只有一篇"
+     },
+     {
+      "label": "不问政治",
+      "text": "提起丈夫只说「他名气太大」；丈夫投靠南京伪政府，她登报声明「不问政治」，随即翩然赴宁"
+     }
+    ]
+   }
+  ]
+ },
+ "e_wangzongbian": {
+  "name": "王先生",
+  "type": "person",
+  "tier": "minor",
+  "desc": "华美新闻社总编辑，报馆里少有的正人君子，因言论激烈被逼辞职",
+  "avatar": "wc-assets/avatars/e_wangzongbian.jpg",
+  "look": "upright newspaper editor, round glasses, plain dark long gown, serious principled face, tired eyes",
+  "avatarPrompt": "Upper body portrait of an upright Chinese newspaper editor in the 1930s, round glasses, plain dark long gown, serious principled expression, honest steady eyes, slightly tired from overwork, facing front, plain warm beige background"
+ },
+ "e_hantaitai": {
+  "name": "韩太太",
+  "type": "person",
+  "tier": "minor",
+  "desc": "韩学愈的太太，红头发满脸雀斑的白俄，对外一口一个美国人",
+  "avatar": "wc-assets/avatars/e_hantaitai.jpg",
+  "look": "middle-aged White Russian woman, frizzy red hair, freckled full face, padded Chinese-style jacket, ingratiating smile",
+  "avatarPrompt": "Upper body portrait of a middle-aged White Russian woman in 1930s China, frizzy red hair, freckled full face, padded Chinese-style jacket, ingratiating eager smile, facing front, plain warm beige background"
+ },
+ "e_liuxiaojie": {
+  "name": "刘小姐",
+  "type": "person",
+  "tier": "minor",
+  "desc": "刘东方的妹妹，历史系毕业，被哥嫂安排去相方鸿渐，受足冷落",
+  "avatar": "wc-assets/avatars/e_liuxiaojie.jpg",
+  "look": "quiet history-graduate young lady, modest pale qipao, low bun, sullen neglected expression",
+  "avatarPrompt": "Upper body portrait of a quiet young Chinese woman in the 1930s, modest pale qipao, low hair bun, university-graduate air, slightly sullen neglected expression, eyes lowered, facing front, plain warm beige background"
+ },
+ "e_liyisheng": {
+  "name": "李医生",
+  "type": "person",
+  "tier": "minor",
+  "desc": "鲍小姐的未婚夫，出钱供她留学的香港医生，半秃顶的黑胖子",
+  "avatar": "wc-assets/avatars/e_liyisheng.jpg",
+  "look": "portly doctor, half-bald head, large round glasses, dark complexion, respectable Western suit, smug honest smile",
+  "avatarPrompt": "Upper body portrait of a portly Chinese doctor in the 1930s, half-bald head, large round glasses, dark complexion, respectable Western suit, honest smug smile of a successful man, facing front, plain warm beige background"
+ },
+ "e_houyingzhang": {
+  "name": "侯营长",
+  "type": "person",
+  "tier": "minor",
+  "desc": "驻鹰潭的军车营长，桔皮大鼻子，为人豪爽，女人和铁箱一概不带",
+  "avatar": "wc-assets/avatars/e_houyingzhang.jpg",
+  "look": "army battalion commander, khaki uniform, big orange-peel textured nose, weathered face, loud generous grin",
+  "avatarPrompt": "Upper body portrait of a hearty Chinese army battalion commander in the 1930s, khaki uniform, big orange-peel textured nose, weathered face, loud generous grin, soldierly bearing, facing front, plain warm beige background"
+ },
+ "e_achou": {
+  "name": "阿丑",
+  "type": "person",
+  "tier": "minor",
+  "desc": "鹏图的儿子，方遯翁起名非相，四岁，嘴快，问什么叫「关系」",
+  "avatar": "wc-assets/avatars/e_achou.jpg",
+  "look": "4-year-old boy, tiger-head cloth cap, round cheeks, quick curious eyes, mouth open mid-question",
+  "avatarPrompt": "Upper body portrait of a four-year-old Chinese boy in the 1930s, tiger-head cloth cap, round cheeks, quick curious eyes, mouth open in the middle of an innocent blunt question, facing front, plain warm beige background"
+ },
+ "e_lunchuan": {
+  "name": "白拉日隆子爵号",
+  "type": "place",
+  "tier": "minor",
+  "desc": "驶往中国的法国邮船，三伏天的甲板上，麻将、艳遇与闲话一起发酵",
+  "image": "wc-assets/images/e_lunchuan.jpg",
+  "imagePrompt": "Deck of a 1930s French ocean liner in tropical seas, wicker deck chairs, brass railings, a mahjong table under a canvas awning, bright hot sunlight over the ocean horizon"
+ },
+ "e_xigong": {
+  "name": "西贡",
+  "type": "place",
+  "tier": "minor",
+  "desc": "法属殖民地港口，邮船在此停泊两夜，燥热里有艳遇也有敲诈",
+  "image": "wc-assets/images/e_xigong.jpg",
+  "imagePrompt": "1930s Saigon harbor, French colonial buildings with shuttered windows along the quay, a moored ocean liner, rickshaws and palm trees, humid tropical afternoon light"
+ },
+ "e_xianggangmatou": {
+  "name": "香港码头",
+  "type": "place",
+  "tier": "minor",
+  "desc": "九龙码头的接船人潮里，鲍小姐扑进未婚夫怀里，戏到此散场",
+  "image": "wc-assets/images/e_xianggangmatou.jpg",
+  "imagePrompt": "1930s Kowloon ferry pier in Hong Kong, crowded dock with rickshaws and porters, steam launches, people greeting arriving passengers, harbor and green hills beyond"
+ },
+ "e_zhoujia": {
+  "name": "周家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "点金银行经理宅，方鸿渐寄居的岳家，饭桌上句句都是本钱账",
+  "image": "wc-assets/images/e_zhoujia.jpg",
+  "imagePrompt": "Well-to-do 1930s Shanghai banker's residence, Western-style sitting room mixed with rosewood furniture, glass-shaded lamps, framed photographs on a dresser, upholstered sofa, dining table set for dinner"
+ },
+ "e_dianjin": {
+  "name": "点金银行",
+  "type": "place",
+  "tier": "minor",
+  "desc": "周经理的银行，方鸿渐挂着空名领干薪，体面下面全是寄人篱下",
+  "image": "wc-assets/images/e_dianjin.jpg",
+  "imagePrompt": "Interior of a small 1930s Shanghai private bank, polished wooden counter with brass grill, abacus and ledgers, wall calendar, clerks' desks by tall windows"
+ },
+ "e_litang": {
+  "name": "县立中学礼堂",
+  "type": "place",
+  "tier": "minor",
+  "desc": "故乡中学的礼堂，一场「鸦片与梅毒」的演讲让满座哗然",
+  "image": "wc-assets/images/e_litang.jpg",
+  "imagePrompt": "1930s Chinese county middle-school auditorium, wooden stage with a lectern, rows of simple benches, paper banners on whitewashed walls, dusty sunlight through high windows"
+ },
+ "e_zhangfu": {
+  "name": "张公馆",
+  "type": "place",
+  "tier": "minor",
+  "desc": "买办张吉民的公馆，洋货与瓷器堆出来的体面，麻将桌上相女婿",
+  "image": "wc-assets/images/e_zhangfu.jpg",
+  "imagePrompt": "Living room of a 1930s Shanghai comprador's mansion, Western sofa mixed with antique Chinese porcelain vases, bookshelf with English novels, a mahjong table set for guests"
+ },
+ "e_sujiayuan": {
+  "name": "苏家花园",
+  "type": "place",
+  "tier": "minor",
+  "desc": "苏家的花园洋房，茶会、诗扇与六角亭的月光，情场的主战场",
+  "image": "wc-assets/images/e_sujiayuan.jpg",
+  "imagePrompt": "Garden of a 1930s Shanghai villa, manicured lawn and flower beds, wisteria, an elegant hexagonal pavilion, rattan garden chairs on the terrace, soft evening light"
+ },
+ "e_emei": {
+  "name": "峨嵋春",
+  "type": "place",
+  "tier": "minor",
+  "desc": "一家川菜馆，方鸿渐与唐晓芙唯一一次无人搅局的晚餐",
+  "image": "wc-assets/images/e_emei.jpg",
+  "imagePrompt": "Interior of a small 1930s Sichuan restaurant in Shanghai, round wooden tables, red-lacquered chairs, steaming dishes, paper lanterns, a quiet corner table for two"
+ },
+ "e_tangjia": {
+  "name": "唐家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "唐晓芙的家，书房里谈过留学与诗，也下过决裂的判决书",
+  "image": "wc-assets/images/e_tangjia.jpg",
+  "imagePrompt": "Study room of a 1930s Shanghai lawyer's home, full bookshelves, a desk by the window with letters and books, soft afternoon light, modest refined furnishings"
+ },
+ "e_zhaogongyu": {
+  "name": "赵辛楣公寓",
+  "type": "place",
+  "tier": "minor",
+  "desc": "赵辛楣的洋式公寓，一场灌醉方鸿渐的酒宴，「围城」在此点题",
+  "image": "wc-assets/images/e_zhaogongyu.jpg",
+  "imagePrompt": "1930s Shanghai Western-style bachelor's apartment, round dining table laid for a drinking party, wine bottles, pipes on the mantel, bookshelves, warm lamplight"
+ },
+ "e_yilunchuan": {
+  "name": "意国轮船",
+  "type": "place",
+  "tier": "minor",
+  "desc": "上海开往宁波的意国轮船，舱位让来让去，甲板夜话被人听了去",
+  "image": "wc-assets/images/e_yilunchuan.jpg",
+  "imagePrompt": "Deck of a small 1930s Italian steamer on the China coast at night, railings, cabin doors, dim deck lamps, dark sea, folding chairs on the open deck"
+ },
+ "e_xikou": {
+  "name": "溪口",
+  "type": "place",
+  "tier": "minor",
+  "desc": "浙东小镇溪口，茶馆歇脚，出镇便是雨中赶路的起点",
+  "image": "wc-assets/images/e_xikou.jpg",
+  "imagePrompt": "1930s small riverside town in eastern Zhejiang, old teahouse with bamboo chairs by the water, stone-paved street, misty hills, drizzling rain"
+ },
+ "e_tengqiao": {
+  "name": "藤条长桥",
+  "type": "place",
+  "tier": "minor",
+  "desc": "溪口外一座无栏杆的藤条长桥，两边下塌，胆小的要被领着走",
+  "image": "wc-assets/images/e_tengqiao.jpg",
+  "imagePrompt": "Long rickety rope-and-rattan suspension bridge over a mountain stream, no railings, sagging planks, both ends dipping down, misty valley below, drizzling rain"
+ },
+ "e_ouya": {
+  "name": "欧亚大旅社",
+  "type": "place",
+  "tier": "minor",
+  "desc": "金华的欧亚大旅社，浆糊面、满床跳蚤，李梅亭的铁箱在此开箱",
+  "image": "wc-assets/images/e_ouya.jpg",
+  "imagePrompt": "Shabby interior of a 1930s small-town Chinese inn, iron bedsteads with patched mosquito nets, dim oil lamp, a huge man-high iron trunk by the wall, cracked plaster"
+ },
+ "e_yingtan": {
+  "name": "鹰潭小客店",
+  "type": "place",
+  "tier": "minor",
+  "desc": "鹰潭的小客店，墙上题满艳词，风肉里吃出蛆，军车门路在此谈崩",
+  "image": "wc-assets/images/e_yingtan.jpg",
+  "imagePrompt": "Dim interior of a 1930s roadside inn in a Jiangxi town, wooden tables, a wall covered with scribbled inscriptions left by travelers, smoky oil lamp, dusty beams"
+ },
+ "e_nancheng": {
+  "name": "南城公路汽车",
+  "type": "place",
+  "tier": "minor",
+  "desc": "开往南城的公路汽车，米袋占座、寡妇与男仆，挤出一整车戏",
+  "image": "wc-assets/images/e_nancheng.jpg",
+  "imagePrompt": "Interior of a crowded 1930s Chinese long-distance bus, wooden benches, sacks of rice occupying seats, peasants and luggage crammed inside, dusty windows, mountain road outside"
+ },
+ "e_jian": {
+  "name": "吉安",
+  "type": "place",
+  "tier": "minor",
+  "desc": "赣江边的小城吉安，汇款卡在银行要铺保，五个人在这里挨饿",
+  "image": "wc-assets/images/e_jian.jpg",
+  "imagePrompt": "1930s Jiangxi county town by the Gan river, grey-brick bank building with stone steps, a quiet official bureau gate, muddy street with peddlers, overcast sky"
+ },
+ "e_jiehualong": {
+  "name": "界化陇",
+  "type": "place",
+  "tier": "minor",
+  "desc": "赣湘交界的山边小店，孙柔嘉在这里病倒，吐得昏天黑地",
+  "image": "wc-assets/images/e_jiehualong.jpg",
+  "imagePrompt": "Tiny mountain inn at the Hunan-Jiangxi border, ramshackle wooden building on a ridge road, oil lamp glowing in a window, cold misty night, steep mountains all around"
+ },
+ "e_huopu": {
+  "name": "火铺",
+  "type": "place",
+  "tier": "minor",
+  "desc": "坟场边供过客过夜的火铺统铺，夜半一声「别压住我的红棉袄」",
+  "image": "wc-assets/images/e_huopu.jpg",
+  "imagePrompt": "Communal sleeping platform inside a 1930s Chinese roadside shelter beside a graveyard, straw mats, a dim fire pit, grave mounds visible outside in the moonlight, eerie stillness"
+ },
+ "e_sanlu": {
+  "name": "三闾大学",
+  "type": "place",
+  "tier": "minor",
+  "desc": "设在平成乡下一座财主花园里的大学，人事比学问热闹得多",
+  "image": "wc-assets/images/e_sanlu.jpg",
+  "imagePrompt": "A makeshift 1930s Chinese university set in a former landlord's country garden, old halls and rockeries turned into campus, tiled roofs, muddy paths, wartime austerity"
+ },
+ "e_xiaozhangshi": {
+  "name": "校长室",
+  "type": "place",
+  "tier": "minor",
+  "desc": "高校长的办公室，「没收到信」的谎言与降职谈话都在这张桌前",
+  "image": "wc-assets/images/e_xiaozhangshi.jpg",
+  "imagePrompt": "University president's office in 1930s China, heavy wooden desk with inkstone and telephone, official documents, wall map, stiff armchairs for visitors, curt formality"
+ },
+ "e_sushe": {
+  "name": "教员宿舍",
+  "type": "place",
+  "tier": "minor",
+  "desc": "教员们的宿舍，闲话、情书与小册子，什么都藏不住",
+  "image": "wc-assets/images/e_sushe.jpg",
+  "imagePrompt": "Faculty dormitory corridor of a makeshift 1930s Chinese university, simple rooms with desks and iron beds, books and letters on tables, paper windows, quiet evening"
+ },
+ "e_jiaoshi": {
+  "name": "教室",
+  "type": "place",
+  "tier": "minor",
+  "desc": "丁组英文课的教室，黑板上的英文辱骂，把女助教气哭了",
+  "image": "wc-assets/images/e_jiaoshi.jpg",
+  "imagePrompt": "Sparse 1930s Chinese college classroom, blackboard with chalk marks, rows of wooden desks and benches, cracked walls, cold daylight through bare windows"
+ },
+ "e_lianyishi": {
+  "name": "联谊室",
+  "type": "place",
+  "tier": "minor",
+  "desc": "教职工联谊室，给李梅亭接风的欢迎会，开成了汪处厚的地盘",
+  "image": "wc-assets/images/e_lianyishi.jpg",
+  "imagePrompt": "Faculty common room of a 1930s Chinese university, long table set for a welcome gathering, teacups and peanut dishes, folding chairs, paper decorations on plain walls"
+ },
+ "e_wangjia": {
+  "name": "汪家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "汪处厚家的黑砖半西式平屋，一场做媒晚宴，一场夜里的捉奸",
+  "image": "wc-assets/images/e_wangjia.jpg",
+  "imagePrompt": "Semi-Western single-story dark brick house of a 1930s Chinese official, round dining table under lamplight, scroll paintings on the wall, a side room with a mahjong table"
+ },
+ "e_zhenguan": {
+  "name": "镇上馆子",
+  "type": "place",
+  "tier": "minor",
+  "desc": "平成镇上唯一的像样馆子，订婚喜酒与送行的饭局都摆在这里",
+  "image": "wc-assets/images/e_zhenguan.jpg",
+  "imagePrompt": "The only decent restaurant in a 1930s small Chinese county town, square tables set with banquet dishes, red paper lanterns, wooden benches, noisy warm interior"
+ },
+ "e_guilin": {
+  "name": "桂林旅馆",
+  "type": "place",
+  "tier": "minor",
+  "desc": "等飞机票的桂林旅馆，十几天山水相伴，全书最后一段无忧日子",
+  "image": "wc-assets/images/e_guilin.jpg",
+  "imagePrompt": "Pleasant 1930s inn in Guilin, clean room with windows facing karst peaks, wooden veranda, tea table, morning mist over the river landscape"
+ },
+ "e_xglvguan": {
+  "name": "香港旅馆",
+  "type": "place",
+  "tier": "minor",
+  "desc": "飞抵香港后住的旅馆，晕机的呕吐刚止，「千方百计」在此爆发",
+  "image": "wc-assets/images/e_xglvguan.jpg",
+  "imagePrompt": "1930s Hong Kong hotel room, ceiling fan, twin beds with white covers, balcony facing the harbor, travel trunks half unpacked, humid bright afternoon"
+ },
+ "e_aoguo": {
+  "name": "奥国馆子",
+  "type": "place",
+  "tier": "minor",
+  "desc": "香港的奥国馆子，赵辛楣请吃西餐，一句「煞费苦心」漏了天机",
+  "image": "wc-assets/images/e_aoguo.jpg",
+  "imagePrompt": "Interior of a small Austrian restaurant in 1930s Hong Kong, checkered tablecloths, bentwood chairs, wine glasses, wood-paneled walls, intimate lamplight"
+ },
+ "e_zhaojiashan": {
+  "name": "赵家山上",
+  "type": "place",
+  "tier": "minor",
+  "desc": "赵家山上的亲戚宅，拜见赵老太太，与做了曹太太的苏文纨重逢",
+  "image": "wc-assets/images/e_zhaojiashan.jpg",
+  "imagePrompt": "Drawing room of a 1930s Hong Kong hillside mansion, rattan and teak furniture, ceiling fan, wide windows overlooking the harbor, tea service on a lacquer table"
+ },
+ "e_fangjia": {
+  "name": "方家",
+  "type": "place",
+  "tier": "minor",
+  "desc": "方家在上海租界的寓所，拜见公婆、冬至晚饭，婆媳暗战的阵地",
+  "image": "wc-assets/images/e_fangjia.jpg",
+  "imagePrompt": "Shanghai concession apartment of an old gentry family in the 1930s, ancestral altar table with scrolls, mahogany chairs, winter solstice dinner dishes, stiff formal atmosphere"
+ },
+ "e_huamei": {
+  "name": "华美新闻社",
+  "type": "place",
+  "tier": "minor",
+  "desc": "上海报馆，方鸿渐挂名资料室主任，实为副刊抄《主妇手册》",
+  "image": "wc-assets/images/e_huamei.jpg",
+  "imagePrompt": "Editorial office of a 1930s Shanghai newspaper, desks piled with proofs and newspapers, ink and paste pots, type blocks, deadline clutter, warm gaslight"
+ },
+ "e_xiaojia": {
+  "name": "小家庭",
+  "type": "place",
+  "tier": "minor",
+  "desc": "方孙夫妇的两间小房，姑母的家具、慢七分钟的钟，终吵的战场",
+  "image": "wc-assets/images/e_xiaojia.jpg",
+  "imagePrompt": "Two small rooms of a young couple's flat in 1930s Shanghai, secondhand furniture gifted by relatives, an old-fashioned chiming clock on the wall, cramped lived-in warmth"
+ }
+}

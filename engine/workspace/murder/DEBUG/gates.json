@@ -1,0 +1,54 @@
+[
+  {
+    "after": 1,
+    "title": "闸门 · 婚礼之前",
+    "intro": "第一卷拼完了。一场全镇最风光的婚礼，把所有人的命运钉在了一起。",
+    "blanks": [
+      { "prompt": "摇椅上半睡半醒就宣布“我要娶她”的外乡人", "answerEntry": "e_shengroman" },
+      { "prompt": "用“爱也是可以学来的”驳回女儿的母亲", "answerEntry": "e_pulixi" },
+      { "prompt": "被一万比索现钱买走、前主人死于心碎的新房", "answerEntry": "e_bieshu" },
+      { "prompt": "在自家门廊议论别人婚事、不知命运临头的年轻牧场主", "answerEntry": "e_nasa" },
+      { "prompt": "深夜把新娘牵回娘家的那一页", "answerTitle": "c1_05" },
+      { "prompt": "为送一件礼物买光全场彩票的那一页", "answerTitle": "c1_03" }
+    ]
+  },
+  {
+    "after": 2,
+    "title": "闸门 · 全镇皆知",
+    "intro": "第二卷拼完了。从凌晨三点开始，全镇都知道了，只有他不知道。",
+    "blanks": [
+      { "prompt": "被提上餐桌逼供、说出那个名字的人", "answerEntry": "e_anhela" },
+      { "prompt": "只收刀不拘人、自以为万事大吉的镇长", "answerEntry": "e_aponte" },
+      { "prompt": "全镇唯一四处求人阻止凶案的人", "answerEntry": "e_keluodi" },
+      { "prompt": "递上裹刀报纸、说“不能像个男子汉就不嫁”的未婚妻", "answerEntry": "e_puludeng" },
+      { "prompt": "当着二十二个人磨刀扬言的那一页", "answerTitle": "c2_02" },
+      { "prompt": "凌晨餐桌上说出名字的那一页", "answerTitle": "c2_01" }
+    ]
+  },
+  {
+    "after": 3,
+    "title": "闸门 · 凶杀清晨",
+    "intro": "第三卷拼完了。每一个“差一点点”，都把他往那扇门前推了一步。",
+    "blanks": [
+      { "prompt": "听信谎话、亲手闩死正门的母亲", "answerEntry": "e_pulaxida" },
+      { "prompt": "谎称“他一分钟前上楼去了”的厨娘女儿", "answerEntry": "e_diveina" },
+      { "prompt": "因旧怨知情不报、把话咽回去的厨娘", "answerEntry": "e_weiduoli" },
+      { "prompt": "揣着空枪满城寻人、只差七分钟的好友", "answerEntry": "e_beiduoya" },
+      { "prompt": "主教在船上画十字、船没有停的那一页", "answerTitle": "c3_04" },
+      { "prompt": "他拍打着被闩死的门的那一页", "answerTitle": "c3_06" }
+    ]
+  },
+  {
+    "after": 4,
+    "title": "闸门 · 多年以后",
+    "intro": "第四卷拼完了。案子早已了结，人心各有各的没结。",
+    "blanks": [
+      { "prompt": "把十七年写成近两千封信的女人", "answerEntry": "e_anhela" },
+      { "prompt": "带着一箱未拆的信归来、只说“好吧，我来了”的人", "answerEntry": "e_shengroman" },
+      { "prompt": "查不出死者有罪证据、在旁注里写满愤懑的法官", "answerEntry": "e_faguan" },
+      { "prompt": "被迫拿起手术刀、在死者胃里找到纪念章的神父", "answerEntry": "e_amaduo" },
+      { "prompt": "八月午后背囊放在绣花机上的那一页", "answerTitle": "c4_07" },
+      { "prompt": "二十三年后“别兜圈子了，表兄”的那一页", "answerTitle": "c4_12" }
+    ]
+  }
+]

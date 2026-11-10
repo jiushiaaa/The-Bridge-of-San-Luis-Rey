@@ -1,0 +1,6627 @@
+{
+ "meta": {
+  "id": "bad",
+  "title": "坏血",
+  "subtitle": "一个硅谷巨头的秘密与谎言 · 档案修复员版",
+  "version": 2,
+  "stamina": {
+   "start": 8,
+   "perLevel": 4,
+   "searchCost": 1,
+   "completeReward": 1,
+   "restGain": 2
+  },
+  "cardSpec": {
+   "avg": 700
+  }
+ },
+ "frame": {
+  "levelIntro": {
+   "1": [
+    {
+     "kind": "narration",
+     "text": "第一卷 · 一滴血的梦"
+    },
+    {
+     "kind": "narration",
+     "text": "箱子打开，最上面是一张烧焦了边的碎纸，只剩半句话：「……太完美了。」下面压着一封邮件残页，日期是2006年11月17日，发件地址在瑞士。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "这半句话是那家公司最贵的一句话。当天有人在会议室里说它「太完美了」，两天后，一个把话讲明白的人被当场请出了大门。"
+    },
+    {
+     "kind": "narration",
+     "text": "2018年秋，硅谷。那家估值九十亿美元的血液检测公司倒闭后的第三个月，一只没有寄件人的纸箱被送到报社资料室：半箱碎纸，半箱没来得及碎的文件。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "都在这儿了——幻灯片、邮件、实验记录、律师信。人名像叫虫蛀了，页序全乱。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "你的活计：把名字补回去，把页序排回去。别只盯着大人物——箱底那些收费单、辞职信、投诉信，才是这个故事真正的重量。"
+    },
+    {
+     "kind": "narration",
+     "text": "你戴上手套，捡起第一张碎片。上面只有一行字：「不，总统将会娶我，因为我会拥有10亿美元。」"
+    },
+    {
+     "kind": "narration",
+     "text": "你把那张烧焦的碎纸单独放在灯下。它属于两年之后的故事——可这一箱里的每一页，都从它开始。"
+    }
+   ],
+   "2": [
+    {
+     "kind": "narration",
+     "text": "第二卷 · 独角兽"
+    },
+    {
+     "kind": "narration",
+     "text": "第一箱拼完了。原来所有的谎言，都从一场「完美」的演示开始。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "第二箱更沉。这几年公司搬了新楼、签了大主顾、上了杂志封面——值钱的东西多了，锁也多了。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "留意那些想说话的人。在这家公司，说真话的代价，一份比一份贵。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "也留意那些没资格说话的人：排队给员工诊所抽血的普通职员，拿到异常报告又被告知「复查正常」的人。他们的名字不在任何一份幻灯片上。"
+    },
+    {
+     "kind": "narration",
+     "text": "箱子中层是一叠复印件：员工体检的异常报告、一封被要求「归还或永久销毁」材料的律师信、一份技术员逐条记录违规操作的邮件。"
+    },
+    {
+     "kind": "narration",
+     "text": "箱底压着一本《牧羊少年奇幻之旅》，扉页上盖着公司的章。"
+    }
+   ],
+   "3": [
+    {
+     "kind": "narration",
+     "text": "第三卷 · 没穿衣服的女王"
+    },
+    {
+     "kind": "narration",
+     "text": "最后一箱。这一箱里没有幻灯片，只有信——投诉信、恐吓信、律师信，和一叠剪报。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "我年轻那会儿，老记者教过一个词：拉马坦萨。西西里的渔夫把鱼群赶进网里，不急着收，等它自己乱。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "这一箱里有两种人：一种拿着执照签字、最后签不下去了；一种什么都没签过，只是去药店抽了一次血。后一种人最容易被漏掉，可缺了他们，这个故事就只是一场商业纠纷。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "把这卷拼完。然后你就会明白，九层之台，是怎么塌的。"
+    },
+    {
+     "kind": "narration",
+     "text": "你翻出第一卷里那张三千美元的急诊收费单，把它夹进这一箱的第一页——它终于等到了自己的位置。"
+    },
+    {
+     "kind": "narration",
+     "text": "最上面的一张剪报，头版标题写着：《一家被看好的创业公司的挣扎》。"
+    }
+   ]
+  },
+  "ending": {
+   "title": "尾声 · 尘埃落定",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "三卷档案拼齐了。九年，一滴血，九十亿美元，最后剩下一页破产文件和几万页证据副本。"
+    },
+    {
+     "kind": "narration",
+     "text": "你把最后一张残页放进格子：2018年6月，创始人与前总裁被两项串谋诈骗、九项诈骗罪起诉；同年9月，公司资金耗尽解散。投资者损失约十亿美元。"
+    },
+    {
+     "kind": "narration",
+     "text": "可十亿美元只是账面上的那一半。另一半是这样计量的：加州与亚利桑那被作废或纠正的检测结果接近一百万份；一笔四百六十五万美元的退款，要摊给七万六千多个做过检测的人；一位房地产经纪人的三千美元急诊账单，保险不管，她自己付了。"
+    },
+    {
+     "kind": "narration",
+     "text": "说真话的人也各有账单：一位实验室主管被逼删掉一百七十五封邮件；一位前国务卿的孙子和家人花掉四十多万美元律师费，一整年不敢接陌生电话；一位年轻的实验员换了城市、重新读书，才重新开始。还有一位首席科学家，没能等到这一天。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "拼得不错。现在告诉我，这家公司到底是怎么垮的？"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "不是记者打垮的，也不是监管打垮的。是第一场假演示就埋下的雷——后面每一个人，不过是先后听见了倒计时。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "但你要记清楚一件事：让这颗雷真正炸响的，不是一篇报道，是一封一页纸的投诉信，署名的人当时二十多岁，刚辞职，无权无势。"
+    },
+    {
+     "kind": "narration",
+     "text": "你把档案装订成册，贴上标签。标签上写着：坏血。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "硅谷说「演久成真」，说先把姿态摆足、让现实追上来。卖软件可以这么干，卖验血不行——医生拿着这张纸给病人开药、决定手术。吹嘘的代价，从来不是由吹嘘的人来付。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "老编辑",
+     "text": "整理好它，让更多人看到。下次再有人跟你说「演久成真」，让他先看看这个——尤其是最后那几页收费单。"
+    },
+    {
+     "kind": "narration",
+     "text": "窗外，硅谷的灯还亮着。下一个独角兽的故事，已经在某个车库里开场了。而资料室的灯，也还得亮着。"
+    }
+   ],
+   "credit": "坏血 · 一个硅谷巨头的秘密与谎言 · 档案修复员版 · 幻光文游"
+  }
+ },
+ "timelines": {
+  "1": {
+   "rows": [
+    "辍学创业",
+    "完美演示",
+    "爱迪生",
+    "苹果信徒",
+    "逼宫",
+    "杀手专利"
+   ],
+   "cols": [
+    "名场面",
+    "霍姆斯",
+    "沙奈克",
+    "伊恩",
+    "富兹"
+   ]
+  },
+  "2": {
+   "rows": [
+    "桑尼新政",
+    "连锁药店",
+    "迷你实验室",
+    "军方风波",
+    "科学家之死",
+    "强行上线",
+    "九十亿",
+    "吹哨人"
+   ],
+   "cols": [
+    "名场面",
+    "霍姆斯",
+    "桑尼",
+    "伊恩",
+    "泰勒",
+    "富兹"
+   ]
+  },
+  "3": {
+   "rows": [
+    "希波克拉底",
+    "第一通电话",
+    "凤凰城",
+    "伏击",
+    "上门对峙",
+    "拉马坦萨",
+    "见报",
+    "监管重锤",
+    "女王落幕"
+   ],
+   "cols": [
+    "名场面",
+    "卡雷鲁",
+    "比姆",
+    "泰勒",
+    "艾瑞卡",
+    "格伦兹"
+   ]
+  }
+ },
+ "levelStartEntries": {
+  "1": [
+   "e_holmes"
+  ],
+  "2": [
+   "e_sunny"
+  ],
+  "3": [
+   "e_carreyrou"
+  ]
+ },
+ "gates": [
+  {
+   "after": 1,
+   "title": "第一卷 · 谎言的起点",
+   "intro": "拼完这一箱，你该看清：所有的谎，是从哪儿开始说的。",
+   "blanks": [
+    {
+     "prompt": "从加州远程发出「完美结果」的生物信息主管是",
+     "answerEntry": "e_tkemp"
+    },
+    {
+     "prompt": "发现演示造假、被当场解雇的首席财务官是",
+     "answerEntry": "e_mosley"
+    },
+    {
+     "prompt": "用点胶机器人攒出早期原型机「爱迪生」的爱尔兰工程师是",
+     "answerEntry": "e_tony"
+    },
+    {
+     "prompt": "圣诞夜收到律师威胁邮件的苹果出身董事",
+     "answerEntry": "e_avie"
+    },
+    {
+     "prompt": "申请「杀手专利」向老邻居发难的医生发明家",
+     "answerEntry": "e_fuisz"
+    },
+    {
+     "prompt": "两小时逆转董事会罢免决议的情节是",
+     "answerTitle": "c1_05"
+    },
+    {
+     "prompt": "尽管公司问题重重，但公司上下仍然保有乐观的信心。这种信念来自硅谷文化：",
+     "answerEntry": "e_fakeit"
+    }
+   ]
+  },
+  {
+   "after": 2,
+   "title": "第二卷 · 泡沫的成分",
+   "intro": "九十亿美元的泡沫，都掺了些什么？",
+   "blanks": [
+    {
+     "prompt": "被拒之实验室门外、最早系统质疑的药店顾问",
+     "answerEntry": "e_hunter"
+    },
+    {
+     "prompt": "指出「监管结构还没做好飞翔准备」的中校",
+     "answerEntry": "e_shoemaker"
+    },
+    {
+     "prompt": "被传唤作证后服毒的首席科学家",
+     "answerEntry": "e_ian"
+    },
+    {
+     "prompt": "给投资人看的完美拟合图，数据其实来自别家机器",
+     "answerEntry": "e_scatter"
+    },
+    {
+     "prompt": "化名求证、得到「PT欺诈」结论的年轻人",
+     "answerEntry": "e_tyler"
+    },
+    {
+     "prompt": "在健康中心强行上线的那年九月",
+     "answerTitle": "c2_06"
+    }
+   ]
+  },
+  {
+   "after": 3,
+   "title": "第三卷 · 崩塌的链条",
+   "intro": "从一封邮件到一份起诉书，链条上的每一环都在这儿了。",
+   "blanks": [
+    {
+     "prompt": "被迫删掉175封备份邮件的实验室主管",
+     "answerEntry": "e_beam"
+    },
+    {
+     "prompt": "把线索交给报社的病理学博客作者",
+     "answerEntry": "e_clapper"
+    },
+    {
+     "prompt": "带队闯进报社、宣称「不同意发表商业秘密」的王牌律师",
+     "answerEntry": "e_boies"
+    },
+    {
+     "prompt": "一封投诉信引爆监管检查的实验员",
+     "answerEntry": "e_erika"
+    },
+    {
+     "prompt": "感恩节夜里被一份错报告送进急诊、自付三千美元的病人",
+     "answerEntry": "e_glunz"
+    },
+    {
+     "prompt": "让「女王」现形的头版报道",
+     "answerTitle": "c3_07"
+    }
+   ]
+  }
+ ],
+ "assets": {
+  "mysteryAvatar": "bad-assets/images/npc_unknown.png",
+  "titleImage": "bad-assets/images/title.jpg",
+  "endingImage": "bad-assets/images/ending.jpg",
+  "sceneIcon": "bad-assets/images/scene_icon.jpg",
+  "favicon": "bad-assets/images/favicon.png"
+ },
+ "entries": {
+  "e_holmes": {
+   "name": "霍姆斯",
+   "type": "person",
+   "tier": "core",
+   "desc": "希拉洛斯创始人，19岁从斯坦福辍学，黑色高领衫与刻意压低的嗓音",
+   "avatar": "bad-assets/avatars/e_holmes.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "斯坦福辍学生",
+     "fields": [
+      {
+       "label": "出身",
+       "text": "华盛顿特区名流家庭，祖辈创立过酵母帝国又败落"
+      },
+      {
+       "label": "志向",
+       "text": "九岁宣称「不，总统将会娶我，因为我会拥有10亿美元」"
+      },
+      {
+       "label": "学历",
+       "text": "斯坦福大学化学工程系，读到大二辍学创业"
+      },
+      {
+       "label": "标志",
+       "text": "黑色高领衫、压低的嗓音、每天只睡四小时，整天嚼巧克力咖啡豆"
+      },
+      {
+       "label": "第一位投资人",
+       "blank": {
+        "answer": "e_draper",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "最初构想",
+       "blank": {
+        "answer": "e_patch",
+        "pool": "item"
+       }
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "独角兽女王",
+     "fields": [
+      {
+       "label": "巅峰",
+       "text": "公司估值九十亿美元，她的个人身家将近五十亿"
+      },
+      {
+       "label": "阵仗",
+       "text": "二十人保安团队、「老鹰一号」代号、一辆没有车牌的奥迪"
+      },
+      {
+       "label": "权柄",
+       "text": "2013年起每股一百票、握有99.7%投票权——「董事会只是个摆设」"
+      },
+      {
+       "label": "秘密男友",
+       "blank": {
+        "answer": "e_sunny",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "象征着装",
+       "blank": {
+        "answer": "e_turtleneck",
+        "pool": "item"
+       }
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "被告",
+     "fields": [
+      {
+       "label": "崩塌",
+       "text": "报道、突检、禁业，十八个月内尽失"
+      },
+      {
+       "label": "代价",
+       "text": "作废与纠正的检测结果接近一百万份，投资者损失约十亿美元"
+      },
+      {
+       "label": "结局",
+       "text": "与SEC和解：放弃投票控制权、罚款五十万；随后被刑事起诉"
+      },
+      {
+       "label": "总结",
+       "text": "她不是任何人的傀儡——「在这里所有事情我说了算」"
+      },
+      {
+       "label": "被她抛弃的搭档",
+       "blank": {
+        "answer": "e_sunny",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "让她现形的那篇头版出自谁手",
+       "blank": {
+        "answer": "e_carreyrou",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_sunny": {
+   "name": "桑尼",
+   "type": "person",
+   "tier": "core",
+   "desc": "总裁兼COO，比创始人大近二十岁的秘密男友，靠恐吓维持秩序的人",
+   "avatar": "bad-assets/avatars/e_sunny.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "商业竞价网富豪",
+     "fields": [
+      {
+       "label": "来历",
+       "text": "互联网泡沫里卖掉一家公司，套现四千多万美元"
+      },
+      {
+       "label": "管理",
+       "text": "恐吓式——「我挣的钱够养活我家七代人，我根本不用待在这儿」"
+      },
+      {
+       "label": "笑话",
+       "text": "把「末端执行器」听成「末端因子」，工程师照着这个错名做了一整份PPT"
+      },
+      {
+       "label": "女友",
+       "blank": {
+        "answer": "e_holmes",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "管理风格",
+       "blank": {
+        "answer": "e_fear",
+        "pool": "concept"
+       }
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "被抛弃的搭档",
+     "fields": [
+      {
+       "label": "分手",
+       "text": "2016年5月被分手并解雇，恐惧机器的总教头自己被清了出去"
+      },
+      {
+       "label": "现身",
+       "text": "2017年的取证会上坐在长桌另一端，试图用眼神压住那位年轻证人"
+      },
+      {
+       "label": "指控",
+       "text": "与她一同被指控「精心策划、持续多年的欺诈」，各缴五十万美元保释金"
+      },
+      {
+       "label": "他曾挡在实验室门口的巡视员",
+       "blank": {
+        "answer": "e_yamamoto",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "他被赶走那年发布的机器",
+       "blank": {
+        "answer": "e_minilab",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_shaunak": {
+   "name": "沙奈克",
+   "type": "person",
+   "tier": "major",
+   "desc": "联合创始人、一号员工，化学工程博士，务实的怀疑者",
+   "avatar": "bad-assets/avatars/e_shaunak.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "一号员工",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "联合创始人，化学工程博士，本来有教职在等他"
+      },
+      {
+       "label": "入职",
+       "text": "2004年5月成为公司第一个雇员，工号001"
+      },
+      {
+       "label": "性情",
+       "text": "务实，习惯把「能不能做到」放在「想不想做到」前面"
+      },
+      {
+       "label": "离场",
+       "text": "2007年底友好离职，113万股以50美分一股回售"
+      },
+      {
+       "label": "参与设计原型机",
+       "blank": {
+        "answer": "e_theranos1",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_eddie": {
+   "name": "埃迪",
+   "type": "person",
+   "tier": "minor",
+   "desc": "工程主管，香港出生，微流体路线的负责人",
+   "avatar": "bad-assets/avatars/e_eddie.jpg"
+  },
+  "e_tony": {
+   "name": "托尼",
+   "type": "person",
+   "tier": "major",
+   "desc": "爱尔兰工程师，用点胶机器人攒出「爱迪生」",
+   "avatar": "bad-assets/avatars/e_tony.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "点胶机器人",
+     "fields": [
+      {
+       "label": "出身",
+       "text": "爱尔兰工程师，做过罗技和医疗仪器"
+      },
+      {
+       "label": "手笔",
+       "text": "用三千美元的点胶机器人攒出新机器"
+      },
+      {
+       "label": "结局",
+       "text": "日渐边缘化，老友去世后靠群发邮件纪念他"
+      },
+      {
+       "label": "他攒出的机器",
+       "blank": {
+        "answer": "e_edison",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_mosley": {
+   "name": "莫斯利",
+   "type": "person",
+   "tier": "major",
+   "desc": "首席财务官，2006年入职，因当面揭穿演示造假被当场解雇",
+   "avatar": "bad-assets/avatars/e_mosley.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "说真话的CFO",
+     "fields": [
+      {
+       "label": "职位",
+       "text": "首席财务官，2006年3月入职，每份投资人材料都要过他手"
+      },
+      {
+       "label": "发现",
+       "text": "投资者看到的「实时结果」，是提前录好的回放"
+      },
+      {
+       "label": "结局",
+       "text": "当面质问后被当场解雇，后来还被公司用私人资料抹黑"
+      },
+      {
+       "label": "名言",
+       "text": "「我们是在欺骗投资者。」"
+      },
+      {
+       "label": "造假演示发生地",
+       "blank": {
+        "answer": "e_zurich",
+        "pool": "place"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_tkemp": {
+   "name": "坎普",
+   "type": "person",
+   "tier": "major",
+   "desc": "生物信息主管，唯唯诺诺，从加州远程发送「完美结果」",
+   "avatar": "bad-assets/avatars/e_tkemp.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "发送结果的人",
+     "fields": [
+      {
+       "label": "职位",
+       "text": "生物信息主管，早期员工，来公司前在IBM待了三十年"
+      },
+      {
+       "label": "软肋",
+       "text": "唯唯诺诺，老板要什么数字，他就找得出什么数字"
+      },
+      {
+       "label": "关键一票",
+       "text": "演示当天设备死机，他从加州远程发出了假结果"
+      },
+      {
+       "label": "他的办公室位置",
+       "blank": {
+        "answer": "e_dongpaluo",
+        "pool": "place"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_ian": {
+   "name": "伊恩",
+   "type": "person",
+   "tier": "core",
+   "desc": "第一位资深科学家，剑桥生物化学博士，五十项专利在身，痴迷免疫测定",
+   "avatar": "bad-assets/avatars/e_ian.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "第一位资深科学家",
+     "fields": [
+      {
+       "label": "学位",
+       "text": "剑桥大学生物化学博士，来公司前做过多年体外诊断"
+      },
+      {
+       "label": "资历",
+       "text": "约五十项专利的发明人，其中十九项来自上一家公司"
+      },
+      {
+       "label": "执念",
+       "text": "设备里做的检测，必须和大实验室里做的一样准——这是他的底线"
+      },
+      {
+       "label": "性情",
+       "text": "书呆子式的英国人，开会时把「数据」两个字挂在嘴边"
+      },
+      {
+       "label": "雇他的创始人",
+       "blank": {
+        "answer": "e_holmes",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "他从图纸守到样机的机器",
+       "blank": {
+        "answer": "e_edison",
+        "pool": "item"
+       }
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "无声的呼救",
+     "fields": [
+      {
+       "label": "遭遇",
+       "text": "向老教授发牢骚被转手出卖，先遭解雇，又在同事求情后降职召回"
+      },
+      {
+       "label": "诊断",
+       "text": "他说那对当家人是「一对二联性精神病」"
+      },
+      {
+       "label": "结局",
+       "text": "被传唤作证后服毒，八天后离世；公司不办纪念仪式"
+      },
+      {
+       "label": "出卖他的教授",
+       "blank": {
+        "answer": "e_robertson",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "遗孀",
+       "blank": {
+        "answer": "e_rochelle",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_rochelle": {
+   "name": "罗谢尔",
+   "type": "person",
+   "tier": "minor",
+   "desc": "伊恩的妻子，前专利律师，后来成了「怀疑派」核心",
+   "avatar": "bad-assets/avatars/e_rochelle.jpg"
+  },
+  "e_fuisz": {
+   "name": "富兹",
+   "type": "person",
+   "tier": "core",
+   "desc": "创始人家的童年邻居，医生、发明家、自称干过特工，二十年交情打成官司",
+   "avatar": "bad-assets/avatars/e_fuisz.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "童年邻居",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "医生、发明家，自称还替政府干过不能说的差事"
+      },
+      {
+       "label": "交恶",
+       "text": "邻家女孩创业做验血，一次也没来请教过他，他耿耿于怀两年"
+      },
+      {
+       "label": "手笔",
+       "text": "申请了一项居家血检异常警告的专利，私下管它叫「杀手」"
+      },
+      {
+       "label": "住所",
+       "blank": {
+        "answer": "e_mclean",
+        "pool": "place"
+       }
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "怀疑派盟主",
+     "fields": [
+      {
+       "label": "动机",
+       "text": "官司烧掉两百多万、当庭落泪，他不认错，只认一件事：那机器不管用"
+      },
+      {
+       "label": "串线",
+       "text": "把教授、遗孀、离职的实验室主管连成一张网"
+      },
+      {
+       "label": "笔记",
+       "text": "「对CLIA的人撒谎/作弊」「告诉伊莎没准备好但她坚持继续」"
+      },
+      {
+       "label": "被他请去和盟友通话的前主管",
+       "blank": {
+        "answer": "e_beam",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "盟友遗孀",
+       "blank": {
+        "answer": "e_rochelle",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_shultz": {
+   "name": "舒尔茨",
+   "type": "person",
+   "tier": "major",
+   "desc": "前国务卿，明星董事会最年长的支持者，泰勒的祖父",
+   "avatar": "bad-assets/avatars/e_shultz.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "明星董事",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "前国务卿，董事会里最年长的支持者"
+      },
+      {
+       "label": "贡献",
+       "text": "牵线社论版专访，为公司站台"
+      },
+      {
+       "label": "盲点",
+       "text": "「他们没法让我相信你是笨蛋，但能让我相信你错了」"
+      },
+      {
+       "label": "孙子",
+       "blank": {
+        "answer": "e_tyler",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_tyler": {
+   "name": "泰勒",
+   "type": "person",
+   "tier": "core",
+   "desc": "前国务卿的孙子，初级研究员，化名向州卫生部求证、最早站出来的人",
+   "avatar": "bad-assets/avatars/e_tyler.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "孙子",
+     "fields": [
+      {
+       "label": "家世",
+       "text": "前国务卿之孙，全家的骄傲进了那家公司"
+      },
+      {
+       "label": "发现",
+       "text": "不合格的轮次被直接丢弃重跑，梅毒检测的敏感度对外虚报成九成五"
+      },
+      {
+       "label": "代价",
+       "text": "辞职后被骂「唯一的原因在于你是舒尔茨先生的孙子」"
+      },
+      {
+       "label": "祖父",
+       "blank": {
+        "answer": "e_shultz",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "战友",
+       "blank": {
+        "answer": "e_erika",
+        "pool": "person"
+       }
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "拒签的人",
+     "fields": [
+      {
+       "label": "伏击",
+       "text": "祖父家的客厅里，两名律师从楼上下来，递过一份限制令"
+      },
+      {
+       "label": "选择",
+       "text": "祖父把「两年不起诉」改成「永远」，他仍然拒签"
+      },
+      {
+       "label": "代价",
+       "text": "父母为他的律师费花掉四十多万美元，他从记者视野里消失了一阵"
+      },
+      {
+       "label": "终局",
+       "text": "2017年的取证会上被前总裁当面盯了八个半小时，他一句台词也不需要"
+      },
+      {
+       "label": "摊牌地点",
+       "blank": {
+        "answer": "e_hoover",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "同月辞职的另一个年轻人",
+       "blank": {
+        "answer": "e_erika",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_erika": {
+   "name": "艾瑞卡",
+   "type": "person",
+   "tier": "major",
+   "desc": "初级实验员，在质控一线的吹哨人，一封投诉信引爆了监管检查",
+   "avatar": "bad-assets/avatars/e_erika.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "引爆检查的信",
+     "fields": [
+      {
+       "label": "岗位",
+       "text": "初级实验员，在质控一线看着「极端值」被删掉"
+      },
+      {
+       "label": "遭遇",
+       "text": "辞职信被人事没收，后来在新公司停车场被递了一封恐吓信"
+      },
+      {
+       "label": "反击",
+       "text": "2015年9月19日一封投诉信，直接引爆了那场监管检查"
+      },
+      {
+       "label": "收信的巡视员",
+       "blank": {
+        "answer": "e_yamamoto",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "战友",
+       "blank": {
+        "answer": "e_tyler",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_beam": {
+   "name": "比姆",
+   "type": "person",
+   "tier": "major",
+   "desc": "实验室主管，病理学家，记者的第一匿名信源",
+   "avatar": "bad-assets/avatars/e_beam.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "希波克拉底誓言",
+     "fields": [
+      {
+       "label": "职位",
+       "text": "实验室主管，病理学家"
+      },
+      {
+       "label": "底线",
+       "text": "「这家公司正在将人们推上伤害之路」"
+      },
+      {
+       "label": "代价",
+       "text": "辞职被逼签「宣誓书」，删掉175封备份邮件"
+      },
+      {
+       "label": "他做主管的实验室",
+       "blank": {
+        "answer": "e_newark",
+        "pool": "place"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_carreyrou": {
+   "name": "卡雷鲁",
+   "type": "person",
+   "tier": "major",
+   "desc": "《华尔街日报》调查记者，跑医疗条线多年，靠逐条核实撬开独角兽",
+   "avatar": "bad-assets/avatars/e_carreyrou.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "调查记者",
+     "fields": [
+      {
+       "label": "供职",
+       "text": "财经大报的调查记者，跑医疗条线多年，揭过药企黑幕"
+      },
+      {
+       "label": "开局",
+       "text": "一通深夜电话从医生入行时的誓言讲起，他记了一个多小时"
+      },
+      {
+       "label": "方法",
+       "text": "化名暗访、亲身对比检测、每条线索都要第二个信源"
+      },
+      {
+       "label": "供职报社",
+       "blank": {
+        "answer": "e_wsjhq",
+        "pool": "place"
+       }
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "拉马坦萨",
+     "fields": [
+      {
+       "label": "策略",
+       "text": "像西西里渔夫围捕鱼群：耐心收网，等对手自己乱"
+      },
+      {
+       "label": "遭遇",
+       "text": "律师团上门对峙四小时，信源被跟踪、被威胁、被要求签声明"
+      },
+      {
+       "label": "底牌",
+       "text": "四十多家健康中心、上百通信源电话、一叠并排钉住的报告"
+      },
+      {
+       "label": "引爆他调查的博主",
+       "blank": {
+        "answer": "e_clapper",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_boies": {
+   "name": "博伊斯",
+   "type": "person",
+   "tier": "major",
+   "desc": "王牌律师，以股票作律师费，后来进了董事会",
+   "avatar": "bad-assets/avatars/e_boies.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "王牌律师",
+     "fields": [
+      {
+       "label": "身价",
+       "text": "三十万股、约四百五十万美元股票作律师费"
+      },
+      {
+       "label": "战法",
+       "text": "私家侦探监视、深挖对手黑历史"
+      },
+      {
+       "label": "名言",
+       "text": "「上帝欲使谁灭亡，必先令其疯狂。」"
+      },
+      {
+       "label": "他「燃爆」的邻居",
+       "blank": {
+        "answer": "e_fuisz",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_hunter": {
+   "name": "亨特",
+   "type": "person",
+   "tier": "major",
+   "desc": "连锁药店的实验室顾问，最早系统性质疑的人",
+   "avatar": "bad-assets/avatars/e_hunter.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "最早的质疑者",
+     "fields": [
+      {
+       "label": "职位",
+       "text": "连锁药店外聘的实验室顾问"
+      },
+      {
+       "label": "遭遇",
+       "text": "不许看实验室、不给对比数据、被点名逐出会议"
+      },
+      {
+       "label": "记录",
+       "text": "所谓名校评估，只是两页纸的会面纪要"
+      },
+      {
+       "label": "他效力的药店总部",
+       "blank": {
+        "answer": "e_deerfield",
+        "pool": "place"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_jay": {
+   "name": "J博士",
+   "type": "person",
+   "tier": "minor",
+   "desc": "连锁药店创新团队成员，铁杆鼓吹者，自称打过篮球",
+   "avatar": "bad-assets/avatars/e_jay.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "铁杆鼓吹者",
+     "fields": [
+      {
+       "label": "团队",
+       "text": "连锁药店创新团队"
+      },
+      {
+       "label": "做派",
+       "text": "击掌问候，「过去我是打篮球的」"
+      },
+      {
+       "label": "作用",
+       "text": "力排众议，推动闪电签约"
+      },
+      {
+       "label": "和他一起闪电签约的财务掌门",
+       "blank": {
+        "answer": "e_miquelon",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_miquelon": {
+   "name": "米克隆",
+   "type": "person",
+   "tier": "minor",
+   "desc": "连锁药店CFO，快速拍板签约",
+   "avatar": "bad-assets/avatars/e_miquelon.jpg"
+  },
+  "e_burd": {
+   "name": "伯德",
+   "type": "person",
+   "tier": "major",
+   "desc": "超市CEO，押上3.5亿美元的「健康游戏」",
+   "avatar": "bad-assets/avatars/e_burd.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "健康游戏",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "老牌超市连锁的掌门人，痴迷「健康生意」"
+      },
+      {
+       "label": "豪赌",
+       "text": "掏出三亿五千万美元改造门店，代号「霸王龙计划」"
+      },
+      {
+       "label": "结局",
+       "text": "被迫退休，从此她再也不接他的电话"
+      },
+      {
+       "label": "超市总部",
+       "blank": {
+        "answer": "e_pleasanton",
+        "pool": "place"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_bradley": {
+   "name": "布莱德利",
+   "type": "person",
+   "tier": "minor",
+   "desc": "超市首席医疗官，前军医，警告被驳回",
+   "avatar": "bad-assets/avatars/e_bradley.jpg"
+  },
+  "e_mattis": {
+   "name": "马蒂斯",
+   "type": "person",
+   "tier": "minor",
+   "desc": "四星上将，力推战场部署，退役后进入董事会",
+   "avatar": "bad-assets/avatars/e_mattis.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "疯狗将军",
+     "fields": [
+      {
+       "label": "军衔",
+       "text": "四星上将，中央司令部司令"
+      },
+      {
+       "label": "热心",
+       "text": "力推在战场上部署血液检测仪"
+      },
+      {
+       "label": "名场面",
+       "text": "「谁是舒梅克中校？」"
+      },
+      {
+       "label": "与他交锋的中校",
+       "blank": {
+        "answer": "e_shoemaker",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_shoemaker": {
+   "name": "舒梅克",
+   "type": "person",
+   "tier": "major",
+   "desc": "军方的药监事务专家，中校，把监管底线顶在了四星上将前面",
+   "avatar": "bad-assets/avatars/e_shoemaker.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "没做好飞翔准备",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "军方FDA监管专家，中校"
+      },
+      {
+       "label": "名言",
+       "text": "「你们的监管结构还没做好飞翔的准备。」"
+      },
+      {
+       "label": "纪念",
+       "text": "退役获赠「生存证书」T恤"
+      },
+      {
+       "label": "致信FDA后引来的巡视员",
+       "blank": {
+        "answer": "e_yamamoto",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_daniel": {
+   "name": "丹尼尔",
+   "type": "person",
+   "tier": "major",
+   "desc": "MIT博士，生物数学团队，事实上的三号人物",
+   "avatar": "bad-assets/avatars/e_daniel.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "三号人物",
+     "fields": [
+      {
+       "label": "学位",
+       "text": "MIT博士，生物数学团队"
+      },
+      {
+       "label": "角色",
+       "text": "事实上的三号人物，为技术辩护的太极手"
+      },
+      {
+       "label": "手笔",
+       "text": "带人破解商用分析仪，双重稀释指尖血"
+      },
+      {
+       "label": "他带人破解的机器",
+       "blank": {
+        "answer": "e_advia",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_robertson": {
+   "name": "罗伯特森",
+   "type": "person",
+   "tier": "minor",
+   "desc": "斯坦福教授，最早的背书者，董事兼顾问",
+   "avatar": "bad-assets/avatars/e_robertson.jpg"
+  },
+  "e_lucas": {
+   "name": "卢卡斯",
+   "type": "person",
+   "tier": "minor",
+   "desc": "董事会主席，风投元老，视她如孙女",
+   "avatar": "bad-assets/avatars/e_lucas.jpg"
+  },
+  "e_draper": {
+   "name": "德雷珀",
+   "type": "person",
+   "tier": "minor",
+   "desc": "童年邻居，首轮投资人，投了一百万美元",
+   "avatar": "bad-assets/avatars/e_draper.jpg"
+  },
+  "e_avie": {
+   "name": "艾维",
+   "type": "person",
+   "tier": "minor",
+   "desc": "苹果前高管、董事，因质疑治理被逼辞职",
+   "avatar": "bad-assets/avatars/e_avie.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "被逼退的董事",
+     "fields": [
+      {
+       "label": "出身",
+       "text": "苹果前高管，做过操作系统，较真到近乎固执"
+      },
+      {
+       "label": "罪状",
+       "text": "质疑收入预测与高管更替，要求董事会把账本摆出来"
+      },
+      {
+       "label": "结局",
+       "text": "被逼辞职，平安夜收到律师威胁邮件"
+      },
+      {
+       "label": "用来威胁他的那叠纸",
+       "blank": {
+        "answer": "e_nda",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_ana": {
+   "name": "安娜",
+   "type": "person",
+   "tier": "minor",
+   "desc": "苹果前产品经理，建议她穿上黑色高领衫",
+   "avatar": "bad-assets/avatars/e_ana.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "高领衫的建议者",
+     "fields": [
+      {
+       "label": "出身",
+       "text": "苹果前产品经理，首席设计建构师"
+      },
+      {
+       "label": "贡献",
+       "text": "建议她穿黑色高领衫，定下个人形象"
+      },
+      {
+       "label": "离开",
+       "text": "因试点研究的伦理疑虑辞职"
+      },
+      {
+       "label": "她建议的着装",
+       "blank": {
+        "answer": "e_turtleneck",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_chelsea": {
+   "name": "切尔西",
+   "type": "person",
+   "tier": "minor",
+   "desc": "斯坦福闺蜜，客户解决方案组，最早心寒的人",
+   "avatar": "bad-assets/avatars/e_chelsea.jpg"
+  },
+  "e_anjali": {
+   "name": "安加丽",
+   "type": "person",
+   "tier": "minor",
+   "desc": "免疫测定团队主管，司龄八年，谏阻无效辞职",
+   "avatar": "bad-assets/avatars/e_anjali.jpg"
+  },
+  "e_parloff": {
+   "name": "帕洛夫",
+   "type": "person",
+   "tier": "minor",
+   "desc": "《财富》法律记者，封面报道作者",
+   "avatar": "bad-assets/avatars/e_parloff.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "封面记者",
+     "fields": [
+      {
+       "label": "作品",
+       "text": "《为血液而生的CEO》，七小时访谈写成"
+      },
+      {
+       "label": "后来",
+       "text": "贵宾演示看了一场假戏，事后悄悄修正报道"
+      },
+      {
+       "label": "让他写封面的女人",
+       "blank": {
+        "answer": "e_holmes",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_murdoch": {
+   "name": "默多克",
+   "type": "person",
+   "tier": "minor",
+   "desc": "传媒大亨，最大个人投资人",
+   "avatar": "bad-assets/avatars/e_murdoch.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "最大投资人",
+     "fields": [
+      {
+       "label": "手笔",
+       "text": "1.25亿美元，最大个人投资人"
+      },
+      {
+       "label": "选择",
+       "text": "三次拒绝帮忙毙掉报道"
+      },
+      {
+       "label": "结局",
+       "text": "1美元回售股份，亏掉1.21亿"
+      },
+      {
+       "label": "求他毙稿的人",
+       "blank": {
+        "answer": "e_holmes",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_clapper": {
+   "name": "克莱帕",
+   "type": "person",
+   "tier": "minor",
+   "desc": "密苏里病理学家，「病理学博客」作者",
+   "avatar": "bad-assets/avatars/e_clapper.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "病理学博客",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "密苏里实习病理学家"
+      },
+      {
+       "label": "出手",
+       "text": "读完特稿写博客公开质疑"
+      },
+      {
+       "label": "接他线索的记者",
+       "blank": {
+        "answer": "e_carreyrou",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_yamamoto": {
+   "name": "山本",
+   "type": "person",
+   "tier": "minor",
+   "desc": "CMS旧金山资深现场巡视员，两次突检",
+   "avatar": "bad-assets/avatars/e_yamamoto.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "巡视员",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "CMS旧金山资深现场巡视员"
+      },
+      {
+       "label": "手笔",
+       "text": "两次突检，写出121页检查报告"
+      },
+      {
+       "label": "他第一次突检时被挡在门外的那栋楼",
+       "blank": {
+        "answer": "e_facebook",
+        "pool": "place"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_dongpaluo": {
+   "name": "东帕洛旧楼",
+   "type": "place",
+   "tier": "minor",
+   "desc": "101号公路「错误一侧」的工业区办公室，公司早年根据地",
+   "image": "bad-assets/images/e_dongpaluo.jpg"
+  },
+  "e_hillview": {
+   "name": "山景大道",
+   "type": "place",
+   "tier": "minor",
+   "desc": "帕洛阿尔托山景大道3200号，2008年迁入，斯坦福隔壁",
+   "image": "bad-assets/images/e_hillview.jpg"
+  },
+  "e_facebook": {
+   "name": "脸书旧楼",
+   "type": "place",
+   "tier": "major",
+   "desc": "南加利福尼亚大道1601号，二楼实验室分「侏罗纪公园」与「诺曼底」",
+   "image": "bad-assets/images/e_facebook.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "侏罗纪公园与诺曼底",
+     "fields": [
+      {
+       "label": "来历",
+       "text": "从一家社交网站手里盘下的旧办公楼，二楼整层是实验室"
+      },
+      {
+       "label": "分区",
+       "text": "商用设备那半边叫「侏罗纪公园」，专有设备那半边叫「诺曼底」"
+      },
+      {
+       "label": "规矩",
+       "text": "巡视员来了只看得到侏罗纪公园，另一半的门一直锁着"
+      },
+      {
+       "label": "锁着那半边里永远差一口气的机器",
+       "blank": {
+        "answer": "e_minilab",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_newark": {
+   "name": "纽瓦克工厂",
+   "type": "place",
+   "tier": "minor",
+   "desc": "海湾对面的工厂，迷你实验室产线与临床实验室",
+   "image": "bad-assets/images/e_newark.jpg"
+  },
+  "e_pagemill": {
+   "name": "佩奇磨坊路",
+   "type": "place",
+   "tier": "minor",
+   "desc": "新总部，原报社印刷厂，尤达语录墙与防弹玻璃",
+   "image": "bad-assets/images/e_pagemill.jpg"
+  },
+  "e_coupa": {
+   "name": "科帕咖啡馆",
+   "type": "place",
+   "tier": "minor",
+   "desc": "帕洛阿尔托的咖啡馆，她最爱的会客地",
+   "image": "bad-assets/images/e_coupa.jpg"
+  },
+  "e_deerfield": {
+   "name": "迪尔菲尔德",
+   "type": "place",
+   "tier": "minor",
+   "desc": "芝加哥郊区，连锁药店总部",
+   "image": "bad-assets/images/e_deerfield.jpg"
+  },
+  "e_pleasanton": {
+   "name": "普莱森顿",
+   "type": "place",
+   "tier": "minor",
+   "desc": "超市总部与员工诊所所在地",
+   "image": "bad-assets/images/e_pleasanton.jpg"
+  },
+  "e_hoover": {
+   "name": "胡佛研究所",
+   "type": "place",
+   "tier": "minor",
+   "desc": "斯坦福校园里的纪念大楼，前国务卿的办公室",
+   "image": "bad-assets/images/e_hoover.jpg"
+  },
+  "e_tampa": {
+   "name": "坦帕基地",
+   "type": "place",
+   "tier": "minor",
+   "desc": "麦克迪尔空军基地，中央司令部所在地",
+   "image": "bad-assets/images/e_tampa.jpg"
+  },
+  "e_mclean": {
+   "name": "麦克莱恩",
+   "type": "place",
+   "tier": "minor",
+   "desc": "华盛顿郊区的富兹宅邸，有锦鲤池塘",
+   "image": "bad-assets/images/e_mclean.jpg"
+  },
+  "e_zurich": {
+   "name": "苏黎世",
+   "type": "place",
+   "tier": "minor",
+   "desc": "瑞士，欧洲大药企的地盘，那场「太完美了」的演示在这里",
+   "image": "bad-assets/images/e_zurich.jpg"
+  },
+  "e_nashville": {
+   "name": "纳什维尔",
+   "type": "place",
+   "tier": "minor",
+   "desc": "田纳西，药企试点的晚期癌症病人在这里",
+   "image": "bad-assets/images/e_nashville.jpg"
+  },
+  "e_phoenix": {
+   "name": "凤凰城",
+   "type": "place",
+   "tier": "minor",
+   "desc": "亚利桑那，四十多家健康中心与受害病人",
+   "image": "bad-assets/images/e_phoenix.jpg"
+  },
+  "e_wsjhq": {
+   "name": "报社总部",
+   "type": "place",
+   "tier": "minor",
+   "desc": "美洲大道1211号，《华尔街日报》",
+   "image": "bad-assets/images/e_wsjhq.jpg"
+  },
+  "e_aacc": {
+   "name": "费城会场",
+   "type": "place",
+   "tier": "minor",
+   "desc": "2016年临床化学年会的举办地",
+   "image": "bad-assets/images/e_aacc.jpg"
+  },
+  "e_mexico": {
+   "name": "墨西哥城",
+   "type": "place",
+   "tier": "minor",
+   "desc": "猪流感项目的总医院所在地",
+   "image": "bad-assets/images/e_mexico.jpg"
+  },
+  "e_patch": {
+   "name": "诊疗贴片",
+   "type": "item",
+   "tier": "minor",
+   "desc": "最初构想「手臂绑布」，能诊断又能给药的贴片",
+   "image": "bad-assets/images/e_patch.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "手臂绑布",
+     "fields": [
+      {
+       "label": "构想",
+       "text": "绑在手臂上的贴片，能诊断又能给药"
+      },
+      {
+       "label": "缘起",
+       "text": "SARS期间在实验室实习时写下专利申请"
+      },
+      {
+       "label": "命运",
+       "text": "缩水成检测盒加阅读器，连名字也换了"
+      },
+      {
+       "label": "提出者",
+       "blank": {
+        "answer": "e_holmes",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_theranos1": {
+   "name": "希拉洛斯1.0",
+   "type": "item",
+   "tier": "minor",
+   "desc": "检测盒加阅读器的原型机，一次检测成本200美元",
+   "image": "bad-assets/images/e_theranos1.jpg"
+  },
+  "e_edison": {
+   "name": "爱迪生机",
+   "type": "item",
+   "tier": "major",
+   "desc": "点胶机器人改造的检测仪，黑白外壳配触摸屏",
+   "image": "bad-assets/images/e_edison.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "失败的名字",
+     "fields": [
+      {
+       "label": "真身",
+       "text": "三千美元的点胶机器人改造的检测仪"
+      },
+      {
+       "label": "命名",
+       "text": "「我们尝试了一切其他办法，都失败了，所以叫它爱迪生吧」"
+      },
+      {
+       "label": "外壳",
+       "text": "黑白两色，配iPhone式触摸屏"
+      },
+      {
+       "label": "造它的人",
+       "blank": {
+        "answer": "e_tony",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_minilab": {
+   "name": "迷你实验室",
+   "type": "item",
+   "tier": "major",
+   "desc": "代号4S的台式实验室，被称作「人类迄今最重要的东西」",
+   "image": "bad-assets/images/e_minilab.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "4S",
+     "fields": [
+      {
+       "label": "代号",
+       "text": "4S，致敬iPhone"
+      },
+      {
+       "label": "野心",
+       "text": "把一整间实验室塞进台式机箱"
+      },
+      {
+       "label": "病症",
+       "text": "移液管漂移、离心机爆炸、贵宾面前卡在70%"
+      },
+      {
+       "label": "它要取代的机器",
+       "blank": {
+        "answer": "e_edison",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_nanotainer": {
+   "name": "纳米容器",
+   "type": "item",
+   "tier": "minor",
+   "desc": "1.29公分高的采血小管，「小小一滴，改变一切」",
+   "image": "bad-assets/images/e_nanotainer.jpg"
+  },
+  "e_advia": {
+   "name": "西门子分析仪",
+   "type": "item",
+   "tier": "minor",
+   "desc": "被破解用来稀释指尖血的商用检测仪",
+   "image": "bad-assets/images/e_advia.jpg"
+  },
+  "e_hopkins": {
+   "name": "霍普金斯信",
+   "type": "item",
+   "tier": "minor",
+   "desc": "两页纸的会面纪要，明确写着「不构成认可」",
+   "image": "bad-assets/images/e_hopkins.jpg"
+  },
+  "e_scatter": {
+   "name": "散点图",
+   "type": "item",
+   "tier": "minor",
+   "desc": "给投资人看的完美拟合图，数据其实来自商用设备",
+   "image": "bad-assets/images/e_scatter.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "完美的拟合",
+     "fields": [
+      {
+       "label": "外观",
+       "text": "自家设备与传统设备的数据完美重合"
+      },
+      {
+       "label": "用途",
+       "text": "尽调现场折服基金经理，换来9600万美元投资"
+      },
+      {
+       "label": "数据真正来源",
+       "blank": {
+        "answer": "e_advia",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_turtleneck": {
+   "name": "黑色高领衫",
+   "type": "item",
+   "tier": "minor",
+   "desc": "向乔布斯致敬的标志性着装",
+   "image": "bad-assets/images/e_turtleneck.jpg"
+  },
+  "e_nda": {
+   "name": "保密协议",
+   "type": "item",
+   "tier": "minor",
+   "desc": "每台「恐惧机器」的螺丝钉",
+   "image": "bad-assets/images/e_nda.jpg",
+   "archive": [
+    {
+     "level": 1,
+     "title": "沉默的代价",
+     "fields": [
+      {
+       "label": "用途",
+       "text": "入职签、离职签、领英上只许写「一家私人生物公司」"
+      },
+      {
+       "label": "威力",
+       "text": "告发者当天被解雇，签完厚厚一叠才被允许收拾抽屉"
+      },
+      {
+       "label": "延伸",
+       "text": "互不诋毁、材料交还或「永久销毁」、律师信随时上门"
+      },
+      {
+       "label": "塑造的公司氛围",
+       "blank": {
+        "answer": "e_fear",
+        "pool": "concept"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_fakeit": {
+   "name": "演久成真",
+   "type": "concept",
+   "tier": "major",
+   "desc": "fake it till you make it，硅谷心照不宣的文化",
+   "image": "bad-assets/images/e_fakeit.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "先装成，再做到",
+     "fields": [
+      {
+       "label": "出处",
+       "text": "硅谷的老话：先把姿态摆足，再让现实追上来"
+      },
+      {
+       "label": "边界",
+       "text": "卖软件可以演，卖验血不行——医生要拿着结果给病人开药"
+      },
+      {
+       "label": "顶点",
+       "text": "上千项检测、九十亿估值，全建在一句还没兑现的承诺上"
+      },
+      {
+       "label": "它在募资材料里最漂亮的证物",
+       "blank": {
+        "answer": "e_scatter",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_fear": {
+   "name": "恐惧文化",
+   "type": "concept",
+   "tier": "minor",
+   "desc": "监控、保密、清洗——「桑尼消失了某人」",
+   "image": "bad-assets/images/e_fear.jpg"
+  },
+  "e_pt": {
+   "name": "能力验证",
+   "type": "concept",
+   "tier": "minor",
+   "desc": "实验室对外的质量考试，及格线被人动了手脚",
+   "image": "bad-assets/images/e_pt.jpg"
+  },
+  "e_mattanza": {
+   "name": "拉马坦萨",
+   "type": "concept",
+   "tier": "minor",
+   "desc": "西西里渔夫围捕鱼群的古老仪式，报道策略的代号",
+   "image": "bad-assets/images/e_mattanza.jpg"
+  },
+  "e_glunz": {
+   "name": "格伦兹",
+   "type": "person",
+   "tier": "major",
+   "desc": "感恩节夜里被一份错报告送进急诊的病人，独立房地产经纪人",
+   "avatar": "bad-assets/avatars/e_glunz.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "三千美元的一夜",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "五十多岁的独立房地产经纪人，自己买保险，自负额高得吓人"
+      },
+      {
+       "label": "那一夜",
+       "text": "感恩节的晚上在急诊室待了四个小时，抽血、心电、CT做了一整套"
+      },
+      {
+       "label": "代价",
+       "text": "急诊加随后两次核磁共振自付三千美元，保险不管虚惊一场"
+      },
+      {
+       "label": "把她送去急诊的家庭医生",
+       "blank": {
+        "answer": "e_sundene",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "她贴在冰箱门上的那张纸",
+       "blank": {
+        "answer": "e_bill",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_sundene": {
+   "name": "桑德内",
+   "type": "person",
+   "tier": "major",
+   "desc": "沙漠城市郊区的家庭医生，十几个病人结果可疑，替记者做了对比检测",
+   "avatar": "bad-assets/avatars/e_sundene.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "十几份可疑报告",
+     "fields": [
+      {
+       "label": "执业",
+       "text": "在这座沙漠城市郊区开家庭诊所，病人多是十几年的熟脸"
+      },
+      {
+       "label": "发现",
+       "text": "半年里十几个病人的钾和钙高得没道理，去别处重查多半正常"
+      },
+      {
+       "label": "投诉",
+       "text": "写信给那家公司，对方连收到这封信都不肯承认"
+      },
+      {
+       "label": "反击",
+       "text": "给记者开检测单，自己也两边各抽一次，把样本凑多一点"
+      },
+      {
+       "label": "她最有代表性的那位病人",
+       "blank": {
+        "answer": "e_glunz",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_dupuy": {
+   "name": "杜普伊",
+   "type": "person",
+   "tier": "minor",
+   "desc": "第一间实验室的技术员，把违规操作一条条记下来的人",
+   "avatar": "bad-assets/avatars/e_dupuy.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "记笔记的人",
+     "fields": [
+      {
+       "label": "资历",
+       "text": "休斯敦来的临床技术员，拿执照七年，监管条文背得最熟"
+      },
+      {
+       "label": "记录",
+       "text": "过期试剂、未校准的机器、被污染的染色剂，逐条拍照上报"
+      },
+      {
+       "label": "结局",
+       "text": "被解雇两次，第二次当场带出大门，眼镜和执照都锁在抽屉里"
+      },
+      {
+       "label": "她邮件里点名的那种空气",
+       "blank": {
+        "answer": "e_fear",
+        "pool": "concept"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_gardner": {
+   "name": "加德纳",
+   "type": "person",
+   "tier": "minor",
+   "desc": "斯坦福医学院教授，最早说那个构想做不到的人",
+   "avatar": "bad-assets/avatars/e_gardner.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "最早说不的人",
+     "fields": [
+      {
+       "label": "身份",
+       "text": "斯坦福医学院教授，做过多年生物技术评审"
+      },
+      {
+       "label": "旧事",
+       "text": "创业之初她就说过：那个贴片在物理上做不到"
+      },
+      {
+       "label": "结盟",
+       "text": "官司之后，她与宿敌、遗孀一起成了怀疑派"
+      },
+      {
+       "label": "与她结盟的那位遗孀",
+       "blank": {
+        "answer": "e_rochelle",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_meadow": {
+   "name": "草地东环路",
+   "type": "place",
+   "tier": "major",
+   "desc": "帕洛阿尔托的单层石砌小楼，公司第一间临床实验室，里面全是商用设备",
+   "image": "bad-assets/images/e_meadow.jpg",
+   "archive": [
+    {
+     "level": 2,
+     "title": "没有专有设备的实验室",
+     "fields": [
+      {
+       "label": "位置",
+       "text": "帕洛阿尔托一条以草地命名的环路，一栋单层石砌小楼"
+      },
+      {
+       "label": "家当",
+       "text": "一屋子买来的商用分析仪，没有一台是自家的机器"
+      },
+      {
+       "label": "人手",
+       "text": "缺有经验的技术员，违规操作屡屡被人记录在案"
+      },
+      {
+       "label": "被破解来稀释指尖血的那台商用机",
+       "blank": {
+        "answer": "e_advia",
+        "pool": "item"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "e_bill": {
+   "name": "三千美元的账单",
+   "type": "item",
+   "tier": "minor",
+   "desc": "虚惊一场的急诊收费单，保险拒付，由病人自己付清",
+   "image": "bad-assets/images/e_bill.jpg",
+   "archive": [
+    {
+     "level": 3,
+     "title": "一个普通人的代价",
+     "fields": [
+      {
+       "label": "来历",
+       "text": "一份错报告引出的急诊、CT与两次核磁共振"
+      },
+      {
+       "label": "金额",
+       "text": "三千美元，保险以虚惊一场为由拒付"
+      },
+      {
+       "label": "去处",
+       "text": "被贴在冰箱门上，后来成了报道里的一条证据"
+      },
+      {
+       "label": "自己付清这笔钱的人",
+       "blank": {
+        "answer": "e_glunz",
+        "pool": "person"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "cards": [
+  {
+   "id": "c1_01",
+   "level": 1,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "名场面",
+   "row": 0,
+   "title": "辍学创业",
+   "cg": "bad-assets/cg/c1_01.jpg",
+   "startUnlocked": true,
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2004 年夏天，硅谷 101 号公路边上的工业区里，一栋旧楼的二层挂出一块没人听说过的新牌子。办公室隔壁是机修厂，空气里有机油味，房租便宜得不像话。搬进来的老板是个十九岁的姑娘，金发，大眼睛，说话嗓音低得反常。她叫[[NPC1]]，几个月前还是斯坦福化学工程系的学生。"
+    },
+    {
+     "kind": "narration",
+     "text": "故事得往前倒。九岁那年，亲戚逗她：小姑娘长大想做什么呀？她说要做亿万富翁。亲戚又笑：那你想不想嫁给总统？小姑娘眼皮都没抬。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "不，总统将会娶我，因为我会拥有 10 亿美元。"
+    },
+    {
+     "kind": "narration",
+     "text": "2003 年非典肆虐，她去新加坡的基因组研究院实习，天天给病人样本做检测。回美国的飞机上她想通了一件事：诊断和吃药为什么要分开？返校后她熬了几个通宵，写出一份几十页的专利申请——一条绑在手臂上的布带，微针采血，边诊断边给药。她给它起名叫{{e_patch|诊疗贴片}}，然后直接闯进了导师{{e_robertson|罗伯特森}}教授的办公室。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_robertson",
+     "text": "我从教几十年，没见过这样的学生。她把专利草案拍在我桌上，说：教授，我要辍学，把它做出来。我本该劝她读完书，可看着她的眼睛，我想到的是比尔·盖茨和史蒂夫·乔布斯。后来我在推荐信里写：你正看着的眼睛，属于另一个他们。"
+    },
+    {
+     "kind": "narration",
+     "text": "她真退了学。家里在华盛顿的老邻居、一位投出过一串明星公司的风投，[[NPC2]]，听了她一顿饭工夫的讲述，当场开支票投了一百万美元。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我虽然并不理解你的技术，但我相信你会给我不错的投资回报。"
+    },
+    {
+     "kind": "narration",
+     "text": "到那年年底，她一共筹到六百万。"
+    },
+    {
+     "kind": "narration",
+     "text": "旧楼里的日子很糙：二手桌椅，烤箱大小的样机摆在过道，她每晚只睡四小时，嚼着巧克力咖啡豆盯进度。有人问她怕不怕失败，她指了指桌上的镇纸，上面刻着：如果你知道自己绝不会失败，你会做什么？"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_draper"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_dongpaluo"
+    }
+   ],
+   "hints": [
+    "创始人是谁，看她的导师和第一个掏钱的人；办公室在湾区一条高速公路旁的工业区。",
+    "九岁就说要赚十亿的斯坦福辍学生；那栋旧楼在 101 号公路“错误的一侧”，隔壁是机修厂。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_02",
+   "level": 1,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 1,
+   "title": "完美演示",
+   "cg": "bad-assets/cg/c1_02.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2006 年 11 月 17 日，瑞士。一家欧洲大药企的会议室里，年轻的女 CEO 刚做完公司成立以来最重要的一场演示：一台烤箱大小的阅读器，一片加厚信用卡大小的检测盒，号称扎一滴指尖血，现场出结果。投资人的屏幕亮了，数据一条条跳出来，漂亮得像教科书。这就是全公司押注的{{e_theranos1|希拉洛斯1.0}}。散场后，陪同的员工发邮件回总部报喜，说老板的评价只有三个字——太完美了。"
+    },
+    {
+     "kind": "narration",
+     "text": "公司刚融完新一轮，估值一亿六千五百万美元，香槟都该开了。只有一个人笑不出来：首席财务官[[NPC1]]。他是给这家公司算账的人，每一份给投资人的材料都要过他手。演示前他就觉得不对：设备故障率高得离谱，凭什么一到欧洲就一次不卡？他把过去半年的维修记录翻出来又看了一遍，越看心越沉。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC3",
+     "text": "我憋不住了，得跟你说实话。投资人屏幕上那些“实时结果”，不是现场跑的。我们放的是提前录好的回放，机器在那几分钟里压根什么都没测。"
+    },
+    {
+     "kind": "narration",
+     "text": "说这话的是[[NPC3]]，公司联合创始人、第一名员工，化学工程博士，跟着老板从旧楼时期干起，务实了一辈子，这次实在过不了自己这关。他还交代了现场出的纰漏：演示当天上午，一台阅读器忽然死机黑屏。两边隔着九个时区连夜救场——真正“救”下这场演示的，是留在加州的生物信息主管[[NPC2]]。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我人在加州，凌晨被电话叫醒，就一句话：那边机器死了，赶紧补。我能怎么办？我把之前跑出来的旧结果重新发了一遍，对方的屏幕就又亮了。单子是老板接的，总不能让它当场炸在会议室里吧。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]听完，一夜没睡。第二天他直接敲开 CEO 办公室的门，把话挑明。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我们是在欺骗投资者。演示可以放录像，但你不能管录像叫实时结果。这是底线。再往前一步，就是欺诈。"
+    },
+    {
+     "kind": "narration",
+     "text": "办公室安静了几秒。老板没有解释，也没有发火，只是平静地请他当天收拾东西走人。被炒掉的[[NPC1]]后来才知道，自己踩中的正是这家公司最深的秘密：整个硅谷都信{{e_fakeit|演久成真}}——先装成，再做到。可这里不是卖手机，医生要拿这些结果决定病人吃什么药。他走后，再没人敢在会上提“录制”两个字。而他那份没拿到手的期权，成了公司日后报复他的由头——不过，那又是另一个故事了。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_mosley"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_tkemp"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_shaunak"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_zurich"
+    }
+   ],
+   "hints": [
+    "三个空：管钱的、在加州发数据的、最早跟老板创业的；事发地在欧洲。",
+    "被炒的是首席财务官；远程补发结果的是生物信息主管；告密的是联合创始人。演示在瑞士那家药企的地盘上。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_03",
+   "level": 1,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 2,
+   "title": "爱迪生",
+   "cg": "bad-assets/cg/c1_03.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2007 年 8 月，田纳西。一家大药企的试点项目设在田纳西州的医院里，对象是晚期癌症病人——公司要借他们验证自家机器。结果机器到了现场水土不服，三天两头报错。工程主管[[NPC2]]干脆住进医院旁边的汽车旅馆，夜里护士一个电话，他就冲过去，把机器大卸八块摊在床上，天亮前再装回去。这位香港出生、说话细声细气的主管，是公司“微流体”路线的旗手——他坚信血应该在一根根比头发还细的管子里流动，被精确控制。试点医生起初热情很高，两个月后，预约单上的名字越来越稀。"
+    },
+    {
+     "kind": "narration",
+     "text": "同一时刻，加州的旧楼里，另一拨人走着完全相反的路。带头的是个爱尔兰人[[NPC1]]，在别家公司干了半辈子工程，话少，手稳，信奉“能转就行”。老板{{e_holmes|霍姆斯}}嫌原来那条路线太慢太烧钱，把他招来组了个竞争团队。两拨人在同一栋楼里互相别苗头，连零件都不共用；共用一个茶水间，碰面只点头，谁也不肯先露自己那台机器的底。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "他们那套微流体，论文上漂亮，工厂里是灾难。一滴血那么点儿，还要稀释，还要防污染，检测盒做一次两百美元。我从货架上买了台三千美元的点胶机器人——就是工厂里挤胶水的那种机械手——改成抽血、加样、摇匀全自动。丑是丑，它能跑。"
+    },
+    {
+     "kind": "narration",
+     "text": "实验室里，那台机械手白天黑夜地比划，工程师轮班守着，把每一次卡壳记下来。有人打赌它撑不过一周，结果它撑过了一整个夏天。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "秋天，这台用点胶机器人攒出来的黑白盒子跑通了。老板围着它转了三圈，当场给它起了名字：{{e_edison|爱迪生机}}。她的原话是：我们尝试了一切其他办法，都失败了，所以叫它爱迪生吧。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_holmes",
+     "text": "从今天起，这就是公司的方向。另一套方案，停掉。"
+    },
+    {
+     "kind": "narration",
+     "text": "一句话，微流体路线判了死刑。感恩节前，[[NPC2]]和他的整个团队被裁，抱着纸箱走人——里头不少是跟着公司从二十人干到上百人的老员工，那天下午的停车场，纸箱摞了一排。这已经不是旧楼第一次送人走了——更早些时候，联合创始人、公司的一号员工{{e_shaunak|沙奈克}}就把股票折价卖回给她，悄无声息地退了场。试点那边也没撑住：田纳西的医院里，设备照旧故障，病人们看着护士一遍遍重扎手指，那家药企后来悄然终止了合作。公司里资历最深的科学家、剑桥来的{{e_ian|伊恩}}博士冷眼旁观，私下跟人嘀咕：机器换了三轮，标准从来没变过——测得准，才是唯一要紧的事。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tony"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_eddie"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_nashville"
+    }
+   ],
+   "hints": [
+    "两个工程师：一个信细管子，一个信货架上的机械手；试点在南方一个以乡村音乐出名的州。",
+    "香港出生、住汽车旅馆修机器的是微流体主管；攒出新机器的是爱尔兰人。试点城市是田纳西州的首府级名城。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_04",
+   "level": 1,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "名场面",
+   "row": 3,
+   "title": "苹果信徒",
+   "cg": "bad-assets/cg/c1_04.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2007 年，公司开始批量挖苹果的人。领头入职的是产品经理[[NPC1]]，在苹果管过设计团队，雷厉风行。她在苹果待了近十年，见惯了一位完美主义者怎样把细节逼到极致。她到岗第一周就发现老板天天琢磨乔布斯：说话学他的停顿，发布会学他的灯光，“医疗健康版 iPod”挂在嘴边。有一天她半开玩笑给了个建议，没想到从此改写了老板的公众形象。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "你要学乔布斯，就学全套。别每天换衣服了，就穿{{e_turtleneck|黑色高领衫}}，黑裤子，一辈子穿下去。人们记不住一百套衣服，但记得住一个符号。"
+    },
+    {
+     "kind": "narration",
+     "text": "那正是信息竖井最森严的日子：旧楼里部门之间互不打听，IT 主管监控每个人的邮件，给家人的信里多提一句公司，都可能被叫去谈话；董事会来巡视，员工不许与董事目光接触，玻璃会议室放下隔帘，搞得像情报机构接头。钱也越烧越邪乎：老板{{e_holmes|霍姆斯}}给董事会看的收入预测一年翻几番。偏偏有位董事真去对了账。这位[[NPC2]]也是苹果出身，做过操作系统，较真到近乎固执。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "预测从哪儿来的？我看不到任何能支撑它的订单。还有，高管换了一茬又一茬，为什么从来没人向董事会解释？我要求下次会议把账本摆出来。"
+    },
+    {
+     "kind": "narration",
+     "text": "账本没摆出来，辞职信先逼出来了。董事会主席{{e_lucas|卢卡斯}}——那位把她当亲孙女疼的风投元老——亲自找他谈的话：体面点，自己走。[[NPC2]]签字后是平安夜，律师的邮件跟着进了收件箱，威胁要查他“泄密”。他后来跟人苦笑：在苹果见过偏执，没见过把偏执全用在自己人身上的。同一阵子，[[NPC1]]也递了辞呈：她去田纳西{{e_nashville|纳什维尔}}的试点看过，晚期癌症病人排着队给一台不灵光的机器扎手指。她回来只说了一句：这不是我进苹果时想做的事。到 2008 年，苹果帮走得一个不剩。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ana"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_avie"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_dongpaluo"
+    }
+   ],
+   "hints": [
+    "两个空都来自同一家水果公司：一个管形象，一个管较真；地点是公司最早那处办公室。",
+    "建议老板一辈子穿黑高领衫的是她；平安夜收律师邮件的董事是他。那栋楼在 101 公路旁的工业区。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_05",
+   "level": 1,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 4,
+   "title": "逼宫",
+   "cg": "bad-assets/cg/c1_05.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2008 年 3 月，帕洛阿尔托的新总部，斯坦福隔壁的一栋玻璃楼。公司刚搬进来几个月，钱烧得飞快，给投资人画的收入预测却一个标点都没兑现。销售主管瑟尔迪先坐不住了：他管签单，最清楚真实收入是几位数。他拉上法律总顾问埃斯基维尔，绕开 CEO，直接求见董事会。走廊尽头的玻璃会议室放下隔帘，里面的人影开了一整下午的会。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "销售主管",
+     "text": "我给董事会念两个数。对外材料上写的今年收入，和我手里真实合同上的收入，差着好几倍。这数字拿出去，是要出事的。我不是来闹事的，我是来救这家公司的。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "法律顾问",
+     "text": "我是学法律的，话说得直白点：继续这么报，就是往证券欺诈的边上走。你们要证据？销售部每份合同我都留了底。我们要求董事会立刻换人，请一位成熟的职业经理人来管账。"
+    },
+    {
+     "kind": "narration",
+     "text": "董事们被说服了。那次会议的气氛史称“逼宫”：董事会当场形成决议，罢免二十四岁的创始人兼 CEO[[NPC1]]，只等第二天一早宣布。主席[[NPC2]]亲自给她打的电话——这位投过甲骨文的风投元老，从公司第一天起就疼她如疼亲孙女，电话里声音都是哑的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "孩子，董事会已经定了，明早开会。你……体面一点。我也不想这样，可数字摆在那儿，我堵不住所有人的嘴。"
+    },
+    {
+     "kind": "narration",
+     "text": "放下电话，她只有不到二十四小时。换成别人，那一晚大概用来哭。她用来打电话——从傍晚打到后半夜，逐个打，一个不落。说到第三位时声音还是稳的；打到第五位，窗外的天已经黑透了。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "是我太年轻，有些事没跟各位讲透。给我十五分钟，听完再决定。这家公司是我十九岁想出来的，换掉我，你们换不掉它的魂。"
+    },
+    {
+     "kind": "narration",
+     "text": "她先打给最早背书的那个人：斯坦福教授[[NPC3]]——当年正是他把“另一个盖茨、另一个乔布斯”的评语写进推荐信，他的名声和公司捆得最深。再回头打给主席[[NPC2]]，一句一个“您看着我长大”。两个小时后，风向变了；天亮之前，决议变成废纸。第二天走进会议室的还是她，坐被告席的换成了瑟尔迪和埃斯基维尔。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "当你攻击国王的时候，你必须杀了他。"
+    },
+    {
+     "kind": "narration",
+     "text": "两名告发者当天被解雇，签完厚厚的{{e_nda|保密协议}}才被允许收拾抽屉。从那以后公司立了新规矩：走的人不许说，留的人不许问。董事会再也没有第二次举手。有老员工后来回忆，那天之后，会议室的隔帘再没有完全拉开过。也有人说，她赢在骨子里那股硅谷劲——{{e_fakeit|演久成真}}：先摆出必胜的姿态，再把姿态熬成现实。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_lucas"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_robertson"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hillview"
+    }
+   ],
+   "hints": [
+    "三个空：被罢免又翻盘的创始人、心软的主席、名声跟她捆在一起的教授；地点在斯坦福旁边的新总部。",
+    "主席是投过甲骨文的风投元老，把她当孙女；教授是最早说她像乔布斯的人。新总部在帕洛阿尔托。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_06",
+   "level": 1,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 5,
+   "title": "杀手专利",
+   "cg": "bad-assets/cg/c1_06.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "华盛顿近郊，弗吉尼亚州的豪宅区。一座带锦鲤池塘的七卧室宅邸里，住着公司 CEO[[NPC1]]全家二十年的老邻居[[NPC2]]：医生、发明家，还替政府干过不能说的差事，一辈子自认是天底下最聪明的人。两家的母亲是二十年的闺蜜，孩子们在同一条街上长大，烧烤、圣诞、度假，都凑在一起。2008 年秋天，这份交情正式归零。"
+    },
+    {
+     "kind": "narration",
+     "text": "起因是专利。[[NPC2]]听说邻家女孩辍学创业，做的是居家验血，偏偏一次也没来请教过他这个行家。他不是没想过提点她两句：姑娘，这行的水比你想象的深。可人家连电话都没打一个。他耿耿于怀了两年，索性自己动手，申请了一项专利：居家血检设备查出结果异常时，自动向医生和患者发出警告的机制。明眼人都看得出，这专利就是冲她的产品路线去的——从她辍学时的第一个构想{{e_patch|诊疗贴片}}，到如今机器里的每一项检测，都可能撞上这张网。他把草图改了十几遍，每一遍都比她的构想多想一步，私下给它起了个绰号：希拉洛斯杀手。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "二十年，我看着她长大。她创业，不找我；申请专利，绕着我走。好，那就在我的主场玩。这张纸一旦批下来，她的机器每报一次警，就得向我低头一次。"
+    },
+    {
+     "kind": "narration",
+     "text": "九月的一天，[[NPC1]]亲自带着一台自家机器，飞去找一家以打专利官司闻名的律所求援——她想反告这位老邻居。接待她的合伙人，偏偏就是老邻居的儿子约翰。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "约翰",
+     "text": "我得坦白：坐在您对面，我很为难。您要告的人是我父亲。这个案子，我们所接不了。机器您带回去吧，祝您好运——也祝我们两家都好。"
+    },
+    {
+     "kind": "narration",
+     "text": "走出律所，她在停车场站了很久。司机问回不回酒店，她说，回去，把机器看好——从今天起，这家公司谁也信不过，只能信律师。而那位接待过她的儿子，从此上了对方律师团的黑名单，这是后话。"
+    },
+    {
+     "kind": "narration",
+     "text": "婉拒说得客气，梁子结得结实。几个月后，“杀手”专利获批，老邻居特意把批准通知寄到她的办公室，像下一封战书。又过了几年，她的公司果然反诉他父子三人“窃取专利信息”，官司一打四年，把这个家耗掉两百多万美元。彼时她身边已经多了一个大她近二十岁的男人{{e_sunny|桑尼}}——那也是后话。宅邸里的锦鲤照样游，两家的母亲从此不再通电话。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_fuisz"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_mclean"
+    }
+   ],
+   "hints": [
+    "对手是个自以为最聪明的医生发明家，住弗吉尼亚豪宅；她是故事的主角。地点就是他那座带锦鲤池塘的家。",
+    "儿子在她想请的律所当合伙人，父亲和她家做了二十年邻居。那座豪宅在华盛顿近郊、以情报圈住户出名的小镇。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_07",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "霍姆斯",
+   "row": 0,
+   "title": "十岁宣言",
+   "cg": "bad-assets/cg/c1_07.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "九岁那年，家里亲戚逗我：小姑娘长大想做什么呀？我说，我要做亿万富翁。他们又笑，说那你想不想嫁给总统？我说不——总统将会娶我，因为我会拥有 10 亿美元。满屋子大人笑成一团，我没笑。我说的每一个字都是认真的。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我们家以前阔过。祖辈办过一家酵母公司，红火了几十年，是辛辛那提数一数二的家族企业，后来经营不善，说没就没了。父亲总在饭桌上讲这段家史，讲完叹气。我听进去了：人得做点什么大的，不然家族的名字就被人忘了。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "在斯坦福，我选化学工程。我的导师{{e_robertson|罗伯特森}}教授是系里的招牌，第一学期我就闯进他办公室，把一份几十页的专利申请拍在他桌上——一片贴在手臂上的布，里头埋着比头发还细的针，一边取血，一边把药送回去，我叫它{{e_patch|诊疗贴片}}。他看了很久，说我是他教过最特别的学生。那年我十九岁，随后办了辍学。别人替我可惜，我不觉得：教室里教不出我要的东西。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "创业后我每晚只睡四个小时，桌上放一块镇纸，刻着一句话：如果你知道自己绝不会失败，你会做什么？我每天看它一眼。我的答案，从来没变过。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    }
+   ],
+   "hints": [
+    "九岁立志十亿美元、十九岁从斯坦福辍学的女孩。",
+    "她的导师是化学工程系的招牌教授；她把家族败落当成人生燃料。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_08",
+   "level": 1,
+   "form": "dialogue",
+   "difficulty": "easy",
+   "len": "M",
+   "col": "沙奈克",
+   "row": 0,
+   "title": "一号员工",
+   "cg": "bad-assets/cg/c1_08.jpg",
+   "segments": [
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "2004 年 5 月，我博士论文还没答辩完，就被一个十九岁的本科生招进了公司——第一个雇员，工号 001。本来有教职在等我，导师劝我：创业公司九死一生。我还是来了。办公室在{{e_dongpaluo|东帕洛旧楼}}，隔壁是机修厂，桌上摆着二手电脑。我图什么？图她眼睛里那股劲。可我是学化工的，我清楚从一篇专利到一台机器，隔着多少道坎。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "你是这个领域真正的博士，我需要你。别人看到的是辍学的小姑娘，你看到的是科学。我们一起把它做出来，历史会记住第一个相信的人。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "第一笔钱是{{e_draper|德雷珀}}投的，一百万美元，她家在华盛顿的老邻居。发工资那天全公司笑疯了——支票上公司名印错了，“实时治疗”印成了“实时诅咒”。我当玩笑收着，后来每次想起都后背发凉。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "干了两年，我心里那本账越来越清楚：机器十回有三四回闹脾气。2006 年冬天我们去{{e_zurich|苏黎世}}给药企做演示，结果“完美”得不像话。财务总监{{e_mosley|莫斯利}}跑来问我：屏幕上那些实时数据是真的吗？我犹豫再三，把维修日志摆给他看，红笔圈的全是死机时间。第二天，他就被请出了公司。那天我学到这家公司的第一课：在这里，说真话的成本是饭碗。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "他不懂我们在做的事。投资者买的是未来，不是今天的故障率。博士，别老盯着故障率——莱特兄弟第一架飞机，也只飞了十二秒。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我没接话。我这人务实，梦想一律打八折听。从那天起我开始数日子，数到自己走人的那天为止。走那天，我把工牌放在前台，谁也没惊动。后来那架“飞机”的故事，她讲给了全世界的记者听。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_shaunak"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_holmes"
+    }
+   ],
+   "hints": [
+    "工号 001 的博士，和他十九岁的老板。",
+    "第一个雇员是学化工的联合创始人；老板就是九岁立志十亿美元的那位。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_09",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "富兹",
+   "row": 0,
+   "title": "隔壁的孩子",
+   "cg": "bad-assets/cg/c1_09.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我家在{{e_mclean|麦克莱恩}}的宅子，七间卧室，院子里养着一池锦鲤，是我一条一条亲自挑回来的。跟隔壁那一家，我们做了二十年邻居。两家太太是闺蜜，好到共用一个发型师；两家的孩子同一条街长大，生日派对都一起办。我自认是这条街上最有出息的人：医学院毕业，几十项专利傍身，还给政府干过些不能说的事。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我这人记仇。当年跟一家医药大公司结梁子，他们总裁在耶鲁毕业典礼上演讲，我雇了架飞机，拖着“辞退劳克斯”的横幅在会场上空转圈。圈里人都知道这是我干得出来的事。所以别怪我多想——隔壁那个小姑娘，从小看着长大的，辍学创业做验血，产品叫什么{{e_patch|诊疗贴片}}，申请专利、拉投资，一样没落下，偏偏一次都没来敲我的门。我是医生，是发明家，整条街上谁最懂这个？她不问我。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "后来我在收音机里听到她的访谈，声音压得低低的，谈理想谈愿景。我把那段录音翻来覆去地听，越听越不是滋味：这条路线上每个关键主意，我都比她早想到十年。好，既然不来请教我，那我就自己写。白纸黑字写下来，看看到底是谁的东西。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_fuisz"
+    }
+   ],
+   "hints": [
+    "华盛顿郊区的老邻居，医生兼发明家，最记仇。",
+    "雇飞机拉横幅那位；他耿耿于怀的是邻家女孩创业没请教他。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_10",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "normal",
+   "len": "S",
+   "col": "沙奈克",
+   "row": 1,
+   "title": "录制的完美",
+   "cg": "bad-assets/cg/c1_10.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "2006 年 11 月，我跟着老板飞瑞士，给那家大药企演示{{e_theranos1|希拉洛斯1.0}}。外人看我们风光无限：阅读器、检测盒、一针指尖血。只有我们自己知道这台机器什么脾气——十回里有三回报错，剩下七回看运气。演示当天上午，最担心的事发生了：一台阅读器当场死机，屏幕黑了。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "救场电话打回加州。值班的{{e_tkemp|坎普}}，我们的生物信息主管，从太平洋对岸把一份“结果”发了过来——不是现场测的，是之前跑出来的旧数据，重新推上屏幕。对方会议室里，投资人的屏幕亮了，曲线漂亮，掌声也漂亮。老板后来说：太完美了。我站在旁边跟着笑，手心全是汗。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "更早之前我就知道另一件事：给投资者看的所谓“实时结果”，很多是提前录好的回放。机器在那几分钟里什么都没测，屏幕上放的像电影。这些材料做得漂亮，连董事会主席{{e_lucas|卢卡斯}}那样的老江湖看了都点头。可我是学化工的博士，数据对我来说是信仰。录好的东西管叫实时，这不叫营销，这叫骗。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我憋了两个星期，睡不着，最后去找了管钱的 CFO，告诉他演示里的数据是怎么来的。他听完脸都白了。后来的事你们知道了——他去质问老板，当天被炒。告密的是我，丢饭碗的是他。这笔账，我记到今天。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_shaunak"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_zurich"
+    }
+   ],
+   "hints": [
+    "说这番话的，是公司第一个雇员；事发城市在欧洲。",
+    "化工博士、联合创始人；演示在瑞士那家药企的地盘上。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_11",
+   "level": 1,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "伊恩",
+   "row": 1,
+   "title": "一滴血的标准",
+   "cg": "bad-assets/cg/c1_11.jpg",
+   "segments": [
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我是剑桥的生物化学博士，手里握着大约五十项专利，痴迷免疫测定一辈子。来这家公司之前，我在别处管过整个研发部，退休金都攒够了，是“一滴血”这三个字把我勾来的。她来请我时，我以为遇到了知音：一个真想做点事的小姑娘。我成了公司第一位资深科学家。进了旧楼的实验室才知道，知音和老板，是两回事。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "设备要快，要小，要便宜。一滴血，一次出结果。这是产品的灵魂，没有商量。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "快和准，有时候是天平的两头。样本只有一滴，抗体反应被压到几分钟，误差谁来兜底？我没有要商量的意思，我要的是标准。设备里做的检测，必须和大实验室做出来的同等准确——这不是我的执念，这是医学的底线。正规实验室每年都要参加{{e_pt|能力验证}}，拿统一发的盲样回来测，测得准才能继续开张，考砸了执照是要吊销的。我们的小盒子——那台{{e_edison|爱迪生机}}——将来也得过这一关，躲不掉的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "理想我懂。但投资人不等理想，市场不等理想。先把机器做出来，标准以后再谈。我要全世界最好的科学家——这不就是请你来的原因？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "以后再谈？医生会拿这些结果决定病人的用药！一个假阳性，病人白挨一刀；一个假阴性，命就没了。工程师{{e_eddie|埃迪}}他们只管机器转不转，我管的是转出来的数能不能信。小姑娘，你雇我，就是雇了一个会说“不”的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "办公室安静了几秒，她没接这句话。后来才知道，她最讨厌的就是这句话。这样的争执，在旧楼里每隔几周就来一轮：一个要完美，一个要进度；一个拿病人当底线，一个拿承诺当底线。公司里渐渐分出两拨人：跟着进度走的，和跟着那位英国书呆子走的。很多年后人们才明白，那两拨人争的不是技术，是这家公司的命。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ian"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_dongpaluo"
+    }
+   ],
+   "hints": [
+    "空位是剑桥来的老科学家和他的年轻老板；地点在公司起家那栋楼。",
+    "手握约五十项专利、痴迷免疫测定的英国人；楼在 101 公路旁的工业区。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_12",
+   "level": 1,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "富兹",
+   "row": 1,
+   "title": "专利之念",
+   "cg": "bad-assets/cg/c1_12.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2005 年春天起，弗吉尼亚那座带锦鲤池塘的宅邸里，有台收音机总在重播同一段访谈：国家公共电台请了个二十岁出头的创业女孩，讲“一滴血改变医疗”。男主人[[NPC1]]把这段录音听了不下几十遍，每听一遍，脸色就沉一分。那段访谈他存进了收藏夹，备注标成红色，像归档一桩悬案。池塘新换了水，锦鲤比孩子还金贵，他却连鱼食都忘了撒。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "洛兰",
+     "text": "你从晚饭前听到现在，一个孩子的访谈，至于吗？她妈妈是我二十年的闺蜜，上周烧烤你连人家递的盘子都没接。你这样子，让我以后怎么见她。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "孩子？她做的是居家验血！我干了半辈子医生，申请了半辈子专利，这条道上哪块石头我没摸过？她创业，不问我；写专利，绕开我。她把我当什么？她九岁那年来我家泳池派对，我给她切过蛋糕——现在她要改写诊断学？这局棋她还没坐下，我已经走了三步。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "{{e_patch|诊疗贴片}}——她给那玩意儿起的名字倒是好听。好，我也写一份：居家血检设备查出结果异常，自动警告病人和医生。权利要求书他改了十一稿，逐字对着她的草案校过。这东西将来她的机器绕得开吗？绕不开。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "洛兰",
+     "text": "你这是要跟一个小姑娘较劲？传出去像什么样子。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "较劲？我这是教她规矩。专利局不讲交情，只讲谁先想到、谁先落笔。这份申请，我私下给它起了名字——杀手。这名字我只在家里叫，叫出口就痛快。等批下来那天，她会明白：这条街上真正懂行的，一直住在隔壁。"
+    },
+    {
+     "kind": "narration",
+     "text": "那年八月，他真的把申请递进了专利局。缴费单他特意裱了起来，挂在书房墙上，正对着窗外那片池塘。也是从那年起，他添了个习惯：凡与那家公司有关的事，一律记进一本硬皮记事簿——日期、人名、听来的原话。宅子里的锦鲤照样抢食，两位母亲的下午茶却渐渐冷了，再约时，话题里第一次有了禁区。谁也没想到，这张纸会在几年后变成两家之间一场耗资数百万美元的战争里，倒下的第一张骨牌。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_fuisz"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_mclean"
+    }
+   ],
+   "hints": [
+    "空位是宅子的男主人，医生兼发明家；地点是他带锦鲤池塘的家。",
+    "他管自己的专利叫“杀手”，针对的是邻家女孩的公司；宅子在华盛顿近郊弗吉尼亚一侧。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_13",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "伊恩",
+   "row": 2,
+   "title": "免疫测定",
+   "cg": "bad-assets/cg/c1_13.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "别人叫我书呆子，我认。剑桥读完生物化学博士，我这辈子就迷一件事：免疫测定——用抗体去抓血液里微量的目标物，像大海捞针，捞得又快又准。前前后后，大约五十项专利上有我的名字。实验室的年轻人嫌我固执，开会总跟我抬杠，我由他们抬——科学这东西，抬赢了才算数。我以为这把年纪不会再为什么激动了，直到那个十九岁的小姑娘来找我，说要用一滴血改变世界。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "公司里吵路线吵了很久。我一直以为，把血逼进比头发还细的管子里那条路，才是正路。结果前阵子听说，工程组那个爱尔兰人{{e_tony|托尼}}，从货架上搬了台三千美元的点胶机器人回来，东拼西凑，攒出一台黑白外壳的新机器，跑通了。老板给它起了名字，叫{{e_edison|爱迪生机}}。我去{{e_dongpaluo|东帕洛旧楼}}的实验室门口远远看过一眼，那机械手一抓一放，倒真有几分架势。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我将信将疑。点胶机器人是工厂里挤胶水的，粗糙得很，真能伺候好一滴血？可看老板的意思，方向就这么定了。也罢——机器是谁攒的不重要，重要的是它测出来的数，敢不敢拿到病人面前去。我让人给我留了一份它跑出来的数据，锁在抽屉里，打算回去一条一条地对。这一条，我迟早要跟他们掰扯清楚。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ian"
+    }
+   ],
+   "hints": [
+    "剑桥博士，公司第一位资深科学家。",
+    "痴迷免疫测定、手握约五十项专利的英国书呆子。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_14",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "沙奈克",
+   "row": 2,
+   "title": "五毛钱的股票",
+   "cg": "bad-assets/cg/c1_14.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "2007 年底，我离开了亲手参与创办的公司。作为联合创始人和第一个雇员，我手里握着一百一十三万股。走的时候，我把它们卖回给了她——五毛钱一股，一共五十六万五千美元。这单回售是董事会主席{{e_lucas|卢卡斯}}点头经办的，他没为难我。听着不少？同一时期外面投资人接盘的价格是两块五，我打了两折。律师都说我疯了，我老婆说我们亏掉了一套房。我说，我只想好聚好散，不想跟一位二十出头的 CEO 打官司。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "钱是小事，心凉是大事。我眼看着这家公司变味：演示可以录播，预测可以随口编，说了真话的 CFO 当天被扫地出门，事后还被安了个难听的由头。高管换人像走马灯，上个月还在拍桌子定方向的人，这个月工位就空了。会议桌上渐渐没人说真话——大家学会先看她的脸色，再决定自己“知道”什么。后来有人给这种空气起了名字，叫{{e_fear|恐惧文化}}。我在的时候，它还只是一点苗头。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "签字那天，她客气得挑不出毛病，说公司永远感激我。我也客气，说祝你们成功。走出旧楼，我回头看了一眼那块招牌，忽然想起第一年工资支票上印错的三个字：实时诅咒。那张支票我一直留着，夹在博士毕业证里。希望，是我多心吧。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_shaunak"
+    }
+   ],
+   "hints": [
+    "工号 001，折价八成卖股走人的联合创始人。",
+    "113 万股只卖五十六万五；他是学化工的博士。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_15",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "霍姆斯",
+   "row": 3,
+   "title": "黑色高领衫",
+   "cg": "bad-assets/cg/c1_15.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我办公室里摆着乔布斯传，翻得起了毛边。他做产品的标准，就是我的标准：我们的机器必须是“医疗健康版 iPod”——简单到老太太都会用，漂亮到配得上杂志封面。大学毕业那年我就明白了，这个世界奖励那些把自己活成标志的人。公司里的人说我魔怔了，随他们说。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "形象这件事，我是认真的。{{e_ana|安娜}}——从苹果挖来的设计师——有天跟我说：别天天换衣服了，就穿{{e_turtleneck|黑色高领衫}}，一辈子穿下去，人们会记住这个符号。我照做了。衣柜里清一色同款，早上不用想穿什么，省下的每一分钟都是公司的。车也学他，奥迪 A8，不挂车牌。说话我也有讲究：会议室里要压得住场，声音就得往下沉。背后有人议论这声音是真是假，我不在乎——他们记住了，就够了。形象即权力。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "谈事我喜欢约在{{e_coupa|科帕咖啡馆}}。固定的位子，固定的时间，服务员不等我开口就把老样子端上来。我走进去，全场都看得见：黑高领，金头发，眼睛不眨。对面的人还没开口，气势先输一半。要让人记住你，先让他们没法移开眼睛——这也是乔布斯教我的。有人问我累不累。我说，等公司改变世界那天，你们就会学我穿衣服了。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    }
+   ],
+   "hints": [
+    "乔布斯头号信徒，黑高领与低沉嗓音的主人。",
+    "十九岁辍学、每晚只睡四小时的创始人本人。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_16",
+   "level": 1,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "霍姆斯",
+   "row": 4,
+   "title": "攻击国王",
+   "cg": "bad-assets/cg/c1_16.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2008 年 3 月那个傍晚，董事会刚投票要罢免她。下午那通电话是主席亲自打来的，措辞客气，意思冰冷：明早宣布，请你配合。帕洛阿尔托新总部的灯一层层灭了，只有她办公室的灯亮着。她没换衣服，还是那身标志性的{{e_turtleneck|黑色高领衫}}配黑裤子——这身行头，她说过要穿一辈子。从傍晚到后半夜，她守着电话，一个董事一个董事地打。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "您听我十五分钟，就十五分钟。收入预测是我激进了，我认，我改。但换掉我，这家公司还剩什么？技术路线是我定的，投资人是我谈的，员工是冲我来的。您投过甲骨文，您知道伟大的公司长什么样——它现在就在您手里，别松手。"
+    },
+    {
+     "kind": "narration",
+     "text": "第二通电话打给了{{e_robertson|罗伯特森}}——斯坦福教授，最早把“另一个乔布斯”的评语给她的人。他的名声和公司捆在一起，她清楚，他也清楚。那通电话最短，不到十分钟，挂断前教授只说了三个字：我想想。第三通、第四通……两个小时后，天平开始往回倒。最难的一关留到最后：董事会主席[[NPC2]]，投过甲骨文的元老，疼她像疼亲孙女，也正是他亲口通知的罢免。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "孩子，你知道我为什么心软吗？不是因为你巧舌如簧。是因为我想起上一个跟我们较真的董事{{e_avie|艾维}}——苹果出来的硬角色，要求查账，结果呢？被逼着辞了职，圣诞夜还收到律师信。他走了，问题留下了。我老了，不想再看第二次。明早的会，我替你说话。但这是最后一次——国王要么被杀死，要么学会不再给刺客机会。"
+    },
+    {
+     "kind": "narration",
+     "text": "天亮前，罢免决议作废。她放下电话，对身边助理说了那句后来传遍硅谷的话。助理把它记在笔记本上，很多年后才敢说给别人听。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "当你攻击国王的时候，你必须杀了他。他们没杀死我——那就轮到我了。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_lucas"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hillview"
+    }
+   ],
+   "hints": [
+    "空位是险些被罢免的创始人，和最后心软的主席；地点在斯坦福隔壁的新总部。",
+    "主席是投过甲骨文的风投元老，把她当孙女；新总部在帕洛阿尔托。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_17",
+   "level": 1,
+   "form": "monologue",
+   "difficulty": "normal",
+   "len": "S",
+   "col": "富兹",
+   "row": 5,
+   "title": "杀手专利",
+   "cg": "bad-assets/cg/c1_17.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "2010 年，专利局的通知寄到了我家——带锦鲤池塘的那座宅子：我那份居家血检异常警告的专利，批了。我端着咖啡在院子里站了很久，锦鲤在水里游，我心里那口气，顺了。从她在收音机里侃侃而谈那天起，我就在等这张纸。律师劝我低调，说大公司会记恨。我说，我等的就是她记恨。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我做的第一件事，是把批准通知复印一份，寄到她的办公室。没附信，不需要。她那种人，看一眼专利号就全明白了：从今往后，她的机器每向病人发一次警告，都踩在我的纸上。二十年邻里情，那些圣诞卡、烧烤、孩子们的毕业照，到这一步，就是一纸诉状的预告。两家太太的下午茶散了，我跟她，法庭见。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "当时我还不知道后面会发生什么：她的律师团会反咬一口，说我“窃取”了她的专利信息；会有人去翻我儿子的旧账，会有车停在我家街对面，一整天都不熄火。硅谷信{{e_fakeit|演久成真}}，先吹出来再补作业——可惜专利局不吃这套。在我的领域，想到就是想到，落笔就是落笔。这张纸我锁进书房的抽屉里，钥匙只有我一个人有。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_fuisz"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_mclean"
+    }
+   ],
+   "hints": [
+    "空位是邻家那位记仇的医生发明家；地点是他养锦鲤的家。",
+    "写下“它仅仅源自我的大脑”的人；宅子在华盛顿近郊弗吉尼亚。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c1_18",
+   "level": 1,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "霍姆斯",
+   "row": 5,
+   "title": "桑尼入局",
+   "cg": "bad-assets/cg/c1_18.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2009 年秋，帕洛阿尔托。她常去的那家咖啡馆，服务生照例把他们引到角落那张桌子——她谈要紧事，永远坐那儿。两杯咖啡。坐在她对面的男人[[NPC2]]，大她将近二十岁，早年卖掉自己创办的软件公司，套现四千多万美元，开保时捷，说话像下命令。他练过多年柔道，脖颈粗壮，往角落一坐，半间咖啡馆的气场都变了。公司员工只知道他是“新来的执行副总裁”，没人知道两人的另一层关系——这个秘密，他们对董事会瞒了很多年。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我认识你的时候，你还在北京那个普通话项目里练中文，扎着马尾，见谁都笑。现在看看，CEO 了。行，我来帮你。你们这栋楼我转了一圈，工程师在给老板的狗让路。管理这种事你不懂，我懂。公司要的是纪律：谁不干活，谁走。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我上一回正经上班还是九年前。陪你啃普通话那阵子我就看出来了，你骨子里比谁都狠。咱俩，是一类人。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "一类人就把话说明白：公司里我是 CEO，你是副总裁，顺序不能乱。技术上的事听我的，管理上的事听你的。还有，我们的事，公司里不能有第三个人知道。董事会那帮老头要是问起来——"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "问什么？我是你的副总裁，仅此而已。对了，那个老邻居{{e_fuisz|富兹}}的专利还在纠缠？别怕，我来了，这种事以后交给我。总部搬到{{e_hillview|山景大道}}之后，安保也得升级，我明天就安排。"
+    },
+    {
+     "kind": "narration",
+     "text": "他履职的方式很快出了名：邮件半夜连环轰炸，会议上当众点名，不忠者当场“消失”。有实习生第一天就被他当众问哭，第二天工位就空了。有老员工私下嘀咕：公司从这天起换了气质，以前怕的是做不出来，现在怕的是人。这种空气后来有了名字——{{e_fear|恐惧文化}}。头一个月，采购部的报销单被他打回去了三分之一。机场送别时他不道再见，隔着车窗吼了一嗓子，吼完自己先笑了，好像这几个字值四千万。后来它成了全公司学了很多年的口头禅。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "好了，快去挣钱吧！"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_coupa"
+    }
+   ],
+   "hints": [
+    "空位是创始人和她大近二十岁的秘密男友；地点是她最爱约人谈事的地方。",
+    "男的卖过软件公司、套现四千万，北京项目旧识；那家咖啡馆在帕洛阿尔托。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_01",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 0,
+   "title": "桑尼新政",
+   "cg": "bad-assets/cg/c2_01.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2010年初，一架飞机落在墨西哥的高原上。[[NPC1]]拖着行李箱走出机场，她是创始人在斯坦福的同寝室友，被招进客户解决方案组，第一项任务就是跟着公司的设备飞到这座高原首都，协助一项猪流感筛查项目。接待他们的医院走廊里挤满了咳嗽的病人，而她怀里抱着的那台机器，一路颠簸之后连开机都有些勉强。她教当地护士使用机器，护士们围着这个耐心的姑娘笑，没人知道机器报出的一个阴性结果，可能意味着什么。"
+    },
+    {
+     "kind": "narration",
+     "text": "项目刚起步就处处不对劲。设备三天两头报故障，采血管在高温里失灵，有几名后来确诊感染的病人，机器却给出了阴性的结果。她亲眼看到当地的协调人把厚厚的信封塞给医院的工作人员，回来后把疑虑写成邮件发给公司高层。回复只有一句话：做好你分内的事。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]是前一年秋天空降来的总裁，一个大老板近二十岁的男人。据说他在互联网泡沫年代卖掉过一家公司，套了几千万美元，进公司没多久就收紧了所有人的门禁权限。员工们很快摸清规律：汇报时数字必须好看，坏消息要包装成好消息，谁把问题端到台面上，谁就是问题本身。[[NPC1]]很快领教了这套规矩：她在周报里写了一句“设备稳定性有待提高”，第二天就被叫去谈话，提醒她注意“用词”。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我不关心过程，我只关心数字。这个项目要是砸了，你知道谁会负责。你的职责是把项目跑完，不是给我上课。"
+    },
+    {
+     "kind": "narration",
+     "text": "他治下的办公室有一条不成文的规矩：谁让他不顺心，第二天工位就空了。同事们私下把这叫{{e_fear|恐惧文化}}，甚至发明了一句黑话——某人被“消失”了。"
+    },
+    {
+     "kind": "narration",
+     "text": "回到总部，她把项目里的乱象摊开在{{e_holmes|霍姆斯}}面前——那是她大学时最亲密的朋友，也是这家公司的创始人。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_holmes",
+     "text": "我不管。我们可以进进出出换人，公司是最重要的。"
+    },
+    {
+     "kind": "narration",
+     "text": "话说得很轻，[[NPC1]]却听懂了：出问题的不是机器，是提问的人。那二十四台阅读器最终被装箱运回加州，医院里那些拿到阴性结果的病人此后再无人跟踪；筛查项目对外仍被写成一次「成功的海外部署」，写进了下一轮融资材料。那位当地协调人塞出去的信封、失灵的采血管、误报的名单，一份内部报告里也找不到。几个月后，她递了辞职信。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_chelsea"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_mexico"
+    }
+   ],
+   "hints": [
+    "两个人：创始人在斯坦福的室友，和一位空降的总裁；地点在墨西哥高原。",
+    "闺蜜与伦敦一家足球俱乐部同名；总裁的绰号在英文里是“阳光”；城市是该国首都。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_02",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 1,
+   "title": "连锁药店",
+   "cg": "bad-assets/cg/c2_02.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "芝加哥郊区的那栋总部大楼里，一场演示刚刚结束。[[NPC1]]兴奋得满脸通红。他是公司创新团队的成员，见面总爱跟人击掌，三句话不离自己年轻时打篮球的经历。在他眼里，这家加州小公司摆在桌上的东西就是未来：一滴血，几百项检测，装进自家几千家门店。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "这东西要是成了，我们就是下一个十年里最赚钱的连锁药店。谁也别想拦我签它。"
+    },
+    {
+     "kind": "narration",
+     "text": "为了这一天，[[NPC1]]已经奔走了好几个月。他领着对方的人参观自家搭的全尺寸药店模型，逢人便讲那台机器将如何改变顾客的“健康体验”。团队里有人私下笑他，说他谈起那家创业公司，比谈自己当年打球还眉飞色舞。"
+    },
+    {
+     "kind": "narration",
+     "text": "管钱的人比他更急。[[NPC2]]是公司的财务掌门，开车出过两次酒驾的麻烦，做交易却一向以快著称。他拍板的条款爽快得惊人：先预购五千万美元的检测盒，再倒贴一笔两千五百万的贷款给对方。有人提醒他是不是该先看看对方的实验室，他摆摆手。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "竞争对手就在隔壁州盯着。我们不能冒这个险，让他们六个月内把单子抢走。"
+    },
+    {
+     "kind": "narration",
+     "text": "唯一唱反调的是[[NPC3]]。他是公司外聘的实验室顾问，干了一辈子临床检验，提出要做一次正面对比研究：同一批血样，一半走传统实验室，一半走对方的新机器。这个再正常不过的要求，被一次次礼貌地推掉。他要求参观实验室，得到的答复永远是“没问题，只要我们有时间”——而时间从来没有过。对方高管们排着队扎了手指，那些检测结果，他一份也没能见到。"
+    },
+    {
+     "kind": "narration",
+     "text": "他不是没试过走高层路线。他把疑问写成措辞谨慎的备忘录，约管战略的高管喝咖啡，旁敲侧击地问：如果技术是真的，为什么怕对比？对方笑着打太极，说商业机密，说时机未到。咖啡喝完，备忘录石沉大海。"
+    },
+    {
+     "kind": "narration",
+     "text": "对方甚至拿不出一份像样的背书。所谓名校的评估，不过是两页纸的会面纪要，白纸黑字写着“不构成认可”——这封{{e_hopkins|霍普金斯信}}后来却被当成金字招牌四处展示。[[NPC3]]在报告里写下自己的疑虑：对方要么藏着一项了不起的技术，要么藏着别的东西。他的上司们选择了相信前者，并且应对方要求，把他从后续会议的名单上划掉了。"
+    },
+    {
+     "kind": "narration",
+     "text": "在这座写字楼里，{{e_fakeit|演久成真}}不是一句玩笑，而是一套所有人默认的行事逻辑：先把合同签了，再祈祷对方真的能把东西做出来。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_jay"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_miquelon"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_hunter"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_deerfield"
+    }
+   ],
+   "hints": [
+    "三个人都在同一家连锁药店：一个鼓吹、一个签单、一个质疑。",
+    "鼓吹者的绰号借自一位篮球传奇的外号；签单的财务掌门有两份酒驾记录；质疑者是外聘的实验室顾问。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_03",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "名场面",
+   "row": 2,
+   "title": "霸王龙计划",
+   "cg": "bad-assets/cg/c2_03.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "这家老牌超市连锁的一把手[[NPC1]]，把宝全押在了一个秘密计划上，内部代号“霸王龙”。他下令掏出三亿五千万美元改造门店，辟出专门的“健康中心”，还在分析师会议上神秘兮兮地放话，说公司正在玩一盘“健康游戏”。改造图纸上，每一家门店的健康角都预留了一个位置——给那台据说一滴血就能做全套检查的{{e_edison|爱迪生机}}。"
+    },
+    {
+     "kind": "narration",
+     "text": "总部所在的这座小城，很快开出了一家员工诊所，由合作方负责验血。员工们要挨两针：一针抽静脉血，一针扎指尖。结果往往拖上两个星期才回来。更蹊跷的是，不少平日体检正常的健康员工，收到的报告上却标着异常——他们忐忑不安地去复查，每一项又都正常。更耐人寻味的是，诊所采的一部分血样，被悄悄寄去了外州的大型商业实验室：既然自己的机器一滴血就能测，何必舍近求远？没人给过解释。"
+    },
+    {
+     "kind": "narration",
+     "text": "首席医疗官{{e_bradley|布莱德利}}是军医出身，他把警告写成备忘录递到一把手桌上，被原样顶了回来。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_bradley",
+     "text": "这些数据的波动，不像一家合格实验室该有的样子。我是首席医疗官，我必须把话说在这儿。"
+    },
+    {
+     "kind": "narration",
+     "text": "同样不安的还有临床技术员{{e_dupuy|杜普伊}}——在总部旁边{{e_meadow|草地东环路}}那栋单层小楼的实验室里，她把看到的违规操作一条条记进本子。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "结果记笔记的人被解雇了，两次。记错的人，反倒一个比一个安稳。",
+     "speakerEntry": "e_dupuy"
+    },
+    {
+     "kind": "narration",
+     "text": "其实更早的时候，隔壁那家连锁药店请的顾问{{e_hunter|亨特}}就碰过一鼻子灰——他只是想看一眼对方的实验室，就被客客气气地挡在门外。听说那家药店内部，力主这笔合作的是他们的{{e_jay|J博士}}——逢会必夸对方技术的铁杆鼓吹者，可如今连他都常常拿不到回话。同样的话术、同样的拖延，在这家超市的员工诊所里又演了一遍。霸王龙计划烧掉的钱越来越多，[[NPC1]]的“健康游戏”最终在董事会上讲不下去：次年开年他宣布退休，合作随之瓦解，三亿五千万砸出来的健康中心，多数成了摆维生素和血压计的货架。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_burd"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_pleasanton"
+    }
+   ],
+   "hints": [
+    "他是这家超市连锁的掌舵人，痴迷“健康”生意。",
+    "他的姓氏在英文里是一种鸟，公司总部在加州一座以农业起家的小城。"
+   ],
+   "cgDark": false
+  },
+  {
+   "id": "c2_04",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 3,
+   "title": "军方风波",
+   "cg": "bad-assets/cg/c2_04.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2011年夏天，{{e_holmes|霍姆斯}}带着她的机器敲开了军方的大门。她的设想很大胆：把检测盒送上战场，放进军车甚至直升机，让士兵在战地就能验血。演示桌上，她描述着未来的图景：伤兵在野战医院门口扎一下手指，几分钟后医生就能拿到结果，不必再冒险后送。在座的军官们交换着眼神——这幅图景，对任何带过人的人都太有诱惑力了。接待她的将军兴致勃勃，军方内部的监管专家却听出了问题。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "你们的监管结构，还没做好飞翔的准备。"
+    },
+    {
+     "kind": "narration",
+     "text": "说这话的是[[NPC1]]，一位负责对接药监局事务的中校。他不是凭空发难：他在军方实验室系统里干了多年，是公认的诊断设备审批专家，哪家公司的文件走没走流程，他一眼就能看出来。他当场给在场所有人上了一课：一张实验室执照只管得住一个地址，不能把设备撒到全国、撒到战场；真要上战场，得走药监局的审批，还得有伦理审查协议。会后他把疑虑写成正式的信，寄给了药监局。这封信绕了一圈，招来了一次突击检查——巡视官员{{e_yamamoto|山本}}突然出现在公司实验室门口，要查他们的{{e_pt|能力验证}}，也就是实验室行业每季度必须参加的对外质量考试。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "规矩就是规矩。病人不会因为穿军装还是白大褂，就该拿到两种不同标准的验血结果。"
+    },
+    {
+     "kind": "narration",
+     "text": "公司立刻搬出了后台。[[NPC2]]是当时执掌战区司令部的四星上将，被她描绘的前景深深打动，亲自过问了这件事。他在邮件里连声质问：那个中校到底是谁，到底发生了什么？压力层层下压，最后双方在这座位于佛罗里达的基地里坐下来谈判。公司法务准备了厚厚一摞材料，措辞客气，姿态很低。桌上达成了一项妥协：军方允许公司用去身份化的剩余样本做一点有限的实验，战场部署暂时搁置。会后将军特意送她到车边，像对待一位老朋友；那位中校坐在长桌另一端，从头到尾没怎么说话，只在最后补了一句：样本可以研究，规矩不能研究。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我欣赏敢想敢干的年轻人，但军队里任何新东西，都得先证明它可靠。"
+    },
+    {
+     "kind": "narration",
+     "text": "妥协签了字，却从没有被执行。那位中校几年后退出现役，同僚送了他一件纪念T恤，上面印着一行字：从四星将军手下逃生之后，你想做什么？——退休，扬帆驶向落日。有人把这故事讲给记者听时，只评价了一句：军队里总算还有不肯配合演出的人。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_shoemaker"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_mattis"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_tampa"
+    }
+   ],
+   "hints": [
+    "一方是管监管规矩的中校，一方是军衔最高的战区司令。",
+    "中校的姓氏与“造鞋匠”同源；将军后来当过国防部长；基地在佛罗里达。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_05",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 4,
+   "title": "科学家之死",
+   "cg": "bad-assets/cg/c2_05.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "这栋从一家社交网站手里盘下的旧办公楼里，[[NPC1]]已经度过了第八个年头。他是剑桥出来的生物化学博士，名下有将近五十项专利，是公司雇的第一位资深科学家，也是个不折不扣的书呆子——开会时总把“数据”两个字挂在嘴边。几年前他因为向一位老教授抱怨了几句公司的乱象，转头就被出卖，遭解雇，又因为同事们求情被降职召回。从那以后，他被一点点挪出核心，办公室越搬越偏，能碰的实验越来越少。那个寄托了公司全部未来的{{e_minilab|迷你实验室}}，他这个首席科学家反而插不上手。"
+    },
+    {
+     "kind": "narration",
+     "text": "同事们后来回忆，那两年他肉眼可见地消沉下去。曾经会在走廊里拦住人讨论数据的老人，变得沉默，常常一个人在办公室坐到很晚。有人听见他跟相熟的老同事说，那对当家人是一对“二联性精神病”——一个人疯了，身边最亲近的人会跟着一起疯。"
+    },
+    {
+     "kind": "narration",
+     "text": "那年春天，一张法院的传票送到了他手上。公司正在打一场专利官司，对方注意到他是多项专利的合作发明人，要找他当庭质证。他陷入了真正的两难：说实话，专利可能作废，自己一辈子的心血连同公司的根基都会动摇；不说实话，就是伪证。公司重金聘请的王牌律师[[NPC3]]——那位打官司几乎没输过、被同行称作“杀手”的大人物——派人带话，建议他装病，躲开作证。"
+    },
+    {
+     "kind": "narration",
+     "text": "5月的一个深夜，他独自在家做出了那个决定。八天之后，他在医院离世。"
+    },
+    {
+     "kind": "narration",
+     "text": "他的妻子[[NPC2]]是一位前专利律师，比他更早就警告过那些专利经不起推敲。她守着电话，等公司创始人的一句慰问。电话始终没有来。来的是一封律师邮件，措辞客气而冰冷，要求她尽快归还丈夫生前使用的公司电脑。公司没有办任何纪念仪式，大多数同事甚至不知道他已经不在了。在这栋楼里，{{e_fear|恐惧文化}}教会了每个人沉默——一个人消失了，最好连问都不要问。"
+    },
+    {
+     "kind": "narration",
+     "text": "葬礼是家里人自己办的。她翻着丈夫留下的数据记录，一册一册码得整整齐齐，像一座无声的纪念碑。她后来对人说，丈夫这一辈子最怕的，就是有人说他的科学不干净。"
+    },
+    {
+     "kind": "narration",
+     "text": "最后替他做了点什么的，是一位老同事：把[[NPC1]]名下的专利清单整理出来，群发给全公司，标题只有一行字——纪念他。那封邮件在员工的收件箱里静静躺着，没有人敢回复。公司继续开会、融资、扩张，像什么都没有发生过。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ian"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_rochelle"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_boies"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_facebook"
+    }
+   ],
+   "hints": [
+    "三个人：剑桥来的老科学家、他的遗孀、公司最贵的律师。",
+    "老科学家一生痴迷免疫测定；遗孀本行是专利律师；那位律师后来进了公司董事会。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_06",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 5,
+   "title": "强行上线",
+   "cg": "bad-assets/cg/c2_06.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "这栋租自社交网站的旧楼里，二楼实验室被分成两半：一半摆着市面上的商用设备，一半锁着公司的专有机器。两年过去了，那台被寄予全部希望的新机器仍是一堆不能用的原型机：移液管走位漂移，离心机测试时当场炸开，六个机箱叠在一起的方案更糟，上面的机器被下面的烤得发烫。可健康中心的开业日期已经对外宣布，公司决定退回老机器顶上，再走一条捷径——买来{{e_advia|西门子分析仪}}，让工程师破解它的程序，把指尖采来的微量血样稀释两遍，再喂给这台商用机检测。稀释一遍已经勉强，两遍就远远超出了监管认可的范围，而装血的{{e_nanotainer|纳米容器}}只有半截拇指高，里面的血本来就不够用。"
+    },
+    {
+     "kind": "narration",
+     "text": "免疫测定团队的主管[[NPC1]]在公司干了八年，她把新方法测出的差错数据打印出来，摆在创始人面前：同一批样本，结果忽高忽低，根本达不到对外承诺的准确度。她请求推迟上线。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "这些数字拿去发报告，是要出医疗事故的。推迟三个月，比道歉一辈子便宜。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_holmes",
+     "text": "因为当我向客户承诺了一件事情，我就要做到。"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_holmes|霍姆斯}}说这话时不带一丝犹豫。第二天[[NPC1]]交了辞职信，离开前悄悄打印了几份邮件留底自保。团队里主张谨慎的声音，至此又少了一个——上一任首席科学家{{e_ian|伊恩}}离世才过去几个月，他生前坚持的“设备内检测必须与实验室同等准确”那条底线，如今再没人提起。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "稀释只是数学问题。样本量是死的，算法是活的，比例算对了，结果照样可信。"
+    },
+    {
+     "kind": "narration",
+     "text": "替公司技术路线辩护的是[[NPC2]]，麻省理工出来的博士，公司里公认的事实上的三号人物，稀释方案正是出自他和他的团队。同事们私下说，这位博士的脑子好使得很，只是好使得太听话了。总裁{{e_sunny|桑尼}}则在全员大会上给所有人打气，人手发了一本《牧羊少年奇幻之旅》。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_sunny",
+     "text": "相信这家公司的，留下来；不相信的，现在就滚他妈的蛋！"
+    },
+    {
+     "kind": "narration",
+     "text": "秋天，第一家健康中心准时开业。开业当天剪彩的照片里，创始人和药店高管并肩微笑，报纸写：这是医疗检测的未来。排队的顾客里有老人，有孕妇，也有像{{e_tyler|泰勒}}这样刚被招进来、对一切浑然不觉的年轻研究员——没有人告诉他们，报告单上那些精确到小数点的数字，是在怎样的机器上、被怎样算出来的。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_anjali"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_daniel"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_facebook"
+    }
+   ],
+   "hints": [
+    "一个是要用数据拦下上线的老员工，一个是为稀释方案打包票的博士。",
+    "女主管管的是免疫测定团队；男博士是老板夫妇之外最有话语权的三号人物。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_07",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 6,
+   "title": "九十亿",
+   "cg": "bad-assets/cg/c2_07.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2013年岁末，一家管理着数十亿美元的基金公司决定上门做尽职调查。来的是两位合伙人，做过十几年医疗投资，自认见过各种场面。可车还没停稳，他们先领教了这栋楼里的阵仗：访客要押证件、签保密文件，全程有人贴身陪同，实验室方向连走廊都不许靠近。谈判桌对面坐着总裁[[NPC1]]，创始人身边最信得过的人。他报出的数字漂亮得不像话：明年收入两亿六千多万美元，检测项目上千项，军方、药企、连锁药店排着队合作。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我们的设备已经部署到需要它的地方去了。具体细节涉及保密，恕不能展开。"
+    },
+    {
+     "kind": "narration",
+     "text": "真正让来访者放下戒心的是两样东西。第一样是一张图表：自家设备与传统实验室的结果对照，成百上千个点严丝合缝地贴在一条直线上。这张{{e_scatter|散点图}}后来被证明，数据其实来自买来的商用设备，跟他们自己的机器毫无关系。做过实验的人都知道，真实世界的数据从来不会这么听话——可在那样的灯光下，没有人愿意做那个扫兴的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "第二样是董事会名单。坐在桌边的[[NPC2]]，是做过国务卿的老人，上世纪的外交教科书上就有他的名字；他旁边那位身板笔直、眼神如刀的[[NPC3]]，是刚刚退役的四星上将，带兵打过两场海湾战争。除了这两位，名单上还有前国防部长、前参院军事委员会主席、退役的海军上将，随便一个名字都够写进新闻标题。访客心里那杆秤悄悄换了砝码：技术看不懂，但这些人精，总不会同时看走眼吧？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我在这位创始人身上，看到了改变世界的决心。我以毕生的阅历为她担保。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC3",
+     "text": "这东西要是上了战场，能救士兵的命。我信它，也信她。"
+    },
+    {
+     "kind": "narration",
+     "text": "负责牵线募资的是小卢卡斯，风投世家出身，给客人算账时有一套自己的话术。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "小卢卡斯",
+     "text": "你知道吗，在伊拉克，它们被放在悍马车的后面？军队都信了，你还有什么好担心的。"
+    },
+    {
+     "kind": "narration",
+     "text": "几个月后，九千六百万美元到账，公司估值冲到九十亿。在这栋紧挨斯坦福的大楼里，{{e_fakeit|演久成真}}的文化被推到了顶点：只要故事讲得足够动人，就没有人会去掀开机器的盖子看一眼。而那张完美得不可思议的图，被印进了一轮又一轮募资材料里。两年后，这家基金把公司告上了法庭——那是后话。两位合伙人在回城的飞机上复盘，只记得住一件事：那种被众人仰望的确定感，是会上瘾的。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_shultz"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_mattis"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hillview"
+    }
+   ],
+   "hints": [
+    "桌边三人：报数字的总裁、外交界的元老、退役的将军。",
+    "总裁的绰号意为“阳光”；元老做过国务卿；将军绰号“疯狗”，后来当了国防部长。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_08",
+   "level": 2,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 7,
+   "title": "吹哨人",
+   "cg": "bad-assets/cg/c2_08.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "海湾对面的这座工厂里，临床实验室在产线的轰鸣声旁边昼夜运转。厂区从总部开车过来要过一座桥，对员工来说，这里像公司的腹地：产线在一端，实验室在另一端，刷卡权限层层设防，不同区域的人互相不知道对方在做什么。[[NPC1]]是刚入职不久的初级实验员，加州大学伯克利分校出来的姑娘，做的第一份正经工作，就撞上了教科书上从没教过的事。"
+    },
+    {
+     "kind": "narration",
+     "text": "她的活儿之一是协助做检测验证——新检测项目上线前，必须先证明它够稳、够准。按规矩，同一批样本反复测，结果波动越小越好，波动过大就算这一轮不合格。在这里，不合格的轮次不会被记录在案，而是被直接丢掉重跑，跑到好看为止。说白了，这就像考试前先把做错的卷子撕掉，只留全对的那份交上去。她负责的梅毒检测，实测下来十份阳性样本只能抓到六七份，对外宣称的灵敏度却是百分之九十五。维生素D的检测更离谱：公司的{{e_edison|爱迪生机}}和市售分析仪测同一份血，结果能差出整整一倍。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "这不对。病人拿到异常结果会去吃药、去做手术，我们不能把没验证过的东西发出去。"
+    },
+    {
+     "kind": "narration",
+     "text": "和她并肩作战的是[[NPC2]]，一个温和的年轻人，董事会里那位前国务卿的亲孙子。他家世显赫却从不端架子，午餐总和大家挤在同一张桌上。他比她更早提出质疑，也更清楚这家公司高层的脾气。两个人把数据一条条对下来，越对越心惊。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "先别声张，按流程走。我们把变异系数、把每一轮记录都留好，找该找的人谈。"
+    },
+    {
+     "kind": "narration",
+     "text": "流程没能走通。感恩节前后，{{e_pt|能力验证}}——实验室行业每季度必须参加的对外质量考试——样本送到，公司内部质控却连续失败。接下来的事让两个人彻底看清了底线：没有执照的人员被叫来“处理”数据，把偏离太远的“极端值”从表格里删掉，然后按下发送键，把带着问题的结果直接发给了病人。那几天的排班表她记了很久：谁下的指令，谁动的鼠标，谁签的字。她把自己电脑上能导出的记录都导了出来，存进一个私人U盘，下班时攥在手心，像攥着一块烧红的炭。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "删掉的不是数字，是病人的安全。"
+    },
+    {
+     "kind": "narration",
+     "text": "那年冬天，两个人先后开始悄悄保存邮件和记录。他们还不知道，自己很快会成为这家公司九年历史上最致命的两个名字。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_erika"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_tyler"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "两个刚毕业的年轻人：一个伯克利姑娘，一个董事的孙子。",
+    "姑娘姓张；年轻人的祖父做过国务卿。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_09",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "霍姆斯",
+   "row": 0,
+   "title": "闺蜜",
+   "cg": "bad-assets/cg/c2_09.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "辞职信递上去的第三天，[[NPC2]]被叫到人事办公室。她在斯坦福读书时最要好的朋友如今是这栋楼的主人，她自己只是客户解决方案组的一名雇员。桌上摆着一叠等着签的文件：互不诋毁条款、材料交还承诺、竞业限制，还有一张写好的对外说法——她要「搬去洛杉矶」。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "莫娜",
+     "text": "签这里、这里，还有这里。求职网站上不要写公司名字，写「一家私人生物公司」就行。有人问起你在这儿做过什么，你知道该怎么答。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我做了三年客户解决方案，走的时候连自己做过什么都不能说？这一叠纸里，有一条是保护病人的吗？"
+    },
+    {
+     "kind": "narration",
+     "text": "签完字，工牌被收走。那一叠{{e_nda|保密协议}}是这栋楼的地基：留下的人不许问，走掉的人不许说。走廊里遇见的同事们低着头,谁也不敢多聊两句——总裁{{e_sunny|桑尼}}治下的规矩人人都懂，谁跟离职的人多站三分钟，第二天自己的门禁卡就可能刷不开门。"
+    },
+    {
+     "kind": "narration",
+     "text": "临走前,她被叫到顶层那间玻璃办公室。窗外是斯坦福的树，桌上摆着母校毕业典礼那天两个人的合影。[[NPC1]]没有提她的辞职理由，也没有问她要去哪里。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "这三年你辛苦了。我一直觉得，能在这栋楼里待下来的人，都是选择了更大的东西。你选了别的，我尊重。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我们大学时候说要一起做点了不起的事。我以为「了不起」的意思是，做出来的东西真的管用。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "它会管用的。你走之后它也会管用。等它管用了，今天所有的问题都不会再是问题——这就是我们做的事和别人做的事的区别。"
+    },
+    {
+     "kind": "narration",
+     "text": "电梯门合上的时候，她想起自己西班牙语说得好，才被派去{{e_mexico|墨西哥城}}那个项目；也想起回来之后，那些故障与误报，从来没有出现在任何一份内部报告里。那张合影她带走了，塞在纸箱最底层。此后办公室里再没有人提起她的名字，像一行粉笔字被擦掉。很多年后有人问她学到了什么，她说：我学会看清一个人可以为「最重要的事」放下多少东西——包括朋友。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_chelsea"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hillview"
+    }
+   ],
+   "hints": [
+    "一边是这栋楼的主人，一边是她大学时代最要好的朋友，正在办离职手续；地点是公司紧挨斯坦福的总部。",
+    "这位朋友西班牙语流利，被派去过高原上的项目；总部在帕洛阿尔托一条以景观命名的大道上。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_10",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "桑尼",
+   "row": 0,
+   "title": "七代人",
+   "cg": "bad-assets/cg/c2_10.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我四十岁不到就把公司卖了，四千多万美元落袋。我那辆保时捷的车牌是DAZKPTL，懂行的一眼就看出是在戏仿《资本论》；兰博基尼上挂的是VDIVICI——我来，我见，我征服。凯撒的话，用在我身上正合适。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "有人背后议论，说我配不上这家公司的总裁位子，说我不懂技术。笑话。我挣的钱足够养活我家七代人，我根本就不用待在这儿！我来，是因为她需要我，这家公司需要一双镇得住场子的手。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "技术有什么难的？工程师汇报，我听着就行。上周那个什么“末端因子”的更新，讲得清清楚楚，我一眼就明白了——这帮书呆子，就喜欢把简单的事说得玄乎。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "管理上我信奉一条：怕，比爱管用。{{e_fear|恐惧文化}}？他们爱这么叫就叫去。谁让我不顺心，第二天他的工牌就刷不开门。那个叫{{e_chelsea|切尔西}}的姑娘，老板的大学室友，仗着旧交情到处打小报告，结果呢？自己递了辞职信。在这栋楼里，没有人能例外。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "如今在{{e_hillview|山景大道}}这栋楼里，我说话比谁都算数。斯坦福就在隔壁，那些教授、董事，见了我都客客气气。他们心里清楚，这家公司能走到今天，一半的功劳是我镇出来的。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    }
+   ],
+   "hints": [
+    "他是大创始人近二十岁的伴侣，公司的总裁。",
+    "他的绰号在英文里是“阳光”，人们只在背后这么叫他。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_11",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "normal",
+   "len": "S",
+   "col": "伊恩",
+   "row": 1,
+   "title": "降职",
+   "cg": "bad-assets/cg/c2_11.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我在剑桥读博士的时候，以为科学的规矩到哪里都一样：数据说话，错了就认。到这家公司第五年，我才明白这里的规矩是反的——老板永远是对的，哪怕机器的数据明明白白摆在那里。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我心里憋闷，去找{{e_robertson|罗伯特森}}教授倾诉。他是我敬重的前辈，最早为公司背书的斯坦福教授，我以为他是读书人，能懂我的为难。一个星期后，我被叫进办公室，当场解雇。我说给教授的每一句话，原封不动地躺在了老板的桌上。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "后来同事们替我说情，公司把我“召回”了——头衔降了一级，实验室不许再进核心区域。这栋从社交网站手里租来的旧楼，我从敞亮的大办公室搬到了走廊尽头的小间。每天准时上班，坐在那儿，几乎无事可做。他们说这是给我留面子，我懂，这是怕我出去乱说话。那阵子楼里人人自危，后来有人给这种空气起了名字，叫{{e_fear|恐惧文化}}。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "有人问我怎么看那对当家人。我给了一个医学上的说法：二联性精神病。这个词的意思是，妄想会在两个极亲近的人之间来回传染，到最后谁也说不清是谁先开始的。我看他们两个，正是教科书上的样本。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "夜里我常想，五十项专利，半辈子的免疫测定，就换来走廊尽头这间小屋。科学输给的，从来不是科学。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ian"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_facebook"
+    }
+   ],
+   "hints": [
+    "他是公司雇的第一位资深科学家，剑桥博士。",
+    "他痴迷免疫测定，把老板夫妇称作“二联性精神病”。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_12",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "桑尼",
+   "row": 2,
+   "title": "末端因子",
+   "cg": "bad-assets/cg/c2_12.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "机械工程师阿耐夫在这栋旧楼的实验室里，主持过一场精心策划的恶作剧。总裁[[NPC1]]不懂技术又爱不懂装懂，大家决定试他一试：把机械臂上的“末端执行器”，故意做成一份标题为《末端因子更新》的演示文稿，当着他的面一页页讲。阿耐夫后来跟人讲，排练时大家最担心的不是穿帮，而是有人当场笑出声——PPT里连数据图表都是现成的，横轴是月份，纵轴是“因子效率”，全是编的。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "阿耐夫",
+     "text": "各位请看，末端因子的效率提升了百分之十五，下一步我们优化因子的热管理。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "很好，因子这一块抓得不错。进度再往前赶一赶，别让{{e_burd|伯德}}那边等急了。"
+    },
+    {
+     "kind": "narration",
+     "text": "满屋子的工程师低着头憋笑，没有一个人敢出声纠正。超市老板在{{e_pleasanton|普莱森顿}}的健康中心还等着设备，{{e_minilab|迷你实验室}}的影子却还没有——这些正经事，总裁说不清楚，也听不明白。"
+    },
+    {
+     "kind": "narration",
+     "text": "可同一个人，翻脸时快得吓人。一位供应链经理在停车场剐蹭了他的车，道歉的话还没说完，就被当场开除。他的私人物品被装进纸箱，当天下午快递到家，人是被保安“护送”出大门的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "你想做警察？去做你的警察！从今天起，你不用来了。"
+    },
+    {
+     "kind": "narration",
+     "text": "更离谱的在后面。一位软件工程师辞职，不肯签新的保密文件，[[NPC1]]竟然拨了报警电话，理由让接警员都愣住。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "他在脑子里偷走了公司财产。对，脑子里，你们赶紧来人。"
+    },
+    {
+     "kind": "narration",
+     "text": "那天之后，实验室里再没有人跟他开过任何玩笑。恶作剧的主角阿耐夫不久也递了辞呈——笑话会过时，恐惧不会。恐惧是有形的：它体现在突然失效的门禁里，体现在被清空的聊天记录里，也体现在每个人回话之前那一秒的停顿里。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_facebook"
+    }
+   ],
+   "hints": [
+    "他是公司里不懂技术又最爱训话的总裁。",
+    "车牌戏仿《资本论》、绰号意为“阳光”的那个人。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_13",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "桑尼",
+   "row": 3,
+   "title": "仍在开发",
+   "cg": "bad-assets/cg/c2_13.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "一个普通的上午，门禁蜂鸣器响了，进来一位出示证件的巡视员。[[NPC2]]在联邦医保监管部门干了半辈子现场检查，什么样的实验室都见过，但眼前这栋旧楼里的阵仗还是让他留了心：深色摄像头、玻璃隔帘、全程贴身陪同。这次检查也不是例行公事——两个月前，一封来自军方专家的咨询信寄到了监管部门，客客气气地问：一张实验室执照，能不能覆盖撒在外面的设备？问题很专业，专业到必须有人亲眼看一看。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "请带我去你们的检测区，我要看设备、看流程、看记录。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "当然可以——这边请。不过先说清楚，我们的专有设备仍在开发，那边涉密，谁也不能进。您能看的，是这一片。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]亲自出马，把巡视员稳稳地引到摆着市面商用设备的半边实验室。机器是现成的，流程是规范的，记录是齐全的，一切都挑不出毛病。专有设备那半边，门紧紧锁着。走廊两侧的墙上挂着励志标语，护士装束的员工推着采血车来回穿梭，像排练过的舞台剧。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "外面有军方的人写信反映，你们的检测可能没走正规审批。这个问题，我必须记录在案。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "反映？{{e_shoemaker|舒梅克}}中校那封信就是个误会。军方那边我们都谈妥了，{{e_tampa|坦帕基地}}的会议纪要写得明明白白。"
+    },
+    {
+     "kind": "narration",
+     "text": "送走巡视员，[[NPC1]]脸上的笑立刻收了。他转身吩咐手下：从今天起，商用设备区的排班加一倍；任何人问起来，口径只有一句——专有设备，仍在开发。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "检查就是一场戏。戏台搭好，让他们看他们想看的，散场，各自回家。"
+    },
+    {
+     "kind": "narration",
+     "text": "那天夜里，锁着的半边实验室里，工程师们继续调那台永远差一口气的原型机。门内门外，两个世界。一场戏能演得这么齐整，靠的不是排练，是{{e_fear|恐惧文化}}——这栋楼里，说错一句话的代价，人人都掂量过。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_yamamoto"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_facebook"
+    }
+   ],
+   "hints": [
+    "一方是突击检查的联邦巡视员，一方是挡在实验室门口的总裁。",
+    "巡视员是个日本裔姓氏；总裁的绰号意为“阳光”。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_14",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "伊恩",
+   "row": 4,
+   "title": "正确的事",
+   "cg": "bad-assets/cg/c2_14.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "埃尔卡米诺路边的鱼市场餐馆，[[NPC1]]约了接替他的生物化学家保罗吃饭。这家餐馆他们来过几次，以前聊的是实验设计，是剑桥的旧时光，是哪家的炸鱼薯条地道。这一次，两个人都没怎么动筷子。老板娘认得他们，照例多端来一碟腌黄瓜，看了看两人的脸色，又悄悄退开了。老人已经很少来公司，这栋租来的旧楼里，他那间办公室早在走廊尽头落了灰。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "保罗",
+     "text": "你瘦多了。实验室现在归我管，可我越管越糊涂——新盒子的数据，怎么都对不上。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "因为对不上才是真话。新盒子无法工作，小东西毛病满身，这是所有人心照不宣的秘密。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "保罗",
+     "text": "上头催得紧，说健康中心等着开张。我要是拖着不签字，位置明天就没了。"
+    },
+    {
+     "kind": "narration",
+     "text": "保罗压着嗓子问，那对外宣称的几百项检测怎么办，上线日期怎么办。老人放下叉子，沉默了很久。窗外的停车场安静得能听见冷柜的嗡嗡声。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "{{e_edison|爱迪生机}}是我们试了一切办法都失败之后攒出来的，名字本身就透着自嘲。现在他们要把比它更不成熟的东西推到病人面前。医生会拿这些结果决定用药、决定手术——这不是生意，是人命。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我年轻时以为，科学家最大的敌人是无知。后来才知道，是利益。数据不合意，他们换机器；机器不合意，他们换说法；说法不合意，他们换人。你猜，什么时候轮到你？"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "保罗",
+     "text": "那你觉得我能做什么？我只是一个干活的科学家。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "保罗，必须做正确的事情。答应我，无论他们怎么催、怎么压，必须做正确的事情。"
+    },
+    {
+     "kind": "narration",
+     "text": "那顿饭吃得很慢，话却不多。告别时老人站在餐馆门口，路灯把影子拉得很长。保罗后来才意识到，那不像一次工作交接，更像一句没能说出口的求救。出门时，老人替他理了理被风吹乱的衣领，像长辈，也像托付。半年后保罗也离开了那家公司。很多年后他才对人说起那顿饭，说起老人讲“正确的事”四个字时，筷子在盘边轻轻敲了两下，像在给这句话打拍子。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ian"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_facebook"
+    }
+   ],
+   "hints": [
+    "他是把位子交给保罗的老科学家。",
+    "剑桥来的书呆子，一生痴迷免疫测定。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_15",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "伊恩",
+   "row": 5,
+   "title": "最后一周",
+   "cg": "bad-assets/cg/c2_15.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "传票是周一送到的。他们要我去那场专利官司里作证。我的妻子{{e_rochelle|罗谢尔}}做过专利律师，她比我更清楚这意味着什么：那些专利上挂着别人的名字，真正的实验却是我做的——上了证人席，说真话，专利可能作废；说假话，就是伪证。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "公司那边派来传话的人，背后站着{{e_boies|博伊斯}}，那位打官司几乎没输过的王牌大律师。建议很“体贴”：装病，躲开质证。传话的人还说，这是“标准操作”，谁都不会怪罪。我笑了。我一辈子跟数据打交道，数据从不说谎，我这一生，最不会的就是装。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我在走廊尽头的小办公室里，想了整整一个星期。五十项专利，八年的公司，出卖我的教授，渐渐搬空的实验室。那台{{e_edison|爱迪生机}}，我从图纸守到样机，半生心血都耗在里头，如今连再看一眼都不许。夜里睡不着，我就翻以前的数据记录，一册一册，那是我唯一能看懂的世界。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "周五的晚上，我给妻子留了话，让她别担心。然后我独自走进书房，关上门。后面的事，就让活着的人去说吧。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我走后，公司没有悼词，没有仪式，大多数同事甚至不知道我已经不在了。我妻子等创始人的电话，等来的是律师催还电脑的邮件。也好——如果科学教会我什么，那就是每个结果都要有人负责。这一次，我对自己负责，也总算不用再说谎了。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_ian"
+    }
+   ],
+   "hints": [
+    "他是被一张传票逼到墙角的首席科学家。",
+    "剑桥博士，五十项专利，说过“必须做正确的事情”。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_16",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "霍姆斯",
+   "row": 5,
+   "title": "承诺",
+   "cg": "bad-assets/cg/c2_16.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "他们说我冷血，说我不顾病人的安全。他们不懂。{{e_anjali|安加丽}}把一叠差错数据摊在我桌上，求我把上线日期往后推。我看着她，只说了一句话：因为当我向客户承诺了一件事情，我就要做到。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "承诺是什么？承诺是这家公司对药店、对投资人、对整个世界的信用。日期宣布过，广告打出去了，几千家门店的健康中心在等着，采血用的小管——我们叫它{{e_nanotainer|纳米容器}}——都印好了标志，成箱堆在仓库里。现在告诉我机器还不行？机器可以再调，工程可以连夜赶，日期不能改——改了，我们就什么都不是。董事会里那些老先生，不也是信了承诺才掏的钱？我退一步，他们的钱、我的名声、几百个员工的饭碗，全都悬在半空。我不能退。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "硅谷就是这样。先做，再说，做成了，当初所有的问题就都不是问题。他们管这叫“演久成真”，我管这叫信念。当年董事会要罢免我，我两个小时就把局面扳了回来，靠的也是这个：绝不认怂。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "{{e_facebook|脸书旧楼}}里那些实验室的灯，夜夜亮到凌晨。我需要的不是告诉我“不行”的人，而是想办法让它“行”的人。她辞职了，我祝她好运。但健康中心会准时开业——我说到，做到。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "九岁的时候我就说过，我会拥有十亿美元。我从来不是在许愿，我是在承诺。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    }
+   ],
+   "hints": [
+    "她是这家公司的创始人，十九岁从斯坦福辍学。",
+    "黑色高领衫、低沉嗓音、崇拜乔布斯的那个人。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_17",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "桑尼",
+   "row": 5,
+   "title": "牧羊少年",
+   "cg": "bad-assets/cg/c2_17.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "上线前那晚的全员大会，是我张罗的。几百号人坐满大厅，人手发一本《牧羊少年奇幻之旅》——讲一个少年翻山越岭寻找宝藏的故事。什么意思？意思是这家公司就是宝藏，跟着走的人才能挖到。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我在台上把话挑明了：有人给老板递差错数据，有人在背后嘀咕机器不行，还有人辞职之前偷偷打印邮件。这种人不配待在这儿。相信这家公司的，留下；不相信的——滚他妈的蛋！"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "底下鸦雀无声。我要的就是这个效果。忠诚不是说出来的，是试出来的。从今天起，谁再提“推迟”两个字，就地去财务结账。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "外面的世界管我们这套叫{{e_fakeit|演久成真}}，好像是什么贬义词。我倒觉得这是硅谷的看家本领：你先把戏演真了，钱、人、机会就都来了，真的东西随后自然补上。有人问我，万一演砸了呢？那就演到不砸为止。宝藏这东西，从来都是先信的人有份。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "散会的时候，我看着那些人抱着书排队离场，心里踏实。机器行不行是工程师的事，队伍齐不齐是我的事。至于那本牧羊少年，读不读随他们——反正道理已经发下去了，人手一册，谁也不能说没收到。这支队伍，我给它拧成了一股绳。有人私下管这套叫{{e_fear|恐惧文化}}——叫什么随他们，管用就行。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    }
+   ],
+   "hints": [
+    "他是主持这场全员大会的总裁。",
+    "套现四千万的富豪，老板的秘密男友。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_18",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "泰勒",
+   "row": 5,
+   "title": "名门之后",
+   "cg": "bad-assets/cg/c2_18.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我爷爷{{e_shultz|舒尔茨}}做过国务卿，我们家客厅的墙上挂着他和好几位总统的合影。从小到大，我见过的大人物比同学一辈子见的都多。可那年我把入职那家公司的消息带回家，爷爷脸上的光彩，比我拿奖学金那天还亮。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "全家都为那个穿黑高领衫的姐姐骄傲——{{e_holmes|霍姆斯}}，那阵子我们家晚餐桌上出现频率最高的名字。爷爷说她是这个时代少见的天才，连基辛格爷爷都在晚宴上为她朗诵自己写的五行打油诗。轮到我，我弹着吉他唱公司的广告歌“小小一滴，改变一切”，唱到一半基辛格爷爷迟到了，爷爷让我从头再唱一遍——我唱了，一屋子大人物给我鼓掌。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "入职第一天，我特意提前半小时到。工位、白大褂、那台传说中的机器——我觉得自己不只是在上班，是在参与历史。同事们知道我姓什么，眼神里多少有点不一样，我暗暗下决心：我要靠本事，不靠姓氏。头几个星期，我把每一项操作规范都抄在笔记本上，下班还留在实验室看数据，带我的前辈笑我：你这么干，显得我们都不认真。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "在实验室里我认识了一个伯克利来的姑娘，干活比谁都较真。我们俩被分去做检测验证。那时候我以为，认真是把事情做好的开始。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "后来才知道，在这家公司，认真是一切麻烦的开始。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    }
+   ],
+   "hints": [
+    "他是那位前国务卿董事的亲孙子。",
+    "全家都管创始人叫“那个姐姐”，他也随爷爷姓。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_19",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "桑尼",
+   "row": 6,
+   "title": "两套账本",
+   "cg": "bad-assets/cg/c2_19.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "这栋紧邻斯坦福的总部大楼里，内控官丹尼斯抱着两页打印纸，敲开了总裁[[NPC1]]的门。他不是多事的人，职责是替公司看好钱，可那两份文件摆在一起，就像一个人同时长着两张脸。他干内控十几年，见过的夸大其词不算少，可这一回，他把数字核了三遍，每一遍都得出同一个结论：要么自己疯了，要么这份募资材料疯了。两页纸他都打印了双份，一份随身带着，一份锁进了家里的抽屉。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "丹尼斯",
+     "text": "这上面写着明年收入两亿六千一百万。可我按实际业务算出来的内部预测，满打满算只有五千万。差了五倍，这怎么解释？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "解释？不用解释。对外，你就按这个数讲。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "丹尼斯",
+     "text": "两页纸，两个世界。投资人按两亿六千万做决定，真到了年底对不上，谁来担责任？投资人里不少是朋友介绍的，真出了事，丢的不只是钱，是人。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "担责任？{{e_miquelon|米克隆}}那边连实验室都没看就签了五千万的预购，人家{{e_deerfield|迪尔菲尔德}}总部都不慌，你慌什么？数字是讲给市场听的，市场信了，数字就活了。"
+    },
+    {
+     "kind": "narration",
+     "text": "丹尼斯还想说什么，被挥手打断。他后来才知道，募资材料里还有一张更唬人的{{e_scatter|散点图}}，几百个点整整齐齐贴在一条线上——那是商用设备测出来的数据，跟公司自己的机器没有半点关系。那张图他在打印机旁站了很久，纸角被手心的汗浸得发软。他不懂实验，但他懂数字：真实业务里，没有任何东西会完美成一条直线，除非它本来就是为了完美而造出来的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "把内部预测收好，别乱发。记住，在这个楼里，数字是武器，不是账本。"
+    },
+    {
+     "kind": "narration",
+     "text": "丹尼斯走出办公室的时候，把两页纸对折再对折，塞进了碎纸机。机器嗡嗡响了很久，像替他叹了一口气。后来的事证明他没算错：那一年的真实收入，离他自己估的五千万都还差着一大截，离两亿六千万，隔着一个太平洋。他后来辞职去了另一家零售公司，再没碰过募资材料。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hillview"
+    }
+   ],
+   "hints": [
+    "他是替老板对外报数字的总裁。",
+    "老板的秘密男友，豪车车牌戏仿《资本论》的那位。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_20",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "泰勒",
+   "row": 7,
+   "title": "名不副实",
+   "cg": "bad-assets/cg/c2_20.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "海湾对面的这座工厂里，[[NPC1]]揣着一沓实验记录，敲开了[[NPC2]]办公室的门。这扇门他犹豫了很久才敲——公司里都知道，找这位麻省理工的博士谈数据，等于把事情捅到最高层：除了老板夫妇，就数这位三号人物说了算，所有技术问题最终的解释权都在他手上。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "梅毒检测的灵敏度，我们实测只有六成多到八成，对外报的是百分之九十五。还有，验证不合格的轮次被直接丢掉重跑——这些，您是知道的吗？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "你不懂统计。任何检测都有波动，数据需要“成熟”，年轻人不要看见几个点就大惊小怪。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "维生素D的检测，我们和市售机器测同一份血，结果差一倍。病人拿着我们的结果去补维生素，补错了方向怎么办？那{{e_pt|能力验证}}呢？监管要求用和病人样本同样的方式测考试样本，我们却在商用机上测——这不就是作弊吗？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "市售机器就都对？判定标准是人定的，年轻人。你的问题在于，把实验室当成了法庭。你爷爷要是知道你这么钻牛角尖，会替你操心的。回去把精力放在自己的项目上。"
+    },
+    {
+     "kind": "narration",
+     "text": "太极推手一般的回答。[[NPC1]]走出办公室，走廊尽头的实验室灯火通明，无执照的同事们还在忙着删表格里的“极端值”。他低头看看手里的记录，忽然明白：在这家公司里，懂统计的人假装不懂，不懂的人发号施令。"
+    },
+    {
+     "kind": "narration",
+     "text": "他没有把记录扔掉。那天晚上，他把关键数据一条条抄进自己的私人笔记本，在第一页写下日期和一行字：如果哪天需要证据，从这里开始。他当时还不知道，这本笔记后来会走到一间报社的会议室里，被逐字引用。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_daniel"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "一个是质疑数据的年轻人，一个是打太极的三号人物。",
+    "年轻人的祖父是前国务卿；三号人物是麻省理工的博士。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_21",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "泰勒",
+   "row": 6,
+   "title": "PT欺诈",
+   "cg": "bad-assets/cg/c2_21.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "找上级谈，被搪塞；找三号人物{{e_daniel|丹尼尔}}请教，被一句“你不懂统计”打发。我失眠了好几个晚上，决定走最后一条路：用化名给纽约州卫生部的实验室监管部门写一封咨询邮件，把我们公司的做法原原本本写出来——不点名，只问这样合不合规。写那封邮件时我手心全是汗，化名是随手编的，邮箱是新注册的，可我说的每一个字，都有记录撑着。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "回信很短，每个字都像钉子：{{e_pt|能力验证}}的样本，必须和病人样本用同样的方式检测，你们描述的做法，构成某种形式的PT欺诈。欺诈。一个政府机构，用了这个词。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我把这些整理成一封长邮件，发给了创始人本人。我想，她也许真的不知情，也许知道后会震怒、会整顿。我等来的回复却来自总裁，措辞恶毒得像街头的辱骂：你提出这些，唯一的原因在于你是舒尔茨先生的孙子。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "那一刻我反而平静了。我递了辞职信。和我并肩查数据的{{e_erika|艾瑞卡}}同月也走了。我妈妈打来电话，声音发抖：停下来，不管你想做什么！家里后来为我的律师费，花了四十多万美元。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "他们以为姓氏是我的软肋。他们错了——正因为这个姓氏，我更不能装作没看见。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    }
+   ],
+   "hints": [
+    "他是向纽约州化名求证的吹哨人。",
+    "前国务卿的孙子，为此被总裁指着鼻子骂。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_22",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "霍姆斯",
+   "row": 7,
+   "title": "封面女郎",
+   "cg": "bad-assets/cg/c2_22.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "《财富》的封面出来那天，整个硅谷都在传阅。记者{{e_parloff|帕洛夫}}跟我谈了七个小时，最后写下标题：为血液而生的首席执行官。杂志上说，我身家将近五十亿，是下一个乔布斯、下一个盖茨。报摊、机场、便利店，那张脸无处不在，同事们把杂志供在前台，来访者进门第一眼就能看见。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "拍摄在我的新总部进行，{{e_pagemill|佩奇磨坊路}}那栋楼，大堂地面镶着生命之花的水磨石。摄影师让我把手搭在下巴上，他说，就这样，别笑——封面上的女人要让人害怕，也要让人着迷。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "TEDMED的舞台上，我第一次公开讲了姨父的故事：他因为癌症去世，如果早一点验血，也许结果会不一样。台下有人抹眼泪。记者们后来写，那是我“使命的起点”。有人私下嘀咕我和他并不亲近。我讲的每一件事都是真的：他的病是真的，那些本可以更早发现的指标也是真的。至于我们叔侄之间有多亲，那是我自己的事。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "董事会的老将军{{e_mattis|马蒂斯}}逢人就夸我，说我是他见过最有决心的年轻人。{{e_newark|纽瓦克工厂}}那边的产线日夜赶工，为健康中心供货。一切都在最好的轨道上。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "办公室入口的墙上，我让人印了一行尤达的话：要么就做，要么不做。没有尝试一说。我每天从它下面走过。他们管这套叫{{e_fakeit|演久成真}}，我管它叫硅谷的入场券。全世界都在等我把它交出来——剩下的事只有一件：让机器赶上我说过的话。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    }
+   ],
+   "hints": [
+    "她是登上《财富》封面的创始人。",
+    "黑色高领衫、低沉嗓音、身家五十亿的那位首席执行官。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_23",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "富兹",
+   "row": 3,
+   "title": "燃爆",
+   "cg": "bad-assets/cg/c2_23.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2011年10月，弗吉尼亚的富人区。一辆车停在锦鲤池塘外的车道上，送达员捧着一叠文件按了门铃。文件来自旧金山的联邦法院：那家血液检测公司起诉[[NPC1]]和他两个儿子，说他们合谋窃取了机密的专利信息。这位七十来岁的医生兼发明家看了一眼首页，笑了——起诉书连公司都告错了：争议中的专利属于他和儿子新办的那家，不是他二十年前就卖掉的老公司。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "这份东西我不收。地址对，人不对，公司也不对。你回去告诉写这张纸的人：连被告是谁都查不清，还敢来告我？"
+    },
+    {
+     "kind": "narration",
+     "text": "送达员打电话请示，听筒那边传来一阵咆哮。他失去耐心，把文件扔在老人脚边就走了。老人先拿手机拍了一张人行道上散落文件的照片，然后才蹲下来，一张一张捡干净——他不想让邻居看见。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "洛兰",
+     "text": "你去看看街对面那辆灰车。它停了三天了，方向盘后面坐着个金发女人。……我认得那个侧脸，那是我做了二十年闺蜜的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "老人抓起长焦镜头，从窗户里拍下那辆灰色凯美瑞，再走出去想当面问个明白，车子立刻开走了。照片放大后看不清人脸，妻子却更焦躁了。其实起诉之前几个星期，一家三口就各自察觉了：他开车去机场时被人尾随；住迈阿密的儿子被当过警察的邻居提醒有人在窥探房子；在华盛顿的小儿子和妻子撞见有人给他们家拍照。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "对面请的是全国最有名的诉讼律师[[NPC2]]，听说律师费收的是公司股票——赢不赢无所谓，反正股票在手。私家侦探也不是为了查什么，是为了让你半夜起来看窗户。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "乔",
+     "text": "爸，我们已经花掉两百多万了。我一个专利律师，去跟人家一整支诉讼队伍打，这不是打官司，这是被拖死。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "所以我要换个打法。{{e_holmes|霍姆斯}}那些专利上，有一个反复出现的合作发明人——{{e_ian|伊恩}}，剑桥来的生物化学博士，五十来项专利在身。他是个正经科学家，正经科学家不撒谎。让他宣誓说一句：这里头没有一样东西来自她那份未完成的构想。这案子就翻了。"
+    },
+    {
+     "kind": "narration",
+     "text": "他们把那个名字加进想要质证的证人名单。接下来的五个星期，对方律师对这份要求置之不理——不回信，不排期，像那个名字根本不存在。老人翻出一本硬皮记事簿，在第一页记下日期和一行速记：他们最怕的人，在他们自己公司里。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_fuisz"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_boies"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_mclean"
+    }
+   ],
+   "hints": [
+    "说话的是那位自认全街最聪明的医生兼发明家，另一位是对面请来的顶级诉讼律师；地点是他那座带锦鲤池塘的宅子。",
+    "他和邻家女孩一家做了二十年邻居，后来为专利结仇；那位律师收股票当律师费，后来还进了公司董事会。宅子在华盛顿近郊、以情报圈住户出名的小镇。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_24",
+   "level": 2,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "富兹",
+   "row": 6,
+   "title": "和解那天",
+   "cg": "bad-assets/cg/c2_24.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "2014年3月，圣何塞一家酒店的大堂酒吧。星期天晚上，两架三角钢琴都盖着布，安静得能听见对面那位大律师{{e_boies|博伊斯}}翻纸的声音。他穿海军蓝西装，脚上一双签着自己名字的黑运动鞋。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "两天前我自己上了证人席，输得很难看。他抓着我几句无关紧要的话不放——我说我还在看病人，我妻子的证词说我没有。那几句谎话跟专利毫无关系，可它们把我这个人的可信度打穿了。七十四岁，记性不好使了，即兴发挥这套在宣誓之后不管用。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "条款很快就写好了：我撤回专利，他们撤销诉讼；没有一分钱赔偿，各付各的律师费。我们自己烧掉两百多万。这是完败。签完那张纸，我这个当过特工、一辈子没服过软的人，哭了出来。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "第二天早上，我在宾馆记事本上撕下一页，让律师转交给她：那件专利里没有任何东西来自你们的未完成品，它仅仅源自我的大脑。我小儿子拒绝签任何声明，转头把整件事捅给了一位年轻记者；那位大律师用平板电脑回了一句——上帝欲使谁灭亡，必先令其疯狂。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "后来那几个星期，我几乎垮掉，妻子只好打电话给儿子问我怎么了。别误会，我不是良心发现。我是不服：官司我认输，可有一件事我从没输——那台机器不管用。已故那位科学家的遗孀{{e_rochelle|罗谢尔}}跟我说过，她丈夫也这么想。法庭不肯听我，我就去找愿意听的人。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_fuisz"
+    }
+   ],
+   "hints": [
+    "这位老人自认是那条街上最聪明的人，官司打了两年半，最后撤回了自己的专利。",
+    "他为居家血检申请过一项被自己叫作「杀手」的专利，还雇过飞机拉横幅。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c2_25",
+   "level": 2,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "桑尼",
+   "row": 4,
+   "title": "记笔记的人",
+   "cg": "bad-assets/cg/c2_25.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "公司第一间正式的临床实验室，在总部附近一栋单层石砌小楼的中央。里面没有一台自家的专有机器，全是买来的商用分析仪。技术员{{e_dupuy|杜普伊}}从休斯敦来，在著名的癌症中心受过训，拿执照七年，做过输血专业，监管条文背得比谁都熟。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_dupuy",
+     "text": "（把手机递过去）过期的试剂和没过期的塞在同一个冰箱；没校准的机器上跑病人样本；有人把染色剂弄污了还在用。我一条一条拍了照，写成邮件发给主管，也发给了总裁办公室。"
+    },
+    {
+     "kind": "narration",
+     "text": "她担心的不止实验室。超市总部{{e_pleasanton|普莱森顿}}那间员工诊所派了两位采血师，没人教过他们离心机该转多久、转多快；血浆送到这栋楼时，常常已经被污染。抽血管有一批过期了，里头的抗凝剂早已失效——那些血，是员工们排队伸出手臂给的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "你出差这一个星期，我把实验室从头到尾看了一遍，没找到任何一件能证明你那些抱怨的事。倒是查到一件：你飞出差那天，让男朋友进公司帮你拿行李。这是严重违反保密制度。你被解雇了。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "盖尔博",
+     "text": "她是我这间实验室的人，规矩记得最牢的就是她。我还想留她。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]不情愿地收回了成命。她回到座位上发呆，肩膀被人拍了一下——是信息部的同事，她的公司邮箱和网络权限，在他改主意之前就已经被切断了。三个星期后一个星期五的上午，他又来了一次，这次是永久的。理由是她提醒了同事：一家主要供货商因为公司欠款冻结了订单。她被当场带出大门，眼镜和执照都还锁在抽屉里。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_dupuy",
+     "text": "我给他写了最后一封邮件，抄送给了创始人{{e_holmes|霍姆斯}}：至少有五个人警告过我，你是一门失控的大炮。你造出了一个所有人出于{{e_fear|恐惧文化}}向你隐瞒真相的地方。恐惧和恐吓能管一阵子，最后一定塌。"
+    },
+    {
+     "kind": "narration",
+     "text": "接下来几天，法务的邮件一封接一封：签字，保证把在职期间拿到的一切材料交还或者「永久销毁」。她请了律师，威胁提起非法解雇诉讼；公司请来湾区最厉害的律所，她的律师劝她算了——跟这种对手打，赢不了。她签了字。这间实验室里，从此没有人再记笔记。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_meadow"
+    }
+   ],
+   "hints": [
+    "开除她的是公司里那位说话最重的总裁；地点是公司第一间临床实验室，一栋单层的石砌小楼。",
+    "他的绰号在英文里意思是「阳光」；那间实验室在帕洛阿尔托一条以草地命名的环路上，里面全是商用设备。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_01",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 0,
+   "title": "希波克拉底",
+   "cg": "bad-assets/cg/c3_01.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2014年10月31日，海湾对面那座工厂的万圣节派对上，橙色彩带挂满走廊。[[NPC1]]端着一杯没喝完的啤酒，看同事们扮成吸血鬼和女巫在实验楼大厅里拍照，心里却早已做了决定：他要离开这里。作为实验室主管，他是这家公司在执照上签字的人，而过去一年半里，他签下的每一份报告都让他夜不能寐——钾的结果高得离谱，胆固醇的数值忽上忽下，{{e_pt|能力验证}}的样本被悄悄挪到商用机器上重测，而他这个名义上的负责人，连质控数据都不许碰。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我不能再签字了。总有一天我会站在法庭上，法官问我：你在那些报告上签字的时候，知道它们不可靠吗？我该怎么回答？说我被禁止看自己实验室的数据？"
+    },
+    {
+     "kind": "narration",
+     "text": "12月，他递交了辞呈。离职手续办得像一场审讯：人力资源的人递来一份专门为他起草的“宣誓书”，要他发誓没有带走任何公司资料；接着，IT部门的人坐在他旁边，看着他把个人邮箱里备份的一百七十五封工作邮件一封一封删掉，最后收走了他的门卡。"
+    },
+    {
+     "kind": "narration",
+     "text": "他以为自己会就这样消失。没想到，一个自负的医生兼发明家找上了门——{{e_fuisz|富兹}}，那位女创始人的童年宿敌。九个月前他刚打输那场专利官司：撤回专利、当庭落泪、两百多万美元律师费打了水漂。他不是来讲和的，是来找证据的，正四处串联所有和她结过梁子的人：早年否定过「贴片」构想的斯坦福医学院教授{{e_gardner|加德纳}}，还有一位已故首席科学家的遗孀。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "二十年前她拿着那个荒唐的贴片来问我，我就说这行不通。现在她拿病人的血做实验，总要有人站出来说话。",
+     "speakerEntry": "e_gardner"
+    },
+    {
+     "kind": "narration",
+     "text": "老发明家的记事簿上，速记着从那位前主管电话里记下的要点：“对CLIA的人撒谎、作弊”“钾的结果遍布”“告诉伊莎没准备好，但她坚持继续”。他把本子锁进抽屉——这些纸片，迟早会派上用场。"
+    },
+    {
+     "kind": "narration",
+     "text": "同一阵子，在密苏里州，另一位病理学家[[NPC2]]读完一本权威杂志对那家公司的长篇吹捧，越看越不对劲：所谓的“同行评议论文”，发表在一本意大利的付费在线期刊上，全部证据只是六名患者的一次检测。他在自己的“病理学博客”上写下公开质疑，一篇接一篇。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "行内人都知道这说不通。一滴指尖血做两百多项检测？我把疑问写出来，是因为实验室医学的规矩，第一条就是不得伤害。"
+    },
+    {
+     "kind": "narration",
+     "text": "不久，博客作者接到了那位前实验室主管的电话。对方没有寒暄，先把医学生入行时念过的那句誓言复述了一遍，然后说：这家公司正在把人往伤害里推。两条原本平行的怀疑，从此并成了一条线。博客作者心里清楚，博客只是敲门砖——要撬开九十亿的独角兽，得请专业的调查记者出马，比如那家大报跑医疗条线的{{e_carreyrou|卡雷鲁}}。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_beam"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_clapper"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "一个是在公司执照上签字的实验室主管，一个是外地写博客的同行；地点在海湾对岸的产线基地。",
+    "前者被逼删掉175封邮件才走成；后者读罢《纽约客》特稿，在“病理学博客”上开了火。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_02",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "名场面",
+   "row": 1,
+   "title": "第一通电话",
+   "cg": "bad-assets/cg/c3_02.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "密苏里州的博客作者{{e_clapper|克莱帕}}很清楚，自己的文章顶多算敲门砖——要撬开那家九十亿估值的公司，得找专业的调查记者。他把整理好的线索和联系人，交给了一家以调查报道闻名的财经大报：那里有一位拿过新闻大奖的医疗记者[[NPC1]]，跑医疗条线多年，揭发过药企，也追过医院的黑幕，办公桌就在纽约那栋新闻大楼的高层。"
+    },
+    {
+     "kind": "narration",
+     "text": "2015年2月26日深夜，[[NPC1]]拨通了博客作者给的号码。电话那头是一位刚辞职两个月的实验室主管[[NPC2]]，开口第一句，就是希波克拉底誓言。接下来的一个多小时里，记者几乎没插话，只在笔记本上飞快地记：那台被吹成“医疗健康版iPod”的机器根本不管用；公司宣称的数百项检测，绝大多数是在买来的商用设备上做的；{{e_pt|能力验证}}的盲样，被悄悄挪到商用机器上应考；指尖血太少，就稀释之后再上机——一位MIT博士出身的技术红人{{e_daniel|丹尼尔}}，正是那套稀释方案的设计者。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "他们的运作方式，就像一边造一辆公共汽车，一边又开着它上路。会死人的。"
+    },
+    {
+     "kind": "narration",
+     "text": "挂断前，那位主管压低声音补了一条与机器无关的线索：公司里人人敬畏的总裁，和那位年轻的女创始人，曾是一对秘密情侣——这事连董事会都被蒙在鼓里。"
+    },
+    {
+     "kind": "narration",
+     "text": "放下电话，[[NPC1]]做的第一件事，是把信源的话拆成一张清单：哪些可以找文件验证，哪些必须找第二信源。干这行二十年，他见过太多听起来离谱、最后却被证明说轻了的爆料——前提是，你肯花九个月去一条一条核实。在硅谷，{{e_fakeit|演久成真}}是人人挂在嘴边的口头禅；可这不是社交软件，是验血——医生的处方，七成要靠实验室结果来开。他对自己说：这条线，值得跟下去。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_beam"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_wsjhq"
+    }
+   ],
+   "hints": [
+    "一个是拿过新闻大奖的医疗调查记者，一个是他从未谋面的电话信源；地点在一家百年财经大报。",
+    "接电话的地方在美洲大道1211号；打电话的人曾在独角兽的实验室执照上签字。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_03",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 2,
+   "title": "凤凰城取证",
+   "cg": "bad-assets/cg/c3_03.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "为了拿到“活证据”，[[NPC1]]飞往亚利桑那。那家公司的四十多家“健康中心”，就藏在这座沙漠城市周边的连锁药店里，亮晶晶的抽血椅上，每天都有人用指尖血换回一纸报告。家庭女医生{{e_sundene|桑德内}}在诊所里接待了他——她手里攒着十几份可疑结果，按日期排得整整齐齐，早就憋了一肚子火。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我的病人拿着他们的报告来找我，数值和症状完全对不上。我让他们去别的实验室重查，十次里有八次，结果是正常的。",
+     "speakerEntry": "e_sundene"
+    },
+    {
+     "kind": "narration",
+     "text": "病人{{e_glunz|格伦兹}}的遭遇最有代表性。感恩节前夕，她的报告上几项指标一起报警，医生怕是中风前兆，让她立刻去急诊。她在急诊室折腾了半夜，复查一切正常——虚惊一场的代价，是保险拒付后自掏腰包的{{e_bill|三千美元的账单}}。一张急诊收费单，几行冰冷的代码，背后是一个普通人对医疗系统最朴素的信任。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我不欠医院这笔钱，我欠的是那台机器的学费。一个自己买保险的人，为一份错报告付了三千美元，而它连一句解释都没给过我。",
+     "speakerEntry": "e_glunz"
+    },
+    {
+     "kind": "narration",
+     "text": "他还拜访了执业多年的斯图尔特医生。她的诊所离一家健康中心只有两个路口，送检曾经很方便，可渐渐地，“方便”变成了“提心吊胆”。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "斯图尔特",
+     "text": "一位病人的报告提示深静脉血栓，我差点把她送进一堆昂贵又有风险的复查；另一位孕妇的甲状腺指标出了错，如果不是我多了个心眼把药量按住，伤的就是两条命。"
+    },
+    {
+     "kind": "narration",
+     "text": "而每一份出错报告的背后，都躺着那支只有1.29公分高的小采血管——{{e_nanotainer|纳米容器}}，广告里“小小一滴，改变一切”的主角。"
+    },
+    {
+     "kind": "narration",
+     "text": "离开前，[[NPC1]]决定亲身验证。他和桑德内各自伸出手指：同一个人的血样，一半送去那家公司的健康中心，一半送去老牌大实验室。几天后报告到手，同一批指标，两边多项对不上——钾的数值尤其刺眼。他把两份报告并排钉进笔记本，拍了照，云端备份：从今往后，这不再是传闻，这是钉在纸上的证据。"
+    },
+    {
+     "kind": "narration",
+     "text": "那一周他还以普通顾客身份跑了三家药店，观察抽血流程：取号、扎指、装管，全程不超过十分钟，快得让人不安——正规实验室里，同样的项目要等上几天。回纽约的飞机上，他把录音逐句转录，在页边写下批注。四十多家健康中心、成千上万名病人、七成靠化验单下的诊断——这条报道的分量，从这一刻起，他心里有了数。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_phoenix"
+    }
+   ],
+   "hints": [
+    "记者飞到西南沙漠里的那座大城市，健康中心开在一家家连锁药店中。",
+    "亚利桑那州首府，“太阳之谷”，那家公司在当地铺了四十多个抽血点。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_04",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 3,
+   "title": "伏击",
+   "cg": "bad-assets/cg/c3_04.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2015年5月27日下午，[[NPC1]]接到电话，被叫回祖父家。这位刚从独角兽公司辞职一年的年轻人，已经隐约猜到了什么——公司追查报社信源的猎巫行动早就锁定了他：他写给女创始人的那封长邮件里，一个变异系数的数字露了馅。祖父[[NPC2]]年过九旬，是华盛顿政坛活着的传奇——在两朝政府里掌管过外交的老人，此刻正坐在客厅等他，家里的女主人夏洛特也在。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "夏洛特",
+     "text": "孩子，坐下慢慢说。这个家里，至少得有人先听你讲完。"
+    },
+    {
+     "kind": "narration",
+     "text": "其实在律师现身之前，老人已经盘问过孙子：到底有没有跟报社的人接触？年轻人咬死否认——那是他当时唯一能保护记者的方式。老人盯着他看了很久，最终选择了站在孙子这一边。"
+    },
+    {
+     "kind": "narration",
+     "text": "话音未落，楼梯上传来脚步声。两名西装革履的律师从楼上走了下来——他们早就等在那里了。为首的布里耶把一份文件拍在茶几上：临时限制令，外加一封起诉威胁函。这是一场精心设计的伏击，连老人的家都成了战场。而站在两名律师背后的，是那位以打硬仗闻名的王牌诉讼律师[[NPC3]]——当年他在法庭上逼得一位软件业首富节节败退，如今是那家独角兽的总法律顾问兼董事。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "布里耶",
+     "text": "签了吧。只要你确认与报社没有接触，再按{{e_nda|保密协议}}的要求出一份声明，大家都可以体面收场。"
+    },
+    {
+     "kind": "narration",
+     "text": "老人盯着茶几上的文件看了几秒，忽然勃然大怒。他站起身，指着大门，把两位大律师从自己家里轰了出去——九旬老人发火的样子，把在场所有人都镇住了。可这挡不住第二天的第二波攻势：布里耶卷土重来，这回带来一份“宣誓书”，条件更苛刻——不仅要年轻人承认造谣，还要供出其他信源的名字。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我不会签。我写的每一个数字，都是实验室里真实测出来的。让我出卖其他说真话的人，做不到。"
+    },
+    {
+     "kind": "narration",
+     "text": "谈判彻底破裂。律师团队放出话来：不签，就让你的家族为这场官司倾家荡产。走出祖父家时，[[NPC1]]发现自己的手一直在抖。他回头看了一眼斯坦福校园里那栋纪念大楼——祖父的办公室就在那座塔楼里——心里清楚：从这一刻起，他和祖父之间隔着的，已经不只是一家公司。那天晚上他给母亲打了电话，只说家里可能会很难；母亲在电话那头劝他停下来。可他停不下来了。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_shultz"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_boies"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hoover"
+    }
+   ],
+   "hints": [
+    "祖孙二人：老人是华盛顿退休的外交元老，年轻人是辞了职的吹哨者；带队的律师以打硬仗闻名全国。",
+    "老人的办公室在斯坦福一座以总统命名的塔楼里；那位律师曾逼得软件业首富低头。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_05",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 4,
+   "title": "上门对峙",
+   "cg": "bad-assets/cg/c3_05.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "6月23日上午，纽约那栋新闻大楼的会议室里，气氛像法庭。对方来了一整支代表团：领队的是全国最负盛名的诉讼律师[[NPC1]]——七十多岁，招牌式的微笑，刚在法庭上“燃爆”过一位发明家邻居；随行的有法律总顾问金律师、两位律所干将、一位负责技术的MIT博士[[NPC3]]，外加公关公司的人。[[NPC2]]和同事在会议桌另一侧坐下，默默把一台录音机推到桌子中央。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "既然要谈，我们就把每一句话都录下来。我们不接受任何“会后再否认”的空间。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "金律师",
+     "text": "那我们开宗明义：我们不同意你们发表我们的商业秘密。你们正在进行的报道，建立在对{{e_nda|保密协议}}的系统性违反之上。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我们也开宗明义：我们不同意放弃我们的新闻特权。"
+    },
+    {
+     "kind": "narration",
+     "text": "接下来的四个小时，是一场教科书式的心理战。金律师忽然话锋一转，当面点破：“你们的关键信息源之一，肯定是一位辞了职的名门之后。”名字报出来的瞬间，会议室安静了几秒——他们想打乱记者的阵脚。[[NPC2]]面无表情，一个字也没接。轮到技术问题，那位博士[[NPC3]]把太极推到了极致：商用机器跑了多少检测？商业秘密。指尖血稀释了几倍？商业秘密。那台黑白外壳的小机器到底承担百分之几的工作量？还是商业秘密。"
+    },
+    {
+     "kind": "narration",
+     "text": "谈到公司那位已故的首席科学家，金律师的话突然变得刻薄，含沙射影地暗示对方生前酗酒——这是想把信源的名声一并搞臭。[[NPC2]]当场顶了回去：对死者的抹黑，吓不退活着的信源。会议室里的空气，那一刻冷到了冰点。"
+    },
+    {
+     "kind": "narration",
+     "text": "消耗战接近尾声，代表团领队[[NPC1]]终于失去了耐心。这位打赢过世纪官司的老律师一掌拍在桌上，咆哮声响彻会议室。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "它要不是魔法，就是一项新技术！你们根本不懂你们在面对的是什么！"
+    },
+    {
+     "kind": "narration",
+     "text": "散会后，[[NPC2]]在笔记本上写下一行字：“听上去像是《绿野仙踪》。”一场气势汹汹的上门施压，最终变成了他报道里最生动的一段素材——因为他知道，越是咆哮，越说明他们害怕。几天后，一封二十三页的长信又寄到报社，指控他“极度缺乏公正”。他从头读到尾，只在空白处批了一行小字：通篇否认，却拿不出一份数据。他把这封信连同录音笔一起锁进抽屉——将来写进书里，它们都是证据。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_boies"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_daniel"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_wsjhq"
+    }
+   ],
+   "hints": [
+    "三人：领队的是功成名就的老牌大律师，记者是写医疗调查的那位，技术辩护人是公司里的MIT博士。",
+    "律师曾逼得软件业首富低头；记者供职于美洲大道1211号；博士是破解商用机器稀释方案的设计者。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_06",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "hard",
+   "len": "L",
+   "col": "名场面",
+   "row": 5,
+   "title": "拉马坦萨",
+   "cg": "bad-assets/cg/c3_06.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "那阵子，到海湾对面那座工厂参观的贵宾络绎不绝。访客登记表上，名字一个比一个响亮。贵宾们看到的流程永远一样：公司那位穿黑色高领衫的女掌门[[NPC3]]亲自站台，指尖采血、样本进机，大屏幕上进度条缓缓爬升；而她的搭档、那位年长近二十岁的总裁[[NPC2]]，始终站在人群侧后方，鹰一样的目光扫过每一个人，确保没人离机器太近。"
+    },
+    {
+     "kind": "narration",
+     "text": "来客里有一位杂志记者[[NPC1]]——一年前，他花了整整七个小时访谈那位女掌门，写出了让她封神的封面报道“为血液而生的CEO”。这一回，他在公司律师的办公室里看演示：机器跑到70%，进度条忽然停住，一动不动。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "迈克尔",
+     "text": "进度条卡住不用慌——那本来就是我写的程序。屏幕装出在爬的样子，后台检测失败了多少次，客人一个字也看不到。这活儿是总裁亲自派的，我提过异议，答复只有一句：先让屏幕别出丑。"
+    },
+    {
+     "kind": "narration",
+     "text": "知情者后来回忆，贵宾演示有一套固定流程：样本进机只是“开场”，客人被引去看品牌墙和专利墙的间隙，助理从后门取走样本，送到另一层楼——那里摆着破解过的商用分析仪，真正的检测在那里跑完，再装作是那台{{e_minilab|迷你实验室}}的功劳。等客人回到屏幕前，进度条刚好“跑完”，报告刚好“出炉”，时间掐得分毫不差。那位写过封面的记者看得频频点头，把“眼见为实”四个字写进了新稿子。"
+    },
+    {
+     "kind": "narration",
+     "text": "最隆重的一次，是一位副总统到访。为了这一天，工厂连夜搭出一间崭新的“自动化实验室”：锃亮的台架、崭新的玻璃隔断、一尘不染的仪器——而真实验室自打主管辞职后七个月无人执掌，挂名的竟是一位皮肤科医生。副总统在簇拥中走完一圈，对着镜头赞不绝口，称这里就是“未来的实验室”。送他出门时，女掌门[[NPC3]]微笑致谢，总裁[[NPC2]]与有荣焉地挺直了腰板。当晚，这张照片就会出现在公司的宣传稿里，配上一句意味深长的标题。"
+    },
+    {
+     "kind": "narration",
+     "text": "多年以后回头看，那些日子里的每一场演示都像同一场戏：台上的机器沉默不语，台下的贵宾流连忘返，只有写进度条程序的那个人知道，幕布后面空空如也。他离职前跟同事说过一句话：在这儿，连进度条都在演戏。多年以后，那张副总统参观的照片被翻出来，成了这场骗局最著名的注脚之一。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_parloff"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "记者来自写“为血液而生的CEO”的那本财经杂志；总裁比女掌门年长近二十岁；女掌门是演示的主角。",
+    "女掌门爱穿黑色高领衫；参观地在那座海湾对岸的工厂，连副总统都来看过连夜搭的假实验室。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_07",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 6,
+   "title": "见报",
+   "cg": "bad-assets/cg/c3_07.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "从春天到秋天，那位女创始人[[NPC2]]三次登门，求见传媒帝国的掌门人[[NPC1]]。这位八十多岁的传媒大亨，当时还是那家公司最大的个人投资人——他自己就投了一亿两千五百万美元。每一次，她的说辞都一样：记者的报道是“精致的幻想”，见了报，你的投资会血本无归。每一次，老人的回答也都一样。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我买下这家报纸，就是因为它的编辑说了算。我不会干预他们，一分钱的关系也不行。"
+    },
+    {
+     "kind": "narration",
+     "text": "编辑室里，主编西克诺尔菲把那套打法叫作{{e_mattanza|拉马坦萨}}——西西里渔夫围捕鱼群的古老仪式：先把网悄悄收紧，再耐心等鱼群自己乱掉。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "西克诺尔菲",
+     "text": "不慌。他们越急，说明网越紧。逐条核实，一个标点都别出错。"
+    },
+    {
+     "kind": "narration",
+     "text": "其实见报前二十天，她还做过最后一次努力：9月底，她第四次登门，这回直接进了新闻集团大厦，姿态近乎哀求。老人还是那句话——编辑部的事，编辑部说了算。她走出大厦时，应该已经知道大势已去。第二天，王牌律师又寄来第三封长信，把整篇报道称作记者脑中的“精致幻想”。"
+    },
+    {
+     "kind": "narration",
+     "text": "2015年10月15日清晨，《一家被看好的创业公司的挣扎》上了头版：机器不管用、稀释样本、商用设备冒充专有技术。报道里，有出身名门的吹哨人{{e_tyler|泰勒}}交出的内部邮件，也有与{{e_parloff|帕洛夫}}笔下“为血液而生的CEO”神话轰然对撞的细节。同一天，另一记重锤落下：FDA突检后宣布，那支1.29公分的小采血管是“未经许可的医疗设备”——检查地点正是海湾对面的{{e_newark|纽瓦克工厂}}。"
+    },
+    {
+     "kind": "narration",
+     "text": "风暴当天，她上了财经频道的直播节目，对着镜头一字一句念出准备好的台词。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "首先他们觉得你疯了，然后他们打击你，再然后，突然之间，你改变了世界。"
+    },
+    {
+     "kind": "narration",
+     "text": "几天后，在这家报纸自己举办的科技大会上，她当着满场观众继续否认：没有稀释，没有借用商用设备，那台黑白机器只是“多年不用的旧技术”。台下坐着的人里，就有写那篇报道的记者。而在加州的员工大会上，总裁带头振臂，几百名员工齐声高喊：“去你妈的，卡雷–鲁！”——喊声整齐划一，像排练过的誓师。在硅谷，这套先让人相信、再回头兑现的逻辑有个名字，叫{{e_fakeit|演久成真}}——她把它念成了咒语，可惜验血不是社交软件。同一周，董事会悄悄改组：几位年迈的政要董事退入新设的“咨询委员会”，那位王牌律师则正式进入董事会。见报二十四小时，两边阵营都已亮出了全部底牌。而真正的大戏，才刚刚开场。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_murdoch"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_wsjhq"
+    }
+   ],
+   "hints": [
+    "求情的是穿高领衫的女创始人，被求的是报业帝国的老掌门；战场在一家百年财经大报。",
+    "老人的名字与“福克斯”和这份报纸绑在一起；见报地就在美洲大道1211号。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_08",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 7,
+   "title": "监管重锤",
+   "cg": "bad-assets/cg/c3_08.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "引爆一切的，是一封一页纸的投诉信。2015年9月19日，辞职一年多的前实验员[[NPC2]]——一个当时才二十多岁的姑娘——把自己在实验室里亲眼所见的一切写成邮件，发给了监管机构的资深巡视员[[NPC1]]：感恩节前后质控连续失败，没有执照的人删掉“极端值”就直接给病人发结果；{{e_pt|能力验证}}——实验室界的“质量大考”——被明目张胆地做了手脚。信的末尾，姑娘写道：以上每一条，她都愿意署名作证。"
+    },
+    {
+     "kind": "narration",
+     "text": "老巡视员[[NPC1]]在这一行干了半辈子，三年前就突检过这家公司，当时被一句“设备仍在开发”挡在专有实验室门外。这回他读完信，只回了四个字：“我们马上来。”9月22日，他带着队伍开进海湾对面那座工厂；两个月后，第二轮检查又驻扎了整整四天。"
+    },
+    {
+     "kind": "narration",
+     "text": "他们看到的，是一片混乱：记录残缺、温度失控、人员资质成谜。2016年初，监管信函给出了措辞罕见的结论——实验室的缺陷“对病人的健康和安全构成直接的危害”。随后流出的检查报告长达一百二十一页，每一页都是实锤：对外宣称的两百五十项检测，只有十二项真的在自家机器上做；一个月里，三分之一的质控通不过；一项激素检测的质控失败率高达八成七；自家机器和商用设备的结果偏差，最高达到百分之一百四十六。"
+    },
+    {
+     "kind": "narration",
+     "text": "这份报告本不会公开。是那位穷追不舍的记者拿到了全文，一字一句登了出来——普通读者第一次看清，“独角兽”的实验室里究竟在发生什么：一项维生素检测的变异系数高达三四成，意味着同一份血样多测几次，结果能差出去一半。数字枯燥，可读懂的人，后背都会发凉。"
+    },
+    {
+     "kind": "narration",
+     "text": "监管机构亮出了最重的一张牌：禁止公司掌门人从事实验室行业两年。多米诺骨牌开始倒下——曾经“一见倾心”的连锁药店巨头宣布终止合作，关闭所有健康中心，包括{{e_phoenix|凤凰城}}周边的四十多家抽血点；数年间发出的近一百万份检测结果，被成批废弃或纠正。风暴中，掌门人上晨间电视节目，说报道把她“摧毁”了，却始终没说一声道歉。镜头前的眼泪能上头条，实验室里作废的报告却收不回来了。而对[[NPC2]]来说，这一切只是印证了她辞职那晚的念头。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我当时只是想，不能让病人用坏的结果。原来一封信，真的可以撬动这么重的东西。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_yamamoto"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_erika"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "写信的是辞职的年轻女实验员，收信的是管实验室资质的老巡视员；事发在产线与实验室合一的那座工厂。",
+    "姑娘姓张；巡视员三年前就来突检过一回，被“仍在开发”四个字挡了回去。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_09",
+   "level": 3,
+   "form": "scene",
+   "difficulty": "normal",
+   "len": "L",
+   "col": "名场面",
+   "row": 8,
+   "title": "女王落幕",
+   "cg": "bad-assets/cg/c3_09.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2016年8月1日，费城。全球实验室医学学术年会的大宴会厅里座无虚席——邀请函上，这场发布会被包装成“科学正名之战”，公司运来真机、请来直播团队，而所有人都想亲眼看一看：那位跌落神坛的女创始人[[NPC1]]，还敢不敢站上讲台。她敢。一身标志性的黑色高领衫，她发布了那台被许诺了五年的{{e_minilab|迷你实验室}}，一页页数据打在大屏幕上。可台下的科学家不是投资人：提问环节变成一场围猎，同行们逐条拆穿——所谓“检测数据”，大部分来自传统的静脉抽血，根本不是指尖一滴血。有老教授当场摇头：这不是学术发布，这是路演。"
+    },
+    {
+     "kind": "narration",
+     "text": "散场的人流里，不知是谁扯着嗓子喊了一声：“你伤害了人！”大厅安静了一瞬。她没有回头，在保镖的簇拥中快步离去。"
+    },
+    {
+     "kind": "narration",
+     "text": "这一年早些时候，她已先对自己最亲密的人动了手。5月，她与[[NPC2]]——那位大她近二十岁、跟她并肩七年的总裁兼秘密男友——分手，同时把他赶出公司。恐惧文化的总教头，最终也被恐惧机器吞噬：他一手建立的监控、清洗与“消失某人”的那套玩法，没能保住他自己。"
+    },
+    {
+     "kind": "narration",
+     "text": "清算接踵而至。公司成批废弃数万份检测结果；连锁药店巨头正式终止合作，随后提起诉讼；当初最殷勤的基金把公司告上法庭；传媒大亨以一美元的价格回售了全部股份。2018年3月，证券监管机构发出指控，措辞前所未有地严厉——“精心策划、持续多年的欺诈”。她选择和解：放弃投票控制权、交回大部分股份、罚款五十万美元，十年内不得担任上市公司高管。"
+    },
+    {
+     "kind": "narration",
+     "text": "和解的名单越拉越长：起诉的基金以四千三百万美元收场，连锁药店拿到两千五百万，亚利桑那州拿到四百六十五万退款——这笔钱要摊给七万六千多个在当地做过检测的人，其中一个是感恩节夜里被送进急诊的{{e_glunz|格伦兹}}。作废和纠正的检测结果加起来接近一百万份，谁也算不清里面藏着多少个被吓过一夜的人。2018年初，公司终于发表了一篇同行评审论文——可血样全部来自传统静脉抽血，等于变相承认：指尖一滴血的故事，讲不下去了。"
+    },
+    {
+     "kind": "narration",
+     "text": "三个月后，刑事起诉书送达：两项串谋诈骗、九项诈骗，她和[[NPC2]]的名字并列其上，各自缴纳五十万美元保释金，最高可判二十年。到2018年9月，那家曾估值九十亿的公司资金耗尽，正式解散，投资者们的损失加起来约十亿美元。{{e_fakeit|演久成真}}的硅谷老话，至此走到了它的反面：演了十五年，终究没有成真。只是散场时没有人再喊口号，只剩一地宣传单。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_holmes"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_sunny"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_aacc"
+    }
+   ],
+   "hints": [
+    "台上是穿黑色高领衫的女创始人，被她赶走的是年长近二十岁的总裁；发布会在实验室医学的年会上。",
+    "两人曾是秘密情侣；开会的那座城市以独立钟和牛肉芝士三明治闻名。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_10",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "卡雷鲁",
+   "row": 1,
+   "title": "线人",
+   "cg": "bad-assets/cg/c3_10.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "深夜，纽约那栋新闻大楼的高层，[[NPC1]]合上笔记本，把白天那通电话在心里又过了一遍。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "干医疗调查这些年，我的直觉很少出错：越是被包装得完美的公司，越经不起一通深夜来电。密苏里的病理学家把线头递到我手上时，只说了一句话——“这人值得你聊”。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "在跑医疗线之前，我揭发过医保的猫腻，也追过制药巨头的黑幕。这行的规律从来没变：钱越多的地方，真话越贵；估值越高的公司，越容不下一个问问题的记者。这家独角兽估值九十亿，董事会里坐着前国务卿和退役上将——够硬了。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "电话那头的{{e_beam|比姆}}，是那家公司执照上签字的实验室主管。他没有报姓名，开口先念的是希波克拉底誓言：第一条，不得伤害。然后他讲了七十分钟——机器不行，样本稀释，{{e_pt|能力验证}}的考核作弊，高管恋情。每一条，都够我写一个版面。我把它们编了号，写在隔板的便签上——从今晚起，这张隔板就是我的作战地图。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "做我们这行，规矩是铁打的：匿名信源只能引路，不能当证据。他说的一切，我都要找到第二个人、第三个人，找到文件，找到数据。可从今晚起，这家九十亿估值的独角兽，在我心里已经不再是神话，而是一起案子。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "当然，我也知道跟下去意味着什么：律师函、施压，甚至饭碗。这家公司的背后是明星董事会、王牌律师和传媒大亨。可正因为对手这么硬，才说明藏着的东西值得挖。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "窗外的美洲大道车流不息。这栋楼里出过的报道，掀翻过总统，也掀翻过巨头。我关掉录音笔，在笔记本扉页写下四个字：会死人的。然后给主编发了条消息：这条线，我要跟到底。发完消息，我又补了一句：这可能是我职业生涯里最大的一条。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_wsjhq"
+    }
+   ],
+   "hints": [
+    "深夜复盘电话的是医疗调查记者，他供职的大楼在曼哈顿中城。",
+    "他拿过两次普利策奖；那栋楼在美洲大道1211号。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_11",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "比姆",
+   "row": 2,
+   "title": "万圣节",
+   "cg": "bad-assets/cg/c3_11.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2014年万圣节，公司派对上南瓜灯成排，连平时锁着的区域都开了灯，[[NPC1]]却一点兴致都没有。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我是病理学家，半辈子都在跟实验室打交道。来这儿当主管时我以为，执照上是我的名字，实验室就归我管。后来才知道，我连质控数据都不许看，{{e_pt|能力验证}}的样本背地里怎么处理，更是问都不许问。一个不许看自己数据的实验室主管，就像不许看仪表的机长。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "钾的结果高得离谱，胆固醇忽上忽下。我问下面的人，他们支支吾吾；我问上面，上面让我“专注于流程”。那台黑白外壳的{{e_edison|爱迪生机}}，说是能顶一个实验室，可我天天看着它出错的报告，心里发毛。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "最荒唐的是监管寄来的“考卷”，要求用和病人样本一样的方法作答。上面的指令却是：换商用机器答。这就好比考试不许换笔，他们直接换了个人替你考。我把这事写进备忘录发上去，石沉大海。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "派对上人人都在笑，我端着啤酒站在角落，一遍遍想同一个问题：哪天出了医疗事故，法官问“签字的人知情吗”，我答什么？"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我不能再签字了。那天晚上回家，我就把辞职信打了出来。希波克拉底誓言第一条——不得伤害。我救不了这家公司，至少别把自己搭进去。第二天递交辞呈的时候，我的手没有抖。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_beam"
+    }
+   ],
+   "hints": [
+    "这位实验室主管是病理学家出身，执照上签的是他的名字。",
+    "他管过被称为“诺曼底”的专有设备区，最后因那台黑白机器的数据辞了职。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_12",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "比姆",
+   "row": 0,
+   "title": "宣誓书",
+   "cg": "bad-assets/cg/c3_12.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "辞职当天，海湾对面那座工厂的人力资源办公室里，[[NPC1]]被留了下来。人力资源主管莫娜把一份文件推过桌面——那是一份专门为他起草、以他的名字命名的“宣誓书”。在全公司，享受这种“待遇”的，他是头一个。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "莫娜",
+     "text": "签了它。你要确认：没有带走任何公司资料，不保留任何副本。这也是{{e_nda|保密协议}}的延续——你入职时签过的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我在这个实验室签了一年半的报告，现在连走，都要先签一份文件。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "莫娜",
+     "text": "别说得那么难听。对了，离职面谈记录也要签字确认：自愿离职，与公司无任何纠纷。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "自愿？我是被那些报告逼走的——连{{e_pt|能力验证}}的盲样都要挪去商用机器上做手脚，这样的报告，我签不下去了。"
+    },
+    {
+     "kind": "narration",
+     "text": "莫娜没有接话，只在表格上勾了一个选项。在这家公司，一位主管的离开和一箱试剂的报废，走的是同一套流程：登记、回收、封口、归档。她接着通知：个人邮箱里那些工作邮件的备份，也得删，公司有人“协助”。"
+    },
+    {
+     "kind": "narration",
+     "text": "接下来的一个小时像一场示众：IT部门的人坐在他旁边，看着他登录个人邮箱，把备份的一百七十五封邮件一封一封删掉，再清空回收站。每删一封，IT的人就点一下头，像在清点战利品。最后，莫娜伸出手，收走了他的门卡。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "莫娜",
+     "text": "还有一句忠告：我们有办法追查。不管你在哪里发表、写些什么，我们都会看到的。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]走出大楼，旧金山湾的风吹在脸上。他回头看了一眼那座冷冰冰的厂房，忽然觉得好笑——他们删得掉一百七十五封邮件，却删不掉他脑子里的东西。几个月后，他会把这一切，原原本本地讲给一位深夜来电的记者听。开车上桥时海湾起了雾，他想起入职那天也是这样的雾天——他本以为自己是来管一家实验室的，结果只是替一台撒谎的机器，签了一年半的字。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_beam"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "被逼删邮件的是刚辞职的实验室主管，地点在海湾对岸的产线基地。",
+    "他是病理学家，管过“诺曼底”；那座工厂所在的城市，和东海岸一座同名城市共享名字。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_13",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "easy",
+   "len": "M",
+   "col": "比姆",
+   "row": 1,
+   "title": "第一通电话",
+   "cg": "bad-assets/cg/c3_13.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2015年2月26日深夜，两个素未谋面的人接通了电话：一头是刚辞职两个月的实验室主管[[NPC1]]，一头是报社的医疗调查记者[[NPC2]]。牵线的是密苏里州那位写病理学博客的同行——他对记者只交代了一句：这个人值得你聊，但他说的每个字，你都得自己去证实。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "在我说任何事之前，先说一句：你和我都做过希波克拉底宣誓，第一条是不得伤害。而这家公司，正在将人们推上伤害之路。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "你慢慢讲，我全程记录。你不需要告诉我你的名字。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "他们对外说，一滴指尖血能做几百项检测。真相是：那台机器根本不管用，绝大部分检测是在买来的商用设备上做的。指尖血太少怎么办？稀释，稀释完了再上机。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "还有{{e_pt|能力验证}}——监管机构考核实验室质量的“统考”。规矩是用和病人样本一样的方法测。他们呢？专挑商用机器测完再报。这不叫误差，这叫作弊。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "你知道匿名意味着什么吗？我可以保护你的名字，但保护不了你的生活。他们一旦查到你，会动用一切手段。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我知道。我在里面待过，见过他们怎么“消失”一个人。可我还是打了这个电话——因为我是病理学家，我宣过誓。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "文件我没有——离职时他们盯着我删了一百七十五封邮件。但我说的每一个人，你都可以自己去查。还有一件事与机器无关：公司里那位总裁，和女创始人，曾是情侣。董事会都不知道。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "好。你说的一切，我会一条条核实。核实完之前，你不会出现在任何版面上。"
+    },
+    {
+     "kind": "narration",
+     "text": "挂断电话，[[NPC2]]在笔记本上写下信源的那句比喻：“一边造公共汽车，一边开着它上路。”他知道，这句大白话背后，是一整个报道的起点。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_beam"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    }
+   ],
+   "hints": [
+    "打电话的是辞职的实验室主管，接电话的是财经大报的医疗记者。",
+    "前者管过独角兽的实验室执照；后者后来把这场调查写成了一本书。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_14",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "卡雷鲁",
+   "row": 2,
+   "title": "对比检测",
+   "cg": "bad-assets/cg/c3_14.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "亚利桑那的烈日下，[[NPC1]]把两份检测报告并排摊在旅馆桌上，指尖还留着采血针的小红点。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "写医疗报道这些年，我学会一件事：病人口述是线索，对照实验才是证据。所以这回我和桑德内医生一起伸出手指——同一个人，同一批血样，一半送去他们的健康中心，一半送去老牌大实验室——说白了，是我替这家公司补做一次民间的{{e_pt|能力验证}}。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "桑德内给我看了她攒的文件夹：十几份可疑报告按日期排好，每一页都贴着她手写的便签——“与症状不符”“复查正常”“病人很焦虑”。一个家庭医生，被迫替一家公司做起了质量监督。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "结果回来了。多项指标对不上，最刺眼的是钾——一边说正常，一边拉警报。急诊病人格伦兹就是被这样的假警报吓进急诊室的：感恩节折腾一夜，复查无恙，账单三千美元，自付。她把账单拍照发给我时，附了一句话：替我把这事写出去。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我又想起那个“深静脉血栓”的假阳性，还有差点被加量甲状腺药的孕妇。每一例背后，都是那支1.29公分高的小管子——{{e_nanotainer|纳米容器}}，“小小一滴，改变一切”的主角。广告越漂亮，报告越惊心。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我自己也去健康中心体验了一次完整流程：装修像精品店，抽血椅是皮面的，广告屏循环播放着那句口号。可当我问起用的是哪台机器，工作人员的笑容就凝固了。那一刻我更加确定：装修的预算，远远多过技术的预算。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "当地医生私下说得直白：在人身上反复做试验，是不行的。这句话，我要原样写进稿子里。离开这座沙漠城市前，我把两份报告钉进笔记本，拍照，云端备份——从今往后，没人能说这是传闻，这是钉在纸上的证据。这一趟的机票、账单、录音，我全部留了底——做调查报道，记者自己也得随时准备接受调查。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_phoenix"
+    }
+   ],
+   "hints": [
+    "做对比检测的是医疗调查记者，地点在亚利桑那的沙漠都市。",
+    "那里有四十多家开在药店内的健康中心——州首府，人称“太阳之谷”。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_15",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "泰勒",
+   "row": 3,
+   "title": "伏击",
+   "cg": "bad-assets/cg/c3_15.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2015年5月27日，[[NPC1]]走进祖父家客厅时，还在奇怪为什么长辈们的脸色那么凝重。那天的阳光很好，茶几上的茶还冒着热气。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "祖父{{e_shultz|舒尔茨}}叫我回家，语气很平常。可我刚在沙发上坐下，楼梯上就下来两个西装律师——他们一直等在楼上。临时限制令拍在茶几上的那一刻，我的手开始抖。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "律师把一份厚厚的{{e_nda|保密协议}}推过茶几，开出的条件听着很“体面”：签字、认错、供出同路人，既往不咎。可我知道那份文件的分量——签了，我就成了他们手里对付报社的武器；不签，枪口就调转向我。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "那一刻我脑子里闪过的，是和我一起辞职的{{e_erika|艾瑞卡}}。我们早就说好的：有人来问，就说实话。现在，他们先找上了我。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "祖父的办公室就在{{e_hoover|胡佛研究所}}那座塔楼里，他是这个国家最资深的外交元老。可公司透过他传话：“如果你坚持恶意反对她，你会输的。”连我的祖父，都被拉来当说客。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "老人当场把律师轰出了家门。可我知道，这事没完。走出那栋纪念大楼时，我回头看了一眼——从那天起，这家公司要对付的，不只是一个辞职的年轻人，还有我们全家的积蓄。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    }
+   ],
+   "hints": [
+    "这是位辞职的吹哨人，祖父是华盛顿的外交元老。",
+    "那位前国务卿的孙子——他随祖父的姓。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_16",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "泰勒",
+   "row": 4,
+   "title": "拒签",
+   "cg": "bad-assets/cg/c3_16.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "伏击的第二天，律师布里耶再次登门——还是祖父家，斯坦福校园里那栋纪念大楼旁的宅邸。这一回，他带来一份“宣誓书”。祖父{{e_shultz|舒尔茨}}坐在一旁，脸色铁青。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "布里耶",
+     "text": "条件很简单：承认你与报社接触不当，供出其他信源的名字，签了这份文件，公司既往不咎——两年内不起诉。"
+    },
+    {
+     "kind": "narration",
+     "text": "祖父拿起笔，把“两年”划掉，改成“永远”，推了回去。九旬老人用这种方式，给孙子让出最后一条路。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我拒签。我邮件里的每一个数字，都是实验室里测出来的真话。要我供出其他说真话的人——不可能。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "再说了，你们起诉一个说了真话的员工，就不怕陪审团怎么看吗？"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "布里耶",
+     "text": "等走到陪审团那一步，你家的积蓄早就烧完了。诉讼这东西，拼的不是对错，是谁耗得起。年轻人，想清楚，我们背后站着谁，你心里有数。"
+    },
+    {
+     "kind": "narration",
+     "text": "他当然有数。那家律所的王牌{{e_boies|博伊斯}}，是全美最贵也最难缠的诉讼律师，此前刚用私家侦探“燃爆”过一位老发明家。跟这样的对手打官司，输赢先不说，账单先能压垮一个中产家庭。谈判破裂后，威胁如约而至：不签，就让这场官司拖到你家族倾家荡产。"
+    },
+    {
+     "kind": "narration",
+     "text": "年轻人还是请了律师，一封一封信地周旋。每拖一个月，账单就厚一沓：父亲挪出了养老的钱，母亲在电话里劝他服软，他咬着牙没松口——他知道，自己一松口，报社的防线就塌了一角。接下来的几个月，他从记者的视野里“消失”了：电话不敢打，邮件不敢回，出门总觉得有人跟着。为了这场周旋，父母前后花掉四十多万美元——那是老两口半辈子的积蓄。湾区的风很大，他走出那栋纪念大楼时忽然想起，入职第一天，自己曾为“穿黑高领衫的姐姐”骄傲得睡不着觉。很多年后有人问他值不值，他只回了一句话。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "说真话的人，不需要背台词。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_hoover"
+    }
+   ],
+   "hints": [
+    "拒签的是吹哨的年轻人，摊牌在祖父的地盘——斯坦福校园之内。",
+    "他祖父是前国务卿；那栋塔楼以一位总统的名字命名。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_17",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "卡雷鲁",
+   "row": 5,
+   "title": "围捕",
+   "cg": "bad-assets/cg/c3_17.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "对方的律师团隔三差五发来威胁信，最长的一封有二十三页，指控记者“极度缺乏公正”。信从洛杉矶寄来，措辞居高临下，连称呼都透着威胁。编辑室里，主编西克诺尔菲把信往桌上一扔，给[[NPC1]]讲了一个词。窗外，曼哈顿的车流一如既往，编辑室里却人人绷着一根弦。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "西克诺尔菲",
+     "text": "西西里的渔民捕金枪鱼，有一种古老的仪式，叫{{e_mattanza|拉马坦萨}}。先把鱼群赶进越来越小的网阵，然后——等。不挥叉，不喧哗，等鱼自己筋疲力尽。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "你的意思是，我们就是那个等的人。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "西克诺尔菲",
+     "text": "对。他们现在每发一封律师信、每打一通施压电话，都是在替我们确认：网收对了地方。你要做的只有一件事——逐条核实，让每一个数字都无懈可击。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "信源那边呢？有人被盯上了，被迫“消失”了。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "西克诺尔菲",
+     "text": "那就用文件说话。邮件、报告、监管记录——纸不会害怕，纸也不需要保护。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "那如果监管部门先动手呢？"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "西克诺尔菲",
+     "text": "那更好。监管的文件是公家的，谁也没法说那是“商业秘密”。记住，我们不是在跟他们比嗓门大，是在等他们的否认多到自相矛盾，多到一张版面对比就能让读者看明白。渔民出海，从不指望第一天就满舱。他顿了顿，又补一句：当然，网破不破，全看你平时的手艺。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]把这段话抄在笔记本扉页。之后的几个月，他像渔民守着网阵一样守着证据：病人的对照检测、内部的质控邮件、监管的突检记录。有天夜里他核对一封质控邮件到凌晨两点，一个数字对不上，第二天追着信源问了三个小时才落实。报社法务把草稿从头到尾过了三遍，每一处可能挨告的措辞都标了黄——主编的规矩是，可以让对手恨这篇报道，但不能让他们挑出任何一个错。网越收越紧，而网里的鱼，还在朝着记者的方向猛冲。他在等那最后一击。清单上的线索被一行行划掉，划掉的纸攒了厚厚一沓。多年以后他才知道，那条鱼比他想象的还要大——估值九十亿美元，是当时全世界最贵的私营公司之一。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_wsjhq"
+    }
+   ],
+   "hints": [
+    "定策略的是财经大报的调查记者与他的主编，地点就在报社。",
+    "记者后来把这场调查写成了一本书；那栋大楼在美洲大道1211号。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_18",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "卡雷鲁",
+   "row": 6,
+   "title": "见报",
+   "cg": "bad-assets/cg/c3_18.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2015年10月14日深夜，{{e_wsjhq|报社总部}}的编辑部灯火通明，[[NPC1]]盯着付印前的最后一版清样。走廊尽头，主编临走前拍了拍他的肩膀，什么都没说——有些时刻，新闻人之间不需要祝词。这套耐心收网的打法，主编管它叫{{e_mattanza|拉马坦萨}}——西西里渔民围捕金枪鱼的古老仪式，而今晚，就是收网前夜。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "明天一早，这篇报道会出现在头版。我知道这意味着什么——从见报那一刻起，就没有回头路了。对手是九十亿的独角兽，和全美最贵的律师团。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "过去半年，她三次去找{{e_murdoch|默多克}}——那位自己投了一亿多的传媒大亨，三次求他毙掉这篇稿子。换作别处，老板一句话，稿子就死了。可老人三次都回了同一句话：编辑的事，编辑说了算。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "九个月，几十个信源，几百份文件，每一条都核实过两遍。法务、主编、责任编辑，这半个月把稿子过了不知道多少遍，每一句指控后面，都钉着一份文件、一段录音、一个愿意站出来的名字。这栋楼一百多年攒下的信誉，就押在这一个版面上。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "病人、医生、辞职的年轻人——他们把职业生涯甚至身家都押给了我。我能回报的，只有准确。印刷机开动的时候，天边已经泛白。我关掉电脑，对自己说：好了，明天见。说完我才发现，手心全是汗。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    }
+   ],
+   "hints": [
+    "付印前夜守在编辑部的，是那位医疗调查记者。",
+    "他供职的报纸，总部在美洲大道1211号。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_19",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "easy",
+   "len": "M",
+   "col": "泰勒",
+   "row": 7,
+   "title": "取证会",
+   "cg": "bad-assets/cg/c3_19.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2017年，投资人诉讼的取证会。这场官司的原告，是当年投了九千六百万美元的基金，而[[NPC1]]是最关键的证人——质控失败的邮件、化名求证的记录、那封恶毒的回信，全在他手里。开庭前，律师特意嘱咐他：对方可能派人旁听，别理，别慌，只答问题。就在证人席外，两年前被公司分手并解雇的前总裁[[NPC2]]突然出现在走廊里——没有人通知他会来。他径直走过来，在几步远的地方停下，死死盯住这个当年不肯签字的年轻人。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "你还是这么爱出风头。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我只是在回答律师的问题。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "你知道吗，我到今天都不后悔开除那些不听话的人。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "他还在演。公司都没了，他还在演那个说一不二的总裁。两年前在祖父家的客厅里，他的律师也是这样，以为声音大就能赢。我望着他的眼睛，忽然有点可怜他——演了半辈子，连散场都演不好。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "对视的那几秒，我脑子里过了一遍这两年：伏击、宣誓书、威胁要让我家倾家荡产、父母四十多万的律师费。全都扛过来了。现在他站在这儿，没了公司，没了头衔，只剩一双眼神。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "那一刻我彻底不怕了。{{e_fakeit|演久成真}}是他们的人生信条，不是我的。说真话的人不需要背台词——我只管把实验室里测到的数字，一个一个念出来。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "那你后悔过那些发给病人的结果吗？"
+    },
+    {
+     "kind": "narration",
+     "text": "前总裁没有回答，转身走了。听证记录上，这一问后面跟着长长的沉默。取证持续了几个小时，后来，这场官司以四千三百万美元和解收场。签字那天律师告诉我，对方原本想加一条保密条款，被基金方面拒了——他们说，这事必须留在公开记录里。我走出法庭，旧金山的阳光很好，我给家里打了个电话，只说了一句：都结束了。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_tyler"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_sunny"
+    }
+   ],
+   "hints": [
+    "对峙的两人：辞职的吹哨年轻人，和被女掌门赶走的前总裁。",
+    "年轻人是前国务卿之孙；另一位的车牌写着“我来，我见，我征服”。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_20",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "艾瑞卡",
+   "row": 0,
+   "title": "同路人",
+   "cg": "bad-assets/cg/c3_20.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2014年4月，前后脚辞职的两个年轻人通上了电话。牵线的是实验室里的旧同事——两人此前只是点头之交，连一顿午饭都没一起吃过，辞职之后，反而成了最能听懂对方的人。第一通电话打了四十分钟，起初都有些拘谨，后来越说越快。他们都刚离开海湾对面那座工厂的实验室：[[NPC1]]是初级实验员，[[NPC2]]是名门出身的研究员——一个压不住质控，一个捅破了数据。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "感恩节那阵子，质控一轮接一轮地挂。上面让没执照的人把“极端值”删掉，直接给病人发结果。我提反对，他们当我不存在。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我写给创始人的长邮件，换来总裁一顿羞辱——说我“唯一的资本就是祖父的姓”。你呢，辞职信递上去还顺利吗？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "信被人力资源当场没收了。还警告我：不管在哪儿写什么，他们“有办法看到”。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "我祖父到现在还信她。全家聚会，我成了那个“被坏人利用的孩子”。你呢？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我爸妈只问我一句：你说的是真的吗？我说是。他们说，那就没什么好怕的。"
+    },
+    {
+     "kind": "narration",
+     "text": "他们又对了对彼此知道的事：质控失败的日子、被删掉的数值、感恩节那周连续挂掉的批次——两边一对，拼图严丝合缝。原来他们看到的，是同一台机器的同一副面孔。他们又核对了第三个细节：感恩节那周，冷库的温度记录被人回过两次。电话两头沉默了几秒，他们又聊起更早离开的人——那位被逼删掉一百七十五封邮件的实验室主管{{e_beam|比姆}}，一个同样不肯再签字的人。连主管都被那样对待，两个小兵又凭什么全身而退？可如果连他们都不说，那些报告上的数字，就会继续寄给一个又一个不知情的病人。那晚[[NPC1]]把“说实话”三个字写在便签上，贴在书桌前。挂电话前，两人立下了一个简单的约定。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "听着，我们不是叛徒。叛徒是那些拿病人结果开玩笑的人。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "以后不管是谁来问——监管也好，记者也好——我们就说实话。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "说实话。就这一条。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_erika"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_tyler"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "通话的是两个辞职的年轻人：一位初级实验员，一位名门之后；他们都离开了海湾对岸那座工厂。",
+    "姑娘姓张；小伙子的祖父是前国务卿。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_21",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "艾瑞卡",
+   "row": 4,
+   "title": "恐吓信",
+   "cg": "bad-assets/cg/c3_21.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "新公司的停车场，下班的[[NPC1]]刚拉开车门，一个陌生男人拦住了她。六月的傍晚，天还大亮着。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "那人一句话没说，塞给我一封信就走。信封上的地址让我头皮发麻——那是我刚搬进去没几天的临时住所，连朋友都不知道。只有一种可能：他们派人跟踪我。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "信是那家律所签的，满纸威胁：说我违反了{{e_nda|保密协议}}，要我立刻“停止一切不实陈述”。措辞很讲究，每一句都停在“违法”的边上，却把寒意递得足足的。他们管这叫律师函，我管这叫警告：我们知道你住在哪。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "新同事们都不知道我的过去。白天我照常上班、微笑、做实验；只有深夜检查门窗的时候，才想起自己是一个被独角兽盯上的人。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "当晚我报了警。警察做完笔录，问我怕不怕。怕，当然怕。可比害怕更强烈的是一个念头：他们这么紧张，恰恰说明我做的没错。挂断报警电话，我又检查了一遍门锁，把那封信拍照存进了三个不同的地方。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "没过多久，我把在实验室看到的一切写成一封投诉信，发给了监管机构的巡视员{{e_yamamoto|山本}}。信封可以恐吓我，事实不会。后来有人问我哪来的勇气，我说，不是勇气，是后怕——怕自己不写，会有更多人拿到坏结果。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_erika"
+    }
+   ],
+   "hints": [
+    "收恐吓信的，是辞职后换了工作的年轻实验员。",
+    "她后来用一封投诉信引爆了监管检查——姓张的姑娘。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_22",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "艾瑞卡",
+   "row": 7,
+   "title": "给山本的信",
+   "cg": "bad-assets/cg/c3_22.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "2015年9月19日，一封只有一页纸的投诉信，从辞职实验员[[NPC1]]的邮箱，飞进了监管机构资深巡视员[[NPC2]]的收件箱。写这封信之前，她刚刚在停车场收到过对方的恐吓信——这封投诉，就是她的回答。写信那晚她没开灯，屏幕的光照着脸，一行一行，改到凌晨。信里写的，全是海湾对面那座工厂实验室里的事。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "（信中）感恩节前后，质控连续失败，没有执照的工作人员删掉“极端值”，直接向病人发布结果。{{e_pt|能力验证}}——实验室的质量统考——被要求只用商用设备测，不许碰专有设备。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "（信中）还有稀释的问题。指尖血样本量太少，机器测不了，就兑缓冲液稀释，再上商用分析仪——稀释倍数远远超出监管认可的范围。病人的结果，就是这么来的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "（信中）我在职期间多次提出异议，均被驳回。以上每一条，我都愿意当面作证。"
+    },
+    {
+     "kind": "narration",
+     "text": "老巡视员读完信，在办公室里坐了很久。三年前他突检过这家公司，被一句“设备仍在开发”挡在专有实验室门外，只看了商用设备区——他一直记着那天的别扭。他拿起电话，召集团队。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "信里的指控很严重。我们需要确认：这些内容，你敢不敢署上名字？"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我敢。每一条都有人证、有日期、有批次号。我等这一天，等了一年。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC2",
+     "text": "好。马上安排——我们马上来。"
+    },
+    {
+     "kind": "narration",
+     "text": "三天后，9月22日，检查队伍开进工厂；两个月后，第二轮检查又驻扎了整整四天。一个二十多岁的前实验员，用一页纸撬动了整个监管机器。后来公布的报告长达一百二十一页——而它的第一块多米诺骨牌，就是这封信。很多年后，报告里的每个数字都被媒体反复引用，可她知道，那些数字曾是她工位上深夜里、一个人盯着屏幕睡不着的理由。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_erika"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_yamamoto"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_newark"
+    }
+   ],
+   "hints": [
+    "写信的是辞职的女实验员，收信的是管实验室资质的老巡视员。",
+    "姑娘姓张；巡视员三年前就来过一回，被“仍在开发”挡了回去。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_23",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "艾瑞卡",
+   "row": 8,
+   "title": "新工作",
+   "cg": "bad-assets/cg/c3_23.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "风波平息后，[[NPC1]]离开了湾区，换了一座城市，重新坐进教室读书。新的城市冬天很冷，可她说，冷的空气吸进肺里，比那间实验室里恒温的恐惧要干净得多。周末她去爬山，山顶信号很好，却没有一封需要提心吊胆的邮件。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "很久以后，还有人问我后不后悔。辞职、被跟踪、收恐吓信、做笔录……一个二十出头的小姑娘，图什么呢？说起来讽刺——进公司前，{{e_holmes|霍姆斯}}是我真心崇拜的偶像，我信过那滴血的神话。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我总想起那家公司里的空气：人人自危，互相提防，说错一句话就可能“被消失”。后来我知道，那有个名字，叫{{e_fear|恐惧文化}}。在那种地方待过，才知道能自由地说话，是多奢侈的事。所以现在有人问我新公司怎么样，我总说：最大的福利，是可以直接说“我觉得这不对”。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "读书的日子很平静。实验室、图书馆、出租屋，三点一线。偶尔在新闻里看到那家公司的名字，后面跟着的数字越来越小：估值、员工、门店，一样样归零。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "有人说我们是“吹哨人”，好像做了什么惊天动地的事。其实整件事里最奢侈的，不过是说了几句实话——而说真话的代价，我掂量过了，付得起。付得起的意思不是没代价，是代价来了，我认。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我们当时只是想——不能让病人用坏的结果。就这么简单。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_erika"
+    }
+   ],
+   "hints": [
+    "这是辞职后重新读书的吹哨人。",
+    "那位给监管写信引爆检查的年轻实验员，姓张。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_24",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "卡雷鲁",
+   "row": 8,
+   "title": "操控者",
+   "cg": "bad-assets/cg/c3_24.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "书稿付梓前，[[NPC1]]在{{e_wsjhq|报社总部}}的办公室里写下最后一章。桌角堆着三年的采访本，整整一箱，每一本的扉页上都写着同一句话：会死人的。窗外的美洲大道，夜色正浓。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "总有人问：{{e_holmes|霍姆斯}}是不是{{e_sunny|桑尼}}的傀儡？我的答案写在了全书结尾：不是。从2013年12月起，她手里握着99.7%的投票权。董事会？“只是个摆设，在这里所有事情我说了算”——这是她自己说的。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "回头看那条长长的名单：斯坦福的教授、风投元老、前国务卿、基辛格、四星上将、王牌律师、传媒大亨——一个接一个，被她折服。真正的操控者，从来都是她自己。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "复盘这三年，我最常被问的另一个问题是：你怕过吗？怕。对方的律师信能砸垮一个家庭，跟踪能逼疯一个信源。可每当我犹豫，总有新的受害者站出来，把新的证据放进我手里。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "2016年8月的{{e_aacc|费城会场}}，人群里那声“你伤害了人”，是我听过的对这十五年最准确的判词。雾件文化的极限，不是造不出机器——是拿病人的血去演。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "她辍学时也许真诚过。但“演久成真”演了十五年，终究没有成真。我把这句话，留给了最后一页。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_carreyrou"
+    }
+   ],
+   "hints": [
+    "写复盘章节的，是那位医疗调查记者。",
+    "两次普利策奖得主，这本书的作者本人。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_25",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "格伦兹",
+   "row": 0,
+   "title": "感恩节的警报",
+   "cg": "bad-assets/cg/c3_25.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我五十多岁，做独立房地产经纪，保险是自己买的，自负额高得吓人——所以我很少去医院，上一次做检查还是十年前，为了女儿的婚礼。那年秋天我耳朵里一直响，家庭医生让我去药店里那个小房间验个血。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "抽血的姑娘举起一支只有半截拇指高的小管子给我看，说这就是{{e_nanotainer|纳米容器}}，一滴血就够，是未来。我当时觉得挺神奇，还发消息告诉了女儿。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "报告出来，钙、蛋白质、葡萄糖，还有三种肝酶，全部偏高。报告上那几行加粗的箭头，我到今天还背得出来。我的医生脸色变了：这些数字加上耳鸣，她担心我正站在中风的门口，让我立刻去急诊。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "感恩节的晚上，别人家在切火鸡，我在急诊室待了四个小时。抽血、心电、CT，一样一样做。最后是医院自己的实验室重抽了一次，结果全部正常，医生才让我回家。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "为了以防万一，接下来那周我又做了两次核磁。等那两次也正常，我才敢睡整觉。后来查明白了：耳鸣是因为我睡得太少。{{e_bill|三千美元的账单}}是我自己付的——保险不管虚惊一场。那一夜我什么病都没有，可我确实付出了代价。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_glunz"
+    }
+   ],
+   "hints": [
+    "说话的是一位普通病人：五十多岁的独立房地产经纪人，感恩节夜里被一份报告送进了急诊室。",
+    "她的检测在药店里的健康中心做的，虚惊一场花掉三千美元，全部自付。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_26",
+   "level": 3,
+   "form": "dialogue",
+   "difficulty": "normal",
+   "len": "M",
+   "col": "格伦兹",
+   "row": 2,
+   "title": "两份报告",
+   "cg": "bad-assets/cg/c3_26.jpg",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "这座沙漠城市郊区，一家星巴克靠窗的位子。从纽约飞来的记者{{e_carreyrou|卡雷鲁}}把笔记本摊开，对面坐着[[NPC1]]和她的家庭医生{{e_sundene|桑德内}}。个子娇小的病人从包里抽出一叠纸——急诊收费单、两份验血报告、一张手写的时间表，按日期排得整整齐齐。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "我不是来要钱的。钱我已经付了，追不回来。我是想问一句：一台连我有没有病都说不准的机器，凭什么摆在药店里，让人排队去用？"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_sundene",
+     "text": "她不是我唯一一个。这半年我手上有十几个病人，钾和钙高得没有道理，让他们去别的实验室重查，十次里八次是正常的。我给那家公司写过投诉信——他们连收到都不肯承认。"
+    },
+    {
+     "kind": "dialogue",
+     "speakerEntry": "e_carreyrou",
+     "text": "病人的经历是线索，不是证据。我想做一件更笨的事：同一个人、同一天，两边各抽一次，把两张报告并排放。你们愿意配合吗？"
+    },
+    {
+     "kind": "narration",
+     "text": "医生当场给他开了检测单，还说自己也去两边各做一次，把样本数凑多一点。记者随后一个人跑了三家药店的健康中心：取号、扎指、装管，全程不到十分钟——正规实验室里同样的项目要等好几天。快得让人不安。他把三家的流程差别一条条记下来：有的护士只扎指尖，有的直接抽静脉，问起来只说「你单子上有几项做不了指尖血」。同一家公司、同一份单子，做法却各凭各的。"
+    },
+    {
+     "kind": "dialogue",
+     "slot": "NPC1",
+     "text": "你们做这些的时候，能不能把我的名字写上？我不是员工，没签过他们的任何一张纸。我不怕他们。"
+    },
+    {
+     "kind": "narration",
+     "text": "几天后两份报告回来，多项指标对不上，钾的数值一边正常一边拉警报。记者把两张纸并排钉进笔记本，拍照，存进云端。而那张三千美元的收费单，被病人自己收在文件夹的第一页——她说，哪天有人问起，这张纸比什么都清楚。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_glunz"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_phoenix"
+    }
+   ],
+   "hints": [
+    "坐在记者对面的是那位自付了三千美元的病人；见面的城市在西南部的沙漠里。",
+    "她的家庭医生在同一张桌上；那座城市是亚利桑那州的首府，公司在当地铺了四十多个抽血点。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_27",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "normal",
+   "len": "S",
+   "col": "格伦兹",
+   "row": 6,
+   "title": "报纸上的那句话",
+   "cg": "bad-assets/cg/c3_27.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "十月十五日早上，我在便利店的报架上看到那份报纸。头版整整一篇，讲那家公司的机器、稀释的血样、借来的商用设备。我一行一行读到最后——最后一段引的是我说的话：拿活人一遍遍试，这不行。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "那天下午公司发了声明，说整篇报道是「精致的幻想」。有人打电话给我，语气很客气，让我「再想一想是不是记错了」。我说我记得很清楚，我的账单还在冰箱上贴着。挂了电话，我把那个号码拉进了黑名单。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我的医生比我难过。她诊所里忽然来了两位「新病人」，进门就发脾气，走了以后又在网上写她的坏话，她只好去雇律师。他们能让员工签一叠{{e_nda|保密协议}}，可我不是他们的员工，我什么都没签过。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "后来这座沙漠里的城市，四十多个抽血点一个接一个关掉了。最快的那几天，一天关三家。听说他们作废和纠正的结果加起来快一百万份，州里还退了四百多万美元，分给七万多个做过检测的人。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "七万多个人，一百万份纸。我只是其中一张。{{e_bill|三千美元的账单}}我留着，现在它是证据——证明那些数字不是抽象的，它们发生在人身上。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_glunz"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_phoenix"
+    }
+   ],
+   "hints": [
+    "她是被报道结尾引用的那位普通病人；她住的城市在沙漠里，公司在当地开了四十多个抽血点。",
+    "她自付过三千美元的急诊账单，不是公司员工，也没签过任何协议。那座城市是亚利桑那州首府。"
+   ],
+   "cgDark": true
+  },
+  {
+   "id": "c3_28",
+   "level": 3,
+   "form": "monologue",
+   "difficulty": "easy",
+   "len": "S",
+   "col": "比姆",
+   "row": 4,
+   "title": "一份声明",
+   "cg": "bad-assets/cg/c3_28.jpg",
+   "segments": [
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我辞职半年了，以为这一页翻过去了。六月里，律所的信寄到我家：请你签一份声明，确认自己从未向任何记者透露公司事务。信纸右下角签着{{e_boies|博伊斯}}的名字。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "我不能签。我说过那些话，而且那些话是真的。可我也不能不怕——对面是一整支诉讼队伍，我一个病理学家，付不起那种官司。那些天电话一响，我的手就先出汗。太太问要不要也请个律师，我算了算：请一位，够我们全家过半年。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "那位跟公司打了两年半官司的老邻居{{e_fuisz|富兹}}找到我，要我给他那两位盟友打电话，把知道的再讲一遍。我答应讲一遍，只讲一遍。我不是英雄，我只是不想改口。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "他们让我签的那张纸，本质上是让我把自己说过的话吃回去。签下去，我就永远是那个在报告上签字、又替它们背书的人。那些报告上的名字是我，我自己信不信它们？这个问题我躲不过去。"
+    },
+    {
+     "kind": "monologue",
+     "slot": "NPC1",
+     "text": "所以我什么都没签，也没有公开露面。我继续做那个不署名的信源，一条一条对记者确认数字。他们寄来的每一封信，我按日期收在一个牛皮纸袋里。{{e_nda|保密协议}}能封住我的嘴，封不住我的记性。"
+    }
+   ],
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_beam"
+    }
+   ],
+   "hints": [
+    "他是那位辞职时被逼删掉一百七十五封邮件的实验室主管。",
+    "他给记者打的第一通电话，从医生入行时的誓言讲起。"
+   ],
+   "cgDark": true
+  }
+ ]
+}

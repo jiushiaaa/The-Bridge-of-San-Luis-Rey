@@ -1,0 +1,850 @@
+{
+  "e_wenping": {
+    "name": "克莱登大学文凭",
+    "type": "item",
+    "tier": "major",
+    "desc": "花三十美金买来的「哲学博士」，遮羞的树叶，全书埋得最深的雷。",
+    "image": "wc-assets/images/e_wenping.jpg",
+    "imagePrompt": "close-up still life of an ornate foreign university diploma with gilded border, red wax seal and ribbon, half unrolled on a dark wooden desk, a dried fig leaf lying beside it, soft window light",
+    "archive": [
+      {
+        "level": 1,
+        "title": "三十美金的博士",
+        "fields": [
+          {
+            "label": "来历",
+            "text": "在欧洲游荡到第四年，父亲和岳父都来问学位。他从旧杂志的广告里找到一个函授班，跟纽约一个爱尔兰骗子通信，三十美金，换回这张「哲学博士」。"
+          },
+          {
+            "label": "自我开脱",
+            "text": "他搬出柏拉图《理想国》：兵士对敌人、医生对病人、官吏对民众，都该哄骗——撒谎欺骗有时并非不道德。道理找好了，心虚却没少。"
+          },
+          {
+            "label": "第一次公开",
+            "text": "他前脚到上海，岳家后脚就把「博士照」登了报：由德国克莱登大学授哲学博士，各大机关正争相礼聘。假的成了铅字，他羞愤得抬不起头，又没法分辩。"
+          },
+          {
+            "label": "掏钱供他留学、最盼着这张文凭的岳父",
+            "blank": {
+              "answer": "e_zhoujingli",
+              "pool": "person"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_fachai": {
+    "name": "发钗",
+    "type": "item",
+    "tier": "minor",
+    "desc": "鲍小姐遗落在房舱的三只发钗，侍者阿刘敲诈三百法郎的把柄。",
+    "image": "wc-assets/images/e_fachai.jpg",
+    "imagePrompt": "close-up of three ornate silver hairpins scattered on a white linen pillow inside a ship cabin, warm lamplight, a round porthole with sea shadow in the background"
+  },
+  "e_shoupa": {
+    "name": "手帕",
+    "type": "item",
+    "tier": "minor",
+    "desc": "苏文纨夺过去洗净的手帕，「善意的独裁」，一场婚姻的预演。",
+    "image": "wc-assets/images/e_shoupa.jpg",
+    "imagePrompt": "close-up of a freshly laundered white handkerchief folded on a lacquer tray, beside a needle, white thread and a spare shirt button, gentle daylight"
+  },
+  "e_hubao": {
+    "name": "《沪报》新闻",
+    "type": "item",
+    "tier": "minor",
+    "desc": "周家登报的「博士归国」消息，假文凭第一次公开亮相。",
+    "image": "wc-assets/images/e_hubao.jpg",
+    "imagePrompt": "close-up of a 1930s Shanghai newspaper spread on a mahogany table, a small printed graduation portrait among blurred columns of newsprint, reading glasses resting on the page"
+  },
+  "e_yanjiangao": {
+    "name": "演讲稿",
+    "type": "item",
+    "tier": "minor",
+    "desc": "落在弟弟大褂里的讲稿，逼出一场鸦片与梅毒的即兴演讲。",
+    "image": "wc-assets/images/e_yanjiangao.jpg",
+    "imagePrompt": "close-up of a crumpled handwritten speech draft tucked into the pocket of a long scholar's gown hanging on a wooden stand, morning light through paper windows"
+  },
+  "e_tawa": {
+    "name": "獭绒外套",
+    "type": "item",
+    "tier": "minor",
+    "desc": "麻将桌上赢来的近三百块的归宿，一件虚荣的具象。",
+    "image": "wc-assets/images/e_tawa.jpg",
+    "imagePrompt": "close-up of a luxurious overcoat with a thick otter-fur collar draped over a chair back, a mahjong table with scattered tiles and banknotes behind it"
+  },
+  "e_zheshan": {
+    "name": "折扇",
+    "type": "item",
+    "tier": "major",
+    "desc": "王尔恺题诗的折扇，被当众指为抄袭——题诗的人，并不是做诗的人。",
+    "image": "wc-assets/images/e_zheshan.jpg",
+    "imagePrompt": "close-up of an opened folding fan, brushed ink calligraphy across its paper ribs, lying on a stone garden table beside a cooling cup of tea",
+    "archive": [
+      {
+        "level": 2,
+        "title": "一首偷来的情诗",
+        "fields": [
+          {
+            "label": "场面",
+            "text": "一次茶会上，女主人拿出这把折扇请大家品题——扇面上是青年政客王尔恺题的情诗。满座恭维声里，只有一位客人当众说：这首诗是偷来的，至少是借的，借的外债。"
+          },
+          {
+            "label": "抄自哪里",
+            "text": "德国十五六世纪的民歌。留学生认得出洋货，就像当铺朝奉认得出当品——可惜这一回，识货识出了大祸。"
+          },
+          {
+            "label": "诗的真正作者",
+            "blank": {
+              "answer": "e_suwenwan",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "事后",
+            "text": "他连夜写了一封文绉绉的信去请罪。直到在唐家书房，才有人点破真相：题诗的是王尔恺，做诗的另有其人——他当众拆穿的，正是女主人的得意之作。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_pinpan": {
+    "name": "《拼盘姘伴》",
+    "type": "item",
+    "tier": "minor",
+    "desc": "曹元朗的拼贴诗，「诗有意义是诗的不幸」。",
+    "image": "wc-assets/images/e_pinpan.jpg",
+    "imagePrompt": "close-up of a modernist poem manuscript assembled from cut-and-pasted clippings with blurred illegible print, scissors and a fountain pen beside it"
+  },
+  "e_qiaoxia": {
+    "name": "朱古力糖匣子",
+    "type": "item",
+    "tier": "major",
+    "desc": "退回七封信的金纸糖匣，信封撕破处都用玻璃纸细细衬补。",
+    "image": "wc-assets/images/e_qiaoxia.jpg",
+    "imagePrompt": "close-up of a gold-foil chocolate box filled with old letters, their torn envelopes carefully mended with translucent paper, a loose ribbon, melancholic afternoon light",
+    "archive": [
+      {
+        "level": 2,
+        "title": "匣子不打开",
+        "fields": [
+          {
+            "label": "来路",
+            "text": "这只夹心朱古力糖的金纸匣子，本是她送给他的。决裂之后，他把她的七封信装进匣子，原样退了回去。"
+          },
+          {
+            "label": "玻璃纸衬补",
+            "text": "七封信的信封全破了，都用玻璃纸细细衬补——想得出他急着看信，撕破了信封，又手指笨拙地补好。匣底还衬着一张纸：她第一次吃饭时写在他书后空页上的住址电话，他剪下来，当宝贝似的收藏着。"
+          },
+          {
+            "label": "不打开",
+            "text": "她起初不愿打开——似乎匣子不打开，自己跟他还没有完全破裂；一打开，便证据确凿地跟他断了。"
+          },
+          {
+            "label": "收到这只匣子的人",
+            "blank": {
+              "answer": "e_tangxiaofu",
+              "pool": "person"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_pinshu": {
+    "name": "三闾大学聘书电报",
+    "type": "item",
+    "tier": "minor",
+    "desc": "命运抛来的诱饵，「教捋」「电霸」两个错字，来路并不简单。",
+    "image": "wc-assets/images/e_pinshu.jpg",
+    "imagePrompt": "close-up of a 1930s telegram slip with a misprinted message lying on a desk beside a half-written reply letter and an ink pen, lamplight"
+  },
+  "e_tiexiang": {
+    "name": "大铁箱",
+    "type": "item",
+    "tier": "major",
+    "desc": "一人高的大铁箱：上半箱读书卡片，下半箱西药，主人的全副家当。",
+    "image": "wc-assets/images/e_tiexiang.jpg",
+    "imagePrompt": "close-up of a man-sized black iron trunk standing open in a shabby inn room, upper half packed with neatly ordered index cards, lower half full of medicine bottles",
+    "archive": [
+      {
+        "level": 3,
+        "title": "上半箱与下半箱",
+        "fields": [
+          {
+            "label": "上半箱",
+            "text": "四角号码排列的读书卡片，一抽屉一抽屉码得整整齐齐。主人的原话：只要有它，中国书全烧完了，他还能照样开课程。"
+          },
+          {
+            "label": "下半箱",
+            "text": "满满一箱西药。内地买不到药，他准备运进去十倍价钱倒卖——千里赶路，别人带行李，他带了一间药房。"
+          },
+          {
+            "label": "铁箱的主人",
+            "blank": {
+              "answer": "e_limeiting",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "同行的判词",
+            "text": "有了上半箱的卡片，中国书烧完了，他一个人可以教中国文学；有了下半箱的药，中国人全病死了，他还可以活着。"
+          },
+          {
+            "label": "舍不得开",
+            "text": "路上大雨，他宁可借别人的伞，也不肯开箱取雨衣——箱子里的东西，件件都是本钱。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_mingpian": {
+    "name": "名片",
+    "type": "item",
+    "tier": "minor",
+    "desc": "三行头衔加花体英文，头衔癖的标本。",
+    "image": "wc-assets/images/e_mingpian.jpg",
+    "imagePrompt": "close-up of an elegant calling card printed with three lines of official titles, fancy English script on its reverse side, lying on a railway ticket counter"
+  },
+  "e_lvsan": {
+    "name": "绿绸伞",
+    "type": "item",
+    "tier": "minor",
+    "desc": "孙柔嘉的遮阳伞，借出去挡雨，褪色染绿了借伞人的脸。",
+    "image": "wc-assets/images/e_lvsan.jpg",
+    "imagePrompt": "close-up of a small green silk parasol propped open to dry after rain, its green dye bleeding onto a white shirt collar lying beneath it"
+  },
+  "e_jiajian": {
+    "name": "加减号情书",
+    "type": "item",
+    "tier": "minor",
+    "desc": "陆子潇的追求方式：同意请画加号，否则画减号。",
+    "image": "wc-assets/images/e_jiajian.jpg",
+    "imagePrompt": "close-up of a love letter with a small slip of paper asking for a plus sign or a minus sign as the reply, a pencil laid across the envelope"
+  },
+  "e_juben": {
+    "name": "剧本",
+    "type": "item",
+    "tier": "minor",
+    "desc": "范懿借出的剧本，扉页写着暧昧的英文题赠。",
+    "image": "wc-assets/images/e_juben.jpg",
+    "imagePrompt": "close-up of a well-thumbed drama script with an affectionate handwritten English dedication on the title page, rimless spectacles resting on the cover"
+  },
+  "e_gongchan": {
+    "name": "《共产主义论》小册子",
+    "type": "item",
+    "tier": "minor",
+    "desc": "赵辛楣留下的小册子，成了「思想有问题」的解聘借口。",
+    "image": "wc-assets/images/e_gongchan.jpg",
+    "imagePrompt": "close-up of a thin political pamphlet half-hidden inside a stack of borrowed books on a dormitory desk, a kerosene lamp burning low"
+  },
+  "e_laozhong": {
+    "name": "祖传老钟",
+    "type": "item",
+    "tier": "major",
+    "desc": "方家祖传的老钟，每点钟慢七分钟；全书最后的声音。",
+    "image": "wc-assets/images/e_laozhong.jpg",
+    "imagePrompt": "close-up of an antique family mantel clock with a brass pendulum, striking the hour in a dim empty room at night, its hands lagging behind the real time",
+    "archive": [
+      {
+        "level": 5,
+        "title": "时间落伍的计时机",
+        "fields": [
+          {
+            "label": "来历",
+            "text": "公公送给小两口的安家礼物，祖上传下来的。老人家郑重交代：这只钟走得非常准，每点钟只慢七分钟，记好，要慢七分钟。"
+          },
+          {
+            "label": "送钟的人",
+            "blank": {
+              "answer": "e_fangdunweng",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "结尾那六下",
+            "text": "大吵之后的深夜，它从容自在地敲了六下。六点钟是五个钟头以前——那时候他在回家的路上，蓄心要待她好；那时候她在家等他吃饭，盼他跟姑母和好。两个人的善意都对，只是都对错了时辰。"
+          },
+          {
+            "label": "判词",
+            "text": "这个时间落伍的计时机，无意中对人生包涵的讽刺和感伤，深于一切语言、一切啼笑。全书就停在这只钟上。"
+          },
+          {
+            "label": "终吵里被掷出去、折成两段的东西",
+            "blank": {
+              "answer": "e_xiangyashu",
+              "pool": "item"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_xiangyashu": {
+    "name": "象牙梳子",
+    "type": "item",
+    "tier": "minor",
+    "desc": "终吵的「凶器」，掷中左颧，折为两段。",
+    "image": "wc-assets/images/e_xiangyashu.jpg",
+    "imagePrompt": "close-up of an ivory comb snapped into two pieces on a bare wooden table, beside a cracked cup, cold morning light"
+  },
+  "e_weicheng": {
+    "name": "围城",
+    "type": "concept",
+    "tier": "major",
+    "desc": "城外的人想冲进去，城里的人想逃出来——从婚姻到人生的总隐喻。",
+    "image": "wc-assets/images/e_weicheng.jpg",
+    "imagePrompt": "an ancient city wall with its gate wide open at dusk, one hesitant figure standing outside looking in, another figure inside looking out, both paused at the threshold",
+    "archive": [
+      {
+        "level": 2,
+        "title": "城外与城里",
+        "fields": [
+          {
+            "label": "出处",
+            "text": "那场著名的酒宴上，一位靠给外国大哲学家写信出名的「哲学家」转述罗素的英国古话：结婚仿佛金漆的鸟笼，笼外的鸟想住进去，笼内的鸟想飞出来，所以结而离，离而结，没有了局。"
+          },
+          {
+            "label": "点题",
+            "text": "座中有人接话：法国也有这么一句，不过不说鸟笼，说被围困的城堡——城外的人想冲进去，城里的人想逃出来。这本书的书名，就来自这句话。"
+          },
+          {
+            "label": "转述「金漆鸟笼」的人",
+            "blank": {
+              "answer": "e_chushenming",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "不止说婚姻",
+            "text": "这个比喻说的是婚姻，又不止婚姻。出洋、归国、谋职、成家，样样如此：没有得到的时候想得到，得到了又想逃。人永远在别处与此处之间来回，进城出城，没有了局。"
+          },
+          {
+            "label": "摆下这场酒宴的公寓",
+            "blank": {
+              "answer": "e_zhaogongyu",
+              "pool": "place"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_kelaideng": {
+    "name": "克莱登大学",
+    "type": "concept",
+    "tier": "major",
+    "desc": "子虚乌有的「大学」，三十美金一张博士文凭，一面照出人心的镜子。",
+    "image": "wc-assets/images/e_kelaideng.jpg",
+    "imagePrompt": "a grand university gate built like a hollow stage set with nothing behind it but empty sky, a rolled diploma leaning against the fake pillars",
+    "archive": [
+      {
+        "level": 1,
+        "title": "亚当夏娃的树叶",
+        "fields": [
+          {
+            "label": "生意",
+            "text": "旧杂志角落里的小广告：无需上课，无需考试，通信函授，博士可致。一位留欧四年的年轻人顺着广告找过去，纽约那位爱尔兰骗子收下定金，寄出文凭。"
+          },
+          {
+            "label": "功用",
+            "text": "这一张文凭，仿佛有亚当、夏娃下身那片树叶的功用，可以遮羞包丑。四年「兴趣颇广，心得全无」的留学生涯，全靠这片树叶向家里交代。"
+          },
+          {
+            "label": "花三十美金买文凭的人",
+            "blank": {
+              "answer": "e_fanghongjian",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "不止一个买家",
+            "text": "这行生意做得下去，正因为买家遍布天下。同样一张假文凭，有人买来当遮羞布，藏一辈子；有人买来当垫脚石，踩得理直气壮。文凭是假的，文凭崇拜是真的。"
+          },
+          {
+            "label": "撒谎论",
+            "text": "书里有句公道话：撒谎往往是高兴快乐的流露；真到忧患穷困的时候，人穷智短，谎话都讲不好的。一个人谎撒得漂亮，多半因为日子过得宽裕。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_jubuzhenli": {
+    "name": "局部的真理",
+    "type": "concept",
+    "tier": "major",
+    "desc": "真理是赤裸裸的，她只好算「局部的」——船上的绰号，全书主题的预演。",
+    "image": "wc-assets/images/e_jubuzhenli.jpg",
+    "imagePrompt": "a classical marble statue of a goddess half-draped in thin gauze, one side bare and one side covered, a teasing partial revelation",
+    "archive": [
+      {
+        "level": 1,
+        "title": "真理的局部",
+        "fields": [
+          {
+            "label": "出处",
+            "text": "回国的邮船上，男学生背后给那位中葡混血的女同学起了两个绰号：「熟食铺子」，还有「真理」——因为据说真理是赤裸裸的。可她毕竟还穿着抹胸短裤，于是大家修正为「局部的真理」。"
+          },
+          {
+            "label": "被叫这个绰号的人",
+            "blank": {
+              "answer": "e_baoxiaojie",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "玩笑里的正题",
+            "text": "这个轻薄玩笑，其实是全书主题的第一次亮相：人人都在展示「局部」，把赤裸的真相藏起一块。文凭、头衔、履历、恩爱，全是剪裁过的局部。"
+          },
+          {
+            "label": "反过来看",
+            "text": "可「局部」也未必全是欺骗。她从不假装清纯，想要什么就伸手——满船道貌岸然的人里头，她露出来的那部分，反倒是最接近赤裸的一个。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_chuyang": {
+    "name": "出洋如出痘",
+    "type": "concept",
+    "tier": "major",
+    "desc": "留学好比出痘子，非出不可；出过了，就该把出痘这回事忘了。",
+    "image": "wc-assets/images/e_chuyang.jpg",
+    "imagePrompt": "an open passport whose stamps are shaped like smallpox vaccination scars, a miniature toy steamship sailing across its paper sea",
+    "archive": [
+      {
+        "level": 2,
+        "title": "出痘子",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "唐家书房里谈起留学，他说：出洋好比出痘子，出痧子，非出不可。小孩子出过痧痘，就可以安全长大，以后碰见这两种毛病，不怕传染。"
+          },
+          {
+            "label": "说这话的人",
+            "blank": {
+              "answer": "e_fanghongjian",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "科举对照",
+            "text": "他还有个比方：现在的留学跟前清的科举功名一样——从前人不中进士，随你官做得多大，总抱着终身遗憾；留了学，也能解脱这种自卑心理，并非为高深学问。"
+          },
+          {
+            "label": "下半句",
+            "text": "痘出过了，就该把出痘这回事忘了；留过学的人，也应把留学这事忘了。念念不忘、到处挂着牛津剑桥幌子的人，就像甘心出天花变成麻子，还得意自己脸上有密圈。"
+          },
+          {
+            "label": "他自己那张不敢示人的文凭，来自哪所「大学」",
+            "blank": {
+              "answer": "e_kelaideng",
+              "pool": "concept"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_dianhua": {
+    "name": "电话与信",
+    "type": "concept",
+    "tier": "major",
+    "desc": "唐晓芙说：电话是偷懒人的拜访，吝啬人的通信。",
+    "image": "wc-assets/images/e_dianhua.jpg",
+    "imagePrompt": "a black rotary telephone and a handwritten letter facing each other across a wooden table, the telephone cold in shadow, the letter warm in candlelight",
+    "archive": [
+      {
+        "level": 2,
+        "title": "偷懒人的拜访",
+        "fields": [
+          {
+            "label": "出处",
+            "text": "那顿两人晚餐，席间电话三次打来搅局。她放下话筒说：电话是偷懒人的拜访，吝啬人的通信，最不够朋友。"
+          },
+          {
+            "label": "理由",
+            "text": "她的道理：一个人的声音，往往在电话里变得认不出，变得难听。写信要斟酌字句，打电话只图省事——省掉的路，正是心意。"
+          },
+          {
+            "label": "两人吃这顿晚餐的川菜馆",
+            "blank": {
+              "answer": "e_emei",
+              "pool": "place"
+            }
+          },
+          {
+            "label": "他的回应",
+            "text": "他当场立誓：我决不跟你通电话，我最恨朋友间通电话，宁可写信。后来他果然只写信，一封一封，写到信封都撕破又补好。"
+          },
+          {
+            "label": "那些信最后退回时装的匣子",
+            "blank": {
+              "answer": "e_qiaoxia",
+              "pool": "item"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_tongqingxiong": {
+    "name": "同情兄",
+    "type": "concept",
+    "tier": "major",
+    "desc": "同有一个情人的该叫「同情」——情敌变挚友的名词学。",
+    "image": "wc-assets/images/e_tongqingxiong.jpg",
+    "imagePrompt": "two wine glasses clinking in a toast, each glass reflecting the same woman's silhouette, rivals bound by one lost love",
+    "archive": [
+      {
+        "level": 3,
+        "title": "情敌的名词学",
+        "fields": [
+          {
+            "label": "出处",
+            "text": "失恋又失业的当口，他收到一封信，抬头称他「鸿渐同情兄」。寄信人解释：这是朋友的发明——同跟一个先生念书的叫同师兄弟，同在一个学校的叫同学，同有一个情人的，该叫同情。"
+          },
+          {
+            "label": "发明这个叫法的人",
+            "blank": {
+              "answer": "e_dongxiechuan",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "化敌为友",
+            "text": "两个「同情」坐下来一算，原来都被同一个人玩弄得七颠八倒。同病相怜，前嫌尽释，从此成了全书最结实的一对朋友。"
+          },
+          {
+            "label": "名词的用处",
+            "text": "中国人最重名分，什么关系都得有个叫法，叫法定了，相处才有章法。「同情兄」三个字一出口，情敌就有了名分——不是仇人，是难友。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_lvxing": {
+    "name": "旅行试验论",
+    "type": "concept",
+    "tier": "major",
+    "desc": "旅行叫人本相毕现：先同旅行一个月，再谈结婚。",
+    "image": "wc-assets/images/e_lvxing.jpg",
+    "imagePrompt": "two travelers walking a long mountain road in the rain, their shadows on the ground revealing their true faces, companionship tested by the journey",
+    "archive": [
+      {
+        "level": 3,
+        "title": "先旅行，再结婚",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "旅途将尽，他说：旅行是最劳顿、最麻烦、叫人本相毕现的时候。经过长期苦旅行而彼此不讨厌的人，才可以结交作朋友。"
+          },
+          {
+            "label": "蜜月颠倒",
+            "text": "他的高论：结婚以后的蜜月旅行是次序颠倒的，应该先同旅行一个月，一个月舟车仆仆以后，双方还没有彼此看破、彼此厌恶，这种夫妇保证不会离婚。"
+          },
+          {
+            "label": "提出这套说法的人",
+            "blank": {
+              "answer": "e_zhaoxinmei",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "为什么准",
+            "text": "平日相见，人人都带着妆、带着身份、带着余地。旅途把这些全剥掉：钱花光了、雨淋透了、跳蚤咬了，剩下的那个才是本人。这一路西行，就是五个人的互相卸妆。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_jieshu": {
+    "name": "借书论",
+    "type": "concept",
+    "tier": "major",
+    "desc": "一借一还，一本书可以做两次接触的借口——恋爱的初步。",
+    "image": "wc-assets/images/e_jieshu.jpg",
+    "imagePrompt": "one book passing between a man's hand and a woman's hand, an invisible thread of repeated borrowing and returning tying them together",
+    "archive": [
+      {
+        "level": 3,
+        "title": "一借一还",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "甲板夜谈，他说：男人肯买糖、衣料、化妆品送给女人，而对于书只肯借给她——因为借了要还。一借一还，一本书可以做两次接触的借口。这是男女恋爱必然的初步。"
+          },
+          {
+            "label": "借口学",
+            "text": "民国男女交往，处处要名目。送东西太露骨，见面要由头，唯有书最体面：借是示好，还是再见，讨论书中一段，又是一次长谈。"
+          },
+          {
+            "label": "在暗处全听了去的人",
+            "blank": {
+              "answer": "e_sunroujia",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "听者有心",
+            "text": "这番恋爱讲义，甲板上两个男人说得尽兴，暗处还有个姑娘从头听到尾。后来她借给他的、问他的、托他的，桩桩都有来有还——讲义没有白讲。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_rufuren": {
+    "name": "如夫人论",
+    "type": "concept",
+    "tier": "major",
+    "desc": "讲师比通房丫头，副教授等于如夫人——职称等级的讽喻。",
+    "image": "wc-assets/images/e_rufuren.jpg",
+    "imagePrompt": "a row of traditional household chairs arranged by rank, a concubine's lower chair set below the wife's, a scholar's academic gown draped over the lower chair",
+    "archive": [
+      {
+        "level": 4,
+        "title": "副教授等于如夫人",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "一场做媒的晚宴上，男主人谈职称：讲师比通房丫头，教授比夫人，副教授呢，等于如夫人——姨太太要扶正做大太太，那是干犯纲常名教，做不得的。"
+          },
+          {
+            "label": "说这番话的人",
+            "blank": {
+              "answer": "e_wangchuhou",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "听者有心",
+            "text": "满座大笑，只有一个人笑不出来——他正是那位「如夫人」。到校时电报上许的教授，校长室里一句话降成副教授，月薪二百八十元，还说下学年再升。"
+          },
+          {
+            "label": "名分即制度",
+            "text": "旧式家庭的名分，套在大学职称上，竟然严丝合缝：正室、姨太太、通房丫头，一级压着一级。跳槽就是改嫁，扶正就是晋升——读书人清高了半辈子，原来都在一个大家庭里做妻妾。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_daoshizhi": {
+    "name": "导师制",
+    "type": "concept",
+    "tier": "major",
+    "desc": "牛津的师生制度，到了三闾变成同吃饭、通用厕所与饭前静默。",
+    "image": "wc-assets/images/e_daoshizhi.jpg",
+    "imagePrompt": "a long dining table where teachers and students eat together in stiff silence, a wall clock marking one minute of silence before the meal, rigid order",
+    "archive": [
+      {
+        "level": 4,
+        "title": "从牛津到三闾",
+        "fields": [
+          {
+            "label": "牛津原型",
+            "text": "导师制本是牛津剑桥的老规矩：一位导师带几个学生，每周面谈读书报告，学问之外，兼管品行。贵在一对一，师生如师徒。"
+          },
+          {
+            "label": "三闾变形",
+            "text": "到了三闾，新任训导长推行的版本是：师生同吃饭，男女有别——没结婚的先生不得做女学生的导师，师生通用厕所，饭前静默一分钟。有人当场顶回去：干脆跟学生同床睡觉得了。"
+          },
+          {
+            "label": "推行这套制度的训导长",
+            "blank": {
+              "answer": "e_limeiting",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "时代背景",
+            "text": "那几年教育部正推行新生活运动式的训育，要求学校管教合一。好经一到下面就念歪：牛津要的是师生亲近，三闾管的是男女大防——制度搬了家，魂没搬。"
+          },
+          {
+            "label": "校长的和稀泥",
+            "text": "校务会议上吵成一团，校长出来圆场：坐下吃饭以前，由训导长领学生静默一分钟，想想抗战时期民生的艰难——这也是很有意义的举动。一场改革，最后落实成一分钟的沉默。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_youjiti": {
+    "name": "学校是有机体",
+    "type": "concept",
+    "tier": "major",
+    "desc": "学校也是个有机体，教职员之于学校，应当像细胞之于有机体。",
+    "image": "wc-assets/images/e_youjiti.jpg",
+    "imagePrompt": "a university campus enclosed inside a giant living cell under a microscope, tiny faculty figures drifting like organelles within its walls",
+    "archive": [
+      {
+        "level": 4,
+        "title": "细胞论",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "校长是研究昆虫出身的生物学家，开口闭口科学。他说：学校也是个有机体，教职员之于学校，应当像细胞之于有机体。"
+          },
+          {
+            "label": "说这话的校长",
+            "blank": {
+              "answer": "e_gaosongnian",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "细胞的本分",
+            "text": "细胞的义务是服从整体、随时被代谢。他拿这套生物学，把电报上许好的教授降成副教授，还谎称写过一封解释的信——现在抗战时间的邮政简直该死。"
+          },
+          {
+            "label": "理科出身做校长",
+            "text": "民国的大学越来越像衙门，校长越来越像官僚。科学家做了校长，科学就成了管理的修辞：有机体三个字，翻译过来就是——学校没有错，错的是细胞。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_sank": {
+    "name": "三 K 运动",
+    "type": "concept",
+    "tier": "major",
+    "desc": "教堂、厨房、保育室——老派德国给女人划定的三个 K。",
+    "image": "wc-assets/images/e_sank.jpg",
+    "imagePrompt": "three glowing doorways arranged like walls around a young woman's silhouette, a church arch, a warm kitchen hearth, and a nursery with a cradle",
+    "archive": [
+      {
+        "level": 5,
+        "title": "三个 K",
+        "fields": [
+          {
+            "label": "出处",
+            "text": "新媳妇不肯辞职管家，公公教训她：我总觉得女人的责任是管家，你们对丈夫总要服侍得他们称心。儿子在旁边帮腔，抬出德国妇女的三 K 运动：Kirche，Kneche，Kinder。"
+          },
+          {
+            "label": "三个 K 是什么",
+            "text": "老派德国给女人划定的全部天地：Kirche 是教堂，Kneche 是厨房，Kinder 是保育室——敬神、做饭、带孩子。三个词都以 K 开头，所以叫三 K 运动。"
+          },
+          {
+            "label": "教训儿媳的公公",
+            "blank": {
+              "answer": "e_fangdunweng",
+              "pool": "person"
+            }
+          },
+          {
+            "label": "新与旧",
+            "text": "儿媳是大学毕业生，挣得比儿子多一倍，当场顶回去：你们家里没有那么阔呢。一个要管家，一个要做事——这不是婆媳口角，是两个时代在同一间客厅里吵架。"
+          }
+        ]
+      }
+    ]
+  },
+  "e_qinjin": {
+    "name": "结为秦晋",
+    "type": "concept",
+    "tier": "major",
+    "desc": "秦晋二国世缔婚姻、世寻干戈——亲家相恶的词源学讽刺。",
+    "image": "wc-assets/images/e_qinjin.jpg",
+    "imagePrompt": "two family banquet tables joined by a red marriage ribbon stretched taut like a bowstring, knives quietly being sharpened beneath both tables",
+    "archive": [
+      {
+        "level": 5,
+        "title": "世缔婚姻，世寻干戈",
+        "fields": [
+          {
+            "label": "词源",
+            "text": "春秋时，秦国和晋国世代通婚，后人就把结婚雅称为「结为秦晋」。好词，听着就体面。"
+          },
+          {
+            "label": "日记",
+            "text": "两亲家见过面、请过客，心里交换过鄙视——方家恨孙家简慢，孙家厌方家陈腐。老先生听了太太对亲家母的批评，灵感忽来，在日记里添上精彩的一条：夫春秋之时，秦晋二国，世缔婚姻，而世寻干戈。亲家相恶，于今为烈，号曰秦晋，亦固其宜。"
+          },
+          {
+            "label": "词源学的讽刺",
+            "text": "他这才「明白」为什么攀亲叫结秦晋：通婚的两国，也世代打仗。这个词本身就藏着预言——最亲的两家，往往也是最针锋相对的两家。"
+          },
+          {
+            "label": "写完",
+            "text": "日记写完，他得意非凡，只恨不能送给亲翁孙先生赏鉴。老派文人的刻薄，全用在日记这种没人看的地方。"
+          },
+          {
+            "label": "亲家相恶、谁也躲不开谁，正应了本书哪个总比喻",
+            "blank": {
+              "answer": "e_weicheng",
+              "pool": "concept"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_putao": {
+    "name": "葡萄论",
+    "type": "concept",
+    "tier": "major",
+    "desc": "一串葡萄两种吃法：一种人只剩回忆，一种人还有希望。",
+    "image": "wc-assets/images/e_putao.jpg",
+    "imagePrompt": "a bunch of grapes on a table split into two fates, one half eaten starting from the ripest, the other half saved with the ripest untouched, memory and hope",
+    "archive": [
+      {
+        "level": 5,
+        "title": "两种人吃葡萄",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "香港的饭桌上，他说：天下只有两种人。譬如一串葡萄到手，一种人挑最好的先吃，另一种人把最好的留在最后吃。"
+          },
+          {
+            "label": "回忆与希望",
+            "text": "照例，第一种人应该乐观——他每吃一颗都是吃剩的葡萄里最好的；第二种人应该悲观——他每吃一颗都是吃剩的葡萄里最坏的。不过事实适得其反：第一种人只有回忆，第二种人还有希望。"
+          },
+          {
+            "label": "说这话的场合",
+            "text": "老朋友劝他赶快注册结婚，不必回上海办仪式。他拿葡萄作答——新婚的人谈葡萄，谈的全是往后日子的吃法。"
+          },
+          {
+            "label": "饭桌上劝他赶快结婚的人",
+            "blank": {
+              "answer": "e_zhaoxinmei",
+              "pool": "person"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "e_cike": {
+    "name": "刺猬论",
+    "type": "concept",
+    "tier": "major",
+    "desc": "人聚在一起如刺猬，只好保持彼此间的距离。",
+    "image": "wc-assets/images/e_cike.jpg",
+    "imagePrompt": "a group of hedgehogs huddling for warmth on a cold night yet held apart by their quills, the small glowing distances between them",
+    "archive": [
+      {
+        "level": 4,
+        "title": "彼此间的距离",
+        "fields": [
+          {
+            "label": "原话",
+            "text": "那个夜晚，他找朋友谈心扫了兴，回房想：天生人是教他们孤独的，一个个该各归各，老死不相往来。聚在一起，动不动自己冒犯人，或者人开罪自己，好像一只只刺猬，只好保持着彼此间的距离。"
+          },
+          {
+            "label": "下一句",
+            "text": "要亲密团结，不是你刺痛我的肉，就是我擦破你的皮。这所学校里，人人都在实践这句话：试探、造谣、告密、捉奸，刺与皮都不够用了。"
+          },
+          {
+            "label": "把这套互相刺痛演得最足的地方",
+            "blank": {
+              "answer": "e_sanlu",
+              "pool": "place"
+            }
+          },
+          {
+            "label": "距离的学问",
+            "text": "刺猬的难题就是人的难题：离远了冷，凑近了扎。他刚发完这番感慨，转头又想找个能了解自己的人谈谈——人就是这样，明知会被刺痛，还是要往人堆里凑。"
+          }
+        ]
+      }
+    ]
+  }
+}
