@@ -182,30 +182,43 @@
   white-space: nowrap;
 }
 
-/* Paper dialogs inherit only the book's cover palette, including the existing music player. */
+/* Tonebird-inspired glass dialogs. These tokens stay inside the cover overlays;
+   the inherited in-game menus retain their own theme and behavior. */
 .slr-cover-overlay {
-  --paper: #f3ecdf;
-  --card: #f6f0e5;
-  --ink: #383b32;
-  --ink-80: #474b40;
-  --ink-60: #6a6c5d;
-  --ink-30: #b7b19e;
-  --leather: #73613e;
-  --gold: #9b7c47;
-  --gold-soft: #a88b5720;
-  --line: #d8ccb5;
-  --font: var(--bridge-font);
-  background: #161d19a8;
-  backdrop-filter: blur(8px);
+  --paper: #24342f;
+  --card: rgb(255 255 255 / 6%);
+  --ink: #f6f8f3;
+  --ink-80: #e2e9e2;
+  --ink-60: #c8d2c9;
+  --ink-30: #9fada3;
+  --leather: #dfebdf;
+  --gold: #dfebdf;
+  --gold-soft: rgb(255 255 255 / 8%);
+  --cinnabar: #e9d3b1;
+  --line: rgb(255 255 255 / 13%);
+  --font: Inter, 'Noto Sans SC', system-ui, sans-serif;
+  font-family: var(--font);
+  color: var(--ink);
+  color-scheme: dark;
+  background: rgb(12 20 18 / 20%);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  /* A retained opacity animation on this ancestor isolates the backdrop and
+     prevents the glass panel from blurring the cover underneath it. */
+  animation: none;
   align-items: center;
   padding: 24px;
 }
 .slr-cover-overlay .modal {
-  background: var(--card);
-  border: 1px solid #c4af87;
-  border-radius: 4px;
+  background:
+    linear-gradient(145deg, rgb(255 255 255 / 8%), rgb(255 255 255 / 1%) 65%),
+    rgb(23 37 32 / 44%);
+  -webkit-backdrop-filter: blur(20px) saturate(115%);
+  backdrop-filter: blur(20px) saturate(115%);
+  border: 1px solid rgb(238 248 236 / 25%);
+  border-radius: 24px;
   color: var(--ink);
-  box-shadow: 0 20px 90px #0d161c66;
+  box-shadow: 0 24px 80px rgb(4 12 9 / 28%), inset 0 1px 0 rgb(255 255 255 / 8%);
   max-height: min(86dvh, 760px);
   overflow: hidden;
 }
@@ -220,19 +233,35 @@
 }
 .slr-cover-overlay .game-menu-title,
 .slr-cover-overlay .modal-title {
-  font-family: var(--bridge-font);
-  font-size: 25px;
-  font-weight: 400;
+  font-family: var(--font);
+  font-size: 24px;
+  font-weight: 700;
   color: var(--ink);
-  letter-spacing: .08em;
+  letter-spacing: .01em;
 }
-.slr-cover-overlay .game-menu-kicker { font-weight: 400; letter-spacing: .24em; margin-bottom: 8px; color: #8a7955; }
-.slr-cover-overlay .game-menu-close { width: 40px; height: 40px; margin: -6px -9px -6px 0; border-radius: 2px; }
+.slr-cover-overlay .game-menu-kicker { font-weight: 400; letter-spacing: .1em; margin-bottom: 8px; color: var(--ink-60); }
+.slr-cover-overlay .game-menu-close {
+  width: 44px;
+  height: 44px;
+  margin: -6px -9px -6px 0;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  color: var(--ink-60);
+  transition: background .16s, border-color .16s, color .16s;
+}
+.slr-cover-overlay .game-menu-close:hover { background: var(--gold-soft); border-color: var(--line); color: #fff; }
 .slr-cover-overlay .game-menu-body { padding: 8px 10px 16px; }
 .slr-cover-overlay .game-menu-section { border-color: var(--line); }
-.slr-cover-overlay .game-menu-row { min-height: 54px; padding: 12px 18px; }
-.slr-cover-overlay .game-menu-row-label { font-size: 16px; font-weight: 400; }
+.slr-cover-overlay .game-menu-row { min-height: 54px; padding: 12px 18px; border-radius: 12px; }
+.slr-cover-overlay .game-menu-row:hover { background: var(--gold-soft); }
+.slr-cover-overlay .game-menu-lang:hover,
+.slr-cover-overlay .bgm-block-row:hover { background: transparent; }
+.slr-cover-overlay .game-menu-row-label { font-size: 16px; font-weight: 400; letter-spacing: .01em; }
 .slr-cover-overlay .game-menu-row-sub { font-size: 12px; font-weight: 400; line-height: 1.6; }
+.slr-cover-overlay .game-menu-switch-text { font-weight: 400; letter-spacing: 0; }
+.slr-cover-overlay .game-menu-switch { background: rgb(255 255 255 / 15%); box-shadow: inset 0 0 0 1px rgb(255 255 255 / 12%); }
+.slr-cover-overlay .game-menu-switch.is-on { background: rgb(162 202 174 / 62%); }
+.slr-cover-overlay .game-menu-switch-knob { background: #f6f8f3; box-shadow: 0 1px 4px rgb(0 0 0 / 18%); }
 .slr-cover-overlay .game-menu-langs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 8px 18px 18px; }
 .slr-cover-overlay .game-menu-lang-btn {
   display: flex;
@@ -241,25 +270,64 @@
   gap: 12px;
   min-height: 48px;
   padding: 12px 16px;
-  border: 1px solid #cfc1a5;
-  border-radius: 2px;
-  background: transparent;
-  color: var(--ink);
-  font-family: var(--bridge-font);
-  font-size: 16px;
+  border: 1px solid rgb(255 255 255 / 14%);
+  border-radius: 12px;
+  background: rgb(255 255 255 / 4%);
+  color: var(--ink-80);
+  font-family: var(--font);
+  font-size: 15px;
   text-align: left;
+  transition: background .16s, border-color .16s, color .16s;
 }
-.slr-cover-overlay .game-menu-lang-btn:hover { background: #a88b5714; }
-.slr-cover-overlay .game-menu-lang-btn.is-on { background: #394439; border-color: #394439; color: #fff4dc; }
+.slr-cover-overlay .game-menu-lang-btn:hover { background: rgb(255 255 255 / 10%); border-color: rgb(255 255 255 / 27%); color: #fff; }
+.slr-cover-overlay .game-menu-lang-btn.is-on {
+  background: linear-gradient(135deg, rgb(255 255 255 / 17%), rgb(211 239 216 / 9%));
+  border-color: rgb(234 249 232 / 43%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 9%);
+  color: #fff;
+}
 .slr-cover-overlay .bridge-language-options { padding: 26px 28px 30px; }
 .slr-cover-overlay .bridge-dialog-copy { padding: 25px 28px 14px; font-size: 16px; line-height: 1.9; }
 .slr-cover-overlay .bridge-dialog-actions { display: flex; justify-content: flex-end; gap: 12px; padding: 16px 28px 28px; }
-.slr-cover-overlay .btn { min-height: 44px; border-radius: 2px; padding: 10px 16px; font-family: var(--bridge-font); font-size: 14px; font-weight: 400; }
-.slr-cover-overlay .btn-primary { color: #fff4dc; background: #394439; border-color: #394439; }
-.slr-cover-overlay .btn-primary:hover { background: #29352a; }
-.slr-cover-credit { padding: 18px; margin: 0; color: #77705e; font-size: 12px; line-height: 1.8; text-align: center; border-top: 1px solid var(--line); }
+.slr-cover-overlay .btn {
+  min-height: 44px;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  background: rgb(255 255 255 / 5%);
+  border-color: rgb(255 255 255 / 17%);
+  color: var(--ink-80);
+}
+.slr-cover-overlay .btn:hover:not(:disabled) { background: rgb(255 255 255 / 12%); border-color: rgb(255 255 255 / 30%); color: #fff; }
+.slr-cover-overlay .btn-primary { color: #fff; background: rgb(223 244 223 / 17%); border-color: rgb(234 249 232 / 38%); }
+.slr-cover-overlay .btn-primary:hover:not(:disabled) { background: rgb(223 244 223 / 25%); }
+.slr-cover-overlay button:focus-visible,
+.slr-cover-overlay input:focus-visible { outline: 2px solid #e0eee0; outline-offset: 3px; }
+.slr-cover-credit { padding: 18px; margin: 0; color: var(--ink-60); font-size: 12px; line-height: 1.8; text-align: center; border-top: 1px solid var(--line); }
 .slr-cover-overlay .modal-body { padding: 24px 28px; font-size: 16px; line-height: 1.85; }
 .slr-cover-overlay .modal-foot { padding: 16px 28px 24px; border-color: var(--line); }
+.slr-cover-overlay .bgm-block-toggle { width: 44px; height: 44px; flex-shrink: 0; background: rgb(255 255 255 / 6%); color: var(--ink); }
+.slr-cover-overlay .bgm-block-toggle:hover { background: rgb(255 255 255 / 14%); border-color: rgb(255 255 255 / 28%); }
+.slr-cover-overlay .bgm-block-main { border-radius: 10px; }
+.slr-cover-overlay .bgm-drawer { padding: 2px 18px 16px; }
+.slr-cover-overlay .bgm-chip { min-height: 44px; font-weight: 400; border-radius: 10px; }
+.slr-cover-overlay .bgm-chip.is-on { background: rgb(223 244 223 / 17%); border-color: rgb(234 249 232 / 38%); color: #fff; }
+.slr-cover-overlay .bgm-list-kicker,
+.slr-cover-overlay .bgm-track-group { color: var(--ink-60); font-weight: 400; letter-spacing: .06em; }
+.slr-cover-overlay .bgm-track { border-radius: 12px; }
+.slr-cover-overlay .bgm-track.is-on { background: rgb(255 255 255 / 8%); border-color: rgb(255 255 255 / 20%); }
+.slr-cover-overlay .bgm-track.is-off:not(.is-locked) .bgm-track-main { opacity: .85; }
+.slr-cover-overlay .bgm-track-title { font-weight: 400; }
+.slr-cover-overlay .bgm-track-src { font-size: 12px; }
+.slr-cover-overlay .bgm-new-tag { background: rgb(233 211 177 / 18%); color: #f9e7c8; }
+.slr-cover-overlay .bgm-track-check { min-width: 40px; min-height: 44px; }
+.slr-cover-overlay .game-menu-body,
+.slr-cover-overlay .bgm-track-list { scrollbar-width: thin; scrollbar-color: rgb(235 245 233 / 30%) transparent; }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .slr-cover-overlay .modal { background: rgb(31 45 37 / 96%); }
+}
 
 @media (max-width: 767px), (orientation: portrait) and (max-width: 959px) {
   html[data-layout='phone'] .slr-cover { padding: 0; height: 100dvh; overflow: hidden; }
@@ -280,7 +348,7 @@
   html[data-layout='phone'] .slr-cover .cover-menu { top: max(18px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right)); min-height: 44px; padding: 8px 10px; font-size: 16px; gap: 9px; }
   html[data-layout='phone'] .slr-cover .cover-lang { position: absolute; bottom: max(20px, env(safe-area-inset-bottom)); left: max(18px, env(safe-area-inset-left)); min-height: 44px; margin: 0; padding: 8px 10px; font-size: 14px; gap: 12px; }
   html[data-layout='phone'] .slr-cover-overlay { align-items: center; padding: 20px; }
-  html[data-layout='phone'] .slr-cover-overlay .modal { width: 100%; max-width: 500px; max-height: 86dvh; margin: 0; border-radius: 4px; }
+  html[data-layout='phone'] .slr-cover-overlay .modal { width: 100%; max-width: 500px; max-height: 86dvh; margin: 0; border-radius: 22px; }
   .slr-cover-overlay .game-menu-head, .slr-cover-overlay .modal-head { padding: 20px 22px; }
   .slr-cover-overlay .game-menu-langs { gap: 10px; }
   .slr-cover-overlay .bridge-language-options { padding: 22px; }

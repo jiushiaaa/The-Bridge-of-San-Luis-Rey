@@ -69,6 +69,7 @@ export default function GameMenu() {
                   }}
                 >
                   {LOCALE_LABEL[id]}
+                  {showTitle && GAME_ID === 'slr' && id === loc ? <Icon name="check" size={17} /> : null}
                 </button>
               ))}
             </div>
