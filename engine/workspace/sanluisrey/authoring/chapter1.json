@@ -1,0 +1,388 @@
+{
+  "level": 1,
+  "rows": [
+    "家族与婚姻",
+    "母女同屋",
+    "海外的婚事",
+    "纸上的往来",
+    "修院的选择",
+    "宅邸里的日子",
+    "剧院风波",
+    "朝圣的路",
+    "山中的来信",
+    "黎明之前"
+  ],
+  "columns": [
+    "名场面",
+    "玛丽亚",
+    "佩皮塔"
+  ],
+  "cards": [
+    {
+      "id": "c1_01",
+      "row": 0,
+      "col": "名场面",
+      "title": "珠宝的重量",
+      "form": "scene",
+      "answers": [
+        "e_maria",
+        "e_lima"
+      ],
+      "sources": [
+        "EN_D-P0036"
+      ],
+      "cg": "A lonely awkward girl wearing far too many heavy inherited gold jewels, standing stiffly while her merchant mother adjusts the necklaces; a colonial Lima domestic courtyard, the adult's face mostly out of frame, emotional restraint, no glamour.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]的父亲做布匹生意，挣到了钱，也挣来了邻人的憎恶。他们家离大广场很近，可这并没有使女儿更容易走进城里的生活。她说话结巴，相貌不讨人喜欢。母亲一心要把她训练成善于交际的姑娘，越是看不见成效，讥刺的话便越尖。"
+        ],
+        [
+          "N",
+          "出门以前，母亲把{{e_jewels|珠宝}}一件件挂在她身上。金银不曾替她开口，反倒像一副显眼的挽具，使每次畏缩都暴露在人前。她独自生活，也独自想事情。提亲的人陆续来了；他们看见的财富，比她自己更容易说得清楚。"
+        ],
+        [
+          "N",
+          "她坚持不结婚。母女为此争吵，彼此责备，房门一次次摔上。她以为只要守住这件事，至少还有一部分生活可以由自己决定。但这场抵抗一直拖到二十六岁，结局仍是一桩婚姻。新郎是个家道中落、态度傲慢的贵族。"
+        ],
+        [
+          "N",
+          "婚礼上，教堂里满是客人压低声音的讥笑。布商的钱换来了一个称号，称号却没替她挡住那些目光。后来她有了自己的宅邸，有了仆人，人们见面时也须郑重地叫她侯爵夫人。只有那种独自坐着、等别人愿意亲近自己的习惯，没有随着身份改变。"
+        ],
+        [
+          "N",
+          "多年以后，她又给另一个小女孩戴上自己的全部希望。那个孩子叫{{e_clara|克拉拉}}，美得使她几乎不敢相信。她终于有了一个可以毫无保留去爱的人；至于怎样让这个人自由地长大，她还没有学会。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_02",
+      "row": 0,
+      "col": "玛丽亚",
+      "title": "婚礼的杂音",
+      "form": "monologue",
+      "answers": [
+        "e_maria"
+      ],
+      "sources": [
+        "EN_D-P0036",
+        "EN_D-P0043"
+      ],
+      "adaptation": "依据童年、婚姻及自省段落重构内心独白；不是原文引语。",
+      "cg": "A young adult colonial Peruvian noblewoman alone in a side aisle after her wedding, the wedding guests blurred beyond stone columns, her ringed hands held tightly together, ceremonial gold weighing against muted brown fabric.",
+      "text": [
+        [
+          "M",
+          "我听得见。{{e_lima|利马}}的教堂那么大，低声说话的人又那么多，每一句都像离我很远，又像紧贴着耳朵。只要不抬头，就不用弄明白是哪一张脸在笑。我已经穿好了他们要我穿的衣服，嫁给了他们愿意接纳的人，为什么还没有做对？"
+        ],
+        [
+          "M",
+          "母亲嫌我不会说话。急的时候，一个字要在嘴里撞好几次才肯出来；别人已经开始替我着急，或者替我难堪。我独处时却有那么多话。没有人打断，我能把一件事从头想到底，甚至想出一句足以让人笑的话。可等到坐在人前，那句话就不见了。"
+        ],
+        [
+          "M",
+          "我曾想一辈子不嫁。门关起来的时候，好像还可以这样想；门重新打开，账目、亲戚、提亲的人仍在外面等着。我不知道他们究竟等的是谁。"
+        ],
+        [
+          "M",
+          "这副{{e_jewels|珠宝}}还在。它比我的话更容易获得注视。我多么想有一天，谁走到我身边，只是因为愿意和我坐一会儿。到那时候，我一定不会让那个人再觉得孤单。他们称我夫人，我仍不知道怎样抬头。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_03",
+      "row": 1,
+      "col": "名场面",
+      "title": "八岁的纠正",
+      "form": "scene",
+      "answers": [
+        "e_maria",
+        "e_clara",
+        "e_palace"
+      ],
+      "sources": [
+        "EN_D-P0036",
+        "EN_D-P0038"
+      ],
+      "cg": "An intelligent eight-year-old girl in a pale colonial dress corrects her anxious mother's speech across a sitting room table; the mother's affectionate hands hesitate in midair; high windows, early morning, intimate distance.",
+      "text": [
+        [
+          "N",
+          "[[NPC2]]八岁的时候，已经会平静地纠正母亲说错的词。她像父亲，聪明，冷静，看着别人的激动，也能把自己留在那激动之外。[[NPC1]]则越来越害怕女儿脸上的惊讶。她努力温顺，努力讨好，时时留意孩子需要什么，却总在孩子尚未需要的时候就抢着递到面前。"
+        ],
+        [
+          "N",
+          "这样的照顾很难推开。拒绝一件小事，仿佛就否认了全部的爱；勉强接受，下一次问候又跟着来了。女儿疲惫，母亲惊惶。争执之后，两扇门分别关上，同一所房子忽然变得很大。母亲独坐时，把刚才的对话在心里重新说了一遍又一遍，每回都想找出一句可以把女儿叫回来的话。"
+        ],
+        [
+          "N",
+          "别人以后常说，这个女儿没有心肠。可是她成年后会慷慨地帮助朋友、仆人和有才华的陌生人，照顾他们，像照顾自己的孩子。她的冷淡并不平均分给所有的人。偏偏面对那个最希望得到她柔情的人，她总觉得必须先守住一点距离。"
+        ],
+        [
+          "N",
+          "提亲的机会多了起来。母亲想象的是有人加入她们的生活；女儿考虑的，却是怎样离开。她最终选择的婚事，要求她去{{e_spain|西班牙}}定居。那并非邻近的一条街，而是一封信送出去之后，要等上半年才可能得到答复的地方。"
+        ],
+        [
+          "N",
+          "行李逐渐装好。那些曾经因争吵而关闭的房门，这回会在女儿走后一直敞着。母亲能替她添一件东西，能再问一句旅途中要不要用，却不能靠这些细小的忙碌，取消那片已经挡在她们之间的海。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_04",
+      "row": 1,
+      "col": "玛丽亚",
+      "title": "门后没有回答",
+      "form": "monologue",
+      "answers": [
+        "e_maria"
+      ],
+      "sources": [
+        "EN_D-P0036",
+        "EN_D-P0043"
+      ],
+      "adaptation": "重构母亲面对女儿疏离的独白。",
+      "cg": "A worried middle-aged mother seated outside her daughter's closed carved wooden door in a colonial mansion, an unused cup on a small tray, warm light stopping at the threshold, no child visible.",
+      "text": [
+        [
+          "M",
+          "{{e_clara|克拉拉}}又把门关上了。我知道不该马上过去。隔着门问她是不是生气，会使她更生气；如果一直不问，她又怎么知道我在等呢？"
+        ],
+        [
+          "M",
+          "她纠正我的时候，我并不恼她。她那么聪明，我本该高兴。我只是有一点怕：一句话说错以后，接下来无论说什么，好像都得先经过她的允许。于是我说得更多，把一件小事解释得很长，直到她露出我最不愿看见的疲倦。"
+        ],
+        [
+          "M",
+          "我小时候也怕一扇突然打开的门，怕母亲进来问我为什么又这样站着、为什么不能像别人家的姑娘。我怎么会让自己的孩子，也想从房间里逃出去？我给她的和我曾经得到的，明明应当不一样。"
+        ],
+        [
+          "M",
+          "只要她出来，说一句没有怪我，我就可以安静下来。或者不用说，坐到我旁边也好。{{e_loneliness|孤独}}本来是我一个人的事，可我总要她给一个答复，才肯相信今天可以过去。我听着门里的声音，连自己也觉得，这样等下去会使她难受。屋里安静下来，我反倒更怕那一刻。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_05",
+      "row": 2,
+      "col": "名场面",
+      "title": "海上的赞歌",
+      "form": "scene",
+      "answers": [
+        "e_clara",
+        "e_maria",
+        "e_harbor"
+      ],
+      "sources": [
+        "EN_D-P0036"
+      ],
+      "cg": "A colonial sailing ship just leaving the Peruvian Pacific shore, mother on the quay pressing one hand to her mouth, daughter composed on deck, kneeling figures singing, vast pearly clouds dwarfing both groups.",
+      "text": [
+        [
+          "N",
+          "船启程前，人们举行了祝福的仪式。去那么遥远的地方，告别不能只是拥抱和挥手：岸上和船上的两群人一起跪下，唱起赞歌。宽阔的海面接住了声音，却没有把声音送得更有力量。歌声显得薄，显得迟疑，船身和岸之间的水已经开始加宽。"
+        ],
+        [
+          "N",
+          "[[NPC1]]十分镇静。她选择了必须前往{{e_spain|西班牙}}的婚事，现在正走向自己选中的生活。身后的母亲站在岸边，手一会儿按住心口，一会儿捂住嘴，仿佛只要不让什么东西从胸中冲出来，这场告别还能保持它应有的体面。"
+        ],
+        [
+          "N",
+          "[[NPC2]]眼前的帆船越来越亮，轮廓却越来越模糊。泪水把宁静的太平洋划成一道道水痕。海上那些巨大的珍珠色云朵似乎永远停在那里；人却会沿着它们下面的一条航线离开，去到不能随时敲门、也不能立刻听见回话的地方。"
+        ],
+        [
+          "N",
+          "船上的女儿没有显出母亲所盼望的慌乱。镇静可以是远行的勇气，也可以是终于得到距离的轻松；岸上的人无法凭一个遥远的身影判断。母亲只是看着，直到那只船再也不能替她区分出甲板上的人。"
+        ],
+        [
+          "N",
+          "以后，{{e_letters|书信}}会往返于两片大陆。装船的日期将成为她生活的刻度，女儿愿意写下的几句话会被反复展开。眼前这片水，终究不会因为她一次又一次读信，就缩短一点。船身也受过祝福，却没有人替岸上的母亲解释，怎样让这场告别结束。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_06",
+      "row": 2,
+      "col": "玛丽亚",
+      "title": "吻过的门",
+      "form": "monologue",
+      "answers": [
+        "e_maria"
+      ],
+      "sources": [
+        "EN_D-P0039"
+      ],
+      "adaptation": "据欧洲探亲失败及临行吻门的事实重构独白。",
+      "cg": "Before dawn in a Spanish house, a visiting older Peruvian mother lightly kisses the closed door behind which her adult daughter sleeps, a small travel bag at her feet, blue window light and a dying candle.",
+      "text": [
+        [
+          "M",
+          "离上一次分别，已经四年了。来的时候，我在船上对自己说，不要扑过去，不要流泪，不要把这些年的话一下子全压到{{e_clara|克拉拉}}身上。能和她住在同一座房子里，已经够好了。"
+        ],
+        [
+          "M",
+          "她也曾努力。我们都明白，先前有些话不应该说。这一回，我只要不问得太多，她只要再耐心一点，我们大概就能坐下来，好好吃一顿饭。可饭还没有吃完，我已经听见自己的声音变了；她放下手里的东西，我们又回到了最熟悉的那一刻。"
+        ],
+        [
+          "M",
+          "{{e_spain|西班牙}}的天还没有亮。她睡在门里，我站在门外。叫醒她，必定又要告别，又要解释，又要为本来想说得很轻的话哭起来。还是让她睡吧。我把嘴唇贴了一下门板，只一下。门没有开，这次我也不敲。"
+        ],
+        [
+          "M",
+          "回去以后，纸会比我安静。写错的句子可以删掉，急切的话可以重新写。她不必看着我费力地说，我也不必立刻看见，她读到哪里已经疲倦。明天仍要过，船也不会等到我终于学会告别。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_07",
+      "row": 3,
+      "col": "名场面",
+      "title": "装船以前",
+      "form": "scene",
+      "answers": [
+        "e_maria",
+        "e_palace"
+      ],
+      "sources": [
+        "EN_D-P0040",
+        "EN_D-P0041",
+        "EN_D-P0045",
+        "EN_D-P0046",
+        "EN_D-P0053",
+        "EN_D-P0049–P0050"
+      ],
+      "cg": "A red-wigged aging noblewoman rewrites a letter late at night at a carved wooden desk, discarded drafts, a small gold chain and wax sealing tools, first light entering a green balcony, no legible writing.",
+      "text": [
+        [
+          "N",
+          "临近寄信的日子，[[NPC1]]又出门了。她忍受宴席和街上的目光，听别人谈{{e_court|总督府}}里的怪事，读{{e_scripts|西班牙戏剧}}，找出一两件足以写进{{e_letters|书信}}的见闻。她并不缺钱，也不指望这些文章给自己挣来名声。她想要的是女儿读着读着，忽然笑一下。她也留意{{e_camila|卡米拉}}这样的名人，记住她在{{e_theatre|剧院}}里的声名。"
+        ],
+        [
+          "N",
+          "{{e_clara|克拉拉}}曾说，国王赞赏过她戴的{{e_goldchain|金链}}，要母亲尽快再找一条相仿的送去。母亲于是把采买写成一场奇遇：自己半夜钻进一幅画，画家伸手拉她越过颜料，她向画中人说明，是世上最美的姑娘想送礼给世上最有礼貌的国王。那是信里的玩笑；她真能跨越的，仍然只有一张纸。"
+        ],
+        [
+          "N",
+          "她写女儿的伤风，写修女推销的树胶，郑重劝告之后，又忍不住添一句尖俏的观察。忧虑和机智挨在一起，像她想说的两种话：好好照顾自己；也请多看母亲一眼。夜越来越深，她把已经写好的句子重新排列，直到那份沉重的愿望终于显得轻巧。"
+        ],
+        [
+          "N",
+          "天亮以前，信封和礼物装成一包，等着送给经手海运的人。这封信离手后，她往往又退回酒与昏睡里，直至下一次邮期临近。后来保存这些信的，主要是欣赏文笔的女婿。女儿大多只匆匆看过。"
+        ],
+        [
+          "N",
+          "许多年以后，学生会学习这些句子，学者会争论她怎样经营风格。此刻桌边的女人却没有看那么远。她只是把纸折好，希望这一次，海的另一头能有一点回音。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_08",
+      "row": 3,
+      "col": "玛丽亚",
+      "title": "绿色阳台",
+      "form": "monologue",
+      "answers": [
+        "e_maria"
+      ],
+      "sources": [
+        "EN_D-P0042",
+        "EN_D-P0043"
+      ],
+      "adaptation": "据阳台自省段落重构；保留母亲认识到自己控制欲的矛盾。",
+      "cg": "An aging red-wigged woman alone on a green wooden colonial balcony, straw hat casting a purple shadow, ringed fingers against her chest and an open letter in her lap, city noise distant below.",
+      "text": [
+        [
+          "M",
+          "我想，胸口这地方是不是真的坏了。如果一个医生把它剖开，能不能看见这些年的痕迹？我把这个念头写给{{e_clara|克拉拉}}，她却责备我，说我只顾着研究自己，把悲伤奉为神明。"
+        ],
+        [
+          "M",
+          "坐在{{e_palace|侯爵府}}的阳台上，看别人亲吻、问候，很容易怀疑他们都是做给旁人看的。我知道这种念头刻薄，却仍想：如果他们没有像我这样受苦，他们的爱凭什么是真的？"
+        ],
+        [
+          "M",
+          "再想下去，我便不敢抬头了。我要她爱我，也要她承认我比别的母亲都好。我盼着她说一句原谅我，仿佛所有过错都在她那边。连我所想象的和好，最后也总要由她低头。"
+        ],
+        [
+          "M",
+          "她已经把几千英里的距离放在我们中间。我甚至没有机会再支配她，心里却还在和这种欲望角力。写下一页温柔的话，不等于真的能放开手；可除了再写一页，我还会做什么？"
+        ]
+      ]
+    },
+    {
+      "id": "c1_09",
+      "row": 4,
+      "col": "名场面",
+      "title": "洗衣池边",
+      "form": "scene",
+      "answers": [
+        "e_abbess",
+        "e_pepita",
+        "e_convent"
+      ],
+      "sources": [
+        "EN_D-P0074",
+        "EN_D-P0075",
+        "EN_D-P0076",
+        "EN_D-P0077"
+      ],
+      "cg": "A sturdy elderly abbess in a black veil observes a twelve-year-old orphan girl directing other girls at a stone laundry trough, white linen, sunlight in an austere convent courtyard, the child's animated hand telling a story.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]担心的不是自己会死，而是自己死后，那些病床、孤儿和无处可去的女人会怎样。她半夜算完账，常想象女人有一天能组织起来，保护远行的女人、做仆人的女人、矿井里和工场里的女人。清晨，她仍得为这一个月的费用四处奔走。"
+        ],
+        [
+          "N",
+          "她开始寻找一个接班的人。病房、院子、长廊，她走得很快，看过一张张脸，又因自己太急而失望。最后她在洗衣池边停下来：一个十二岁的女孩正指挥同伴干活，同时兴致勃勃地讲利马圣女罗莎的奇迹，把那故事讲得十分有声有色。那个女孩就是[[NPC2]]。"
+        ],
+        [
+          "N",
+          "此后最不讨喜欢的差事，常常分到女孩手里。跟着外出时，她抱着鸡蛋和蔬菜；留下来时，她学会院子里各项事务怎样运转。有时工作正做到一半，黑衣的长者突然叫住她，谈怎样安排传染病房，怎样管理众人，怎样向有钱人开口。那些话不只是命令，竟像在向一个同事交代。"
+        ],
+        [
+          "N",
+          "{{e_maria|玛丽亚}}来借一名孤女作伴时，院长看见了机会：女孩能接触外面的世界，富有的老妇人也许能被引向有用的事业。她衡量着这件安排给女孩的压力，觉得自己知道何时应当收手。"
+        ],
+        [
+          "N",
+          "女孩先是偶尔过去几个下午，后来终于搬去长住。两年的训练，使她学会了许多责任；至于怎样承认自己承担不了，她并没有受到同样仔细的教导。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_10",
+      "row": 4,
+      "col": "佩皮塔",
+      "title": "被当作大人",
+      "form": "monologue",
+      "answers": [
+        "e_pepita"
+      ],
+      "sources": [
+        "EN_D-P0077",
+        "EN_D-P0086"
+      ],
+      "adaptation": "据佩皮塔对院长教育的回忆重构独白。",
+      "cg": "A young orphan girl holding a basket of eggs and vegetables while an elderly abbess discusses hospital arrangements beside a convent corridor, the girl's attentive face carrying pride and apprehension, afternoon light.",
+      "text": [
+        [
+          "M",
+          "{{e_abbess|院长}}有时会突然来找我。明明我手里还抱着鸡蛋，她已经开始说病房的事，说把哪两个人放在一起会吵架，向什么人求助才不至于白跑一趟。我以为这些话应该对别的大人说，可她一直看着我，像我也能够懂。"
+        ],
+        [
+          "M",
+          "我愿意记住。她交代的每件事都有人在等，病人不能因为我害怕就少吃一顿饭，屋顶也不能因为钱难借就一直漏下去。听她说话时，我觉得自己离那些事很近，好像只要再努力一点，就能成为她需要的人。"
+        ],
+        [
+          "M",
+          "可回到床上，我就觉得自己仍然太小。她问我能不能做好，我当然说能；她若知道我有时悄悄哭，会不会觉得自己看错了？在{{e_convent|圣罗莎修院}}，不明白的事还可以等她走近。到那位夫人家里以后，要等多久呢？"
+        ],
+        [
+          "M",
+          "大家说，我该高兴，这是一种信任。我也高兴。只是我还不知道，信任这么重，原来不能像篮子那样，走累了就暂时放在地上。原来她要我记住的，不只是今天的差事。"
+        ]
+      ]
+    }
+  ]
+}

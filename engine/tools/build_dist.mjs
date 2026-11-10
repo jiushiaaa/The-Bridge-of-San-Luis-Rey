@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const GAMES = {
+  slr: { dir: 'sanluisrey', assets: 'slr-assets' },
   xdd: { dir: 'xidaduo', assets: 'xdd-assets' },
   bad: { dir: 'badblood', assets: 'bad-assets' },
   murder: { dir: 'murder', assets: 'murder-assets' },

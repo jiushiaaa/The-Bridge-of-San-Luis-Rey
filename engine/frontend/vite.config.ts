@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 // 美术资源目录：开发时通过中间件把 /{前缀}-assets/* 映射到各作品目录
 const ASSETS_MAP: Record<string, string> = {
+  '/slr-assets/': path.resolve(HERE, '../workspace/sanluisrey/slr-assets'),
   '/xdd-assets/': path.resolve(HERE, '../workspace/xidaduo/xdd-assets'),
   '/bad-assets/': path.resolve(HERE, '../workspace/badblood/bad-assets'),
   '/murder-assets/': path.resolve(HERE, '../workspace/murder/murder-assets'),

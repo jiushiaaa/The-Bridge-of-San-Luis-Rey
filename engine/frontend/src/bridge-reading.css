@@ -1,0 +1,8 @@
+/* Keep every subject in the wide illustration during the phone CG reveal.
+   The inherited unlock timing, replay control and text transition are retained. */
+html[data-layout='phone'] .slr-card .cg-cover {
+  background-color: #252a25;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

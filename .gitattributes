@@ -1,0 +1,2 @@
+# Preserve the downloaded engine's line endings; CRLF is not trailing whitespace.
+engine/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

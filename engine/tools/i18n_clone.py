@@ -4,14 +4,15 @@ import json
 import shutil
 import sys
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "workspace" / "xidaduo" / "final_game.json"
+SRC = BOOK / "final_game.json"
 LOCALES = ("de", "en", "es", "fr", "ja", "ko", "hi", "zh-TW")
 
 
 def clone(loc: str) -> None:
-    dest = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "final_game.json"
+    dest = BOOK / "i18n" / loc / "final_game.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(SRC, dest)
     print(f"cloned -> {dest}")

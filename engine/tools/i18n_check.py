@@ -3,13 +3,17 @@
 from __future__ import annotations
 
 import json
+import copy
 import re
 import sys
+from collections import Counter
 from pathlib import Path
+from i18n_project import BOOK, GAME_ID
+from i18n_strings import walk, get_at, set_at
 
 ROOT = Path(__file__).resolve().parents[1]
-ZH = ROOT / "workspace" / "xidaduo" / "final_game.json"
-GLOSS = ROOT / "workspace" / "xidaduo" / "i18n" / "glossary.json"
+ZH = BOOK / "final_game.json"
+GLOSS = BOOK / "i18n" / "glossary.json"
 LOCALES = ("de", "en", "es", "fr", "ja", "ko", "hi", "zh-TW")
 MARK_RE = re.compile(r"\{\{(e_[a-z0-9_]+)\|([^}]*)\}\}")
 NPC_RE = re.compile(r"\[\[NPC\d\]\]")
@@ -59,10 +63,11 @@ def blank_keys(obj):
     return obj
 
 
-def check(loc: str) -> list[str]:
+def check(loc: str, pack=None) -> list[str]:
     errs: list[str] = []
     zh = load(ZH)
-    pack = load(ROOT / "workspace" / "xidaduo" / "i18n" / loc / "final_game.json")
+    if pack is None:
+        pack = load(BOOK / "i18n" / loc / "final_game.json")
     gloss = load(GLOSS)
     names = {eid: row[loc] for eid, row in gloss["entries"].items()}
 
@@ -139,6 +144,34 @@ def check(loc: str) -> list[str]:
             # 列名必须是某人物译名
             if col not in names.values():
                 errs.append(f"{loc} timeline {lv} col {col!r} not in glossary")
+
+    # Full structural parity, including segment counts, archive answers, recap
+    # rows, source assets, music unlocks and gain. A short zip must not hide loss.
+    rows = []
+    walk(zh, [], rows)
+    masked_source, masked_pack = copy.deepcopy(zh), copy.deepcopy(pack)
+    for row in rows:
+        pointer = row['path']
+        try:
+            translated = get_at(pack, pointer)
+            if not isinstance(translated, str) or not translated.strip():
+                errs.append(f'{loc} empty/non-text player string: {pointer}')
+                continue
+            zm, zn = marks(row['zh'])
+            pm, pn = marks(translated)
+            if Counter(eid for eid, _ in zm) != Counter(eid for eid, _ in pm) or Counter(zn) != Counter(pn):
+                errs.append(f'{loc} inline reference loss: {pointer}')
+            if GAME_ID == 'slr':
+                if loc not in ('ja', 'zh-TW') and re.search(r'[\u4e00-\u9fff]', translated):
+                    errs.append(f'{loc} untranslated Chinese: {pointer}')
+                if loc != 'zh-TW' and len(row['zh']) > 25 and re.search(r'[\u4e00-\u9fff]', row['zh']) and translated == row['zh']:
+                    errs.append(f'{loc} untranslated paragraph: {pointer}')
+            set_at(masked_source, pointer, '<localized>')
+            set_at(masked_pack, pointer, '<localized>')
+        except (KeyError, IndexError, TypeError):
+            errs.append(f'{loc} missing player field: {pointer}')
+    if masked_source != masked_pack:
+        errs.append(f'{loc} non-text structure differs (logic, arrays, assets, or metadata)')
 
     return errs
 

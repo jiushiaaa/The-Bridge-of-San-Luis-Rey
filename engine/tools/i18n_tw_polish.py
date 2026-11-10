@@ -4,9 +4,10 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
-PATH = ROOT / "workspace" / "xidaduo" / "i18n" / "zh-TW" / "final_game.json"
+PATH = BOOK / "i18n" / "zh-TW" / "final_game.json"
 SKIP = {
     "id",
     "file",

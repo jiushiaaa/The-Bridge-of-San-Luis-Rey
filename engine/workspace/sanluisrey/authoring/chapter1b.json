@@ -1,0 +1,429 @@
+{
+  "level": 1,
+  "cards": [
+    {
+      "id": "c1_11",
+      "row": 5,
+      "col": "名场面",
+      "title": "借住的人",
+      "form": "scene",
+      "answers": [
+        "e_pepita",
+        "e_palace"
+      ],
+      "sources": [
+        "EN_D-P0078",
+        "EN_D-P0053"
+      ],
+      "cg": "A fourteen-year-old orphan companion stands alone in a grand colonial mansion hallway while servants secretly carry household goods past a half-open bedroom, her faded uniform contrasting with expensive carved furniture, restrained domestic tension.",
+      "text": [
+        [
+          "N",
+          "主人卧床的日子一长，仆人便把房间借给自己的亲戚住，随手拿走宅子里的东西。这件事有时连掩饰也不需要：家里真正看得见他们在做什么的，只剩下一个穿着孤儿院制服的女孩。"
+        ],
+        [
+          "N",
+          "[[NPC1]]不肯跟着装作看不见。于是她遇上了许多说不清算不算大事的折磨，房门会把她关在里面，差事会被人故意弄得更麻烦。她既要防着东西不见，又担心主人把丢失的东西算在自己头上。那些人比她熟悉这栋宅子，也比她知道，一个没有家人撑腰的孩子能被欺负到什么地步。"
+        ],
+        [
+          "N",
+          "{{e_maria|玛丽亚}}偶尔会从心事里回过神来，和她谈天，露出诙谐、敏锐而亲切的一面。女孩刚刚生出一点依恋，第二天那目光又越过她，像越过房间里一件用惯了的家具。夫人未必发脾气，却可以整天没有真正看见她。"
+        ],
+        [
+          "N",
+          "她记得{{e_abbess|院长}}交代过的责任。她是被送来作伴的，并没有被许诺在这里一定会快乐；因而遇见不快时，她先怀疑自己有没有尽好本分。脚步放轻，门关轻，听见召唤立刻过去，这些都比解释自己为什么难受容易。"
+        ],
+        [
+          "N",
+          "宅邸很宽敞，容得下仆人的亲戚、成箱的礼物、远方女儿的画像。女孩住进来以后，仍找不到一个可以放心说话的人。她把事情做完，等待主人偶尔又肯和她谈天的那一天。她连衣服都仍穿着修院的制服，主人没有想到替她换一身。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_12",
+      "row": 5,
+      "col": "佩皮塔",
+      "title": "留在阳光里",
+      "form": "monologue",
+      "answers": [
+        "e_pepita"
+      ],
+      "sources": [
+        "EN_D-P0078"
+      ],
+      "adaptation": "根据被留在教堂门外的事件重构独白；并非原文逐句译文。",
+      "cg": "An adolescent girl in a faded orphanage uniform waiting at the edge of a Lima church square, long afternoon shadows stretching toward her, the side church door in the distance empty, passersby blurred without threatening caricature.",
+      "text": [
+        [
+          "M",
+          "{{e_maria|夫人}}说，留在阳光里，她不会去很久。这块石头还是热的，现在影子已经走到鞋边。我想过进教堂找她，可我若走开，她出来时看不见我怎么办？"
+        ],
+        [
+          "M",
+          "后来我还是进去了。里面没有她。我沿着座位看，走到另一扇门边，终于明白她大概从那里离开了。现在我可以回家吗？还是应该回到她让我等的地方？她交代的事明明很简单，是我把它弄得越来越难了。"
+        ],
+        [
+          "M",
+          "{{e_lima|利马}}的广场上总有人经过。我听见有人低声说话，便以为他们在说我的衣服。也许有些人根本没有看我，可我仍想把裙角藏起来。这身制服谁都认识，谁都知道我是从哪儿来的。"
+        ],
+        [
+          "M",
+          "{{e_obedience|服从}}应当使事情变得清楚才对。照着吩咐去做，就不会让人失望。我回到原来的街角，站在越来越长的阴影里。只要她再经过一次，就会知道我没有乱走。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_13",
+      "row": 6,
+      "col": "名场面",
+      "title": "包厢里的笑声",
+      "form": "scene",
+      "answers": [
+        "e_maria",
+        "e_camila",
+        "e_pepita",
+        "e_theatre"
+      ],
+      "sources": [
+        "EN_D-P0049",
+        "EN_D-P0050",
+        "EN_D-P0269"
+      ],
+      "cg": "Colonial Lima theatre during an interval song: celebrated actress on a candlelit stage, audience turning toward an upper box where a distracted older noblewoman sits and a young companion quietly tugs her sleeve, cinematic three-plane composition.",
+      "text": [
+        [
+          "N",
+          "正剧演到中场，[[NPC2]]暂时放下端庄的角色，走到幕前唱城里流行的时事小曲。她已经看见了包厢里的老夫人，便临时编出几句，把她的相貌、酒醉、吝啬，连同女儿远走海外的事，都编进歌里。{{e_pio|皮奥}}平日帮她记台词，教她斟酌分寸；这些临时编出的歌，却由她自己把握。"
+        ],
+        [
+          "N",
+          "观众很快听懂了。视线从舞台转向包厢，笑声层层接上来。[[NPC1]]却仍想着刚才两幕戏，又想着{{e_spain|西班牙}}。她的注意力飘得很远，几句正在成形的漂亮话占住了心思：写给女儿，她也许会喜欢。"
+        ],
+        [
+          "N",
+          "台上的人越唱越大胆。坐在夫人旁边的[[NPC3]]听得清清楚楚，伸手扯了扯她的衣袖，低声劝她离开。她没有站起来和满场的人争辩，只想把夫人从那些目光中带出去。两人一离开包厢，观众便起身欢呼，仿佛终于赢了一场仗。"
+        ],
+        [
+          "N",
+          "演员跳起热烈的舞，看见剧院经理站在后面，知道这场胜利会使自己的酬金增加。她凭借观众的{{e_applause|掌声}}确信，今天的锋利十分成功。"
+        ],
+        [
+          "N",
+          "被带出门的老夫人甚至有些高兴。她在这次演出里收获了足以逗女儿一笑的句子，却不知道自己也已经成了别人取笑的材料。同一阵喧闹，台上的人听见赞许，女孩听见羞辱，夫人几乎没有听见。满场的人都看向包厢，却没有谁等那位老夫人给出回答。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_14",
+      "row": 6,
+      "col": "玛丽亚",
+      "title": "并未听见的侮辱",
+      "form": "dialogue",
+      "answers": [
+        "e_maria",
+        "e_camila",
+        "e_palace"
+      ],
+      "sources": [
+        "EN_D-P0051",
+        "EN_D-P0054",
+        "EN_D-P0055",
+        "EN_D-P0056–P0073"
+      ],
+      "adaptation": "根据来访对话节译并连接；梦境由旁白明确限定。",
+      "cg": "A famous actress in a plain black dress kneels in confusion beside an aging noblewoman wearing a fur-trimmed cloak indoors, the older woman's hands demonstrating a dreamed embrace, a young orphan at the doorway, quiet late afternoon.",
+      "text": [
+        [
+          "N",
+          "演员穿着黑衣来了，带着{{e_viceroy|总督}}的介绍信。[[NPC1]]用雪擦过额头，披上斗篷，费力来到客厅。[[NPC2]]原先预备敷衍几句，这时却被老夫人的神气镇住了。"
+        ],
+        [
+          "D1",
+          "您来，是有什么事？"
+        ],
+        [
+          "D2",
+          "我想确定，夫人没有误会那晚在剧院听到的话。我这样一个演员，有时候会说得超出自己的本意。"
+        ],
+        [
+          "D1",
+          "误会？我记得的只是您演得很美。您是一个大艺术家，您应该快活才对。"
+        ],
+        [
+          "D2",
+          "我说的是两幕之间唱的歌。我怕您以为，我有意对您不敬。"
+        ],
+        [
+          "D1",
+          "啊，我们提早走了。请原谅，偏偏是在您那么好的演出中间。我忘了为什么，大概是谁不舒服。"
+        ],
+        [
+          "N",
+          "演员红了脸。她不相信有人会没听懂那些歌，只能把这番话理解成宽恕。"
+        ],
+        [
+          "D2",
+          "您这样好，肯原谅我的孩子气。我此前不知道。请让我吻您的手。"
+        ],
+        [
+          "D1",
+          "我怎么会生您的气，我美丽的孩子？您的一个手势，让我想起{{e_clara|克拉拉}}。我们曾争过几句，后来同时回去求原谅，只隔着一扇门。她用两只手捧着我的脸，像这样。"
+        ],
+        [
+          "N",
+          "夫人流着泪往前倾，示范那个她反复梦见的动作。那次和解没有在醒着的生活里发生过。"
+        ],
+        [
+          "D1",
+          "城里有人说她待我不好，那不是真的。她聪明，有风度，是我太难相处。我说话使人厌烦，偏偏成了那么美的姑娘的母亲。"
+        ],
+        [
+          "N",
+          "她几乎从椅子上跌下来。{{e_pepita|佩皮塔}}扶住她，送她回房。演员回家后，长久地对着镜子，双手贴住自己的脸；她没有从这次道歉里带走原先预备好的轻松。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_15",
+      "row": 7,
+      "col": "名场面",
+      "title": "红粉笔的台阶",
+      "form": "scene",
+      "answers": [
+        "e_maria",
+        "e_palace"
+      ],
+      "sources": [
+        "EN_D-P0079–P0083"
+      ],
+      "cg": "An anxious older noblewoman marks alternating stair steps with red chalk in her colonial house; a maid stands with loosened hair, candles before a distant portrait, superstitious domestic arrangements, no supernatural effects.",
+      "text": [
+        [
+          "N",
+          "消息几乎藏在信尾：{{e_clara|克拉拉}}说，秋天不能按计划出游了，因为孩子将在十月初出生。她把这件事写得轻描淡写，希望少引出一点母亲的焦虑。[[NPC1]]却扶住了墙。什么孩子？女儿要做母亲了？"
+        ],
+        [
+          "N",
+          "她立刻开始打听。城里上了年纪的女人有什么经验，哪一种偏方据说有效，她都要问，再写进信里。对面那个人觉得乏味的细节，成了她一整天最迫切的工作。距离越远，能做的越少，她便越想把每一种可能都试遍。"
+        ],
+        [
+          "N",
+          "家里不许有结，女仆连头发也不能束紧；楼梯的偶数级被红粉笔做了记号，有人踏错，她就又哭又叫，赶人出去。她在身上藏着求平安的小物件，仿佛一处疏忽，便会在海的另一边伤害那个即将出生的生命。"
+        ],
+        [
+          "N",
+          "天还黑着，她就去赶最早的弥撒。她抱住祭坛栏杆，望着圣像，求一个几乎看不出来的点头。可有时奔走了一天，她又觉得自然是聋的，神也无动于衷；她所做的一切，根本没有碰到事情的进程。"
+        ],
+        [
+          "N",
+          "这种绝望不会长久。只要心底又冒出一个‘也许’，她就赶回家补上蜡烛。最终，她决定去山里的{{e_shrine|克卢克桑布夸圣所}}朝圣。轿子将越过{{e_bridge|圣路易斯雷大桥}}，向安第斯山中升去；她希望在那座古老圣所里，找到比家中这些记号更可靠的保证。她把这些事做得十分认真，对自己是否还有能力保护女儿，却越来越没有把握。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_16",
+      "row": 7,
+      "col": "佩皮塔",
+      "title": "先安顿下来",
+      "form": "monologue",
+      "answers": [
+        "e_pepita"
+      ],
+      "sources": [
+        "EN_D-P0083",
+        "EN_D-P0084",
+        "EN_D-P0086"
+      ],
+      "adaptation": "据客栈布置与做饭事务重构独白。",
+      "cg": "A young companion unpacks wicker hampers in a modest Andean inn, arranging a small household altar and a framed portrait while a brazier waits on the stone floor; cold mountain sunlight, sleeves rolled with practical care.",
+      "text": [
+        [
+          "M",
+          "{{e_maria|夫人}}没有下轿进门，就先去了圣所。她把这里交给我，回来时，至少要像一间可以住的屋子。搬东西的人还在等，我指给他们看，哪只篮子靠墙，哪一只先打开。"
+        ],
+        [
+          "M",
+          "祭坛，挂毯，女儿的画像，都要取出来。{{e_inn|山中客栈}}的屋子不是家里那间，若摆得不习惯，她也许又坐不安稳。这里很冷，火盆得准备好，还得下楼去和厨子说，{{e_porridge|粥}}该怎么煮。那几句话不能说得含糊，夫人平常就靠它吃下些东西。"
+        ],
+        [
+          "M",
+          "山上的空气使人头晕。我把手按在桌边，等这一阵过去，想着还有哪件事没有办完。只要一件接着一件做，就暂时没有空想，我已经离{{e_convent|修院}}这么远了。"
+        ],
+        [
+          "M",
+          "屋子终于收拾好，门外却仍没有脚步声。空下来以后，熟悉的声音反倒都来了：吃晚饭时的劝诫，病床边的祈祷，院长叫我留下来说话。我把纸拿出来，又把羽毛笔放下。写一封信，应当不会耽误太多事。她回来时，至少先有一口合意的热粥。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_17",
+      "row": 8,
+      "col": "名场面",
+      "title": "喷泉旁的来信",
+      "form": "scene",
+      "answers": [
+        "e_maria",
+        "e_shrine"
+      ],
+      "sources": [
+        "EN_D-P0083–P0085"
+      ],
+      "cg": "An aging noblewoman on the steps of a mountain town fountain quietly reading a delivered letter, curious llamas close beside her, whitewashed sanctuary and distant Andes, crystalline afternoon air, tenderness without sentimentality.",
+      "text": [
+        [
+          "N",
+          "远远看见白墙的山城，[[NPC1]]的手就停止拨念珠了。安第斯山那么高，城镇像歇在山的膝头。钟声彼此应答，空气冷而清澈，她那些急促的祈祷，忽然不再一句接一句地往外涌。"
+        ],
+        [
+          "N",
+          "在圣所里，有个管事要收一笔说不清的费用，又借口修地砖让她换地方。若在别处，这也许会使她不安；今天她挪了位置，继续坐着。四周卖蜡烛的老妇人终日谈钱，她也没有被打断。她隐约觉得，也许女儿的生活和神明的事务，都不必时时由自己催促。"
+        ],
+        [
+          "N",
+          "后来她坐到喷泉旁，看病人慢慢绕过花园，看三只鹰在天上盘旋。一只披着厚毛的羊驼走近，把柔软的鼻子凑过来，仿佛也想加入谈话。其他几只又跟了过来，围住这个不再急着赶路的女人。"
+        ],
+        [
+          "N",
+          "报信的男孩找到了她。她早已吩咐，任何从{{e_spain|西班牙}}寄来的消息都须立即送到。她拆开包裹，先读女婿诙谐亲切的便条，再读{{e_clara|克拉拉}}的信。女儿的句子聪明得锋利，一句句刺进来，她便一句句用理解和宽恕包好，放进心里。"
+        ],
+        [
+          "N",
+          "这回她没有立刻奔走，也没有吩咐别人去办什么。她收起{{e_letters|书信}}，慢慢起身，轻轻驱散那些好奇的羊驼，重新走回圣所。广场的钟仍在响；她的脸很严肃，却没有再向四周追问，究竟还要做什么，才能换来保证。她没有把女儿的苛刻告诉那些围过来的陌生人，只把信收回自己手里。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_18",
+      "row": 8,
+      "col": "佩皮塔",
+      "title": "能回来几天吗",
+      "form": "monologue",
+      "answers": [
+        "e_pepita"
+      ],
+      "sources": [
+        "EN_D-P0086–P0089"
+      ],
+      "adaptation": "据佩皮塔未寄出之信节译；省略以省略号表示，开头与末尾为改编连接。",
+      "cg": "An adolescent girl writes an ink-blotted private letter at a small inn table, lip trembling as she pauses with the quill, an open doorway leading down toward the kitchen, no visible readable lettering.",
+      "text": [
+        [
+          "M",
+          "我本来只想告诉{{e_abbess|院长}}，我们平安到了{{e_inn|山中客栈}}。写着写着，纸上的墨点却越来越多。她那么忙，如果看到这些，会不会又得为我担心？"
+        ],
+        [
+          "M",
+          "……只要您喜欢我，愿意让我留在夫人身边，这些都不算什么。我不该告诉您，可那些坏女仆有时把我关在房间里，又拿走东西；也许夫人会以为是我偷的。我希望不会。我希望您身体好，医院和其他地方也没有什么麻烦。"
+        ],
+        [
+          "M",
+          "虽然见不到您，我一直想着您，也记得您教我的话。我只想做您愿意让我做的事。但是，能不能让我回修院住几天呢？如果您不愿意，那就不必。我只是太孤单，没有人可以说话，还有别的……"
+        ],
+        [
+          "M",
+          "有时我不知道，您是不是已经忘记了我。倘若能找出一点时间，给我写一封很短的信也好，我就可以把它留着。但我知道您有多忙……"
+        ],
+        [
+          "N",
+          "她搁下笔，留着那封满是墨迹的信，下楼去问新的{{e_charcoal|木炭}}，又尝了尝锅里的粥。回到这些细小事务里，她的手重新有了确定该做的事。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_19",
+      "row": 9,
+      "col": "名场面",
+      "title": "第五十六封",
+      "form": "dialogue",
+      "answers": [
+        "e_maria",
+        "e_pepita",
+        "e_inn"
+      ],
+      "sources": [
+        "EN_D-P0088–P0107"
+      ],
+      "adaptation": "对话据英文节译；最后书信只写原著确证的态度，不伪造完整失载文本。",
+      "cg": "At a mountain inn supper table, an older noblewoman gently offers to send a young companion's letter; the girl stands by the brazier avoiding her gaze, an untouched bowl of porridge and folded paper between them, intimate candlelit distance.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]读过女孩留在桌上的信，合起后又想重读。她羡慕{{e_abbess|院长}}能使一个孩子如此眷恋，也羞于自己总把爱弄得那么繁重。女孩端来了晚饭。"
+        ],
+        [
+          "D1",
+          "孩子，不和我一起吃吗？"
+        ],
+        [
+          "D2",
+          "我想夫人累了。我已经在楼下吃过。吃饭时，要我给您念书吗？"
+        ],
+        [
+          "D1",
+          "不用了。愿意的话，就去睡吧。等等——我明早要送一封信去利马。如果您也有信，可以一起捎去。"
+        ],
+        [
+          "D2",
+          "我没有。我得下去，给您拿新木炭。"
+        ],
+        [
+          "D1",
+          "可是，给院长的那一封……她会很高兴收到的，我知道。"
+        ],
+        [
+          "D2",
+          "我不寄了。我改了主意。那不是一封好信。"
+        ],
+        [
+          "D1",
+          "怎么不是？亲爱的，我觉得它非常美。相信我，我是懂的。什么使它成了一封不好的信？"
+        ],
+        [
+          "D2",
+          "它不……不够勇敢。"
+        ],
+        [
+          "N",
+          "女孩不肯再说，带着信进了房间。桌边的人听见纸被撕开的声音，低头看自己的晚饭。{{e_courage|勇气}}，她从没有把这个词认真带进爱里。回想那些索要答复的话，她先想辩解，想怪自己的成长、自己的处境；最后却把桌子清出来，重新坐下写信。"
+        ],
+        [
+          "N",
+          "这是后来传世的第五十六封{{e_letters|书信}}。她却把它叫作第一封，仿佛此前的恳求终于能换一种写法。那些反复追问女儿究竟有多爱自己的旧信，已经收不回来；新写的这一封，仍然可以更宽厚一些。写完时，天将要亮了。"
+        ]
+      ]
+    },
+    {
+      "id": "c1_20",
+      "row": 9,
+      "col": "佩皮塔",
+      "title": "没有寄出的纸",
+      "form": "monologue",
+      "answers": [
+        "e_pepita"
+      ],
+      "sources": [
+        "EN_D-P0103–P0107"
+      ],
+      "adaptation": "据撕信、失眠及侯爵夫人夜访重构内心；不把撕信解释成应受奖励的道德选择。",
+      "cg": "A young girl awake in a dark small inn bedroom, torn fragments of an unsent letter on the bedside table, the warm light beneath the door hinting at another person still writing; a quiet compassionate image without triumphant mood.",
+      "text": [
+        [
+          "M",
+          "我说了那个词，就不想再说别的。{{e_maria|夫人}}一直看着我，她竟觉得那封信很美。我不习惯有人追问，我为什么不肯寄出去。"
+        ],
+        [
+          "M",
+          "撕纸的声音很响。在{{e_inn|客栈}}这样安静的房间里，隔壁大概也听得见。我把它撕小了些，可刚才写过的那些话并没有跟着消失。我还是想回去几天，还是希望{{e_abbess|院长}}能写几句话给我，哪怕短得只够放在掌心。"
+        ],
+        [
+          "M",
+          "躺下以后，我想起自己说话的样子，觉得很不自在。我不该那么大声，也许不该说那封信不好。现在纸碎了，再要一张，好像又得从头解释一遍。黑暗里没有人问我，我仍在心里回答。"
+        ],
+        [
+          "N",
+          "女孩后来睡着了。将近黎明时，夫人举着蜡烛走进来，轻轻拨开她额前汗湿的头发。那封没有寄出的信，没有再被放回邮袋。两天后，她们才动身返城，走向来时经过的{{e_bridge|索桥}}。"
+        ]
+      ]
+    }
+  ]
+}

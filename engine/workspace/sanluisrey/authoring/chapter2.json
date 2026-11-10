@@ -1,0 +1,477 @@
+{
+  "level": 2,
+  "rows": [
+    "修院里的兄弟",
+    "两个人的语言",
+    "戏台下的停留",
+    "深夜的来客",
+    "伤口与湿布",
+    "只剩一个名字",
+    "一次次返回",
+    "船长的邀请",
+    "离开前的礼物",
+    "一起动身"
+  ],
+  "columns": [
+    "名场面",
+    "曼努埃尔",
+    "埃斯特班"
+  ],
+  "cards": [
+    {
+      "id": "c2_01",
+      "row": 0,
+      "col": "名场面",
+      "title": "门前的篮子",
+      "form": "scene",
+      "answers": [
+        "e_abbess",
+        "e_convent"
+      ],
+      "sources": [
+        "EN_D-P0110"
+      ],
+      "cg": "The abbess as a middle-aged woman, about twenty years younger than her late-life portrait, bends over a foundling basket containing two swaddled infant boys at a convent doorway at dawn, another nun holding the door, simple stone courtyard, quiet practical care rather than sentimental spectacle.",
+      "text": [
+        [
+          "N",
+          "清早，人们在门口收容弃婴的篮子里发现了两个男孩。奶妈还没有赶到，他们已经有了名字：{{e_manuel|曼努埃尔}}，{{e_esteban|埃斯特班}}。名字分得清，孩子却分不清，城里没有谁能一直认准哪一个是哪一个。"
+        ],
+        [
+          "N",
+          "他们的父母是谁，无人知道。后来见两人站得笔直、又总是沉默，爱闲谈的人便替他们猜测显赫的身世，把各种贵族家的门牌安到他们头上。那些说法既没有把一个家还给他们，也没有让他们长大时少受几句打趣。"
+        ],
+        [
+          "N",
+          "[[NPC1]]是世上最接近监护人的那个人。她常常厌恶男人给女人带来的苦，却渐渐喜欢上这两个孩子。傍晚，她叫他们到自己的房间，吩咐厨房拿些点心，讲英雄的故事，也讲丑角接连不断的灾难。"
+        ],
+        [
+          "N",
+          "两双黑眼睛凝神望着她。她喜欢得越深，越会突然担忧：等他们长成男人，自己所憎恶的那些东西，会不会也从这两张脸里显出来？孩子还不懂她目光里的迟疑，只等着故事继续。"
+        ],
+        [
+          "N",
+          "他们在这里长到不宜再久留的年纪，随后去城中各处教堂做事，修篱笆，擦十字架，替走进病人家的神父提香炉。城里人都认识这对兄弟，依旧常认错名字。后来他们开始做抄写员，用相似的两只手，抄戏本、歌谣、商人的告示，也抄唱诗班所需的一份又一份乐谱。名字很早就有了，能够不靠名字而认准对方的人，却始终只有兄弟彼此。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_02",
+      "row": 0,
+      "col": "曼努埃尔",
+      "title": "我们若在那里",
+      "form": "monologue",
+      "answers": [
+        "e_manuel"
+      ],
+      "sources": [
+        "EN_D-P0200",
+        "EN_D-P0110"
+      ],
+      "adaptation": "以院长后来回忆的少年回答为核心，重构当时内心；不把回忆出现位置误作事件发生时间。",
+      "cg": "Two identical solemn fifteen-year-old adolescent boys sit near the abbess's knee listening to a sacred story in a simple convent room; one suddenly leans forward to speak while the other listens intently, a small crucifix on the wall, warm late light.",
+      "text": [
+        [
+          "M",
+          "她讲到那个人被钉起来的时候，我忍不住打断了。要是我和{{e_esteban|埃斯特班}}也在那里，我们就会拦住他们。话说出口，我并不觉得自己说得太大；两个人总能做些什么，怎么可以只站着看？"
+        ],
+        [
+          "M",
+          "{{e_abbess|院长}}看了我们一会儿。她讲的那些很远的故事，常有受苦的人，也有来不及赶到的人。我不喜欢听到来不及。我们替她跑腿时，一条路被堵住，可以换另一条；东西太重，一个人拿一边就好。"
+        ],
+        [
+          "M",
+          "城里人总把我们认错，再为自己的错误笑起来。我不想解释那么多。到了{{e_convent|修院}}这间屋子，我们可以并排坐着，安静地听，想说的时候再说。"
+        ],
+        [
+          "M",
+          "我们若在那里，就会把事情改过来。我说这句话时，还没有遇见一件非做不可、却无论怎样用力都做不成的事。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_03",
+      "row": 1,
+      "col": "名场面",
+      "title": "不肯交出的词",
+      "form": "dialogue",
+      "answers": [
+        "e_lima"
+      ],
+      "sources": [
+        "EN_D-P0111"
+      ],
+      "adaptation": "据语言访谈事件重构问答；兄弟给出的具体私语词形不见原文，因此不编造。",
+      "cg": "Two nearly identical young men with dark uncut hair stand awkwardly on an ornate carpet in an archbishop's study, the cleric with a newly trimmed quill gesturing toward a notebook, the men reluctant and silent, no legible text.",
+      "text": [
+        [
+          "N",
+          "{{e_archbishop|大主教}}听说双胞胎有一套只彼此听得懂的话，便削好羽毛笔，把他们叫到书房。他研究过方言，准备日后回到西班牙庄园时，把这些材料整理成一件有趣的工作。"
+        ],
+        [
+          "D1",
+          "你们怎样说面包？平常两个人在一起的时候，用哪一个词？"
+        ],
+        [
+          "N",
+          "{{e_manuel|曼努埃尔}}和{{e_esteban|埃斯特班}}站在漂亮的地毯上。长长的沉默过后，其中一个低声答了。问话的人把笔移向纸面。"
+        ],
+        [
+          "D1",
+          "树呢？树也有自己的叫法吗？不要紧，只照平常说就好。"
+        ],
+        [
+          "N",
+          "又是一阵沉默。他们从刚学说话时就有了这套{{e_language|私语}}，词汇和句法都不大依靠西班牙语。单独相处时才说；偶尔在人前遇上紧迫的事，也只低声耳语。"
+        ],
+        [
+          "D1",
+          "那么，‘我看见’，和‘我看见过’，会有区别吗？慢一点，我记下来。"
+        ],
+        [
+          "N",
+          "他们不知道该怎样解释，为什么这件看似无害的事使自己如此难堪。不是答不出来，也不只是敬畏身份。外人平常盯着他们相似的脸，觉得好玩；如今连两人之间最隐秘的距离，也被一问一答地摆到桌面上。"
+        ],
+        [
+          "N",
+          "主人最初以为他们被书房的华贵拘住了，后来终于察觉，那迟疑来自更深的地方。他失望地放下笔，让两人离开，没有再索要下一个词。那套话仍留在两人中间；记事本里，留下来的远比他预想的少。"
+        ]
+      ],
+      "speakers": {
+        "D1": "e_archbishop"
+      }
+    },
+    {
+      "id": "c2_04",
+      "row": 1,
+      "col": "曼努埃尔",
+      "title": "同一件差事",
+      "form": "monologue",
+      "answers": [
+        "e_manuel"
+      ],
+      "sources": [
+        "EN_D-P0112",
+        "EN_D-P0113"
+      ],
+      "adaptation": "据避开共同出行与共同劳动的描写重构独白；不将小说的心灵感应写成可验证超能力。",
+      "cg": "Two identical young Peruvian dock workers carry opposite ends of a plain wooden cargo crate near a sailing ship, dark uncut hair, weathered simple shirts, late afternoon, practical companionship, no modern dock machinery.",
+      "text": [
+        [
+          "M",
+          "有人问，为什么去办同一件事，也要走两条街。这样省得听他们再猜谁是谁。他们猜对会笑，猜错也会笑，我们无论怎么回答，最后都得站着等他们笑完。"
+        ],
+        [
+          "M",
+          "{{e_esteban|埃斯特班}}不必说自己什么时候回来。有时我做着手里的活，就觉得他快到了；过一会儿，门外果然有脚步。旁人若听见，大概又要问许多问题。我们已经习惯，不觉得非得拿出来解释。"
+        ],
+        [
+          "M",
+          "抄写做腻了，就去{{e_harbor|港口}}搬货。也赶过牲口，摘过果子，替人摆渡。换一种活，肩背会在不同的地方疼，回去以后还是有人知道今天为什么少说话。"
+        ],
+        [
+          "M",
+          "我们很少谈什么了不得的事，吃什么、穿什么、明天到哪里挣钱，几句话就够。两张桌子也好，一只沉重的木箱也好，我知道另一边有人。世界其余的地方怎样热闹，都不用马上弄懂。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_05",
+      "row": 2,
+      "col": "名场面",
+      "title": "留下的那一个",
+      "form": "scene",
+      "answers": [
+        "e_manuel",
+        "e_theatre"
+      ],
+      "sources": [
+        "EN_D-P0114–P0117"
+      ],
+      "cg": "A quiet dark-haired young copyist remains in a candlelit theatre audience as his identical brother leaves down an aisle, celebrated actress dancing in layered skirts and red shoes beyond the footlights, fascination held in a still face.",
+      "text": [
+        [
+          "N",
+          "经理预料今晚座位卖不满，就送了兄弟俩两张入场券。他们回城后，又开始替剧团抄本子，平日进出后台，却没觉得那些台词有什么值得欣赏。荣誉，声名，爱情的火焰，诗人一开口，什么都可以绕着它们说很久。"
+        ],
+        [
+          "N",
+          "两人坐得耐心，望着蜡烛和华丽的衣裳。到了幕间，{{e_camila|卡米拉}}换下剧中的身份，穿着层层裙子出来跳舞。{{e_esteban|埃斯特班}}说还有活要抄，先回去了。[[NPC1]]留在原处，红色的袜子和鞋子从此没有完全离开他的心思。"
+        ],
+        [
+          "N",
+          "他们早就见过这个演员。几年前，她曾把他们拉到一起，仔细查看两张脸，最后拍着其中一人的肩膀，宣布找到了较小的那个。那次被打量的窘迫，早已沉到别的记忆下面；如今，一个人发现自己做什么都容易绕到她的住处附近。"
+        ],
+        [
+          "N",
+          "夜里，他站在化妆室窗下的树间，指节抵着嘴，听自己的心跳。她是{{e_viceroy|总督}}的情人，富有，美丽，说话锋利，几乎没有哪一条消息意味着希望。可那些消息没有把他劝回去。"
+        ],
+        [
+          "N",
+          "屋里等待的兄弟同样咬着指节。他并不是也爱上了这位演员，只是不明白原先已经足够的两个人，为什么忽然不再足够。同样的沉默，第一次藏着两件无法立刻互相明白的事。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_06",
+      "row": 2,
+      "col": "曼努埃尔",
+      "title": "替别人说爱",
+      "form": "monologue",
+      "answers": [
+        "e_manuel"
+      ],
+      "sources": [
+        "EN_D-P0118–P0150"
+      ],
+      "adaptation": "据代笔事件重构；两封信的收信人与用途保持原著，不沿用 OCR 中的异常单词。",
+      "cg": "A young dark-haired copyist seated at a dressing room table with two sheets of paper while a famous actress paces behind him dictating, a blond stage wig on a stand and a coin near the paper, restrained private humiliation.",
+      "text": [
+        [
+          "M",
+          "在{{e_theatre|剧院}}里，{{e_camila|卡米拉}}说，我看上去不喜欢她。我不知怎样回答，才像她的朋友，又不暴露我来这里有多高兴。说‘是，夫人’，她嫌我笨；再说一遍，她就要换人。"
+        ],
+        [
+          "M",
+          "她要我起誓，连{{e_esteban|埃斯特班}}也不能知道。我把一个秘密留在我们两人之间，得到的却是替她写给别人的话。给{{e_viceroy|总督}}的一封，要斥责猜疑，退还礼物；给斗牛士的另一封，又变成亲昵的约定。"
+        ],
+        [
+          "M",
+          "羽毛笔没有停。她叫我另取一张，我就另取一张。这些{{e_secretletters|秘密信件}}里没有一句是写给我的，可她站得那么近，仿佛只要把字写得足够清楚，还能多留一会儿。"
+        ],
+        [
+          "M",
+          "她问有没有抄错，付了钱，说往常由{{e_pio|皮奥}}代笔，这几封不愿让他知道。我接过钱，下楼，走到树底下。刚才必须一个字一个字听清的话，此刻全挤在心里，我倒说不出一句自己的。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_07",
+      "row": 3,
+      "col": "名场面",
+      "title": "半夜的代笔",
+      "form": "scene",
+      "answers": [
+        "e_camila",
+        "e_manuel",
+        "e_esteban",
+        "e_room"
+      ],
+      "sources": [
+        "EN_D-P0151–P0157"
+      ],
+      "cg": "Nearly midnight in a plain rented room, a veiled actress leans to whisper dictation to one seated young copyist by candlelight while his identical twin lies awake on a cot in shadow turning toward the wall; emotional distance, no romance posing.",
+      "text": [
+        [
+          "N",
+          "门上响起很轻的敲声。[[NPC2]]起身去开门，一名蒙着面纱的女人急急走进来，先要墨水和纸。[[NPC3]]已经躺下，从被子边缘看着。来客注意到那双眼睛，匆忙为深夜打扰道了歉，随即又俯身到桌边。"
+        ],
+        [
+          "N",
+          "[[NPC1]]要写给使她久等的斗牛士。她在抄写员耳边压低声音，一边报出愤怒的句子，一边催问写完了没有。她需要的是一封立即送走的{{e_secretletters|信}}；在阴影里看着的另一个人，却把那种贴近误认为只有亲密者才能享有的关系。"
+        ],
+        [
+          "N",
+          "他转过脸，朝向墙壁。女演员拿走纸，把一枚{{e_coin|钱币}}沿桌面推过去，又带着黑色花边和匆忙的低语离开。门关上，抄写员坐回来，双肘支在膝上，双手捂住耳朵，反复在心里承认自己爱她。"
+        ],
+        [
+          "N",
+          "然后他察觉到了屋里另一种沉默。仿佛兄弟已经离自己很远，正一遍遍告别。他不懂，为什么喜欢一个人，竟会使另一个人如此痛苦；更不懂，这件事是否真能靠一次决定彻底结束。"
+        ],
+        [
+          "N",
+          "蜡烛照着两张相同的脸，却没有照出共同的心事。桌上的钱尚未收起，床边的人已经急于证明，自己仍把兄弟放在所有事情前面。他吹灭蜡烛，躺下，用一种过分随便的口气宣布，以后再不替那个女人写信。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_08",
+      "row": 3,
+      "col": "曼努埃尔",
+      "title": "雨夜的门",
+      "form": "dialogue",
+      "answers": [
+        "e_manuel",
+        "e_esteban",
+        "e_room"
+      ],
+      "sources": [
+        "EN_D-P0158–P0170"
+      ],
+      "adaptation": "据原文争执节译；不把放弃情爱当作获得好结局的选择题。",
+      "cg": "One of two identical young men sits up alarmed on his bed while the other stands at an open doorway in darkness putting on a coat, a single candle relit on their table, rain outside, urgent intimate tension without violence.",
+      "text": [
+        [
+          "N",
+          "宣布不再代笔后，[[NPC1]]开始念晚祷，想让事情就此过去。[[NPC2]]却起来重新点亮了蜡烛，系好腰带。"
+        ],
+        [
+          "D1",
+          "怎么了？"
+        ],
+        [
+          "D2",
+          "出去走走。你不必为了我说刚才那些话。写不写信，我并不在乎。"
+        ],
+        [
+          "D1",
+          "回床上去。谁说我是为了你？我不想再替{{e_camila|卡米拉}}写那些信，也不想那样领她的钱。"
+        ],
+        [
+          "D2",
+          "你爱她。不必因为我而改变。"
+        ],
+        [
+          "D1",
+          "爱她？我有什么机会？真有那种可能，她会叫我写这些信吗？会每次都把一枚钱推到桌上吗？"
+        ],
+        [
+          "N",
+          "桌边的人没有回答，只用手指轻敲桌沿。床上的人换成两人自幼使用的{{e_language|私语}}，声音里的愤怒更加真实，虽然连他自己也不愿承认其中混着什么。"
+        ],
+        [
+          "D1",
+          "我好得很。睡觉去，别做傻事。"
+        ],
+        [
+          "D2",
+          "我不。我出去走走。"
+        ],
+        [
+          "D1",
+          "已经两点钟了，还在下雨。你不能那样走几个钟头。我向你保证，那件事已经过去了。我只喜欢过她一阵。"
+        ],
+        [
+          "N",
+          "[[NPC2]]站在门口，黑暗几乎把他的脸收走。"
+        ],
+        [
+          "D2",
+          "是我挡着你了。"
+        ],
+        [
+          "N",
+          "[[NPC1]]猛地从床上起来。那句话听起来不像一次普通出门，倒像永远的离开。"
+        ],
+        [
+          "D1",
+          "看在上帝的份上，回来。回来吧。"
+        ],
+        [
+          "N",
+          "兄弟回来了，重新躺下。第二天，演员的使者再来，得到了一句明确的拒绝。两人许多天没有再谈起这场争执；没有再谈，不表示彼此已经全然明白。蜡烛再一次熄灭，门关好了，屋外仍在下雨。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_09",
+      "row": 4,
+      "col": "名场面",
+      "title": "每一个整点",
+      "form": "scene",
+      "answers": [
+        "e_manuel",
+        "e_esteban",
+        "e_room"
+      ],
+      "sources": [
+        "EN_D-P0171–P0175",
+        "EN_D-P0195"
+      ],
+      "cg": "A young man wrings a wet cloth over a basin beside the bed of his identical feverish twin, candle nearly spent, distant clock tower visible through the window, focus on hands and exhausted faces, no blood or graphic wound.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]的膝盖被一块金属划破了。他们从没这样病过，起先只是望着腿肿起来，望着疼痛一阵阵穿过身体。半夜想起一家理发店的招牌兼写着外科医术，[[NPC2]]就跑出去敲门；人还没有回来，要等早晨。"
+        ],
+        [
+          "N",
+          "他们互相保证，等那人看过就会好了。一天，两天，也许不到一天，受伤的人便能重新上街。终于等来{{e_medicine|药剂}}和膏药，又得到一项清楚的吩咐：每隔一小时，用冷湿布敷腿。"
+        ],
+        [
+          "N",
+          "照料的人照办，床上的人却越来越痛。每次{{e_cloth|湿布}}落下，恰好是最难忍的一刻。他开始求兄弟停手，说已经不疼，不必再弄。对方怕一心软就耽误康复，只好掀开被子，把布紧紧敷上。外面各座钟楼在整点敲得那么好听，屋内的人却越来越怕那声音。"
+        ],
+        [
+          "N",
+          "发热与疼痛搅乱了他的神志。他骂兄弟，诅咒兄弟，又说起{{e_camila|卡米拉}}，仿佛自己失去了原本有权得到的一切。照料者退到门外，背靠着门，震惊得呼吸不顺；过了一会儿，仍得重新进去，把下一次该做的事做完。"
+        ],
+        [
+          "N",
+          "邻室的人敲墙，客店主人威胁要赶他们走。他举着蜡烛出去，任众人责骂，再回到床前。屋里没有新的办法，只有不断到来的下一个整点。那套原先许诺很快就能康复的医嘱，成了他不敢放下、又无法相信的事。两个人都还盼着，下一次敷上去，事情也许就会开始变好。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_10",
+      "row": 4,
+      "col": "曼努埃尔",
+      "title": "清醒的一刻",
+      "form": "dialogue",
+      "answers": [
+        "e_manuel",
+        "e_esteban",
+        "e_room"
+      ],
+      "sources": [
+        "EN_D-P0176–P0196"
+      ],
+      "adaptation": "据清醒时对话节译；同时保留诅咒、否认与疼痛状态，避免替人物作心理定论。",
+      "cg": "At dawn a feverish young man holds a small plain crucifix close to his chest as his identical exhausted brother hesitates with a folded wet cloth beside the bed, pale daylight, compassionate restraint, no miraculous glow.",
+      "text": [
+        [
+          "D1",
+          "我好些了。看来这些湿布还是有用。明天我就能起来，你也可以睡一觉，我不会再给你添麻烦。"
+        ],
+        [
+          "D2",
+          "这不算麻烦。"
+        ],
+        [
+          "N",
+          "天将亮时，[[NPC1]]平静下来。[[NPC2]]守在床边，有些话几次到了嘴边，才终于说出来。"
+        ],
+        [
+          "D2",
+          "要不要叫{{e_camila|卡米拉}}来看看你？只待一小会儿也好。你还觉得，是我挡在你们中间吗？我说过，我不会拦你。"
+        ],
+        [
+          "D1",
+          "怎么又提她？她对我不算什么。我满意现在这样。"
+        ],
+        [
+          "D2",
+          "可你刚才很生气，敷布的时候，你也为那件事生气。你诅咒我……"
+        ],
+        [
+          "D1",
+          "那时我的腿疼。我不知道自己在说什么。你是我仅有的人，我怎么会那样诅咒你？是你太久没睡了。我把你也拖坏了。"
+        ],
+        [
+          "N",
+          "门外的晨光渐渐清楚，{{e_cloth|湿布}}还搁在盆沿。"
+        ],
+        [
+          "D2",
+          "这一次先不敷了。少一次不会有事。让它安静一会儿也好。"
+        ],
+        [
+          "D1",
+          "不，我得好起来。把{{e_crucifix|十字架}}给我。要是我再说什么伤害你的话，我都不是那个意思；是疼痛使我胡说。好了，放回去吧，我准备好了。"
+        ],
+        [
+          "D2",
+          "真的，跳过这一次吧。"
+        ],
+        [
+          "D1",
+          "医生说必须做。我不会再说一个字。"
+        ],
+        [
+          "N",
+          "随后一切又重新开始。清醒时的保证，并没有使下一次剧痛变得轻一些。到了第三夜，他们请来了神父。床上的人在大幅摇晃的影子中领受圣礼，然后死去。屋里再没有下一次必须准时更换的湿布。守夜的人仍坐在原处，一时不知道天亮以后应当先做什么。"
+        ]
+      ]
+    }
+  ]
+}

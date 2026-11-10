@@ -1,0 +1,458 @@
+{
+  "level": 3,
+  "cards": [
+    {
+      "id": "c3_11",
+      "row": 5,
+      "col": "名场面",
+      "title": "并不存在的岛",
+      "form": "dialogue",
+      "answers": [
+        "e_pio",
+        "e_camila",
+        "e_garden"
+      ],
+      "sources": [
+        "EN_D-P0317–P0342"
+      ],
+      "adaptation": "据黄昏花园对话节译，保留卡米拉拒绝重返舞台、皮奥迟来的道歉。",
+      "cg": "At dusk a thin fifty-year-old man sits beside a chipped marble garden bench while a former actress stands nearby in a dark shawl, Andes behind a balustrade, first clouds entering the terrace, poignant distance between old companions.",
+      "text": [
+        [
+          "N",
+          "黄昏时，[[NPC1]]靠在一张缺角的大理石长椅旁等她。他想重温昔日流浪时的信任和玩笑；[[NPC2]]一来，却先纠正了他习惯的称呼，随即不耐烦地让他随意。"
+        ],
+        [
+          "D2",
+          "要我回{{e_theatre|剧院}}，那就不必说了。想起那个地方，我只觉得害怕。每天领到那么多侮辱，够了。"
+        ],
+        [
+          "D1",
+          "如果你和这些新朋友过得快活，我不会要你回去。"
+        ],
+        [
+          "D2",
+          "不喜欢我的朋友？那准备拿谁来替换？我不想听劝告。把我忘掉就是了。"
+        ],
+        [
+          "N",
+          "他没有明白她为何落泪，仍说着剧场的衰落。她忽然碰了碰他的膝盖，神情像许多年以前。"
+        ],
+        [
+          "D2",
+          "原谅我，{{e_jaime|海梅}}下午又病了。他躺在那里，那么白，那么惊讶，谁也没有办法。只能想些别的事。可是回去演戏，真的没用。观众要看新闹剧，不值得再争。"
+        ],
+        [
+          "D1",
+          "从前是我不公正，是我骄傲，舍不得给你应得的赞美。你一直是伟大的演员。我们还可以去{{e_spain|马德里}}，你会成功的。"
+        ],
+        [
+          "D2",
+          "世界到哪里都一样。"
+        ],
+        [
+          "D1",
+          "或者去一个岛，那里的人会因为你就是你而爱你。"
+        ],
+        [
+          "D2",
+          "五十岁了，还在梦想那样的岛。只有戏里才有。"
+        ],
+        [
+          "N",
+          "她终于说冷了，必须回去。临走又找不到足够真切的话，只俯身吻了吻他的手指。他独自留在渐浓的云里，为这个动作欢喜，仍试图理解这场谈话到底给了自己什么。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_12",
+      "row": 5,
+      "col": "皮奥",
+      "title": "楼上的孩子们",
+      "form": "monologue",
+      "answers": [
+        "e_pio"
+      ],
+      "sources": [
+        "EN_D-P0316–P0317"
+      ],
+      "adaptation": "据被冷落后上楼陪孩子的探访重构内心；与花园对谈是不同次探访中的行为。",
+      "cg": "An older thin tutor sits quietly with three children in an upstairs room while the formal drawing room below is left empty, one delicate boy listening closest, simple books on a table, afternoon gentleness and loneliness.",
+      "text": [
+        [
+          "M",
+          "这个月还是来了。{{e_camila|卡米拉}}的客套越来越周全，周全得使人没有一句话可以接。她不看我的眼睛，我便望着屋里的摆设，想着只要多坐一会儿，也许会说起一件从前的事。"
+        ],
+        [
+          "M",
+          "谈不下去，就去楼上看孩子们。{{e_jaime|海梅}}也在那里。他们还不需要我在门外换一种身份，不必先证明我的衣服和名声配得上这所房子。陪他们待着，照看一个小小的需要，剩下的时间便在楼上过去。我至少还做得来这些{{e_care|照料}}。"
+        ],
+        [
+          "M",
+          "回{{e_lima|利马}}的时候，街上有人拥抱，有人笑着告别。我总想，他们必定从这些交往里得到许多安慰。我们也曾有过，不靠客气，不靠约好的十分钟，一起走很远的路，遇见事情便说。"
+        ],
+        [
+          "M",
+          "我知道她如今有自己的生活，还是会盼下一次她叫我叔叔时，口气能像从前一点。这样的愿望看上去很小，却使我走完一段路以后，仍在想着下个月再来。只要孩子们还肯听，这一趟远路就仿佛没有全然白走。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_13",
+      "row": 6,
+      "col": "名场面",
+      "title": "退回去的礼物",
+      "form": "scene",
+      "answers": [
+        "e_camila",
+        "e_villa"
+      ],
+      "sources": [
+        "EN_D-P0343–P0344"
+      ],
+      "cg": "A veiled former actress in a shuttered country villa returns jewelry and letters to a closed box beside the door, a nurse in the background, diffused daylight, privacy and exhaustion, illness never shown as grotesque spectacle.",
+      "text": [
+        [
+          "N",
+          "天花的消息传遍利马。同一时候还有几百个人患病，可谈论和恶意都集中在[[NPC1]]身上。许多人暗暗希望，那使她能够离开原来阶层的美貌，终于要受损了。关于病房的传闻一出来，幸灾乐祸的人便觉得自己得到补偿。"
+        ],
+        [
+          "N",
+          "她刚能动身，就离开城里，回到山中。她要卖掉漂亮的宅子，把{{e_jewels|首饰}}退还赠送者，卖掉华服。{{e_viceroy|总督}}、{{e_archbishop|大主教}}和从前真心喜欢过她的人，仍送来问候与礼物；消息没有回音，礼物被原样送回。"
+        ],
+        [
+          "N",
+          "除了护士和女仆，她不肯让人看见自己。多年被赞美以后，她已经把别人愿意靠近，和那张脸连在一起。如今别人还来，在她看来便必定是怜悯，而怜悯里又藏着对这场逆转的满足。"
+        ],
+        [
+          "N",
+          "她退还的钱比自己欠的还多。等愤怒稍歇，贫穷也开始逼近。田庄渐渐衰败，孩子还在那里，日子却被一间不愿走出的房间围住。她想起城里人可能怎样欢喜，听见一个脚步声，又不知道那会带来帮助还是新的注视。"
+        ],
+        [
+          "N",
+          "{{e_pio|皮奥}}没有放弃。他照看孩子，帮着料理田庄，也悄悄借钱给她，终于重新获得进门的机会。女主人蒙着面纱见他，言语仍然尖刻。他相信自己懂得她的痛苦；但懂得，并不意味着屋里的每一扇门都会因此向他敞开。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_14",
+      "row": 6,
+      "col": "卡米拉",
+      "title": "不见客",
+      "form": "monologue",
+      "answers": [
+        "e_camila"
+      ],
+      "sources": [
+        "EN_D-P0343–P0344"
+      ],
+      "adaptation": "据病后拒绝探访的心理描写重构独白；不是旁白认同她对所有来访者的猜测。",
+      "cg": "A woman in a plain dark veil seated beside closed shutters in a country villa, one hand on an unanswered letter, face partly visible with subtle healed smallpox marks but no exaggeration, soft cool interior light and dignified framing.",
+      "text": [
+        [
+          "M",
+          "别把那些东西再送进来。退回去，告诉他们不必问候。我以前接受一串珠子，觉得那是喜欢；现在同样的盒子摆到桌上，却只想知道，送它的人是不是已经听说了我的脸。"
+        ],
+        [
+          "M",
+          "{{e_villa|这所山庄}}以前像一个体面的归宿。如今，房间外面每一个等着见我的人，都使我想把门再关紧一点。也许{{e_pio|皮奥}}并不这样想，也许他真只是来帮忙；可他一望过来，我就已经替他把心里的话说完。"
+        ],
+        [
+          "M",
+          "我退还了礼物，连不必归还的也一并送走。这样至少不用再欠着谁的目光。后来才看见，能用的钱越来越少，田庄也不是靠关上门就会自己好起来。"
+        ],
+        [
+          "M",
+          "孩子们还在楼上。{{e_jaime|海梅}}的身体一直那么弱，我该为他想办法，却连走出这间屋子的力气都在一天天减少。我不愿被怜悯，也不知道还能用什么方式，把需要说出口。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_15",
+      "row": 7,
+      "col": "名场面",
+      "title": "镜子里的来客",
+      "form": "scene",
+      "answers": [
+        "e_camila",
+        "e_pio",
+        "e_villa"
+      ],
+      "sources": [
+        "EN_D-P0345–P0347"
+      ],
+      "cg": "A woman applying a simple pale cosmetic mixture in private sees an older tutor reflected unexpectedly at her open doorway; she lifts her hands to cover her face, framed from behind and side with a mirror, dignified distress, no grotesque makeup or voyeuristic close-up.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]以为自己把门锁好了。只有短短一会儿，她重新生出一个秘密的希望：从前在舞台上学过那么多办法，是否还有一种，能让这张脸稍稍恢复些熟悉的样子？"
+        ],
+        [
+          "N",
+          "她把粉和乳脂调在一起，匆忙涂上去。过去，她也嘲笑过宫廷里把脸涂得雪白的老女人；现在轮到自己，对着{{e_mirror|镜子}}，一面着急，一面不愿承认希望正在落空。粉色并没有替她找回从前，只使她更清楚自己做了什么。"
+        ],
+        [
+          "N",
+          "然后她在镜面里看见[[NPC2]]站在门口。他推门进来了，脸上带着惊讶。她猛地站起，双手捂住脸，发出一声尖叫。此刻最难忍的，并不仅是他看见病后的痕迹，而是他看见了她偷偷试图遮掩的愿望。"
+        ],
+        [
+          "D1",
+          "出去。永远不要再进我的房子。我不想再见到你。"
+        ],
+        [
+          "N",
+          "她追到走廊上，把东西向楼梯下面扔，随即吩咐管事，不许他再进院子。那道禁令十分明确。此后的一周，他仍不断试图再见一面，终于暂时回到{{e_lima|利马}}。"
+        ],
+        [
+          "N",
+          "他能帮她管账、借钱，能使孩子们得到照顾，却没能在推门之前停下来问一句。屋里的女人又独自面对镜子。这次她失去的，除了一点秘密的希望，还有门已经锁好的确信。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_16",
+      "row": 7,
+      "col": "皮奥",
+      "title": "又一趟山路",
+      "form": "monologue",
+      "answers": [
+        "e_pio"
+      ],
+      "sources": [
+        "EN_D-P0347–P0348",
+        "EN_D-P0363–P0367"
+      ],
+      "adaptation": "据被逐后返回山中及教养愿望重构内心；策略是人物的自我辩护，不是游戏给出的正确建议。",
+      "cg": "A thin fifty-year-old man walks back toward a secluded Andean country villa before dawn with a small travel bag, dark shrub-lined path, a single shuttered window distant above him, anxious persistence rather than heroic resolve.",
+      "text": [
+        [
+          "M",
+          "回到{{e_lima|利马}}以后，我找了些事填时间，没有一件能做得长。思念使人笨拙。我这样年纪的人，还是像一个十八岁的少年，想着只要再见一面，也许就能解释清楚。"
+        ],
+        [
+          "M",
+          "{{e_camila|卡米拉}}已经吩咐不许我进院子。我知道自己若照常去敲门，连话也传不到她耳边。于是开始想别的办法，想一种能使她亲自出来的声音。以前我靠变通进过许多扇门，这回却偏偏不肯把她那一句拒绝算作最后的话。"
+        ],
+        [
+          "M",
+          "我也想到{{e_jaime|海梅}}。孩子聪明，想学东西，不该整天只在仆人和马厩之间消磨。我可以教他读书，把家收拾好，再请{{e_abbess|院长}}帮忙找个管家。"
+        ],
+        [
+          "M",
+          "这些打算听起来都很有用。想到它们，我便觉得自己还有理由再走一趟山路。天还没亮，门窗都关着；我站在外面，把那个原本不属于自己的声音，在心里先练了一遍。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_17",
+      "row": 8,
+      "col": "名场面",
+      "title": "埃斯特雷娅",
+      "form": "dialogue",
+      "answers": [
+        "e_pio",
+        "e_camila",
+        "e_villa"
+      ],
+      "sources": [
+        "EN_D-P0348–P0362"
+      ],
+      "adaptation": "埃斯特雷娅是皮奥临时假扮的身份，不新增为真实出场少女。",
+      "cg": "Before sunrise outside a country villa a veiled woman in a heavy cloak has come to help someone and discovers an older thin man rising from the shadow beneath her window, dew on grass and pale blue Andes, betrayal and distance, no frightened child present.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]躺在窗下，模仿少女的低泣。他不让声音太响，时断时续，坚持了足足一刻钟。山后泛出最淡的蓝色，草地在微风里轻轻响。楼上终于亮起一盏灯，窗板打开，裹着面纱的[[NPC2]]探出头。"
+        ],
+        [
+          "D2",
+          "谁在那里？谁在哭？"
+        ],
+        [
+          "D1",
+          "夫人，求您下来。我是一个可怜的女孩，叫埃斯特雷娅。不要叫女仆，请您自己下来帮助我。"
+        ],
+        [
+          "N",
+          "她沉默片刻，说了声好。过了一会儿，厚斗篷拖过沾露的草地，她绕到屋角，仍站得很远。"
+        ],
+        [
+          "D2",
+          "过来，到我这里。究竟是谁？"
+        ],
+        [
+          "N",
+          "来人站起，承认了自己的身份。原本准备帮助一个陌生女孩的女人，立刻明白自己被诱了出来。"
+        ],
+        [
+          "D2",
+          "什么时候才能摆脱你？我谁也不想见，不想和任何人说话。"
+        ],
+        [
+          "D1",
+          "看在我们那么多年相处的份上，答应我一件事。我就走，以后不再打扰。"
+        ],
+        [
+          "D2",
+          "我什么也不答应。离我远一点。"
+        ],
+        [
+          "N",
+          "她绕向另一侧的门，他不得不小跑着跟上，确保自己的话仍能被听见。终于她停下，疲倦而生气。"
+        ],
+        [
+          "D2",
+          "到底是什么？快说，很冷，我的身体还没有好。"
+        ],
+        [
+          "N",
+          "他提出要把{{e_jaime|海梅}}带去城里一年，由自己教养。晨星仍在头顶，所谓求救的女孩并不存在，真正被带到这场谈话中来的，是一个还在屋里睡着的孩子。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_18",
+      "row": 8,
+      "col": "卡米拉",
+      "title": "先问孩子",
+      "form": "dialogue",
+      "answers": [
+        "e_camila",
+        "e_pio",
+        "e_villa"
+      ],
+      "sources": [
+        "EN_D-P0363–P0373"
+      ],
+      "adaptation": "据教养与索债谈话节译；保留海梅愿意这一前提，不以感恩代替同意。",
+      "cg": "A veiled mother and her older former tutor face each other outside a country house at dawn, she standing firmly near the doorway while he pleads with open hands, no child in frame, the cold blue light softening toward morning.",
+      "text": [
+        [
+          "D1",
+          "不行。{{e_jaime|海梅}}身体弱，你那屋子又乱，只有乡下适合他。"
+        ],
+        [
+          "D2",
+          "近几个月他已经好些了。我会收拾屋子，请{{e_abbess|院长}}找个管家，教他西班牙语、拉丁文、音乐，教他该懂的事。只要一年。"
+        ],
+        [
+          "D1",
+          "母亲不能这样和孩子分开。我和孩子们会尽力过下去，别再想我的事。"
+        ],
+        [
+          "N",
+          "[[NPC2]]见请求无效，突然换了一句话。"
+        ],
+        [
+          "D2",
+          "那就把欠我的钱还给我。"
+        ],
+        [
+          "N",
+          "[[NPC1]]站住。贫穷一直是她竭力藏好的事，此刻被当面打开。她沉默了一会儿，声音变得沙哑。"
+        ],
+        [
+          "D1",
+          "我钱很少。有多少，就还多少。我还有几件{{e_jewels|首饰}}，现在就给你。以后我们不必再见面。原来你是这么硬心肠的人。不过，欠了钱，我应该还。"
+        ],
+        [
+          "D2",
+          "我不要钱。那样说，只是想让你答应请求。让我教养他一年，我会疼他、照顾他。从前，我是一个坏老师吗？"
+        ],
+        [
+          "D1",
+          "总说感恩，感恩，感恩，你太残忍了。我曾经感激，好，可我现在已经不是从前那个女人。"
+        ],
+        [
+          "N",
+          "她望了一会儿天上的星，没有立刻答应。等她再次开口，谈话里终于出现了另一个人的意愿。"
+        ],
+        [
+          "D1",
+          "如果孩子愿意和你去，那就去。早晨我会问他。若他愿意，中午你会在客店见到他。晚安，愿上帝保佑。"
+        ],
+        [
+          "N",
+          "她转身回屋。索债的话收了回去，却不能当作从未说过；教养的承诺说出口了，也还要等那个孩子醒来，亲自作答。她没有给出一个永远放弃母亲决定权的答复。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_19",
+      "row": 9,
+      "col": "名场面",
+      "title": "过了桥就休息",
+      "form": "scene",
+      "answers": [
+        "e_pio",
+        "e_jaime",
+        "e_bridge"
+      ],
+      "sources": [
+        "EN_D-P0374",
+        "EN_D-P0023–P0033",
+        "EN_D-P0383"
+      ],
+      "cg": "A thin older man with sparse beard carries a delicate young boy on his shoulder as they approach a narrow Andean rope footbridge; boy holds a small bundle and looks tired, an older noblewoman and young girl ahead near the entrance, distant cargo path below, no falling or collapse.",
+      "text": [
+        [
+          "N",
+          "第二天中午，严肃的小男孩来到客店。他从前考究的衣服，如今已经破旧、沾了污迹，手里只带一个小小的换洗包裹。母亲给了一枚{{e_coin|金币}}作零用，还给了一块{{e_stone|在暗处发亮的小石头}}，让他失眠时可以看一看。"
+        ],
+        [
+          "N",
+          "[[NPC1]]带[[NPC2]]上了车。没走多久，他便发现颠簸使孩子不舒服，于是把他扛到肩上，继续往前。那些准备教的语言、音乐和礼仪，都还在城里等着；这一程先要照顾的，是孩子承受不了车轮跳动的身体。"
+        ],
+        [
+          "N",
+          "快到河谷时，男孩感觉一阵熟悉的发作将要到来。他想藏住羞耻，尤其不愿在陌生人面前显出来。偏偏这时，他们追上了长者认识的{{e_captain|海船船长}}。大人之间的寒暄十分平常，孩子却只顾着小心安放自己的脸和手。"
+        ],
+        [
+          "N",
+          "再往前，长者又同一位带着少女同行的老妇人说了几句话。那是{{e_maria|玛丽亚}}和{{e_pepita|佩皮塔}}。每个人都带着属于自己的来路，却在这里短暂地成了一队过河的人。"
+        ],
+        [
+          "N",
+          "他说，过了桥就坐下歇一歇。孩子不必把全部路程都走完，只要先到对岸。那是一个寻常而具体的照料打算：找地方坐下，让这一阵不适过去，再继续往城里走。"
+        ],
+        [
+          "N",
+          "他们没有到达那处休息的地方。桥在这一天坠入河谷，原先还各不相干的五段人生，从此被人用同一个日期说起。{{e_juniper|胡尼佩尔}}站在桥前见证了这一刻。后来，他要问这究竟是偶然，还是{{e_providence|天意}}；{{e_letters|书信}}、回忆与互相矛盾的话语，将把那些名字重新带到他面前。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_20",
+      "row": 9,
+      "col": "卡米拉",
+      "title": "放进行李的小石头",
+      "form": "monologue",
+      "answers": [
+        "e_camila"
+      ],
+      "sources": [
+        "EN_D-P0372–P0374"
+      ],
+      "adaptation": "据同意条件及母亲所赠两件物品重构出发前独白；不赋予石头魔力或预知意义。",
+      "cg": "A mother's hands place an ordinary small pale mineral stone and one gold coin beside a child's modest bundle of clothes on a country house table, a boy's garnet velvet sleeve at the edge of frame, morning light, no magical glow or occult symbolism.",
+      "text": [
+        [
+          "M",
+          "{{e_jaime|海梅}}愿意去。于是有些东西便必须准备，不能只停在昨夜那句‘如果’里面。衣服已经不像从前那样体面，{{e_pio|皮奥}}会看见，也许城里别的人都会看见；但我不能为了藏住这一点，就把孩子也一直留在屋里。"
+        ],
+        [
+          "M",
+          "一枚{{e_coin|金币}}，可以由他自己花。还有这块{{e_stone|小石头}}，晚上睡不着时，在暗处看着它，至少不必始终望着黑。我给不了一个不会痛、不会害怕的夜晚，只能把手边这件小东西交给他。"
+        ],
+        [
+          "M",
+          "说好是一年。我也记得今早他说过的狠话，记得自己为什么不愿再被要求感激。把孩子交出去，并没有把这些事一同抹平。"
+        ],
+        [
+          "M",
+          "行李并不多，整理好以后，桌上很快又空了。我仍在这所{{e_villa|山庄}}里，门口不必有人一直等着。可一想到他今夜会睡在另一间屋子，我还是想再摸一摸那只已经交出去的包裹。"
+        ]
+      ]
+    }
+  ]
+}

@@ -20,11 +20,12 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
-GAME = ROOT / "workspace" / "xidaduo"
+GAME = BOOK
 ZH = GAME / "final_game.json"
-ZH_GIT = "workspace/xidaduo/final_game.json"
+ZH_GIT = str(ZH.relative_to(Path(subprocess.check_output(["git", "rev-parse", "--show-toplevel"], cwd=ROOT, text=True).strip())))
 LOCALES = ("de", "en", "es", "fr", "ja", "ko", "hi", "zh-TW")
 LATIN_LIKE = {"de", "en", "es", "fr", "hi"}  # 这些语言的译文里不该残留汉字
 
@@ -111,11 +112,12 @@ def usable(loc: str, text) -> bool:
 
 
 class Builder:
-    def __init__(self, loc: str, zh_new, zh_base, old):
+    def __init__(self, loc: str, zh_new, zh_base, old, precise=False):
         self.loc = loc
         self.new = zh_new
         self.base = zh_base
         self.old = old
+        self.precise = precise
         self.out = copy.deepcopy(zh_new)
         self.todo: list[dict] = []
         self.reused = 0
@@ -171,7 +173,7 @@ class Builder:
             bsegs = b["segments"] if b else []
             osegs = o["segments"] if o else []
             aligned = b is not None and o is not None and len(bsegs) == len(osegs)
-            key = lambda s: (s.get("speaker"), s.get("text"))  # noqa: E731
+            key = lambda s: (s.get("kind"), s.get("speaker"), s.get("speakerEntry"), s.get("slot"), s.get("text"))  # noqa: E731
             same: dict[int, int] = {}  # new j → base i（整段相同）
             if aligned:
                 sm = difflib.SequenceMatcher(a=[key(s) for s in bsegs], b=[key(s) for s in nsegs], autojunk=False)
@@ -204,8 +206,12 @@ class Builder:
 
     def bgm(self):
         old_by_id = {t.get("id"): t for t in (self.old.get("assets", {}).get("bgm") or [])}
+        base_by_id = {t.get("id"): t for t in (self.base.get("assets", {}).get("bgm") or [])}
         for i, t in enumerate(self.new.get("assets", {}).get("bgm") or []):
             ref = (old_by_id.get(t["id"]) or {}).get("title")
+            if self.precise and (base_by_id.get(t['id']) or {}).get('title') == t['title'] and usable(self.loc, ref):
+                self.reuse(('assets', 'bgm', str(i), 'title'), ref)
+                continue
             self.need(("assets", "bgm", str(i), "title"), t["title"], ref,
                       f"BGM 曲名 id={t['id']} stage={t.get('stage')}（短，诗意，4~30 字母/字）")
 
@@ -220,7 +226,10 @@ class Builder:
             if sec in self.new:
                 self.by_path((sec,), ctx=sec)
         for sec in ALWAYS_RETRANSLATE:
-            self.retranslate((sec,), ctx=sec)
+            if self.precise and sec in self.base and sec in self.old:
+                self.by_path((sec,), ctx=sec)
+            else:
+                self.retranslate((sec,), ctx=sec)
         self.bgm()
         return self.out
 

@@ -11,7 +11,7 @@ parser.add_argument('--port', type=int, default=4186)
 args = parser.parse_args()
 public = root / 'dist'
 if not (public / 'index.html').is_file():
-    parser.exit(1, '尚未构建游戏。请在工程目录运行：npm --prefix game ci && npm run build\n')
+    parser.exit(1, '尚未构建当前工程。请在工程目录运行：npm --prefix engine/frontend ci && npm run build\n')
 
 class Handler(SimpleHTTPRequestHandler):
     def list_directory(self, path):

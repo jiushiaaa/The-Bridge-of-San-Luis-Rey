@@ -6,10 +6,11 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "workspace" / "xidaduo" / "final_game.json"
-DEST = ROOT / "workspace" / "xidaduo" / "i18n" / "zh-TW" / "final_game.json"
+SRC = BOOK / "final_game.json"
+DEST = BOOK / "i18n" / "zh-TW" / "final_game.json"
 
 SKIP = {
     "look",
@@ -34,6 +35,7 @@ SKIP = {
     "answerEntry",
     "answerTitle",
     "kind",
+    "note", "tags", "art",
 }
 
 # 常见简繁（台湾）补字，OpenCC 不可用时的兜底
@@ -55,15 +57,17 @@ def convert_str(s: str, cc) -> str:
     return s.translate(PAIR)
 
 
-def walk(obj, cc):
+def walk(obj, cc, parts=()):
     if isinstance(obj, dict):
         for k, v in list(obj.items()):
             if k in SKIP:
                 continue
-            obj[k] = walk(v, cc)
+            if k == 'prompt' and parts[:2] == ('assets', 'bgm'):
+                continue
+            obj[k] = walk(v, cc, parts + (k,))
         return obj
     if isinstance(obj, list):
-        return [walk(v, cc) for v in obj]
+        return [walk(v, cc, parts + (str(i),)) for i, v in enumerate(obj)]
     if isinstance(obj, str):
         return convert_str(obj, cc)
     return obj

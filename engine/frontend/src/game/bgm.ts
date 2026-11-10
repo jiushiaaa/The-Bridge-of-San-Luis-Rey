@@ -46,6 +46,7 @@ type Pref = { mode: BgmMode };
 
 let audio: HTMLAudioElement | null = null;
 let fadeTimer: number | null = null;
+let finishFade: (() => void) | null = null;
 let mode: BgmMode = 'shuffle';
 let excluded: string[] = [];
 let pinned: string[] = [];
@@ -166,6 +167,29 @@ function clearFade(): void {
     window.clearInterval(fadeTimer);
     fadeTimer = null;
   }
+  const finish = finishFade;
+  finishFade = null;
+  finish?.();
+}
+
+/** Normalizes measured track levels without modifying the source recording. */
+function trackVolume(def: BgmTrackDef | undefined): number {
+  const gain = def?.gainDb;
+  return Math.max(0, Math.min(1, VOLUME * Math.pow(10, (typeof gain === 'number' && Number.isFinite(gain) ? gain : 0) / 20)));
+}
+
+function fadeIn(el: HTMLAudioElement, def: BgmTrackDef): void {
+  clearFade();
+  const target = trackVolume(def);
+  const duration = Math.max(0, Math.min(5000, def.fadeInMs ?? 0));
+  if (!duration) { el.volume = target; return; }
+  el.volume = 0;
+  const started = performance.now();
+  fadeTimer = window.setInterval(() => {
+    const p = Math.min(1, (performance.now() - started) / duration);
+    el.volume = target * p;
+    if (p >= 1) clearFade();
+  }, 40);
 }
 
 export function bgmTrackById(id: string | null | undefined): BgmTrackDef | undefined {
@@ -327,10 +351,18 @@ async function applyTrack(nextId: string | null, { soft }: { soft?: boolean } = 
   if (same) {
     el.loop = shouldLoop();
     if (canPlayNow()) {
+      // A quick re-enable/reselection cancels the pending fade-out. Otherwise
+      // its timer can pause the newly requested playback a second later.
+      if (finishFade) {
+        clearFade();
+        el.volume = trackVolume(def);
+      }
       if (el.paused) {
         try {
+          if (def.fadeInMs) el.volume = 0;
           await el.play();
           if (seq !== applySeq) return;
+          fadeIn(el, def);
           playing = true;
         } catch {
           playing = false;
@@ -356,15 +388,17 @@ async function applyTrack(nextId: string | null, { soft }: { soft?: boolean } = 
   trackId = nextId;
   el.loop = shouldLoop();
   el.src = assetUrl(def.file);
-  el.volume = VOLUME;
+  el.volume = trackVolume(def);
   playing = false;
   emitProgress(0, 0);
   emit();
 
   if (!canPlayNow()) return;
   try {
+    if (def.fadeInMs) el.volume = 0;
     await el.play();
     if (seq !== applySeq) return;
+    fadeIn(el, def);
     playing = true;
   } catch {
     playing = false;
@@ -381,6 +415,7 @@ function fadeOutAndPause(): Promise<void> {
       return;
     }
     clearFade();
+    finishFade = resolve;
     const start = el.volume;
     const t0 = performance.now();
     fadeTimer = window.setInterval(() => {
@@ -389,7 +424,7 @@ function fadeOutAndPause(): Promise<void> {
       if (p >= 1) {
         clearFade();
         el.pause();
-        el.volume = VOLUME;
+        el.volume = trackVolume(bgmTrackById(trackId));
         playing = false;
         emit();
         resolve();
@@ -533,20 +568,24 @@ export function stopBgm(): void {
 export function reloadBgmFile(id: string): void {
   const def = bgmTrackById(id);
   if (!def || trackId !== id || !audio) return;
+  const seq = ++applySeq;
   const el = audio;
   const wasPlaying = !el.paused;
   clearFade();
   el.pause();
   el.src = assetUrl(def.file);
-  el.volume = VOLUME;
+  el.volume = trackVolume(def);
   el.loop = shouldLoop();
   playing = false;
   emitProgress(0, 0);
   emit();
   if (wasPlaying && canPlayNow()) {
+    if (def.fadeInMs) el.volume = 0;
     void el
       .play()
       .then(() => {
+        if (seq !== applySeq) return;
+        fadeIn(el, def);
         playing = true;
         emit();
       })

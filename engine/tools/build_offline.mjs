@@ -22,6 +22,7 @@ const FRONTEND = path.join(ROOT, 'frontend');
 const DIST = path.join(FRONTEND, 'dist');
 
 const GAMES = {
+  slr: path.join(ROOT, 'workspace', 'sanluisrey', 'index.html'),
   xdd: path.join(ROOT, 'workspace', 'xidaduo', 'index.html'),
   bad: path.join(ROOT, 'workspace', 'badblood', 'index.html'),
   murder: path.join(ROOT, 'workspace', 'murder', 'index.html'),

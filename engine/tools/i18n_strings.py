@@ -7,9 +7,10 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
-ZH = ROOT / "workspace" / "xidaduo" / "final_game.json"
+ZH = BOOK / "final_game.json"
 SKIP_KEYS = {
     "id",
     "file",
@@ -41,6 +42,9 @@ SKIP_KEYS = {
     "len",
     "status",
     "tier",
+    "art", "note", "tags", "stage", "unlockCard", "revealAt",
+    "answer", "answerEntry", "answerTitle", "pool", "speakerEntry",
+    "levelStartEntries", "cgChars", "cgCharVariants",
 }
 
 
@@ -53,13 +57,15 @@ def walk(obj, parts: list[str], out: list[dict], parent_key: str | None = None):
         for k, v in obj.items():
             if k in SKIP_KEYS:
                 continue
+            if k == "prompt" and parts[:2] == ["assets", "bgm"]:
+                continue
             walk(v, parts + [k], out, k)
     elif isinstance(obj, list):
         for i, v in enumerate(obj):
             walk(v, parts + [str(i)], out, parent_key)
     elif isinstance(obj, str) and obj.strip():
         # 资源路径不抽
-        if obj.startswith("xdd-assets/") or obj.startswith("assets/"):
+        if obj.startswith(("xdd-assets/", "slr-assets/", "assets/")):
             return
         out.append({"path": pointer(parts), "zh": obj, "text": obj})
 
@@ -88,15 +94,15 @@ def extract(loc: str) -> None:
     data = json.loads(ZH.read_text(encoding="utf-8"))
     rows: list[dict] = []
     walk(data, [], rows)
-    dest = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "strings.json"
+    dest = BOOK / "i18n" / loc / "strings.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"extracted {len(rows)} strings -> {dest}")
 
 
 def merge(loc: str) -> None:
-    pack_path = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "final_game.json"
-    str_path = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "strings.json"
+    pack_path = BOOK / "i18n" / loc / "final_game.json"
+    str_path = BOOK / "i18n" / loc / "strings.json"
     data = json.loads(ZH.read_text(encoding="utf-8"))
     rows = json.loads(str_path.read_text(encoding="utf-8"))
     n = 0

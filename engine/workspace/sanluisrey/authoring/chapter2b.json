@@ -1,0 +1,450 @@
+{
+  "level": 2,
+  "cards": [
+    {
+      "id": "c2_11",
+      "row": 5,
+      "col": "名场面",
+      "title": "隔着一条街",
+      "form": "scene",
+      "answers": [
+        "e_esteban",
+        "e_abbess",
+        "e_lima"
+      ],
+      "sources": [
+        "EN_D-P0197–P0208"
+      ],
+      "cg": "A solitary dark-haired young man glimpses a funeral procession from a parallel street, candles carried in daylight and distant black mourning hoods; the foreground stays on his hesitant posture, no skull close-ups, colonial Lima alleys.",
+      "text": [
+        [
+          "N",
+          "{{e_manuel|曼努埃尔}}死后，[[NPC1]]不肯再走近那栋楼。他开始长久地步行，绕远路，又慢慢回到附近，在两条街以外徘徊。客店主人无法安排一切，只好去请养大兄弟俩的人。"
+        ],
+        [
+          "N",
+          "[[NPC2]]来了，清楚稳妥地吩咐该做的事，随后走到街角。他看着她，目光里有渴望，也有戒备；等她走近，又侧过身，把脸转开。"
+        ],
+        [
+          "D2",
+          "帮我一点忙，好吗？进来看看你的兄弟，陪我一会儿。"
+        ],
+        [
+          "D1",
+          "不。"
+        ],
+        [
+          "N",
+          "她想起两人少年时坐在膝边，听受难的故事，其中一个忽然说，如果他们在场，便会把事情拦下来。眼前这个青年如今连一扇熟悉的门也跨不过去。她没有责备，只换了一个问题，问他究竟是哪一个。"
+        ],
+        [
+          "D1",
+          "曼努埃尔。"
+        ],
+        [
+          "N",
+          "她顺着这个名字继续求他进屋，提起从前他肯替自己跑腿、在她生病时送来汤水。她没有细数自己做过的恩惠。等她终于说到自己也失去过人、说到神的安排，青年却慢慢离开，二十步以后又停下来。"
+        ],
+        [
+          "N",
+          "送葬那天，白日里也点着蜡烛，罩着黑头巾的人唱起令人畏惧的圣歌。他没有加入队伍，只在平行的街道里跟着，走到路口，望见那行人，又失去那行人的踪影。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_12",
+      "row": 5,
+      "col": "埃斯特班",
+      "title": "借来的回答",
+      "form": "monologue",
+      "answers": [
+        "e_esteban"
+      ],
+      "sources": [
+        "EN_D-P0197–P0208"
+      ],
+      "adaptation": "据丧兄后自称曼努埃尔的行为重构内心，不作临床诊断，不把虚构内心当调查证词。",
+      "cg": "A bereaved young man pauses beside a whitewashed street wall, his own shadow and an empty patch of light beside it, one distant convent arch, dark hair and plain clothes, no ghost or supernatural double.",
+      "text": [
+        [
+          "M",
+          "她问我是哪一个。我说了{{e_manuel|曼努埃尔}}。以前别人也总认错，我们不一定会纠正。只要另一个还在，同一个错误改不改，好像都没有什么要紧。"
+        ],
+        [
+          "M",
+          "{{e_abbess|院长}}叫着那个名字，请我进去。她没有说我答错，只说需要我帮忙。我听见她提起送汤，提起从前跑过的路。那些事情我都记得，可为什么她现在要我走的这一小段，会变得那么远？"
+        ],
+        [
+          "M",
+          "我不愿回{{e_room|那间屋子}}，走着走着却总到了附近。转过这一条街，再转过另一条，好像只是在办一件没有办完的差事。路上的人从我身边经过，谁也不需要把原来的路重新学一遍。"
+        ],
+        [
+          "M",
+          "她说自己也曾失去过。我想听，又怕她接下来便要告诉我，事情应当这样过去。于是我走开，走出一段，仍停下来看。身后有人叫我，我却不知道用哪一个名字回去。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_13",
+      "row": 6,
+      "col": "名场面",
+      "title": "我的朋友",
+      "form": "scene",
+      "answers": [
+        "e_abbess",
+        "e_esteban",
+        "e_convent"
+      ],
+      "sources": [
+        "EN_D-P0209"
+      ],
+      "cg": "At the convent threshold an elderly abbess takes one careful step toward a grieving young man who stands trembling in the street, a great deal of empty space between them, overcast daylight, no physical restraint.",
+      "text": [
+        [
+          "N",
+          "几个月里，人们从各处带来青年人的消息。有人在干涸的河床看见他，有人在古老遗迹间遇上他，还有牧人见他满身露水站在山顶。他会找到赶车或牧羊的活，做上一阵，又不声不响地走掉。他走得很远，却总回到利马。"
+        ],
+        [
+          "N",
+          "一名修女跑来告诉[[NPC1]]，[[NPC2]]又在门外。她为这次重见已经想过许多办法：怎样使一个失去兄弟的人，重新愿意生活在人群里？此刻她把那些急切压下去，尽量平静地走到门口。"
+        ],
+        [
+          "D1",
+          "我的朋友。"
+        ],
+        [
+          "N",
+          "他站着发抖。那双眼睛里的渴望与不信任，她已经见过。她没有立刻要求他帮忙，也没有把人召进屋里，只又低声说了一次。"
+        ],
+        [
+          "D1",
+          "我的朋友。"
+        ],
+        [
+          "N",
+          "她向前一步，他却突然转身跑了。她跌跌撞撞地回到书桌旁，跪下来，愤怒地责问上帝：自己一直求智慧，为何一点也没有得到？她不过是一个擦地板的人。"
+        ],
+        [
+          "N",
+          "这些话使她责罚自己，可责罚并没有取消眼前的事。就在那段时间，她想到{{e_captain|阿尔瓦拉多船长}}。三周以后，两人谈了十分钟。第二天，船长便去找青年人，据说他正在库斯科替大学抄写东西。一次没有成功的挽留，终于变成了向另一个人求助。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_14",
+      "row": 6,
+      "col": "埃斯特班",
+      "title": "化妆室门口",
+      "form": "monologue",
+      "answers": [
+        "e_esteban"
+      ],
+      "sources": [
+        "EN_D-P0209",
+        "EN_D-P0115",
+        "EN_D-P0155"
+      ],
+      "adaptation": "原著仅记一次欲言又止的来访；这里的未出口念头为改编，不编造向卡米拉追责的实际对话。",
+      "cg": "A grieving young copyist at the threshold of an actress's dressing room, she turns from a modest mirror toward him, his mouth slightly open but no words emerging, backstage stairs visible behind, daytime dust in the light.",
+      "text": [
+        [
+          "M",
+          "这条后台楼梯，我走过许多回，抱着抄好的{{e_scripts|剧本}}，送上去，再下来。以前只想着交完差就走。现在走到门口，竟不知道手里没有东西，自己为什么来了。"
+        ],
+        [
+          "M",
+          "{{e_camila|卡米拉}}看见我。我很想开口，可该说什么？说我并不是那个替她写信的人？还是说，那个人已经不可能再来？她曾那么有把握地把我们并排拉到面前，宣布其中一个年纪更小。如今只剩一张脸，她会不会反倒认错？"
+        ],
+        [
+          "M",
+          "房间里有镜子，有演戏用的东西。我记得那个深夜，她俯在{{e_manuel|曼努埃尔}}耳旁说话，我从床上望过去，以为那里已经没有我的位置。后来位置重新空出来，事情却没有回到从前。"
+        ],
+        [
+          "M",
+          "她等着我。我看着她，仍没有把那句话找出来。门外的楼梯就在身后，我又走回去。这一次，没有人会问我，怎么交一份东西也去了那么久。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_15",
+      "row": 7,
+      "col": "名场面",
+      "title": "一张晚饭的邀请",
+      "form": "dialogue",
+      "answers": [
+        "e_captain",
+        "e_esteban",
+        "e_cuzco"
+      ],
+      "sources": [
+        "EN_D-P0211–P0241"
+      ],
+      "adaptation": "依据库斯科厨房相遇节译；保留船长起初提议兄弟同行，以及幸存者重新报出自己的名字。",
+      "cg": "A weathered sea captain quietly approaches a dark-haired young man in a shadowed inn kitchen in Cuzco after a meal, rough wooden bowls and a long table, neither man quite meeting the other's eyes, no sailor costume exaggeration.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]走进昏暗的厨房，没有立刻向青年打招呼。[[NPC2]]把椅子往阴影里挪了一点。他们从前一起卸过货，三个人都不爱说废话；这位航海者出现，使他有一点高兴，也使他想赶快藏好。等饭吃完，对方才走来。"
+        ],
+        [
+          "D1",
+          "你以前替我卸过船。我在找几个强壮的人，准备下一趟航行。愿意来吗？英国，还有俄国。活很重，报酬不错，离秘鲁很远。"
+        ],
+        [
+          "N",
+          "青年盯着桌面，许久不答。船长把问题又说了一遍。"
+        ],
+        [
+          "D2",
+          "好，我去。"
+        ],
+        [
+          "D1",
+          "很好。自然，我也想让你兄弟一起去。"
+        ],
+        [
+          "D2",
+          "不。"
+        ],
+        [
+          "D1",
+          "他不愿意吗？让我和他谈谈。他在哪里？"
+        ],
+        [
+          "D2",
+          "……死了。"
+        ],
+        [
+          "N",
+          "两人都看着地面。船长问他叫什么，他这次说出了自己的名字，没有再借用另一个。"
+        ],
+        [
+          "D1",
+          "{{e_manuel|曼努埃尔}}什么时候去的？"
+        ],
+        [
+          "D2",
+          "几个星期前。他撞伤了膝盖。就几个星期。"
+        ],
+        [
+          "D1",
+          "你多大了？"
+        ],
+        [
+          "D2",
+          "二十二。我要走了，城里还有一件事。"
+        ],
+        [
+          "D1",
+          "那么晚上回来，陪我吃饭，谈谈航程。到时候来喝一点酒，好吗？"
+        ],
+        [
+          "D2",
+          "好。"
+        ],
+        [
+          "N",
+          "没有人说出一句足以解释死亡的话。桌上只是留下了一个可以兑现的约定：今晚，再回到这里坐一会儿。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_16",
+      "row": 7,
+      "col": "埃斯特班",
+      "title": "给我事情做",
+      "form": "monologue",
+      "answers": [
+        "e_esteban"
+      ],
+      "sources": [
+        "EN_D-P0242–P0247"
+      ],
+      "adaptation": "据晚饭时关于船上工作和睡眠的发言节译重构；删除关于冒险方式的逐项列举，不把心理危机做玩法。",
+      "cg": "A young man leans forward intensely over a simple supper table while a weathered captain listens, a coil of ordinary ship rope visible far in the background, two cups, restrained warm light, no dangerous action.",
+      "text": [
+        [
+          "M",
+          "到了船上，请一直给我事情做，{{e_captain|船长}}。什么都可以。白天不够，夜里也可以，反正我原本就睡不好。别让我坐在那里，等着下一阵钟声。"
+        ],
+        [
+          "M",
+          "也别向那些人讲我的事。我知道他们也许只是好心，可他们一安静下来，看着我，我就不知道应该怎样站着。您可以装作从前不认识我，给我最多的活，别让我觉得自己是被特别照看的那个。"
+        ],
+        [
+          "M",
+          "桌前的抄写做不下去了。{{e_scripts|稿本}}就在眼前，字一个个排列得很整齐，旁边却总像应该还有一支笔。有时候我宁可累得什么都不想。"
+        ],
+        [
+          "M",
+          "您问起我曾经救过一个人。我记得那件事，也记得自己为什么会说着说着，突然换了话题。我们从前养过一条狗——不，这个先不说。您认识{{e_abbess|院长}}吗？在走之前，我还有一件事想为她做。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_17",
+      "row": 8,
+      "col": "名场面",
+      "title": "不是我一个人的",
+      "form": "dialogue",
+      "answers": [
+        "e_esteban",
+        "e_captain",
+        "e_cuzco"
+      ],
+      "sources": [
+        "EN_D-P0247–P0250",
+        "EN_D-P0210"
+      ],
+      "adaptation": "据赠礼谈话节译；不编造礼物具体品种，不把侯爵夫人对船长的推测当其自述事实。",
+      "cg": "A bereaved young man asks an older captain for an advance at a plain inn supper table, the captain listening with a grave compassionate face, a small coin pouch closed between them, no specific gift depicted, stars beyond the window.",
+      "text": [
+        [
+          "D1",
+          "离开以前，我想送{{e_abbess|院长}}一件{{e_gift|礼物}}。能把工钱先给我吗？我在外面用不上钱，现在就想给她买。"
+        ],
+        [
+          "D2",
+          "可以。早晨一起去挑。"
+        ],
+        [
+          "D1",
+          "也不只是我一个人送的。她从前……她曾经……"
+        ],
+        [
+          "N",
+          "[[NPC1]]想说出兄弟的名字，却没有做到。他换成更低的声音，提起院长自己曾说过，她也遭受过严重的失去。他不知道那个人是谁，却一直记得这句话。"
+        ],
+        [
+          "D1",
+          "我想给她一点东西。那样的事，她不容易受得住。"
+        ],
+        [
+          "N",
+          "他又说了很久。[[NPC2]]听着，答应第二天处理。等青年喝醉伏下，船长走到客店外的广场，看山脉和一群群星星。那时，他也想起一个声音：别去太久，等回来时，我就长成大姑娘了。"
+        ],
+        [
+          "N",
+          "他的女儿已经死了。{{e_maria|玛丽亚}}曾听他谈起她，把这个故事写进给自己女儿的信；他说，有时总觉得孩子只是在外旅行，或许在英国，过些日子还能再见。再远的航程，也没把这种错觉完全留在身后。"
+        ],
+        [
+          "N",
+          "船长又走回屋内，把青年抱回房间，坐着看了很久。明早要挑的东西还没有名字，答应做这件事的人却已经坐在这里。礼物属于两个兄弟，眼前的照料则只能先从一个活着的人开始。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_18",
+      "row": 8,
+      "col": "埃斯特班",
+      "title": "楼梯上的反悔",
+      "form": "monologue",
+      "answers": [
+        "e_esteban"
+      ],
+      "sources": [
+        "EN_D-P0251–P0263"
+      ],
+      "adaptation": "根据出发前的犹疑重构内心；不补写原著未给出的自我诊断。",
+      "cg": "A young man pauses halfway down a rough wooden inn staircase at morning, one hand on the banister, an older captain waiting below near the open doorway, bright mountain air outside contrasting with interior shadow.",
+      "text": [
+        [
+          "M",
+          "{{e_cuzco|库斯科}}的早晨到了。昨天已经答应了。今天站到楼梯上，才发现答应并没有把事情做完。{{e_captain|船长}}在下面等，我却忽然说，不能去，还是不能离开秘鲁。"
+        ],
+        [
+          "M",
+          "他没有提高声音，只问起给{{e_abbess|院长}}的礼物。那件事是真的，我不想收回。她说过自己也失去过人，我一直记得；昨晚想把另一个名字也加上，嘴里却怎么都说不出来。"
+        ],
+        [
+          "M",
+          "从前要拿主意，多半由{{e_manuel|曼努埃尔}}来。换一件差事，换一个地方，我们总能一起走。可这一次，去哪儿都只有一个人的脚步；留下来，熟悉的路同样没有改变。"
+        ],
+        [
+          "M",
+          "船长说，到海上会有事做，去把东西拿来就好。我转身往楼上走，把这一小段路走得很慢。门外还留着一个等我的人，我知道他在，却仍不知道怎样把自己带回他面前。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_19",
+      "row": 9,
+      "col": "名场面",
+      "title": "门被推开",
+      "form": "scene",
+      "answers": [
+        "e_captain",
+        "e_esteban",
+        "e_cuzco"
+      ],
+      "sources": [
+        "EN_D-P0263–P0264"
+      ],
+      "adaptation": "呈现危机与船长干预，省略自伤方式和准备细节；不设置方法选择、计时或失败惩罚。",
+      "cg": "A weathered captain has entered a modest inn bedroom and kneels near a grieving young man collapsed safely on the floor, the door open to morning light, expressive hands at rest, no rope, weapon, wound or self-harm method visible.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]在楼下等，时间过了很久。他往楼梯上走了一段，停下来听。起初没有声音，随后屋里的动静让他明白，青年正处在危险之中。"
+        ],
+        [
+          "N",
+          "他也曾有过最难熬的时刻，因此一瞬间竟不知道自己的介入是否有用。那犹疑只停留了片刻。他冲上去推开门，抓住了[[NPC2]]，没有让眼前的事继续发生。"
+        ],
+        [
+          "D2",
+          "走开。让我一个人待着。不要现在进来。"
+        ],
+        [
+          "N",
+          "青年伏到地上，反复说自己是孤单的。船长站在旁边，脸色灰白，旧日的痛苦也被重新唤醒。会辨认星辰、海流和海岬，不表示他就会找到安慰人的好句子。离开航海的事，他原本是个很笨拙的说话者。"
+        ],
+        [
+          "D1",
+          "我们只能尽力，尽力往前过。时间一直在走。有一天，会吃惊它竟这样过去了。"
+        ],
+        [
+          "N",
+          "他不能确定这些话有没有被听进去，也没有把它们说成一个保证。青年没有立即站起来，更没有因为有人开口，便重新看见生活的全部意义。屋里只是多了一个愿意留下的人。"
+        ],
+        [
+          "N",
+          "先前约好的{{e_gift|礼物}}、要去的港口、下一次航行，都还在门外等着。此刻船长没有催他回楼下，把这个早晨交给了一件更小、更近的事：陪他把眼前这一刻过完。"
+        ]
+      ]
+    },
+    {
+      "id": "c2_20",
+      "row": 9,
+      "col": "埃斯特班",
+      "title": "桥上与河边",
+      "form": "monologue",
+      "answers": [
+        "e_esteban"
+      ],
+      "sources": [
+        "EN_D-P0265"
+      ],
+      "adaptation": "出发路上的短独白为改编；船长监督货运、埃斯特班过桥及坠桥均为原著事实，不赋予其自杀意图。",
+      "cg": "A young dark-haired traveler seen from behind approaches an intact narrow rope bridge while an older captain takes the descending path toward cargo boats on the river far below, Peruvian mountain gorge, before the accident, no collapse.",
+      "text": [
+        [
+          "M",
+          "我们动身了。路仍是那些路，往前一段，再往前一段。我没有忽然变成另一个人，也没有把昨夜的事留在某个已经关上的房间里。只是有人走在旁边，不要求我每一步都解释为什么愿意继续。"
+        ],
+        [
+          "M",
+          "到了{{e_bridge|圣路易斯雷大桥}}，{{e_captain|船长}}要去下面看货物渡河。那些东西不从这条窄窄的人行桥上过，得有人到水边照看。我从桥上走。他去办自己的事，我们本来还要重新会合。"
+        ],
+        [
+          "N",
+          "青年踏上了桥。河谷下面，货运仍有自己的忙碌；桥上，脚步落在薄木板之间。就在这一次过河时，桥断了，他随桥坠落。"
+        ],
+        [
+          "N",
+          "船长留在下方，并不是因为事先知道危险。那天的分别没有告别的仪式，只有两个人各走了一条本来很寻常的路。后来再说起他们的远航计划，许多句子只能停在‘本来’两个字上。"
+        ]
+      ]
+    }
+  ]
+}

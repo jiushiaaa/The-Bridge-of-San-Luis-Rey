@@ -62,7 +62,7 @@ ROOT = Path(__file__).resolve().parent.parent
 for _stream in (sys.stdout, sys.stderr):
     if hasattr(_stream, "reconfigure"):
         _stream.reconfigure(encoding="utf-8", errors="replace")
-GAMES = {"xdd": "xidaduo", "bad": "badblood", "murder": "murder", "weicheng": "WeiCheng_QianZhongShu"}
+GAMES = {"slr": "sanluisrey", "xdd": "xidaduo", "bad": "badblood", "murder": "murder", "weicheng": "WeiCheng_QianZhongShu"}
 _args = [a for a in sys.argv[1:] if not a.startswith("--")]
 GAME = _args[0] if _args else "xdd"
 if GAME not in GAMES:
@@ -79,6 +79,7 @@ def blank_answers(b: dict) -> list:
 
 # 匿名铁律白名单（按游戏分开登记）：(卡id, 词条id) 允许真名在本卡正文出现
 LEAK_OK_BY_GAME = {
+    "slr": set(),
     "xdd": set(),
     "bad": set(),
     "murder": set(),

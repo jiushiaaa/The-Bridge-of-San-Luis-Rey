@@ -1,15 +1,21 @@
 {
   "name": "the-bridge-of-san-luis-rey",
-  "version": "1.0.0",
+  "version": "2.0.0-dev",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npm --prefix game run dev",
+    "dev": "npm --prefix engine/frontend run dev -- --host 127.0.0.1 --port 5196",
     "preview": "python3 tools/serve_game.py",
-    "build": "npm --prefix game run build",
-    "typecheck": "npm --prefix game run typecheck",
-    "validate": "python3 tools/validate_content.py",
-    "test": "node tools/test_engine.mjs",
-    "check": "npm run validate && npm run typecheck && npm test && npm run build"
+    "build": "node tools/build_current.mjs",
+    "typecheck": "npm --prefix engine/frontend run typecheck",
+    "validate": "python3 engine/tools/validate_data.py slr --author",
+    "validate:assets": "python3 engine/tools/validate_data.py slr --author --strict-assets",
+    "validate:i18n": "LUMI_GAME=slr python3 engine/tools/i18n_check.py en",
+    "i18n:status": "python3 engine/tools/slr_translation.py status",
+    "i18n:prepare": "python3 engine/tools/slr_translation.py prepare",
+    "i18n:merge": "python3 engine/tools/slr_translation.py merge",
+    "test": "node engine/tools/test_bgm.mjs && node engine/tools/test_slr_gameplay.mjs && python3 engine/tools/test_slr_translation.py",
+    "check": "npm run validate && npm run typecheck && npm test && npm run build",
+    "check:release": "npm run validate:assets && npm run validate:i18n && npm run typecheck && npm test && npm run build"
   }
 }

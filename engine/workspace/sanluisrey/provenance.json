@@ -1,0 +1,472 @@
+{
+  "frame": {
+    "intro1": [
+      "EN_D-P0023–P0033",
+      "EN_D-P0383"
+    ],
+    "intro2": [
+      "EN_D-P0110–P0117",
+      "EN_D-P0202"
+    ],
+    "intro3": [
+      "EN_D-P0277–P0302",
+      "EN_D-P0345–P0372"
+    ],
+    "ending": [
+      "EN_D-P0376–P0416"
+    ]
+  },
+  "cards": {
+    "c1_01": {
+      "source_anchors": [
+        "EN_D-P0036"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "8b0d9dacb582781203a501e0b2bde2175892c5042f0f8e26af1d3a8637771b16"
+    },
+    "c1_02": {
+      "source_anchors": [
+        "EN_D-P0036",
+        "EN_D-P0043"
+      ],
+      "text_mode": "依据童年、婚姻及自省段落重构内心独白；不是原文引语。",
+      "text_sha256": "699dd3e3e936a7dbc55480c5bfd2fb22e728179c3c9e55b0bee98d66a6cfd89e"
+    },
+    "c1_03": {
+      "source_anchors": [
+        "EN_D-P0036",
+        "EN_D-P0038"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "b414e4544fc8f76e438b8166efab9e4cd1804169382b4a367e0fca0001fb9bff"
+    },
+    "c1_04": {
+      "source_anchors": [
+        "EN_D-P0036",
+        "EN_D-P0043"
+      ],
+      "text_mode": "重构母亲面对女儿疏离的独白。",
+      "text_sha256": "bc902dcab6f824e3093b4e05fdad699b0595e1131815cb403d731d0d42b6c242"
+    },
+    "c1_05": {
+      "source_anchors": [
+        "EN_D-P0036"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "6f91de995f6ff62aa35715535534bc3fd079c9eaa2ddebef0aa77eb3ba259968"
+    },
+    "c1_06": {
+      "source_anchors": [
+        "EN_D-P0039"
+      ],
+      "text_mode": "据欧洲探亲失败及临行吻门的事实重构独白。",
+      "text_sha256": "b348312cb50e0dc1dda6fbe1fcd0e2b09f23991f8ec3f1e7b1a1f39e31d70cfe"
+    },
+    "c1_07": {
+      "source_anchors": [
+        "EN_D-P0040",
+        "EN_D-P0041",
+        "EN_D-P0045",
+        "EN_D-P0046",
+        "EN_D-P0053",
+        "EN_D-P0049–P0050"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "ee9e1810f67fa471fee87d07b3e9dd86f9da05f1c089def8a80a500255499fb7"
+    },
+    "c1_08": {
+      "source_anchors": [
+        "EN_D-P0042",
+        "EN_D-P0043"
+      ],
+      "text_mode": "据阳台自省段落重构；保留母亲认识到自己控制欲的矛盾。",
+      "text_sha256": "48d8bb99ff02dcdc1a94ec057a1755ac8a544847d8d815aad8c8edaf93804f4c"
+    },
+    "c1_09": {
+      "source_anchors": [
+        "EN_D-P0074",
+        "EN_D-P0075",
+        "EN_D-P0076",
+        "EN_D-P0077"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "5555fcc3b3924d7727446daa0a985aacdd90f2927f2e2210017fd90c731c5771"
+    },
+    "c1_10": {
+      "source_anchors": [
+        "EN_D-P0077",
+        "EN_D-P0086"
+      ],
+      "text_mode": "据佩皮塔对院长教育的回忆重构独白。",
+      "text_sha256": "49964f72a636195bb424465cb41d13cea25fe5bdd8d714c97ed3ce0bcec23541"
+    },
+    "c1_11": {
+      "source_anchors": [
+        "EN_D-P0078",
+        "EN_D-P0053"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "06e354960721c467862c0a1e0cc3ddb26b58418ad51c20a2c70f8752e0a651b6"
+    },
+    "c1_12": {
+      "source_anchors": [
+        "EN_D-P0078"
+      ],
+      "text_mode": "根据被留在教堂门外的事件重构独白；并非原文逐句译文。",
+      "text_sha256": "76f19eb009dcb96607d05f1eef0f3682038b55a53a768a3f74677dbb08e6aad9"
+    },
+    "c1_13": {
+      "source_anchors": [
+        "EN_D-P0049",
+        "EN_D-P0050",
+        "EN_D-P0269"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "af984c34eea07e01c5fe94490df065e6eb42169c7605c92e06246a1ec96d7d05"
+    },
+    "c1_14": {
+      "source_anchors": [
+        "EN_D-P0051",
+        "EN_D-P0054",
+        "EN_D-P0055",
+        "EN_D-P0056–P0073"
+      ],
+      "text_mode": "根据来访对话节译并连接；梦境由旁白明确限定。",
+      "text_sha256": "3c05109d790e69d1d5dd2fad8d0135263f04c9b513e6898e7c4599c1bbefd413"
+    },
+    "c1_15": {
+      "source_anchors": [
+        "EN_D-P0079–P0083"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "1c24ac65e88e7486ee4cd982fe2f75417d3d290397b5767820f4c31cfcb284a0"
+    },
+    "c1_16": {
+      "source_anchors": [
+        "EN_D-P0083",
+        "EN_D-P0084",
+        "EN_D-P0086"
+      ],
+      "text_mode": "据客栈布置与做饭事务重构独白。",
+      "text_sha256": "632c90a1336dec0507b716d2e676554f6cb37a21802edc21c360b50f5c95fc03"
+    },
+    "c1_17": {
+      "source_anchors": [
+        "EN_D-P0083–P0085"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "280a4d167756f0f81dccfc4d54cda5984e4d5ba31890ae760eb1e32671c4fae6"
+    },
+    "c1_18": {
+      "source_anchors": [
+        "EN_D-P0086–P0089"
+      ],
+      "text_mode": "据佩皮塔未寄出之信节译；省略以省略号表示，开头与末尾为改编连接。",
+      "text_sha256": "12c20279af1273aca865596be6a6e5c7caa085ad4545f523476bc2c1533ed878"
+    },
+    "c1_19": {
+      "source_anchors": [
+        "EN_D-P0088–P0107"
+      ],
+      "text_mode": "对话据英文节译；最后书信只写原著确证的态度，不伪造完整失载文本。",
+      "text_sha256": "134cac219f0b6dd2a6a2d42976271fc47166b5168bb4e9909098dfbb59d71f0e"
+    },
+    "c1_20": {
+      "source_anchors": [
+        "EN_D-P0103–P0107"
+      ],
+      "text_mode": "据撕信、失眠及侯爵夫人夜访重构内心；不把撕信解释成应受奖励的道德选择。",
+      "text_sha256": "da2e84f01aa8d5f66cac83fad06df5d164abb92c69960c62dea02a197e089c21"
+    },
+    "c2_01": {
+      "source_anchors": [
+        "EN_D-P0110"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "7b319512a58a45df0b1cde0db436a0c5e51af2d59e7a37d0f2e8e15f51b52199"
+    },
+    "c2_02": {
+      "source_anchors": [
+        "EN_D-P0200",
+        "EN_D-P0110"
+      ],
+      "text_mode": "以院长后来回忆的少年回答为核心，重构当时内心；不把回忆出现位置误作事件发生时间。",
+      "text_sha256": "46924e9a6d29f073a06eba64450205e9d96380fbf67c954fc2fdadf47a757005"
+    },
+    "c2_03": {
+      "source_anchors": [
+        "EN_D-P0111"
+      ],
+      "text_mode": "据语言访谈事件重构问答；兄弟给出的具体私语词形不见原文，因此不编造。",
+      "text_sha256": "d3f30640a56a352b8d234d4733baa4b1a6ba34ae7835b459a27a23b0ffbebecf"
+    },
+    "c2_04": {
+      "source_anchors": [
+        "EN_D-P0112",
+        "EN_D-P0113"
+      ],
+      "text_mode": "据避开共同出行与共同劳动的描写重构独白；不将小说的心灵感应写成可验证超能力。",
+      "text_sha256": "17dc709e839af8444b77a8bc5622fab9e0cbee2597f9d2b3c32607ce468ed772"
+    },
+    "c2_05": {
+      "source_anchors": [
+        "EN_D-P0114–P0117"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "66358384b02fd5a363e0bf3b17408d9f76f07fc792702f32b6cc988b54e5728c"
+    },
+    "c2_06": {
+      "source_anchors": [
+        "EN_D-P0118–P0150"
+      ],
+      "text_mode": "据代笔事件重构；两封信的收信人与用途保持原著，不沿用 OCR 中的异常单词。",
+      "text_sha256": "8333f777fe3f1aed00fdb9b39f76f88cafec388e4cd331d7e60c0bd6cfc656dc"
+    },
+    "c2_07": {
+      "source_anchors": [
+        "EN_D-P0151–P0157"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "76bf8d9684f13af7b133c7cccde32102249cdb58b93e90bd5fd51eae122464e3"
+    },
+    "c2_08": {
+      "source_anchors": [
+        "EN_D-P0158–P0170"
+      ],
+      "text_mode": "据原文争执节译；不把放弃情爱当作获得好结局的选择题。",
+      "text_sha256": "c3d4c2cbb7158a1b676cc630ae8104048f89578d5e3dbfa3654b9c882d765c9d"
+    },
+    "c2_09": {
+      "source_anchors": [
+        "EN_D-P0171–P0175",
+        "EN_D-P0195"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "d67799f679905433d70b06a46a6a57d786ba64356e93d531d57f0e74b23c8839"
+    },
+    "c2_10": {
+      "source_anchors": [
+        "EN_D-P0176–P0196"
+      ],
+      "text_mode": "据清醒时对话节译；同时保留诅咒、否认与疼痛状态，避免替人物作心理定论。",
+      "text_sha256": "3781967366aeff405e9086cd759b381333d1230f12e996e52485afbc179c9c9d"
+    },
+    "c2_11": {
+      "source_anchors": [
+        "EN_D-P0197–P0208"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "00a3c3b12640d8b5e0f05d5eba0b07be719cba65de35216f0c7a51978b867fbe"
+    },
+    "c2_12": {
+      "source_anchors": [
+        "EN_D-P0197–P0208"
+      ],
+      "text_mode": "据丧兄后自称曼努埃尔的行为重构内心，不作临床诊断，不把虚构内心当调查证词。",
+      "text_sha256": "eb8bb891016553cac1c06c1297d7e14c5ba9a179c91fbfaae8a19d375d8bd425"
+    },
+    "c2_13": {
+      "source_anchors": [
+        "EN_D-P0209"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "c12ced69d7495d928910a69a1833dcb1b73ab2f59d64a43f1af44094c613c688"
+    },
+    "c2_14": {
+      "source_anchors": [
+        "EN_D-P0209",
+        "EN_D-P0115",
+        "EN_D-P0155"
+      ],
+      "text_mode": "原著仅记一次欲言又止的来访；这里的未出口念头为改编，不编造向卡米拉追责的实际对话。",
+      "text_sha256": "8696d27831fb593e8b437f52b2afc522181fd35f6eadf1b92bd0d0c57222d279"
+    },
+    "c2_15": {
+      "source_anchors": [
+        "EN_D-P0211–P0241"
+      ],
+      "text_mode": "依据库斯科厨房相遇节译；保留船长起初提议兄弟同行，以及幸存者重新报出自己的名字。",
+      "text_sha256": "bcc0f85acaf605f21ec00a87da7813ffe7da56b36173f30d180839cec134a51a"
+    },
+    "c2_16": {
+      "source_anchors": [
+        "EN_D-P0242–P0247"
+      ],
+      "text_mode": "据晚饭时关于船上工作和睡眠的发言节译重构；删除关于冒险方式的逐项列举，不把心理危机做玩法。",
+      "text_sha256": "92ba57e2b2a639757a510440463585628a85ef1a975fe3e6b7f965a0b7a9551f"
+    },
+    "c2_17": {
+      "source_anchors": [
+        "EN_D-P0247–P0250",
+        "EN_D-P0210"
+      ],
+      "text_mode": "据赠礼谈话节译；不编造礼物具体品种，不把侯爵夫人对船长的推测当其自述事实。",
+      "text_sha256": "e32b27b4b94516bdbb3849305a7da1dbdf670ccf8797279eaaf9eb72b0d0102d"
+    },
+    "c2_18": {
+      "source_anchors": [
+        "EN_D-P0251–P0263"
+      ],
+      "text_mode": "根据出发前的犹疑重构内心；不补写原著未给出的自我诊断。",
+      "text_sha256": "36b3d837906c881a0c3b8b51aed1a50fc9043cc16cbb320033e5e68e03265850"
+    },
+    "c2_19": {
+      "source_anchors": [
+        "EN_D-P0263–P0264"
+      ],
+      "text_mode": "呈现危机与船长干预，省略自伤方式和准备细节；不设置方法选择、计时或失败惩罚。",
+      "text_sha256": "73a5f57fc9518bce21c64afc32e2253450ffa7a16fcfe73449c1f1274db13271"
+    },
+    "c2_20": {
+      "source_anchors": [
+        "EN_D-P0265"
+      ],
+      "text_mode": "出发路上的短独白为改编；船长监督货运、埃斯特班过桥及坠桥均为原著事实，不赋予其自杀意图。",
+      "text_sha256": "81324f3b1d2b26405887e61a313b59381af42a8446ddd2abbeb4652a227cdd81"
+    },
+    "c3_01": {
+      "source_anchors": [
+        "EN_D-P0272–P0276"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "4c0afd68cc1798b93fea8de16c5702207d7930880f52a95e2f54e208170cd4a2"
+    },
+    "c3_02": {
+      "source_anchors": [
+        "EN_D-P0273–P0277"
+      ],
+      "text_mode": "根据独居、训练动物与三个志向重构独白，保持人物自我辩解的归属。",
+      "text_sha256": "be669d53984bab305eaca45c6540251bd42a7aa4fbab5ec3a9e957db42e062e0"
+    },
+    "c3_03": {
+      "source_anchors": [
+        "EN_D-P0277"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "d6f82695453063dde3216ab785e680bf8dab636a149cd906c4815e9fc88c0f95"
+    },
+    "c3_04": {
+      "source_anchors": [
+        "EN_D-P0277–P0278"
+      ],
+      "text_mode": "据两人的巡游、风暴与临时劳动重构独白，不虚构有名有姓的旅伴或精确日期。",
+      "text_sha256": "df3936ff73a17a87841e5d0cd54d984b5cd60e350e77acc9520876d1f914cc7d"
+    },
+    "c3_05": {
+      "source_anchors": [
+        "EN_D-P0279–P0302"
+      ],
+      "text_mode": "据化妆间争执节译，保留技艺追求与伤害性训练并存。",
+      "text_sha256": "fc843f701bd32f6d3a3cbbab2414616ff5bf3bff79643c0856588e09f512dc5e"
+    },
+    "c3_06": {
+      "source_anchors": [
+        "EN_D-P0303"
+      ],
+      "text_mode": "据维科·德·巴雷拉孙女观演事件重构皮奥的观察；该诗人按小说人物呈现，不编造现实传记。",
+      "text_sha256": "e98f83cc9303d5e6b39d55e9fb32e38acd55b3f588f47f6d3da106a731ff5072"
+    },
+    "c3_07": {
+      "source_anchors": [
+        "EN_D-P0306–P0312"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "eae88a27d4eb3a8eacc59a0b7782a1342c872b2a992f632da99fb127d643b828"
+    },
+    "c3_08": {
+      "source_anchors": [
+        "EN_D-P0304–P0307",
+        "EN_D-P0313"
+      ],
+      "text_mode": "根据艺术倦怠、宫廷生活与内心冲突重构独白。",
+      "text_sha256": "ab45ff4bd6e86a7b2b4cafad0e971aeb3d88caeb0de8b3256b45bbf323eea2be"
+    },
+    "c3_09": {
+      "source_anchors": [
+        "EN_D-P0314–P0316"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "c8300d7cc23f2445f4348ff167a9222e3693f89587b6338ec1caec8b8065150f"
+    },
+    "c3_10": {
+      "source_anchors": [
+        "EN_D-P0315"
+      ],
+      "text_mode": "依据山中社交生活与海梅的幼年描写重构母亲观察；此处七岁属于原著较早肖像，不作为断桥时年龄。",
+      "text_sha256": "193e5622091eb3e818b73ea456d130c4df761609a6fe7235553dc2c5084690fc"
+    },
+    "c3_11": {
+      "source_anchors": [
+        "EN_D-P0317–P0342"
+      ],
+      "text_mode": "据黄昏花园对话节译，保留卡米拉拒绝重返舞台、皮奥迟来的道歉。",
+      "text_sha256": "8fb45cb5746a0ce32aebdf14be88fb1a8816e20df24b4d55fdb77772a4c9138d"
+    },
+    "c3_12": {
+      "source_anchors": [
+        "EN_D-P0316–P0317"
+      ],
+      "text_mode": "据被冷落后上楼陪孩子的探访重构内心；与花园对谈是不同次探访中的行为。",
+      "text_sha256": "5b34141c527d67d45bda143d3cb7d4ba19e682602d0b8666b381584ee576dc8f"
+    },
+    "c3_13": {
+      "source_anchors": [
+        "EN_D-P0343–P0344"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "5ce16bb790c0556a5772011ed7acd979d10155df34fe6960492f1c0b1d127a06"
+    },
+    "c3_14": {
+      "source_anchors": [
+        "EN_D-P0343–P0344"
+      ],
+      "text_mode": "据病后拒绝探访的心理描写重构独白；不是旁白认同她对所有来访者的猜测。",
+      "text_sha256": "ed7a40aaf0945339bfa1053214a4de367c89fa666daea0b9aafe731bbb31d34f"
+    },
+    "c3_15": {
+      "source_anchors": [
+        "EN_D-P0345–P0347"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "c029e66185a82c66500a0975bfeb9673145a2b018af9af4b120c5a63fb6991ae"
+    },
+    "c3_16": {
+      "source_anchors": [
+        "EN_D-P0347–P0348",
+        "EN_D-P0363–P0367"
+      ],
+      "text_mode": "据被逐后返回山中及教养愿望重构内心；策略是人物的自我辩护，不是游戏给出的正确建议。",
+      "text_sha256": "ac5ea11cdc21d0ccc62f6fd3a0925c3b75b44358c8ab31cad504eca9d7f0b3c3"
+    },
+    "c3_17": {
+      "source_anchors": [
+        "EN_D-P0348–P0362"
+      ],
+      "text_mode": "埃斯特雷娅是皮奥临时假扮的身份，不新增为真实出场少女。",
+      "text_sha256": "033cf8f732471867acc06058ffebd561fdde34208bc50d0cfd1b8a6f55fcab27"
+    },
+    "c3_18": {
+      "source_anchors": [
+        "EN_D-P0363–P0373"
+      ],
+      "text_mode": "据教养与索债谈话节译；保留海梅愿意这一前提，不以感恩代替同意。",
+      "text_sha256": "e23f1d1a897813bb286cc84cf9ff08ebe97444516c59501ab0c3a618c4726c07"
+    },
+    "c3_19": {
+      "source_anchors": [
+        "EN_D-P0374",
+        "EN_D-P0023–P0033",
+        "EN_D-P0383"
+      ],
+      "text_mode": "依据所列原著段落重述场景；对白连接与可感知细节可能有所重构。",
+      "text_sha256": "9b0943a7bc81ec3938d1b8fd9719a2294a0a0b66a77ba11889c2b9ed8c20a75a"
+    },
+    "c3_20": {
+      "source_anchors": [
+        "EN_D-P0372–P0374"
+      ],
+      "text_mode": "据同意条件及母亲所赠两件物品重构出发前独白；不赋予石头魔力或预知意义。",
+      "text_sha256": "4da413c7d80c1c225764eccaddc576a654dd901b9d15c0f248ae6184df93bbff"
+    }
+  }
+}

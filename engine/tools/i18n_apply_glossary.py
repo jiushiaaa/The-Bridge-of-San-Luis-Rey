@@ -7,10 +7,11 @@ import json
 import re
 import sys
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
-ZH = ROOT / "workspace" / "xidaduo" / "final_game.json"
-GLOSS = ROOT / "workspace" / "xidaduo" / "i18n" / "glossary.json"
+ZH = BOOK / "final_game.json"
+GLOSS = BOOK / "i18n" / "glossary.json"
 LOCALES = ("de", "en", "es", "fr", "ja", "ko", "hi", "zh-TW")
 MARK_RE = re.compile(r"\{\{(e_[a-z0-9_]+)\|[^}]*\}\}")
 SLOT_KEEP = {"slot", "kind", "answer", "answerEntry", "answerTitle"}
@@ -73,15 +74,11 @@ def restore_blank_keys(dst, src) -> None:
             restore_blank_keys(a, b)
 
 
-def apply(loc: str) -> None:
-    gloss = load_json(GLOSS)
-    zh = load_json(ZH)
+def localize(data, zh, gloss, loc: str) -> None:
     entries = gloss["entries"]
     plot = gloss["plotCol"][loc]
     names = {eid: row[loc] for eid, row in entries.items()}
     zh_name_to_id = {row["zh-CN"]: eid for eid, row in entries.items()}
-    path = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "final_game.json"
-    data = load_json(path)
 
     for eid, row in entries.items():
         if eid in data["entries"]:
@@ -118,6 +115,12 @@ def apply(loc: str) -> None:
     walk_text(data.get("frame"), names)
     walk_text(data.get("recaps"), names)
     walk_text(data.get("gates"), names)
+
+
+def apply(loc: str) -> None:
+    path = BOOK / "i18n" / loc / "final_game.json"
+    data = load_json(path)
+    localize(data, load_json(ZH), load_json(GLOSS), loc)
     dump_json(path, data)
     print(f"glossary applied -> {path}")
 

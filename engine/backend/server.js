@@ -17,13 +17,14 @@ const { execFile } = require('child_process');
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'frontend', 'dist');
 const ASSETS_MAP = {
+  '/slr-assets/': path.join(ROOT, 'workspace', 'sanluisrey', 'slr-assets'),
   '/xdd-assets/': path.join(ROOT, 'workspace', 'xidaduo', 'xdd-assets'),
   '/bad-assets/': path.join(ROOT, 'workspace', 'badblood', 'bad-assets'),
   '/murder-assets/': path.join(ROOT, 'workspace', 'murder', 'murder-assets'),
   '/wc-assets/': path.join(ROOT, 'workspace', 'WeiCheng_QianZhongShu', 'wc-assets'),
 };
 // 作品 id → workspace 目录（与 tools/validate_data.py 等的 GAMES 一致）
-const GAMES = { xdd: 'xidaduo', bad: 'badblood', murder: 'murder', weicheng: 'WeiCheng_QianZhongShu' };
+const GAMES = { slr: 'sanluisrey', xdd: 'xidaduo', bad: 'badblood', murder: 'murder', weicheng: 'WeiCheng_QianZhongShu' };
 const PORT = 6872;
 
 const MIME = {

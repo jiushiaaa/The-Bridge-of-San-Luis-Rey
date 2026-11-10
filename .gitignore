@@ -37,6 +37,9 @@ __pycache__/
 test-results/
 playwright-report/
 coverage/
+.build-current/
+/engine/workspace/sanluisrey/index.html
+/engine/workspace/sanluisrey/*.woff2
 *.zip
 *.pdf
 *.epub

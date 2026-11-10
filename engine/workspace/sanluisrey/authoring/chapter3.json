@@ -1,0 +1,397 @@
+{
+  "level": 3,
+  "rows": [
+    "皮奥的来路",
+    "街角的女孩",
+    "掌声与口哨",
+    "宫廷的夜谈",
+    "离开剧场",
+    "疏远与重访",
+    "天花之后",
+    "越过的门",
+    "一年之约",
+    "托付与出发"
+  ],
+  "columns": [
+    "名场面",
+    "皮奥",
+    "卡米拉"
+  ],
+  "cards": [
+    {
+      "id": "c3_01",
+      "row": 0,
+      "col": "名场面",
+      "title": "总从后门来",
+      "form": "scene",
+      "answers": [
+        "e_pio",
+        "e_lima"
+      ],
+      "sources": [
+        "EN_D-P0272–P0276"
+      ],
+      "cg": "A thin clever middle-aged Spanish adventurer with sparse moustache and beard slips through a quiet service corridor of a colonial Peruvian palace, plain worn brown coat and alert sad eyes, a tray of morning chocolate in the distance, no spy fantasy props.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]十岁时从父亲的庄园跑到马德里，家里没有认真把他找回去。他替商人发传单、看马、跑不便明说的差事，后来又训练过巡回马戏里的动物，做过饭，替人打听消息。认名字，认面孔，同陌生人说上话，他都有自己的办法。"
+        ],
+        [
+          "N",
+          "一桩生意眼看可以赚大钱，他却往往先厌倦了。他不愿被财产和长久的约定拴住，更不愿被关起来。可以从剧院转到宫廷，也可以从古董转到丝绸，只要下星期不必继续扮演上星期那个人。"
+        ],
+        [
+          "N",
+          "后来他来了秘鲁，几个月里便结识了城里许多人，接着又把海岸城镇、矿区和内地的消息串起来。{{e_viceroy|总督}}发现了他的用处。他走那些不引人注目的走廊，从后面进去，陪主人喝早晨的巧克力，也办些不宜交给普通侍从的事。"
+        ],
+        [
+          "N",
+          "他不明白，一个握有这么大权力的人，为什么没有更大的兴致去安排别人的命运；但对方能够随口引出塞万提斯，又知道哪些差事不该逼他去做，这使他愿意来往。"
+        ],
+        [
+          "N",
+          "城里人叫他叔叔，却不是因为他同谁有确切的血缘。他替女人写信，在她们失意时借钱，生病时比情人和女仆守得更久。那些人的生活给了他一个随时可以进出的地方；他喜欢被信任，也喜欢自己比别人知道得更多。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_02",
+      "row": 0,
+      "col": "皮奥",
+      "title": "满屋的聪明动物",
+      "form": "monologue",
+      "answers": [
+        "e_pio"
+      ],
+      "sources": [
+        "EN_D-P0273–P0277"
+      ],
+      "adaptation": "根据独居、训练动物与三个志向重构独白，保持人物自我辩解的归属。",
+      "cg": "A thin middle-aged man with sparse beard alone in a modest house full of trained dogs, a caged songbird near an upper landing, an open Spanish playbook resting on his knee, late afternoon, affectionate yet solitary.",
+      "text": [
+        [
+          "M",
+          "没有几个人知道我也有一所房子。狗在下面，鸟在楼上。有的狗会做算术，叫它们表演，它们就认真地看着我。屋里等着听我说话的，倒是它们。"
+        ],
+        [
+          "M",
+          "挣钱不是难事，难的是为了保住一件东西，不得不在同一个地方待太久。我喜欢来去自由，喜欢知道一扇门后面是谁，也喜欢别人还没开口，我就已经知道他要问什么。"
+        ],
+        [
+          "M",
+          "{{e_lima|利马}}有许多自称有教养的人，读到{{e_scripts|西班牙戏剧}}最好的句子，却像经过一张空桌子。词序稍微一换，整个心境都变了，他们竟看不出来。这些书是我自己一点点找来的，借过，也偷过；我不会因为没人看见，就少爱它们一点。"
+        ],
+        [
+          "M",
+          "我一直想写诗，也想找到一个人，能把那些句子说到恰好。等那个人开口时，连我都不必站在门边解释，她的声音自己就能使别人明白。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_03",
+      "row": 1,
+      "col": "名场面",
+      "title": "咖啡馆的歌",
+      "form": "scene",
+      "answers": [
+        "e_pio",
+        "e_camila",
+        "e_lima"
+      ],
+      "sources": [
+        "EN_D-P0277"
+      ],
+      "cg": "In a small colonial Lima cafe a lanky twelve-year-old girl in a worn plain dress sings beside seated guitarists while a thin older man with sparse moustache watches intently from the audience, modest tavern daylight, no glamour or adult styling.",
+      "text": [
+        [
+          "N",
+          "[[NPC2]]十二岁时就在咖啡馆唱歌。她身材还没有长开，脸也显得饥饿、局促，却已经会模仿前面那些成熟歌者的每一种抑扬。[[NPC1]]坐在吉他手中间听着，心里生出一个决定：要亲手把这份才华培养出来。"
+        ],
+        [
+          "N",
+          "他付钱把女孩带走。她不用再锁在存酒的地方睡觉，而在他家里有了一张小床；有热汤，不挨鞭子，还能学习。对她而言，这几件眼前的变化，比成为了不起的艺术家更容易感到真实。"
+        ],
+        [
+          "N",
+          "他写歌给她，买新衣服，教她分辨自己发声的好坏，让她练表演、练模仿，也练怎样用一个声音带出整首歌的气氛。他带她去{{e_theatre|剧院}}，要求她留意别人的每一个动作。她吃苦耐劳，沉默而认真，学得比他最大胆的设想还快。"
+        ],
+        [
+          "N",
+          "她慢慢长成了一个优雅的人，也对这个老师十分忠诚。只要他靠得太近，脸上仍会掠过一点紧张；他察觉到了，便把那距离保留下来。她会向他请教，也肯信任他安排下一段行程。新衣、饭食、训练和下一个演唱的地方，都经由这个人的手进入她的生活。"
+        ],
+        [
+          "N",
+          "女孩的名字后来传遍城里。他最初看见的，却是一个还在模仿别人的孩子；她最初得到的，也不是喝彩，而是某天晚上的一碗热汤，一张不再上锁的床，以及第二天仍能继续学的本事。那个付钱的人，同时也决定着她下一次何时唱、到哪里唱。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_04",
+      "row": 1,
+      "col": "皮奥",
+      "title": "同一条披巾",
+      "form": "monologue",
+      "answers": [
+        "e_pio"
+      ],
+      "sources": [
+        "EN_D-P0277–P0278"
+      ],
+      "adaptation": "据两人的巡游、风暴与临时劳动重构独白，不虚构有名有姓的旅伴或精确日期。",
+      "cg": "An older travelling tutor and a young adolescent singer rest on a Pacific beach beside a single bundled shawl containing their clothes, simple worn footwear, distant small boats, pale dawn, companions enduring an ordinary difficult journey.",
+      "text": [
+        [
+          "M",
+          "咖啡馆喜欢新面孔。{{e_camila|卡米拉}}唱得再好，在一个地方唱久了，也得去找下一间。所以我们一路走，衣服裹在同一条{{e_shawl|披巾}}里，有床便睡床，没有就睡海滩。"
+        ],
+        [
+          "M",
+          "去过墨西哥，在巴拿马挨过打，也在太平洋的小岛上遇过船难。林子里有蛇和甲虫，走路得仔细；收成忙的时候，就把自己的手脚暂时卖给农人。许多事，经历了一次便不再惊奇。"
+        ],
+        [
+          "M",
+          "她不是一路等人照顾的孩子。我让她听一段歌，她会把细微的转折记住；让她看一次表演，她也能指出哪里变了。想起这样的本领还可以往前长，我就觉得下一段路值得走。"
+        ],
+        [
+          "M",
+          "后来{{e_lima|利马}}的人只看见她穿好的衣服，听她唱最成熟的声音。有时我很想告诉他们，我们的东西曾经少到一条披巾就装得下。可她上台时若不愿提起，我便在下面听着。那些路上，我也因她而有了愿意继续的事，只是总以为自己比她更懂得将来该往哪里走。雨停以后，还得赶路。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_05",
+      "row": 2,
+      "col": "名场面",
+      "title": "喝彩以后",
+      "form": "dialogue",
+      "answers": [
+        "e_camila",
+        "e_pio",
+        "e_theatre"
+      ],
+      "sources": [
+        "EN_D-P0279–P0302"
+      ],
+      "adaptation": "据化妆间争执节译，保留技艺追求与伤害性训练并存。",
+      "cg": "A brilliant actress exhausted after a performance sits at a cluttered dressing table while her thin older tutor stands in the corner withholding praise, a comb and pomade jars, tears in her expression, warm backstage candlelight, no glamour portrait.",
+      "text": [
+        [
+          "N",
+          "[[NPC1]]回到化妆室，听见角落里的口哨，就知道今晚又有哪里不对。[[NPC2]]说没什么，她已经尽力了。那种语气比直接指责更难忍：仿佛她的本领最多只能到这里。"
+        ],
+        [
+          "D1",
+          "到底是什么？又是什么？我已经准备听了，别这样站着。"
+        ],
+        [
+          "D2",
+          "没什么，我的小珍珠。"
+        ],
+        [
+          "D1",
+          "我自己知道今晚有地方演得弱，用不着你告诉我。我只是想回到这里，不要再看见你这种样子。"
+        ],
+        [
+          "D2",
+          "对囚犯的那一段，为什么说得那么快？"
+        ],
+        [
+          "D1",
+          "一天叫我快，一天叫我慢。观众从没那样{{e_applause|鼓掌}}过，他们哭了。我只在乎这个。别再说了。你可以梳我的头发，只要别再说一个字。"
+        ],
+        [
+          "N",
+          "他梳了十分钟，仿佛没看见她哭得发抖。她终于转过身，攥住他的手。"
+        ],
+        [
+          "D1",
+          "我真那么坏吗？坏得让你离开座位？"
+        ],
+        [
+          "D2",
+          "船上的一场很好。收尾也还不错。可是，对囚犯的那段话……"
+        ],
+        [
+          "N",
+          "她把脸埋到桌上的手臂里。只有完美才够，完美却从没有真的到来。等哭声低下来，两人又开始谈声音、手势、快慢，重念{{e_scripts|剧本}}里的台词。观众早已满意，他们却常常直到天明，还在逼近一个谁也没法交出来的尺度。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_06",
+      "row": 2,
+      "col": "皮奥",
+      "title": "诗人的孙女",
+      "form": "monologue",
+      "answers": [
+        "e_pio"
+      ],
+      "sources": [
+        "EN_D-P0303"
+      ],
+      "adaptation": "据维科·德·巴雷拉孙女观演事件重构皮奥的观察；该诗人按小说人物呈现，不编造现实传记。",
+      "cg": "An older theatre tutor at the edge of a dressing room watches his young adult actress kneel to greet a modest middle-aged visitor, costumes hanging on the wall, exhausted joy after a performance, the visitor clasping her hands in return.",
+      "text": [
+        [
+          "M",
+          "我告诉{{e_camila|卡米拉}}，那位诗人的孙女来了。我们从他的{{e_scripts|戏剧}}里选了一出，练了一遍又一遍。她曾经厌倦那些总围着男人转的角色，可这一回，每个句子又使她认真起来。"
+        ],
+        [
+          "M",
+          "开演前，她从幕缝向外看，要我指给她：究竟是哪一位。我指着那个被家务、孩子和贫穷磨倦了的中年女人。她却像看见了世上全部的高贵，站在我旁边，安静得一句话也没有。"
+        ],
+        [
+          "M",
+          "演完以后，我把客人领进化妆室。她哭着，跪下吻那女人的手，对方又吻她的手。观众回家了，灯还亮着，她们仍在说，诗人从前怎样写作，在家又有哪些别人不知道的小习惯。"
+        ],
+        [
+          "M",
+          "那一夜我没有再索要更多。她已经把我最珍惜的东西放到舞台上，又从一个陌生女人那里，得到并非只为美貌而来的回答。这份欢喜，掌声散了以后还在。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_07",
+      "row": 3,
+      "col": "名场面",
+      "title": "天亮的夜宴",
+      "form": "scene",
+      "answers": [
+        "e_camila",
+        "e_viceroy",
+        "e_court"
+      ],
+      "sources": [
+        "EN_D-P0306–P0312"
+      ],
+      "cg": "Dawn entering a colonial palace supper room where a tired actress sleeps leaning against the viceroy's sleeve, an archbishop in violet, a thin theatre tutor and weathered sea captain sit quietly around fruit and brocade, intimate faded grandeur, not a banquet crowd.",
+      "text": [
+        [
+          "N",
+          "演出结束后，[[NPC1]]赶来赴夜宴，常已是凌晨一点。她珠光耀眼，也累得厉害。[[NPC2]]和几位客人像迎接一位女王那样接住她的到来。起初仍由她带着众人说笑，后来她渐渐靠在主人肩上，只听话题从一张有趣而衰老的脸，移向另一张。"
+        ],
+        [
+          "N",
+          "{{e_pio|皮奥}}也在。还有喜欢文学、穿紫衣的{{e_archbishop|大主教}}，以及走过许多海域的{{e_captain|阿尔瓦拉多船长}}。他们谈战争、国王、诗人和远方，也谈鬼魂、灵魂离开身体时能否看见、星辰会不会相撞。夜越深，每个人越容易把自己的遗憾说成一个机智的故事。"
+        ],
+        [
+          "N",
+          "他们都怀念{{e_spain|西班牙}}，便告诉自己，这样的谈话正合乎高贵的西班牙精神。女演员从这生活里学到新的从容：怎样随意握杯，怎样在门口告别，怎样把一个称呼说得仿佛从小就会。皮奥在台下看见这些细节，觉得她的演技又添了光彩。"
+        ],
+        [
+          "N",
+          "金色晨光终于越过安第斯山，照到果盘、沾过酒的桌布和她沉睡的额头。话声停下来，谁也不愿第一个起身。众人的目光落在她身上，像看一只误飞进这间屋子的美丽鸟儿。"
+        ],
+        [
+          "N",
+          "她以为自己将永远幸福。老师却仍在观察，等她的经验变得足够深，能够使某几段台词说得更好。夜宴给了每个人片刻安慰，他们想从这位女人身上得到的，却从来不是同一件事。窗外城市逐渐醒来，桌边的人仍用旧故事拖延这一刻。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_08",
+      "row": 3,
+      "col": "卡米拉",
+      "title": "散场后的脸",
+      "form": "monologue",
+      "answers": [
+        "e_camila"
+      ],
+      "sources": [
+        "EN_D-P0304–P0307",
+        "EN_D-P0313"
+      ],
+      "adaptation": "根据艺术倦怠、宫廷生活与内心冲突重构独白。",
+      "cg": "An adult actress alone before a plain dressing mirror after removing part of her stage costume, long fine nose, tired slightly childish mouth, dark reflective eyes, jewelry set aside, natural morning light revealing fatigue rather than ugliness.",
+      "text": [
+        [
+          "M",
+          "脸一停下来，镜子里就不是观众见到的那个人了。嘴显得疲倦，眼睛也总像还在寻找什么。一个角色需要的笑容可以学会，可散场以后，不知道该把它交给谁。"
+        ],
+        [
+          "M",
+          "{{e_viceroy|总督}}教我法语，教我那些大人物不正式见客时的样子。我学得很快。上台以后，手指怎样碰杯子，走进一扇门之前怎样停一下，连{{e_pio|皮奥}}也看得欢喜。我的生活进了戏里，他就觉得一切都有益处。"
+        ],
+        [
+          "M",
+          "可我不只是为了下一场表演活着。{{e_applause|掌声}}有时使我温暖，有时又像每天准时结算的一笔账。观众看不出我今晚分了神，老师看得出，便又觉得我辜负了什么。"
+        ],
+        [
+          "M",
+          "我想恋爱，想有自己的家，也想在别人不打量我的时候安静坐着。每一种愿望都占着一个地方，偏偏这个身体每天还要换衣、背词、出场，再笑着赶去下一场夜宴。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_09",
+      "row": 4,
+      "col": "名场面",
+      "title": "一个体面的称呼",
+      "form": "scene",
+      "answers": [
+        "e_camila",
+        "e_lima"
+      ],
+      "sources": [
+        "EN_D-P0314–P0316"
+      ],
+      "cg": "A former actress dressed as a respectable colonial lady enters a university ceremony with attendants, elaborate but slightly excessive jewels and scarf, her guarded expression distinct from the pleased onlookers, restrained literary period illustration.",
+      "text": [
+        [
+          "N",
+          "大约三十岁时，[[NPC1]]离开了舞台。要在上流社会站稳，又花了五年。她带上女伴和仆从，在时髦的时辰去教堂，出现在大学颁奖礼和慈善捐赠者的名单里。过去的演出被她称作消遣，仿佛只是一段不宜太认真追问的往事。"
+        ],
+        [
+          "N",
+          "她还学会了一点读写，替自己安排体面的亲属关系，为孩子争取合法身份。有人露出一点把她当作流浪艺人的意思，她便激烈反击。她要的不只是华服，也是一种不会因为出身而被随手收回的尊重。"
+        ],
+        [
+          "N",
+          "可是{{e_respectability|体面}}很难带来想象中的安宁。她在贵妇面前努力温柔，在别处却越发烦躁。饰物和羽毛层层堆起，镜子与地板反光里，那个人看上去越来越像已经到达了目的地。她自己仍在等待，等地位所许诺的幸福真正开始。"
+        ],
+        [
+          "N",
+          "她逐渐暗示{{e_pio|皮奥}}，不要在公开场合与她来往。后来连私下探访也使她不耐烦。她用客套的话、避开的目光、随时可能开始的争执，把旧日伙伴隔在新的生活之外。"
+        ],
+        [
+          "N",
+          "他每月仍来一次。谈不下去，就上楼去看孩子们。两个大人都记得他们曾经怎样一起生活，但一个急于证明自己能够改变，另一个始终希望那份旧日亲密还可以原样回来。"
+        ]
+      ]
+    },
+    {
+      "id": "c3_10",
+      "row": 4,
+      "col": "卡米拉",
+      "title": "晴天里的孩子",
+      "form": "monologue",
+      "answers": [
+        "e_camila"
+      ],
+      "sources": [
+        "EN_D-P0315"
+      ],
+      "adaptation": "依据山中社交生活与海梅的幼年描写重构母亲观察；此处七岁属于原著较早肖像，不作为断桥时年龄。",
+      "cg": "A stately woman and a delicate seven-year-old boy in garnet velvet walk several paces apart on artificial French garden terraces in the Andes, the child quietly enjoying a patch of sunlight, she preoccupied, gentle dignified portrayal of illness.",
+      "text": [
+        [
+          "M",
+          "{{e_jaime|海梅}}走在后面几步。那些想拉住他说话的女士，使他很不自在，他总认真地想办法脱身，然后又跟过来。天气好的时候，我们就这样走在{{e_garden|法式花园}}的台阶之间，很少说什么。"
+        ],
+        [
+          "M",
+          "他曾穿着石榴红的天鹅绒衣服，那么瘦小，又那么严肃。病发时，他最难受的仿佛不是自己受苦，而是别人看见了。他继承了我的额头和眼睛，也继承了父亲身体里的脆弱，我却不能替他承担哪怕一小会儿。"
+        ],
+        [
+          "M",
+          "我等着生活终于使我满意，他只为眼前有阳光而高兴。他看天上的云，像在计算它什么时候会遮住我们。我不向他发脾气，也不大会突然把他抱到怀里；我们就保持着那几步的距离，继续往前。"
+        ],
+        [
+          "M",
+          "这里被修得很像欧洲，精心安排的树、栏杆和小径，人人知道怎样散步才得体。我和这个孩子站在其中，有时却像还没有学会当地语言的异乡人。一阵不适过后，他依旧努力离那些关切的女士远一点。"
+        ]
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import {
   entryName2id,
   familiarMaxOf,
   FORM_META,
+  GAME_ID,
   slotTintClass,
   SLOT_TINT_COLORS,
   slotTintIndex,
@@ -501,7 +502,7 @@ export default function CardChat({ cardId: forcedId, onGo }: { cardId?: string; 
   const sortable = cs.done && !placed; // 已补完未归位：顶栏给「待排序」入口（与列表状态章同功能）
 
   return (
-    <div className={`chat-wrap${cgOn ? ' has-cg' : ''}${cgOn && card.cgDark ? ' cg-dark' : ''}`}>
+    <div className={`chat-wrap${GAME_ID === 'slr' ? ' slr-card' : ''}${cgOn ? ' has-cg' : ''}${cgOn && card.cgDark ? ' cg-dark' : ''}`}>
       {cgOn ? (
         <div className="chat-cg-bg">
           <img

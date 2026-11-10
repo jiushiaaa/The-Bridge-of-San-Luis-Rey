@@ -12,6 +12,8 @@ import './styles.css';
 import './style-lab/fonts.css';
 import './theme-editorial.css';
 import './theme-portrait.css';
+import './bridge-cover.css';
+import './bridge-reading.css';
 import { startTabPill } from './style-lab/tab-pill';
 
 async function bootstrap(): Promise<void> {

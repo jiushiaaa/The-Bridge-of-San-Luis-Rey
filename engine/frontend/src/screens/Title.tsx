@@ -1,9 +1,10 @@
 // 封面：整幅题图 + Three.js 大气特效（水波 / 阳光），题名压在画面上
-import { LOCALES, LOCALE_LABEL, setLocale, t, useLocale } from '../i18n';
+import { LOCALE_LABEL, setLocale, t, useLocale } from '../i18n';
 import { useEffect, useState } from 'react';
 import CoverAtmosphere from '../components/CoverAtmosphere';
 import Icon from '../components/Icon';
-import { assetUrl, data } from '../game/data';
+import { useDialogFocus } from '../components/useDialogFocus';
+import { assetUrl, data, GAME_ID, GAME_LOCALES } from '../game/data';
 import { continueGame, newGame } from '../game/logic';
 import { hasSave } from '../game/save';
 import { playCue, sfxSkipLayer } from '../game/sfx';
@@ -14,6 +15,7 @@ export default function Title() {
   const loc = useLocale();
   const [fxReady, setFxReady] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const languageDialog = useDialogFocus(langOpen && GAME_ID === 'slr');
   const src = assetUrl(data.assets.titleImage);
 
   useEffect(() => {
@@ -34,7 +36,7 @@ export default function Title() {
   };
 
   return (
-    <div className="cover">
+    <div className={`cover${GAME_ID === 'slr' ? ' slr-cover' : ''}`}>
       <img
         className={`cover-bg${fxReady ? ' is-fx-ready' : ''}`}
         src={src}
@@ -93,6 +95,8 @@ export default function Title() {
         <div className="overlay" onClick={closeLang}>
           <div
             className="modal game-menu cover-lang-modal"
+            ref={languageDialog}
+            tabIndex={-1}
             role="dialog"
             aria-modal="true"
             aria-labelledby="cover-lang-title"
@@ -107,7 +111,7 @@ export default function Title() {
               </button>
             </div>
             <div className="game-menu-langs cover-lang-pills">
-              {LOCALES.map((id) => (
+              {GAME_LOCALES.map((id) => (
                 <button
                   key={id}
                   type="button"

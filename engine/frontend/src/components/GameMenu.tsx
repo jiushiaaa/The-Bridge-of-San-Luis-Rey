@@ -1,6 +1,7 @@
 // 页签栏「菜单」弹层：音量 / BGM / 语言 / 玩法说明 / 回标题 / DEBUG-进度
-import { LOCALES, LOCALE_LABEL, getLocale, setLocale, t } from '../i18n';
+import { LOCALE_LABEL, getLocale, setLocale, t } from '../i18n';
 import { offlineBuild } from '../debug';
+import { GAME_ID, GAME_LOCALES } from '../game/data';
 import { hasBgm } from '../game/bgm';
 import { backToTitle } from '../game/logic';
 import { playCue, sfxSkipLayer } from '../game/sfx';
@@ -8,18 +9,22 @@ import { setUi, useUi } from '../game/store';
 import BgmPlayer from './BgmPlayer';
 import Icon from './Icon';
 import SoundToggle from './SoundToggle';
+import { useDialogFocus } from './useDialogFocus';
 
 export default function GameMenu() {
   const { menuOpen, showTitle } = useUi();
+  const menuDialog = useDialogFocus(menuOpen && showTitle && GAME_ID === 'slr');
   if (!menuOpen) return null;
   const loc = getLocale();
 
   const close = () => setUi({ menuOpen: false });
 
   return (
-    <div className="overlay" onClick={close}>
+    <div className={`overlay${showTitle && GAME_ID === 'slr' ? ' slr-cover-overlay' : ''}`} onClick={close}>
       <div
         className="modal game-menu"
+        ref={menuDialog}
+        tabIndex={-1}
         role="dialog"
         aria-modal="true"
         aria-labelledby="game-menu-title"
@@ -51,7 +56,7 @@ export default function GameMenu() {
               <span className="game-menu-row-label">{t('lang.label')}</span>
             </div>
             <div className="game-menu-langs">
-              {LOCALES.map((id) => (
+              {GAME_LOCALES.map((id) => (
                 <button
                   key={id}
                   type="button"

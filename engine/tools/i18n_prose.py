@@ -5,6 +5,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from i18n_project import BOOK
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_ZH = re.compile(
@@ -13,26 +14,26 @@ SKIP_ZH = re.compile(
 
 
 def dump_prose(loc: str) -> None:
-    src = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "strings.json"
+    src = BOOK / "i18n" / loc / "strings.json"
     rows = json.loads(src.read_text(encoding="utf-8"))
     out = []
     for r in rows:
         zh = r["zh"]
         if SKIP_ZH.match(zh):
             continue
-        if zh.startswith(("xdd-assets/", "assets/")):
+        if zh.startswith(("xdd-assets/", "slr-assets/", "assets/")):
             continue
-        if r["path"].startswith("/assets/"):
+        if r["path"].startswith("/assets/") and not r["path"].endswith("/title"):
             continue
         out.append(r)
-    dest = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "prose.json"
+    dest = BOOK / "i18n" / loc / "prose.json"
     dest.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(loc, "prose", len(out), "chars", sum(len(x["zh"]) for x in out), "->", dest)
 
 
 def apply_prose(loc: str) -> None:
-    str_path = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "strings.json"
-    prose_path = ROOT / "workspace" / "xidaduo" / "i18n" / loc / "prose.json"
+    str_path = BOOK / "i18n" / loc / "strings.json"
+    prose_path = BOOK / "i18n" / loc / "prose.json"
     rows = json.loads(str_path.read_text(encoding="utf-8"))
     by_path = {r["path"]: r for r in json.loads(prose_path.read_text(encoding="utf-8"))}
     n = 0

@@ -1,5 +1,5 @@
 // 游戏数据入口：内联各作品 final_game.json，按 离线注入 __GAME_ID → URL ?game= → 默认 xdd 选择
-import { getLocale, subscribeLocale, t, type Locale } from '../i18n';
+import { configureLocales, getLocale, LOCALES, subscribeLocale, t, type Locale } from '../i18n';
 import rawXdd from '../../../workspace/xidaduo/final_game.json?raw';
 import rawXddDe from '../../../workspace/xidaduo/i18n/de/final_game.json?raw';
 import rawXddEn from '../../../workspace/xidaduo/i18n/en/final_game.json?raw';
@@ -22,6 +22,8 @@ import type {
   RecapDef,
   TimelineDef,
 } from './types';
+import rawSlr from '../../../workspace/sanluisrey/final_game.json?raw';
+import rawSlrEn from '../../../workspace/sanluisrey/i18n/en/final_game.json?raw';
 
 // 离线单包只内联「当前作品」的数据：构建时经 VITE_ONLY_GAME 注入某个 id，
 // 其余作品的 ?raw 导入因分支恒假被 Rollup 摇树移除；dev/未注入时内联全部，便于 ?game= 切换。
@@ -40,9 +42,12 @@ const xddPack = (): LocalePack => ({
   'zh-TW': rawXddTw,
 });
 const zhOnly = (raw: string): LocalePack => ({ 'zh-CN': raw });
+const slrPack = (): LocalePack => ({ 'zh-CN': rawSlr, en: rawSlrEn });
 
 const REGISTRY: Record<string, LocalePack> =
-  ONLY === 'xdd'
+  ONLY === 'slr'
+    ? { slr: slrPack() }
+    : ONLY === 'xdd'
     ? { xdd: xddPack() }
     : ONLY === 'bad'
       ? { bad: zhOnly(rawBad) }
@@ -51,6 +56,7 @@ const REGISTRY: Record<string, LocalePack> =
         : ONLY === 'weicheng'
           ? { weicheng: zhOnly(rawWeicheng) }
           : {
+              slr: slrPack(),
               xdd: xddPack(),
               bad: zhOnly(rawBad),
               murder: zhOnly(rawMurder),
@@ -72,10 +78,12 @@ function pickGameId(): string {
     if (q && REGISTRY[q]) return q;
   }
   // 仅内联单作品时回退到该作品；否则默认悉达多
-  return REGISTRY['xdd'] ? 'xdd' : Object.keys(REGISTRY)[0];
+  return REGISTRY['slr'] ? 'slr' : REGISTRY['xdd'] ? 'xdd' : Object.keys(REGISTRY)[0];
 }
 
 export const GAME_ID = pickGameId();
+export const GAME_LOCALES: readonly Locale[] = GAME_ID === 'slr' ? ['zh-CN', 'en'] : LOCALES;
+configureLocales(GAME_LOCALES, GAME_ID === 'slr' ? 'slr_locale' : 'xdd_locale');
 
 function pickRaw(locale: Locale): string {
   // 语言包走 i18n/{locale}/final_game.json；缺包回退简体

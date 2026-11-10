@@ -177,6 +177,10 @@ export interface BgmTrackDef {
   prompt?: string;
   tags?: string;
   note?: string;
+  /** Optional measured per-track playback gain; original audio is preserved. */
+  gainDb?: number;
+  /** Optional soft attack for tracks whose recording starts abruptly. */
+  fadeInMs?: number;
 }
 
 export interface AssetsConf {

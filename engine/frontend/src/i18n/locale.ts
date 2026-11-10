@@ -16,7 +16,8 @@ export const LOCALE_LABEL: Record<Locale, string> = {
   'zh-TW': '繁體中文',
 };
 
-const STORAGE_KEY = 'xdd_locale';
+let storageKey = 'xdd_locale';
+let available: readonly Locale[] = LOCALES;
 
 const HTML_LANG: Record<Locale, string> = {
   'zh-CN': 'zh-CN',
@@ -34,20 +35,20 @@ function isLocale(v: string | null | undefined): v is Locale {
   return !!v && (LOCALES as readonly string[]).includes(v);
 }
 
+function enabled(v: string | null | undefined): v is Locale {
+  return isLocale(v) && available.includes(v);
+}
+
 function fromNavigator(): Locale | null {
   if (typeof navigator === 'undefined') return null;
   const langs = navigator.languages?.length ? navigator.languages : [navigator.language];
   for (const raw of langs) {
     const tag = (raw || '').toLowerCase();
-    if (tag.startsWith('zh-tw') || tag.startsWith('zh-hant') || tag === 'zh-hk' || tag === 'zh-mo') return 'zh-TW';
-    if (tag.startsWith('zh')) return 'zh-CN';
-    if (tag.startsWith('de')) return 'de';
-    if (tag.startsWith('ja')) return 'ja';
-    if (tag.startsWith('ko')) return 'ko';
-    if (tag.startsWith('hi')) return 'hi';
-    if (tag.startsWith('es')) return 'es';
-    if (tag.startsWith('fr')) return 'fr';
-    if (tag.startsWith('en')) return 'en';
+    if ((tag.startsWith('zh-tw') || tag.startsWith('zh-hant') || tag === 'zh-hk' || tag === 'zh-mo') && enabled('zh-TW')) return 'zh-TW';
+    if (tag.startsWith('zh') && enabled('zh-CN')) return 'zh-CN';
+    for (const id of ['de', 'ja', 'ko', 'hi', 'es', 'fr', 'en'] as const) {
+      if (tag.startsWith(id) && enabled(id)) return id;
+    }
   }
   return null;
 }
@@ -55,10 +56,10 @@ function fromNavigator(): Locale | null {
 function detectLocale(): Locale {
   if (typeof window !== 'undefined') {
     const q = new URLSearchParams(window.location.search).get('lang');
-    if (isLocale(q)) return q;
+    if (enabled(q)) return q;
     try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (isLocale(stored)) return stored;
+      const stored = localStorage.getItem(storageKey);
+      if (enabled(stored)) return stored;
     } catch {
       /* private mode */
     }
@@ -69,6 +70,15 @@ function detectLocale(): Locale {
 
 let current: Locale = detectLocale();
 const listeners = new Set<(loc: Locale) => void>();
+
+/** Called by the selected book before its first narrative parse. Keep upstream
+ * nine-language support, but expose only this book's ready language packs. */
+export function configureLocales(locales: readonly Locale[], key: string): void {
+  available = locales;
+  storageKey = key;
+  current = detectLocale();
+  applyHtmlLang(current);
+}
 
 export function getLocale(): Locale {
   return current;
@@ -103,10 +113,10 @@ export function subscribeLocale(fn: (loc: Locale) => void): () => void {
 
 /** 切换语言：写 localStorage、改 html lang、通知订阅者（data.ts 换叙事包、UI 重渲染） */
 export function setLocale(next: Locale): void {
-  if (next === current) return;
+  if (!available.includes(next) || next === current) return;
   current = next;
   try {
-    localStorage.setItem(STORAGE_KEY, next);
+    localStorage.setItem(storageKey, next);
   } catch {
     /* ignore */
   }

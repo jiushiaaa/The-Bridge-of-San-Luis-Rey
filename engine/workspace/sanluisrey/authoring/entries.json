@@ -1,0 +1,381 @@
+{
+  "e_maria": {
+    "name": "玛丽亚",
+    "type": "person",
+    "tier": "major",
+    "desc": "蒙特马约尔侯爵夫人，住在利马，用信件维系与远方女儿的关系。",
+    "look": "Elderly Peruvian noblewoman, red wig slightly askew, tired broad lined face, anxious intelligent brown eyes, brown brocade dress and fur-trimmed mantle.",
+    "variants": {
+      "child": {
+        "look": "The same woman as an awkward ten-year-old girl, straight chestnut hair, wide anxious brown eyes, plain formal dress burdened with heavy gold jewelry."
+      },
+      "young": {
+        "look": "The same woman at twenty-six, broad unidealized face, chestnut hair pinned up, anxious brown eyes, brown-gold wedding dress, no red wig."
+      },
+      "middle": {
+        "look": "The same woman around thirty-six, chestnut hair in a modest updo, broad anxious face, brown colonial brocade dress, no gray hair or old-age wrinkles."
+      }
+    }
+  },
+  "e_clara": {
+    "name": "克拉拉",
+    "type": "person",
+    "tier": "major",
+    "desc": "玛丽亚的女儿，聪明而自持，婚后远赴西班牙，也慷慨帮助身边的人。",
+    "look": "Adult Spanish-Peruvian noblewoman, tall poised figure, chestnut hair, pale olive skin, intelligent restrained eyes, elegant ivory and sage dress, no modern makeup.",
+    "variants": {
+      "child": {
+        "look": "Eight-year-old girl, chestnut hair neatly pinned, intelligent composed brown eyes, pale ivory colonial dress, clearly a child."
+      }
+    }
+  },
+  "e_pepita": {
+    "name": "佩皮塔",
+    "type": "person",
+    "tier": "major",
+    "desc": "由修院养大的少女，被送去给侯爵夫人作伴，尽力承担超出年龄的期待。",
+    "look": "Fourteen-year-old Peruvian orphan girl, medium olive-brown complexion, dark brown eyes, oval face, straight dark-brown hair braided and pinned low, faded brown dress with ivory collar, no jewelry."
+  },
+  "e_abbess": {
+    "name": "皮拉尔院长",
+    "type": "person",
+    "tier": "core",
+    "desc": "圣罗莎修院的管理者，照料病人与孤儿，为妇女争取尊严，也急于为自己的事业寻找接班人。",
+    "look": "Older stout Peruvian abbess, plain scrubbed ruddy face, kind intense black eyes, black veil and cream wimple, worn dark habit, practical hands, no luxury ornament."
+  },
+  "e_camila": {
+    "name": "卡米拉",
+    "type": "person",
+    "tier": "core",
+    "desc": "从咖啡馆歌女成长为名演员，艺名佩里科尔；在舞台、情爱、体面身份与母亲的责任之间寻找生活。",
+    "look": "Adult Peruvian actress, fine long nose, olive complexion, dark expressive eyes, dark wavy hair pinned back, tired slightly childish mouth at rest, muted terracotta theatre gown.",
+    "variants": {
+      "child": {
+        "look": "Lanky twelve-year-old Peruvian girl, dark untidy hair, hungry narrow face, long limbs, worn plain brown dress, no jewelry, no adult glamour."
+      },
+      "ill": {
+        "look": "Same adult actress after smallpox, dignified tired face with subtle healed pitted marks, plain dark veil and simple brown dress; never grotesque, no open lesions."
+      }
+    }
+  },
+  "e_pio": {
+    "name": "皮奥",
+    "type": "person",
+    "tier": "core",
+    "desc": "人们叫他叔叔，实际并无亲缘；见多识广的漂泊者和戏剧导师，对才华的热爱夹杂着掌控他人的愿望。",
+    "look": "Thin Castilian man around fifty, sparse moustache and wispy short beard, large sad alert black eyes, receding dark hair, weathered unhandsome face, worn brown coat.",
+    "variants": {
+      "young": {
+        "look": "Same thin Castilian man in his thirties, short dark hair, sparse moustache and beard, alert large dark eyes, plain worn brown coat."
+      }
+    }
+  },
+  "e_esteban": {
+    "name": "埃斯特班",
+    "type": "person",
+    "tier": "major",
+    "desc": "在修院长大的双胞胎之一，与兄弟共同劳动，习惯把两人的生活看作整体。",
+    "look": "Twenty-two-year-old Peruvian twin man, straight-backed lean laborer, dark uncut hair, black eyes under a heavy fringe, olive skin, plain faded brown shirt. Physically indistinguishable from Manuel; no distinguishing scar or color code."
+  },
+  "e_manuel": {
+    "name": "曼努埃尔",
+    "type": "person",
+    "tier": "major",
+    "desc": "埃斯特班的双生兄弟，做过抄写员与苦力，对女演员产生难以言说的倾慕。",
+    "look": "Twenty-two-year-old Peruvian twin man, same face and body as Esteban, straight-backed lean laborer, dark uncut hair, black eyes under a heavy fringe, olive skin, plain faded brown shirt. No artificial distinguishing scar or color code."
+  },
+  "e_captain": {
+    "name": "阿尔瓦拉多船长",
+    "type": "person",
+    "tier": "major",
+    "desc": "走过许多海域的航海者，寡言、可靠，女儿的去世长久地留在他的生活中。",
+    "look": "Broad strong older sea captain, deeply weathered sun-darkened face, plain short dark-gray hair, gray stubble, steady sad eyes, simple dark wool coat, no pirate symbols or modern uniform."
+  },
+  "e_jaime": {
+    "name": "海梅",
+    "type": "person",
+    "tier": "major",
+    "desc": "卡米拉与总督的儿子，体弱而严肃，珍惜阳光，不愿让别人看见自己的发作。",
+    "look": "Delicate small boy, dark thoughtful eyes and forehead like Camila, pale olive skin, fine dark hair, worn garnet velvet clothes, quiet dignity, no exaggerated illness. Age at accident unspecified; portray a young child."
+  },
+  "e_viceroy": {
+    "name": "安德烈斯总督",
+    "type": "person",
+    "tier": "major",
+    "desc": "秘鲁总督，卡米拉的恋人，精于宫廷礼仪，也受病痛、权势与厌倦困扰。",
+    "look": "Aging grand Spanish viceroy, heavy dignified face, graying curled hair, rich but restrained dark burgundy coat, sedentary posture, amber candlelight, no fantasy crown."
+  },
+  "e_archbishop": {
+    "name": "利马大主教",
+    "type": "person",
+    "tier": "minor",
+    "desc": "爱好语言、音乐与美食，也常为行动寻找推辞的教会高位者。",
+    "look": "Heavy older cleric with a large face, small kindly witty black eyes, violet satin clerical robes, pearl-pale hands, humane literary portrait without caricature."
+  },
+  "e_juniper": {
+    "name": "胡尼佩尔",
+    "type": "person",
+    "tier": "major",
+    "desc": "目睹桥难的方济各会修士，用多年调查追问五个人的死亡是否具有天意。",
+    "look": "Small earnest middle-aged Franciscan friar, close-cropped dark hair with modest tonsure, weathered gentle face, plain brown wool habit and cord belt, a simple bound notebook."
+  },
+  "e_lima": {
+    "name": "利马",
+    "type": "place",
+    "tier": "major",
+    "desc": "小说中人们交错生活的城市，教堂、剧院、宅邸与码头各有自己的声音。",
+    "look": "Colonial Lima around 1714, adobe walls, wooden balconies and cathedral towers, pedestrians in period dress, no modern vehicles."
+  },
+  "e_palace": {
+    "name": "侯爵府",
+    "type": "place",
+    "tier": "major",
+    "desc": "玛丽亚在利马的宅邸，华贵、宽敞，却容纳着母女间长久的疏离。",
+    "look": "Peruvian baroque domestic mansion, green carved wooden balcony, writing desk, faded rich fabrics, quiet empty rooms."
+  },
+  "e_spain": {
+    "name": "西班牙",
+    "type": "place",
+    "tier": "minor",
+    "desc": "克拉拉婚后的居所，也是秘鲁许多人不断回望的远方。",
+    "look": "Distant eighteenth-century Spanish harbor and warm stone town seen across a gray-blue sea, a small sailing vessel."
+  },
+  "e_harbor": {
+    "name": "利马海港",
+    "type": "place",
+    "tier": "major",
+    "desc": "远行者和海运货物往返的海岸，母女的告别与兄弟的劳动都发生在这里。",
+    "look": "Eighteenth-century Peruvian Pacific harbor, wooden sailing ships, hand-carried crates and simple boats, pearl clouds over water."
+  },
+  "e_convent": {
+    "name": "圣罗莎修院",
+    "type": "place",
+    "tier": "major",
+    "desc": "院长照料孤儿与病人的地方，有洗衣池、病房和每日需要筹措的开销。",
+    "look": "Austere colonial Peruvian convent courtyard, stone laundry trough, white linen, shade trees, warm adobe walls and open cloister."
+  },
+  "e_theatre": {
+    "name": "利马剧院",
+    "type": "place",
+    "tier": "major",
+    "desc": "演员与抄写员谋生的场所，舞台上的喝彩与后台的苛求往往同时存在。",
+    "look": "Small colonial theatre, candlelit stage, upper wooden boxes, faded curtain, intimate practical backstage, no electric light."
+  },
+  "e_shrine": {
+    "name": "克卢克桑布夸圣所",
+    "type": "place",
+    "tier": "minor",
+    "desc": "安第斯山中的朝圣地，白墙、钟声、喷泉与清澈的空气环绕着它。",
+    "look": "Whitewashed Andean sanctuary in a small mountain town, stone fountain, llamas and layered peaks, clear cold afternoon."
+  },
+  "e_inn": {
+    "name": "山中客栈",
+    "type": "place",
+    "tier": "major",
+    "desc": "朝圣途中暂住的房间，两封命运不同的信在这里被写下、读到或撕毁。",
+    "look": "Modest colonial Andean inn room, rough table, charcoal brazier, wicker hampers, candle and quill, mountain light."
+  },
+  "e_room": {
+    "name": "双胞胎的房间",
+    "type": "place",
+    "tier": "major",
+    "desc": "兄弟共住的出租房，两张床与一张抄写桌见证了默契、隔阂和照料。",
+    "look": "Plain rented room in colonial Lima, two simple cots, wooden copying table, candle, basin and folded cloth, no modern furniture."
+  },
+  "e_cuzco": {
+    "name": "库斯科",
+    "type": "place",
+    "tier": "minor",
+    "desc": "埃斯特班漂泊后做抄写工作的城镇，船长到这里邀请他远航。",
+    "look": "Colonial Cuzco inn and highland square, layered stone foundations, Andes and clear cool dawn light."
+  },
+  "e_court": {
+    "name": "总督府",
+    "type": "place",
+    "tier": "major",
+    "desc": "礼仪繁复的权力中心，也有聚谈到天明、暂时排遣乡愁的夜宴。",
+    "look": "Colonial Peruvian palace supper room, tall window facing dawn, brocade tablecloth, fruit, chocolate cups and fading candles."
+  },
+  "e_garden": {
+    "name": "法式花园",
+    "type": "place",
+    "tier": "major",
+    "desc": "山中仿照欧洲营建的花园，皮奥与卡米拉曾在黄昏的长椅旁交谈。",
+    "look": "French formal garden terraces in the Andes, chipped marble bench, balustrade and distant Pacific-facing valleys, dusk clouds."
+  },
+  "e_villa": {
+    "name": "卡米拉的山庄",
+    "type": "place",
+    "tier": "major",
+    "desc": "卡米拉离开城市后的住所，病后紧闭的门窗使照料与拒绝反复相遇。",
+    "look": "Secluded eighteenth-century Andean country villa, weathered adobe, closed wooden shutters, modest farm outbuildings, dewy grass."
+  },
+  "e_bridge": {
+    "name": "圣路易斯雷大桥",
+    "type": "place",
+    "tier": "core",
+    "desc": "横跨河谷的植物纤维索桥，薄木板承载行人；五条不同的人生在一次寻常过河中相遇。",
+    "look": "Intact narrow braided-fiber suspension footbridge with thin wood planks across a deep Peruvian gorge, no stone arches or steel."
+  },
+  "e_jewels": {
+    "name": "珠宝",
+    "type": "item",
+    "tier": "minor",
+    "desc": "身份与爱意常借它们表达，也可能变成负担或必须退还的馈赠。",
+    "look": "Old gold earrings and necklaces on plain brown cloth, understated colonial jewelry, warm daylight, no modern display case."
+  },
+  "e_goldchain": {
+    "name": "金链",
+    "type": "item",
+    "tier": "major",
+    "desc": "克拉拉希望母亲替国王另寻的首饰，在信中变成一次走入画作的想象。",
+    "look": "Fine seventeenth-century Spanish gold chain on a folded cream letter beside a corner of an old oil portrait, no legible writing."
+  },
+  "e_letters": {
+    "name": "母女书信",
+    "type": "item",
+    "tier": "core",
+    "desc": "在秘鲁与西班牙之间往返的信件，既有机智的见闻，也有未能当面承受的索求与迟来的宽厚。",
+    "look": "Bundle of folded handwritten letters, wax seal, feather quill and green wooden balcony light; writing indistinct."
+  },
+  "e_porridge": {
+    "name": "粥",
+    "type": "item",
+    "tier": "minor",
+    "desc": "侯爵夫人常吃的食物，佩皮塔会特意向客栈厨子交代做法。",
+    "look": "Simple earthenware bowl of plain rice porridge on a worn inn table, warm steam and a wooden spoon."
+  },
+  "e_charcoal": {
+    "name": "木炭",
+    "type": "item",
+    "tier": "minor",
+    "desc": "山中房间取暖所需的燃料，照看火盆也是佩皮塔的日常差事。",
+    "look": "Unlit black charcoal pieces in a small rough basket beside a clay brazier, gentle side light."
+  },
+  "e_secretletters": {
+    "name": "秘密情书",
+    "type": "item",
+    "tier": "major",
+    "desc": "卡米拉交给曼努埃尔代笔的私信，收信人另有其人，内容须保密。",
+    "look": "Two separate folded letters beside an actress's stage wig and a small payment coin, quill on table, no readable words."
+  },
+  "e_scripts": {
+    "name": "戏剧抄本",
+    "type": "item",
+    "tier": "major",
+    "desc": "需要抄写、背诵与排练的西班牙剧作，连接着兄弟的劳动与演员的技艺。",
+    "look": "Hand-copied seventeenth-century Spanish drama pages with quill and plain leather binding, illegible writing, backstage table."
+  },
+  "e_medicine": {
+    "name": "药剂与膏药",
+    "type": "item",
+    "tier": "minor",
+    "desc": "理发师兼外科医师开出的治疗用品，未能使曼努埃尔的伤病好转。",
+    "look": "Plain small period earthenware medicine jar, folded linen and wooden spoon on a humble bedside table, no modern labels."
+  },
+  "e_cloth": {
+    "name": "冷湿布",
+    "type": "item",
+    "tier": "major",
+    "desc": "医师吩咐每小时更换的敷布，成了照料者不敢停下、病人害怕到来的事。",
+    "look": "Wet linen cloth over the rim of a simple water basin, a bedside candle and dawn light, no wound."
+  },
+  "e_crucifix": {
+    "name": "十字架",
+    "type": "item",
+    "tier": "minor",
+    "desc": "病中的曼努埃尔曾借它起誓，收回疼痛中伤害兄弟的话。",
+    "look": "Small plain worn wooden crucifix resting on cream bed linen, natural light, respectful unadorned still life."
+  },
+  "e_coin": {
+    "name": "钱币",
+    "type": "item",
+    "tier": "minor",
+    "desc": "代笔的酬金与孩子的零用，显出不同关系里同一物件的不同分量。",
+    "look": "A single worn Spanish colonial gold coin on a plain wooden surface, historical indistinct embossing, no legible date."
+  },
+  "e_gift": {
+    "name": "给院长的礼物",
+    "type": "item",
+    "tier": "major",
+    "desc": "埃斯特班离开前想购买的赠礼，他希望也代表亡兄；具体物品未被写明。",
+    "look": "A small open cloth money pouch and two cups on an inn table, an intentionally empty space where a future gift would be; do not invent a purchased object."
+  },
+  "e_shawl": {
+    "name": "披巾",
+    "type": "item",
+    "tier": "minor",
+    "desc": "皮奥与卡米拉巡游时曾共用来包裹衣物，见证过旅途中的匮乏。",
+    "look": "Worn brown woven shawl tied around a modest bundle of clothing on a quiet Pacific beach, soft dawn."
+  },
+  "e_mirror": {
+    "name": "化妆镜",
+    "type": "item",
+    "tier": "major",
+    "desc": "演员整理面容的日常用具，也映出疲倦、病后希望和不期而来的注视。",
+    "look": "Small old framed mirror on a modest dressing table, pale cosmetic bowl and folded cloth, no reflected person, dignified quiet."
+  },
+  "e_stone": {
+    "name": "发亮的小石头",
+    "type": "item",
+    "tier": "major",
+    "desc": "母亲给海梅的小物件，让他在失眠的黑夜里观看，材质未被原著说明。",
+    "look": "Extreme close-up of only a child's open palm holding one small ordinary pale mineral stone, dim soft light, no face or body, no magical aura or symbols."
+  },
+  "e_loneliness": {
+    "name": "孤独",
+    "type": "concept",
+    "tier": "minor",
+    "desc": "在人群、家庭与华贵房间里，都可能找不到可以放心开口的人。",
+    "look": "Two chairs separated by a patch of cold light in an otherwise warm colonial room, restrained symbolic still life."
+  },
+  "e_obedience": {
+    "name": "服从",
+    "type": "concept",
+    "tier": "minor",
+    "desc": "习惯听从要求的女孩，有时难以判断自己何时可以离开原地。",
+    "look": "Long church-square shadow approaching a child's plain empty shoes at a doorstep, gentle symbolic illustration, no person."
+  },
+  "e_courage": {
+    "name": "勇气",
+    "type": "concept",
+    "tier": "major",
+    "desc": "一个女孩用它评判求助信，一位母亲却由此开始重新审视自己怎样去爱。",
+    "look": "A quill set down beside a fresh blank sheet and a torn letter, first dawn light on a rough table, no text."
+  },
+  "e_language": {
+    "name": "双生私语",
+    "type": "concept",
+    "tier": "major",
+    "desc": "兄弟自幼创造的语言，只在彼此之间使用，外人的好奇使它难以开口。",
+    "look": "Two close trails of pale ink curling together but remaining unreadable on warm paper, intimate hand-drawn rhythm, no invented alphabet."
+  },
+  "e_applause": {
+    "name": "掌声",
+    "type": "concept",
+    "tier": "minor",
+    "desc": "它可以赞美技艺，也能纵容伤人；观众的热烈不保证台上人的满足。",
+    "look": "Softly rendered clapping hands in a candlelit theatre audience, warm light and uncertain dark stage beyond, no faces."
+  },
+  "e_respectability": {
+    "name": "体面身份",
+    "type": "concept",
+    "tier": "major",
+    "desc": "卡米拉离开剧场后努力争取的社会位置，带来新的门槛，也未消除旧的不安。",
+    "look": "A rich colonial glove resting beside a worn theatre shoe on a threshold, understated contrast, no words."
+  },
+  "e_providence": {
+    "name": "天意",
+    "type": "concept",
+    "tier": "major",
+    "desc": "胡尼佩尔试图用调查证明的安排；书中人物有不同理解，事实并未给出定论。",
+    "look": "An unfinished hand-ruled investigation table with plain rows and columns on a desk beside a mountain window, quill and ink, no people, no legible words or numbers, no occult or geometric symbols."
+  },
+  "e_care": {
+    "name": "照料",
+    "type": "concept",
+    "tier": "major",
+    "desc": "在人不能替彼此解除痛苦时，留下、送水、准备食物，仍是可以做的事。",
+    "look": "A lantern and a pitcher of water beside clean linen in a modest convent sickroom, warm ordinary light, no miraculous imagery."
+  }
+}

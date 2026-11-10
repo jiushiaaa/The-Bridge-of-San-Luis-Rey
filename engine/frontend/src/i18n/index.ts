@@ -1,6 +1,7 @@
 export { t } from './t';
 export {
   applyHtmlLang,
+  configureLocales,
   getLocale,
   htmlLang,
   LOCALES,

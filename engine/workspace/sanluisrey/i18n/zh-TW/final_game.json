@@ -1,0 +1,6478 @@
+{
+ "meta": {
+  "id": "slr",
+  "title": "聖路易斯雷大橋",
+  "subtitle": "五個人的一生，一座橋的兩端",
+  "adaptedFrom": "改編自桑頓·懷爾德普利策獎小說",
+  "tagline": "當命運沒有給出解釋，我們還能怎樣去愛？",
+  "version": 1,
+  "status": "wip",
+  "cardSpec": {
+   "avg": 400
+  },
+  "stamina": {
+   "start": 8,
+   "perLevel": 4,
+   "searchCost": 1,
+   "completeReward": 1,
+   "restGain": 2
+  },
+  "art": {
+   "portrait": ", finished literary gouache and subtle pencil illustration on warm paper, muted sage, umber, ivory and terracotta palette, painterly realism, eighteenth-century Peru, expressive restraint, no modern objects, no text, no watermark, square upper-body character portrait, plain cream background, natural soft light",
+   "scene": ", finished literary gouache and subtle pencil illustration on warm paper, muted sage, umber, ivory and terracotta palette, painterly realism, eighteenth-century Peru, expressive restraint, no modern objects, no text, no watermark, atmospheric wide environment, no lettering",
+   "item": ", finished literary gouache and subtle pencil illustration on warm paper, muted sage, umber, ivory and terracotta palette, painterly realism, eighteenth-century Peru, expressive restraint, no modern objects, no text, no watermark, square intimate still life, simple composition",
+   "concept": ", finished literary gouache and subtle pencil illustration on warm paper, muted sage, umber, ivory and terracotta palette, painterly realism, eighteenth-century Peru, expressive restraint, no modern objects, no text, no watermark, restrained symbolic still life, no diagram labels",
+   "cg": ", finished literary gouache and subtle pencil illustration on warm paper, muted sage, umber, ivory and terracotta palette, painterly realism, eighteenth-century Peru, expressive restraint, no modern objects, no text, no watermark, cinematic 16:9 narrative composition, an actual moment rather than a posed portrait",
+   "icon": ", finished literary gouache and subtle pencil illustration on warm paper, muted sage, umber, ivory and terracotta palette, painterly realism, eighteenth-century Peru, expressive restraint, no modern objects, no text, no watermark, simple readable centered emblem"
+  }
+ },
+ "frame": {
+  "levelIntro": {
+   "1": [
+    {
+     "kind": "narration",
+     "text": "第一卷 · 不肯寄出的信"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "胡尼佩爾",
+     "text": "那天中午，我正要走向橋頭。腳下的路熱得發白，五個人已經走上木板；隨即，橋像一根繃得太久的弦，斷進河谷。我站在這裡，距離他們那麼近，卻仍在活著。他們只是比我早到了片刻嗎？"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "胡尼佩爾",
+     "text": "我相信世間有一種安排。可相信是一回事，面對五個人的死，又是一回事。我想知道他們此前怎樣生活，認識誰，愛過誰；倘若能把這些事弄清楚，是否也能明白，為什麼偏偏是他們？"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "胡尼佩爾",
+     "text": "有人先告訴我，遇難的老婦人十分古怪。有人記得她的酒，有人記得她的學問，還有人記得，她常常為一封從西班牙來的信，變得不像自己。關於同一個人，我聽到了許多彼此不相像的話。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "胡尼佩爾",
+     "text": "她的女兒隔著海，身邊卻住著一個沒有父母的女孩。兩個人都有信想寫，有話說不出來。我想從這所宅邸開始，聽一聽那些沒有傳到街上的聲音：一個人那麼需要愛，是否也會使愛她的人感到疲倦？"
+    }
+   ],
+   "2": [
+    {
+     "kind": "narration",
+     "text": "第二卷 · 一個人的名字"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "埃斯特班",
+     "text": "城裡的人總把我們認錯。他們笑一陣，重新叫一個名字，我們便繼續做手裡的活。解釋起來很費事，有時候還不如由他們去說。只要兄弟站在旁邊，我就知道那些錯誤沒有真的把誰弄丟。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "埃斯特班",
+     "text": "我們替教堂擦過牆，替劇院抄過本子，也到海邊搬過貨。一天結束時，不必把每一件事重新講一遍，另一個人便知道為什麼累。要走同一條路，有時反而分開走，免得街上的人又停下來打趣。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "埃斯特班",
+     "text": "後來，他常常經過劇院，回來的時候比從前晚。我坐在桌邊等，蠟燭慢慢短下去。以前覺得已經很完整的生活，原來也能給別的人留出位置。我不明白這變化，也不知道怎樣問他才不會像在責備。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "埃斯特班",
+     "text": "再後來，有人問我是哪一個。我明明聽懂了，卻說出了另一個名字。那句回答離開嘴以後，周圍的人仍在等我往前走。一個人站在原來兩個人生活過的地方，究竟要怎樣知道，接下來該去哪兒？"
+    }
+   ],
+   "3": [
+    {
+     "kind": "narration",
+     "text": "第三卷 · 掌聲散去以後"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "卡米拉",
+     "text": "我第一次睡到那張小床上時，沒有想過成名。能喝熱湯，不再被鎖起來，還有人教我怎樣唱，我就已經覺得生活變了。後來大家記得我在舞臺上是什麼樣子，很少有人再問那個從咖啡館出來的小女孩。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "卡米拉",
+     "text": "他教我讀懂一句臺詞，教我怎樣轉身，怎樣把聲音停在恰好的地方。觀眾越熱烈，我越怕回到化妝室，看見他站在角落裡吹口哨。好像所有人的滿意合在一起，也不能替我換來他一句放心。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "卡米拉",
+     "text": "我想過離開舞臺，做一個體面的女人，做孩子的母親。可每走進一種新的生活，總有人帶著舊的稱呼追來。即使他的確幫過我，即使我曾經十分感激，也不表示以後每一扇門，都可以不敲就推開。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "卡米拉",
+     "text": "如今他又來，請求把孩子帶去城裡一年。他說自己能教會許多事，我知道他能夠；我也知道孩子的身體有多弱。一個人想給出照料的時候，是否也應當停下來，聽一聽被照料的人怎樣回答？"
+    }
+   ]
+  },
+  "ending": {
+   "title": "仍在人間",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "五個人走上那座橋，都有來處，也都有尚未做完的事。海的另一邊還有一封信，遠航還沒有開始，城裡的屋子還等著收拾。橋斷以後，這些未完成的事沒有自動成為災難的解釋。"
+    },
+    {
+     "kind": "narration",
+     "text": "胡尼佩爾調查了六年。他把聽到的細節都記下來，唯恐漏掉一件，便漏掉了答案。廚子記得瑪麗亞吃什麼，書商說她學問很好，另一些人卻記得她古怪而討嫌。那些最親近死者的人，也有難以說出口的部分。"
+    },
+    {
+     "kind": "narration",
+     "text": "更早以前，一次瘟疫曾使他給十五名死者和十五名倖存者列過表，比較善良、虔誠以及對家庭的用處。算出來的結果並不支援他預期的解釋。他把紙撕碎扔進海里，又從海天的美麗中重新找回信心。那張表從未屬於橋上的五個人。"
+    },
+    {
+     "kind": "narration",
+     "text": "關於橋難的書終於寫完，卻被判為異端，要同作者一併焚燬。修士最後一夜仍想知道，自己人生的安排在哪裡；至少有一個願望十分清楚：希望有人相信，他當初是為了信仰才開始追問。廣場上，確實有人相信他。"
+    },
+    {
+     "kind": "narration",
+     "text": "把目光再移回六年前、橋難後的追思儀式。黑紗、蠟燭、銀器與歌聲擠滿教堂。船長只停留片刻，便走到海邊。院長坐在女孩們中間，想起佩皮塔，承認自己太忙，也把太多事業的盼望交給了那個孩子。"
+    },
+    {
+     "kind": "narration",
+     "text": "卡米拉原本也要來。半路上，她想到人群、儀式和逐漸模糊的面容，停進一座小教堂，以為自己竟然什麼也感受不到。痛苦卻隨後湧來：她再也不能親口對皮奧說愛，也不能在海梅受苦時，重新把勇氣交給他。她返回了山莊。"
+    },
+    {
+     "kind": "narration",
+     "text": "一年以後，她聽說院長也在同一次事故中失去了兩個親近的人。她先躲在修院附近觀察那張樸素的臉，終於走進去，承認自己就是從前的演員。話沒有說完，她便在悲痛裡彎下身。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "卡米拉",
+     "text": "母親，我該怎麼辦？我孤零零的，什麼也沒有了。我愛他們。我該怎麼辦？"
+    },
+    {
+     "kind": "narration",
+     "text": "院長沒有立即給出解釋。她把卡米拉帶到花園，叫人送水，談起種花的修女，隨後問起她失去的孩子與朋友。卡米拉積壓了許多年的悲傷，終於有一個不必辯解、也不必表演的地方可以停下來。"
+    },
+    {
+     "kind": "narration",
+     "text": "後來，克拉拉從西班牙來到修院，帶著母親最後一封信。她竭力替母親辯護，也責備自己。院長讀著信，驚訝那些寬厚的句子竟來自自己曾經輕視的人。她請女兒留下，看一看這裡每天的工作。"
+    },
+    {
+     "kind": "narration",
+     "text": "太陽落下，燈照著一條又一條走廊。老人、孩子、病人與盲人都在這裡。院長還想知道，是否有人能為聾人研究一種語言，是否有更溫柔的方法照顧精神失常的人。她已經老了，仍在詢問，下一件能做的事在哪裡。"
+    },
+    {
+     "kind": "narration",
+     "text": "卡米拉如今也是幫手之一，正要去城的另一邊辦事。院長還得進病房說幾句話，然後去同等得不耐煩的麵粉商談價。燈被放到地上，病人們望著她；屋外仍黑，屋裡有人留下，給他們一點光和暖。"
+    },
+    {
+     "kind": "narration",
+     "text": "院長想到，再過一些日子，也許連記得這五個人的人都會死去。愛過他們的人會再被愛一陣，隨後同樣被遺忘。可是愛已經存在過，那些向他人伸出的心意，並不以永遠被人記住為條件。"
+    },
+    {
+     "kind": "dialogue",
+     "speaker": "皮拉爾院長的心聲",
+     "text": "有生者的世界，也有死者的世界；橋是愛，是唯一留下來的，也是唯一的意義。"
+    }
+   ],
+   "credit": "根據桑頓·懷爾德《聖路易斯雷大橋》改編｜原著 1927 年出版，獲 1928 年普利策小說獎。人物內心與場景有所節譯、重構；結尾一句據英文重譯。"
+  }
+ },
+ "levelStartEntries": {
+  "1": [
+   "e_maria",
+   "e_clara",
+   "e_pepita",
+   "e_palace",
+   "e_harbor"
+  ],
+  "2": [
+   "e_esteban",
+   "e_manuel",
+   "e_abbess",
+   "e_lima"
+  ],
+  "3": [
+   "e_pio",
+   "e_camila",
+   "e_lima",
+   "e_bridge"
+  ]
+ },
+ "gates": [
+  {
+   "after": 1,
+   "intro": "兩封信，一封留了下來，一封沒有寄出。",
+   "question": "當愛變成索求，她還能怎樣重新寫信？",
+   "blanks": [
+    {
+     "prompt": "侯爵夫人的信主要寫給遠在海外的誰？",
+     "answerEntry": "e_clara",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "孤女盼望回去住幾天的地方是",
+     "answerEntry": "e_convent",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "佩皮塔認為自己的信欠缺哪一種品質？",
+     "answerEntry": "e_courage",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "呈現未寄出之信被撕毀後夜晚的片段是",
+     "answerTitle": "c1_20",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "包含母親稱作“第一封”的最後書信的片段是",
+     "answerTitle": "c1_19",
+     "revealAt": "start"
+    }
+   ]
+  },
+  {
+   "after": 2,
+   "intro": "一個人的死亡，不會使另一個人的生活自動獲得答案。",
+   "question": "一個人的名字，怎樣承受兩個人的生活？",
+   "blanks": [
+    {
+     "prompt": "為女演員代寫秘密情書的兄弟是",
+     "answerEntry": "e_manuel",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "兄弟不願輕易交給外人記錄的是",
+     "answerEntry": "e_language",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "生還的兄弟曾借用亡者的名字；他實際是",
+     "answerEntry": "e_esteban",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "邀請青年遠航並在危機中留下陪伴的是",
+     "answerEntry": "e_captain",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "離開前，他希望代表兩兄弟贈禮給",
+     "answerEntry": "e_abbess",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "交代船長走向河邊、青年從橋上經過的片段是",
+     "answerTitle": "c2_20",
+     "revealAt": "gate"
+    }
+   ]
+  },
+  {
+   "after": 3,
+   "intro": "承諾照料的人，也必須聽見對方的意願。",
+   "question": "給予照料，是否就有權替另一個人決定？",
+   "blanks": [
+    {
+     "prompt": "女演員離開舞臺後努力爭取的社會位置是",
+     "answerEntry": "e_respectability",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "假扮少女埃斯特雷婭，把卡米拉叫出屋的人是",
+     "answerEntry": "e_pio",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "關於教養一年的談話，最終須先徵求誰的意願？",
+     "answerEntry": "e_jaime",
+     "revealAt": "start"
+    },
+    {
+     "prompt": "母親交給孩子、供失眠時觀看的小物件是",
+     "answerEntry": "e_stone",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "把母親同意的條件完整留下來的片段是",
+     "answerTitle": "c3_18",
+     "revealAt": "gate"
+    },
+    {
+     "prompt": "五人的不同來路最終相交於",
+     "answerEntry": "e_bridge",
+     "revealAt": "start"
+    }
+   ]
+  }
+ ],
+ "entries": {
+  "e_maria": {
+   "name": "瑪麗亞",
+   "type": "person",
+   "tier": "major",
+   "desc": "蒙特馬約爾侯爵夫人，住在利馬，用信件維繫與遠方女兒的關係。",
+   "look": "Elderly Peruvian noblewoman, red wig slightly askew, tired broad lined face, anxious intelligent brown eyes, brown brocade dress and fur-trimmed mantle.",
+   "variants": {
+    "child": {
+     "look": "The same woman as an awkward ten-year-old girl, straight chestnut hair, wide anxious brown eyes, plain formal dress burdened with heavy gold jewelry.",
+     "avatar": "slr-assets/avatars/e_maria_child.png",
+     "avatarPrompt": "The same woman as an awkward ten-year-old girl, straight chestnut hair, wide anxious brown eyes, plain formal dress burdened with heavy gold jewelry."
+    },
+    "young": {
+     "look": "The same woman at twenty-six, broad unidealized face, chestnut hair pinned up, anxious brown eyes, brown-gold wedding dress, no red wig.",
+     "avatar": "slr-assets/avatars/e_maria_young.png",
+     "avatarPrompt": "The same woman at twenty-six, broad unidealized face, chestnut hair pinned up, anxious brown eyes, brown-gold wedding dress, no red wig."
+    },
+    "middle": {
+     "look": "The same woman around thirty-six, chestnut hair in a modest updo, broad anxious face, brown colonial brocade dress, no gray hair or old-age wrinkles.",
+     "avatar": "slr-assets/avatars/e_maria_middle.png",
+     "avatarPrompt": "The same woman around thirty-six, chestnut hair in a modest updo, broad anxious face, brown colonial brocade dress, no gray hair or old-age wrinkles."
+    }
+   },
+   "avatar": "slr-assets/avatars/e_maria.png",
+   "avatarPrompt": "Elderly Peruvian noblewoman, red wig slightly askew, tired broad lined face, anxious intelligent brown eyes, brown brocade dress and fur-trimmed mantle.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "寫信的母親",
+     "fields": [
+      {
+       "label": "出身",
+       "text": "布商家的女兒，二十六歲嫁給一位家道中落的貴族"
+      },
+      {
+       "label": "遠方收信人",
+       "blank": {
+        "answer": "e_clara",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "未曾發生的和解",
+       "text": "向演員講述女兒捧住自己臉的動作，實際來自反覆出現的夢"
+      },
+      {
+       "label": "一次改變",
+       "text": "在客棧重新寫信，試著不再索取女兒愛自己的證明"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "相遇於橋頭",
+     "fields": [
+      {
+       "label": "同行的少女",
+       "blank": {
+        "answer": "e_pepita",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "此前的去處",
+       "text": "曾為女兒的生產進山朝聖，返城途中走上索橋"
+      },
+      {
+       "label": "最後的寫作",
+       "text": "她稱為第一封的信，實際是後來傳世的第五十六封"
+      },
+      {
+       "label": "身後形象",
+       "text": "留下的文字比她街頭古怪的形象更晚被人理解"
+      }
+     ]
+    }
+   ]
+  },
+  "e_clara": {
+   "name": "克拉拉",
+   "type": "person",
+   "tier": "major",
+   "desc": "瑪麗亞的女兒，聰明而自持，婚後遠赴西班牙，也慷慨幫助身邊的人。",
+   "look": "Adult Spanish-Peruvian noblewoman, tall poised figure, chestnut hair, pale olive skin, intelligent restrained eyes, elegant ivory and sage dress, no modern makeup.",
+   "variants": {
+    "child": {
+     "look": "Eight-year-old girl, chestnut hair neatly pinned, intelligent composed brown eyes, pale ivory colonial dress, clearly a child.",
+     "avatar": "slr-assets/avatars/e_clara_child.png",
+     "avatarPrompt": "Eight-year-old girl, chestnut hair neatly pinned, intelligent composed brown eyes, pale ivory colonial dress, clearly a child."
+    }
+   },
+   "avatar": "slr-assets/avatars/e_clara.png",
+   "avatarPrompt": "Adult Spanish-Peruvian noblewoman, tall poised figure, chestnut hair, pale olive skin, intelligent restrained eyes, elegant ivory and sage dress, no modern makeup.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "海那邊的女兒",
+     "fields": [
+      {
+       "label": "婚後居所",
+       "blank": {
+        "answer": "e_spain",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "相處的難處",
+       "text": "面對母親無窮的關切，逐漸把遠離當作保持自己生活的辦法"
+      },
+      {
+       "label": "不止冷淡",
+       "text": "她慷慨幫助朋友、僕人和藝術家，冷淡並非平均對待每個人"
+      },
+      {
+       "label": "一次訊息",
+       "text": "把自己懷孕的事輕輕帶過，卻引出母親更強烈的焦慮"
+      }
+     ]
+    }
+   ]
+  },
+  "e_pepita": {
+   "name": "佩皮塔",
+   "type": "person",
+   "tier": "major",
+   "desc": "由修院養大的少女，被送去給侯爵夫人作伴，盡力承擔超出年齡的期待。",
+   "look": "Fourteen-year-old Peruvian orphan girl, medium olive-brown complexion, dark brown eyes, oval face, straight dark-brown hair braided and pinned low, faded brown dress with ivory collar, no jewelry.",
+   "avatar": "slr-assets/avatars/e_pepita.png",
+   "avatarPrompt": "Fourteen-year-old Peruvian orphan girl, medium olive-brown complexion, dark brown eyes, oval face, straight dark-brown hair braided and pinned low, faded brown dress with ivory collar, no jewelry.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "十四歲的責任",
+     "fields": [
+      {
+       "label": "養育自己的地方",
+       "blank": {
+        "answer": "e_convent",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "承擔的期待",
+       "text": "被院長當作事業接班人訓練，習慣先完成責任再考慮自己"
+      },
+      {
+       "label": "宅邸的處境",
+       "text": "抵抗僕人的偷竊與欺負，也忍受夫人忽近忽遠的關注"
+      },
+      {
+       "label": "未寄出的心願",
+       "text": "希望回去住幾天，或者收到一封可以留下來的短簡訊件"
+      }
+     ]
+    }
+   ]
+  },
+  "e_abbess": {
+   "name": "皮拉爾院長",
+   "type": "person",
+   "tier": "core",
+   "desc": "聖羅莎修院的管理者，照料病人與孤兒，為婦女爭取尊嚴，也急於為自己的事業尋找接班人。",
+   "look": "Older stout Peruvian abbess, plain scrubbed ruddy face, kind intense black eyes, black veil and cream wimple, worn dark habit, practical hands, no luxury ornament.",
+   "avatar": "slr-assets/avatars/e_abbess.png",
+   "avatarPrompt": "Older stout Peruvian abbess, plain scrubbed ruddy face, kind intense black eyes, black veil and cream wimple, worn dark habit, practical hands, no luxury ornament.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "挑選接班人",
+     "fields": [
+      {
+       "label": "盼望的事業",
+       "text": "希望女人能夠彼此保護，照顧孤兒、病人及沒有依靠的婦女"
+      },
+      {
+       "label": "看中的孩子",
+       "blank": {
+        "answer": "e_pepita",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "女孩被送往",
+       "blank": {
+        "answer": "e_palace",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "發現才華的地方",
+       "text": "洗衣池邊，她看見孩子一邊組織勞動，一邊生動講述聖女的故事"
+      },
+      {
+       "label": "沒有察覺的壓力",
+       "text": "以成人相待的信任使女孩自豪，也讓她害怕暴露自己無法勝任"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "學會向別人求助",
+     "fields": [
+      {
+       "label": "街角的請求",
+       "text": "她請生還的青年進屋幫忙，提起他曾為自己做過的事"
+      },
+      {
+       "label": "走散的青年",
+       "blank": {
+        "answer": "e_esteban",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "後來求助的人",
+       "blank": {
+        "answer": "e_captain",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "失敗的一步",
+       "text": "兩聲朋友和一次靠近，仍使青年轉身逃跑，她沒有因此放棄尋找辦法"
+      },
+      {
+       "label": "留給另一人的記憶",
+       "text": "她承認自己也失去過人，青年後來一直記得這句話"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "被想起的照料者",
+     "fields": [
+      {
+       "label": "皮奧提出的安排",
+       "text": "他承諾收拾住處，並請院長幫忙找一位管理家務的人"
+      },
+      {
+       "label": "擬被帶去教養的孩子",
+       "blank": {
+        "answer": "e_jaime",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "安排發生之前的住所",
+       "blank": {
+        "answer": "e_villa",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "意願的邊界",
+       "text": "這仍是皮奧為了取得同意所作的承諾，不能寫成已經實際落實的照護"
+      },
+      {
+       "label": "日常本領",
+       "text": "她管理的房屋、病人和食物，使照料不只是一句善意的話"
+      }
+     ]
+    }
+   ]
+  },
+  "e_camila": {
+   "name": "卡米拉",
+   "type": "person",
+   "tier": "core",
+   "desc": "從咖啡館歌女成長為名演員，藝名佩里科爾；在舞臺、情愛、體面身份與母親的責任之間尋找生活。",
+   "look": "Adult Peruvian actress, fine long nose, olive complexion, dark expressive eyes, dark wavy hair pinned back, tired slightly childish mouth at rest, muted terracotta theatre gown.",
+   "variants": {
+    "child": {
+     "look": "Lanky twelve-year-old Peruvian girl, dark untidy hair, hungry narrow face, long limbs, worn plain brown dress, no jewelry, no adult glamour.",
+     "avatar": "slr-assets/avatars/e_camila_child.png",
+     "avatarPrompt": "Lanky twelve-year-old Peruvian girl, dark untidy hair, hungry narrow face, long limbs, worn plain brown dress, no jewelry, no adult glamour."
+    },
+    "ill": {
+     "look": "Same adult actress after smallpox, dignified tired face with subtle healed pitted marks, plain dark veil and simple brown dress; never grotesque, no open lesions.",
+     "avatar": "slr-assets/avatars/e_camila_ill.png",
+     "avatarPrompt": "Same adult actress after smallpox, dignified tired face with subtle healed pitted marks, plain dark veil and simple brown dress; never grotesque, no open lesions."
+    }
+   },
+   "avatar": "slr-assets/avatars/e_camila.png",
+   "avatarPrompt": "Adult Peruvian actress, fine long nose, olive complexion, dark expressive eyes, dark wavy hair pinned back, tired slightly childish mouth at rest, muted terracotta theatre gown.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "一次傷人的演出",
+     "fields": [
+      {
+       "label": "舞臺的力量",
+       "text": "她能臨時把貴族的私事編進歌曲，迅速引導整場觀眾的情緒"
+      },
+      {
+       "label": "公開表演之地",
+       "blank": {
+        "answer": "e_theatre",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "要求她登門的人",
+       "blank": {
+        "answer": "e_viceroy",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "誤認的寬恕",
+       "text": "她以為侯爵夫人故意寬恕侮辱，實際對方並未認真聽見那些歌"
+      },
+      {
+       "label": "離開以後",
+       "text": "她長時間面對鏡子，不能再像來訪之前那樣輕鬆嘲笑對方"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "不能讓旁人知道的信",
+     "fields": [
+      {
+       "label": "臨時僱用的代筆人",
+       "blank": {
+        "answer": "e_manuel",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "交付的文字",
+       "blank": {
+        "answer": "e_secretletters",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "平常的助手",
+       "text": "通常由皮奧替她讀寫，但這些私人往來特意不讓他知道"
+      },
+      {
+       "label": "錢的分量",
+       "text": "每次寫完便付酬，提醒抄寫者這段靠近仍然是一樁受僱的工作"
+      },
+      {
+       "label": "深夜的打擾",
+       "text": "她為一次約會失望來到兄弟房中，不知道旁觀者怎樣理解耳語"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "母親與舊夥伴",
+     "fields": [
+      {
+       "label": "試圖爭取的東西",
+       "blank": {
+        "answer": "e_respectability",
+        "pool": "concept"
+       }
+      },
+      {
+       "label": "出發前送給孩子的小物件",
+       "blank": {
+        "answer": "e_stone",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "離開舞臺的原因",
+       "text": "既有對社會身份的渴望，也有對角色、侮辱與勞累的厭倦"
+      },
+      {
+       "label": "拒絕的權利",
+       "text": "病後不願見人，曾明確禁止皮奧進入田莊；他的照料並不取消這道邊界"
+      },
+      {
+       "label": "最後的條件",
+       "text": "同意教養一年之前，要求先問孩子是否願意同行"
+      }
+     ]
+    }
+   ]
+  },
+  "e_pio": {
+   "name": "皮奧",
+   "type": "person",
+   "tier": "core",
+   "desc": "人們叫他叔叔，實際並無親緣；見多識廣的漂泊者和戲劇導師，對才華的熱愛夾雜著掌控他人的願望。",
+   "look": "Thin Castilian man around fifty, sparse moustache and wispy short beard, large sad alert black eyes, receding dark hair, weathered unhandsome face, worn brown coat.",
+   "variants": {
+    "young": {
+     "look": "Same thin Castilian man in his thirties, short dark hair, sparse moustache and beard, alert large dark eyes, plain worn brown coat.",
+     "avatar": "slr-assets/avatars/e_pio_young.png",
+     "avatarPrompt": "Same thin Castilian man in his thirties, short dark hair, sparse moustache and beard, alert large dark eyes, plain worn brown coat."
+    }
+   },
+   "avatar": "slr-assets/avatars/e_pio.png",
+   "avatarPrompt": "Thin Castilian man around fifty, sparse moustache and wispy short beard, large sad alert black eyes, receding dark hair, weathered unhandsome face, worn brown coat.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "臺前的身後人",
+     "fields": [
+      {
+       "label": "長期指導的演員",
+       "blank": {
+        "answer": "e_camila",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "共同依靠的文字",
+       "blank": {
+        "answer": "e_scripts",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "工作範圍",
+       "text": "教戲、讀寫、理髮、跑腿、管錢，常做那些沒有出現在掌聲裡的工作"
+      },
+      {
+       "label": "叔叔的稱呼",
+       "text": "來自親近的社會稱謂，不能據此認定他與演員存在血緣關係"
+      },
+      {
+       "label": "被母親看見的樣子",
+       "text": "侯爵夫人提起演員時，也提到這個常在她身邊的人"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "扶持與支配",
+     "fields": [
+      {
+       "label": "共同巡遊的行裝",
+       "blank": {
+        "answer": "e_shawl",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "越界時被看見的物件",
+       "blank": {
+        "answer": "e_mirror",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "對於完美",
+       "text": "真心熱愛文學與技藝，卻常用嘲諷、沉默和吝惜讚美使學生感到痛苦"
+      },
+      {
+       "label": "索債的一句話",
+       "text": "請求教養受拒後以欠款施壓，後來收回要錢，卻不能取消它造成的傷害"
+      },
+      {
+       "label": "最後的照看",
+       "text": "察覺車輪顛簸使孩子不適，便改用肩膀扛著他前行"
+      }
+     ]
+    }
+   ]
+  },
+  "e_esteban": {
+   "name": "埃斯特班",
+   "type": "person",
+   "tier": "major",
+   "desc": "在修院長大的雙胞胎之一，與兄弟共同勞動，習慣把兩人的生活看作整體。",
+   "look": "Twenty-two-year-old Peruvian twin man, straight-backed lean laborer, dark uncut hair, black eyes under a heavy fringe, olive skin, plain faded brown shirt. Physically indistinguishable from Manuel; no distinguishing scar or color code.",
+   "avatar": "slr-assets/avatars/e_esteban.png",
+   "avatarPrompt": "Twenty-two-year-old Peruvian twin man, straight-backed lean laborer, dark uncut hair, black eyes under a heavy fringe, olive skin, plain faded brown shirt. Physically indistinguishable from Manuel; no distinguishing scar or color code.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "只剩一個人",
+     "fields": [
+      {
+       "label": "曾借用的名字",
+       "blank": {
+        "answer": "e_manuel",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "遠行前的心願",
+       "text": "預支工資送院長禮物，希望也代表已經死去的兄弟"
+      },
+      {
+       "label": "被留下的時刻",
+       "text": "出發前陷入危機，船長進入房間干預並留下陪伴"
+      },
+      {
+       "label": "橋邊的路線",
+       "text": "船長下到河邊監督貨運，他從人行橋上透過，隨後隨橋墜落"
+      }
+     ]
+    }
+   ]
+  },
+  "e_manuel": {
+   "name": "曼努埃爾",
+   "type": "person",
+   "tier": "major",
+   "desc": "埃斯特班的雙生兄弟，做過抄寫員與苦力，對女演員產生難以言說的傾慕。",
+   "look": "Twenty-two-year-old Peruvian twin man, same face and body as Esteban, straight-backed lean laborer, dark uncut hair, black eyes under a heavy fringe, olive skin, plain faded brown shirt. No artificial distinguishing scar or color code.",
+   "avatar": "slr-assets/avatars/e_esteban.png",
+   "avatarPrompt": "Twenty-two-year-old Peruvian twin man, same face and body as Esteban, straight-backed lean laborer, dark uncut hair, black eyes under a heavy fringe, olive skin, plain faded brown shirt. No artificial distinguishing scar or color code.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "不能分給兄弟的心事",
+     "fields": [
+      {
+       "label": "與誰相依長大",
+       "blank": {
+        "answer": "e_esteban",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "喜歡的人",
+       "text": "卡米拉使他第一次在共同生活之外形成強烈的想象與依戀"
+      },
+      {
+       "label": "不再代筆",
+       "text": "察覺兄弟痛苦後拒絕繼續寫信，但未能把所有內心矛盾同時抹去"
+      },
+      {
+       "label": "死亡的先後",
+       "text": "膝部傷口惡化後先於橋難去世，不在五名墜橋者之中"
+      }
+     ]
+    }
+   ]
+  },
+  "e_captain": {
+   "name": "阿爾瓦拉多船長",
+   "type": "person",
+   "tier": "major",
+   "desc": "走過許多海域的航海者，寡言、可靠，女兒的去世長久地留在他的生活中。",
+   "look": "Broad strong older sea captain, deeply weathered sun-darkened face, plain short dark-gray hair, gray stubble, steady sad eyes, simple dark wool coat, no pirate symbols or modern uniform.",
+   "avatar": "slr-assets/avatars/e_captain.png",
+   "avatarPrompt": "Broad strong older sea captain, deeply weathered sun-darkened face, plain short dark-gray hair, gray stubble, steady sad eyes, simple dark wool coat, no pirate symbols or modern uniform.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "陪伴與邀請",
+     "fields": [
+      {
+       "label": "前去尋找青年的城鎮",
+       "blank": {
+        "answer": "e_cuzco",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "兩人共同知道的事",
+       "text": "從前曾一起卸船，彼此尊重不愛誇耀和辯解的沉默"
+      },
+      {
+       "label": "自己的失去",
+       "text": "女兒早已去世，有時他仍覺得她只是在某個遠方旅行"
+      },
+      {
+       "label": "說話的方式",
+       "text": "先提供工作、晚飯和共同出發的約定，沒有保證悲傷立即消失"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "赴宴的航海者",
+     "fields": [
+      {
+       "label": "被帶去的地方",
+       "blank": {
+        "answer": "e_court",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "加入聚談",
+       "text": "由皮奧帶入夜宴，同總督、大主教和演員說起遠方與舊事"
+      },
+      {
+       "label": "橋前的再見",
+       "text": "皮奧帶著孩子趕路時再次遇見他，那仍是一次普通的朋友碰面"
+      },
+      {
+       "label": "避免誤解",
+       "text": "他因監督貨運而走河谷，不是因為知道索橋將斷而先行避險"
+      }
+     ]
+    }
+   ]
+  },
+  "e_jaime": {
+   "name": "海梅",
+   "type": "person",
+   "tier": "major",
+   "desc": "卡米拉與總督的兒子，體弱而嚴肅，珍惜陽光，不願讓別人看見自己的發作。",
+   "look": "Delicate small boy, dark thoughtful eyes and forehead like Camila, pale olive skin, fine dark hair, worn garnet velvet clothes, quiet dignity, no exaggerated illness. Age at accident unspecified; portray a young child.",
+   "avatar": "slr-assets/avatars/e_jaime.png",
+   "avatarPrompt": "Delicate small boy, dark thoughtful eyes and forehead like Camila, pale olive skin, fine dark hair, worn garnet velvet clothes, quiet dignity, no exaggerated illness. Age at accident unspecified; portray a young child.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "自己的小行李",
+     "fields": [
+      {
+       "label": "母親",
+       "blank": {
+        "answer": "e_camila",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "身體的處境",
+       "text": "體弱，發作時尤其怕別人看見，常常努力掩飾自己的難受"
+      },
+      {
+       "label": "幼年一景",
+       "text": "原著較早描寫他七歲時的形象，不能直接等同斷橋時的確切年齡"
+      },
+      {
+       "label": "選擇與照看",
+       "text": "在母親提出須徵得同意後出現於客店，顛簸難耐時由皮奧揹負"
+      }
+     ]
+    }
+   ]
+  },
+  "e_viceroy": {
+   "name": "安德烈斯總督",
+   "type": "person",
+   "tier": "major",
+   "desc": "秘魯總督，卡米拉的戀人，精於宮廷禮儀，也受病痛、權勢與厭倦困擾。",
+   "look": "Aging grand Spanish viceroy, heavy dignified face, graying curled hair, rich but restrained dark burgundy coat, sedentary posture, amber candlelight, no fantasy crown.",
+   "avatar": "slr-assets/avatars/e_viceroy.png",
+   "avatarPrompt": "Aging grand Spanish viceroy, heavy dignified face, graying curled hair, rich but restrained dark burgundy coat, sedentary posture, amber candlelight, no fantasy crown.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "維護自己的宮廷",
+     "fields": [
+      {
+       "label": "維護身份的場所",
+       "blank": {
+        "answer": "e_court",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "道歉的命令",
+       "text": "要求演員就公開羞辱侯爵夫人登門道歉，允許她保留一雙鞋"
+      },
+      {
+       "label": "不止一種動機",
+       "text": "既顧及貴族秩序及夫人女婿的權勢，也樂於壓低女演員的氣焰"
+      },
+      {
+       "label": "私人的猜疑",
+       "text": "懷疑情人同別的男人來往，使威嚴和感情上的不安混在一起"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "夜宴與父親的身份",
+     "fields": [
+      {
+       "label": "幼子的名字",
+       "blank": {
+        "answer": "e_jaime",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "帶來的教養",
+       "text": "教演員宮廷語言和日常禮儀，使她的舞臺表現增加新的細節"
+      },
+      {
+       "label": "身體的代價",
+       "text": "飲食、享樂與長久的流寓帶來病痛和難以消除的厭倦"
+      },
+      {
+       "label": "禮儀之外",
+       "text": "與親近者談到天亮，藉故事和文學暫時撫慰對西班牙的鄉愁"
+      }
+     ]
+    }
+   ]
+  },
+  "e_archbishop": {
+   "name": "利馬大主教",
+   "type": "person",
+   "tier": "minor",
+   "desc": "愛好語言、音樂與美食，也常為行動尋找推辭的教會高位者。",
+   "look": "Heavy older cleric with a large face, small kindly witty black eyes, violet satin clerical robes, pearl-pale hands, humane literary portrait without caricature.",
+   "avatar": "slr-assets/avatars/e_archbishop.png",
+   "avatarPrompt": "Heavy older cleric with a large face, small kindly witty black eyes, violet satin clerical robes, pearl-pale hands, humane literary portrait without caricature.",
+   "archive": []
+  },
+  "e_juniper": {
+   "name": "胡尼佩爾",
+   "type": "person",
+   "tier": "major",
+   "desc": "目睹橋難的方濟各會修士，用多年調查追問五個人的死亡是否具有天意。",
+   "look": "Small earnest middle-aged Franciscan friar, close-cropped dark hair with modest tonsure, weathered gentle face, plain brown wool habit and cord belt, a simple bound notebook.",
+   "avatar": "slr-assets/avatars/e_juniper.png",
+   "avatarPrompt": "Small earnest middle-aged Franciscan friar, close-cropped dark hair with modest tonsure, weathered gentle face, plain brown wool habit and cord belt, a simple bound notebook.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "尋找解釋的人",
+     "fields": [
+      {
+       "label": "調查所問",
+       "blank": {
+        "answer": "e_providence",
+        "pool": "concept"
+       }
+      },
+      {
+       "label": "開始的緣由",
+       "text": "目睹五人遇難以後，試圖從他們的生平尋找事件背後的安排"
+      },
+      {
+       "label": "更早的一次嘗試",
+       "text": "瘟疫時比較十五名死者與十五名倖存者，所得結果並不符合預期"
+      },
+      {
+       "label": "不能成為判決",
+       "text": "調查記錄保留了許多矛盾說法，無法把五個人化成道德高低的答案"
+      }
+     ]
+    }
+   ]
+  },
+  "e_lima": {
+   "name": "利馬",
+   "type": "place",
+   "tier": "major",
+   "desc": "小說中人們交錯生活的城市，教堂、劇院、宅邸與碼頭各有自己的聲音。",
+   "look": "Colonial Lima around 1714, adobe walls, wooden balconies and cathedral towers, pedestrians in period dress, no modern vehicles.",
+   "image": "slr-assets/entries/e_lima.png",
+   "imagePrompt": "Colonial Lima around 1714, adobe walls, wooden balconies and cathedral towers, pedestrians in period dress, no modern vehicles.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "一座城的目光",
+     "fields": [
+      {
+       "label": "追逐掌聲的場所",
+       "blank": {
+        "answer": "e_theatre",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "街頭的老婦人",
+       "text": "居民談她的衣服、酒醉與怪異，難以看見她寫信時的用心"
+      },
+      {
+       "label": "許多種生活",
+       "text": "貴族客廳、海邊、修院和舞臺之間，訊息與人情不斷流動"
+      },
+      {
+       "label": "名聲的反轉",
+       "text": "眾人的嘲笑與後來對文字的讚賞，並不一定認識同一個人的生活"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "熟悉卻回不去",
+     "fields": [
+      {
+       "label": "兄弟的謀生地點之一",
+       "blank": {
+        "answer": "e_harbor",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "共同的勞動",
+       "text": "抄劇本與樂譜、搬貨和跑腿，讓兩個沉默青年被城裡許多人認識"
+      },
+      {
+       "label": "看見失去的人",
+       "text": "街坊對兄弟的分離十分關心，卻不能因此替生還者走完悲傷"
+      },
+      {
+       "label": "一次次返回",
+       "text": "青年不斷離開、又重新回城，熟悉的街道並未馬上恢復熟悉的意義"
+      }
+     ]
+    }
+   ]
+  },
+  "e_palace": {
+   "name": "侯爵府",
+   "type": "place",
+   "tier": "major",
+   "desc": "瑪麗亞在利馬的宅邸，華貴、寬敞，卻容納著母女間長久的疏離。",
+   "look": "Peruvian baroque domestic mansion, green carved wooden balcony, writing desk, faded rich fabrics, quiet empty rooms.",
+   "image": "slr-assets/entries/e_palace.png",
+   "imagePrompt": "Peruvian baroque domestic mansion, green carved wooden balcony, writing desk, faded rich fabrics, quiet empty rooms.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "寬敞與孤單",
+     "fields": [
+      {
+       "label": "初到這裡的少女",
+       "blank": {
+        "answer": "e_pepita",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "綠色陽臺",
+       "text": "主人獨坐讀信，也在這裡察覺自己的愛含有支配欲"
+      },
+      {
+       "label": "僕人的便利",
+       "text": "主人長久沉浸於自己的生活，使僕人借住房間、取走物品更容易"
+      },
+      {
+       "label": "不穩定的親切",
+       "text": "夫人偶爾待少女十分溫暖，隨後又退回自己的心事，使依戀無處安放"
+      }
+     ]
+    }
+   ]
+  },
+  "e_spain": {
+   "name": "西班牙",
+   "type": "place",
+   "tier": "minor",
+   "desc": "克拉拉婚後的居所，也是秘魯許多人不斷回望的遠方。",
+   "look": "Distant eighteenth-century Spanish harbor and warm stone town seen across a gray-blue sea, a small sailing vessel.",
+   "image": "slr-assets/entries/e_spain.png",
+   "imagePrompt": "Distant eighteenth-century Spanish harbor and warm stone town seen across a gray-blue sea, a small sailing vessel.",
+   "archive": []
+  },
+  "e_harbor": {
+   "name": "利馬海港",
+   "type": "place",
+   "tier": "major",
+   "desc": "遠行者和海運貨物往返的海岸，母女的告別與兄弟的勞動都發生在這裡。",
+   "look": "Eighteenth-century Peruvian Pacific harbor, wooden sailing ships, hand-carried crates and simple boats, pearl clouds over water.",
+   "image": "slr-assets/entries/e_harbor.png",
+   "imagePrompt": "Eighteenth-century Peruvian Pacific harbor, wooden sailing ships, hand-carried crates and simple boats, pearl clouds over water.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "靠近遠方的勞動",
+     "fields": [
+      {
+       "label": "從前僱用過兄弟的人",
+       "blank": {
+        "answer": "e_captain",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "可以找到的工作",
+       "text": "兄弟抄寫疲倦後到海邊裝卸船貨，不以同普通苦力勞動為恥"
+      },
+      {
+       "label": "新的邀請",
+       "text": "遠航意味著繁重工作與工資，也意味著暫時離開熟悉的痛苦"
+      },
+      {
+       "label": "未完成的抵達",
+       "text": "青年答應同行，卻在返城途中遭遇橋難，沒有登上預定的船"
+      }
+     ]
+    }
+   ]
+  },
+  "e_convent": {
+   "name": "聖羅莎修院",
+   "type": "place",
+   "tier": "major",
+   "desc": "院長照料孤兒與病人的地方，有洗衣池、病房和每日需要籌措的開銷。",
+   "look": "Austere colonial Peruvian convent courtyard, stone laundry trough, white linen, shade trees, warm adobe walls and open cloister.",
+   "image": "slr-assets/entries/e_convent.png",
+   "imagePrompt": "Austere colonial Peruvian convent courtyard, stone laundry trough, white linen, shade trees, warm adobe walls and open cloister.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "孩子與事務",
+     "fields": [
+      {
+       "label": "日常的準則之一",
+       "blank": {
+        "answer": "e_obedience",
+        "pool": "concept"
+       }
+      },
+      {
+       "label": "院長看重的事情",
+       "text": "照顧孤兒和病人，也讓女孩學習籌款、管理與對抗社會中的不公"
+      },
+      {
+       "label": "教育的重量",
+       "text": "接班人的期待使一個孩子過早面對成人需要承擔的責任"
+      },
+      {
+       "label": "被想念的聲音",
+       "text": "佩皮塔在山中回憶的，是晚餐後的話語、病房禱告與獨自受教的時刻"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "院門再次開啟",
+     "fields": [
+      {
+       "label": "兄弟之間保留的東西",
+       "blank": {
+        "answer": "e_language",
+        "pool": "concept"
+       }
+      },
+      {
+       "label": "成長的起點",
+       "text": "兩名棄嬰在門前被發現，隨後獲得名字、食物和故事"
+      },
+      {
+       "label": "失去以後的嘗試",
+       "text": "院長既安排後事，也試著讓徘徊的青年重新靠近眾人"
+      },
+      {
+       "label": "沒有立即成功",
+       "text": "她的經驗與善意也有無能為力之處，最後需要另找一個適合幫助的人"
+      }
+     ]
+    }
+   ]
+  },
+  "e_theatre": {
+   "name": "利馬劇院",
+   "type": "place",
+   "tier": "major",
+   "desc": "演員與抄寫員謀生的場所，舞臺上的喝彩與後臺的苛求往往同時存在。",
+   "look": "Small colonial theatre, candlelit stage, upper wooden boxes, faded curtain, intimate practical backstage, no electric light.",
+   "image": "slr-assets/entries/e_theatre.png",
+   "imagePrompt": "Small colonial theatre, candlelit stage, upper wooden boxes, faded curtain, intimate practical backstage, no electric light.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "一場誤聽",
+     "fields": [
+      {
+       "label": "驅動觀眾的回應",
+       "blank": {
+        "answer": "e_applause",
+        "pool": "concept"
+       }
+      },
+      {
+       "label": "演出的切換",
+       "text": "正劇兩幕之間，演員脫開角色，唱臨時編排的時事歌曲"
+      },
+      {
+       "label": "三種聽見",
+       "text": "演員得到歡呼，少女感到羞辱，侯爵夫人卻沉浸在對遠方女兒的思念"
+      },
+      {
+       "label": "舞臺後的後果",
+       "text": "公開的嘲弄引來總督干預，也使演員在登門時受到自己的良心追問"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "沒有散場的要求",
+     "fields": [
+      {
+       "label": "勞動的依據",
+       "blank": {
+        "answer": "e_scripts",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "高頻的演出",
+       "text": "劇團常需不斷更換劇目，記詞、背誦和排練是長久而緊張的勞動"
+      },
+      {
+       "label": "更高的尺度",
+       "text": "老師與演員都知道觀眾已經滿意，卻仍試圖接近自己想象中的完美"
+      },
+      {
+       "label": "離開的理由",
+       "text": "女性角色有限，勞作與侮辱消耗意願，舞臺成就不必是一個人唯一的歸處"
+      }
+     ]
+    }
+   ]
+  },
+  "e_shrine": {
+   "name": "克盧克桑布誇聖所",
+   "type": "place",
+   "tier": "minor",
+   "desc": "安第斯山中的朝聖地，白牆、鐘聲、噴泉與清澈的空氣環繞著它。",
+   "look": "Whitewashed Andean sanctuary in a small mountain town, stone fountain, llamas and layered peaks, clear cold afternoon.",
+   "image": "slr-assets/entries/e_shrine.png",
+   "imagePrompt": "Whitewashed Andean sanctuary in a small mountain town, stone fountain, llamas and layered peaks, clear cold afternoon.",
+   "archive": []
+  },
+  "e_inn": {
+   "name": "山中客棧",
+   "type": "place",
+   "tier": "major",
+   "desc": "朝聖途中暫住的房間，兩封命運不同的信在這裡被寫下、讀到或撕毀。",
+   "look": "Modest colonial Andean inn room, rough table, charcoal brazier, wicker hampers, candle and quill, mountain light.",
+   "image": "slr-assets/entries/e_inn.png",
+   "imagePrompt": "Modest colonial Andean inn room, rough table, charcoal brazier, wicker hampers, candle and quill, mountain light.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "一晚的生活",
+     "fields": [
+      {
+       "label": "需要備好的燃料",
+       "blank": {
+        "answer": "e_charcoal",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "主人的主要食物",
+       "text": "女孩特意去廚房交代粥的做法，之後又下樓檢查味道"
+      },
+      {
+       "label": "兩封信的區別",
+       "text": "佩皮塔寫求助，母親重新學習寫得寬厚；前者被撕去，後者儲存下來"
+      },
+      {
+       "label": "真實的日期關係",
+       "text": "天亮寫完信以後，兩人隔了兩天才啟程返城，並非當晨馬上遇難"
+      }
+     ]
+    }
+   ]
+  },
+  "e_room": {
+   "name": "雙胞胎的房間",
+   "type": "place",
+   "tier": "major",
+   "desc": "兄弟共住的出租房，兩張床與一張抄寫桌見證了默契、隔閡和照料。",
+   "look": "Plain rented room in colonial Lima, two simple cots, wooden copying table, candle, basin and folded cloth, no modern furniture.",
+   "image": "slr-assets/entries/e_room.png",
+   "imagePrompt": "Plain rented room in colonial Lima, two simple cots, wooden copying table, candle, basin and folded cloth, no modern furniture.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "共同生活的改變",
+     "fields": [
+      {
+       "label": "病中不斷更換的物件",
+       "blank": {
+        "answer": "e_cloth",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "桌邊的深夜",
+       "text": "一人伏案代筆，另一人臥床旁觀，親近的空間裡第一次出現無法共享的心事"
+      },
+      {
+       "label": "鄰居的反應",
+       "text": "夜間哭喊與詛咒引來投訴，照料者必須同時承受屋內與屋外的壓力"
+      },
+      {
+       "label": "之後的空缺",
+       "text": "死亡發生後，生還者不肯再進這棟樓，卻仍一次次走回附近"
+      }
+     ]
+    }
+   ]
+  },
+  "e_cuzco": {
+   "name": "庫斯科",
+   "type": "place",
+   "tier": "minor",
+   "desc": "埃斯特班漂泊後做抄寫工作的城鎮，船長到這裡邀請他遠航。",
+   "look": "Colonial Cuzco inn and highland square, layered stone foundations, Andes and clear cool dawn light.",
+   "image": "slr-assets/entries/e_cuzco.png",
+   "imagePrompt": "Colonial Cuzco inn and highland square, layered stone foundations, Andes and clear cool dawn light.",
+   "archive": []
+  },
+  "e_court": {
+   "name": "總督府",
+   "type": "place",
+   "tier": "major",
+   "desc": "禮儀繁複的權力中心，也有聚談到天明、暫時排遣鄉愁的夜宴。",
+   "look": "Colonial Peruvian palace supper room, tall window facing dawn, brocade tablecloth, fruit, chocolate cups and fading candles.",
+   "image": "slr-assets/entries/e_court.png",
+   "imagePrompt": "Colonial Peruvian palace supper room, tall window facing dawn, brocade tablecloth, fruit, chocolate cups and fading candles.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "向天亮延長的談話",
+     "fields": [
+      {
+       "label": "鍾情文學與語言的賓客",
+       "blank": {
+        "answer": "e_archbishop",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "夜宴的組成",
+       "text": "總督、皮奧與船長也在桌邊，演員常在演完以後才匆忙趕來"
+      },
+      {
+       "label": "談論的範圍",
+       "text": "戰爭、國王、靈魂、星辰和遠方國家，都成為排遣厭倦與鄉愁的話題"
+      },
+      {
+       "label": "晨光到來時",
+       "text": "眾人不願先離去，女演員卻已疲憊地靠著主人睡著"
+      }
+     ]
+    }
+   ]
+  },
+  "e_garden": {
+   "name": "法式花園",
+   "type": "place",
+   "tier": "major",
+   "desc": "山中仿照歐洲營建的花園，皮奧與卡米拉曾在黃昏的長椅旁交談。",
+   "look": "French formal garden terraces in the Andes, chipped marble bench, balustrade and distant Pacific-facing valleys, dusk clouds.",
+   "image": "slr-assets/entries/e_garden.png",
+   "imagePrompt": "French formal garden terraces in the Andes, chipped marble bench, balustrade and distant Pacific-facing valleys, dusk clouds.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "黃昏的距離",
+     "fields": [
+      {
+       "label": "約見雙方中的長者",
+       "blank": {
+        "answer": "e_pio",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "談話的分歧",
+       "text": "他盼望重返舞臺或共同遠行，她已無意再靠藝術贏得整個未來"
+      },
+      {
+       "label": "遲來的道歉",
+       "text": "皮奧承認過去出於驕傲，捨不得給出學生應得的讚美"
+      },
+      {
+       "label": "沒有答應的溫柔",
+       "text": "臨走吻手指留下真實的親近，卻並未改變對重返劇院的拒絕"
+      }
+     ]
+    }
+   ]
+  },
+  "e_villa": {
+   "name": "卡米拉的山莊",
+   "type": "place",
+   "tier": "major",
+   "desc": "卡米拉離開城市後的住所，病後緊閉的門窗使照料與拒絕反覆相遇。",
+   "look": "Secluded eighteenth-century Andean country villa, weathered adobe, closed wooden shutters, modest farm outbuildings, dewy grass.",
+   "image": "slr-assets/entries/e_villa.png",
+   "imagePrompt": "Secluded eighteenth-century Andean country villa, weathered adobe, closed wooden shutters, modest farm outbuildings, dewy grass.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "房門內外",
+     "fields": [
+      {
+       "label": "闖入私人一刻的映照",
+       "blank": {
+        "answer": "e_mirror",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "病後的住所",
+       "text": "女主人離開利馬，退還饋贈，把生活縮排山中房間與田莊"
+      },
+      {
+       "label": "對外的禁令",
+       "text": "鏡前的秘密被看見以後，她明確要求皮奧不許再進院子"
+      },
+      {
+       "label": "未獲允許的再次來訪",
+       "text": "假扮少女的哭聲使她親自下樓，來訪者藉此繞過了先前的拒絕"
+      }
+     ]
+    }
+   ]
+  },
+  "e_bridge": {
+   "name": "聖路易斯雷大橋",
+   "type": "place",
+   "tier": "core",
+   "desc": "橫跨河谷的植物纖維索橋，薄木板承載行人；五條不同的人生在一次尋常過河中相遇。",
+   "look": "Intact narrow braided-fiber suspension footbridge with thin wood planks across a deep Peruvian gorge, no stone arches or steel.",
+   "image": "slr-assets/entries/e_bridge.png",
+   "imagePrompt": "Intact narrow braided-fiber suspension footbridge with thin wood planks across a deep Peruvian gorge, no stone arches or steel.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "朝聖的去程",
+     "fields": [
+      {
+       "label": "母女故事中的山中目的地",
+       "blank": {
+        "answer": "e_shrine",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "旅途中住宿處",
+       "blank": {
+        "answer": "e_inn",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "橋的構造",
+       "text": "植物纖維編成繩索，薄木板供人行走，貨物和車馬另在下方渡運"
+      },
+      {
+       "label": "兩次經過",
+       "text": "瑪麗亞與佩皮塔先越橋進山，隔了數日才在返城時再次經過"
+      },
+      {
+       "label": "不能補寫的保證",
+       "text": "重新寫信是一種改變，並不能使任何人預知或免於隨後到來的橋難"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "兩條過河的路",
+     "fields": [
+      {
+       "label": "透過橋面的青年",
+       "blank": {
+        "answer": "e_esteban",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "未到遠航前想完成的事",
+       "blank": {
+        "answer": "e_gift",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "下方的工作",
+       "text": "船長去河邊監督貨物渡運，青年選擇了常用的人行通道"
+      },
+      {
+       "label": "事先並不知情",
+       "text": "原著沒有寫船長早知危險，也沒有把青年的過橋寫成主動尋死"
+      },
+      {
+       "label": "出發的意義",
+       "text": "他們剛剛做過繼續生活的嘗試，這次事故並不取消那次陪伴本身"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "五條來路的交會",
+     "fields": [
+      {
+       "label": "被揹負的孩子",
+       "blank": {
+        "answer": "e_jaime",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "孩子帶的夜間小物件",
+       "blank": {
+        "answer": "e_stone",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "最後的安排",
+       "text": "皮奧說過橋後歇一歇，這個針對身體不適的小計劃沒有實現"
+      },
+      {
+       "label": "共有的事件",
+       "text": "瑪麗亞、佩皮塔、埃斯特班、皮奧與海梅在同一次橋難中遇難"
+      },
+      {
+       "label": "留下的疑問",
+       "text": "各自的人生可以被更仔細認識，事故的終極原因卻並未因此成為可證實的答案"
+      }
+     ]
+    }
+   ]
+  },
+  "e_jewels": {
+   "name": "珠寶",
+   "type": "item",
+   "tier": "minor",
+   "desc": "身份與愛意常借它們表達，也可能變成負擔或必須退還的饋贈。",
+   "look": "Old gold earrings and necklaces on plain brown cloth, understated colonial jewelry, warm daylight, no modern display case.",
+   "image": "slr-assets/entries/e_jewels.png",
+   "imagePrompt": "Old gold earrings and necklaces on plain brown cloth, understated colonial jewelry, warm daylight, no modern display case.",
+   "archive": []
+  },
+  "e_goldchain": {
+   "name": "金鍊",
+   "type": "item",
+   "tier": "major",
+   "desc": "克拉拉希望母親替國王另尋的首飾，在信中變成一次走入畫作的想象。",
+   "look": "Fine seventeenth-century Spanish gold chain on a folded cream letter beside a corner of an old oil portrait, no legible writing.",
+   "image": "slr-assets/entries/e_goldchain.png",
+   "imagePrompt": "Fine seventeenth-century Spanish gold chain on a folded cream letter beside a corner of an old oil portrait, no legible writing.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "寫進一幅畫裡",
+     "fields": [
+      {
+       "label": "發出請求的女兒",
+       "blank": {
+        "answer": "e_clara",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "送禮的理由",
+       "text": "西班牙國王讚賞女兒佩戴的鏈子，她請母親再找相仿的一條"
+      },
+      {
+       "label": "信中的奇遇",
+       "text": "母親把尋物寫成半夜走入畫作的幻想，使採購變成有趣的敘述"
+      },
+      {
+       "label": "應有的區別",
+       "text": "走進畫布是書信中的文學想象，不是她實際完成的一次奇異旅行"
+      }
+     ]
+    }
+   ]
+  },
+  "e_letters": {
+   "name": "母女書信",
+   "type": "item",
+   "tier": "core",
+   "desc": "在秘魯與西班牙之間往返的信件，既有機智的見聞，也有未能當面承受的索求與遲來的寬厚。",
+   "look": "Bundle of folded handwritten letters, wax seal, feather quill and green wooden balcony light; writing indistinct.",
+   "image": "slr-assets/entries/e_letters.png",
+   "imagePrompt": "Bundle of folded handwritten letters, wax seal, feather quill and green wooden balcony light; writing indistinct.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "用文字靠近",
+     "fields": [
+      {
+       "label": "信中的首飾",
+       "blank": {
+        "answer": "e_goldchain",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "寄出的海岸",
+       "blank": {
+        "answer": "e_harbor",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "為什麼反覆修改",
+       "text": "母親盼女兒讀到機智的見聞時願意微笑，多給自己一點親近與欣賞"
+      },
+      {
+       "label": "儲存者",
+       "text": "女兒常只匆匆看過，欣賞文筆的女婿為儲存這些文字起了關鍵作用"
+      },
+      {
+       "label": "最後一封的名稱",
+       "text": "第五十六封被作者自己稱作第一封，指的是態度的重新開始"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "後來仍能傳遞的東西",
+     "fields": [
+      {
+       "label": "這些文字的作者",
+       "blank": {
+        "answer": "e_maria",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "信裡記過的航海者",
+       "blank": {
+        "answer": "e_captain",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "觀察與理解",
+       "text": "書信也記錄別人的生活，船長失去女兒的故事讓母親聯想到自己的眷戀"
+      },
+      {
+       "label": "抵達不了的現實",
+       "text": "寫得再好也無法立即修復母女關係，但文字儲存了當時真實的願望與變化"
+      },
+      {
+       "label": "另一封信的缺席",
+       "text": "少女在客棧寫下的求助信已被撕去，不能假裝修士後來找到完整原件"
+      }
+     ]
+    }
+   ]
+  },
+  "e_porridge": {
+   "name": "粥",
+   "type": "item",
+   "tier": "minor",
+   "desc": "侯爵夫人常吃的食物，佩皮塔會特意向客棧廚子交代做法。",
+   "look": "Simple earthenware bowl of plain rice porridge on a worn inn table, warm steam and a wooden spoon.",
+   "image": "slr-assets/entries/e_porridge.png",
+   "imagePrompt": "Simple earthenware bowl of plain rice porridge on a worn inn table, warm steam and a wooden spoon.",
+   "archive": []
+  },
+  "e_charcoal": {
+   "name": "木炭",
+   "type": "item",
+   "tier": "minor",
+   "desc": "山中房間取暖所需的燃料，照看火盆也是佩皮塔的日常差事。",
+   "look": "Unlit black charcoal pieces in a small rough basket beside a clay brazier, gentle side light.",
+   "image": "slr-assets/entries/e_charcoal.png",
+   "imagePrompt": "Unlit black charcoal pieces in a small rough basket beside a clay brazier, gentle side light.",
+   "archive": []
+  },
+  "e_secretletters": {
+   "name": "秘密情書",
+   "type": "item",
+   "tier": "major",
+   "desc": "卡米拉交給曼努埃爾代筆的私信，收信人另有其人，內容須保密。",
+   "look": "Two separate folded letters beside an actress's stage wig and a small payment coin, quill on table, no readable words.",
+   "image": "slr-assets/entries/e_secretletters.png",
+   "imagePrompt": "Two separate folded letters beside an actress's stage wig and a small payment coin, quill on table, no readable words.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "代寫與保密",
+     "fields": [
+      {
+       "label": "一位收信人",
+       "blank": {
+        "answer": "e_viceroy",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "另一類收信人",
+       "text": "演員也向鬥牛士寫信，親暱與責備都由受僱的抄寫者記錄"
+      },
+      {
+       "label": "保密的範圍",
+       "text": "她要求不能透露信的內容，連代筆人的雙生兄弟也不得知道"
+      },
+      {
+       "label": "留下的誤會",
+       "text": "耳旁口述看起來像親密，實際並未使寫信者成為信中愛情的物件"
+      }
+     ]
+    }
+   ]
+  },
+  "e_scripts": {
+   "name": "戲劇抄本",
+   "type": "item",
+   "tier": "major",
+   "desc": "需要抄寫、背誦與排練的西班牙劇作，連線著兄弟的勞動與演員的技藝。",
+   "look": "Hand-copied seventeenth-century Spanish drama pages with quill and plain leather binding, illegible writing, backstage table.",
+   "image": "slr-assets/entries/e_scripts.png",
+   "imagePrompt": "Hand-copied seventeenth-century Spanish drama pages with quill and plain leather binding, illegible writing, backstage table.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "抄寫者的營生",
+     "fields": [
+      {
+       "label": "代寫但不能公開的另一類文字",
+       "blank": {
+        "answer": "e_secretletters",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "文字的勞動",
+       "text": "兄弟替劇團抄分角臺本，也替商人抄告示，為唱詩班抄樂譜"
+      },
+      {
+       "label": "一度離開",
+       "text": "抄寫令他們疲倦後，曾轉到海邊搬貨，又做過趕車和擺渡等工作"
+      },
+      {
+       "label": "難以重回桌邊",
+       "text": "兄弟去世後，生還者感到無法繼續安坐抄寫，希望海上工作填滿每一天"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "title": "說出文字的人",
+     "fields": [
+      {
+       "label": "給學生指出細節的老師",
+       "blank": {
+        "answer": "e_pio",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "記憶的壓力",
+       "text": "一週可能排出多部新戲，演員要記住長篇而華麗的臺詞"
+      },
+      {
+       "label": "角色的不滿",
+       "text": "許多作品把重點留給男性英雄，女演員逐漸感到女性角色過於貧乏"
+      },
+      {
+       "label": "共同的追求",
+       "text": "老師和學生能為一句話的快慢討論到天明，也能為詩人後人觀演而同感敬畏"
+      }
+     ]
+    }
+   ]
+  },
+  "e_medicine": {
+   "name": "藥劑與膏藥",
+   "type": "item",
+   "tier": "minor",
+   "desc": "理髮師兼外科醫師開出的治療用品，未能使曼努埃爾的傷病好轉。",
+   "look": "Plain small period earthenware medicine jar, folded linen and wooden spoon on a humble bedside table, no modern labels.",
+   "image": "slr-assets/entries/e_medicine.png",
+   "imagePrompt": "Plain small period earthenware medicine jar, folded linen and wooden spoon on a humble bedside table, no modern labels.",
+   "archive": []
+  },
+  "e_cloth": {
+   "name": "冷溼布",
+   "type": "item",
+   "tier": "major",
+   "desc": "醫師吩咐每小時更換的敷布，成了照料者不敢停下、病人害怕到來的事。",
+   "look": "Wet linen cloth over the rim of a simple water basin, a bedside candle and dawn light, no wound.",
+   "image": "slr-assets/entries/e_cloth.png",
+   "imagePrompt": "Wet linen cloth over the rim of a simple water basin, a bedside candle and dawn light, no wound.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "整點將至",
+     "fields": [
+      {
+       "label": "同時得到的治療用品",
+       "blank": {
+        "answer": "e_medicine",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "醫囑",
+       "text": "理髮師兼外科醫師要求每小時冷敷，照料者不敢輕易違反"
+      },
+      {
+       "label": "實際的痛苦",
+       "text": "每次敷上時病人反而最難忍，發熱與痛楚使他喊出傷人的話"
+      },
+      {
+       "label": "兩難的照料",
+       "text": "清醒時的病人要求繼續，兄弟卻希望至少跳過一次，讓他暫時不再受痛"
+      }
+     ]
+    }
+   ]
+  },
+  "e_crucifix": {
+   "name": "十字架",
+   "type": "item",
+   "tier": "minor",
+   "desc": "病中的曼努埃爾曾借它起誓，收回疼痛中傷害兄弟的話。",
+   "look": "Small plain worn wooden crucifix resting on cream bed linen, natural light, respectful unadorned still life.",
+   "image": "slr-assets/entries/e_crucifix.png",
+   "imagePrompt": "Small plain worn wooden crucifix resting on cream bed linen, natural light, respectful unadorned still life.",
+   "archive": []
+  },
+  "e_coin": {
+   "name": "錢幣",
+   "type": "item",
+   "tier": "minor",
+   "desc": "代筆的酬金與孩子的零用，顯出不同關係裡同一物件的不同分量。",
+   "look": "A single worn Spanish colonial gold coin on a plain wooden surface, historical indistinct embossing, no legible date.",
+   "image": "slr-assets/entries/e_coin.png",
+   "imagePrompt": "A single worn Spanish colonial gold coin on a plain wooden surface, historical indistinct embossing, no legible date.",
+   "archive": []
+  },
+  "e_gift": {
+   "name": "給院長的禮物",
+   "type": "item",
+   "tier": "major",
+   "desc": "埃斯特班離開前想購買的贈禮，他希望也代表亡兄；具體物品未被寫明。",
+   "look": "A small open cloth money pouch and two cups on an inn table, an intentionally empty space where a future gift would be; do not invent a purchased object.",
+   "image": "slr-assets/entries/e_gift.png",
+   "imagePrompt": "A small open cloth money pouch and two cups on an inn table, an intentionally empty space where a future gift would be; do not invent a purchased object.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "尚未挑選",
+     "fields": [
+      {
+       "label": "擬贈與的物件",
+       "blank": {
+        "answer": "e_abbess",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "請求的來源",
+       "text": "青年記得她也曾失去過人，想在遠行以前為她做一點事"
+      },
+      {
+       "label": "不止一個贈者",
+       "text": "他想把禮物算作兩兄弟共同的心意，卻難以再次說出亡兄的名字"
+      },
+      {
+       "label": "仍未確定",
+       "text": "船長答應早晨一起挑選，原著沒有交代後來買到的具體物件"
+      }
+     ]
+    }
+   ]
+  },
+  "e_shawl": {
+   "name": "披巾",
+   "type": "item",
+   "tier": "minor",
+   "desc": "皮奧與卡米拉巡遊時曾共用來包裹衣物，見證過旅途中的匱乏。",
+   "look": "Worn brown woven shawl tied around a modest bundle of clothing on a quiet Pacific beach, soft dawn.",
+   "image": "slr-assets/entries/e_shawl.png",
+   "imagePrompt": "Worn brown woven shawl tied around a modest bundle of clothing on a quiet Pacific beach, soft dawn.",
+   "archive": []
+  },
+  "e_mirror": {
+   "name": "化妝鏡",
+   "type": "item",
+   "tier": "major",
+   "desc": "演員整理面容的日常用具，也映出疲倦、病後希望和不期而來的注視。",
+   "look": "Small old framed mirror on a modest dressing table, pale cosmetic bowl and folded cloth, no reflected person, dignified quiet.",
+   "image": "slr-assets/entries/e_mirror.png",
+   "imagePrompt": "Small old framed mirror on a modest dressing table, pale cosmetic bowl and folded cloth, no reflected person, dignified quiet.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "被看見的一刻",
+     "fields": [
+      {
+       "label": "使用者",
+       "blank": {
+        "answer": "e_camila",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "舞臺之後",
+       "text": "卸去表演的神情時，疲憊和不滿足會在安靜的臉上顯出來"
+      },
+      {
+       "label": "病中的嘗試",
+       "text": "她用粉與乳脂試圖遮掩病後面容，曾短暫盼望舞臺經驗還能幫助自己"
+      },
+      {
+       "label": "隱私被打斷",
+       "text": "鏡裡忽然出現門口的來客，使她連秘密的希望也來不及藏起"
+      }
+     ]
+    }
+   ]
+  },
+  "e_stone": {
+   "name": "發亮的小石頭",
+   "type": "item",
+   "tier": "major",
+   "desc": "母親給海梅的小物件，讓他在失眠的黑夜裡觀看，材質未被原著說明。",
+   "look": "A small ordinary pale mineral stone held in a child's palm in dim soft light, very faint natural appearance, no magical aura or symbols.",
+   "image": "slr-assets/entries/e_stone.png",
+   "imagePrompt": "A small ordinary pale mineral stone held in a child's palm in dim soft light, very faint natural appearance, no magical aura or symbols.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "失眠時可以看",
+     "fields": [
+      {
+       "label": "同放進行李的零用",
+       "blank": {
+        "answer": "e_coin",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "交付的人",
+       "text": "孩子出發時由母親給予，用在夜裡無法入睡的時刻"
+      },
+      {
+       "label": "沒有說明的部分",
+       "text": "原著沒有確定石頭的材質，也沒有賦予它預言或保護生命的作用"
+      },
+      {
+       "label": "具體的心意",
+       "text": "母親不能消除孩子的病弱，卻仍嘗試給陌生夜晚留一個可以注視的小物件"
+      }
+     ]
+    }
+   ]
+  },
+  "e_loneliness": {
+   "name": "孤獨",
+   "type": "concept",
+   "tier": "minor",
+   "desc": "在人群、家庭與華貴房間裡，都可能找不到可以放心開口的人。",
+   "look": "Two chairs separated by a patch of cold light in an otherwise warm colonial room, restrained symbolic still life.",
+   "image": "slr-assets/entries/e_loneliness.png",
+   "imagePrompt": "Two chairs separated by a patch of cold light in an otherwise warm colonial room, restrained symbolic still life.",
+   "archive": []
+  },
+  "e_obedience": {
+   "name": "服從",
+   "type": "concept",
+   "tier": "minor",
+   "desc": "習慣聽從要求的女孩，有時難以判斷自己何時可以離開原地。",
+   "look": "Long church-square shadow approaching a child's plain empty shoes at a doorstep, gentle symbolic illustration, no person.",
+   "image": "slr-assets/entries/e_obedience.png",
+   "imagePrompt": "Long church-square shadow approaching a child's plain empty shoes at a doorstep, gentle symbolic illustration, no person.",
+   "archive": []
+  },
+  "e_courage": {
+   "name": "勇氣",
+   "type": "concept",
+   "tier": "major",
+   "desc": "一個女孩用它評判求助信，一位母親卻由此開始重新審視自己怎樣去愛。",
+   "look": "A quill set down beside a fresh blank sheet and a torn letter, first dawn light on a rough table, no text.",
+   "image": "slr-assets/entries/e_courage.png",
+   "imagePrompt": "A quill set down beside a fresh blank sheet and a torn letter, first dawn light on a rough table, no text.",
+   "archive": [
+    {
+     "level": 1,
+     "title": "誰使用了這個詞",
+     "fields": [
+      {
+       "label": "第一次給出這個判斷的人",
+       "blank": {
+        "answer": "e_pepita",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "被評判的東西",
+       "text": "她以不夠勇敢否定自己的求助信，隨後把信帶回房間撕掉"
+      },
+      {
+       "label": "母親的回應",
+       "text": "聽見這個詞以後，侯爵夫人回顧自己怎樣索取愛情，決定重新寫信"
+      },
+      {
+       "label": "不等於統一準則",
+       "text": "少女的自我要求與母親受到的觸動可以同時存在，沉默求助並非必須讚美的行為"
+      }
+     ]
+    }
+   ]
+  },
+  "e_language": {
+   "name": "雙生私語",
+   "type": "concept",
+   "tier": "major",
+   "desc": "兄弟自幼創造的語言，只在彼此之間使用，外人的好奇使它難以開口。",
+   "look": "Two close trails of pale ink curling together but remaining unreadable on warm paper, intimate hand-drawn rhythm, no invented alphabet.",
+   "image": "slr-assets/entries/e_language.png",
+   "imagePrompt": "Two close trails of pale ink curling together but remaining unreadable on warm paper, intimate hand-drawn rhythm, no invented alphabet.",
+   "archive": [
+    {
+     "level": 2,
+     "title": "只屬於兩人",
+     "fields": [
+      {
+       "label": "想把它記錄下來的人",
+       "blank": {
+        "answer": "e_archbishop",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "形成的時間",
+       "text": "兄弟從開始學說話時便創造私語，並不只是替西班牙語換幾個詞"
+      },
+      {
+       "label": "使用的場合",
+       "text": "通常僅在獨處時使用，緊迫時偶爾在人前低聲說幾句"
+      },
+      {
+       "label": "被詢問的感受",
+       "text": "回答簡單詞語竟使他們極難堪，記錄者最後察覺這不只是畏懼身份"
+      }
+     ]
+    }
+   ]
+  },
+  "e_applause": {
+   "name": "掌聲",
+   "type": "concept",
+   "tier": "minor",
+   "desc": "它可以讚美技藝，也能縱容傷人；觀眾的熱烈不保證臺上人的滿足。",
+   "look": "Softly rendered clapping hands in a candlelit theatre audience, warm light and uncertain dark stage beyond, no faces.",
+   "image": "slr-assets/entries/e_applause.png",
+   "imagePrompt": "Softly rendered clapping hands in a candlelit theatre audience, warm light and uncertain dark stage beyond, no faces.",
+   "archive": []
+  },
+  "e_respectability": {
+   "name": "體面身份",
+   "type": "concept",
+   "tier": "major",
+   "desc": "卡米拉離開劇場後努力爭取的社會位置，帶來新的門檻，也未消除舊的不安。",
+   "look": "A rich colonial glove resting beside a worn theatre shoe on a threshold, understated contrast, no words.",
+   "image": "slr-assets/entries/e_respectability.png",
+   "imagePrompt": "A rich colonial glove resting beside a worn theatre shoe on a threshold, understated contrast, no words.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "新的位置",
+     "fields": [
+      {
+       "label": "承載新生活的住所",
+       "blank": {
+        "answer": "e_villa",
+        "pool": "place"
+       }
+      },
+      {
+       "label": "公開的努力",
+       "text": "前往時髦的彌撒、大學儀式和慈善場合，為孩子爭取被承認的身份"
+      },
+      {
+       "label": "排斥的舊事",
+       "text": "她開始把演戲說作消遣，也逐漸限制舊日老師的公開與私下探訪"
+      },
+      {
+       "label": "未兌現的幸福",
+       "text": "得到了更高的社會位置，仍沒有因此學會怎樣在自己的日子裡安寧下來"
+      }
+     ]
+    }
+   ]
+  },
+  "e_providence": {
+   "name": "天意",
+   "type": "concept",
+   "tier": "major",
+   "desc": "胡尼佩爾試圖用調查證明的安排；書中人物有不同理解，事實並未給出定論。",
+   "look": "An unfinished hand-drawn geometric chart beside a window overlooking clouded mountains, no legible numbers, restrained questioning mood.",
+   "image": "slr-assets/entries/e_providence.png",
+   "imagePrompt": "An unfinished hand-drawn geometric chart beside a window overlooking clouded mountains, no legible numbers, restrained questioning mood.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "相信與證明",
+     "fields": [
+      {
+       "label": "追索者",
+       "blank": {
+        "answer": "e_juniper",
+        "pool": "person"
+       }
+      },
+      {
+       "label": "一次先前的失敗",
+       "text": "瘟疫中的道德評分產生了與預想相反的結果，他最終撕去記錄"
+      },
+      {
+       "label": "調查的困難",
+       "text": "不同關係帶來不同說法，最親近的人也未必能毫無保留地講述死者"
+      },
+      {
+       "label": "保留的未知",
+       "text": "五段人生的細節能被認識，卻不能據此宣佈災難是懲罰或獎賞"
+      }
+     ]
+    }
+   ]
+  },
+  "e_care": {
+   "name": "照料",
+   "type": "concept",
+   "tier": "major",
+   "desc": "在人不能替彼此解除痛苦時，留下、送水、準備食物，仍是可以做的事。",
+   "look": "A lantern and a pitcher of water beside clean linen in a modest convent sickroom, warm ordinary light, no miraculous imagery.",
+   "image": "slr-assets/entries/e_care.png",
+   "imagePrompt": "A lantern and a pitcher of water beside clean linen in a modest convent sickroom, warm ordinary light, no miraculous imagery.",
+   "archive": [
+    {
+     "level": 3,
+     "title": "仍可以做的小事",
+     "fields": [
+      {
+       "label": "少女曾準備的食物",
+       "blank": {
+        "answer": "e_porridge",
+        "pool": "item"
+       }
+      },
+      {
+       "label": "孩子不舒服的時候",
+       "text": "皮奧察覺乘車顛簸不利，改用肩膀扛著他繼續走"
+      },
+      {
+       "label": "遭到拒絕的時候",
+       "text": "對方的邊界不會因為照料者心懷善意而自動取消"
+      },
+      {
+       "label": "失去以後",
+       "text": "送水、陪伴、準備食物和安排病房，繼續把活著的人聯絡在一起"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "cards": [
+  {
+   "id": "c1_01",
+   "row": 0,
+   "col": "名場面",
+   "title": "珠寶的重量",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_lima"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]的父親做布匹生意，掙到了錢，也掙來了鄰人的憎惡。他們家離大廣場很近，可這並沒有使女兒更容易走進城裡的生活。她說話結巴，相貌不討人喜歡。母親一心要把她訓練成善於交際的姑娘，越是看不見成效，譏刺的話便越尖。"
+    },
+    {
+     "kind": "narration",
+     "text": "出門以前，母親把{{e_jewels|珠寶}}一件件掛在她身上。金銀不曾替她開口，反倒像一副顯眼的挽具，使每次畏縮都暴露在人前。她獨自生活，也獨自想事情。提親的人陸續來了；他們看見的財富，比她自己更容易說得清楚。"
+    },
+    {
+     "kind": "narration",
+     "text": "她堅持不結婚。母女為此爭吵，彼此責備，房門一次次摔上。她以為只要守住這件事，至少還有一部分生活可以由自己決定。但這場抵抗一直拖到二十六歲，結局仍是一樁婚姻。新郎是個家道中落、態度傲慢的貴族。"
+    },
+    {
+     "kind": "narration",
+     "text": "婚禮上，教堂裡滿是客人壓低聲音的譏笑。布商的錢換來了一個稱號，稱號卻沒替她擋住那些目光。後來她有了自己的宅邸，有了僕人，人們見面時也須鄭重地叫她侯爵夫人。只有那種獨自坐著、等別人願意親近自己的習慣，沒有隨著身份改變。"
+    },
+    {
+     "kind": "narration",
+     "text": "多年以後，她又給另一個小女孩戴上自己的全部希望。那個孩子叫{{e_clara|克拉拉}}，美得使她幾乎不敢相信。她終於有了一個可以毫無保留去愛的人；至於怎樣讓這個人自由地長大，她還沒有學會。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_01.png",
+   "cgDark": false,
+   "cgPrompt": "A lonely awkward girl wearing far too many heavy inherited gold jewels, standing stiffly while her merchant mother adjusts the necklaces; a colonial Lima domestic courtyard, the adult's face mostly out of frame, emotional restraint, no glamour.",
+   "cgChars": [
+    "e_maria"
+   ],
+   "cgCharVariants": {
+    "e_maria": "child"
+   },
+   "startUnlocked": true
+  },
+  {
+   "id": "c1_02",
+   "row": 0,
+   "col": "瑪麗亞",
+   "title": "婚禮的雜音",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "我聽得見。{{e_lima|利馬}}的教堂那麼大，低聲說話的人又那麼多，每一句都像離我很遠，又像緊貼著耳朵。只要不抬頭，就不用弄明白是哪一張臉在笑。我已經穿好了他們要我穿的衣服，嫁給了他們願意接納的人，為什麼還沒有做對？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "母親嫌我不會說話。急的時候，一個字要在嘴裡撞好幾次才肯出來；別人已經開始替我著急，或者替我難堪。我獨處時卻有那麼多話。沒有人打斷，我能把一件事從頭想到底，甚至想出一句足以讓人笑的話。可等到坐在人前，那句話就不見了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我曾想一輩子不嫁。門關起來的時候，好像還可以這樣想；門重新開啟，賬目、親戚、提親的人仍在外面等著。我不知道他們究竟等的是誰。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "這副{{e_jewels|珠寶}}還在。它比我的話更容易獲得注視。我多麼想有一天，誰走到我身邊，只是因為願意和我坐一會兒。到那時候，我一定不會讓那個人再覺得孤單。他們稱我夫人，我仍不知道怎樣抬頭。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_02.png",
+   "cgDark": false,
+   "cgPrompt": "A young adult colonial Peruvian noblewoman alone in a side aisle after her wedding, the wedding guests blurred beyond stone columns, her ringed hands held tightly together, ceremonial gold weighing against muted brown fabric.",
+   "cgChars": [
+    "e_maria"
+   ],
+   "cgCharVariants": {
+    "e_maria": "young"
+   }
+  },
+  {
+   "id": "c1_03",
+   "row": 1,
+   "col": "名場面",
+   "title": "八歲的糾正",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_clara"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_palace"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]八歲的時候，已經會平靜地糾正母親說錯的詞。她像父親，聰明，冷靜，看著別人的激動，也能把自己留在那激動之外。[[NPC1]]則越來越害怕女兒臉上的驚訝。她努力溫順，努力討好，時時留意孩子需要什麼，卻總在孩子尚未需要的時候就搶著遞到面前。"
+    },
+    {
+     "kind": "narration",
+     "text": "這樣的照顧很難推開。拒絕一件小事，彷彿就否認了全部的愛；勉強接受，下一次問候又跟著來了。女兒疲憊，母親驚惶。爭執之後，兩扇門分別關上，同一所房子忽然變得很大。母親獨坐時，把剛才的對話在心裡重新說了一遍又一遍，每回都想找出一句可以把女兒叫回來的話。"
+    },
+    {
+     "kind": "narration",
+     "text": "別人以後常說，這個女兒沒有心腸。可是她成年後會慷慨地幫助朋友、僕人和有才華的陌生人，照顧他們，像照顧自己的孩子。她的冷淡並不平均分給所有的人。偏偏面對那個最希望得到她柔情的人，她總覺得必須先守住一點距離。"
+    },
+    {
+     "kind": "narration",
+     "text": "提親的機會多了起來。母親想象的是有人加入她們的生活；女兒考慮的，卻是怎樣離開。她最終選擇的婚事，要求她去{{e_spain|西班牙}}定居。那並非鄰近的一條街，而是一封信送出去之後，要等上半年才可能得到答覆的地方。"
+    },
+    {
+     "kind": "narration",
+     "text": "行李逐漸裝好。那些曾經因爭吵而關閉的房門，這回會在女兒走後一直敞著。母親能替她添一件東西，能再問一句旅途中要不要用，卻不能靠這些細小的忙碌，取消那片已經擋在她們之間的海。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_03.png",
+   "cgDark": false,
+   "cgPrompt": "An intelligent eight-year-old girl in a pale colonial dress corrects her anxious mother's speech across a sitting room table; the mother's affectionate hands hesitate in midair; high windows, early morning, intimate distance.",
+   "cgChars": [
+    "e_maria",
+    "e_clara"
+   ],
+   "cgCharVariants": {
+    "e_maria": "middle",
+    "e_clara": "child"
+   }
+  },
+  {
+   "id": "c1_04",
+   "row": 1,
+   "col": "瑪麗亞",
+   "title": "門後沒有回答",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_clara|克拉拉}}又把門關上了。我知道不該馬上過去。隔著門問她是不是生氣，會使她更生氣；如果一直不問，她又怎麼知道我在等呢？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她糾正我的時候，我並不惱她。她那麼聰明，我本該高興。我只是有一點怕：一句話說錯以後，接下來無論說什麼，好像都得先經過她的允許。於是我說得更多，把一件小事解釋得很長，直到她露出我最不願看見的疲倦。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我小時候也怕一扇突然開啟的門，怕母親進來問我為什麼又這樣站著、為什麼不能像別人家的姑娘。我怎麼會讓自己的孩子，也想從房間裡逃出去？我給她的和我曾經得到的，明明應當不一樣。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "只要她出來，說一句沒有怪我，我就可以安靜下來。或者不用說，坐到我旁邊也好。{{e_loneliness|孤獨}}本來是我一個人的事，可我總要她給一個答覆，才肯相信今天可以過去。我聽著門裡的聲音，連自己也覺得，這樣等下去會使她難受。屋裡安靜下來，我反倒更怕那一刻。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_04.png",
+   "cgDark": false,
+   "cgPrompt": "A worried middle-aged mother seated outside her daughter's closed carved wooden door in a colonial mansion, an unused cup on a small tray, warm light stopping at the threshold, no child visible.",
+   "cgChars": [
+    "e_maria"
+   ],
+   "cgCharVariants": {
+    "e_maria": "middle"
+   },
+   "startUnlocked": true
+  },
+  {
+   "id": "c1_05",
+   "row": 2,
+   "col": "名場面",
+   "title": "海上的讚歌",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_clara"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_harbor"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "船啟程前，人們舉行了祝福的儀式。去那麼遙遠的地方，告別不能只是擁抱和揮手：岸上和船上的兩群人一起跪下，唱起讚歌。寬闊的海面接住了聲音，卻沒有把聲音送得更有力量。歌聲顯得薄，顯得遲疑，船身和岸之間的水已經開始加寬。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]十分鎮靜。她選擇了必須前往{{e_spain|西班牙}}的婚事，現在正走向自己選中的生活。身後的母親站在岸邊，手一會兒按住心口，一會兒捂住嘴，彷彿只要不讓什麼東西從胸中衝出來，這場告別還能保持它應有的體面。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]眼前的帆船越來越亮，輪廓卻越來越模糊。淚水把寧靜的太平洋劃成一道道水痕。海上那些巨大的珍珠色雲朵似乎永遠停在那裡；人卻會沿著它們下面的一條航線離開，去到不能隨時敲門、也不能立刻聽見回話的地方。"
+    },
+    {
+     "kind": "narration",
+     "text": "船上的女兒沒有顯出母親所盼望的慌亂。鎮靜可以是遠行的勇氣，也可以是終於得到距離的輕鬆；岸上的人無法憑一個遙遠的身影判斷。母親只是看著，直到那隻船再也不能替她區分出甲板上的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "以後，{{e_letters|母女書信}}會往返於兩片大陸。裝船的日期將成為她生活的刻度，女兒願意寫下的幾句話會被反覆展開。眼前這片水，終究不會因為她一次又一次讀信，就縮短一點。船身也受過祝福，卻沒有人替岸上的母親解釋，怎樣讓這場告別結束。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_05.png",
+   "cgDark": false,
+   "cgPrompt": "A colonial sailing ship just leaving the Peruvian Pacific shore, mother on the quay pressing one hand to her mouth, daughter composed on deck, kneeling figures singing, vast pearly clouds dwarfing both groups.",
+   "cgChars": [
+    "e_clara",
+    "e_maria"
+   ]
+  },
+  {
+   "id": "c1_06",
+   "row": 2,
+   "col": "瑪麗亞",
+   "title": "吻過的門",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "離上一次分別，已經四年了。來的時候，我在船上對自己說，不要撲過去，不要流淚，不要把這些年的話一下子全壓到{{e_clara|克拉拉}}身上。能和她住在同一座房子裡，已經夠好了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她也曾努力。我們都明白，先前有些話不應該說。這一回，我只要不問得太多，她只要再耐心一點，我們大概就能坐下來，好好吃一頓飯。可飯還沒有吃完，我已經聽見自己的聲音變了；她放下手裡的東西，我們又回到了最熟悉的那一刻。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_spain|西班牙}}的天還沒有亮。她睡在門裡，我站在門外。叫醒她，必定又要告別，又要解釋，又要為本來想說得很輕的話哭起來。還是讓她睡吧。我把嘴唇貼了一下門板，只一下。門沒有開，這次我也不敲。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "回去以後，紙會比我安靜。寫錯的句子可以刪掉，急切的話可以重新寫。她不必看著我費力地說，我也不必立刻看見，她讀到哪裡已經疲倦。明天仍要過，船也不會等到我終於學會告別。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_06.png",
+   "cgDark": false,
+   "cgPrompt": "Before dawn in a Spanish house, a visiting older Peruvian mother lightly kisses the closed door behind which her adult daughter sleeps, a small travel bag at her feet, blue window light and a dying candle.",
+   "cgChars": [
+    "e_maria"
+   ]
+  },
+  {
+   "id": "c1_07",
+   "row": 3,
+   "col": "名場面",
+   "title": "裝船以前",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_palace"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "臨近寄信的日子，[[NPC1]]又出門了。她忍受宴席和街上的目光，聽別人談{{e_court|總督府}}裡的怪事，讀{{e_scripts|戲劇抄本}}，找出一兩件足以寫進{{e_letters|母女書信}}的見聞。她並不缺錢，也不指望這些文章給自己掙來名聲。她想要的是女兒讀著讀著，忽然笑一下。她也留意{{e_camila|卡米拉}}這樣的名人，記住她在{{e_theatre|利馬劇院}}裡的聲名。"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_clara|克拉拉}}曾說，國王讚賞過她戴的{{e_goldchain|金鍊}}，要母親儘快再找一條相仿的送去。母親於是把採買寫成一場奇遇：自己半夜鑽進一幅畫，畫家伸手拉她越過顏料，她向畫中人說明，是世上最美的姑娘想送禮給世上最有禮貌的國王。那是信裡的玩笑；她真能跨越的，仍然只有一張紙。"
+    },
+    {
+     "kind": "narration",
+     "text": "她寫女兒的傷風，寫修女推銷的樹膠，鄭重勸告之後，又忍不住添一句尖俏的觀察。憂慮和機智挨在一起，像她想說的兩種話：好好照顧自己；也請多看母親一眼。夜越來越深，她把已經寫好的句子重新排列，直到那份沉重的願望終於顯得輕巧。"
+    },
+    {
+     "kind": "narration",
+     "text": "天亮以前，信封和禮物裝成一包，等著送給經手海運的人。這封信離手後，她往往又退回酒與昏睡裡，直至下一次郵期臨近。後來儲存這些信的，主要是欣賞文筆的女婿。女兒大多隻匆匆看過。"
+    },
+    {
+     "kind": "narration",
+     "text": "許多年以後，學生會學習這些句子，學者會爭論她怎樣經營風格。此刻桌邊的女人卻沒有看那麼遠。她只是把紙摺好，希望這一次，海的另一頭能有一點回音。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_07.png",
+   "cgDark": false,
+   "cgPrompt": "A red-wigged aging noblewoman rewrites a letter late at night at a carved wooden desk, discarded drafts, a small gold chain and wax sealing tools, first light entering a green balcony, no legible writing.",
+   "cgChars": [
+    "e_maria"
+   ]
+  },
+  {
+   "id": "c1_08",
+   "row": 3,
+   "col": "瑪麗亞",
+   "title": "綠色陽臺",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "我想，胸口這地方是不是真的壞了。如果一個醫生把它剖開，能不能看見這些年的痕跡？我把這個念頭寫給{{e_clara|克拉拉}}，她卻責備我，說我只顧著研究自己，把悲傷奉為神明。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "坐在{{e_palace|侯爵府}}的陽臺上，看別人親吻、問候，很容易懷疑他們都是做給旁人看的。我知道這種念頭刻薄，卻仍想：如果他們沒有像我這樣受苦，他們的愛憑什麼是真的？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "再想下去，我便不敢抬頭了。我要她愛我，也要她承認我比別的母親都好。我盼著她說一句原諒我，彷彿所有過錯都在她那邊。連我所想象的和好，最後也總要由她低頭。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她已經把幾千英里的距離放在我們中間。我甚至沒有機會再支配她，心裡卻還在和這種慾望角力。寫下一頁溫柔的話，不等於真的能放開手；可除了再寫一頁，我還會做什麼？",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c1_08.png",
+   "cgDark": false,
+   "cgPrompt": "An aging red-wigged woman alone on a green wooden colonial balcony, straw hat casting a purple shadow, ringed fingers against her chest and an open letter in her lap, city noise distant below.",
+   "cgChars": [
+    "e_maria"
+   ]
+  },
+  {
+   "id": "c1_09",
+   "row": 4,
+   "col": "名場面",
+   "title": "洗衣池邊",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_abbess"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_pepita"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_convent"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]擔心的不是自己會死，而是自己死後，那些病床、孤兒和無處可去的女人會怎樣。她半夜算完賬，常想象女人有一天能組織起來，保護遠行的女人、做僕人的女人、礦井裡和工場裡的女人。清晨，她仍得為這一個月的費用四處奔走。"
+    },
+    {
+     "kind": "narration",
+     "text": "她開始尋找一個接班的人。病房、院子、長廊，她走得很快，看過一張張臉，又因自己太急而失望。最後她在洗衣池邊停下來：一個十二歲的女孩正指揮同伴幹活，同時興致勃勃地講利馬聖女羅莎的奇蹟，把那故事講得十分有聲有色。那個女孩就是[[NPC2]]。"
+    },
+    {
+     "kind": "narration",
+     "text": "此後最不討喜歡的差事，常常分到女孩手裡。跟著外出時，她抱著雞蛋和蔬菜；留下來時，她學會院子裡各項事務怎樣運轉。有時工作正做到一半，黑衣的長者突然叫住她，談怎樣安排傳染病房，怎樣管理眾人，怎樣向有錢人開口。那些話不只是命令，竟像在向一個同事交代。"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_maria|瑪麗亞}}來借一名孤女作伴時，院長看見了機會：女孩能接觸外面的世界，富有的老婦人也許能被引向有用的事業。她衡量著這件安排給女孩的壓力，覺得自己知道何時應當收手。"
+    },
+    {
+     "kind": "narration",
+     "text": "女孩先是偶爾過去幾個下午，後來終於搬去長住。兩年的訓練，使她學會了許多責任；至於怎樣承認自己承擔不了，她並沒有受到同樣仔細的教導。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_09.png",
+   "cgDark": false,
+   "cgPrompt": "A sturdy elderly abbess in a black veil observes a twelve-year-old orphan girl directing other girls at a stone laundry trough, white linen, sunlight in an austere convent courtyard, the child's animated hand telling a story.",
+   "cgChars": [
+    "e_abbess",
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_10",
+   "row": 4,
+   "col": "佩皮塔",
+   "title": "被當作大人",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pepita"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_abbess|皮拉爾院長}}有時會突然來找我。明明我手裡還抱著雞蛋，她已經開始說病房的事，說把哪兩個人放在一起會吵架，向什麼人求助才不至於白跑一趟。我以為這些話應該對別的大人說，可她一直看著我，像我也能夠懂。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我願意記住。她交代的每件事都有人在等，病人不能因為我害怕就少吃一頓飯，屋頂也不能因為錢難借就一直漏下去。聽她說話時，我覺得自己離那些事很近，好像只要再努力一點，就能成為她需要的人。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "可回到床上，我就覺得自己仍然太小。她問我能不能做好，我當然說能；她若知道我有時悄悄哭，會不會覺得自己看錯了？在{{e_convent|聖羅莎修院}}，不明白的事還可以等她走近。到那位夫人家裡以後，要等多久呢？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "大家說，我該高興，這是一種信任。我也高興。只是我還不知道，信任這麼重，原來不能像籃子那樣，走累了就暫時放在地上。原來她要我記住的，不只是今天的差事。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_10.png",
+   "cgDark": false,
+   "cgPrompt": "A young orphan girl holding a basket of eggs and vegetables while an elderly abbess discusses hospital arrangements beside a convent corridor, the girl's attentive face carrying pride and apprehension, afternoon light.",
+   "cgChars": [
+    "e_pepita",
+    "e_abbess"
+   ]
+  },
+  {
+   "id": "c1_11",
+   "row": 5,
+   "col": "名場面",
+   "title": "借住的人",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pepita"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_palace"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "主人臥床的日子一長，僕人便把房間借給自己的親戚住，隨手拿走宅子裡的東西。這件事有時連掩飾也不需要：家裡真正看得見他們在做什麼的，只剩下一個穿著孤兒院制服的女孩。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]不肯跟著裝作看不見。於是她遇上了許多說不清算不算大事的折磨，房門會把她關在裡面，差事會被人故意弄得更麻煩。她既要防著東西不見，又擔心主人把丟失的東西算在自己頭上。那些人比她熟悉這棟宅子，也比她知道，一個沒有家人撐腰的孩子能被欺負到什麼地步。"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_maria|瑪麗亞}}偶爾會從心事裡回過神來，和她談天，露出詼諧、敏銳而親切的一面。女孩剛剛生出一點依戀，第二天那目光又越過她，像越過房間裡一件用慣了的傢俱。夫人未必發脾氣，卻可以整天沒有真正看見她。"
+    },
+    {
+     "kind": "narration",
+     "text": "她記得{{e_abbess|皮拉爾院長}}交代過的責任。她是被送來作伴的，並沒有被許諾在這裡一定會快樂；因而遇見不快時，她先懷疑自己有沒有盡好本分。腳步放輕，門關輕，聽見召喚立刻過去，這些都比解釋自己為什麼難受容易。"
+    },
+    {
+     "kind": "narration",
+     "text": "宅邸很寬敞，容得下僕人的親戚、成箱的禮物、遠方女兒的畫像。女孩住進來以後，仍找不到一個可以放心說話的人。她把事情做完，等待主人偶爾又肯和她談天的那一天。她連衣服都仍穿著修院的制服，主人沒有想到替她換一身。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_11.png",
+   "cgDark": false,
+   "cgPrompt": "A fourteen-year-old orphan companion stands alone in a grand colonial mansion hallway while servants secretly carry household goods past a half-open bedroom, her faded uniform contrasting with expensive carved furniture, restrained domestic tension.",
+   "cgChars": [
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_12",
+   "row": 5,
+   "col": "佩皮塔",
+   "title": "留在陽光裡",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pepita"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_maria|瑪麗亞}}說，留在陽光裡，她不會去很久。這塊石頭還是熱的，現在影子已經走到鞋邊。我想過進教堂找她，可我若走開，她出來時看不見我怎麼辦？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "後來我還是進去了。裡面沒有她。我沿著座位看，走到另一扇門邊，終於明白她大概從那裡離開了。現在我可以回家嗎？還是應該回到她讓我等的地方？她交代的事明明很簡單，是我把它弄得越來越難了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_lima|利馬}}的廣場上總有人經過。我聽見有人低聲說話，便以為他們在說我的衣服。也許有些人根本沒有看我，可我仍想把裙角藏起來。這身制服誰都認識，誰都知道我是從哪兒來的。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_obedience|服從}}應當使事情變得清楚才對。照著吩咐去做，就不會讓人失望。我回到原來的街角，站在越來越長的陰影裡。只要她再經過一次，就會知道我沒有亂走。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c1_12.png",
+   "cgDark": false,
+   "cgPrompt": "An adolescent girl in a faded orphanage uniform waiting at the edge of a Lima church square, long afternoon shadows stretching toward her, the side church door in the distance empty, passersby blurred without threatening caricature.",
+   "cgChars": [
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_13",
+   "row": 6,
+   "col": "名場面",
+   "title": "包廂裡的笑聲",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_pepita"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_theatre"
+    }
+   ],
+   "difficulty": "hard",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "正劇演到中場，[[NPC2]]暫時放下端莊的角色，走到幕前唱城裡流行的時事小曲。她已經看見了包廂裡的老夫人，便臨時編出幾句，把她的相貌、酒醉、吝嗇，連同女兒遠走海外的事，都編進歌裡。{{e_pio|皮奧}}平日幫她記臺詞，教她斟酌分寸；這些臨時編出的歌，卻由她自己把握。"
+    },
+    {
+     "kind": "narration",
+     "text": "觀眾很快聽懂了。視線從舞臺轉向包廂，笑聲層層接上來。[[NPC1]]卻仍想著剛才兩幕戲，又想著{{e_spain|西班牙}}。她的注意力飄得很遠，幾句正在成形的漂亮話佔住了心思：寫給女兒，她也許會喜歡。"
+    },
+    {
+     "kind": "narration",
+     "text": "臺上的人越唱越大膽。坐在夫人旁邊的[[NPC3]]聽得清清楚楚，伸手扯了扯她的衣袖，低聲勸她離開。她沒有站起來和滿場的人爭辯，只想把夫人從那些目光中帶出去。兩人一離開包廂，觀眾便起身歡呼，彷彿終於贏了一場仗。"
+    },
+    {
+     "kind": "narration",
+     "text": "演員跳起熱烈的舞，看見劇院經理站在後面，知道這場勝利會使自己的酬金增加。她憑藉觀眾的{{e_applause|掌聲}}確信，今天的鋒利十分成功。"
+    },
+    {
+     "kind": "narration",
+     "text": "被帶出門的老夫人甚至有些高興。她在這次演出裡收穫了足以逗女兒一笑的句子，卻不知道自己也已經成了別人取笑的材料。同一陣喧鬧，臺上的人聽見讚許，女孩聽見羞辱，夫人幾乎沒有聽見。滿場的人都看向包廂，卻沒有誰等那位老夫人給出回答。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_13.png",
+   "cgDark": false,
+   "cgPrompt": "Colonial Lima theatre during an interval song: celebrated actress on a candlelit stage, audience turning toward an upper box where a distracted older noblewoman sits and a young companion quietly tugs her sleeve, cinematic three-plane composition.",
+   "cgChars": [
+    "e_maria",
+    "e_camila",
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_14",
+   "row": 6,
+   "col": "瑪麗亞",
+   "title": "並未聽見的侮辱",
+   "form": "dialogue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_palace"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "演員穿著黑衣來了，帶著{{e_viceroy|安德烈斯總督}}的介紹信。[[NPC1]]用雪擦過額頭，披上斗篷，費力來到客廳。[[NPC2]]原先預備敷衍幾句，這時卻被老夫人的神氣鎮住了。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "您來，是有什麼事？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我想確定，夫人沒有誤會那晚在劇院聽到的話。我這樣一個演員，有時候會說得超出自己的本意。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "誤會？我記得的只是您演得很美。您是一個大藝術家，您應該快活才對。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我說的是兩幕之間唱的歌。我怕您以為，我有意對您不敬。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "啊，我們提早走了。請原諒，偏偏是在您那麼好的演出中間。我忘了為什麼，大概是誰不舒服。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "演員紅了臉。她不相信有人會沒聽懂那些歌，只能把這番話理解成寬恕。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "您這樣好，肯原諒我的孩子氣。我此前不知道。請讓我吻您的手。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我怎麼會生您的氣，我美麗的孩子？您的一個手勢，讓我想起{{e_clara|克拉拉}}。我們曾爭過幾句，後來同時回去求原諒，只隔著一扇門。她用兩隻手捧著我的臉，像這樣。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "夫人流著淚往前傾，示範那個她反覆夢見的動作。那次和解沒有在醒著的生活裡發生過。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "城裡有人說她待我不好，那不是真的。她聰明，有風度，是我太難相處。我說話使人厭煩，偏偏成了那麼美的姑娘的母親。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她幾乎從椅子上跌下來。{{e_pepita|佩皮塔}}扶住她，送她回房。演員回家後，長久地對著鏡子，雙手貼住自己的臉；她沒有從這次道歉裡帶走原先預備好的輕鬆。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_14.png",
+   "cgDark": false,
+   "cgPrompt": "A famous actress in a plain black dress kneels in confusion beside an aging noblewoman wearing a fur-trimmed cloak indoors, the older woman's hands demonstrating a dreamed embrace, a young orphan at the doorway, quiet late afternoon.",
+   "cgChars": [
+    "e_maria",
+    "e_camila",
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_15",
+   "row": 7,
+   "col": "名場面",
+   "title": "紅粉筆的臺階",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_palace"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "訊息幾乎藏在信尾：{{e_clara|克拉拉}}說，秋天不能按計劃出遊了，因為孩子將在十月初出生。她把這件事寫得輕描淡寫，希望少引出一點母親的焦慮。[[NPC1]]卻扶住了牆。什麼孩子？女兒要做母親了？"
+    },
+    {
+     "kind": "narration",
+     "text": "她立刻開始打聽。城裡上了年紀的女人有什麼經驗，哪一種偏方據說有效，她都要問，再寫進信裡。對面那個人覺得乏味的細節，成了她一整天最迫切的工作。距離越遠，能做的越少，她便越想把每一種可能都試遍。"
+    },
+    {
+     "kind": "narration",
+     "text": "家裡不許有結，女僕連頭髮也不能束緊；樓梯的偶數級被紅粉筆做了記號，有人踏錯，她就又哭又叫，趕人出去。她在身上藏著求平安的小物件，彷彿一處疏忽，便會在海的另一邊傷害那個即將出生的生命。"
+    },
+    {
+     "kind": "narration",
+     "text": "天還黑著，她就去趕最早的彌撒。她抱住祭壇欄杆，望著聖像，求一個幾乎看不出來的點頭。可有時奔走了一天，她又覺得自然是聾的，神也無動於衷；她所做的一切，根本沒有碰到事情的程序。"
+    },
+    {
+     "kind": "narration",
+     "text": "這種絕望不會長久。只要心底又冒出一個‘也許’，她就趕回家補上蠟燭。最終，她決定去山裡的{{e_shrine|克盧克桑布誇聖所}}朝聖。轎子將越過{{e_bridge|聖路易斯雷大橋}}，向安第斯山中升去；她希望在那座古老聖所裡，找到比家中這些記號更可靠的保證。她把這些事做得十分認真，對自己是否還有能力保護女兒，卻越來越沒有把握。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_15.png",
+   "cgDark": false,
+   "cgPrompt": "An anxious older noblewoman marks alternating stair steps with red chalk in her colonial house; a maid stands with loosened hair, candles before a distant portrait, superstitious domestic arrangements, no supernatural effects.",
+   "cgChars": [
+    "e_maria"
+   ]
+  },
+  {
+   "id": "c1_16",
+   "row": 7,
+   "col": "佩皮塔",
+   "title": "先安頓下來",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pepita"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_maria|瑪麗亞}}沒有下轎進門，就先去了聖所。她把這裡交給我，回來時，至少要像一間可以住的屋子。搬東西的人還在等，我指給他們看，哪隻籃子靠牆，哪一隻先開啟。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "祭壇，掛毯，女兒的畫像，都要取出來。{{e_inn|山中客棧}}的屋子不是家裡那間，若擺得不習慣，她也許又坐不安穩。這裡很冷，火盆得準備好，還得下樓去和廚子說，{{e_porridge|粥}}該怎麼煮。那幾句話不能說得含糊，夫人平常就靠它吃下些東西。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "山上的空氣使人頭暈。我把手按在桌邊，等這一陣過去，想著還有哪件事沒有辦完。只要一件接著一件做，就暫時沒有空想，我已經離{{e_convent|聖羅莎修院}}這麼遠了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "屋子終於收拾好，門外卻仍沒有腳步聲。空下來以後，熟悉的聲音反倒都來了：吃晚飯時的勸誡，病床邊的祈禱，院長叫我留下來說話。我把紙拿出來，又把羽毛筆放下。寫一封信，應當不會耽誤太多事。她回來時，至少先有一口合意的熱粥。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_16.png",
+   "cgDark": false,
+   "cgPrompt": "A young companion unpacks wicker hampers in a modest Andean inn, arranging a small household altar and a framed portrait while a brazier waits on the stone floor; cold mountain sunlight, sleeves rolled with practical care.",
+   "cgChars": [
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_17",
+   "row": 8,
+   "col": "名場面",
+   "title": "噴泉旁的來信",
+   "form": "scene",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_shrine"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "遠遠看見白牆的山城，[[NPC1]]的手就停止撥念珠了。安第斯山那麼高，城鎮像歇在山的膝頭。鐘聲彼此應答，空氣冷而清澈，她那些急促的祈禱，忽然不再一句接一句地往外湧。"
+    },
+    {
+     "kind": "narration",
+     "text": "在聖所裡，有個管事要收一筆說不清的費用，又藉口修地磚讓她換地方。若在別處，這也許會使她不安；今天她挪了位置，繼續坐著。四周賣蠟燭的老婦人終日談錢，她也沒有被打斷。她隱約覺得，也許女兒的生活和神明的事務，都不必時時由自己催促。"
+    },
+    {
+     "kind": "narration",
+     "text": "後來她坐到噴泉旁，看病人慢慢繞過花園，看三隻鷹在天上盤旋。一隻披著厚毛的羊駝走近，把柔軟的鼻子湊過來，彷彿也想加入談話。其他幾隻又跟了過來，圍住這個不再急著趕路的女人。"
+    },
+    {
+     "kind": "narration",
+     "text": "報信的男孩找到了她。她早已吩咐，任何從{{e_spain|西班牙}}寄來的訊息都須立即送到。她拆開包裹，先讀女婿詼諧親切的便條，再讀{{e_clara|克拉拉}}的信。女兒的句子聰明得鋒利，一句句刺進來，她便一句句用理解和寬恕包好，放進心裡。"
+    },
+    {
+     "kind": "narration",
+     "text": "這回她沒有立刻奔走，也沒有吩咐別人去辦什麼。她收起{{e_letters|母女書信}}，慢慢起身，輕輕驅散那些好奇的羊駝，重新走回聖所。廣場的鐘仍在響；她的臉很嚴肅，卻沒有再向四周追問，究竟還要做什麼，才能換來保證。她沒有把女兒的苛刻告訴那些圍過來的陌生人，只把信收回自己手裡。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c1_17.png",
+   "cgDark": false,
+   "cgPrompt": "An aging noblewoman on the steps of a mountain town fountain quietly reading a delivered letter, curious llamas close beside her, whitewashed sanctuary and distant Andes, crystalline afternoon air, tenderness without sentimentality.",
+   "cgChars": [
+    "e_maria"
+   ]
+  },
+  {
+   "id": "c1_18",
+   "row": 8,
+   "col": "佩皮塔",
+   "title": "能回來幾天嗎",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pepita"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "我本來只想告訴{{e_abbess|皮拉爾院長}}，我們平安到了{{e_inn|山中客棧}}。寫著寫著，紙上的墨點卻越來越多。她那麼忙，如果看到這些，會不會又得為我擔心？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "……只要您喜歡我，願意讓我留在夫人身邊，這些都不算什麼。我不該告訴您，可那些壞女僕有時把我關在房間裡，又拿走東西；也許夫人會以為是我偷的。我希望不會。我希望您身體好，醫院和其他地方也沒有什麼麻煩。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "雖然見不到您，我一直想著您，也記得您教我的話。我只想做您願意讓我做的事。但是，能不能讓我回修院住幾天呢？如果您不願意，那就不必。我只是太孤單，沒有人可以說話，還有別的……",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "有時我不知道，您是不是已經忘記了我。倘若能找出一點時間，給我寫一封很短的信也好，我就可以把它留著。但我知道您有多忙……",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她擱下筆，留著那封滿是墨跡的信，下樓去問新的{{e_charcoal|木炭}}，又嚐了嚐鍋裡的粥。回到這些細小事務裡，她的手重新有了確定該做的事。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_18.png",
+   "cgDark": false,
+   "cgPrompt": "An adolescent girl writes an ink-blotted private letter at a small inn table, lip trembling as she pauses with the quill, an open doorway leading down toward the kitchen, no visible readable lettering.",
+   "cgChars": [
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_19",
+   "row": 9,
+   "col": "名場面",
+   "title": "第五十六封",
+   "form": "dialogue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_maria"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_pepita"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_inn"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]讀過女孩留在桌上的信，合起後又想重讀。她羨慕{{e_abbess|皮拉爾院長}}能使一個孩子如此眷戀，也羞於自己總把愛弄得那麼繁重。女孩端來了晚飯。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "孩子，不和我一起吃嗎？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我想夫人累了。我已經在樓下吃過。吃飯時，要我給您唸書嗎？",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "不用了。願意的話，就去睡吧。等等——我明早要送一封信去利馬。如果您也有信，可以一起捎去。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我沒有。我得下去，給您拿新木炭。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "可是，給院長的那一封……她會很高興收到的，我知道。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我不寄了。我改了主意。那不是一封好信。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "怎麼不是？親愛的，我覺得它非常美。相信我，我是懂的。什麼使它成了一封不好的信？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "它不……不夠勇敢。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "女孩不肯再說，帶著信進了房間。桌邊的人聽見紙被撕開的聲音，低頭看自己的晚飯。{{e_courage|勇氣}}，她從沒有把這個詞認真帶進愛裡。回想那些索要答覆的話，她先想辯解，想怪自己的成長、自己的處境；最後卻把桌子清出來，重新坐下寫信。"
+    },
+    {
+     "kind": "narration",
+     "text": "這是後來傳世的第五十六封{{e_letters|母女書信}}。她卻把它叫作第一封，彷彿此前的懇求終於能換一種寫法。那些反覆追問女兒究竟有多愛自己的舊信，已經收不回來；新寫的這一封，仍然可以更寬厚一些。寫完時，天將要亮了。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c1_19.png",
+   "cgDark": false,
+   "cgPrompt": "At a mountain inn supper table, an older noblewoman gently offers to send a young companion's letter; the girl stands by the brazier avoiding her gaze, an untouched bowl of porridge and folded paper between them, intimate candlelit distance.",
+   "cgChars": [
+    "e_maria",
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c1_20",
+   "row": 9,
+   "col": "佩皮塔",
+   "title": "沒有寄出的紙",
+   "form": "monologue",
+   "level": 1,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pepita"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "我說了那個詞，就不想再說別的。{{e_maria|瑪麗亞}}一直看著我，她竟覺得那封信很美。我不習慣有人追問，我為什麼不肯寄出去。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "撕紙的聲音很響。在{{e_inn|山中客棧}}這樣安靜的房間裡，隔壁大概也聽得見。我把它撕小了些，可剛才寫過的那些話並沒有跟著消失。我還是想回去幾天，還是希望{{e_abbess|皮拉爾院長}}能寫幾句話給我，哪怕短得只夠放在掌心。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "躺下以後，我想起自己說話的樣子，覺得很不自在。我不該那麼大聲，也許不該說那封信不好。現在紙碎了，再要一張，好像又得從頭解釋一遍。黑暗裡沒有人問我，我仍在心裡回答。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "女孩後來睡著了。將近黎明時，夫人舉著蠟燭走進來，輕輕撥開她額前汗溼的頭髮。那封沒有寄出的信，沒有再被放回郵袋。兩天後，她們才動身返城，走向來時經過的{{e_bridge|聖路易斯雷大橋}}。"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c1_20.png",
+   "cgDark": false,
+   "cgPrompt": "A young girl awake in a dark small inn bedroom, torn fragments of an unsent letter on the bedside table, the warm light beneath the door hinting at another person still writing; a quiet compassionate image without triumphant mood.",
+   "cgChars": [
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c2_01",
+   "row": 0,
+   "col": "名場面",
+   "title": "門前的籃子",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_abbess"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_convent"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "清早，人們在門口收容棄嬰的籃子裡發現了兩個男孩。奶媽還沒有趕到，他們已經有了名字：{{e_manuel|曼努埃爾}}，{{e_esteban|埃斯特班}}。名字分得清，孩子卻分不清，城裡沒有誰能一直認準哪一個是哪一個。"
+    },
+    {
+     "kind": "narration",
+     "text": "他們的父母是誰，無人知道。後來見兩人站得筆直、又總是沉默，愛閒談的人便替他們猜測顯赫的身世，把各種貴族家的門牌安到他們頭上。那些說法既沒有把一個家還給他們，也沒有讓他們長大時少受幾句打趣。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]是世上最接近監護人的那個人。她常常厭惡男人給女人帶來的苦，卻漸漸喜歡上這兩個孩子。傍晚，她叫他們到自己的房間，吩咐廚房拿些點心，講英雄的故事，也講丑角接連不斷的災難。"
+    },
+    {
+     "kind": "narration",
+     "text": "兩雙黑眼睛凝神望著她。她喜歡得越深，越會突然擔憂：等他們長成男人，自己所憎惡的那些東西，會不會也從這兩張臉裡顯出來？孩子還不懂她目光裡的遲疑，只等著故事繼續。"
+    },
+    {
+     "kind": "narration",
+     "text": "他們在這裡長到不宜再久留的年紀，隨後去城中各處教堂做事，修籬笆，擦十字架，替走進病人家的神父提香爐。城裡人都認識這對兄弟，依舊常認錯名字。後來他們開始做抄寫員，用相似的兩隻手，抄戲本、歌謠、商人的告示，也抄唱詩班所需的一份又一份樂譜。名字很早就有了，能夠不靠名字而認準對方的人，卻始終只有兄弟彼此。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c2_01.png",
+   "cgDark": false,
+   "cgPrompt": "An elderly abbess bends over a foundling basket containing two swaddled infant boys at a convent doorway at dawn, another nun holding the door, simple stone courtyard, quiet practical care rather than sentimental spectacle.",
+   "cgChars": [
+    "e_abbess"
+   ]
+  },
+  {
+   "id": "c2_02",
+   "row": 0,
+   "col": "曼努埃爾",
+   "title": "我們若在那裡",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "她講到那個人被釘起來的時候，我忍不住打斷了。要是我和{{e_esteban|埃斯特班}}也在那裡，我們就會攔住他們。話說出口，我並不覺得自己說得太大；兩個人總能做些什麼，怎麼可以只站著看？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_abbess|皮拉爾院長}}看了我們一會兒。她講的那些很遠的故事，常有受苦的人，也有來不及趕到的人。我不喜歡聽到來不及。我們替她跑腿時，一條路被堵住，可以換另一條；東西太重，一個人拿一邊就好。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "城裡人總把我們認錯，再為自己的錯誤笑起來。我不想解釋那麼多。到了{{e_convent|聖羅莎修院}}這間屋子，我們可以並排坐著，安靜地聽，想說的時候再說。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我們若在那裡，就會把事情改過來。我說這句話時，還沒有遇見一件非做不可、卻無論怎樣用力都做不成的事。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_02.png",
+   "cgDark": false,
+   "cgPrompt": "Two identical solemn adolescent boys sit near the abbess's knee listening to a sacred story in a simple convent room; one suddenly leans forward to speak while the other listens intently, a small crucifix on the wall, warm late light.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban",
+    "e_abbess"
+   ],
+   "startUnlocked": true
+  },
+  {
+   "id": "c2_03",
+   "row": 1,
+   "col": "名場面",
+   "title": "不肯交出的詞",
+   "form": "dialogue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_lima"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "{{e_archbishop|利馬大主教}}聽說雙胞胎有一套只彼此聽得懂的話，便削好羽毛筆，把他們叫到書房。他研究過方言，準備日後回到西班牙莊園時，把這些材料整理成一件有趣的工作。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "你們怎樣說麵包？平常兩個人在一起的時候，用哪一個詞？",
+     "speakerEntry": "e_archbishop"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_manuel|曼努埃爾}}和{{e_esteban|埃斯特班}}站在漂亮的地毯上。長長的沉默過後，其中一個低聲答了。問話的人把筆移向紙面。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "樹呢？樹也有自己的叫法嗎？不要緊，只照平常說就好。",
+     "speakerEntry": "e_archbishop"
+    },
+    {
+     "kind": "narration",
+     "text": "又是一陣沉默。他們從剛學說話時就有了這套{{e_language|雙生私語}}，詞彙和句法都不大依靠西班牙語。單獨相處時才說；偶爾在人前遇上緊迫的事，也只低聲耳語。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "那麼，‘我看見’，和‘我看見過’，會有區別嗎？慢一點，我記下來。",
+     "speakerEntry": "e_archbishop"
+    },
+    {
+     "kind": "narration",
+     "text": "他們不知道該怎樣解釋，為什麼這件看似無害的事使自己如此難堪。不是答不出來，也不只是敬畏身份。外人平常盯著他們相似的臉，覺得好玩；如今連兩人之間最隱秘的距離，也被一問一答地擺到桌面上。"
+    },
+    {
+     "kind": "narration",
+     "text": "主人最初以為他們被書房的華貴拘住了，後來終於察覺，那遲疑來自更深的地方。他失望地放下筆，讓兩人離開，沒有再索要下一個詞。那套話仍留在兩人中間；記事本里，留下來的遠比他預想的少。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_03.png",
+   "cgDark": false,
+   "cgPrompt": "Two nearly identical young men with dark uncut hair stand awkwardly on an ornate carpet in an archbishop's study, the cleric with a newly trimmed quill gesturing toward a notebook, the men reluctant and silent, no legible text.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban",
+    "e_archbishop"
+   ]
+  },
+  {
+   "id": "c2_04",
+   "row": 1,
+   "col": "曼努埃爾",
+   "title": "同一件差事",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "有人問，為什麼去辦同一件事，也要走兩條街。這樣省得聽他們再猜誰是誰。他們猜對會笑，猜錯也會笑，我們無論怎麼回答，最後都得站著等他們笑完。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_esteban|埃斯特班}}不必說自己什麼時候回來。有時我做著手裡的活，就覺得他快到了；過一會兒，門外果然有腳步。旁人若聽見，大概又要問許多問題。我們已經習慣，不覺得非得拿出來解釋。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "抄寫做膩了，就去{{e_harbor|利馬海港}}搬貨。也趕過牲口，摘過果子，替人擺渡。換一種活，肩背會在不同的地方疼，回去以後還是有人知道今天為什麼少說話。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我們很少談什麼了不得的事，吃什麼、穿什麼、明天到哪裡掙錢，幾句話就夠。兩張桌子也好，一隻沉重的木箱也好，我知道另一邊有人。世界其餘的地方怎樣熱鬧，都不用馬上弄懂。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_04.png",
+   "cgDark": false,
+   "cgPrompt": "Two identical young Peruvian dock workers carry opposite ends of a plain wooden cargo crate near a sailing ship, dark uncut hair, weathered simple shirts, late afternoon, practical companionship, no modern dock machinery.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_05",
+   "row": 2,
+   "col": "名場面",
+   "title": "留下的那一個",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_theatre"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "經理預料今晚座位賣不滿，就送了兄弟倆兩張入場券。他們回城後，又開始替劇團抄本子，平日進出後臺，卻沒覺得那些臺詞有什麼值得欣賞。榮譽，聲名，愛情的火焰，詩人一開口，什麼都可以繞著它們說很久。"
+    },
+    {
+     "kind": "narration",
+     "text": "兩人坐得耐心，望著蠟燭和華麗的衣裳。到了幕間，{{e_camila|卡米拉}}換下劇中的身份，穿著層層裙子出來跳舞。{{e_esteban|埃斯特班}}說還有活要抄，先回去了。[[NPC1]]留在原處，紅色的襪子和鞋子從此沒有完全離開他的心思。"
+    },
+    {
+     "kind": "narration",
+     "text": "他們早就見過這個演員。幾年前，她曾把他們拉到一起，仔細檢視兩張臉，最後拍著其中一人的肩膀，宣佈找到了較小的那個。那次被打量的窘迫，早已沉到別的記憶下面；如今，一個人發現自己做什麼都容易繞到她的住處附近。"
+    },
+    {
+     "kind": "narration",
+     "text": "夜裡，他站在化妝室窗下的樹間，指節抵著嘴，聽自己的心跳。她是{{e_viceroy|安德烈斯總督}}的情人，富有，美麗，說話鋒利，幾乎沒有哪一條訊息意味著希望。可那些訊息沒有把他勸回去。"
+    },
+    {
+     "kind": "narration",
+     "text": "屋裡等待的兄弟同樣咬著指節。他並不是也愛上了這位演員，只是不明白原先已經足夠的兩個人，為什麼忽然不再足夠。同樣的沉默，第一次藏著兩件無法立刻互相明白的事。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_05.png",
+   "cgDark": false,
+   "cgPrompt": "A quiet dark-haired young copyist remains in a candlelit theatre audience as his identical brother leaves down an aisle, celebrated actress dancing in layered skirts and red shoes beyond the footlights, fascination held in a still face.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban",
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c2_06",
+   "row": 2,
+   "col": "曼努埃爾",
+   "title": "替別人說愛",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "在{{e_theatre|利馬劇院}}裡，{{e_camila|卡米拉}}說，我看上去不喜歡她。我不知怎樣回答，才像她的朋友，又不暴露我來這裡有多高興。說‘是，夫人’，她嫌我笨；再說一遍，她就要換人。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她要我起誓，連{{e_esteban|埃斯特班}}也不能知道。我把一個秘密留在我們兩人之間，得到的卻是替她寫給別人的話。給{{e_viceroy|安德烈斯總督}}的一封，要斥責猜疑，退還禮物；給鬥牛士的另一封，又變成親暱的約定。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "羽毛筆沒有停。她叫我另取一張，我就另取一張。這些{{e_secretletters|秘密情書}}裡沒有一句是寫給我的，可她站得那麼近，彷彿只要把字寫得足夠清楚，還能多留一會兒。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她問有沒有抄錯，付了錢，說往常由{{e_pio|皮奧}}代筆，這幾封不願讓他知道。我接過錢，下樓，走到樹底下。剛才必須一個字一個字聽清的話，此刻全擠在心裡，我倒說不出一句自己的。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_06.png",
+   "cgDark": false,
+   "cgPrompt": "A young dark-haired copyist seated at a dressing room table with two sheets of paper while a famous actress paces behind him dictating, a blond stage wig on a stand and a coin near the paper, restrained private humiliation.",
+   "cgChars": [
+    "e_manuel",
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c2_07",
+   "row": 3,
+   "col": "名場面",
+   "title": "半夜的代筆",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_manuel"
+    },
+    {
+     "slot": "NPC3",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_room"
+    }
+   ],
+   "difficulty": "hard",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "門上響起很輕的敲聲。[[NPC2]]起身去開門，一名蒙著面紗的女人急急走進來，先要墨水和紙。[[NPC3]]已經躺下，從被子邊緣看著。來客注意到那雙眼睛，匆忙為深夜打擾道了歉，隨即又俯身到桌邊。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]要寫給使她久等的鬥牛士。她在抄寫員耳邊壓低聲音，一邊報出憤怒的句子，一邊催問寫完了沒有。她需要的是一封立即送走的{{e_secretletters|秘密情書}}；在陰影裡看著的另一個人，卻把那種貼近誤認為只有親密者才能享有的關係。"
+    },
+    {
+     "kind": "narration",
+     "text": "他轉過臉，朝向牆壁。女演員拿走紙，把一枚{{e_coin|錢幣}}沿桌面推過去，又帶著黑色花邊和匆忙的低語離開。門關上，抄寫員坐回來，雙肘支在膝上，雙手捂住耳朵，反覆在心裡承認自己愛她。"
+    },
+    {
+     "kind": "narration",
+     "text": "然後他察覺到了屋裡另一種沉默。彷彿兄弟已經離自己很遠，正一遍遍告別。他不懂，為什麼喜歡一個人，竟會使另一個人如此痛苦；更不懂，這件事是否真能靠一次決定徹底結束。"
+    },
+    {
+     "kind": "narration",
+     "text": "蠟燭照著兩張相同的臉，卻沒有照出共同的心事。桌上的錢尚未收起，床邊的人已經急於證明，自己仍把兄弟放在所有事情前面。他吹滅蠟燭，躺下，用一種過分隨便的口氣宣佈，以後再不替那個女人寫信。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_07.png",
+   "cgDark": false,
+   "cgPrompt": "Nearly midnight in a plain rented room, a veiled actress leans to whisper dictation to one seated young copyist by candlelight while his identical twin lies awake on a cot in shadow turning toward the wall; emotional distance, no romance posing.",
+   "cgChars": [
+    "e_camila",
+    "e_manuel",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_08",
+   "row": 3,
+   "col": "曼努埃爾",
+   "title": "雨夜的門",
+   "form": "dialogue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_room"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "宣佈不再代筆後，[[NPC1]]開始念晚禱，想讓事情就此過去。[[NPC2]]卻起來重新點亮了蠟燭，繫好腰帶。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "怎麼了？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "出去走走。你不必為了我說剛才那些話。寫不寫信，我並不在乎。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "回床上去。誰說我是為了你？我不想再替{{e_camila|卡米拉}}寫那些信，也不想那樣領她的錢。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "你愛她。不必因為我而改變。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "愛她？我有什麼機會？真有那種可能，她會叫我寫這些信嗎？會每次都把一枚錢推到桌上嗎？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "桌邊的人沒有回答，只用手指輕敲桌沿。床上的人換成兩人自幼使用的{{e_language|雙生私語}}，聲音裡的憤怒更加真實，雖然連他自己也不願承認其中混著什麼。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我好得很。睡覺去，別做傻事。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我不。我出去走走。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "已經兩點鐘了，還在下雨。你不能那樣走幾個鐘頭。我向你保證，那件事已經過去了。我只喜歡過她一陣。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]站在門口，黑暗幾乎把他的臉收走。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "是我擋著你了。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]猛地從床上起來。那句話聽起來不像一次普通出門，倒像永遠的離開。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "看在上帝的份上，回來。回來吧。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "兄弟回來了，重新躺下。第二天，演員的使者再來，得到了一句明確的拒絕。兩人許多天沒有再談起這場爭執；沒有再談，不表示彼此已經全然明白。蠟燭再一次熄滅，門關好了，屋外仍在下雨。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c2_08.png",
+   "cgDark": false,
+   "cgPrompt": "One of two identical young men sits up alarmed on his bed while the other stands at an open doorway in darkness putting on a coat, a single candle relit on their table, rain outside, urgent intimate tension without violence.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_09",
+   "row": 4,
+   "col": "名場面",
+   "title": "每一個整點",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_room"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]的膝蓋被一塊金屬劃破了。他們從沒這樣病過，起先只是望著腿腫起來，望著疼痛一陣陣穿過身體。半夜想起一家理髮店的招牌兼寫著外科醫術，[[NPC2]]就跑出去敲門；人還沒有回來，要等早晨。"
+    },
+    {
+     "kind": "narration",
+     "text": "他們互相保證，等那人看過就會好了。一天，兩天，也許不到一天，受傷的人便能重新上街。終於等來{{e_medicine|藥劑與膏藥}}和膏藥，又得到一項清楚的吩咐：每隔一小時，用冷溼布敷腿。"
+    },
+    {
+     "kind": "narration",
+     "text": "照料的人照辦，床上的人卻越來越痛。每次{{e_cloth|冷溼布}}落下，恰好是最難忍的一刻。他開始求兄弟停手，說已經不疼，不必再弄。對方怕一心軟就耽誤康復，只好掀開被子，把布緊緊敷上。外面各座鐘樓在整點敲得那麼好聽，屋內的人卻越來越怕那聲音。"
+    },
+    {
+     "kind": "narration",
+     "text": "發熱與疼痛攪亂了他的神志。他罵兄弟，詛咒兄弟，又說起{{e_camila|卡米拉}}，彷彿自己失去了原本有權得到的一切。照料者退到門外，背靠著門，震驚得呼吸不順；過了一會兒，仍得重新進去，把下一次該做的事做完。"
+    },
+    {
+     "kind": "narration",
+     "text": "鄰室的人敲牆，客店主人威脅要趕他們走。他舉著蠟燭出去，任眾人責罵，再回到床前。屋裡沒有新的辦法，只有不斷到來的下一個整點。那套原先許諾很快就能康復的醫囑，成了他不敢放下、又無法相信的事。兩個人都還盼著，下一次敷上去，事情也許就會開始變好。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c2_09.png",
+   "cgDark": false,
+   "cgPrompt": "A young man wrings a wet cloth over a basin beside the bed of his identical feverish twin, candle nearly spent, distant clock tower visible through the window, focus on hands and exhausted faces, no blood or graphic wound.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_10",
+   "row": 4,
+   "col": "曼努埃爾",
+   "title": "清醒的一刻",
+   "form": "dialogue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_manuel"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_room"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "dialogue",
+     "text": "我好些了。看來這些溼布還是有用。明天我就能起來，你也可以睡一覺，我不會再給你添麻煩。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "這不算麻煩。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "天將亮時，[[NPC1]]平靜下來。[[NPC2]]守在床邊，有些話幾次到了嘴邊，才終於說出來。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "要不要叫{{e_camila|卡米拉}}來看看你？只待一小會兒也好。你還覺得，是我擋在你們中間嗎？我說過，我不會攔你。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "怎麼又提她？她對我不算什麼。我滿意現在這樣。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "可你剛才很生氣，敷布的時候，你也為那件事生氣。你詛咒我……",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "那時我的腿疼。我不知道自己在說什麼。你是我僅有的人，我怎麼會那樣詛咒你？是你太久沒睡了。我把你也拖壞了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "門外的晨光漸漸清楚，{{e_cloth|冷溼布}}還擱在盆沿。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "這一次先不敷了。少一次不會有事。讓它安靜一會兒也好。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "不，我得好起來。把{{e_crucifix|十字架}}給我。要是我再說什麼傷害你的話，我都不是那個意思；是疼痛使我胡說。好了，放回去吧，我準備好了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "真的，跳過這一次吧。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "醫生說必須做。我不會再說一個字。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "隨後一切又重新開始。清醒時的保證，並沒有使下一次劇痛變得輕一些。到了第三夜，他們請來了神父。床上的人在大幅搖晃的影子中領受聖禮，然後死去。屋裡再沒有下一次必須準時更換的溼布。守夜的人仍坐在原處，一時不知道天亮以後應當先做什麼。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c2_10.png",
+   "cgDark": false,
+   "cgPrompt": "At dawn a feverish young man holds a small plain crucifix close to his chest as his identical exhausted brother hesitates with a folded wet cloth beside the bed, pale daylight, compassionate restraint, no miraculous glow.",
+   "cgChars": [
+    "e_manuel",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_11",
+   "row": 5,
+   "col": "名場面",
+   "title": "隔著一條街",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_abbess"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_lima"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "{{e_manuel|曼努埃爾}}死後，[[NPC1]]不肯再走近那棟樓。他開始長久地步行，繞遠路，又慢慢回到附近，在兩條街以外徘徊。客店主人無法安排一切，只好去請養大兄弟倆的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]來了，清楚穩妥地吩咐該做的事，隨後走到街角。他看著她，目光裡有渴望，也有戒備；等她走近，又側過身，把臉轉開。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "幫我一點忙，好嗎？進來看看你的兄弟，陪我一會兒。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "不。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她想起兩人少年時坐在膝邊，聽受難的故事，其中一個忽然說，如果他們在場，便會把事情攔下來。眼前這個青年如今連一扇熟悉的門也跨不過去。她沒有責備，只換了一個問題，問他究竟是哪一個。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "曼努埃爾。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她順著這個名字繼續求他進屋，提起從前他肯替自己跑腿、在她生病時送來湯水。她沒有細數自己做過的恩惠。等她終於說到自己也失去過人、說到神的安排，青年卻慢慢離開，二十步以後又停下來。"
+    },
+    {
+     "kind": "narration",
+     "text": "送葬那天，白日裡也點著蠟燭，罩著黑頭巾的人唱起令人畏懼的聖歌。他沒有加入隊伍，只在平行的街道里跟著，走到路口，望見那行人，又失去那行人的蹤影。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_11.png",
+   "cgDark": false,
+   "cgPrompt": "A solitary dark-haired young man glimpses a funeral procession from a parallel street, candles carried in daylight and distant black mourning hoods; the foreground stays on his hesitant posture, no skull close-ups, colonial Lima alleys.",
+   "cgChars": [
+    "e_esteban",
+    "e_abbess"
+   ]
+  },
+  {
+   "id": "c2_12",
+   "row": 5,
+   "col": "埃斯特班",
+   "title": "借來的回答",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "她問我是哪一個。我說了{{e_manuel|曼努埃爾}}。以前別人也總認錯，我們不一定會糾正。只要另一個還在，同一個錯誤改不改，好像都沒有什麼要緊。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_abbess|皮拉爾院長}}叫著那個名字，請我進去。她沒有說我答錯，只說需要我幫忙。我聽見她提起送湯，提起從前跑過的路。那些事情我都記得，可為什麼她現在要我走的這一小段，會變得那麼遠？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我不願回{{e_room|雙胞胎的房間}}，走著走著卻總到了附近。轉過這一條街，再轉過另一條，好像只是在辦一件沒有辦完的差事。路上的人從我身邊經過，誰也不需要把原來的路重新學一遍。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她說自己也曾失去過。我想聽，又怕她接下來便要告訴我，事情應當這樣過去。於是我走開，走出一段，仍停下來看。身後有人叫我，我卻不知道用哪一個名字回去。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_12.png",
+   "cgDark": false,
+   "cgPrompt": "A bereaved young man pauses beside a whitewashed street wall, his own shadow and an empty patch of light beside it, one distant convent arch, dark hair and plain clothes, no ghost or supernatural double.",
+   "cgChars": [
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_13",
+   "row": 6,
+   "col": "名場面",
+   "title": "我的朋友",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_abbess"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_convent"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "幾個月裡，人們從各處帶來青年人的訊息。有人在乾涸的河床看見他，有人在古老遺蹟間遇上他，還有牧人見他滿身露水站在山頂。他會找到趕車或牧羊的活，做上一陣，又不聲不響地走掉。他走得很遠，卻總回到利馬。"
+    },
+    {
+     "kind": "narration",
+     "text": "一名修女跑來告訴[[NPC1]]，[[NPC2]]又在門外。她為這次重見已經想過許多辦法：怎樣使一個失去兄弟的人，重新願意生活在人群裡？此刻她把那些急切壓下去，儘量平靜地走到門口。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我的朋友。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "他站著發抖。那雙眼睛裡的渴望與不信任，她已經見過。她沒有立刻要求他幫忙，也沒有把人召進屋裡，只又低聲說了一次。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我的朋友。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她向前一步，他卻突然轉身跑了。她跌跌撞撞地回到書桌旁，跪下來，憤怒地責問上帝：自己一直求智慧，為何一點也沒有得到？她不過是一個擦地板的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "這些話使她責罰自己，可責罰並沒有取消眼前的事。就在那段時間，她想到{{e_captain|阿爾瓦拉多船長}}。三週以後，兩人談了十分鐘。第二天，船長便去找青年人，據說他正在庫斯科替大學抄寫東西。一次沒有成功的挽留，終於變成了向另一個人求助。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_13.png",
+   "cgDark": false,
+   "cgPrompt": "At the convent threshold an elderly abbess takes one careful step toward a grieving young man who stands trembling in the street, a great deal of empty space between them, overcast daylight, no physical restraint.",
+   "cgChars": [
+    "e_abbess",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_14",
+   "row": 6,
+   "col": "埃斯特班",
+   "title": "化妝室門口",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "這條後臺樓梯，我走過許多回，抱著抄好的{{e_scripts|戲劇抄本}}，送上去，再下來。以前只想著交完差就走。現在走到門口，竟不知道手裡沒有東西，自己為什麼來了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_camila|卡米拉}}看見我。我很想開口，可該說什麼？說我並不是那個替她寫信的人？還是說，那個人已經不可能再來？她曾那麼有把握地把我們並排拉到面前，宣佈其中一個年紀更小。如今只剩一張臉，她會不會反倒認錯？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "房間裡有鏡子，有演戲用的東西。我記得那個深夜，她俯在{{e_manuel|曼努埃爾}}耳旁說話，我從床上望過去，以為那裡已經沒有我的位置。後來位置重新空出來，事情卻沒有回到從前。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她等著我。我看著她，仍沒有把那句話找出來。門外的樓梯就在身後，我又走回去。這一次，沒有人會問我，怎麼交一份東西也去了那麼久。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_14.png",
+   "cgDark": false,
+   "cgPrompt": "A grieving young copyist at the threshold of an actress's dressing room, she turns from a modest mirror toward him, his mouth slightly open but no words emerging, backstage stairs visible behind, daytime dust in the light.",
+   "cgChars": [
+    "e_esteban",
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c2_15",
+   "row": 7,
+   "col": "名場面",
+   "title": "一張晚飯的邀請",
+   "form": "dialogue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_captain"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_cuzco"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]走進昏暗的廚房，沒有立刻向青年打招呼。[[NPC2]]把椅子往陰影裡挪了一點。他們從前一起卸過貨，三個人都不愛說廢話；這位航海者出現，使他有一點高興，也使他想趕快藏好。等飯吃完，對方才走來。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "你以前替我卸過船。我在找幾個強壯的人，準備下一趟航行。願意來嗎？英國，還有俄國。活很重，報酬不錯，離秘魯很遠。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "青年盯著桌面，許久不答。船長把問題又說了一遍。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "好，我去。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "很好。自然，我也想讓你兄弟一起去。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "不。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "他不願意嗎？讓我和他談談。他在哪裡？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "……死了。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "兩人都看著地面。船長問他叫什麼，他這次說出了自己的名字，沒有再借用另一個。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "{{e_manuel|曼努埃爾}}什麼時候去的？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "幾個星期前。他撞傷了膝蓋。就幾個星期。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "你多大了？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "二十二。我要走了，城裡還有一件事。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "那麼晚上回來，陪我吃飯，談談航程。到時候來喝一點酒，好嗎？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "好。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "沒有人說出一句足以解釋死亡的話。桌上只是留下了一個可以兌現的約定：今晚，再回到這裡坐一會兒。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_15.png",
+   "cgDark": false,
+   "cgPrompt": "A weathered sea captain quietly approaches a dark-haired young man in a shadowed inn kitchen in Cuzco after a meal, rough wooden bowls and a long table, neither man quite meeting the other's eyes, no sailor costume exaggeration.",
+   "cgChars": [
+    "e_captain",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_16",
+   "row": 7,
+   "col": "埃斯特班",
+   "title": "給我事情做",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "到了船上，請一直給我事情做，{{e_captain|阿爾瓦拉多船長}}。什麼都可以。白天不夠，夜裡也可以，反正我原本就睡不好。別讓我坐在那裡，等著下一陣鐘聲。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "也別向那些人講我的事。我知道他們也許只是好心，可他們一安靜下來，看著我，我就不知道應該怎樣站著。您可以裝作從前不認識我，給我最多的活，別讓我覺得自己是被特別照看的那個。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "桌前的抄寫做不下去了。{{e_scripts|戲劇抄本}}就在眼前，字一個個排列得很整齊，旁邊卻總像應該還有一支筆。有時候我寧可累得什麼都不想。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "您問起我曾經救過一個人。我記得那件事，也記得自己為什麼會說著說著，突然換了話題。我們從前養過一條狗——不，這個先不說。您認識{{e_abbess|皮拉爾院長}}嗎？在走之前，我還有一件事想為她做。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_16.png",
+   "cgDark": false,
+   "cgPrompt": "A young man leans forward intensely over a simple supper table while a weathered captain listens, a coil of ordinary ship rope visible far in the background, two cups, restrained warm light, no dangerous action.",
+   "cgChars": [
+    "e_esteban",
+    "e_captain"
+   ]
+  },
+  {
+   "id": "c2_17",
+   "row": 8,
+   "col": "名場面",
+   "title": "不是我一個人的",
+   "form": "dialogue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_captain"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_cuzco"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "dialogue",
+     "text": "離開以前，我想送{{e_abbess|皮拉爾院長}}一件{{e_gift|給院長的禮物}}。能把工錢先給我嗎？我在外面用不上錢，現在就想給她買。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "可以。早晨一起去挑。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "也不只是我一個人送的。她從前……她曾經……",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]想說出兄弟的名字，卻沒有做到。他換成更低的聲音，提起院長自己曾說過，她也遭受過嚴重的失去。他不知道那個人是誰，卻一直記得這句話。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我想給她一點東西。那樣的事，她不容易受得住。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "他又說了很久。[[NPC2]]聽著，答應第二天處理。等青年喝醉伏下，船長走到客店外的廣場，看山脈和一群群星星。那時，他也想起一個聲音：別去太久，等回來時，我就長成大姑娘了。"
+    },
+    {
+     "kind": "narration",
+     "text": "他的女兒已經死了。{{e_maria|瑪麗亞}}曾聽他談起她，把這個故事寫進給自己女兒的信；他說，有時總覺得孩子只是在外旅行，或許在英國，過些日子還能再見。再遠的航程，也沒把這種錯覺完全留在身後。"
+    },
+    {
+     "kind": "narration",
+     "text": "船長又走回屋內，把青年抱回房間，坐著看了很久。明早要挑的東西還沒有名字，答應做這件事的人卻已經坐在這裡。禮物屬於兩個兄弟，眼前的照料則只能先從一個活著的人開始。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_17.png",
+   "cgDark": false,
+   "cgPrompt": "A bereaved young man asks an older captain for an advance at a plain inn supper table, the captain listening with a grave compassionate face, a small coin pouch closed between them, no specific gift depicted, stars beyond the window.",
+   "cgChars": [
+    "e_esteban",
+    "e_captain"
+   ]
+  },
+  {
+   "id": "c2_18",
+   "row": 8,
+   "col": "埃斯特班",
+   "title": "樓梯上的反悔",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_cuzco|庫斯科}}的早晨到了。昨天已經答應了。今天站到樓梯上，才發現答應並沒有把事情做完。{{e_captain|阿爾瓦拉多船長}}在下面等，我卻忽然說，不能去，還是不能離開秘魯。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "他沒有提高聲音，只問起給{{e_abbess|皮拉爾院長}}的禮物。那件事是真的，我不想收回。她說過自己也失去過人，我一直記得；昨晚想把另一個名字也加上，嘴裡卻怎麼都說不出來。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "從前要拿主意，多半由{{e_manuel|曼努埃爾}}來。換一件差事，換一個地方，我們總能一起走。可這一次，去哪兒都只有一個人的腳步；留下來，熟悉的路同樣沒有改變。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "船長說，到海上會有事做，去把東西拿來就好。我轉身往樓上走，把這一小段路走得很慢。門外還留著一個等我的人，我知道他在，卻仍不知道怎樣把自己帶回他面前。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_18.png",
+   "cgDark": false,
+   "cgPrompt": "A young man pauses halfway down a rough wooden inn staircase at morning, one hand on the banister, an older captain waiting below near the open doorway, bright mountain air outside contrasting with interior shadow.",
+   "cgChars": [
+    "e_esteban",
+    "e_captain"
+   ]
+  },
+  {
+   "id": "c2_19",
+   "row": 9,
+   "col": "名場面",
+   "title": "門被推開",
+   "form": "scene",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_captain"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_esteban"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_cuzco"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]在樓下等，時間過了很久。他往樓梯上走了一段，停下來聽。起初沒有聲音，隨後屋裡的動靜讓他明白，青年正處在危險之中。"
+    },
+    {
+     "kind": "narration",
+     "text": "他也曾有過最難熬的時刻，因此一瞬間竟不知道自己的介入是否有用。那猶疑只停留了片刻。他衝上去推開門，抓住了[[NPC2]]，沒有讓眼前的事繼續發生。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "走開。讓我一個人待著。不要現在進來。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "青年伏到地上，反覆說自己是孤單的。船長站在旁邊，臉色灰白，舊日的痛苦也被重新喚醒。會辨認星辰、海流和海岬，不表示他就會找到安慰人的好句子。離開航海的事，他原本是個很笨拙的說話者。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我們只能盡力，盡力往前過。時間一直在走。有一天，會吃驚它竟這樣過去了。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "他不能確定這些話有沒有被聽進去，也沒有把它們說成一個保證。青年沒有立即站起來，更沒有因為有人開口，便重新看見生活的全部意義。屋裡只是多了一個願意留下的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "先前約好的{{e_gift|給院長的禮物}}、要去的港口、下一次航行，都還在門外等著。此刻船長沒有催他回樓下，把這個早晨交給了一件更小、更近的事：陪他把眼前這一刻過完。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c2_19.png",
+   "cgDark": false,
+   "cgPrompt": "A weathered captain has entered a modest inn bedroom and kneels near a grieving young man collapsed safely on the floor, the door open to morning light, expressive hands at rest, no rope, weapon, wound or self-harm method visible.",
+   "cgChars": [
+    "e_captain",
+    "e_esteban"
+   ]
+  },
+  {
+   "id": "c2_20",
+   "row": 9,
+   "col": "埃斯特班",
+   "title": "橋上與河邊",
+   "form": "monologue",
+   "level": 2,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_esteban"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "我們動身了。路仍是那些路，往前一段，再往前一段。我沒有忽然變成另一個人，也沒有把昨夜的事留在某個已經關上的房間裡。只是有人走在旁邊，不要求我每一步都解釋為什麼願意繼續。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "到了{{e_bridge|聖路易斯雷大橋}}，{{e_captain|阿爾瓦拉多船長}}要去下面看貨物渡河。那些東西不從這條窄窄的人行橋上過，得有人到水邊照看。我從橋上走。他去辦自己的事，我們本來還要重新會合。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "青年踏上了橋。河谷下面，貨運仍有自己的忙碌；橋上，腳步落在薄木板之間。就在這一次過河時，橋斷了，他隨橋墜落。"
+    },
+    {
+     "kind": "narration",
+     "text": "船長留在下方，並不是因為事先知道危險。那天的分別沒有告別的儀式，只有兩個人各走了一條本來很尋常的路。後來再說起他們的遠航計劃，許多句子只能停在‘本來’兩個字上。"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c2_20.png",
+   "cgDark": false,
+   "cgPrompt": "A young dark-haired traveler seen from behind approaches an intact narrow rope bridge while an older captain takes the descending path toward cargo boats on the river far below, Peruvian mountain gorge, before the accident, no collapse.",
+   "cgChars": [
+    "e_esteban",
+    "e_captain"
+   ]
+  },
+  {
+   "id": "c3_01",
+   "row": 0,
+   "col": "名場面",
+   "title": "總從後門來",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_lima"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]十歲時從父親的莊園跑到馬德里，家裡沒有認真把他找回去。他替商人發傳單、看馬、跑不便明說的差事，後來又訓練過巡迴馬戲裡的動物，做過飯，替人打聽訊息。認名字，認面孔，同陌生人說上話，他都有自己的辦法。"
+    },
+    {
+     "kind": "narration",
+     "text": "一樁生意眼看可以賺大錢，他卻往往先厭倦了。他不願被財產和長久的約定拴住，更不願被關起來。可以從劇院轉到宮廷，也可以從古董轉到絲綢，只要下星期不必繼續扮演上星期那個人。"
+    },
+    {
+     "kind": "narration",
+     "text": "後來他來了秘魯，幾個月裡便結識了城裡許多人，接著又把海岸城鎮、礦區和內地的訊息串起來。{{e_viceroy|安德烈斯總督}}發現了他的用處。他走那些不引人注目的走廊，從後面進去，陪主人喝早晨的巧克力，也辦些不宜交給普通侍從的事。"
+    },
+    {
+     "kind": "narration",
+     "text": "他不明白，一個握有這麼大權力的人，為什麼沒有更大的興致去安排別人的命運；但對方能夠隨口引出塞萬提斯，又知道哪些差事不該逼他去做，這使他願意來往。"
+    },
+    {
+     "kind": "narration",
+     "text": "城裡人叫他叔叔，卻不是因為他同誰有確切的血緣。他替女人寫信，在她們失意時借錢，生病時比情人和女僕守得更久。那些人的生活給了他一個隨時可以進出的地方；他喜歡被信任，也喜歡自己比別人知道得更多。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_01.png",
+   "cgDark": false,
+   "cgPrompt": "A thin clever middle-aged Spanish adventurer with sparse moustache and beard slips through a quiet service corridor of a colonial Peruvian palace, plain worn brown coat and alert sad eyes, a tray of morning chocolate in the distance, no spy fantasy props.",
+   "cgChars": [
+    "e_pio"
+   ]
+  },
+  {
+   "id": "c3_02",
+   "row": 0,
+   "col": "皮奧",
+   "title": "滿屋的聰明動物",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "沒有幾個人知道我也有一所房子。狗在下面，鳥在樓上。有的狗會做算術，叫它們表演，它們就認真地看著我。屋裡等著聽我說話的，倒是它們。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "掙錢不是難事，難的是為了保住一件東西，不得不在同一個地方待太久。我喜歡來去自由，喜歡知道一扇門後面是誰，也喜歡別人還沒開口，我就已經知道他要問什麼。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_lima|利馬}}有許多自稱有教養的人，讀到{{e_scripts|戲劇抄本}}最好的句子，卻像經過一張空桌子。詞序稍微一換，整個心境都變了，他們竟看不出來。這些書是我自己一點點找來的，借過，也偷過；我不會因為沒人看見，就少愛它們一點。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我一直想寫詩，也想找到一個人，能把那些句子說到恰好。等那個人開口時，連我都不必站在門邊解釋，她的聲音自己就能使別人明白。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c3_02.png",
+   "cgDark": false,
+   "cgPrompt": "A thin middle-aged man with sparse beard alone in a modest house full of trained dogs, a caged songbird near an upper landing, an open Spanish playbook resting on his knee, late afternoon, affectionate yet solitary.",
+   "cgChars": [
+    "e_pio"
+   ],
+   "startUnlocked": true
+  },
+  {
+   "id": "c3_03",
+   "row": 1,
+   "col": "名場面",
+   "title": "咖啡館的歌",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_lima"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]十二歲時就在咖啡館唱歌。她身材還沒有長開，臉也顯得飢餓、侷促，卻已經會模仿前面那些成熟歌者的每一種抑揚。[[NPC1]]坐在吉他手中間聽著，心裡生出一個決定：要親手把這份才華培養出來。"
+    },
+    {
+     "kind": "narration",
+     "text": "他付錢把女孩帶走。她不用再鎖在存酒的地方睡覺，而在他家裡有了一張小床；有熱湯，不挨鞭子，還能學習。對她而言，這幾件眼前的變化，比成為了不起的藝術家更容易感到真實。"
+    },
+    {
+     "kind": "narration",
+     "text": "他寫歌給她，買新衣服，教她分辨自己發聲的好壞，讓她練表演、練模仿，也練怎樣用一個聲音帶出整首歌的氣氛。他帶她去{{e_theatre|利馬劇院}}，要求她留意別人的每一個動作。她吃苦耐勞，沉默而認真，學得比他最大膽的設想還快。"
+    },
+    {
+     "kind": "narration",
+     "text": "她慢慢長成了一個優雅的人，也對這個老師十分忠誠。只要他靠得太近，臉上仍會掠過一點緊張；他察覺到了，便把那距離保留下來。她會向他請教，也肯信任他安排下一段行程。新衣、飯食、訓練和下一個演唱的地方，都經由這個人的手進入她的生活。"
+    },
+    {
+     "kind": "narration",
+     "text": "女孩的名字後來傳遍城裡。他最初看見的，卻是一個還在模仿別人的孩子；她最初得到的，也不是喝彩，而是某天晚上的一碗熱湯，一張不再上鎖的床，以及第二天仍能繼續學的本事。那個付錢的人，同時也決定著她下一次何時唱、到哪裡唱。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c3_03.png",
+   "cgDark": false,
+   "cgPrompt": "In a small colonial Lima cafe a lanky twelve-year-old girl in a worn plain dress sings beside seated guitarists while a thin older man with sparse moustache watches intently from the audience, modest tavern daylight, no glamour or adult styling.",
+   "cgChars": [
+    "e_pio",
+    "e_camila"
+   ],
+   "cgCharVariants": {
+    "e_camila": "child",
+    "e_pio": "young"
+   }
+  },
+  {
+   "id": "c3_04",
+   "row": 1,
+   "col": "皮奧",
+   "title": "同一條披巾",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "咖啡館喜歡新面孔。{{e_camila|卡米拉}}唱得再好，在一個地方唱久了，也得去找下一間。所以我們一路走，衣服裹在同一條{{e_shawl|披巾}}裡，有床便睡床，沒有就睡海灘。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "去過墨西哥，在巴拿馬捱過打，也在太平洋的小島上遇過船難。林子裡有蛇和甲蟲，走路得仔細；收成忙的時候，就把自己的手腳暫時賣給農人。許多事，經歷了一次便不再驚奇。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "她不是一路等人照顧的孩子。我讓她聽一段歌，她會把細微的轉折記住；讓她看一次表演，她也能指出哪裡變了。想起這樣的本領還可以往前長，我就覺得下一段路值得走。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "後來{{e_lima|利馬}}的人只看見她穿好的衣服，聽她唱最成熟的聲音。有時我很想告訴他們，我們的東西曾經少到一條披巾就裝得下。可她上臺時若不願提起，我便在下面聽著。那些路上，我也因她而有了願意繼續的事，只是總以為自己比她更懂得將來該往哪裡走。雨停以後，還得趕路。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_04.png",
+   "cgDark": false,
+   "cgPrompt": "An older travelling tutor and a young adolescent singer rest on a Pacific beach beside a single bundled shawl containing their clothes, simple worn footwear, distant small boats, pale dawn, companions enduring an ordinary difficult journey.",
+   "cgChars": [
+    "e_pio",
+    "e_camila"
+   ],
+   "cgCharVariants": {
+    "e_pio": "young",
+    "e_camila": "child"
+   }
+  },
+  {
+   "id": "c3_05",
+   "row": 2,
+   "col": "名場面",
+   "title": "喝彩以後",
+   "form": "dialogue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_theatre"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]回到化妝室，聽見角落裡的口哨，就知道今晚又有哪裡不對。[[NPC2]]說沒什麼，她已經盡力了。那種語氣比直接指責更難忍：彷彿她的本領最多隻能到這裡。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "到底是什麼？又是什麼？我已經準備聽了，別這樣站著。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "沒什麼，我的小珍珠。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我自己知道今晚有地方演得弱，用不著你告訴我。我只是想回到這裡，不要再看見你這種樣子。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "對囚犯的那一段，為什麼說得那麼快？",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "一天叫我快，一天叫我慢。觀眾從沒那樣{{e_applause|掌聲}}過，他們哭了。我只在乎這個。別再說了。你可以梳我的頭髮，只要別再說一個字。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "他梳了十分鐘，彷彿沒看見她哭得發抖。她終於轉過身，攥住他的手。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我真那麼壞嗎？壞得讓你離開座位？",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "船上的一場很好。收尾也還不錯。可是，對囚犯的那段話……",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "她把臉埋到桌上的手臂裡。只有完美才夠，完美卻從沒有真的到來。等哭聲低下來，兩人又開始談聲音、手勢、快慢，重念{{e_scripts|戲劇抄本}}裡的臺詞。觀眾早已滿意，他們卻常常直到天明，還在逼近一個誰也沒法交出來的尺度。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_05.png",
+   "cgDark": false,
+   "cgPrompt": "A brilliant actress exhausted after a performance sits at a cluttered dressing table while her thin older tutor stands in the corner withholding praise, a comb and pomade jars, tears in her expression, warm backstage candlelight, no glamour portrait.",
+   "cgChars": [
+    "e_camila",
+    "e_pio"
+   ]
+  },
+  {
+   "id": "c3_06",
+   "row": 2,
+   "col": "皮奧",
+   "title": "詩人的孫女",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "我告訴{{e_camila|卡米拉}}，那位詩人的孫女來了。我們從他的{{e_scripts|戲劇抄本}}裡選了一出，練了一遍又一遍。她曾經厭倦那些總圍著男人轉的角色，可這一回，每個句子又使她認真起來。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "開演前，她從幕縫向外看，要我指給她：究竟是哪一位。我指著那個被家務、孩子和貧窮磨倦了的中年女人。她卻像看見了世上全部的高貴，站在我旁邊，安靜得一句話也沒有。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "演完以後，我把客人領進化妝室。她哭著，跪下吻那女人的手，對方又吻她的手。觀眾回家了，燈還亮著，她們仍在說，詩人從前怎樣寫作，在家又有哪些別人不知道的小習慣。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "那一夜我沒有再索要更多。她已經把我最珍惜的東西放到舞臺上，又從一個陌生女人那裡，得到並非只為美貌而來的回答。這份歡喜，掌聲散了以後還在。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c3_06.png",
+   "cgDark": false,
+   "cgPrompt": "An older theatre tutor at the edge of a dressing room watches his young adult actress kneel to greet a modest middle-aged visitor, costumes hanging on the wall, exhausted joy after a performance, the visitor clasping her hands in return.",
+   "cgChars": [
+    "e_pio",
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c3_07",
+   "row": 3,
+   "col": "名場面",
+   "title": "天亮的夜宴",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_viceroy"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_court"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "演出結束後，[[NPC1]]趕來赴夜宴，常已是凌晨一點。她珠光耀眼，也累得厲害。[[NPC2]]和幾位客人像迎接一位女王那樣接住她的到來。起初仍由她帶著眾人說笑，後來她漸漸靠在主人肩上，只聽話題從一張有趣而衰老的臉，移向另一張。"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_pio|皮奧}}也在。還有喜歡文學、穿紫衣的{{e_archbishop|利馬大主教}}，以及走過許多海域的{{e_captain|阿爾瓦拉多船長}}。他們談戰爭、國王、詩人和遠方，也談鬼魂、靈魂離開身體時能否看見、星辰會不會相撞。夜越深，每個人越容易把自己的遺憾說成一個機智的故事。"
+    },
+    {
+     "kind": "narration",
+     "text": "他們都懷念{{e_spain|西班牙}}，便告訴自己，這樣的談話正合乎高貴的西班牙精神。女演員從這生活裡學到新的從容：怎樣隨意握杯，怎樣在門口告別，怎樣把一個稱呼說得彷彿從小就會。皮奧在臺下看見這些細節，覺得她的演技又添了光彩。"
+    },
+    {
+     "kind": "narration",
+     "text": "金色晨光終於越過安第斯山，照到果盤、沾過酒的桌布和她沉睡的額頭。話聲停下來，誰也不願第一個起身。眾人的目光落在她身上，像看一隻誤飛進這間屋子的美麗鳥兒。"
+    },
+    {
+     "kind": "narration",
+     "text": "她以為自己將永遠幸福。老師卻仍在觀察，等她的經驗變得足夠深，能夠使某幾段臺詞說得更好。夜宴給了每個人片刻安慰，他們想從這位女人身上得到的，卻從來不是同一件事。窗外城市逐漸醒來，桌邊的人仍用舊故事拖延這一刻。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c3_07.png",
+   "cgDark": false,
+   "cgPrompt": "Dawn entering a colonial palace supper room where a tired actress sleeps leaning against the viceroy's sleeve, an archbishop in violet, a thin theatre tutor and weathered sea captain sit quietly around fruit and brocade, intimate faded grandeur, not a banquet crowd.",
+   "cgChars": [
+    "e_camila",
+    "e_viceroy",
+    "e_pio",
+    "e_archbishop",
+    "e_captain"
+   ]
+  },
+  {
+   "id": "c3_08",
+   "row": 3,
+   "col": "卡米拉",
+   "title": "散場後的臉",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "臉一停下來，鏡子裡就不是觀眾見到的那個人了。嘴顯得疲倦，眼睛也總像還在尋找什麼。一個角色需要的笑容可以學會，可散場以後，不知道該把它交給誰。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_viceroy|安德烈斯總督}}教我法語，教我那些大人物不正式見客時的樣子。我學得很快。上臺以後，手指怎樣碰杯子，走進一扇門之前怎樣停一下，連{{e_pio|皮奧}}也看得歡喜。我的生活進了戲裡，他就覺得一切都有益處。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "可我不只是為了下一場表演活著。{{e_applause|掌聲}}有時使我溫暖，有時又像每天準時結算的一筆賬。觀眾看不出我今晚分了神，老師看得出，便又覺得我辜負了什麼。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我想戀愛，想有自己的家，也想在別人不打量我的時候安靜坐著。每一種願望都佔著一個地方，偏偏這個身體每天還要換衣、背詞、出場，再笑著趕去下一場夜宴。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c3_08.png",
+   "cgDark": false,
+   "cgPrompt": "An adult actress alone before a plain dressing mirror after removing part of her stage costume, long fine nose, tired slightly childish mouth, dark reflective eyes, jewelry set aside, natural morning light revealing fatigue rather than ugliness.",
+   "cgChars": [
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c3_09",
+   "row": 4,
+   "col": "名場面",
+   "title": "一個體面的稱呼",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_lima"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "大約三十歲時，[[NPC1]]離開了舞臺。要在上流社會站穩，又花了五年。她帶上女伴和僕從，在時髦的時辰去教堂，出現在大學頒獎禮和慈善捐贈者的名單裡。過去的演出被她稱作消遣，彷彿只是一段不宜太認真追問的往事。"
+    },
+    {
+     "kind": "narration",
+     "text": "她還學會了一點讀寫，替自己安排體面的親屬關係，為孩子爭取合法身份。有人露出一點把她當作流浪藝人的意思，她便激烈反擊。她要的不只是華服，也是一種不會因為出身而被隨手收回的尊重。"
+    },
+    {
+     "kind": "narration",
+     "text": "可是{{e_respectability|體面身份}}很難帶來想象中的安寧。她在貴婦面前努力溫柔，在別處卻越發煩躁。飾物和羽毛層層堆起，鏡子與地板反光裡，那個人看上去越來越像已經到達了目的地。她自己仍在等待，等地位所許諾的幸福真正開始。"
+    },
+    {
+     "kind": "narration",
+     "text": "她逐漸暗示{{e_pio|皮奧}}，不要在公開場合與她來往。後來連私下探訪也使她不耐煩。她用客套的話、避開的目光、隨時可能開始的爭執，把舊日夥伴隔在新的生活之外。"
+    },
+    {
+     "kind": "narration",
+     "text": "他每月仍來一次。談不下去，就上樓去看孩子們。兩個大人都記得他們曾經怎樣一起生活，但一個急於證明自己能夠改變，另一個始終希望那份舊日親密還可以原樣回來。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_09.png",
+   "cgDark": false,
+   "cgPrompt": "A former actress dressed as a respectable colonial lady enters a university ceremony with attendants, elaborate but slightly excessive jewels and scarf, her guarded expression distinct from the pleased onlookers, restrained literary period illustration.",
+   "cgChars": [
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c3_10",
+   "row": 4,
+   "col": "卡米拉",
+   "title": "晴天裡的孩子",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_jaime|海梅}}走在後面幾步。那些想拉住他說話的女士，使他很不自在，他總認真地想辦法脫身，然後又跟過來。天氣好的時候，我們就這樣走在{{e_garden|法式花園}}的臺階之間，很少說什麼。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "他曾穿著石榴紅的天鵝絨衣服，那麼瘦小，又那麼嚴肅。病發時，他最難受的彷彿不是自己受苦，而是別人看見了。他繼承了我的額頭和眼睛，也繼承了父親身體裡的脆弱，我卻不能替他承擔哪怕一小會兒。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我等著生活終於使我滿意，他只為眼前有陽光而高興。他看天上的雲，像在計算它什麼時候會遮住我們。我不向他發脾氣，也不大會突然把他抱到懷裡；我們就保持著那幾步的距離，繼續往前。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "這裡被修得很像歐洲，精心安排的樹、欄杆和小徑，人人知道怎樣散步才得體。我和這個孩子站在其中，有時卻像還沒有學會當地語言的異鄉人。一陣不適過後，他依舊努力離那些關切的女士遠一點。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_10.png",
+   "cgDark": false,
+   "cgPrompt": "A stately woman and a delicate seven-year-old boy in garnet velvet walk several paces apart on artificial French garden terraces in the Andes, the child quietly enjoying a patch of sunlight, she preoccupied, gentle dignified portrayal of illness.",
+   "cgChars": [
+    "e_camila",
+    "e_jaime"
+   ]
+  },
+  {
+   "id": "c3_11",
+   "row": 5,
+   "col": "名場面",
+   "title": "並不存在的島",
+   "form": "dialogue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_garden"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "黃昏時，[[NPC1]]靠在一張缺角的大理石長椅旁等她。他想重溫昔日流浪時的信任和玩笑；[[NPC2]]一來，卻先糾正了他習慣的稱呼，隨即不耐煩地讓他隨意。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "要我回{{e_theatre|利馬劇院}}，那就不必說了。想起那個地方，我只覺得害怕。每天領到那麼多侮辱，夠了。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "如果你和這些新朋友過得快活，我不會要你回去。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "不喜歡我的朋友？那準備拿誰來替換？我不想聽勸告。把我忘掉就是了。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "他沒有明白她為何落淚，仍說著劇場的衰落。她忽然碰了碰他的膝蓋，神情像許多年以前。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "原諒我，{{e_jaime|海梅}}下午又病了。他躺在那裡，那麼白，那麼驚訝，誰也沒有辦法。只能想些別的事。可是回去演戲，真的沒用。觀眾要看新鬧劇，不值得再爭。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "從前是我不公正，是我驕傲，捨不得給你應得的讚美。你一直是偉大的演員。我們還可以去{{e_spain|西班牙}}，你會成功的。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "世界到哪裡都一樣。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "或者去一個島，那裡的人會因為你就是你而愛你。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "五十歲了，還在夢想那樣的島。只有戲裡才有。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "她終於說冷了，必須回去。臨走又找不到足夠真切的話，只俯身吻了吻他的手指。他獨自留在漸濃的雲裡，為這個動作歡喜，仍試圖理解這場談話到底給了自己什麼。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_11.png",
+   "cgDark": false,
+   "cgPrompt": "At dusk a thin fifty-year-old man sits beside a chipped marble garden bench while a former actress stands nearby in a dark shawl, Andes behind a balustrade, first clouds entering the terrace, poignant distance between old companions.",
+   "cgChars": [
+    "e_pio",
+    "e_camila"
+   ]
+  },
+  {
+   "id": "c3_12",
+   "row": 5,
+   "col": "皮奧",
+   "title": "樓上的孩子們",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "這個月還是來了。{{e_camila|卡米拉}}的客套越來越周全，周全得使人沒有一句話可以接。她不看我的眼睛，我便望著屋裡的擺設，想著只要多坐一會兒，也許會說起一件從前的事。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "談不下去，就去樓上看孩子們。{{e_jaime|海梅}}也在那裡。他們還不需要我在門外換一種身份，不必先證明我的衣服和名聲配得上這所房子。陪他們待著，照看一個小小的需要，剩下的時間便在樓上過去。我至少還做得來這些{{e_care|照料}}。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "回{{e_lima|利馬}}的時候，街上有人擁抱，有人笑著告別。我總想，他們必定從這些交往裡得到許多安慰。我們也曾有過，不靠客氣，不靠約好的十分鐘，一起走很遠的路，遇見事情便說。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我知道她如今有自己的生活，還是會盼下一次她叫我叔叔時，口氣能像從前一點。這樣的願望看上去很小，卻使我走完一段路以後，仍在想著下個月再來。只要孩子們還肯聽，這一趟遠路就彷彿沒有全然白走。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_12.png",
+   "cgDark": false,
+   "cgPrompt": "An older thin tutor sits quietly with three children in an upstairs room while the formal drawing room below is left empty, one delicate boy listening closest, simple books on a table, afternoon gentleness and loneliness.",
+   "cgChars": [
+    "e_pio",
+    "e_jaime"
+   ]
+  },
+  {
+   "id": "c3_13",
+   "row": 6,
+   "col": "名場面",
+   "title": "退回去的禮物",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_villa"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "天花的訊息傳遍利馬。同一時候還有幾百個人患病，可談論和惡意都集中在[[NPC1]]身上。許多人暗暗希望，那使她能夠離開原來階層的美貌，終於要受損了。關於病房的傳聞一出來，幸災樂禍的人便覺得自己得到補償。"
+    },
+    {
+     "kind": "narration",
+     "text": "她剛能動身，就離開城裡，回到山中。她要賣掉漂亮的宅子，把{{e_jewels|珠寶}}退還贈送者，賣掉華服。{{e_viceroy|安德烈斯總督}}、{{e_archbishop|利馬大主教}}和從前真心喜歡過她的人，仍送來問候與禮物；訊息沒有迴音，禮物被原樣送回。"
+    },
+    {
+     "kind": "narration",
+     "text": "除了護士和女僕，她不肯讓人看見自己。多年被讚美以後，她已經把別人願意靠近，和那張臉連在一起。如今別人還來，在她看來便必定是憐憫，而憐憫裡又藏著對這場逆轉的滿足。"
+    },
+    {
+     "kind": "narration",
+     "text": "她退還的錢比自己欠的還多。等憤怒稍歇，貧窮也開始逼近。田莊漸漸衰敗，孩子還在那裡，日子卻被一間不願走出的房間圍住。她想起城裡人可能怎樣歡喜，聽見一個腳步聲，又不知道那會帶來幫助還是新的注視。"
+    },
+    {
+     "kind": "narration",
+     "text": "{{e_pio|皮奧}}沒有放棄。他照看孩子，幫著料理田莊，也悄悄借錢給她，終於重新獲得進門的機會。女主人蒙著面紗見他，言語仍然尖刻。他相信自己懂得她的痛苦；但懂得，並不意味著屋裡的每一扇門都會因此向他敞開。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_13.png",
+   "cgDark": false,
+   "cgPrompt": "A veiled former actress in a shuttered country villa returns jewelry and letters to a closed box beside the door, a nurse in the background, diffused daylight, privacy and exhaustion, illness never shown as grotesque spectacle.",
+   "cgChars": [
+    "e_camila"
+   ],
+   "cgCharVariants": {
+    "e_camila": "ill"
+   }
+  },
+  {
+   "id": "c3_14",
+   "row": 6,
+   "col": "卡米拉",
+   "title": "不見客",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "別把那些東西再送進來。退回去，告訴他們不必問候。我以前接受一串珠子，覺得那是喜歡；現在同樣的盒子擺到桌上，卻只想知道，送它的人是不是已經聽說了我的臉。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_villa|卡米拉的山莊}}以前像一個體面的歸宿。如今，房間外面每一個等著見我的人，都使我想把門再關緊一點。也許{{e_pio|皮奧}}並不這樣想，也許他真只是來幫忙；可他一望過來，我就已經替他把心裡的話說完。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我退還了禮物，連不必歸還的也一併送走。這樣至少不用再欠著誰的目光。後來才看見，能用的錢越來越少，田莊也不是靠關上門就會自己好起來。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "孩子們還在樓上。{{e_jaime|海梅}}的身體一直那麼弱，我該為他想辦法，卻連走出這間屋子的力氣都在一天天減少。我不願被憐憫，也不知道還能用什麼方式，把需要說出口。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c3_14.png",
+   "cgDark": false,
+   "cgPrompt": "A woman in a plain dark veil seated beside closed shutters in a country villa, one hand on an unanswered letter, face partly visible with subtle healed smallpox marks but no exaggeration, soft cool interior light and dignified framing.",
+   "cgChars": [
+    "e_camila"
+   ],
+   "cgCharVariants": {
+    "e_camila": "ill"
+   }
+  },
+  {
+   "id": "c3_15",
+   "row": 7,
+   "col": "名場面",
+   "title": "鏡子裡的來客",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_villa"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]以為自己把門鎖好了。只有短短一會兒，她重新生出一個秘密的希望：從前在舞臺上學過那麼多辦法，是否還有一種，能讓這張臉稍稍恢復些熟悉的樣子？"
+    },
+    {
+     "kind": "narration",
+     "text": "她把粉和乳脂調在一起，匆忙塗上去。過去，她也嘲笑過宮廷裡把臉塗得雪白的老女人；現在輪到自己，對著{{e_mirror|化妝鏡}}，一面著急，一面不願承認希望正在落空。粉色並沒有替她找回從前，只使她更清楚自己做了什麼。"
+    },
+    {
+     "kind": "narration",
+     "text": "然後她在鏡面裡看見[[NPC2]]站在門口。他推門進來了，臉上帶著驚訝。她猛地站起，雙手捂住臉，發出一聲尖叫。此刻最難忍的，並不僅是他看見病後的痕跡，而是他看見了她偷偷試圖遮掩的願望。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "出去。永遠不要再進我的房子。我不想再見到你。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她追到走廊上，把東西向樓梯下面扔，隨即吩咐管事，不許他再進院子。那道禁令十分明確。此後的一週，他仍不斷試圖再見一面，終於暫時回到{{e_lima|利馬}}。"
+    },
+    {
+     "kind": "narration",
+     "text": "他能幫她管賬、借錢，能使孩子們得到照顧，卻沒能在推門之前停下來問一句。屋裡的女人又獨自面對鏡子。這次她失去的，除了一點秘密的希望，還有門已經鎖好的確信。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_15.png",
+   "cgDark": false,
+   "cgPrompt": "A woman applying a simple pale cosmetic mixture in private sees an older tutor reflected unexpectedly at her open doorway; she lifts her hands to cover her face, framed from behind and side with a mirror, dignified distress, no grotesque makeup or voyeuristic close-up.",
+   "cgChars": [
+    "e_camila",
+    "e_pio"
+   ],
+   "cgCharVariants": {
+    "e_camila": "ill"
+   }
+  },
+  {
+   "id": "c3_16",
+   "row": 7,
+   "col": "皮奧",
+   "title": "又一趟山路",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "回到{{e_lima|利馬}}以後，我找了些事填時間，沒有一件能做得長。思念使人笨拙。我這樣年紀的人，還是像一個十八歲的少年，想著只要再見一面，也許就能解釋清楚。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "{{e_camila|卡米拉}}已經吩咐不許我進院子。我知道自己若照常去敲門，連話也傳不到她耳邊。於是開始想別的辦法，想一種能使她親自出來的聲音。以前我靠變通進過許多扇門，這回卻偏偏不肯把她那一句拒絕算作最後的話。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "我也想到{{e_jaime|海梅}}。孩子聰明，想學東西，不該整天只在僕人和馬廄之間消磨。我可以教他讀書，把家收拾好，再請{{e_abbess|皮拉爾院長}}幫忙找個管家。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "這些打算聽起來都很有用。想到它們，我便覺得自己還有理由再走一趟山路。天還沒亮，門窗都關著；我站在外面，把那個原本不屬於自己的聲音，在心裡先練了一遍。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c3_16.png",
+   "cgDark": false,
+   "cgPrompt": "A thin fifty-year-old man walks back toward a secluded Andean country villa before dawn with a small travel bag, dark shrub-lined path, a single shuttered window distant above him, anxious persistence rather than heroic resolve.",
+   "cgChars": [
+    "e_pio"
+   ]
+  },
+  {
+   "id": "c3_17",
+   "row": 8,
+   "col": "名場面",
+   "title": "埃斯特雷婭",
+   "form": "dialogue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_villa"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]躺在窗下，模仿少女的低泣。他不讓聲音太響，時斷時續，堅持了足足一刻鐘。山後泛出最淡的藍色，草地在微風裡輕輕響。樓上終於亮起一盞燈，窗板開啟，裹著面紗的[[NPC2]]探出頭。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "誰在那裡？誰在哭？",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "夫人，求您下來。我是一個可憐的女孩，叫埃斯特雷婭。不要叫女僕，請您自己下來幫助我。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她沉默片刻，說了聲好。過了一會兒，厚斗篷拖過沾露的草地，她繞到屋角，仍站得很遠。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "過來，到我這裡。究竟是誰？",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "來人站起，承認了自己的身份。原本準備幫助一個陌生女孩的女人，立刻明白自己被誘了出來。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "什麼時候才能擺脫你？我誰也不想見，不想和任何人說話。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "看在我們那麼多年相處的份上，答應我一件事。我就走，以後不再打擾。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我什麼也不答應。離我遠一點。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "她繞向另一側的門，他不得不小跑著跟上，確保自己的話仍能被聽見。終於她停下，疲倦而生氣。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "到底是什麼？快說，很冷，我的身體還沒有好。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "他提出要把{{e_jaime|海梅}}帶去城裡一年，由自己教養。晨星仍在頭頂，所謂求救的女孩並不存在，真正被帶到這場談話中來的，是一個還在屋裡睡著的孩子。"
+    }
+   ],
+   "len": "M",
+   "cg": "slr-assets/cg/c3_17.png",
+   "cgDark": false,
+   "cgPrompt": "Before sunrise outside a country villa a veiled woman in a heavy cloak has come to help someone and discovers an older thin man rising from the shadow beneath her window, dew on grass and pale blue Andes, betrayal and distance, no frightened child present.",
+   "cgChars": [
+    "e_pio",
+    "e_camila"
+   ],
+   "cgCharVariants": {
+    "e_camila": "ill"
+   }
+  },
+  {
+   "id": "c3_18",
+   "row": 8,
+   "col": "卡米拉",
+   "title": "先問孩子",
+   "form": "dialogue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_villa"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "dialogue",
+     "text": "不行。{{e_jaime|海梅}}身體弱，你那屋子又亂，只有鄉下適合他。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "近幾個月他已經好些了。我會收拾屋子，請{{e_abbess|皮拉爾院長}}找個管家，教他西班牙語、拉丁文、音樂，教他該懂的事。只要一年。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "母親不能這樣和孩子分開。我和孩子們會盡力過下去，別再想我的事。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC2]]見請求無效，突然換了一句話。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "那就把欠我的錢還給我。",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]站住。貧窮一直是她竭力藏好的事，此刻被當面開啟。她沉默了一會兒，聲音變得沙啞。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我錢很少。有多少，就還多少。我還有幾件{{e_jewels|珠寶}}，現在就給你。以後我們不必再見面。原來你是這麼硬心腸的人。不過，欠了錢，我應該還。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "dialogue",
+     "text": "我不要錢。那樣說，只是想讓你答應請求。讓我教養他一年，我會疼他、照顧他。從前，我是一個壞老師嗎？",
+     "slot": "NPC2"
+    },
+    {
+     "kind": "dialogue",
+     "text": "總說感恩，感恩，感恩，你太殘忍了。我曾經感激，好，可我現在已經不是從前那個女人。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她望了一會兒天上的星，沒有立刻答應。等她再次開口，談話裡終於出現了另一個人的意願。"
+    },
+    {
+     "kind": "dialogue",
+     "text": "如果孩子願意和你去，那就去。早晨我會問他。若他願意，中午你會在客店見到他。晚安，願上帝保佑。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "narration",
+     "text": "她轉身回屋。索債的話收了回去，卻不能當作從未說過；教養的承諾說出口了，也還要等那個孩子醒來，親自作答。她沒有給出一個永遠放棄母親決定權的答覆。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c3_18.png",
+   "cgDark": false,
+   "cgPrompt": "A veiled mother and her older former tutor face each other outside a country house at dawn, she standing firmly near the doorway while he pleads with open hands, no child in frame, the cold blue light softening toward morning.",
+   "cgChars": [
+    "e_camila",
+    "e_pio"
+   ],
+   "cgCharVariants": {
+    "e_camila": "ill"
+   }
+  },
+  {
+   "id": "c3_19",
+   "row": 9,
+   "col": "名場面",
+   "title": "過了橋就休息",
+   "form": "scene",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_pio"
+    },
+    {
+     "slot": "NPC2",
+     "kind": "person",
+     "answer": "e_jaime"
+    },
+    {
+     "slot": "地点",
+     "kind": "place",
+     "answer": "e_bridge"
+    }
+   ],
+   "difficulty": "normal",
+   "segments": [
+    {
+     "kind": "narration",
+     "text": "第二天中午，嚴肅的小男孩來到客店。他從前考究的衣服，如今已經破舊、沾了汙跡，手裡只帶一個小小的換洗包裹。母親給了一枚{{e_coin|錢幣}}作零用，還給了一塊{{e_stone|發亮的小石頭}}，讓他失眠時可以看一看。"
+    },
+    {
+     "kind": "narration",
+     "text": "[[NPC1]]帶[[NPC2]]上了車。沒走多久，他便發現顛簸使孩子不舒服，於是把他扛到肩上，繼續往前。那些準備教的語言、音樂和禮儀，都還在城裡等著；這一程先要照顧的，是孩子承受不了車輪跳動的身體。"
+    },
+    {
+     "kind": "narration",
+     "text": "快到河谷時，男孩感覺一陣熟悉的發作將要到來。他想藏住羞恥，尤其不願在陌生人面前顯出來。偏偏這時，他們追上了長者認識的{{e_captain|阿爾瓦拉多船長}}。大人之間的寒暄十分平常，孩子卻只顧著小心安放自己的臉和手。"
+    },
+    {
+     "kind": "narration",
+     "text": "再往前，長者又同一位帶著少女同行的老婦人說了幾句話。那是{{e_maria|瑪麗亞}}和{{e_pepita|佩皮塔}}。每個人都帶著屬於自己的來路，卻在這裡短暫地成了一隊過河的人。"
+    },
+    {
+     "kind": "narration",
+     "text": "他說，過了橋就坐下歇一歇。孩子不必把全部路程都走完，只要先到對岸。那是一個尋常而具體的照料打算：找地方坐下，讓這一陣不適過去，再繼續往城裡走。"
+    },
+    {
+     "kind": "narration",
+     "text": "他們沒有到達那處休息的地方。橋在這一天墜入河谷，原先還各不相干的五段人生，從此被人用同一個日期說起。{{e_juniper|胡尼佩爾}}站在橋前見證了這一刻。後來，他要問這究竟是偶然，還是{{e_providence|天意}}；{{e_letters|母女書信}}、回憶與互相矛盾的話語，將把那些名字重新帶到他面前。"
+    }
+   ],
+   "len": "L",
+   "cg": "slr-assets/cg/c3_19.png",
+   "cgDark": false,
+   "cgPrompt": "A thin older man with sparse beard carries a delicate young boy on his shoulder as they approach a narrow Andean rope footbridge; boy holds a small bundle and looks tired, an older noblewoman and young girl ahead near the entrance, distant cargo path below, no falling or collapse.",
+   "cgChars": [
+    "e_pio",
+    "e_jaime",
+    "e_maria",
+    "e_pepita"
+   ]
+  },
+  {
+   "id": "c3_20",
+   "row": 9,
+   "col": "卡米拉",
+   "title": "放進行李的小石頭",
+   "form": "monologue",
+   "level": 3,
+   "blanks": [
+    {
+     "slot": "NPC1",
+     "kind": "person",
+     "answer": "e_camila"
+    }
+   ],
+   "difficulty": "easy",
+   "segments": [
+    {
+     "kind": "monologue",
+     "text": "{{e_jaime|海梅}}願意去。於是有些東西便必須準備，不能只停在昨夜那句‘如果’裡面。衣服已經不像從前那樣體面，{{e_pio|皮奧}}會看見，也許城裡別的人都會看見；但我不能為了藏住這一點，就把孩子也一直留在屋裡。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "一枚{{e_coin|錢幣}}，可以由他自己花。還有這塊{{e_stone|發亮的小石頭}}，晚上睡不著時，在暗處看著它，至少不必始終望著黑。我給不了一個不會痛、不會害怕的夜晚，只能把手邊這件小東西交給他。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "說好是一年。我也記得今早他說過的狠話，記得自己為什麼不願再被要求感激。把孩子交出去，並沒有把這些事一同抹平。",
+     "slot": "NPC1"
+    },
+    {
+     "kind": "monologue",
+     "text": "行李並不多，整理好以後，桌上很快又空了。我仍在這所{{e_villa|卡米拉的山莊}}裡，門口不必有人一直等著。可一想到他今夜會睡在另一間屋子，我還是想再摸一摸那隻已經交出去的包裹。",
+     "slot": "NPC1"
+    }
+   ],
+   "len": "S",
+   "cg": "slr-assets/cg/c3_20.png",
+   "cgDark": false,
+   "cgPrompt": "A mother's hands place an ordinary small pale mineral stone and one gold coin beside a child's modest bundle of clothes on a country house table, a boy's garnet velvet sleeve at the edge of frame, morning light, no magical glow or occult symbolism.",
+   "cgChars": [
+    "e_camila"
+   ],
+   "cgCharVariants": {
+    "e_camila": "ill"
+   }
+  }
+ ],
+ "timelines": {
+  "1": {
+   "rows": [
+    "家族與婚姻",
+    "母女同屋",
+    "海外的婚事",
+    "紙上的往來",
+    "修院的選擇",
+    "宅邸裡的日子",
+    "劇院風波",
+    "朝聖的路",
+    "山中的來信",
+    "黎明之前"
+   ],
+   "cols": [
+    "名場面",
+    "瑪麗亞",
+    "佩皮塔"
+   ]
+  },
+  "2": {
+   "rows": [
+    "修院裡的兄弟",
+    "兩個人的語言",
+    "戲臺下的停留",
+    "深夜的來客",
+    "傷口與溼布",
+    "只剩一個名字",
+    "一次次返回",
+    "船長的邀請",
+    "離開前的禮物",
+    "一起動身"
+   ],
+   "cols": [
+    "名場面",
+    "曼努埃爾",
+    "埃斯特班"
+   ]
+  },
+  "3": {
+   "rows": [
+    "皮奧的來路",
+    "街角的女孩",
+    "掌聲與口哨",
+    "宮廷的夜談",
+    "離開劇場",
+    "疏遠與重訪",
+    "天花之後",
+    "越過的門",
+    "一年之約",
+    "託付與出發"
+   ],
+   "cols": [
+    "名場面",
+    "皮奧",
+    "卡米拉"
+   ]
+  }
+ },
+ "assets": {
+  "titleImage": "slr-assets/title.png",
+  "endingImage": "slr-assets/ending.png",
+  "mysteryAvatar": "slr-assets/mystery.png",
+  "sceneIcon": "slr-assets/scene-icon.png",
+  "favicon": "slr-assets/favicon.png",
+  "levelIntroImages": {
+   "1": "slr-assets/intro-1.png",
+   "2": "slr-assets/intro-2.png",
+   "3": "slr-assets/intro-3.png"
+  },
+  "titleImagePrompt": "Intact eighteenth-century Andean plant-fiber suspension footbridge over a misty gorge, five distant travelers, luminous river, vertical painterly literary cover.",
+  "endingImagePrompt": "An elderly abbess beside a lantern in a modest convent sickroom at night, ordinary care and warm light, no supernatural effect.",
+  "sceneIconPrompt": "A simple hand-painted braided-rope footbridge emblem on warm cream paper, square, no lettering.",
+  "bgm": [
+   {
+    "id": "m_title",
+    "file": "slr-assets/bgm/m_title.mp3",
+    "title": "山谷仍在",
+    "stage": "title",
+    "prompt": "低音维奥尔琴、古典吉他泛音、极轻的弦乐长音，58 BPM，D dorian，宽阔但不宏大，索桥停在晨雾里，悬而未决的平静。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "低音维奥尔琴、古典吉他泛音、极轻的弦乐长音，58 BPM，D dorian，宽阔但不宏大，索桥停在晨雾里，悬而未决的平静",
+    "gainDb": -0.33,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_00",
+    "file": "slr-assets/bgm/m1_00.mp3",
+    "title": "珠寶與門",
+    "stage": 1,
+    "prompt": "竖琴低音与巴洛克小提琴弱音，72 BPM，G minor，外在礼仪和内在拘谨，断续旋律，沉着而不甜美。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "竖琴低音与巴洛克小提琴弱音，72 BPM，G minor，外在礼仪和内在拘谨，断续旋律，沉着而不甜美",
+    "gainDb": 2.57,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_01",
+    "file": "slr-assets/bgm/m1_01.mp3",
+    "title": "同一所房子",
+    "stage": 1,
+    "prompt": "木管双簧管与古典吉他低音，54 BPM，B flat major带悬留，母女的关切总差半拍，克制亲密。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "木管双簧管与古典吉他低音，54 BPM，B flat major带悬留，母女的关切总差半拍，克制亲密",
+    "unlockCard": "c1_03",
+    "gainDb": -3.96,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_02",
+    "file": "slr-assets/bgm/m1_02.mp3",
+    "title": "隔海",
+    "stage": 1,
+    "prompt": "长笛低音区与柔软大提琴，68 BPM，D minor，缓慢舒展的海上告别，留空白，不用海浪音效。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "长笛低音区与柔软大提琴，68 BPM，D minor，缓慢舒展的海上告别，留空白，不用海浪音效",
+    "unlockCard": "c1_05",
+    "gainDb": 0.0,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_03",
+    "file": "slr-assets/bgm/m1_03.mp3",
+    "title": "裝船的信",
+    "stage": 1,
+    "prompt": "鲁特琴细小拨弦与独奏中提琴，88 BPM，G dorian，写作时勉力轻巧的机智，底色孤独。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "鲁特琴细小拨弦与独奏中提琴，88 BPM，G dorian，写作时勉力轻巧的机智，底色孤独",
+    "unlockCard": "c1_07",
+    "gainDb": 0.83,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_04",
+    "file": "slr-assets/bgm/m1_04.mp3",
+    "title": "洗衣池邊",
+    "stage": 1,
+    "prompt": "木笛与低音维奥尔琴，70 BPM，F major，忙碌而坚定的修院日常，质朴，温暖不童趣。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "木笛与低音维奥尔琴，70 BPM，F major，忙碌而坚定的修院日常，质朴，温暖不童趣",
+    "unlockCard": "c1_09",
+    "gainDb": -8.73,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_05",
+    "file": "slr-assets/bgm/m1_05.mp3",
+    "title": "等在街角",
+    "stage": 1,
+    "prompt": "单独尼龙弦吉他配极少木琴柔音，50 BPM，E minor，孩子安静等待，孤单但避免恐怖感。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "单独尼龙弦吉他配极少木琴柔音，50 BPM，E minor，孩子安静等待，孤单但避免恐怖感",
+    "unlockCard": "c1_11",
+    "gainDb": 3.64,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_06",
+    "file": "slr-assets/bgm/m1_06.mp3",
+    "title": "劇院的回聲",
+    "stage": 1,
+    "prompt": "巴洛克小提琴与羽管键琴，96 BPM，A minor，舞台上轻盈的舞步慢慢显露不安，不要胜利收尾。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "巴洛克小提琴与羽管键琴，96 BPM，A minor，舞台上轻盈的舞步慢慢显露不安，不要胜利收尾",
+    "unlockCard": "c1_13",
+    "gainDb": 0.67,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_07",
+    "file": "slr-assets/bgm/m1_07.mp3",
+    "title": "白牆山城",
+    "stage": 1,
+    "prompt": "中音木笛、柔和竖琴与弦乐泛音，64 BPM，D lydian，清冷空气和逐渐安静的呼吸，透明开阔。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "中音木笛、柔和竖琴与弦乐泛音，64 BPM，D lydian，清冷空气和逐渐安静的呼吸，透明开阔",
+    "unlockCard": "c1_15",
+    "gainDb": 1.64,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_08",
+    "file": "slr-assets/bgm/m1_08.mp3",
+    "title": "墨點",
+    "stage": 1,
+    "prompt": "独奏古典吉他、少量大提琴泛音，46 BPM，B minor，写求助信的停顿，轻，犹疑而真诚。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "独奏古典吉他、少量大提琴泛音，46 BPM，B minor，写求助信的停顿，轻，犹疑而真诚",
+    "unlockCard": "c1_17",
+    "gainDb": -6.11,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m1_09",
+    "file": "slr-assets/bgm/m1_09.mp3",
+    "title": "第一次寫信",
+    "stage": 1,
+    "prompt": "温暖中提琴主奏、缓慢竖琴分解和弦，62 BPM，D major混合dorian，羞愧之后重新尝试，柔弱的希望，不要煽情高潮。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "温暖中提琴主奏、缓慢竖琴分解和弦，62 BPM，D major混合dorian，羞愧之后重新尝试，柔弱的希望，不要煽情高潮",
+    "unlockCard": "c1_19",
+    "gainDb": 1.25,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_00",
+    "file": "slr-assets/bgm/m2_00.mp3",
+    "title": "兩個名字",
+    "stage": 2,
+    "prompt": "两把音色接近的尼龙弦吉他互答，80 BPM，D dorian，同一旋律细微变形，兄弟默契，有间距。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "两把音色接近的尼龙弦吉他互答，80 BPM，D dorian，同一旋律细微变形，兄弟默契，有间距",
+    "gainDb": -4.53,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_01",
+    "file": "slr-assets/bgm/m2_01.mp3",
+    "title": "只說給彼此",
+    "stage": 2,
+    "prompt": "两支木笛短句交织、低音拨弦稀疏，60 BPM，G major，私下的语言，轻快细密，无儿童儿歌感。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "两支木笛短句交织、低音拨弦稀疏，60 BPM，G major，私下的语言，轻快细密，无儿童儿歌感",
+    "unlockCard": "c2_03",
+    "gainDb": -3.38,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_02",
+    "file": "slr-assets/bgm/m2_02.mp3",
+    "title": "替人寫愛",
+    "stage": 2,
+    "prompt": "大提琴独奏与鲁特琴单音，76 BPM，E minor，夜里抄写情书的矛盾，欲言又止。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "大提琴独奏与鲁特琴单音，76 BPM，E minor，夜里抄写情书的矛盾，欲言又止",
+    "unlockCard": "c2_05",
+    "gainDb": 5.55,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_03",
+    "file": "slr-assets/bgm/m2_03.mp3",
+    "title": "撤回的話",
+    "stage": 2,
+    "prompt": "中提琴与柔和羽管键琴，56 BPM，C minor，兄弟克制的争执和避让，不要戏剧重击。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "中提琴与柔和羽管键琴，56 BPM，C minor，兄弟克制的争执和避让，不要戏剧重击",
+    "unlockCard": "c2_07",
+    "gainDb": -2.32,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_04",
+    "file": "slr-assets/bgm/m2_04.mp3",
+    "title": "換水",
+    "stage": 2,
+    "prompt": "低音维奥尔琴长音与单支中音木笛，42 BPM，F sharp minor，照料病人的长夜，缓慢悬留，绝不恐怖。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "低音维奥尔琴长音与单支中音木笛，42 BPM，F sharp minor，照料病人的长夜，缓慢悬留，绝不恐怖",
+    "unlockCard": "c2_09",
+    "gainDb": 1.4,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_05",
+    "file": "slr-assets/bgm/m2_05.mp3",
+    "title": "無人應答",
+    "stage": 2,
+    "prompt": "单独古典吉他在空旷房间的自然残响，58 BPM，D minor，曾经二重奏的旋律现在缺少回答，稀疏。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "单独古典吉他在空旷房间的自然残响，58 BPM，D minor，曾经二重奏的旋律现在缺少回答，稀疏",
+    "unlockCard": "c2_11",
+    "gainDb": -2.63,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_06",
+    "file": "slr-assets/bgm/m2_06.mp3",
+    "title": "陌生的熟人",
+    "stage": 2,
+    "prompt": "低音单簧管与竖琴柔和泛音，74 BPM，A dorian，游走与记忆断续浮现，轻微不稳定但平静。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "低音单簧管与竖琴柔和泛音，74 BPM，A dorian，游走与记忆断续浮现，轻微不稳定但平静",
+    "unlockCard": "c2_13",
+    "gainDb": 1.4,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_07",
+    "file": "slr-assets/bgm/m2_07.mp3",
+    "title": "遠航的邀請",
+    "stage": 2,
+    "prompt": "尼龙弦吉他低音与温暖圆号极弱奏，90 BPM，G mixolydian，年长航海者陪伴年轻人，稳，不英雄化。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "尼龙弦吉他低音与温暖圆号极弱奏，90 BPM，G mixolydian，年长航海者陪伴年轻人，稳，不英雄化",
+    "unlockCard": "c2_15",
+    "gainDb": -2.74,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_08",
+    "file": "slr-assets/bgm/m2_08.mp3",
+    "title": "兩個人的禮物",
+    "stage": 2,
+    "prompt": "中提琴单线条与两点式木笛回答，66 BPM，B flat major，赠礼时保留亡者的位置，温柔且不圆满。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "中提琴单线条与两点式木笛回答，66 BPM，B flat major，赠礼时保留亡者的位置，温柔且不圆满",
+    "unlockCard": "c2_17",
+    "gainDb": -2.24,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m2_09",
+    "file": "slr-assets/bgm/m2_09.mp3",
+    "title": "一起動身",
+    "stage": 2,
+    "prompt": "大提琴温暖低音、缓慢鲁特琴脉动，48 BPM，D dorian，以陪伴度过难熬的一夜，克制的承托感，无骤变。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "大提琴温暖低音、缓慢鲁特琴脉动，48 BPM，D dorian，以陪伴度过难熬的一夜，克制的承托感，无骤变",
+    "unlockCard": "c2_19",
+    "gainDb": -3.17,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_00",
+    "file": "slr-assets/bgm/m3_00.mp3",
+    "title": "皮奧的路",
+    "stage": 3,
+    "prompt": "鲁特琴与巴洛克小提琴对答，92 BPM，A dorian，流浪者聪明谨慎，细小幽默，不喜剧夸张。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "鲁特琴与巴洛克小提琴对答，92 BPM，A dorian，流浪者聪明谨慎，细小幽默，不喜剧夸张",
+    "gainDb": 3.16,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_01",
+    "file": "slr-assets/bgm/m3_01.mp3",
+    "title": "街角的歌",
+    "stage": 3,
+    "prompt": "古典吉他与木笛干净明亮音区，76 BPM，E major带modal色彩，一个女孩初露才华，朴素非童谣。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "古典吉他与木笛干净明亮音区，76 BPM，E major带modal色彩，一个女孩初露才华，朴素非童谣",
+    "unlockCard": "c3_03",
+    "gainDb": -2.81,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_02",
+    "file": "slr-assets/bgm/m3_02.mp3",
+    "title": "口哨之後",
+    "stage": 3,
+    "prompt": "羽管键琴和中提琴反复变奏，108 BPM，D minor，反复排练的专注和严厉，无实际口哨、无紧迫打击乐。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "羽管键琴和中提琴反复变奏，108 BPM，D minor，反复排练的专注和严厉，无实际口哨、无紧迫打击乐",
+    "unlockCard": "c3_05",
+    "gainDb": -3.59,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_03",
+    "file": "slr-assets/bgm/m3_03.mp3",
+    "title": "燭光夜談",
+    "stage": 3,
+    "prompt": "巴洛克小提琴、低音维奥尔琴和羽管键琴，68 BPM，G minor，宫廷夜深后的华丽倦意，优雅克制。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "巴洛克小提琴、低音维奥尔琴和羽管键琴，68 BPM，G minor，宫廷夜深后的华丽倦意，优雅克制",
+    "unlockCard": "c3_07",
+    "gainDb": 3.57,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_04",
+    "file": "slr-assets/bgm/m3_04.mp3",
+    "title": "走下舞臺",
+    "stage": 3,
+    "prompt": "中音双簧管与柔软吉他，52 BPM，F major，女人离开他人注视寻找自己的日常，平静而坚定。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "中音双簧管与柔软吉他，52 BPM，F major，女人离开他人注视寻找自己的日常，平静而坚定",
+    "unlockCard": "c3_09",
+    "gainDb": -4.58,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_05",
+    "file": "slr-assets/bgm/m3_05.mp3",
+    "title": "花園暮色",
+    "stage": 3,
+    "prompt": "鲁特琴和中音木笛远距离问答，84 BPM，B minor，旧伙伴在花园谈不拢的未来，树影和黄昏。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "鲁特琴和中音木笛远距离问答，84 BPM，B minor，旧伙伴在花园谈不拢的未来，树影和黄昏",
+    "unlockCard": "c3_11",
+    "gainDb": -4.1,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_06",
+    "file": "slr-assets/bgm/m3_06.mp3",
+    "title": "關上的門",
+    "stage": 3,
+    "prompt": "独奏低音大提琴与稀少竖琴泛音，44 BPM，C minor，病后封闭的庭院，尊重边界的静，不猎奇。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "独奏低音大提琴与稀少竖琴泛音，44 BPM，C minor，病后封闭的庭院，尊重边界的静，不猎奇",
+    "unlockCard": "c3_13",
+    "gainDb": 5.4,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_07",
+    "file": "slr-assets/bgm/m3_07.mp3",
+    "title": "越過的門",
+    "stage": 3,
+    "prompt": "巴洛克小提琴弱音与低音吉他，62 BPM，F sharp dorian，伪装呼唤之后的羞惭和执着，忧郁而克制。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "巴洛克小提琴弱音与低音吉他，62 BPM，F sharp dorian，伪装呼唤之后的羞惭和执着，忧郁而克制",
+    "unlockCard": "c3_15",
+    "gainDb": -3.11,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_08",
+    "file": "slr-assets/bgm/m3_08.mp3",
+    "title": "一年之約",
+    "stage": 3,
+    "prompt": "中提琴、鲁特琴，78 BPM，E minor，教养承诺与索债压力并存的谈话，犹疑，未解决的和弦。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "中提琴、鲁特琴，78 BPM，E minor，教养承诺与索债压力并存的谈话，犹疑，未解决的和弦",
+    "unlockCard": "c3_17",
+    "gainDb": -11.27,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m3_09",
+    "file": "slr-assets/bgm/m3_09.mp3",
+    "title": "孩子的行李",
+    "stage": 3,
+    "prompt": "柔软木笛与轻触吉他泛音，56 BPM，D major转dorian，孩子带着母亲给的小物件出门，亲近而脆弱，无命运音效。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "柔软木笛与轻触吉他泛音，56 BPM，D major转dorian，孩子带着母亲给的小物件出门，亲近而脆弱，无命运音效",
+    "unlockCard": "c3_19",
+    "gainDb": -1.11,
+    "fadeInMs": 1100
+   },
+   {
+    "id": "m_ending",
+    "file": "slr-assets/bgm/m_ending.mp3",
+    "title": "仍在人間",
+    "stage": "ending",
+    "prompt": "大提琴、木笛、古典吉他三种动机慢慢合流，60 BPM，D dorian向F major开放，病房和厨房里继续发生的照料，温暖但无凯旋，最后自然消散。手工绘本般克制的古典室内乐，供文学互动叙事低音量长时间阅读。纯器乐，没有人声、吟唱、说话、合唱、合成器、鼓组、强烈低频或电影预告片高潮。音色自然，有呼吸和留白，动态平缓。共享一个短小动机D-A-C-E，下行余韵，不要持续机械重复。开头柔和，结尾留完整自然衰减，适合淡入淡出。",
+    "note": "大提琴、木笛、古典吉他三种动机慢慢合流，60 BPM，D dorian向F major开放，病房和厨房里继续发生的照料，温暖但无凯旋，最后自然消散",
+    "gainDb": -7.48,
+    "fadeInMs": 1100
+   }
+  ]
+ },
+ "recaps": {
+  "1": {
+   "pages": [
+    {
+     "rows": [
+      0,
+      1
+     ],
+     "title": "門怎樣關上",
+     "cards": [
+      "c1_01",
+      "c1_02",
+      "c1_03",
+      "c1_04"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "瑪麗亞從布商家的女兒，成為蒙特馬約爾侯爵夫人。她曾抵抗婚姻，最終仍在客人的譏笑裡走進禮堂。女兒出生，使她把未曾得到的愛全放到一個孩子身上；克拉拉卻在這份急切的關心中長大，越來越需要距離。母親越怕被拒絕，越努力討好，話也越說越多。女兒關門以後，她又在門外等待一個能夠使自己安心的答覆。她記得自己童年時的害怕，卻仍無法只憑這段記憶，避免讓另一個孩子感到負擔。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      2,
+      3
+     ],
+     "title": "海不能被一封信縮短",
+     "cards": [
+      "c1_05",
+      "c1_06",
+      "c1_07",
+      "c1_08"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "克拉拉選擇了遠赴西班牙的婚事，鎮靜地登船，留下母親在岸上看。四年後，母親終於獲准前去探望。她們都曾決心改變，卻又在相處中傷害彼此。瑪麗亞天未亮便吻過女兒的房門，返回秘魯，此後把難以當面承受的感情交給書信。她蒐集笑話、讀書、反覆錘鍊句子，希望女兒願意多看一眼。文字後來傳世，主要由女婿儲存；寫信時的母親想要的，卻仍是一點親近。獨坐陽臺，她也察覺，自己所渴求的回答包含支配，卻總不能放下。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      4,
+      5
+     ],
+     "title": "被寄予厚望的孩子",
+     "cards": [
+      "c1_09",
+      "c1_10",
+      "c1_11",
+      "c1_12"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "院長擔心自己的事業無人接續，在洗衣池邊看中了佩皮塔。她讓女孩承擔困難的差事，學習病房與賬目的管理，又把她送到侯爵府接觸外面的生活。佩皮塔因被信任而自豪，也因能力不足而害怕。在新住處，僕人的欺負、夫人忽近忽遠的關心，使她沒有一個放心說話的人。有一次夫人讓她在教堂外等待，自己卻從另一扇門走了。女孩即使確認人已離開，仍回到街角等候。她很會守住責任，卻還不懂怎樣替自己的困境求助。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      6,
+      7
+     ],
+     "title": "誰聽見了那些話",
+     "cards": [
+      "c1_13",
+      "c1_14",
+      "c1_15",
+      "c1_16"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "劇院裡，卡米拉即興嘲諷侯爵夫人，引來觀眾喝彩。佩皮塔聽懂了，帶夫人離開；夫人卻沉浸在對女兒的思念裡，幾乎沒有聽見。奉總督命令前來道歉時，演員把她的茫然誤認為寬恕，反而真正慚愧。夫人講起與女兒和好的動作，那只是反覆做過的夢。後來女兒懷孕，母親又求助於禁忌、符咒和祈禱，最終帶佩皮塔進山朝聖。主人趕去聖所，女孩則留在客棧安頓箱籠、火盆和食物，讓一間陌生屋子先成為能住下的地方。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      8,
+      9
+     ],
+     "title": "留下與撕去",
+     "cards": [
+      "c1_17",
+      "c1_18",
+      "c1_19",
+      "c1_20"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "山城的清明空氣使瑪麗亞暫時安靜。女兒的新信仍帶來刺痛，她卻沒有再急於尋找一個保證。佩皮塔獨自寫信，想回修院幾天，也盼院長給自己幾句話；母親在她下樓時讀到了這份求助。晚餐前，女孩拒絕寄信，說它不夠勇敢，隨後撕掉。母親由此回看自己的索求，重新寫下後來傳世的第五十六封信，稱它為第一封。天將亮時，她去看熟睡的女孩。兩天後，兩人才返城。求助信沒有留下；母親的新信，卻抵達了後來仍活著的人。"
+      }
+     ]
+    }
+   ]
+  },
+  "2": {
+   "pages": [
+    {
+     "rows": [
+      0,
+      1
+     ],
+     "title": "不必解釋的兩個人",
+     "cards": [
+      "c2_01",
+      "c2_02",
+      "c2_03",
+      "c2_04"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "曼努埃爾與埃斯特班被發現於修院門前的棄嬰籃裡，由院長照看長大。他們聽過許多故事，少年曼努埃爾曾堅信，若兩兄弟在受難現場，就會把事情攔下來。成年後，他們抄寫、搬貨，也做過各種短工。外人總因相貌相同而打趣，他們便避免一起出現在街上。兩人還有自幼創造的私語，大主教希望記錄詞形時，那份親密卻使他們羞於開口。旁人看來不愛交談的兄弟，在生活裡不必說很多，已經知道另一邊有人。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      2,
+      3
+     ],
+     "title": "兩種沒有說清的心事",
+     "cards": [
+      "c2_05",
+      "c2_06",
+      "c2_07",
+      "c2_08"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "免費入場的一晚，埃斯特班先離開，曼努埃爾留下看卡米拉跳舞，此後越來越受她吸引。他答應替她代寫秘密情書，連兄弟也不許知道；信裡的愛與憤怒，實際寫給別的人。一次深夜，演員親自來出租房催寫，床上的埃斯特班把近距離的耳語誤認為自己無法進入的親密。察覺兄弟痛苦，曼努埃爾宣佈不再代筆。埃斯特班卻說不必為他改變，甚至想冒雨離開。兩人最終留下，沒有再提爭執；沉默恢復了，隔閡並沒有因此獲得完整解釋。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      4,
+      5
+     ],
+     "title": "冷溼布與一個名字",
+     "cards": [
+      "c2_09",
+      "c2_10",
+      "c2_11",
+      "c2_12"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "曼努埃爾傷到膝蓋，情況越來越重。醫師要求每小時冷敷，埃斯特班便守著更換溼布，卻發現這恰是兄弟最痛的時候。病中詛咒不斷湧出，清醒後又被收回；兩種話語都真實地傷到了照料者，也不能被簡單拼成一份最終供詞。第三夜，曼努埃爾去世。院長前來處理後事，生還者不肯進樓，問及身份時甚至報出亡兄的名字。送葬隊伍走過城裡，他只沿平行的街道跟隨，遠遠看見，又遠遠失去。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      6,
+      7
+     ],
+     "title": "留一個可以回來的地方",
+     "cards": [
+      "c2_13",
+      "c2_14",
+      "c2_15",
+      "c2_16"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "埃斯特班漂泊了很久，時而工作，時而突然離開。他到過卡米拉的化妝室，卻沒能說出話；回到修院門外，院長兩次叫他朋友，他仍轉身跑開。院長終於想到船長，託他去庫斯科找人。船長先給出一份工作與晚飯的邀請，青年在這裡重新說出自己的名字。晚飯時，他要求船上始終有活可做，不願旁人知道自己的經歷。談話未能解除悲傷，卻留下了下一次見面與共同出發的約定。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      8,
+      9
+     ],
+     "title": "本來還要會合",
+     "cards": [
+      "c2_17",
+      "c2_18",
+      "c2_19",
+      "c2_20"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "埃斯特班想預支工錢，替自己和亡兄送院長一件禮物，具體買什麼尚未決定。船長答應了，也從他身上重新遇見失去女兒後的舊痛。次日青年反悔，回樓上後陷入危機。船長推門進去，把他留在了人世，沒有憑幾句話許諾悲傷會立即消失。後來兩人動身，到橋邊分開：船長下到河谷監督貨運，埃斯特班走人行橋。他們本來還要會合，橋卻在這時斷裂。出發是一次繼續生活的嘗試，沒有因此換來命運的保證。"
+      }
+     ]
+    }
+   ]
+  },
+  "3": {
+   "pages": [
+    {
+     "rows": [
+      0,
+      1
+     ],
+     "title": "相遇以前與以後",
+     "cards": [
+      "c3_01",
+      "c3_02",
+      "c3_03",
+      "c3_04"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "皮奧自幼離家，靠記憶、人情和機智謀生，喜歡自由、漂亮女人和西班牙文學。他熟悉許多人的秘密，自己的房子卻常只有訓練過的狗和鳥作伴。十二歲的卡米拉在咖啡館唱歌時，被他看中並付錢帶走。她先得到的是熱湯、小床和不再捱打的日子，隨後才是嚴格的訓練。兩人共同巡遊，衣物裝在一條披巾裡，經歷貧困與險境。老師看見才華迅速成長，女孩也找到願意投入的工作；他們的親密從來伴隨著不對等的支配能力。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      2,
+      3
+     ],
+     "title": "他們想使誰滿意",
+     "cards": [
+      "c3_05",
+      "c3_06",
+      "c3_07",
+      "c3_08"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "觀眾滿意以後，卡米拉仍要面對皮奧的口哨與挑剔。化妝室裡有淚水，也有直到天亮的排練；他能幫助她理解細節，卻常用吝於讚美的方法逼迫她。為詩人的孫女演出那一夜，他們又真正共享了藝術的歡喜。後來，總督的夜宴帶來禮儀、見聞與地位，皮奧見這些經驗使她演得更好，便感到滿足。卡米拉卻還要承受愛情、日常和身體的疲倦，她想過的生活，並不只為下一段臺詞服務。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      4,
+      5
+     ],
+     "title": "不同的歸處",
+     "cards": [
+      "c3_09",
+      "c3_10",
+      "c3_11",
+      "c3_12"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "卡米拉離開舞臺，花多年爭取體面身份，為自己和孩子建立新的位置。她在山中花園散步時仍等待幸福開始，體弱的海梅卻只為陽光高興。皮奧每月來訪，遭冷遇後便上樓陪孩子，仍盼著舊日的親密恢復。黃昏的花園談話中，他遲來地承認自己虧欠讚美，提出去馬德里或夢想中的島；卡米拉拒絕重返劇院，又為孩子下午的發病道歉。她最終吻了他的手指。一個動作帶來溫暖，並沒有使兩人的未來重新一致。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      6,
+      7
+     ],
+     "title": "門裡面的願望",
+     "cards": [
+      "c3_13",
+      "c3_14",
+      "c3_15",
+      "c3_16"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "天花之後，卡米拉退還禮物，遷居山莊，不肯讓人見自己。她把探訪理解成帶著優越感的憐憫，逐漸把幫助也擋在門外。皮奧照看孩子、料理田莊，終於獲准進入，卻意外推開了她以為鎖好的門。鏡子映出她偷偷塗粉的嘗試，也映出來人的驚訝。她憤怒地將他逐出，禁止再進院子。皮奧回城仍不能安心，帶著教養海梅的設想再次上山。他的善意與越界並存，不能用其中一項替另一項作答。"
+      }
+     ]
+    },
+    {
+     "rows": [
+      8,
+      9
+     ],
+     "title": "承諾尚未兌現",
+     "cards": [
+      "c3_17",
+      "c3_18",
+      "c3_19",
+      "c3_20"
+     ],
+     "segments": [
+      {
+       "kind": "narration",
+       "text": "皮奧假扮哭泣的少女，把卡米拉引出屋子，請求帶海梅進城教養一年。被拒絕後，他又用索債施壓，隨後收回要錢的話。卡米拉最終提出條件：先問孩子是否願意。海梅次日出現，帶著母親給的金幣與夜裡可看的小石頭。顛簸使他不適，皮奧改用肩膀扛著他走。橋前，他們遇見船長，又同瑪麗亞和佩皮塔說話；過橋後休息的打算沒有實現。教養、歸途、遠航都尚未完成，倖存者此後還須繼續面對愛、過錯與照料。"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
